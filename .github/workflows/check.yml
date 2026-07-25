@@ -1,0 +1,81 @@
+name: Check TV schedules
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub queues cron jobs on a best-effort basis and can
+    # delay them under load, so treat this as "roughly half-hourly".
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Parse and report, but send no notifications'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'data/watchlist.json'
+      - 'data/sources.json'
+      - 'scraper/**'
+
+concurrency:
+  group: schedule-check
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run tests
+        # If the parser is broken, a "no films found" result is meaningless.
+        # Fail loudly here rather than silently reporting nothing for weeks.
+        run: node scraper/test/all.mjs
+
+      - name: Check schedules
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node scraper/check.mjs --dry-run --debug
+          else
+            node scraper/check.mjs
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "filmradar[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "data: schedule snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # The cron and a manual run can race; rebase rather than fail.
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin ${{ github.ref_name }} && \
+              git push && exit 0
+              sleep 5
+            done
+            echo "Push failed after 3 attempts" >&2
+            exit 1
+          fi

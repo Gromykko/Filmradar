@@ -1,0 +1,89 @@
+[
+  {
+    "id": "moldova-1",
+    "name": "Moldova 1",
+    "schedule": "https://trm.md/ro/moldova-1",
+    "live": "https://moldova1.md/live",
+    "enabled": true,
+    "tier": "primary",
+    "notes": "TRM public TV. Server-rendered weekly grid — the reliable source. Airs digitised Moldova-Film titles."
+  },
+  {
+    "id": "moldova-2",
+    "name": "Moldova 2",
+    "schedule": "https://trm.md/ro/moldova-2",
+    "live": "https://moldova1.md/moldova2",
+    "enabled": true,
+    "tier": "primary",
+    "notes": "Heaviest archive/culture rotation. A confirmed past airing of Tunul de lemn was announced here (Sâmbătă, ora 12:00, 'Moldova 2 cultural')."
+  },
+  {
+    "id": "trm-cultura",
+    "name": "TRM — știri cultură",
+    "schedule": "https://trm.md/ro/cultura",
+    "live": "https://moldova1.md/live",
+    "enabled": true,
+    "tier": "announcements",
+    "newsOnly": true,
+    "notes": "Not a grid. Scanned for headlines AND for explicit broadcast announcements, which name a channel and exact time — these land before the grid updates."
+  },
+  {
+    "id": "trm-stiri",
+    "name": "TRM — toate știrile",
+    "schedule": "https://trm.md/ro/stiri",
+    "live": "https://moldova1.md/live",
+    "enabled": true,
+    "tier": "announcements",
+    "newsOnly": true,
+    "notes": "Wider net than the culture section — restored-film premieres occasionally get filed under general news."
+  },
+  {
+    "id": "tvr-moldova",
+    "name": "TVR Moldova",
+    "schedule": "https://tvrmoldova.md/program-tv",
+    "live": "https://tvrmoldova.md/live",
+    "enabled": true,
+    "tier": "secondary",
+    "scanAnnouncements": true,
+    "notes": "Romanian public broadcaster's Moldova channel. Runs Romanian and Moldovan heritage cinema. Unverified layout — check the Canale tab after the first run."
+  },
+  {
+    "id": "vocea-basarabiei",
+    "name": "Vocea Basarabiei TV",
+    "schedule": "https://voceabasarabiei.md/program-tv/?tv-channel=tv",
+    "live": "https://voceabasarabiei.md/live-tv/",
+    "enabled": true,
+    "tier": "secondary",
+    "expectEmpty": true,
+    "notes": "Schedule table is JavaScript-loaded and was empty when checked (25 Jul 2026). Kept on at zero cost, flagged expectEmpty so it never cries wolf."
+  },
+  {
+    "id": "diez",
+    "name": "Diez — cultură",
+    "schedule": "https://diez.md/category/cultura/",
+    "live": null,
+    "enabled": true,
+    "tier": "announcements",
+    "newsOnly": true,
+    "notes": "Moldovan press. Republishes Moldova-Film broadcast and screening announcements — a fetchable substitute for the Facebook page, which blocks automation."
+  },
+  {
+    "id": "moldpres-cultura",
+    "name": "Moldpres — cultură",
+    "schedule": "https://www.moldpres.md/rom/cultura",
+    "live": null,
+    "enabled": true,
+    "tier": "announcements",
+    "newsOnly": true,
+    "notes": "State news agency. Carries official Moldova-Film and Ministry of Culture announcements."
+  },
+  {
+    "id": "moldova-international",
+    "name": "TV Moldova Internațional",
+    "schedule": "https://trm.md/ro/tv-moldova-international",
+    "live": "https://moldova1.md/live",
+    "enabled": false,
+    "tier": "secondary",
+    "notes": "Disabled — largely mirrors Moldova 1. Enable if you want the extra coverage."
+  }
+]

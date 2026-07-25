@@ -1,0 +1,32 @@
+{
+  "_generated": "2026-07-25T00:00:00.000Z",
+  "channels": {
+    "moldova-1": {
+      "name": "Moldova 1",
+      "m3u8": null,
+      "resolvedAt": null,
+      "source": "https://moldova1.md/live",
+      "error": "Not yet resolved on this machine — run: node scraper/tools/discover-streams.mjs"
+    },
+    "moldova-2": {
+      "name": "Moldova 2",
+      "m3u8": "https://v0.trm.md/static/streaming-playlists/hls/d5fafab0-9c37-4746-9e7a-b2d6c0427015/master.m3u8",
+      "resolvedAt": "2026-07-25T00:00:00.000Z",
+      "source": "https://moldova1.md/moldova2"
+    },
+    "vocea-basarabiei": {
+      "name": "Vocea Basarabiei TV",
+      "m3u8": null,
+      "resolvedAt": null,
+      "source": "https://voceabasarabiei.md/live-tv/",
+      "error": "Not yet resolved on this machine — run: node scraper/tools/discover-streams.mjs"
+    },
+    "tvr-moldova": {
+      "name": "TVR Moldova",
+      "m3u8": null,
+      "resolvedAt": null,
+      "source": "https://tvrmoldova.md/live",
+      "error": "Not yet resolved on this machine — run: node scraper/tools/discover-streams.mjs"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ro">
+<head><title>TRM - Moldova 1</title></head>
+<body>
+<!--
+  This fixture mirrors what trm.md ACTUALLY returns to a plain HTTP fetch:
+  all seven weekday tab labels, then ONLY the current day's slots. The other
+  six tabs are populated client-side by JavaScript we never execute.
+
+  A naive parser reads the last tab label ("duminică") as a heading and files
+  every slot under Sunday. This fixture exists to make sure that never happens
+  again — the slots below must come out day-less and then be attributed to
+  today via todayInChisinau(), flagged dayAssumed.
+-->
+<div id="program">
+<h3>PROGRAM</h3>
+<ul>
+  <li><a href="#">luni</a></li>
+  <li><a href="#">mar&#355;i</a></li>
+  <li><a href="#">miercuri</a></li>
+  <li><a href="#">joi</a></li>
+  <li><a href="#">vineri</a></li>
+  <li><a href="#">s&#238;mb&#259;t&#259;</a></li>
+  <li><a href="#">duminic&#259;</a></li>
+</ul>
+
+<div><time>06:00 - 07:00</time><h4>Bun&#259; dimine&#539;a</h4></div>
+<div><time>07:00 - 07:05</time><h4>Publicitate</h4></div>
+<div><time>19:00 - 20:00</time><h4>Mesager</h4></div>
+<div><time>20:10 - 21:25</time><h4>F.A. Tunul de lemn</h4></div>
+<div><time>21:25 - 22:00</time><h4>Moldova de patrimoniu</h4></div>
+</div>
+<footer><div>Contacte</div></footer>
+</body>
+</html>

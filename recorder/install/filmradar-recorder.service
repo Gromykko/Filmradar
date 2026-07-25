@@ -1,0 +1,28 @@
+[Unit]
+Description=Filmradar recorder — polls hits.json and captures scheduled broadcasts
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Adjust these three paths for your VPS, then: sudo systemctl daemon-reload
+User=filmradar
+WorkingDirectory=/home/filmradar/tunuldelemn
+ExecStart=/usr/bin/node recorder/record.mjs --watch --ics --notify --outdir /home/filmradar/recordings
+
+# Telegram is optional; leave unset to disable --notify silently.
+Environment=TELEGRAM_BOT_TOKEN=
+Environment=TELEGRAM_CHAT_ID=
+
+Restart=on-failure
+RestartSec=30
+# ffmpeg gets SIGINT and writes a clean mp4 trailer before the unit stops.
+KillSignal=SIGINT
+TimeoutStopSec=30
+
+# Keep it boring and unprivileged.
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

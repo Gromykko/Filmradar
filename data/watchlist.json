@@ -1,0 +1,231 @@
+[
+  {
+    "id": "tunul-de-lemn",
+    "title": "Tunul de lemn",
+    "aliases": ["Tunul de lemn 1986", "The Wooden Cannon", "Деревянная пушка"],
+    "year": 1986,
+    "director": "Vasile Brescanu",
+    "priority": true,
+    "fuzzy": true,
+    "enabled": true,
+    "notes": "Motivul pentru care există acest proiect. Restaurat 2016 cu parteneri din București, nepublicat online."
+  },
+  {
+    "id": "lautarii",
+    "title": "Lăutarii",
+    "aliases": ["Lautarii"],
+    "year": 1971,
+    "director": "Emil Loteanu",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "satra",
+    "title": "Șatra",
+    "aliases": ["Satra", "Șatra. Şalanda albă", "Un șalaș țigănesc se ridică spre cer"],
+    "year": 1976,
+    "director": "Emil Loteanu",
+    "fuzzy": false,
+    "enabled": true,
+    "notes": "fuzzy oprit — titlu scurt, ar da rezultate false"
+  },
+  {
+    "id": "gingasa-si-tandra-mea-fiara",
+    "title": "Gingașa și tandra mea fiară",
+    "aliases": ["Gingasa si tandra mea fiara", "Mea fiară"],
+    "year": 1978,
+    "director": "Emil Loteanu",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "poienile-rosii",
+    "title": "Poienile roșii",
+    "aliases": ["Poienele Rosii", "Poienile rosii"],
+    "year": 1966,
+    "director": "Emil Loteanu",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "omul-merge-dupa-soare",
+    "title": "Omul merge după soare",
+    "aliases": ["Omul merge dupa soare"],
+    "year": 1961,
+    "director": "Mihail Calic",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "maria-mirabela",
+    "title": "Maria Mirabela",
+    "aliases": ["Maria, Mirabela"],
+    "year": 1981,
+    "director": "Ion Popescu-Gopo",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "la-portile-satanei",
+    "title": "La porțile Satanei",
+    "aliases": ["La portile satanei"],
+    "year": 1990,
+    "director": "Vlad Ioviță",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "ultima-luna-de-toamna",
+    "title": "Ultima lună de toamnă",
+    "aliases": ["Ultima luna de toamna"],
+    "year": 1965,
+    "director": "Vadim Derbeniov",
+    "fuzzy": true,
+    "enabled": true,
+    "notes": "scenariul: Ion Druță"
+  },
+  {
+    "id": "se-cauta-un-paznic",
+    "title": "Se caută un paznic",
+    "aliases": ["Se cauta un paznic"],
+    "year": 1967,
+    "director": "Gheorghe Vodă",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "fantana",
+    "title": "Fântâna",
+    "aliases": ["Fantana", "Fîntîna"],
+    "year": 1966,
+    "director": "Vlad Ioviță",
+    "fuzzy": false,
+    "enabled": true,
+    "notes": "fuzzy oprit — cuvânt comun"
+  },
+  {
+    "id": "danila-prepeleac",
+    "title": "Dănilă Prepeleac",
+    "aliases": ["Danila Prepeleac"],
+    "director": "Tudor Tătaru",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "a-iubi",
+    "title": "A iubi",
+    "aliases": ["Любить"],
+    "director": "Mihail Kalik",
+    "fuzzy": false,
+    "enabled": true,
+    "notes": "fuzzy oprit — titlu foarte scurt și cuvânt comun ('a iubi' e un verb uzual), ar da rezultate false frecvente"
+  },
+  {
+    "id": "ar-fi-avut-o-alta-soarta",
+    "title": "Ar fi avut o altă soartă",
+    "aliases": ["Ar fi avut o alta soarta", "Все могло быть иначе"],
+    "year": 1982,
+    "director": "Valeriu Jereghi",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "casa-pentru-serafim",
+    "title": "Casă pentru Serafim",
+    "aliases": ["Casa pentru Serafim"],
+    "fuzzy": true,
+    "enabled": true,
+    "notes": "scenariul: V. Egorov; an și regizor neconfirmate"
+  },
+  {
+    "id": "fii-fericita-iulia",
+    "title": "Fii fericită, Iulia",
+    "aliases": ["Fii fericita, Iulia"],
+    "year": 1983,
+    "director": "Iacob Burghiu",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "rasaritul-zbuciumat",
+    "title": "Răsăritul zbuciumat",
+    "aliases": ["Rasaritul zbuciumat"],
+    "director": "Valeriu Gagiu",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "magia-neagra-sau-intilnire-cu-necuratul",
+    "title": "Magia neagră sau întîlnire cu necuratul",
+    "aliases": ["Magia neagra sau intilnire cu necuratul", "Magia neagră sau întâlnire cu necuratul"],
+    "year": 1990,
+    "director": "Boris Durov",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "cind-rugineste-frunza-n-vii",
+    "title": "Cînd ruginește frunza-n vii",
+    "aliases": ["Cind rugineste frunza-n vii", "Când ruginește frunza-n vii"],
+    "year": 1984,
+    "director": "Vlad Druc",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "lupii-si-zeii",
+    "title": "Lupii și Zeii",
+    "aliases": ["Lupii si Zeii"],
+    "year": 2009,
+    "director": "Sandu Vasilache",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "strada-felinarelor-stinse",
+    "title": "Strada felinarelor stinse",
+    "aliases": [],
+    "year": 1991,
+    "director": "Valeriu Gagiu",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "adio-viata-de-holtei",
+    "title": "Adio viața de holtei",
+    "aliases": ["Adio viata de holtei"],
+    "year": 1989,
+    "director": "Mihai Mihăescu",
+    "fuzzy": true,
+    "enabled": true
+  },
+  {
+    "id": "trece-lebada-pe-apa",
+    "title": "Trece lebăda pe apă",
+    "aliases": ["Trece lebada pe apa", "Lebedele pe eleșteu", "Lebedele pe elesteu"],
+    "year": 1982,
+    "director": "V. Pascaru",
+    "fuzzy": true,
+    "enabled": true,
+    "notes": "un comentator care a jucat în film susține că titlul real e „Lebedele pe eleșteu”"
+  },
+  {
+    "id": "durata-zilei",
+    "title": "Durata zilei",
+    "aliases": [],
+    "year": 1974,
+    "director": "Valeriu Gagiu",
+    "fuzzy": false,
+    "enabled": true,
+    "notes": "fuzzy oprit — titlu scurt, expresie comună, risc mare de fals pozitiv"
+  },
+  {
+    "id": "singur-in-fata-dragostei",
+    "title": "Singur în fața dragostei",
+    "aliases": ["Singur in fata dragostei"],
+    "year": 1969,
+    "director": "Gheorghe Vodă",
+    "fuzzy": true,
+    "enabled": true
+  }
+]

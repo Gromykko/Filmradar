@@ -1,0 +1,1257 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Filmradar — detector de filme în grilele TV din Moldova</title>
+<meta name="description" content="Urmărește grilele TV moldovenești și anunțurile Moldova-Film și primește o alertă când un film de patrimoniu — precum «Tunul de lemn» (1986) — intră în program.">
+<style>
+  :root{
+    --bg:#12110f; --panel:#1a1917; --panel-2:#221f1c; --line:#2f2b27;
+    --ink:#f2efe9; --ink-2:#a9a29a; --ink-3:#6f6960;
+    --accent:#d97757; --accent-dim:#8c4b34;
+    --ok:#6fa86f; --warn:#c9a227; --err:#c25f52;
+    --radius:10px;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#faf9f7; --panel:#fff; --panel-2:#f4f2ee; --line:#e3ded6;
+           --ink:#1f1e1c; --ink-2:#5f5a52; --ink-3:#8c857b; --accent-dim:#e8c4b5; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);
+       -webkit-font-smoothing:antialiased}
+  a{color:var(--accent)}
+  .wrap{max-width:1080px;margin:0 auto;padding:20px 16px 80px}
+
+  header.top{display:flex;flex-wrap:wrap;gap:16px;align-items:baseline;justify-content:space-between;
+             padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:20px}
+  h1{font-size:21px;margin:0;letter-spacing:-.2px}
+  h1 span{color:var(--accent)}
+  .sub{color:var(--ink-2);font-size:13px;margin-top:3px;max-width:52ch}
+  .stamp{font:12px/1.4 var(--mono);color:var(--ink-3);text-align:right}
+  .stamp .rel{color:var(--ink-2)}
+
+  .tabs{display:flex;gap:2px;margin-bottom:20px;border-bottom:1px solid var(--line);flex-wrap:wrap;
+        overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .tab{appearance:none;background:none;border:0;border-bottom:2px solid transparent;
+       color:var(--ink-2);font:600 13px var(--sans);padding:10px 14px;cursor:pointer;margin-bottom:-1px;
+       white-space:nowrap}
+  .tab:hover{color:var(--ink)}
+  .tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+  .tab .badge{display:inline-block;margin-left:6px;background:var(--panel-2);color:var(--ink-2);
+              border-radius:9px;padding:0 6px;font:600 11px var(--mono)}
+  .tab[aria-selected=true] .badge{background:var(--accent);color:#fff}
+  .panel[hidden]{display:none}
+
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+        padding:16px;margin-bottom:12px}
+  .card.hit{border-left:3px solid var(--accent)}
+  .card.maybe{border-left:3px solid var(--ink-3)}
+  .card.ann{border-left:3px solid var(--warn)}
+  .card.urgent{border-color:var(--accent);animation:pulseBorder 2.2s ease-in-out infinite}
+  @keyframes pulseBorder{
+    0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 45%,transparent)}
+    50%{box-shadow:0 0 0 7px color-mix(in srgb,var(--accent) 0%,transparent)}
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  }
+  .card h3{margin:0 0 4px;font-size:16px}
+  .meta{color:var(--ink-2);font-size:13px}
+  .meta code{font:12px var(--mono);color:var(--ink-3)}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}
+
+  .btn{appearance:none;border:1px solid var(--line);background:var(--panel-2);color:var(--ink);
+       border-radius:7px;padding:8px 12px;font:600 13px var(--sans);cursor:pointer;text-decoration:none;
+       display:inline-flex;align-items:center;gap:6px}
+  .btn:hover{border-color:var(--ink-3)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.primary:hover{filter:brightness(1.08)}
+  .btn.ghost{background:none}
+  .btn.sm{padding:5px 9px;font-size:12px}
+  .btn.lg{padding:11px 18px;font-size:15px}
+  .btn.danger:hover{border-color:var(--err);color:var(--err)}
+  .btn:focus-visible,.tab:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{
+    outline:2px solid var(--accent);outline-offset:2px}
+
+  input[type=text],input[type=password],input[type=number],select,textarea{
+    background:var(--bg);border:1px solid var(--line);color:var(--ink);border-radius:7px;
+    padding:9px 11px;font:14px var(--sans);width:100%}
+  input:focus,textarea:focus,select:focus{outline:2px solid var(--accent-dim);outline-offset:-1px;border-color:var(--accent)}
+  textarea{min-height:170px;resize:vertical;font:13px/1.5 var(--mono)}
+  label{display:block;font:600 12px var(--sans);color:var(--ink-2);margin-bottom:5px;
+        text-transform:uppercase;letter-spacing:.4px}
+  .field{margin-bottom:14px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:640px){.grid2{grid-template-columns:1fr}}
+
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th{text-align:left;font:600 11px var(--sans);color:var(--ink-3);text-transform:uppercase;
+     letter-spacing:.5px;padding:8px 10px;border-bottom:1px solid var(--line)}
+  td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  tr.is-hit{background:color-mix(in srgb,var(--accent) 12%,transparent)}
+  tr.is-now{background:color-mix(in srgb,var(--accent) 20%,transparent)}
+  tr.is-maybe td:first-child{box-shadow:inset 2px 0 0 var(--ink-3)}
+  td.t{font:12px var(--mono);color:var(--ink-2);white-space:nowrap}
+  .now-pill{background:var(--accent);color:#fff;padding:1px 7px;border-radius:20px;font:700 10px var(--sans);
+            margin-left:6px;letter-spacing:.3px}
+
+  .tablewrap{overflow-x:auto}
+  @media(max-width:640px){
+    table.responsive thead{display:none}
+    table.responsive, table.responsive tbody, table.responsive tr, table.responsive td{display:block;width:100%}
+    table.responsive tr{border:1px solid var(--line);border-radius:8px;margin:0 0 10px;padding:6px 10px;background:var(--panel)}
+    table.responsive td{display:flex;justify-content:space-between;gap:12px;align-items:center;
+                         border-bottom:1px dashed var(--line);padding:7px 2px;text-align:right}
+    table.responsive td:last-child{border-bottom:0}
+    table.responsive td::before{content:attr(data-label);font:600 11px var(--sans);color:var(--ink-3);
+                                 text-transform:uppercase;letter-spacing:.4px;text-align:left;flex:0 0 auto}
+  }
+
+  .pill{display:inline-block;padding:1px 7px;border-radius:20px;font:600 11px var(--sans);
+        border:1px solid var(--line);color:var(--ink-2)}
+  .pill.on{border-color:var(--ok);color:var(--ok)}
+  .pill.off{border-color:var(--ink-3);color:var(--ink-3)}
+  .pill.warn{border-color:var(--warn);color:var(--warn)}
+  .pill.err{border-color:var(--err);color:var(--err)}
+  .pill.pri{border-color:var(--accent);color:var(--accent)}
+
+  .empty{color:var(--ink-3);text-align:center;padding:40px 20px;font-size:14px}
+  .note{background:var(--panel-2);border-left:3px solid var(--warn);padding:11px 14px;
+        border-radius:0 7px 7px 0;font-size:13px;color:var(--ink-2);margin-bottom:14px}
+  .note.info{border-left-color:var(--accent)}
+  .note strong{color:var(--ink)}
+  h2{font-size:15px;margin:26px 0 10px;letter-spacing:-.1px}
+  h2:first-child{margin-top:0}
+  .hint{font-size:12px;color:var(--ink-3);margin-top:5px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+  .chip{background:var(--panel-2);border:1px solid var(--line);border-radius:20px;
+        padding:2px 9px;font:12px var(--mono);color:var(--ink-2)}
+  .toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(80px);
+         background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:8px;
+         font:600 13px var(--sans);opacity:0;transition:.25s;pointer-events:none;z-index:99;max-width:90vw;text-align:center}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  code.inline{font:12px var(--mono);background:var(--panel-2);padding:1px 5px;border-radius:4px}
+  details{border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;margin-bottom:12px;background:var(--panel)}
+  summary{cursor:pointer;font-weight:600;font-size:14px}
+  details[open] summary{margin-bottom:10px}
+  ol,ul{padding-left:20px} li{margin:5px 0}
+
+  /* ── Acum tab specifics ── */
+  .hero{background:var(--panel);border:1px solid var(--accent-dim);border-radius:calc(var(--radius) + 4px);
+        padding:22px;margin-bottom:18px;position:relative;overflow:hidden}
+  .hero .kicker{font:700 11px var(--sans);letter-spacing:.6px;text-transform:uppercase;color:var(--accent)}
+  .hero h2.title{font-size:24px;margin:6px 0 4px;letter-spacing:-.3px}
+  .hero .cd{font:700 26px/1.2 var(--sans);color:var(--accent);margin:10px 0 2px}
+  .hero .cd.live{color:var(--ok)}
+  .tag{display:inline-block;font:700 10px var(--sans);padding:2px 8px;border-radius:20px;margin-left:6px;
+       letter-spacing:.3px;vertical-align:middle}
+  .tag.grid{background:var(--panel-2);color:var(--ink-2);border:1px solid var(--line)}
+  .tag.ann{background:color-mix(in srgb,var(--warn) 20%,transparent);color:var(--warn);border:1px solid var(--warn)}
+  .tag.assumed{background:none;color:var(--ink-3);border:1px solid var(--ink-3)}
+
+  /* ── watchlist inline editing ── */
+  .alias-input{font-size:12px;padding:6px 8px}
+  .searchrow{display:flex;gap:10px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+  .searchrow input{flex:1;min-width:160px}
+  .count-badge{color:var(--ink-3);font:12px var(--mono);white-space:nowrap}
+
+  /* ── sources ── */
+  .source-stats{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:12px;color:var(--ink-2)}
+  .source-stats b{color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <h1>Film<span>radar</span></h1>
+      <div class="sub">Detector de titluri de patrimoniu în grilele TV din Republica Moldova — inclusiv țintă principală „Tunul de lemn" (1986), dar generic pentru orice film.</div>
+    </div>
+    <div class="stamp" id="stamp">se încarcă…</div>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Secțiuni Filmradar">
+    <button class="tab" role="tab" id="tab-now" aria-controls="p-now" data-panel="now" aria-selected="true" tabindex="0">Acum <span class="badge" id="b-now">0</span></button>
+    <button class="tab" role="tab" id="tab-announce" aria-controls="p-announce" data-panel="announce" aria-selected="false" tabindex="-1">Anunțuri <span class="badge" id="b-ann">0</span></button>
+    <button class="tab" role="tab" id="tab-watchlist" aria-controls="p-watchlist" data-panel="watchlist" aria-selected="false" tabindex="-1">Titluri <span class="badge" id="b-watch">0</span></button>
+    <button class="tab" role="tab" id="tab-grid" aria-controls="p-grid" data-panel="grid" aria-selected="false" tabindex="-1">Grila TV</button>
+    <button class="tab" role="tab" id="tab-sources" aria-controls="p-sources" data-panel="sources" aria-selected="false" tabindex="-1">Canale</button>
+    <button class="tab" role="tab" id="tab-history" aria-controls="p-history" data-panel="history" aria-selected="false" tabindex="-1">Istoric</button>
+    <button class="tab" role="tab" id="tab-setup" aria-controls="p-setup" data-panel="setup" aria-selected="false" tabindex="-1">Configurare</button>
+  </div>
+
+  <!-- ─────────────────────────────────────────────── ACUM -->
+  <section class="panel" id="p-now" role="tabpanel" aria-labelledby="tab-now">
+    <div id="now-body"><div class="empty">Se încarcă datele…</div></div>
+  </section>
+
+  <!-- ─────────────────────────────────────────────── ANUNȚURI -->
+  <section class="panel" id="p-announce" role="tabpanel" aria-labelledby="tab-announce" hidden>
+    <div class="card">
+      <label for="annText">Lipește textul unei postări Moldova-Film</label>
+      <textarea id="annText" placeholder='Sâmbătă, 2 mai: Ora12:00 la TV Moldova 2 cultural, "Tunul de lemn”, film artistic, 1986, regia Vasile Brescanu, scenariul Nicolae Esinenco;'></textarea>
+      <div class="row">
+        <button class="btn primary" id="analyzeBtn">Analizează</button>
+        <button class="btn ghost" id="clearAnnInput">Golește caseta</button>
+      </div>
+      <div class="hint">
+        Facebook nu poate fi verificat automat (necesită autentificare și blochează IP-urile din centre de date),
+        deci pagina Moldova-Film trebuie copiată manual aici. Analiza se face în browser — nimic nu e trimis nicăieri.
+        Recunoaște zi + oră + titlu + an + regizor chiar și cu ghilimele nepotrivite sau „Ora12:00" lipit.
+      </div>
+    </div>
+
+    <div id="ann-results"></div>
+
+    <h2>Anunțuri salvate</h2>
+    <div class="row" style="margin-top:-4px;margin-bottom:10px">
+      <button class="btn sm ghost danger" id="clearAnnStore">Șterge toate anunțurile salvate</button>
+    </div>
+    <div id="ann-body"></div>
+  </section>
+
+  <!-- ─────────────────────────────────────── WATCHLIST -->
+  <section class="panel" id="p-watchlist" role="tabpanel" aria-labelledby="tab-watchlist" hidden>
+    <div class="card">
+      <label for="newTitle">Adaugă un titlu de urmărit</label>
+      <div class="row" style="margin-top:0">
+        <input type="text" id="newTitle" placeholder="ex. Tunul de lemn" style="flex:1;min-width:220px">
+        <button class="btn primary" id="addBtn">Adaugă</button>
+      </div>
+      <div class="hint">
+        Diacriticele nu contează — „Poienile roșii" prinde și „Poienile rosii". Adaugă alias-uri pentru titlul rusesc sau englez
+        direct din tabel, mai jos (separate prin virgulă).
+      </div>
+    </div>
+
+    <div class="note info">
+      Modificările se salvează în acest browser imediat. Ca <strong>robotul</strong> să le vadă,
+      apasă <strong>Exportă</strong> și pune conținutul în <code class="inline">data/watchlist.json</code>
+      din repo — sau configurează sincronizarea GitHub în tabul Configurare.
+    </div>
+
+    <div class="searchrow">
+      <input type="text" id="watchSearch" placeholder="caută titlu, alias sau regizor…">
+      <span class="count-badge" id="watchCount">0 titluri</span>
+    </div>
+    <div class="hint" style="margin-top:-6px;margin-bottom:12px">
+      Coloana <strong>Aprox.</strong> = potrivire aproximativă: tolerează o greșeală de tipar în cuvinte lungi.
+      Dezactiveaz-o pentru titluri scurte sau cuvinte comune (ex. „Fântâna", „A iubi") ca să eviți potriviri false.
+    </div>
+
+    <div id="watch-body"></div>
+
+    <div class="row">
+      <button class="btn" id="exportBtn">Exportă JSON</button>
+      <button class="btn" id="importBtn">Importă JSON</button>
+      <button class="btn" id="syncBtn">Sincronizează pe GitHub</button>
+      <button class="btn ghost" id="resetBtn">Reîncarcă din repo</button>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────────────────────── GRILA -->
+  <section class="panel" id="p-grid" role="tabpanel" aria-labelledby="tab-grid" hidden>
+    <div class="row" style="margin-bottom:14px">
+      <select id="chanFilter" style="max-width:230px"></select>
+      <select id="dayFilter" style="max-width:180px"></select>
+      <input type="text" id="gridSearch" placeholder="caută în grilă…" style="flex:1;min-width:160px">
+      <label style="display:flex;align-items:center;gap:6px;text-transform:none;letter-spacing:0;margin:0;font-weight:400;color:var(--ink-2);font-size:13px">
+        <input type="checkbox" id="hideFiller" checked style="width:auto"> ascunde publicitatea
+      </label>
+    </div>
+    <div id="grid-body"></div>
+  </section>
+
+  <!-- ─────────────────────────────────────────── CANALE -->
+  <section class="panel" id="p-sources" role="tabpanel" aria-labelledby="tab-sources" hidden>
+    <div class="note info">
+      Ce canale sunt verificate. Editează <code class="inline">data/sources.json</code> ca să adaugi altele —
+      parserul nu depinde de structura paginii, ci de tiparul <code class="inline">HH:MM - HH:MM</code>
+      urmat de titlu, deci funcționează pe majoritatea grilelor. Sursele marcate <code class="inline">expectEmpty</code>
+      își încarcă grila prin JavaScript în pagina lor originală și apar goale aici legitim — nu sunt o eroare.
+    </div>
+    <div id="sources-body"></div>
+  </section>
+
+  <!-- ────────────────────────────────────────── ISTORIC -->
+  <section class="panel" id="p-history" role="tabpanel" aria-labelledby="tab-history" hidden>
+    <div id="history-body"></div>
+  </section>
+
+  <!-- ──────────────────────────────────────── CONFIGURARE -->
+  <section class="panel" id="p-setup" role="tabpanel" aria-labelledby="tab-setup" hidden>
+    <h2>1 · Notificări</h2>
+    <div class="card">
+      <p class="meta" style="margin-top:0">
+        Cheile se pun ca <strong>GitHub Secrets</strong> (Settings → Secrets and variables → Actions),
+        nu în acest browser. Robotul le citește când rulează.
+      </p>
+      <div class="grid2">
+        <div>
+          <h3 style="font-size:14px">Telegram</h3>
+          <ol style="font-size:13px;color:var(--ink-2)">
+            <li>Scrie-i lui <a href="https://t.me/BotFather" target="_blank" rel="noopener">@BotFather</a> → <code class="inline">/newbot</code></li>
+            <li>Copiază tokenul → secret <code class="inline">TELEGRAM_BOT_TOKEN</code></li>
+            <li>Scrie-i botului tău un mesaj oarecare</li>
+            <li>Deschide <code class="inline">api.telegram.org/bot&lt;TOKEN&gt;/getUpdates</code>, ia <code class="inline">chat.id</code> → secret <code class="inline">TELEGRAM_CHAT_ID</code></li>
+          </ol>
+        </div>
+        <div>
+          <h3 style="font-size:14px">E-mail</h3>
+          <ol style="font-size:13px;color:var(--ink-2)">
+            <li>Cont gratuit pe <a href="https://resend.com" target="_blank" rel="noopener">resend.com</a></li>
+            <li>Cheia API → secret <code class="inline">RESEND_API_KEY</code></li>
+            <li>Adresa ta → secret <code class="inline">MAIL_TO</code></li>
+          </ol>
+          <p class="hint">Alternativ SMTP: <code class="inline">SMTP_HOST</code>, <code class="inline">SMTP_PORT</code>, <code class="inline">SMTP_USER</code>, <code class="inline">SMTP_PASS</code>.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>2 · Sincronizare watchlist (opțional)</h2>
+    <div class="card">
+      <p class="meta" style="margin-top:0">
+        Ca să poți adăuga titluri din această pagină fără să editezi repo-ul manual, lipește un
+        <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">fine-grained token</a>
+        cu permisiunea <em>Contents: Read and write</em> doar pe acest repo.
+      </p>
+      <div class="note">
+        Tokenul rămâne <strong>doar în acest browser</strong> (localStorage). Nu e trimis nicăieri în afară de
+        api.github.com. Pe un calculator partajat, mai bine sari peste acest pas și folosești Exportă.
+      </div>
+      <div class="grid2">
+        <div class="field"><label for="ghRepo">Repo</label>
+          <input type="text" id="ghRepo" placeholder="utilizator/tunuldelemn"></div>
+        <div class="field"><label for="ghBranch">Branch</label>
+          <input type="text" id="ghBranch" placeholder="main"></div>
+      </div>
+      <div class="field"><label for="ghToken">Token</label>
+        <input type="password" id="ghToken" placeholder="github_pat_…"></div>
+      <div class="row">
+        <button class="btn primary" id="saveCfg">Salvează</button>
+        <button class="btn" id="testCfg">Testează conexiunea</button>
+        <button class="btn ghost danger" id="clearCfg">Șterge tokenul</button>
+      </div>
+    </div>
+
+    <h2>3 · Faza următoare — înregistrare automată</h2>
+    <details>
+      <summary>Deschide VLC și înregistrează filmul la ora difuzării</summary>
+      <p class="meta">
+        Repo-ul conține <code class="inline">recorder/record.mjs</code>: citește <code class="inline">data/hits.json</code>,
+        așteaptă ora de start și pornește <code class="inline">ffmpeg</code> pe fluxul HLS al canalului,
+        opțional deschizând și VLC ca să vezi în direct.
+      </p>
+      <p class="meta">Pe PC sau VPS:</p>
+      <pre style="background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:11px;overflow:auto;font:12px var(--mono)">git clone &lt;repo&gt; &amp;&amp; cd tunuldelemn
+node recorder/record.mjs --watch --outdir ~/inregistrari</pre>
+      <p class="hint">
+        Fluxul HLS trebuie configurat o dată per canal în <code class="inline">recorder/streams.json</code> —
+        instrucțiuni de găsire în README. Înregistrarea e pentru uz personal (time-shifting)
+        dintr-o emisie liberă, neconditionată.
+      </p>
+    </details>
+  </section>
+
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ══════════════════════════════════════════════════════════ state */
+const LS = { cfg:'filmradar.cfg', wl:'filmradar.watchlist', ann:'filmradar.announcements' };
+const LS_OLD = { cfg:'tunulwatch.cfg', wl:'tunulwatch.watchlist' }; // migration from the previous name
+let DATA = { schedule:null, hits:null, watchlist:[], sources:[], announcements:[] };
+let repoWatchlist = [];
+
+const $  = (s)=>document.querySelector(s);
+const $$ = (s)=>[...document.querySelectorAll(s)];
+const esc = (s)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function toast(msg){
+  const t=$('#toast'); t.textContent=msg; t.classList.add('show');
+  clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),2600);
+}
+const cfg = {
+  get(){ try{return JSON.parse(localStorage.getItem(LS.cfg))||{}}catch{return {}} },
+  set(v){ localStorage.setItem(LS.cfg, JSON.stringify(v)); }
+};
+
+/* one-time migration from the old "Tunul Watch" localStorage keys */
+(function migrate(){
+  try{
+    if(!localStorage.getItem(LS.cfg) && localStorage.getItem(LS_OLD.cfg)) {
+      localStorage.setItem(LS.cfg, localStorage.getItem(LS_OLD.cfg));
+    }
+    if(!localStorage.getItem(LS.wl) && localStorage.getItem(LS_OLD.wl)) {
+      localStorage.setItem(LS.wl, localStorage.getItem(LS_OLD.wl));
+    }
+  }catch{}
+})();
+
+/* ══════════════════════════════════════════════════════════ Romanian text folding
+   Ported from scraper/lib/normalize.mjs — keep in sync with that file. */
+const DIACRITICS = {
+  'ă':'a','â':'a','á':'a','à':'a','ä':'a','å':'a','ã':'a',
+  'î':'i','í':'i','ì':'i','ï':'i',
+  'ș':'s','ş':'s',
+  'ț':'t','ţ':'t',
+  'é':'e','è':'e','ê':'e','ë':'e',
+  'ó':'o','ò':'o','ö':'o','ô':'o','õ':'o',
+  'ú':'u','ù':'u','ü':'u','û':'u',
+  'ç':'c','ñ':'n','ý':'y',
+};
+function fold(input){
+  if(!input) return '';
+  let s = String(input).toLowerCase();
+  s = s.normalize('NFD').replace(/[̀-ͯ]/g,'');
+  s = s.replace(/[^\x00-\x7f]/g, ch => DIACRITICS[ch] ?? DIACRITICS[ch.normalize('NFC')] ?? ' ');
+  s = s.replace(/[„”“"«»''`]/g,' ').replace(/[–—−]/g,'-');
+  s = s.replace(/[^a-z0-9 ]+/g,' ');
+  return s.replace(/\s+/g,' ').trim();
+}
+function tokens(input){ const f=fold(input); return f? f.split(' ') : []; }
+const STOPWORDS = new Set(['de','din','la','cu','si','in','pe','un','o','al','a','ale','lui','ei','sa','sau','ce','ca','pentru','the','and','of']);
+function contentTokens(input){
+  const all = tokens(input);
+  const kept = all.filter(t=>!STOPWORDS.has(t) && t.length>1);
+  return kept.length ? kept : all;
+}
+function slugify(s){
+  const f = fold(s);
+  return f.replace(/ /g,'-').replace(/^-|-$/g,'') || 'titlu';
+}
+
+/* ══════════════════════════════════════════════════════════ Europe/Chisinau time engine
+   No dependency on the browser's local timezone: everything derives real epoch
+   instants from Chișinău wall-clock fields via Intl.DateTimeFormat, so this is
+   correct regardless of where the visitor's device thinks it lives. */
+const TZ = 'Europe/Chisinau';
+const tzFmt = new Intl.DateTimeFormat('en-US', {
+  timeZone: TZ, year:'numeric', month:'2-digit', day:'2-digit',
+  hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false,
+});
+function chisinauPartsAt(epochMs){
+  const parts = tzFmt.formatToParts(new Date(epochMs));
+  const o = {};
+  for(const p of parts) if(p.type!=='literal') o[p.type]=p.value;
+  let hh = +o.hour; if(hh===24) hh=0; // some engines emit "24" for midnight
+  return { y:+o.year, mo:+o.month, d:+o.day, hh, mm:+o.minute, ss:+o.second };
+}
+/** Real epoch instant (ms) for a given Chișinău wall-clock date/time. */
+function wallToEpoch(y,mo,d,hh,mm,ss=0){
+  let guess = Date.UTC(y,mo-1,d,hh,mm,ss);
+  for(let i=0;i<2;i++){
+    const got = chisinauPartsAt(guess);
+    const wantUTC = Date.UTC(y,mo-1,d,hh,mm,ss);
+    const gotUTC = Date.UTC(got.y,got.mo-1,got.d,got.hh,got.mm,got.ss);
+    guess += (wantUTC - gotUTC);
+  }
+  return guess;
+}
+function isoWeekdayFromYMD(y,mo,d){
+  const dow = new Date(Date.UTC(y,mo-1,d)).getUTCDay(); // 0=Sun..6=Sat
+  return dow===0 ? 7 : dow;
+}
+/** Next real occurrence of ISO weekday `isoDay` at "HH:MM" Chișinău time, strictly in the future (or now-ish). */
+function nextWeekdayOccurrence(isoDay, hhmm, { fromEpoch = Date.now() } = {}){
+  if(!isoDay || !hhmm) return null;
+  const [hh,mm] = hhmm.split(':').map(Number);
+  const now = chisinauPartsAt(fromEpoch);
+  const todayIso = isoWeekdayFromYMD(now.y, now.mo, now.d);
+  let delta = (isoDay - todayIso + 7) % 7;
+  const base = new Date(Date.UTC(now.y, now.mo-1, now.d));
+  base.setUTCDate(base.getUTCDate() + delta);
+  let epoch = wallToEpoch(base.getUTCFullYear(), base.getUTCMonth()+1, base.getUTCDate(), hh, mm, 0);
+  if(delta===0 && epoch <= fromEpoch - 60000){ // already passed today by more than a minute — roll a week
+    base.setUTCDate(base.getUTCDate()+7);
+    epoch = wallToEpoch(base.getUTCFullYear(), base.getUTCMonth()+1, base.getUTCDate(), hh, mm, 0);
+  }
+  return epoch;
+}
+function minutesOfDay(hhmm){
+  if(!hhmm) return null;
+  const [h,m] = hhmm.split(':').map(Number);
+  return h*60+m;
+}
+/** End epoch for a grid slot given its start epoch and "start"/"end" HH:MM strings. */
+function endEpochFor(startEpoch, start, end){
+  if(!end) return startEpoch + 2*3600*1000; // unknown duration — assume 2h
+  let diff = minutesOfDay(end) - minutesOfDay(start);
+  if(diff <= 0) diff += 24*60; // crosses midnight
+  return startEpoch + diff*60000;
+}
+function nowHHMM(){
+  const p = chisinauPartsAt(Date.now());
+  return `${String(p.hh).padStart(2,'0')}:${String(p.mm).padStart(2,'0')}`;
+}
+
+/** Relative "acum X minute" phrasing for the freshness indicator. */
+function relTime(iso){
+  if(!iso) return '';
+  const ms = Date.now() - Date.parse(iso);
+  if(!Number.isFinite(ms) || ms<0) return '';
+  const min = Math.round(ms/60000);
+  if(min < 1) return 'chiar acum';
+  if(min < 60) return `acum ${min} min`;
+  const h = Math.round(min/60);
+  if(h < 24) return `acum ${h} ${h===1?'oră':'ore'}`;
+  const d = Math.round(h/24);
+  return `acum ${d} ${d===1?'zi':'zile'}`;
+}
+
+/** Human countdown phrase + urgency/liveness flags for a start/end epoch pair. */
+function describeCountdown(startEpoch, endEpoch){
+  const now = Date.now();
+  if(startEpoch==null) return { text:'oră necunoscută', urgent:false, live:false, ended:false };
+  if(now < startEpoch){
+    const diff = startEpoch - now;
+    const totalMin = Math.max(1, Math.round(diff/60000));
+    const h = Math.floor(totalMin/60), m = totalMin%60;
+    const text = h>0 ? `începe peste ${h}h ${m}m` : `începe peste ${m} min`;
+    return { text, urgent: diff <= 2*3600*1000, live:false, ended:false };
+  }
+  if(endEpoch==null || now <= endEpoch){
+    return { text:'pe post acum', urgent:true, live:true, ended:false };
+  }
+  return { text:'difuzare încheiată', urgent:false, live:false, ended:true };
+}
+
+/* ══════════════════════════════════════════════════════════ data loading */
+async function getJSON(name){
+  for(const prefix of ['./data/','../data/']){
+    try{
+      const r = await fetch(prefix+name+'?t='+Date.now());
+      if(r.ok) return await r.json();
+    }catch{ /* try next prefix */ }
+  }
+  return null;
+}
+
+async function load(){
+  const [sched,hits,wl,src] = await Promise.all([
+    getJSON('schedule.json'), getJSON('hits.json'),
+    getJSON('watchlist.json'), getJSON('sources.json'),
+  ]);
+  DATA.schedule = sched; DATA.hits = hits; DATA.sources = src || [];
+  repoWatchlist = wl || [];
+
+  let local=null; try{ local = JSON.parse(localStorage.getItem(LS.wl)); }catch{}
+  DATA.watchlist = Array.isArray(local) && local.length ? local : repoWatchlist;
+
+  loadAnnouncements();
+  updateStamp();
+  renderAll();
+}
+
+function updateStamp(){
+  const el = $('#stamp');
+  if(!DATA.schedule){
+    el.innerHTML = 'fără date încă';
+    return;
+  }
+  const iso = DATA.schedule.updatedAt;
+  el.innerHTML = `<span class="rel">${esc(relTime(iso))}</span><br>${esc(DATA.schedule.updatedAtLocal||'')}`;
+}
+
+/* ══════════════════════════════════════════════════════════ announcement parser
+   Ported from scraper/lib/announce.mjs — keep in sync with that file. Facebook
+   cannot be scraped (login wall + datacenter-IP blocking), so this runs in the
+   browser against text the user pastes in. */
+const DAY_NAMES_RO = { 1:'luni', 2:'marți', 3:'miercuri', 4:'joi', 5:'vineri', 6:'sâmbătă', 7:'duminică' };
+const WEEKDAY_VARIANTS = [
+  [1, ['luni']],
+  [2, ['marți','marţi','marti']],
+  [3, ['miercuri']],
+  [4, ['joi']],
+  [5, ['vineri']],
+  [6, ['sâmbătă','sîmbătă','sambata','sâmbata','sîmbata','sambăta']],
+  [7, ['duminică','duminica']],
+];
+const WEEKDAY_LOOKUP = new Map();
+const ALL_WEEKDAY_SPELLINGS = [];
+for(const [num,names] of WEEKDAY_VARIANTS){
+  for(const n of names){ WEEKDAY_LOOKUP.set(n,num); ALL_WEEKDAY_SPELLINGS.push(n); }
+}
+ALL_WEEKDAY_SPELLINGS.sort((a,b)=>b.length-a.length);
+const MONTHS_RO = ['ianuarie','februarie','martie','aprilie','mai','iunie','iulie','august','septembrie','octombrie','noiembrie','decembrie'];
+const ISO_BY_DAY_NAME = new Map(Object.entries(DAY_NAMES_RO).map(([num,name])=>[name,Number(num)]));
+
+const CHANNEL_ALIASES = {
+  'TV Moldova 2 cultural':'moldova-2',
+  'Moldova 2 cultural':'moldova-2',
+  'TV Moldova 2':'moldova-2',
+  'Moldova 2':'moldova-2',
+  'Moldova2':'moldova-2',
+  'TV Moldova 1':'moldova-1',
+  'Moldova 1':'moldova-1',
+  'Moldova1':'moldova-1',
+};
+function padNum(n){ return String(n).padStart(2,'0'); }
+function detectChannel(chunk){
+  const folded = fold(chunk);
+  if(!folded) return null;
+  const entries = Object.entries(CHANNEL_ALIASES).sort((a,b)=>fold(b[0]).length-fold(a[0]).length);
+  for(const [alias,id] of entries){
+    const fa = fold(alias);
+    if(fa && folded.includes(fa)) return id;
+  }
+  return null;
+}
+const TITLE_RE = /[„"“]([^„"“”]+)[”"]/;
+const TIME_ORA_RE = /\bora\s*(\d{1,2})[:.](\d{2})/i;
+const TIME_LA_RE = /\bla\s+(\d{1,2}):(\d{2})/i;
+const YEAR_RE = /\b(19[3-9]\d|20[0-2]\d)\b/;
+const DIRECTOR_RE = /(?:regizat\s+de|regizor\w*|regia|regie)\s+([^,;.\n]+)/i;
+
+function parseChunk(chunk){
+  let time = null;
+  const oraMatch = chunk.match(TIME_ORA_RE);
+  if(oraMatch){
+    time = `${padNum(+oraMatch[1])}:${oraMatch[2]}`;
+  } else {
+    const laMatch = chunk.match(TIME_LA_RE);
+    if(laMatch) time = `${padNum(+laMatch[1])}:${laMatch[2]}`;
+  }
+  const channel = detectChannel(chunk);
+  const titleMatch = chunk.match(TITLE_RE);
+  const title = titleMatch ? titleMatch[1].trim() : null;
+  const yearMatch = chunk.match(YEAR_RE);
+  const year = yearMatch ? parseInt(yearMatch[1],10) : null;
+  const dirMatch = chunk.match(DIRECTOR_RE);
+  const director = dirMatch ? dirMatch[1].trim() : null;
+  return { time, channel, title, year, director };
+}
+
+function parseAnnouncements(text){
+  if(!text || typeof text !== 'string') return [];
+  const lower = text.toLowerCase();
+  const weekdayAlt = ALL_WEEKDAY_SPELLINGS.join('|');
+  const monthAlt = MONTHS_RO.join('|');
+  const headerRe = new RegExp(`(${weekdayAlt})\\s*,?\\s*(\\d{1,2})\\s+(${monthAlt})`, 'g');
+  const matches = [...lower.matchAll(headerRe)];
+  if(!matches.length) return [];
+
+  const results = [];
+  for(let i=0;i<matches.length;i++){
+    const m = matches[i];
+    const start = m.index;
+    const end = i+1<matches.length ? matches[i+1].index : text.length;
+    const chunk = text.slice(start,end).trim();
+    if(!chunk) continue;
+    const isoDay = WEEKDAY_LOOKUP.get(m[1]);
+    if(isoDay==null) continue;
+    const dayOfMonth = parseInt(m[2],10);
+    const month = m[3];
+    const { time, channel, title, year, director } = parseChunk(chunk);
+    results.push({
+      title, channel, time,
+      dayName: DAY_NAMES_RO[isoDay],
+      dayOfMonth, month, year, director,
+      kind: channel ? 'tv' : 'screening',
+      raw: chunk,
+    });
+  }
+  return results;
+}
+
+/** Real-world next occurrence for a specific-calendar-date announcement (not a weekly recurrence). */
+function announcementEpoch(a){
+  if(!a.time || !a.dayOfMonth || !a.month) return null;
+  const monthIdx = MONTHS_RO.indexOf(a.month);
+  if(monthIdx<0) return null;
+  const [hh,mm] = a.time.split(':').map(Number);
+  const nowY = chisinauPartsAt(Date.now()).y;
+  let epoch = wallToEpoch(nowY, monthIdx+1, a.dayOfMonth, hh, mm, 0);
+  if(epoch < Date.now() - 2*86400000){
+    epoch = wallToEpoch(nowY+1, monthIdx+1, a.dayOfMonth, hh, mm, 0);
+  }
+  return epoch;
+}
+
+/* ── announcement persistence ── */
+function annKey(a){
+  return `${fold(a.title)}|${a.channel}|${a.time}|${a.dayOfMonth}|${a.month}`;
+}
+function loadAnnouncements(){
+  try{
+    const raw = JSON.parse(localStorage.getItem(LS.ann));
+    DATA.announcements = Array.isArray(raw) ? raw : [];
+  }catch{ DATA.announcements = []; }
+}
+function saveAnnouncements(){ localStorage.setItem(LS.ann, JSON.stringify(DATA.announcements)); }
+
+function channelDisplay(id){
+  const s = (DATA.sources||[]).find(s=>s.id===id);
+  if(s) return s;
+  if(id==='moldova-1') return { id, name:'Moldova 1', live:'https://moldova1.md/live', schedule:'https://trm.md/ro/moldova-1' };
+  if(id==='moldova-2') return { id, name:'Moldova 2', live:'https://moldova1.md/moldova2', schedule:'https://trm.md/ro/moldova-2' };
+  return { id: id||'necunoscut', name: id || 'Canal necunoscut', live:'', schedule:'' };
+}
+
+/* ══════════════════════════════════════════════════════════ render */
+function renderAll(){
+  renderNow(); renderAnnounce(); renderWatchlist(); renderGrid(); renderSources(); renderHistory();
+}
+
+function whenStr(x){
+  const d = x.dayName ? x.dayName.charAt(0).toUpperCase()+x.dayName.slice(1) : '';
+  const t = x.start ? (x.end ? `${x.start}–${x.end}` : x.start) : '';
+  return [d,t].filter(Boolean).join(' ') || '—';
+}
+
+function renderNow(){
+  const hits = DATA.hits?.current || [];
+  const maybes = DATA.hits?.maybes || [];
+  const el = $('#now-body');
+
+  if(!DATA.schedule && !DATA.hits){
+    $('#b-now').textContent = '0';
+    el.innerHTML = `<div class="empty">
+      Încă nu există date de grilă.<br><br>
+      Rulează workflow-ul <strong>Check TV schedules</strong> din tabul Actions al repo-ului,
+      sau local: <code class="inline">npm run check</code>.</div>`;
+    return;
+  }
+
+  // Real grid hits, annotated with real-time occurrence epochs.
+  const gridItems = hits.map(h=>{
+    const startEpoch = (h.day && h.start) ? nextWeekdayOccurrence(h.day, h.start) : null;
+    const endEpoch = startEpoch!=null ? endEpochFor(startEpoch, h.start, h.end) : null;
+    return { kind:'grid', h, startEpoch, endEpoch };
+  });
+
+  // Future announcement-derived items (parsed from pasted Facebook posts).
+  const annItems = (DATA.announcements||[])
+    .filter(a=>a.time)
+    .map(a=>{
+      const startEpoch = announcementEpoch(a);
+      return { kind:'ann', a, startEpoch, endEpoch: startEpoch!=null ? startEpoch + 2*3600*1000 : null };
+    })
+    .filter(x=>x.startEpoch!=null && x.startEpoch > Date.now() - 3*3600*1000); // drop long-past ones
+
+  const all = [...gridItems, ...annItems];
+  $('#b-now').textContent = hits.length + annItems.length;
+
+  // Partition: live-now / upcoming first (soonest first), ended pushed to bottom.
+  const active = [], ended = [];
+  for(const it of all){
+    const d = describeCountdown(it.startEpoch, it.endEpoch);
+    it._desc = d;
+    (d.ended ? ended : active).push(it);
+  }
+  active.sort((a,b)=>{
+    if(a._desc.live !== b._desc.live) return a._desc.live ? -1 : 1;
+    return (a.startEpoch ?? Infinity) - (b.startEpoch ?? Infinity);
+  });
+  ended.sort((a,b)=>(b.startEpoch ?? 0)-(a.startEpoch ?? 0));
+
+  let html = '';
+  const broken = (DATA.schedule?.channels||[]).filter(c=>!c.ok);
+  if(broken.length){
+    html += `<div class="note"><strong>${broken.length} canal(e) nu au putut fi citite:</strong>
+      ${broken.map(c=>esc(c.name)).join(', ')}. Restul au fost verificate normal.</div>`;
+  }
+
+  function cardFor(it, isHero){
+    const isAnn = it.kind==='ann';
+    const title = isAnn ? it.a.title : it.h.watched;
+    const channelName = isAnn ? channelDisplay(it.a.channel).name : it.h.channel;
+    const liveUrl = isAnn ? channelDisplay(it.a.channel).live : it.h.live;
+    const scheduleUrl = isAnn ? channelDisplay(it.a.channel).schedule : it.h.schedule;
+    const when = isAnn
+      ? `${it.a.dayName?.charAt(0).toUpperCase()+it.a.dayName?.slice(1)||''} ${it.a.dayOfMonth} ${it.a.month}, ora ${it.a.time}`
+      : whenStr(it.h);
+    const dayAssumed = !isAnn && it.h.dayAssumed === true;
+    const tag = isAnn ? `<span class="tag ann">din anunț</span>` : `<span class="tag grid">din grila TV</span>`;
+    const assumedTag = dayAssumed ? `<span class="tag assumed">zi presupusă</span>` : '';
+    const cdClass = it._desc.live ? 'cd live' : 'cd';
+    const cardClasses = ['card','hit', it._desc.urgent && !it._desc.ended ? 'urgent' : ''].filter(Boolean).join(' ');
+    const startAttr = it.startEpoch!=null ? ` data-start="${it.startEpoch}"` : '';
+    const endAttr = it.endEpoch!=null ? ` data-end="${it.endEpoch}"` : '';
+
+    if(isHero){
+      return `<div class="hero"${startAttr}${endAttr}>
+        <div class="kicker">Detectat acum ${tag}${assumedTag}</div>
+        <h2 class="title">${esc(title)}</h2>
+        <div class="meta"><strong>${esc(channelName)}</strong> · ${esc(when)}
+          ${!isAnn && it.h.confidence!=null?`<span class="pill pri" style="margin-left:6px">${it.h.confidence}</span>`:''}</div>
+        ${!isAnn?`<div class="meta" style="margin-top:2px">listat ca: <code>${esc(it.h.slotTitle)}</code></div>`:
+                  `<div class="meta" style="margin-top:2px">${[it.a.year,it.a.director].filter(Boolean).map(esc).join(' · ')}</div>`}
+        <div class="${cdClass} countdown-text">${esc(it._desc.text)}</div>
+        <div class="row">
+          ${liveUrl?`<a class="btn primary lg" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Urmărește live</a>`:''}
+          ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
+          <button class="btn sm" data-ics='${esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}))}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
+        </div>
+      </div>`;
+    }
+
+    return `<div class="${cardClasses}"${startAttr}${endAttr}>
+      <h3>${esc(title)} ${tag}${assumedTag}</h3>
+      <div class="meta">
+        <strong>${esc(channelName)}</strong> · ${esc(when)}
+        ${!isAnn && it.h.confidence!=null?`<span class="pill pri" style="margin-left:6px">${it.h.confidence}</span>`:''}
+      </div>
+      ${!isAnn?`<div class="meta" style="margin-top:4px">listat ca: <code>${esc(it.h.slotTitle)}</code></div>`:
+                `<div class="meta" style="margin-top:4px">${[it.a.year,it.a.director].filter(Boolean).map(esc).join(' · ')}</div>`}
+      <div class="meta countdown-text" style="margin-top:6px;font-weight:600;color:${it._desc.live?'var(--ok)':'var(--accent)'}">${esc(it._desc.text)}</div>
+      <div class="row">
+        ${liveUrl?`<a class="btn primary" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Live</a>`:''}
+        ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
+        <button class="btn sm" data-ics='${esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}))}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
+      </div>
+    </div>`;
+  }
+
+  if(active.length){
+    html += cardFor(active[0], true);
+    if(active.length>1){
+      html += `<h2>Alte detectări (${active.length-1})</h2>` + active.slice(1).map(it=>cardFor(it,false)).join('');
+    }
+  } else {
+    const watchedCount = DATA.watchlist.filter(w=>w.enabled!==false).length;
+    html += `<div class="card"><h3 style="color:var(--ink-2)">Niciun titlu urmărit în grila curentă</h3>
+      <div class="meta">Ultima verificare: ${esc(relTime(DATA.schedule?.updatedAt) || DATA.schedule?.updatedAtLocal || 'necunoscută')}
+      · ${watchedCount} titluri urmărite activ. Robotul continuă să verifice automat la fiecare rulare.</div></div>`;
+  }
+
+  if(ended.length){
+    html += `<details><summary>Difuzări trecute din această verificare (${ended.length})</summary>` +
+      ended.map(it=>cardFor(it,false)).join('') + `</details>`;
+  }
+
+  if(maybes.length){
+    html += `<h2>Posibile — rubrici fără titlu (${maybes.length})</h2>
+      <div class="note">Grilele TV moldovenești ascund adesea filme de arhivă sub un nume de rubrică generic
+      (F.A., Tezaur, Moldova de patrimoniu) fără a numi filmul — deci un titlu urmărit poate sta chiar aici,
+      nedetectabil prin potrivire de text. Merită verificat manual.</div>`;
+    html += maybes.slice(0,25).map(m=>`
+      <div class="card maybe">
+        <h3 style="font-size:15px">${esc(m.slotTitle)}</h3>
+        <div class="meta">${esc(m.channel)} · ${esc(whenStr(m))} · <span class="pill">${esc(m.rubric||'')}</span></div>
+        <div class="row"><a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a></div>
+      </div>`).join('');
+  }
+
+  el.innerHTML = html;
+
+  $$('[data-ics]').forEach(b=>b.onclick=()=>{
+    const meta = JSON.parse(b.dataset.ics);
+    const startEpoch = b.dataset.icsEpoch ? +b.dataset.icsEpoch : null;
+    const endEpoch = b.dataset.icsEnd ? +b.dataset.icsEnd : null;
+    downloadICS({ ...meta, startEpoch, endEpoch });
+  });
+}
+
+/* ── countdown ticking: update text/urgency in place every 30s, no re-render ── */
+function tick(){
+  $$('[data-start]').forEach(el=>{
+    const startEpoch = +el.dataset.start;
+    const endEpoch = el.dataset.end ? +el.dataset.end : null;
+    const d = describeCountdown(startEpoch, endEpoch);
+    const txt = el.querySelector('.countdown-text');
+    if(txt) txt.textContent = d.text;
+    el.classList.toggle('urgent', d.urgent && !d.ended);
+  });
+}
+
+/* ══════════════════════════════════════════════════════════ Anunțuri tab */
+let lastParsed = [];
+
+function renderAnnounce(){
+  $('#b-ann').textContent = (DATA.announcements||[]).length;
+  const body = $('#ann-body');
+  if(!DATA.announcements.length){
+    body.innerHTML = `<div class="empty">Niciun anunț analizat încă. Lipește un text mai sus și apasă „Analizează".</div>`;
+  } else {
+    body.innerHTML = DATA.announcements.map((a,i)=>annCard(a,i,false)).join('');
+    wireAnnCards('#ann-body');
+  }
+}
+
+function annCard(a, idx, isPreview){
+  const epoch = announcementEpoch(a);
+  const future = epoch!=null && epoch > Date.now();
+  const when = `${(a.dayName||'').charAt(0).toUpperCase()+(a.dayName||'').slice(1)} ${a.dayOfMonth??'?'} ${a.month??''}`;
+  const ch = a.channel ? channelDisplay(a.channel).name : null;
+  return `<div class="card ann">
+    <h3>${esc(a.title || '(titlu nedetectat)')} <span class="tag ${a.kind==='tv'?'grid':'ann'}">${a.kind==='tv'?'TV':'proiecție'}</span></h3>
+    <div class="meta">${ch?`<strong>${esc(ch)}</strong> · `:''}${esc(when)}${a.time?`, ora ${esc(a.time)}`:''}</div>
+    <div class="meta" style="margin-top:2px">${[a.year,a.director].filter(Boolean).map(esc).join(' · ') || '—'}</div>
+    ${future?'':'<div class="hint">Data a trecut deja sau nu a putut fi calculată.</div>'}
+    <div class="row">
+      <button class="btn sm primary" data-add-wl="${idx}" data-preview="${isPreview?1:0}">Adaugă la titluri urmărite</button>
+      <button class="btn sm" data-dl-ics="${idx}" data-preview="${isPreview?1:0}">Descarcă .ics</button>
+      ${isPreview?`<button class="btn sm ghost" data-save-ann="${idx}">Salvează</button>`:`<button class="btn sm ghost danger" data-del-ann="${idx}">Șterge</button>`}
+    </div>
+  </div>`;
+}
+
+function wireAnnCards(scope){
+  $$(`${scope} [data-add-wl]`).forEach(b=>b.onclick=()=>{
+    const list = b.dataset.preview==='1' ? lastParsed : DATA.announcements;
+    const a = list[+b.dataset.addWl];
+    if(!a || !a.title) return toast('Fără titlu detectat');
+    if(DATA.watchlist.some(w=>fold(w.title)===fold(a.title))){ toast('Titlul există deja în listă'); return; }
+    DATA.watchlist.unshift({ id:slugify(a.title), title:a.title, aliases:[], year:a.year||undefined,
+      director:a.director||undefined, fuzzy:true, enabled:true, notes:'Adăugat din anunț Facebook' });
+    saveLocal(); renderWatchlist(); toast(`„${a.title}" adăugat la titluri urmărite`);
+  });
+  $$(`${scope} [data-dl-ics]`).forEach(b=>b.onclick=()=>{
+    const list = b.dataset.preview==='1' ? lastParsed : DATA.announcements;
+    const a = list[+b.dataset.dlIcs];
+    if(!a) return;
+    const epoch = announcementEpoch(a);
+    if(epoch==null){ toast('Fără oră/dată sigură — nu pot genera calendar'); return; }
+    downloadICS({ title:a.title||'Film', channelName: a.channel?channelDisplay(a.channel).name:'', liveUrl: a.channel?channelDisplay(a.channel).live:'', slotTitle:a.title, startEpoch:epoch, endEpoch:epoch+2*3600*1000 });
+  });
+  $$(`${scope} [data-del-ann]`).forEach(b=>b.onclick=()=>{
+    DATA.announcements.splice(+b.dataset.delAnn,1); saveAnnouncements(); renderAnnounce(); renderNow();
+  });
+  $$(`${scope} [data-save-ann]`).forEach(b=>b.onclick=()=>{
+    const a = lastParsed[+b.dataset.saveAnn];
+    if(!a) return;
+    if(DATA.announcements.some(x=>annKey(x)===annKey(a))){ toast('Deja salvat'); return; }
+    DATA.announcements.unshift(a); saveAnnouncements(); renderAnnounce(); renderNow(); toast('Salvat');
+  });
+}
+
+$('#analyzeBtn').onclick = ()=>{
+  const text = $('#annText').value;
+  const parsed = parseAnnouncements(text);
+  lastParsed = parsed;
+  const results = $('#ann-results');
+  if(!parsed.length){
+    results.innerHTML = `<div class="note">Niciun anunț recunoscut. Verifică formatul: „Ziua, zi lună: Ora HH:MM la Canal, "Titlu”, an, regia Nume;".</div>`;
+    return;
+  }
+  results.innerHTML = `<h2>Găsite acum (${parsed.length})</h2>` + parsed.map((a,i)=>annCard(a,i,true)).join('');
+  wireAnnCards('#ann-results');
+  toast(`${parsed.length} anunț(uri) găsite`);
+};
+$('#clearAnnInput').onclick = ()=>{ $('#annText').value=''; $('#ann-results').innerHTML=''; lastParsed=[]; };
+$('#clearAnnStore').onclick = ()=>{
+  if(!DATA.announcements.length) return;
+  if(!confirm('Ștergi toate anunțurile salvate din acest browser?')) return;
+  DATA.announcements=[]; saveAnnouncements(); renderAnnounce(); renderNow(); toast('Șterse');
+};
+
+/* ══════════════════════════════════════════════════════════ Watchlist tab */
+function renderWatchlist(){
+  $('#b-watch').textContent = DATA.watchlist.length;
+  const el = $('#watch-body');
+  const q = fold($('#watchSearch')?.value || '');
+
+  const rowsData = DATA.watchlist
+    .map((w,i)=>({w,i}))
+    .filter(({w})=>{
+      if(!q) return true;
+      const hay = fold([w.title, w.director, ...(w.aliases||[])].filter(Boolean).join(' '));
+      return hay.includes(q);
+    });
+
+  $('#watchCount').textContent = `${rowsData.length} din ${DATA.watchlist.length} titluri`;
+
+  if(!DATA.watchlist.length){ el.innerHTML=`<div class="empty">Niciun titlu. Adaugă unul mai sus.</div>`; return; }
+  if(!rowsData.length){ el.innerHTML=`<div class="empty">Niciun titlu nu se potrivește cu „${esc($('#watchSearch').value)}".</div>`; return; }
+
+  el.innerHTML = `<div class="tablewrap"><table class="responsive"><thead><tr>
+      <th>Titlu</th><th>An / regizor</th><th>Alias-uri</th><th>Aprox.</th><th>Activ</th><th></th>
+    </tr></thead><tbody>` +
+    rowsData.map(({w,i})=>`<tr>
+      <td data-label="Titlu"><strong>${esc(w.title)}</strong>${w.priority?' <span class="pill pri">prioritar</span>':''}
+          ${w.notes?`<div class="hint">${esc(w.notes)}</div>`:''}</td>
+      <td data-label="An / regizor" class="meta">${esc([w.year,w.director].filter(Boolean).join(' · ')||'—')}</td>
+      <td data-label="Alias-uri"><input type="text" class="alias-input" data-alias="${i}" value="${esc((w.aliases||[]).join(', '))}" placeholder="alias1, alias2…"></td>
+      <td data-label="Aprox."><button class="btn sm ghost" data-fz="${i}">${w.fuzzy===false?'<span class="pill off">nu</span>':'<span class="pill on">da</span>'}</button></td>
+      <td data-label="Activ"><button class="btn sm ghost" data-en="${i}">${w.enabled===false?'<span class="pill off">oprit</span>':'<span class="pill on">pornit</span>'}</button></td>
+      <td data-label="" style="text-align:right"><button class="btn sm ghost danger" data-del="${i}">Șterge</button></td>
+    </tr>`).join('') + `</tbody></table></div>`;
+
+  $$('[data-del]').forEach(b=>b.onclick=()=>{
+    const w = DATA.watchlist[+b.dataset.del];
+    if(confirm(`Ștergi „${w.title}" din lista de urmărire?`)){
+      DATA.watchlist.splice(+b.dataset.del,1); saveLocal(); renderWatchlist();
+    }
+  });
+  $$('[data-en]').forEach(b=>b.onclick=()=>{
+    const w = DATA.watchlist[+b.dataset.en]; w.enabled = w.enabled===false; saveLocal(); renderWatchlist();
+  });
+  $$('[data-fz]').forEach(b=>b.onclick=()=>{
+    const w = DATA.watchlist[+b.dataset.fz]; w.fuzzy = w.fuzzy===false; saveLocal(); renderWatchlist();
+  });
+  $$('[data-alias]').forEach(inp=>{
+    inp.addEventListener('change', ()=>{
+      const w = DATA.watchlist[+inp.dataset.alias];
+      w.aliases = inp.value.split(',').map(s=>s.trim()).filter(Boolean);
+      saveLocal(); toast('Alias-uri actualizate');
+    });
+  });
+}
+$('#watchSearch')?.addEventListener('input', renderWatchlist);
+
+/* ══════════════════════════════════════════════════════════ Grila tab */
+function renderGrid(){
+  const el = $('#grid-body');
+  if(!DATA.schedule){
+    el.innerHTML = `<div class="empty">
+      Nu există date de grilă încă.<br><br>
+      Rulează workflow-ul <strong>Check TV schedules</strong> sau local <code class="inline">npm run check</code>.</div>`;
+    return;
+  }
+  const chans = DATA.schedule?.channels || [];
+  const cf=$('#chanFilter'), df=$('#dayFilter');
+  if(!cf.dataset.init && chans.length){
+    cf.innerHTML = `<option value="">Toate canalele</option>` +
+      chans.map(c=>`<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('');
+    df.innerHTML = `<option value="">Toate zilele</option>` +
+      ['luni','marți','miercuri','joi','vineri','sâmbătă','duminică']
+        .map(d=>`<option value="${d}">${d}</option>`).join('');
+    cf.dataset.init='1';
+    [cf,df,$('#gridSearch'),$('#hideFiller')].forEach(x=>x.addEventListener('input',renderGrid));
+  }
+
+  const hitKeys = new Set((DATA.hits?.current||[]).map(h=>`${h.channelId}|${h.day}|${h.start}`));
+  const mayKeys = new Set((DATA.hits?.maybes||[]).map(h=>`${h.channelId}|${h.day}|${h.start}`));
+  const q = $('#gridSearch').value.trim().toLowerCase();
+  const hideFiller = $('#hideFiller').checked;
+
+  const nowParts = chisinauPartsAt(Date.now());
+  const todayIso = isoWeekdayFromYMD(nowParts.y, nowParts.mo, nowParts.d);
+  const nowMin = nowParts.hh*60 + nowParts.mm;
+
+  const rows=[];
+  for(const c of chans){
+    if(cf.value && c.id!==cf.value) continue;
+    for(const s of (c.slots||[])){
+      if(df.value && s.dayName!==df.value) continue;
+      if(hideFiller && s.filler) continue;
+      if(q && !String(s.title).toLowerCase().includes(q)) continue;
+      const k=`${c.id}|${s.day}|${s.start}`;
+      let isNow = false;
+      if(s.day===todayIso && s.start){
+        const sMin = minutesOfDay(s.start);
+        const eMin = s.end ? minutesOfDay(s.end) : sMin+120;
+        isNow = nowMin>=sMin && nowMin<eMin;
+      }
+      rows.push({c,s,hit:hitKeys.has(k),maybe:mayKeys.has(k),isNow});
+    }
+  }
+
+  el.innerHTML = rows.length ? `<div class="card" style="padding:0;overflow:hidden"><div class="tablewrap"><table class="responsive"><thead><tr>
+      <th>Canal</th><th>Zi</th><th>Oră</th><th>Emisiune</th></tr></thead><tbody>` +
+    rows.map(({c,s,hit,maybe,isNow})=>`<tr class="${hit?'is-hit':maybe?'is-maybe':''}${isNow?' is-now':''}">
+      <td data-label="Canal" class="meta">${esc(c.name)}</td>
+      <td data-label="Zi" class="meta">${esc(s.dayName||'—')}${s.dayAssumed?' <span class="pill" title="Pagina publică doar ziua curentă">azi?</span>':''}</td>
+      <td data-label="Oră" class="t">${esc(s.start||'')}${s.end?`–${esc(s.end)}`:''}</td>
+      <td data-label="Emisiune">${hit?'🎬 ':''}${esc(s.title)}${isNow?'<span class="now-pill">acum la TV</span>':''}</td>
+    </tr>`).join('') + `</tbody></table></div></div>`
+    : `<div class="empty">Niciun rezultat.</div>`;
+}
+
+/* ══════════════════════════════════════════════════════════ Canale tab */
+function renderSources(){
+  const live = DATA.schedule?.channels || [];
+  const el = $('#sources-body');
+  const list = DATA.sources.length ? DATA.sources : live;
+  if(!list.length){ el.innerHTML=`<div class="empty">Nicio sursă configurată.</div>`; return; }
+
+  el.innerHTML = list.map(s=>{
+    const st = live.find(c=>c.id===s.id);
+    let pill = '<span class="pill">neverificat încă</span>';
+    let stats = '';
+    if(st){
+      const slotCount = st.slots?.length || 0;
+      const realCount = (st.slots||[]).filter(x=>!x.filler).length;
+      if(!st.ok){
+        pill = `<span class="pill err">eroare</span>`;
+      } else if(slotCount===0){
+        pill = s.expectEmpty ? `<span class="pill">gol (așteptat)</span>` : `<span class="pill warn">gol neașteptat</span>`;
+      } else {
+        pill = `<span class="pill on">${slotCount} sloturi</span>`;
+      }
+      stats = `<div class="source-stats">
+        <span>sloturi parsate: <b>${slotCount}</b></span>
+        <span>utile: <b>${realCount}</b></span>
+        ${st.warning?`<span style="color:var(--warn)">⚠ ${esc(st.warning)}</span>`:''}
+      </div>`;
+    }
+    if(s.enabled===false) pill = `<span class="pill off">dezactivat</span>`;
+    return `<div class="card">
+      <h3>${esc(s.name)} ${pill} ${s.tier==='primary'?'<span class="pill pri">principal</span>':''}${s.newsOnly?'<span class="pill">flux știri</span>':''}</h3>
+      ${s.notes?`<div class="meta">${esc(s.notes)}</div>`:''}
+      ${st&&!st.ok?`<div class="meta" style="color:var(--err)">ultima eroare: ${esc(st.error||'')}</div>`:''}
+      ${stats}
+      <div class="row">
+        <a class="btn sm" href="${esc(s.schedule)}" target="_blank" rel="noopener">Grilă</a>
+        ${s.live?`<a class="btn sm" href="${esc(s.live)}" target="_blank" rel="noopener">▶ Live</a>`:''}
+      </div></div>`;
+  }).join('');
+}
+
+/* ══════════════════════════════════════════════════════════ Istoric tab */
+function renderHistory(){
+  const h = DATA.hits?.history || [];
+  $('#history-body').innerHTML = h.length
+    ? `<div class="tablewrap"><table class="responsive"><thead><tr>
+        <th>Detectat</th><th>Titlu</th><th>Canal</th><th>Difuzare</th></tr></thead><tbody>` +
+      h.map(x=>`<tr>
+        <td data-label="Detectat" class="t">${esc((x.detectedAt||'').slice(0,16).replace('T',' '))}</td>
+        <td data-label="Titlu"><strong>${esc(x.watched)}</strong><div class="hint">${esc(x.slotTitle)}</div></td>
+        <td data-label="Canal" class="meta">${esc(x.channel)}</td>
+        <td data-label="Difuzare" class="meta">${esc(whenStr(x))}</td>
+      </tr>`).join('') + `</tbody></table></div>`
+    : `<div class="empty">Nicio detectare încă.<br><br>
+       Când un titlu apare în grilă, ajunge aici — și pe Telegram și e-mail.</div>`;
+}
+
+/* ══════════════════════════════════════════════════════ watchlist actions */
+function saveLocal(){ localStorage.setItem(LS.wl, JSON.stringify(DATA.watchlist)); }
+
+$('#addBtn').onclick = ()=>{
+  const v = $('#newTitle').value.trim();
+  if(!v) return;
+  if(DATA.watchlist.some(w=>fold(w.title)===fold(v))){
+    toast('Titlul există deja'); return;
+  }
+  DATA.watchlist.unshift({ id:slugify(v), title:v, aliases:[], fuzzy:true, enabled:true });
+  $('#newTitle').value=''; saveLocal(); renderWatchlist(); toast('Adăugat');
+};
+$('#newTitle').addEventListener('keydown',e=>{ if(e.key==='Enter') $('#addBtn').click(); });
+
+$('#exportBtn').onclick = ()=>{
+  const txt = JSON.stringify(DATA.watchlist,null,2);
+  navigator.clipboard?.writeText(txt).then(()=>toast('Copiat în clipboard'),()=>{});
+  const blob = new Blob([txt+'\n'],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob); a.download='watchlist.json'; a.click();
+  URL.revokeObjectURL(a.href);
+};
+
+$('#importBtn').onclick = ()=>{
+  const raw = prompt('Lipește conținutul watchlist.json:');
+  if(!raw) return;
+  try{
+    const parsed = JSON.parse(raw);
+    if(!Array.isArray(parsed)) throw new Error('Trebuie să fie o listă');
+    DATA.watchlist = parsed; saveLocal(); renderWatchlist(); toast('Importat');
+  }catch(e){ alert('JSON invalid: '+e.message); }
+};
+
+$('#resetBtn').onclick = ()=>{
+  if(!confirm('Renunți la modificările locale și reîncarci lista din repo?')) return;
+  localStorage.removeItem(LS.wl); DATA.watchlist = repoWatchlist; renderWatchlist(); toast('Reîncărcat');
+};
+
+/* ── GitHub sync ── */
+function ghCfg(){ const c=cfg.get(); return {repo:c.ghRepo,branch:c.ghBranch||'main',token:c.ghToken}; }
+
+async function ghApi(path, opts={}){
+  const {token} = ghCfg();
+  const r = await fetch(`https://api.github.com${path}`, {
+    ...opts,
+    headers:{ Accept:'application/vnd.github+json', Authorization:`Bearer ${token}`,
+              'X-GitHub-Api-Version':'2022-11-28', ...(opts.headers||{}) }
+  });
+  if(!r.ok) throw new Error(`GitHub ${r.status}: ${(await r.text()).slice(0,180)}`);
+  return r.json();
+}
+
+$('#saveCfg').onclick = ()=>{
+  cfg.set({ ...cfg.get(), ghRepo:$('#ghRepo').value.trim(),
+            ghBranch:$('#ghBranch').value.trim()||'main', ghToken:$('#ghToken').value.trim() });
+  toast('Salvat în acest browser');
+};
+$('#clearCfg').onclick = ()=>{
+  const c=cfg.get(); delete c.ghToken; cfg.set(c); $('#ghToken').value=''; toast('Token șters');
+};
+$('#testCfg').onclick = async ()=>{
+  const {repo,token}=ghCfg();
+  if(!repo||!token) return toast('Completează repo și token');
+  try{ const r = await ghApi(`/repos/${repo}`); toast(`OK — ${r.full_name}`); }
+  catch(e){ alert(e.message); }
+};
+
+$('#syncBtn').onclick = async ()=>{
+  const {repo,branch,token}=ghCfg();
+  if(!repo||!token){ toast('Configurează GitHub mai întâi'); return; }
+  try{
+    let sha;
+    try{
+      const cur = await ghApi(`/repos/${repo}/contents/data/watchlist.json?ref=${branch}`);
+      sha = cur.sha;
+    }catch{}
+    const body = JSON.stringify(DATA.watchlist,null,2)+'\n';
+    // btoa is latin1-only; encode UTF-8 first so diacritics survive.
+    const b64 = btoa(String.fromCharCode(...new TextEncoder().encode(body)));
+    await ghApi(`/repos/${repo}/contents/data/watchlist.json`,{
+      method:'PUT',
+      body: JSON.stringify({ message:`watchlist: ${DATA.watchlist.length} titluri (din UI)`,
+                             content:b64, branch, ...(sha?{sha}:{}) })
+    });
+    toast('Sincronizat pe GitHub');
+  }catch(e){ alert('Sincronizare eșuată:\n'+e.message); }
+};
+
+/* ── calendar (.ics) ──
+   startEpoch/endEpoch are real epoch instants already computed via the
+   Europe/Chisinau time engine above — correct regardless of the visitor's
+   own timezone, and correct across weekday-recurrence maths, unlike a naive
+   "add days to the browser's local now" approach. */
+function downloadICS(x){
+  const startEpoch = x.startEpoch ?? Date.now()+3600000;
+  const endEpoch = x.endEpoch ?? (startEpoch + 2*3600*1000);
+  const f=(epoch)=>new Date(epoch).toISOString().replace(/[-:]/g,'').split('.')[0]+'Z';
+  const summary = (x.title || x.watched || x.slotTitle || 'Film').replace(/[,;]/g,'');
+  const ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Filmradar//RO','BEGIN:VEVENT',
+    `UID:${Date.now()}@filmradar`,`DTSTAMP:${f(Date.now())}`,`DTSTART:${f(startEpoch)}`,`DTEND:${f(endEpoch)}`,
+    `SUMMARY:${summary}${x.channelName?` — ${x.channelName}`:''}`,
+    `DESCRIPTION:Listat ca: ${(x.slotTitle||'').replace(/[,;]/g,'')}\\nStream: ${x.liveUrl||''}`,
+    `URL:${x.liveUrl||''}`,'BEGIN:VALARM','TRIGGER:-PT10M','ACTION:DISPLAY',
+    'DESCRIPTION:Începe în 10 minute','END:VALARM','END:VEVENT','END:VCALENDAR'].join('\r\n');
+
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([ics],{type:'text/calendar'}));
+  a.download=`${slugify(x.title||x.watched||'film')}.ics`; a.click(); URL.revokeObjectURL(a.href);
+  toast('Fișier calendar descărcat');
+}
+
+/* ── tabs (roving-tabindex ARIA pattern for keyboard support) ── */
+const tabEls = $$('.tab');
+function selectTab(t){
+  tabEls.forEach(x=>{
+    const on = x===t;
+    x.setAttribute('aria-selected', on);
+    x.tabIndex = on ? 0 : -1;
+  });
+  $$('.panel').forEach(p=>p.hidden = p.id!=='p-'+t.dataset.panel);
+  t.focus();
+}
+tabEls.forEach((t,idx)=>{
+  t.onclick=()=>selectTab(t);
+  t.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
+      e.preventDefault();
+      const dir = e.key==='ArrowRight' ? 1 : -1;
+      const next = tabEls[(idx+dir+tabEls.length)%tabEls.length];
+      selectTab(next);
+    }
+  });
+});
+
+/* ── init ── */
+(function init(){
+  const c=cfg.get();
+  $('#ghRepo').value=c.ghRepo||''; $('#ghBranch').value=c.ghBranch||'main'; $('#ghToken').value=c.ghToken||'';
+  load();
+  setInterval(load, 5*60*1000);
+  setInterval(tick, 30*1000);
+})();
+</script>
+</body>
+</html>

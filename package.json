@@ -1,0 +1,23 @@
+{
+  "name": "filmradar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Watches Moldovan public TV schedules for heritage films and notifies when one is about to air.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node scraper/check.mjs",
+    "check:dry": "node scraper/check.mjs --dry-run",
+    "check:debug": "node scraper/check.mjs --dry-run --debug",
+    "test": "node scraper/test/all.mjs",
+    "test:core": "node scraper/test/run.mjs",
+    "titles": "node scraper/tools/extract-titles.mjs",
+    "streams": "node scraper/tools/discover-streams.mjs",
+    "streams:check": "node scraper/tools/discover-streams.mjs --check",
+    "serve": "node --run serve:py || python3 -m http.server 8080 --directory docs",
+    "record": "node recorder/record.mjs"
+  },
+  "license": "MIT"
+}
