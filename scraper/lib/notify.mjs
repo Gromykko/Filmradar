@@ -128,11 +128,18 @@ export function buildTelegramMessage({ hits, maybes, watchCount, runAt }) {
   const lines = [];
 
   if (hits.length) {
+    // Priority hits first — if the one title that matters is in this batch,
+    // it must be the first thing read, not buried under "Lăutarii".
+    hits = [...hits].sort((a, b) => (b.priority === true) - (a.priority === true));
     lines.push('🎬 <b>DETECTAT ÎN GRILA TV</b>');
     lines.push('');
     for (const h of hits) {
       const { when } = slotLine(h);
-      lines.push(`<b>${escapeHtml(h.watched)}</b>`);
+      lines.push(
+        h.priority
+          ? `🎯 <b>${escapeHtml(h.watched)}</b> — ACESTA E TITLUL URMĂRIT`
+          : `<b>${escapeHtml(h.watched)}</b>`,
+      );
       lines.push(`📺 ${escapeHtml(h.channel)} · ${escapeHtml(when)}`);
       lines.push(`   listat ca: <i>${escapeHtml(h.slotTitle)}</i>`);
       lines.push(`   <a href="${h.live}">▶ stream live</a> · încredere ${h.confidence}`);
@@ -157,12 +164,15 @@ export function buildTelegramMessage({ hits, maybes, watchCount, runAt }) {
 }
 
 export function buildEmailHtml({ hits, maybes, watchCount, runAt, siteUrl }) {
+  hits = [...hits].sort((a, b) => (b.priority === true) - (a.priority === true));
+
   const card = (h, accent) => {
     const { when } = slotLine(h);
     return `
       <tr><td style="padding:0 0 12px">
         <table width="100%" cellpadding="0" cellspacing="0" style="border-left:4px solid ${accent};background:#f7f7f5;border-radius:6px">
           <tr><td style="padding:14px 16px;font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;color:#1a1a18">
+            ${h.priority ? '<div style="font:600 12px -apple-system,Segoe UI,Roboto,sans-serif;color:#b8593f;letter-spacing:.06em;text-transform:uppercase;padding-bottom:4px">🎯 Titlul urmărit</div>' : ''}
             <div style="font-weight:600;font-size:16px">${escapeHtml(h.watched ?? h.rubric ?? h.slotTitle)}</div>
             <div style="margin-top:4px;color:#55554e">${escapeHtml(h.channel)} · ${escapeHtml(when)}</div>
             <div style="margin-top:4px;color:#75756c;font-size:13px">listat ca: <i>${escapeHtml(h.slotTitle)}</i></div>

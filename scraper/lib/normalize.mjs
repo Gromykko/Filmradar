@@ -19,6 +19,28 @@ const DIACRITICS = {
   ç: 'c', ñ: 'n', ý: 'y',
 };
 
+/**
+ * Cyrillic → Latin. Moldova 1 and Moldova 2 are bilingual state channels and
+ * genuinely list Russian-language films in Cyrillic in the same grid as the
+ * Romanian ones ("Всегда на высоте" was in the real Moldova 1 grid the day
+ * this was written). Without this, fold() blanked every Cyrillic character,
+ * so such a slot folded to an empty string and could never match anything —
+ * including the Russian-title aliases in the watchlist, which were dead on
+ * arrival. Soviet-era Moldova-Film titles circulate under Russian names, so
+ * this is the difference between seeing that listing and never seeing it.
+ *
+ * Only lowercase forms are needed: fold() lowercases before this runs.
+ */
+const CYRILLIC = {
+  а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ё: 'e', ж: 'zh',
+  з: 'z', и: 'i', й: 'i', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o',
+  п: 'p', р: 'r', с: 's', т: 't', у: 'u', ф: 'f', х: 'h', ц: 'ts',
+  ч: 'ch', ш: 'sh', щ: 'sch', ъ: '', ы: 'y', ь: '', э: 'e',
+  ю: 'yu', я: 'ya',
+  // Ukrainian/Moldovan Cyrillic strays that turn up in archive metadata
+  і: 'i', ї: 'i', є: 'e', ґ: 'g', ў: 'u',
+};
+
 /** Fold to lowercase ASCII, collapse punctuation and whitespace to single spaces. */
 export function fold(input) {
   if (!input) return '';
@@ -27,7 +49,10 @@ export function fold(input) {
   // Decompose then strip combining marks — catches anything not in our table.
   s = s.normalize('NFD').replace(/[̀-ͯ]/g, '');
 
-  s = s.replace(/[^\x00-\x7f]/g, (ch) => DIACRITICS[ch] ?? DIACRITICS[ch.normalize('NFC')] ?? ' ');
+  s = s.replace(/[^\x00-\x7f]/g, (ch) => {
+    const nfc = ch.normalize('NFC');
+    return DIACRITICS[ch] ?? DIACRITICS[nfc] ?? CYRILLIC[ch] ?? CYRILLIC[nfc] ?? ' ';
+  });
 
   // Typographic quotes and dashes → plain
   s = s.replace(/[„”“"«»’‘'`]/g, ' ').replace(/[–—−]/g, '-');

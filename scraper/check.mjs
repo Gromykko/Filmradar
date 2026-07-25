@@ -101,10 +101,39 @@ async function main() {
     }
   }
 
+  // Moldova 1 and Moldova 2 are the only sources that actually carry the films.
+  // If one of them breaks while the news feeds keep answering, the run still
+  // "succeeds" and reports zero matches — indistinguishable from a quiet day.
+  // Failing the workflow is the cheapest signal that reaches a human: GitHub
+  // emails you on a red run, and no extra notification plumbing can rot.
+  const brokenPrimary = results.filter(
+    (r) => r.channel.tier === 'primary' && (!r.ok || r.warning),
+  );
+  if (brokenPrimary.length) {
+    for (const r of brokenPrimary) {
+      console.error(`  ‼ SURSĂ PRINCIPALĂ DEFECTĂ — ${r.channel.name}: ${r.error ?? r.warning}`);
+    }
+    process.exitCode = 1;
+  }
+
   const anyOk = results.some((r) => r.ok && r.slots.length);
   if (!anyOk) {
-    console.error('\n✗ Nicio grilă nu a putut fi citită. Ies fără a suprascrie datele bune.');
+    console.error('\n✗ Nicio grilă nu a putut fi citită. Nu suprascriu datele bune.');
     process.exitCode = 1;
+    // Still record that the run happened. GitHub disables a cron after 60 days
+    // with no repo activity, and the per-run commit is what keeps it alive — so
+    // a long outage must not also be a silent commit drought that kills the
+    // schedule permanently. Written to its own file so the last good
+    // schedule.json survives untouched.
+    if (!DRY_RUN) {
+      await writeJson(join(DATA, 'health.json'), {
+        updatedAt: new Date().toISOString(),
+        updatedAtLocal: runAt,
+        ok: false,
+        reason: 'Nicio sursă nu a răspuns',
+        channels: results.map((r) => ({ id: r.channel.id, ok: r.ok, error: r.error ?? null })),
+      });
+    }
     return;
   }
 
@@ -163,6 +192,11 @@ async function main() {
         for (const h of fresh) state.alerted[alertKey(h)] = new Date().toISOString();
       } else {
         console.warn('  ⚠ Nicio notificare livrată — nu marchez ca alertat, se reîncearcă.');
+        // Retrying forever is right for a single bad run, but a token that has
+        // expired or a bot that got blocked fails identically on every run and
+        // would otherwise be visible nowhere. A non-zero exit turns that into a
+        // red X and GitHub's own "workflow failed" email.
+        process.exitCode = 1;
       }
     }
   }

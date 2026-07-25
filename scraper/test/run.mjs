@@ -242,5 +242,61 @@ test('every hit carries a live stream link', () => {
   assert.ok(hits.every((h) => h.live?.startsWith('https://')));
 });
 
+/* ------------------------------------------------- Cyrillic listings ---- */
+// Moldova 1/2 are bilingual and really do list Russian-language films in
+// Cyrillic. fold() used to blank every Cyrillic character, so those slots
+// folded to "" and could never match — including the Russian aliases in the
+// watchlist, which were dead on arrival.
+
+test('Cyrillic transliterates instead of vanishing', () => {
+  assert.equal(fold('Деревянная пушка'), 'derevyannaya pushka');
+  assert.equal(fold('Всегда на высоте'), 'vsegda na vysote');
+  assert.notEqual(fold('Любить'), '');
+});
+
+test('a Russian-title alias matches a Cyrillic listing', () => {
+  assert.equal(scoreTitle('Деревянная пушка', 'Деревянная пушка')?.kind, 'exact');
+  assert.equal(scoreTitle('Деревянная пушка', 'Х/ф "Деревянная пушка", 1986')?.kind, 'phrase');
+});
+
+test('Cyrillic folding does not invent matches', () => {
+  assert.equal(scoreTitle('Деревянная пушка', 'Всегда на высоте'), null);
+});
+
+/* ------------------------------------------------- four-letter tokens --- */
+// "Tunul de lemn" is two content tokens and "lemn" is four letters. With the
+// old tolerance floor it got zero fuzzy slack, so one garbled character meant
+// no hit and no maybe at all.
+
+test('a one-character slip in a four-letter token still matches', () => {
+  assert.ok(scoreTitle('Tunul de lemn', 'Tunul de lemne'), 'inflected ending');
+  assert.ok(scoreTitle('Tunul de lemn', 'TunuI de lemn'), 'capital-I for l');
+});
+
+test('fuzzy slack still cannot carry a match on one token alone', () => {
+  assert.equal(scoreTitle('Tunul de lemn', 'Barcă de lemn'), null);
+  assert.equal(scoreTitle('Tunul de lemn', 'Casa de lemn'), null);
+});
+
+/* ----------------------------------------------------- priority flag ---- */
+
+test('priority is carried onto the hit, not just stored in the watchlist', () => {
+  const slots = [{ day: 6, dayName: 'sâmbătă', start: '12:00', end: '13:13', title: 'F.A. Tunul de lemn', filler: false }];
+  const res = [{ ok: true, channel: { id: 'moldova-2', name: 'Moldova 2', live: 'https://x/', schedule: 'https://y/' }, slots }];
+  const out = findMatches(res, [
+    { title: 'Tunul de lemn', priority: true, fuzzy: true },
+    { title: 'Lăutarii', fuzzy: true },
+  ]);
+  assert.equal(out.hits.length, 1);
+  assert.equal(out.hits[0].priority, true);
+});
+
+test('a non-priority title is explicitly marked false, never undefined', () => {
+  const slots = [{ day: 6, dayName: 'sâmbătă', start: '20:00', end: '21:30', title: 'Lăutarii', filler: false }];
+  const res = [{ ok: true, channel: { id: 'moldova-1', name: 'Moldova 1', live: 'https://x/', schedule: 'https://y/' }, slots }];
+  const out = findMatches(res, [{ title: 'Lăutarii', fuzzy: true }]);
+  assert.equal(out.hits[0].priority, false);
+});
+
 console.log(`\n${passed} passed, ${failed} failed\n`);
 process.exit(failed ? 1 : 0);

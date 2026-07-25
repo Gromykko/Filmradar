@@ -745,7 +745,10 @@ function renderNow(){
     .filter(x=>x.startEpoch!=null && x.startEpoch > Date.now() - 3*3600*1000); // drop long-past ones
 
   const all = [...gridItems, ...annItems];
-  $('#b-now').textContent = hits.length + annItems.length;
+  // Counts the "Posibile" too. On a quiet day hits is 0 but there may be a
+  // dozen untitled archive slots below — a badge reading "0" told you there
+  // was nothing to look at on precisely the days worth looking.
+  $('#b-now').textContent = hits.length + annItems.length + (DATA.hits?.maybes?.length || 0);
 
   // Partition: live-now / upcoming first (soonest first), ended pushed to bottom.
   const active = [], ended = [];
@@ -840,11 +843,18 @@ function renderNow(){
       <div class="note">Grilele TV moldovenești ascund adesea filme de arhivă sub un nume de rubrică generic
       (F.A., Tezaur, Moldova de patrimoniu) fără a numi filmul — deci un titlu urmărit poate sta chiar aici,
       nedetectabil prin potrivire de text. Merită verificat manual.</div>`;
-    html += maybes.slice(0,25).map(m=>`
+    // Chronological, and timed slots ahead of untimed news mentions — this is
+    // a list you triage by "what do I have to be at the TV for", so scrape
+    // order is useless.
+    const maybesSorted = [...maybes].sort((a,b)=>{
+      if(!a.start !== !b.start) return a.start ? -1 : 1;
+      return String(a.start||'').localeCompare(String(b.start||''));
+    });
+    html += maybesSorted.slice(0,25).map(m=>`
       <div class="card maybe">
         <h3 style="font-size:15px">${esc(m.slotTitle)}</h3>
         <div class="meta">${esc(m.channel)} · ${esc(whenStr(m))} · <span class="pill">${esc(m.rubric||'')}</span></div>
-        <div class="row"><a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a></div>
+        ${m.live ? `<div class="row"><a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a></div>` : ''}
       </div>`).join('');
   }
 
@@ -1046,8 +1056,13 @@ function renderGrid(){
       let isNow = false;
       if(s.day===todayIso && s.start){
         const sMin = minutesOfDay(s.start);
-        const eMin = s.end ? minutesOfDay(s.end) : sMin+120;
+        let eMin = s.end ? minutesOfDay(s.end) : sMin+120;
+        // A slot like 23:30–00:30 ends numerically "before" it starts. Without
+        // this, nothing after midnight ever highlights as on-air — and the
+        // late-night archive slots are exactly the ones worth catching.
+        if(eMin <= sMin) eMin += 24*60;
         isNow = nowMin>=sMin && nowMin<eMin;
+        if(!isNow && eMin > 24*60) isNow = (nowMin+24*60)>=sMin && (nowMin+24*60)<eMin;
       }
       rows.push({c,s,hit:hitKeys.has(k),maybe:mayKeys.has(k),isNow});
     }

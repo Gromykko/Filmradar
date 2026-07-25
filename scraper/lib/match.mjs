@@ -54,9 +54,19 @@ function levenshtein(a, b, max = 4) {
   return prev[b.length];
 }
 
-/** Tolerance for a typo'd word: longer words earn more slack. */
+/**
+ * Tolerance for a typo'd word: longer words earn more slack.
+ *
+ * The floor is 3, not 4, deliberately. "Tunul de lemn" reduces to exactly two
+ * content tokens, and "lemn" is four letters — at a floor of 4 it got zero
+ * tolerance, so a single garbled character ("lemne", "Iemn") dropped coverage
+ * to 0.5 and produced no hit AND no maybe. For the one film this project
+ * exists to catch, that is the difference between an alert and silence.
+ * Coverage still has to clear 0.75 overall, so a lone fuzzy 4-letter token
+ * can never carry a match on its own.
+ */
 function allowedTypos(word) {
-  if (word.length <= 4) return 0;
+  if (word.length <= 3) return 0;
   if (word.length <= 7) return 1;
   return 2;
 }
@@ -167,6 +177,9 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
           matchedOn: best.matchedOn,
           confidence: Number(best.score.toFixed(2)),
           kind: best.kind,
+          // Carried through so a hit on the title this project exists for
+          // doesn't read like a hit on any of the other two dozen.
+          priority: best.entry.priority === true,
         });
         continue;
       }

@@ -331,8 +331,17 @@ export async function fetchAllChannels({ channels = CHANNELS } = {}) {
         // empty. Flagging those as warnings every 30 min would train you to
         // ignore warnings, so known-empty sources stay quiet.
         let warning = null;
-        if (!parsed.parsedAnyTime && !ch.newsOnly && !ch.expectEmpty) {
-          warning = 'No time slots found — page layout may have changed.';
+        if (!ch.newsOnly && !ch.expectEmpty) {
+          if (!parsed.parsedAnyTime) {
+            warning = 'No time slots found — page layout may have changed.';
+          } else if (parsed.slots.length < (ch.minSlots ?? 8)) {
+            // parsedAnyTime is only "did a time regex fire at least once", so a
+            // redesign that leaves a couple of stray HH:MM strings in a footer
+            // still reads as healthy. A real day's grid is dozens of slots;
+            // anything near-empty means extraction broke, not that TV stopped.
+            warning = `Only ${parsed.slots.length} slots parsed (expected at least `
+              + `${ch.minSlots ?? 8}) — extraction may be partially broken.`;
+          }
         }
 
         return {
