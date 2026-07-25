@@ -1,0 +1,3250 @@
+{
+  "updatedAt": "2026-07-25T22:20:32.713Z",
+  "updatedAtLocal": "26 iul. 2026, 01:20",
+  "timezone": "Europe/Chisinau",
+  "channels": [
+    {
+      "id": "moldova-1",
+      "name": "Moldova 1",
+      "live": "https://moldova1.md/live",
+      "schedule": "https://trm.md/ro/moldova-1",
+      "ok": true,
+      "error": null,
+      "warning": null,
+      "slots": [
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "01:00",
+          "end": "01:40",
+          "title": "La noi în sat",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "01:40",
+          "end": "02:40",
+          "title": "O seară în familie",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "02:40",
+          "end": "03:10",
+          "title": "Всегда на высоте",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "03:10",
+          "end": "03:38",
+          "title": "Made in Germany. DW Germania",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "03:38",
+          "end": "03:50",
+          "title": "Shift. DW Germania",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "03:50",
+          "end": "05:15",
+          "title": "Live studio. Program de divertisment",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "05:15",
+          "end": "05:58",
+          "title": "Mesager. Program informativ + știri sportive",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "05:58",
+          "end": "06:00",
+          "title": "Deschiderea stației",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "06:00",
+          "end": "06:55",
+          "title": "Live studio. Program de divertisment",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "06:55",
+          "end": "07:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "07:00",
+          "end": "07:30",
+          "title": "Live studio. Program de divertisment",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "07:30",
+          "end": "07:40",
+          "title": "Să luăm aminte",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "07:40",
+          "end": "08:25",
+          "title": "Cuvintele credinței",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "08:25",
+          "end": "08:30",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "08:30",
+          "end": "09:00",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "09:00",
+          "end": "09:30",
+          "title": "Zuper show",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "09:30",
+          "end": "09:32",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "09:32",
+          "end": "10:20",
+          "title": "Strumfii. Desen animat. Belgia, 2023 ep. 89,90,91,92",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "10:20",
+          "end": "11:11",
+          "title": "Frații elefanților. Documentar. Franța, 2015",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "11:11",
+          "end": "11:15",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "11:15",
+          "end": "12:15",
+          "title": "O seară în familie",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "12:15",
+          "end": "12:20",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "12:20",
+          "end": "13:00",
+          "title": "Zi de bine -magazin utilitar!",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "13:00",
+          "end": "13:05",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "13:05",
+          "end": "13:50",
+          "title": "Zi de bine -magazin utilitar!",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "13:50",
+          "end": "13:55",
+          "title": "secvente japoneze",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "13:55",
+          "end": "14:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "14:00",
+          "end": "14:40",
+          "title": "Pământ și oameni",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "14:40",
+          "end": "14:45",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "14:45",
+          "end": "15:15",
+          "title": "Tezaur",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "15:15",
+          "end": "15:20",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "15:20",
+          "end": "15:55",
+          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "15:55",
+          "end": "16:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "16:00",
+          "end": "16:55",
+          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "16:55",
+          "end": "17:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "17:00",
+          "end": "17:25",
+          "title": "Departe / Aproape",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "17:25",
+          "end": "17:30",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "Focus Europa. Coproducție TRM-DW",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "17:55",
+          "end": "18:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "18:00",
+          "end": "18:25",
+          "title": "Vector European",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "18:25",
+          "end": "18:30",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "18:30",
+          "end": "18:55",
+          "title": "Cultura",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "18:55",
+          "end": "19:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "19:00",
+          "end": "19:10",
+          "title": "Știri",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "19:10",
+          "end": "19:15",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "19:15",
+          "end": "20:05",
+          "title": "Armata romanticilor. Ep.1, Documentar. Franța,2024",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "20:05",
+          "end": "20:30",
+          "title": "Raioane. Program de divertisment",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "20:30",
+          "end": "20:35",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "20:35",
+          "end": "20:55",
+          "title": "Raioane. Program de divertisment",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "20:55",
+          "end": "21:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "21:00",
+          "end": "21:30",
+          "title": "Mesager. Program informativ",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "21:30",
+          "end": "21:35",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "21:35",
+          "end": "21:45",
+          "title": "Știri sportive",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "21:45",
+          "end": "21:50",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "21:50",
+          "end": "23:56",
+          "title": "Neguțătorul din Veneția. Dramă. UK. 2004",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "23:56",
+          "end": "00:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true
+        }
+      ]
+    },
+    {
+      "id": "moldova-2",
+      "name": "Moldova 2",
+      "live": "https://moldova1.md/moldova2",
+      "schedule": "https://trm.md/ro/moldova-2",
+      "ok": true,
+      "error": null,
+      "warning": null,
+      "slots": [
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "01:00",
+          "end": "01:25",
+          "title": "Orologiu sentimental. Valeria Grosu",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "01:25",
+          "end": "02:45",
+          "title": "DesCoperă. Opera Carmen",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "02:45",
+          "end": "03:10",
+          "title": "DW Arts",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "03:10",
+          "end": "03:35",
+          "title": "DW Euromaxx",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "03:35",
+          "end": "04:05",
+          "title": "Portrete în timp. P. Baracci",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "04:05",
+          "end": "05:55",
+          "title": "Spectacol. Intre noi e totul bine",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "05:55",
+          "end": "06:00",
+          "title": "Necuvintele",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "05:58",
+          "end": "06:00",
+          "title": "Deschiderea Statiei",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "06:00",
+          "end": "08:00",
+          "title": "Hai la hora mare. Nicolae Botgros",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "08:00",
+          "end": "08:30",
+          "title": "Dor. Muzică din prima jumatate a sec.XX",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "08:30",
+          "end": "08:35",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "08:35",
+          "end": "08:40",
+          "title": "Necuvintele",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "08:40",
+          "end": "10:00",
+          "title": "F.D. Patimile după Iurie",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "In memoriam. Angela Păduraru",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "11:00",
+          "end": "11:05",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "11:05",
+          "end": "11:55",
+          "title": "Spectacol. Hanuma P.2",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "11:55",
+          "end": "12:20",
+          "title": "SoArta. Ion Hadârcă",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "12:20",
+          "end": "12:25",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "12:25",
+          "end": "13:45",
+          "title": "Concertino Acordeon Band & Kayser Band Bolero",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "13:45",
+          "end": "13:50",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "13:50",
+          "end": "14:00",
+          "title": "Text și muzică. Nicu Țărnă",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "14:00",
+          "end": "14:25",
+          "title": "DW Arts",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "14:25",
+          "end": "14:30",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "14:30",
+          "end": "14:55",
+          "title": "DW Euromaxx",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "14:55",
+          "end": "15:00",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "15:00",
+          "end": "15:30",
+          "title": "Artelier. E.Romanescu la 80 de ani",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "15:30",
+          "end": "16:00",
+          "title": "Concert. Mahaya",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "16:00",
+          "end": "16:10",
+          "title": "F.D Jocurile copilariei noastre",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "16:10",
+          "end": "16:40",
+          "title": "Proiect. Alexandru Cosmescu",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "16:40",
+          "end": "16:45",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "16:45",
+          "end": "17:00",
+          "title": "Chișinăul de ieri și de azi. Valea Morilor",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "17:00",
+          "end": "17:55",
+          "title": "Evantai folcloric",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "17:55",
+          "end": "18:00",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "18:00",
+          "end": "18:30",
+          "title": "Tezaur",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "18:30",
+          "end": "19:00",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "19:00",
+          "end": "19:05",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "19:05",
+          "end": "19:25",
+          "title": "Portrete în timp. Vlad Bulat",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "19:25",
+          "end": "19:30",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "19:30",
+          "end": "20:30",
+          "title": "Telefilm prezintă. F.D. \"Plugarii\"",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "20:30",
+          "end": "21:00",
+          "title": "Dor. Surorile Ciorici",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "21:00",
+          "end": "21:55",
+          "title": "F.D. Legendele Nordului (Legendele Europei, ep. 2)",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "21:55",
+          "end": "22:00",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "22:00",
+          "end": "23:10",
+          "title": "Spectacol. O zi din viața lui Helen",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": "23:10",
+          "end": "00:10",
+          "title": "Eurovision Classical Concerts: WDR Symphony Orchestra.",
+          "filler": false,
+          "dayAssumed": true
+        }
+      ]
+    },
+    {
+      "id": "trm-cultura",
+      "name": "TRM — știri cultură",
+      "live": "https://moldova1.md/live",
+      "schedule": "https://trm.md/ro/cultura",
+      "ok": true,
+      "error": null,
+      "warning": null,
+      "slots": [
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cineaştii s-au reunit pentru a marca 70 de ani de la fondarea studioului „Moldova-Film” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O expoziţie de pictură, organizată la Ambasada SUA, în cadrul programului „Artă în Ambasade” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "În Republica Moldova a fost lansat un proiect pentru un turism durabil",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Conferinţă ştiinţifică internaţională, consacrată comemorării savantului George Emil Palade, organizată la Chişinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "La Chişinău se desfăşoară concursul naţional al cântecului folcloric „Tamara Ciobanu” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Doi artişti plastici şi-au expus lucrările la Biblioteca Ştiinţifică ”Andrei Lupan” a AŞM (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Antologia despre viaţa interpretei Ioana Căpraru, lansată la Biblioteca Naţională (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Dragoste la pachet” – un spectacol despre drama moldovencelor care au plecat la muncă în străinătate, în premieră, la Teatrul „Mihai Eminescu” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cinci documentare realizate de studioul „TeleFilm Chişinău\" vor fi proiectate la Roma",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Scriitorul Arcadie Suceveanu şi-a sărbătorit a 70-a aniversare (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ministrul român al Culturii, la Radio Moldova: Festivalul Naţional de Teatru de la Bucureşti - un proiect strategic pentru apropierea celor două maluri ale Prutului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL | Zbor.md – partenerul tău de încredere în lumea biletelor de avion ieftine",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL | Profesia de SEO Specialist a devenit oficială în Republica Moldova: cod CORM 251316",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL // De ce în curând nu îţi vei mai putea instala panouri solare în Republica Moldova?",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Datele de contact vor fi folosite numai pentru verificarea informației și pentru a putea reveni cu întrebări.",
+          "filler": false,
+          "news": true
+        }
+      ]
+    },
+    {
+      "id": "trm-stiri",
+      "name": "TRM — toate știrile",
+      "live": "https://moldova1.md/live",
+      "schedule": "https://trm.md/ro/stiri",
+      "ok": true,
+      "error": null,
+      "warning": null,
+      "slots": [
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": null,
+          "end": null,
+          "title": "Adevărul despre fals",
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Teleradio Moldova: juriul care a acordat punctajul la Eurovision nu reprezintă poziţia instituţiei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Reuniune trilaterală la Chişinău: TRM, NHK şi Suspilne consolidează cooperarea în serviciul public de media",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "TRM şi JICA au semnat un acord de grant în valoare de 21 milioane de lei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Concurs de selectare a participanţilor la un atelier de instruire",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "TRM a prezentat Strategia de dezvoltare pentru perioada 2026–2030",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL | Zbor.md – partenerul tău de încredere în lumea biletelor de avion ieftine",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL | Profesia de SEO Specialist a devenit oficială în Republica Moldova: cod CORM 251316",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL // De ce în curând nu îţi vei mai putea instala panouri solare în Republica Moldova?",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL // Cu suportul financiar al Uniunii Europene în Republica Moldova au fost deschise 16 spălătorii sociale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL // Servicii de Curăţenie la un Click Distanţă în Chişinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADVERTORIAL // Flori cu livrare în Chişinău – surpriza care schimbă ziua",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "RUBRICA „Adevărul despre fals”: Combatem propaganda din mediul online",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "RUBRICA „Adevărul despre fals”: Analizăm şi combatem ştirile neadevărate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "RUBRICA „Adevărul despre fals”: Cum combatem dezinformarea",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "RUBRICA „Adevărul despre fals”: Verificăm credibilitatea surselor din 4 ianuarie (AUDIO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Medicamentele expirate, un pericol pentru mediul înconjurător. Ce ne recomandă experţii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Nivelul apei în râul Nistru revine la normal (AUDIO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Procuratura Anticorupţie a depus recurs la Curtea Supremă de Justiţie pe cazul lui Igor Dodon",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Natalia Gavriliţa, după Consiliul Naţional Politic: PAS este un partid care va duce Republica Moldova în marea familie europeană",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Consiliul Naţional al PAS s-a reunit în şedinţă. Strategia pentru alegerile locale, pe agenda discuţiilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Bogdan Aurescu şi Antony Blinken vor discuta la Bucureşti despre sprijinul României acordat Republicii Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "La Chişinău a fost semnat Acordul de asociere a Republicii Moldova la Programul UE pentru mediu şi politici climatice (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Bogdan Aurescu, despre crizele cu care se confruntă Republica Moldova: „Unele sunt generate artificial” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Şefa statului s-a întâlnit cu prim-ministra Lituaniei, Ingrida Šimonytė. Riscurile de securitate, pe agenda discuţiilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Sondaj: Partidele care ar accede în Parlament, dacă duminica viitoare ar avea loc alegeri",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Peste 70 de antreprenori autohtoni şi-au expus produsele la târgul „Cămara Fest”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Viceguvernatorul BNM, despre beneficiile aderării la Zona Unică de Plăţi în Euro: „Costul - mai mic, viteza - mai mare”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Întreprinderea de stat „Moldatsa” va primi un grant de trei milioane de euro. În ce scop vor fi folosiţi banii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Din cauza războiului din Ucraina, producătorii autohtoni sunt în căutarea unor noi pieţe de desfacere",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Consumatorii din stânga Nistrului nu sunt afectaţi de reducerea volumelor de gaze, declară şeful Moldovagaz",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Andrei Spînu admite majorarea tarifului la energia electrică, însă declară că Guvernul va acorda compensaţii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Vladimir Bolea: Un sector agroindustrial puternic înseamnă o ţară asigurată (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Expoziţie-târg de păsări exotice la Cetatea Soroca",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Nu există nici un pericol pentru gospodării”. Activitatea posturilor de observare de pe râul Nistru din raioanele Ocniţa şi Soroca a fost sistată",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Centrul social \"Revenire\" din Soroca, luat cu asalt odată cu răcirea timpului (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Condiţii mai bune pentru viitoarele mame din Edineţ (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Locuitorii comunei Vasilcău din Soroca se plâng că nu au cu ce face focul în sobe (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Intervenţia pompierilor: Din cauza drumului impracticabil, ambulanţa nu a ajuns la pacientă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "La Edineţ a fost dat în exploatare un apeduct reabilitat şi extins din fonduri europene",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cineaştii s-au reunit pentru a marca 70 de ani de la fondarea studioului „Moldova-Film” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O expoziţie de pictură, organizată la Ambasada SUA, în cadrul programului „Artă în Ambasade” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "În Republica Moldova a fost lansat un proiect pentru un turism durabil",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Conferinţă ştiinţifică internaţională, consacrată comemorării savantului George Emil Palade, organizată la Chişinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "La Chişinău se desfăşoară concursul naţional al cântecului folcloric „Tamara Ciobanu” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Doi artişti plastici şi-au expus lucrările la Biblioteca Ştiinţifică ”Andrei Lupan” a AŞM (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Antologia despre viaţa interpretei Ioana Căpraru, lansată la Biblioteca Naţională (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cristiano Ronaldo pleacă de la Manchester United",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Selecţionata Republicii Moldova, învinsă de reprezentativa României",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Boxerii moldoveni au cucerit cinci medalii la turneul din Polonia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "“Tricolorii” au fost învinşi cu 1-2 de reprezentativa Azerbaidjanului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Înotătorul moldovean Constantin Malachi a cucerit trei medalii de aur la campionatul Belgiei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Super-starul portughez Cristiano Ronaldo, declaraţii incendiare: „M-am simţit trădat” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Vitalie Damaşcan a marcat al cincilea său gol în actuala ediţie de campionat a SuperLigii româneşti de fotbal (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Atenţionare de călătorie în Franţa",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O asociaţie de voluntari din Italia a donat spitalului din Ialoveni o ambulanţă şi echipamente medicale (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Un copil moldovean din Montreal înregistrează performanţe la matematică, dar şi în fotbal",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Moldovenii stabiliţi în Spania vor beneficia de pensii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Moldovenii nu vor mai avea nevoie de vize pentru a călători în Statul Qatar",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Igor Grosu s-a întâlnit cu reprezentanţi ai diasporei moldoveneşti în Danemarca (FOTO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "La Chişinău se desfăşoară „Zilele Diasporei”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Eurovision Song Contest 2023: Modificări majore privind modalitatea de vot",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Trei ţări se retrag de la Eurovision 2023. Motivele invocate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Oraşul Liverpool va găzdui Eurovision Song Contest 2023",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Şapte oraşe britanice concurează la statutul de gazdă a următoarei ediţii a Eurovision",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "E oficial! Eurovision Song Contest 2023 va avea loc în Marea Britanie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Oraşul Bruxelles şi radiodifuzorul naţional francofon RTBF sunt gata să găzduiască Eurovision Song Contest",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Astăzi este ultima zi de agitaţie electorală pentru alegerile locale noi de duminică",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Buletinele de vot vor fi tipărite doar în limba română",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "CEC: A fost aprobat sistemul de vot prin internet",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "CEC va sancţiona partidele care nu şi-au prezentat rapoartele financiare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Câţi cetăţeni cu drept de vot sunt în Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Peste trei milioane de alegători sunt înscrişi în Registrul de Stat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "CEC propune permiterea agitaţiei electorale în ziua alegerilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Rezultatele turului II al alegerilor locale: Comuna Branişte din raionul Rîşcani va avea un primar democrat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Locuitorii comunei Branişte îşi aleg primarul. Precizările CEC",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Duminică se va desfăşura turul II al alegerilor locale noi în comuna Branişte",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "CEC a început tipărirea buletinelor de vot pentru alegerile locale noi, turul II, din 30 octombrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Primarii din Sălcuţa şi Ialpujeni au fost aleşi din primul tur",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ziua tăcerii. Peste şase mii de cetăţeni sunt aşteptaţi duminică la alegeri în trei localităţi",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "La alegerile locale din octombrie, pentru trei mandate de primar candidează opt persoane",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Dacă eşti martorul unui eveniment, contactează-ne!",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Informaţia TA poate deveni o ştire!",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Datele de contact vor fi folosite numai pentru verificarea informației și pentru a putea reveni cu întrebări.",
+          "filler": false,
+          "news": true
+        }
+      ]
+    },
+    {
+      "id": "tvr-moldova",
+      "name": "TVR Moldova",
+      "live": null,
+      "schedule": "https://tvrmoldova.md/",
+      "ok": true,
+      "error": null,
+      "warning": null,
+      "slots": [
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": "Nu este o problemă în ce partid a fost",
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": null,
+          "end": null,
+          "title": "Nu ne-am așteptat la o altă reacție",
+          "filler": false,
+          "announcement": true,
+          "channelId": "moldova-2",
+          "kind": "tv"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": "Nu slăbiți peste noapte!",
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Interviurile Telejurnalului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Reportajele Telejurnalului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GLADIATOR CHALLENGE MOLDOVA",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Transnistria. Viața în zona gri",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Drumul Basarabiei spre casă” 105 ani de la unirea cu România",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Angajați MoldATSA, în arest preventiv într-un dosar de corupție și abuz în serviciu",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 18:44",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O nouă dronă a fost doborâtă de militarii români în zona Tulcea",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 09:31",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Igor Dodon îi ia apărarea lui Radu Musteață: „Nu este o problemă în ce partid a fost\"",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "vineri, 24 iulie 2026, 21:30",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Carburanții continuă să se scumpească. Din august, șoferii vor plăti și o taxă suplimentară",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "vineri, 24 iulie 2026, 20:07",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Undă de șoc la Tiraspol: Grupul rus ce deține Centrala de la Cuciurgan, inclus în sancțiunile UE",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "vineri, 24 iulie 2026, 16:21",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Igor Grosu: Demisia lui Radu Musteață - una de onoare. Aș fi preferat să rămână ministru",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "vineri, 24 iulie 2026, 12:40",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Premierul Vasile Tofan anunță demisia ministrului Agriculturii, Radu Musteață",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "vineri, 24 iulie 2026, 08:51",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Grosu îl acuză pe Dodon de populism în cazul propunerii privind gazul rusesc: Speculații de doi bani",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "vineri, 24 iulie 2026, 08:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ANI verifică averea unui ofițer INSP: donații de 460 mii lei și datorii de 2,4 milioane",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "joi, 23 iulie 2026, 22:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Noul ministru al Agriculturii, în centrul unui scandal: PSDE confirmă trecutul său politic în PDM",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "joi, 23 iulie 2026, 12:21",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Un mausoleu pentru eroii basarabeni din Primul Război Mondial va fi ridicat la Râșcani",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tiraspolul critică programul pentru reintegrare. Chiveri: „Nu ne-am așteptat la o altă reacție”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Fratele lui Igor Dodon a pierdut în prima instanță procesul intentat împotriva SIS",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Igor Grosu, despre cazul ministrului Culturii: „Vom cere mai multe detalii”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cel mai MARE concert de JAZZ din MOLDOVA!",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Marina Țăbârnă: „O democrație europeană înseamnă cetățeni implicați și solidari”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O vizită istorică, un nou început: India și Republica Moldova conturează împreună viitorul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Bryan Adams la Chișinău — pentru prima dată în Moldova: 15 iunie 2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Parteneriatul pentru Europa: Primele discuții privind agenda comună de acțiuni",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tehnologie, energie verde și investiții în tineri: Succesul Agro-Firmei „Plaiul Bîrlădean”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Rochii din satin pentru nuntă: idei și recomandări",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Mitropolitul Basarabiei vorbește despre misiunea Bisericii și provocările prezentului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 22:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Vara în culorile credinței: Atelier de pictură de icoane pentru copii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 21:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Chișinăul găzduiește o nouă ediție a Festivalului Internațional de Film Transilvania",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 20:20",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Lucrările la Muzeul Victimelor Deportărilor stagnează din lipsă de bani",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 19:40",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 19:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Alergia la ambrozie poate fi confundată cu o răceală: Medicii avertizează asupra simptomelor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 17:20",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Când moda devine solidaritate: Rochii pentru tinerele care au nevoie de sprijin",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 16:14",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Nu slăbiți peste noapte!” Medicul endocrinolog explică riscurile dietelor drastice",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 15:18",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Istoria unui gospodar care, chiar dacă și-a pierdut soția, continuă să-i ducă mai departe visul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "sâmbătă, 25 iulie 2026, 14:37",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Politica de Confidențialitate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Filiala Societăţii Române de Televiziune",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Adresa: Strada Bogdan Petriceicu Hașdeu, nr.2, Chişinău, Republica Moldova, MD-2005",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "© TVR Moldova. Toate drepturile rezervate.",
+          "filler": false,
+          "news": true
+        }
+      ]
+    },
+    {
+      "id": "vocea-basarabiei",
+      "name": "Vocea Basarabiei TV",
+      "live": "https://voceabasarabiei.md/live-tv/",
+      "schedule": "https://voceabasarabiei.md/program-tv/?tv-channel=tv",
+      "ok": true,
+      "error": null,
+      "warning": null,
+      "slots": []
+    },
+    {
+      "id": "diez",
+      "name": "Diez — cultură",
+      "live": null,
+      "schedule": "https://diez.md/category/cultura/",
+      "ok": true,
+      "error": null,
+      "warning": null,
+      "slots": [
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tot ce trebuie să știi despre BAC",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tot ce trebuie să știi despre admiterea 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O expoziție imersivă urmează să fie inaugurată la Galeria PLAI. Ce reprezintă și până când va putea fi vizitată",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "De la producție și imagine de film la actorie: TIFF Chișinău anunță programul de workshopuri și masterclassuri",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "(doc) 21 de proiecte cinematografice au câștigat în 2026 finanțare de la stat. Vezi lista acestora și banii primiți",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Organizațiile culturale pot obține finanțare de până la 9.500 de euro pentru crearea unor platforme creative în Cahul și Ungheni",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ai realizat un film în care abordezi tema drepturilor omului? Îl poți înscrie la un festival din New York",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul de film TIFF revine la Chișinău! Ce producții cinematografice se regăsesc în program",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Un scurtmetraj moldovenesc a fost selectat la patru festivaluri internaționale de film și a luat un premiu",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Oportunitate pentru scenariști. „Story Launchbox” caută povești originale pe care să le transforme gratuit în filme de animație",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cât timp pe zi dedică lecturii cei mai activi cititori și de ce fetele citesc mai mult decât băieții",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Petrece 10 zile în Polonia, la o vizită de studiu gratuită. Studenții activi sunt încurajați să se înscrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Bryan Adams vine pentru prima dată în Republica Moldova. Cât costă biletele",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "The Rasmus revine în Moldova în martie 2027, cu noul album „WEIRDO” și cele mai mari hituri",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Nova Lines susține tinerii specialiști în cadrul programului național UPSKILL Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Poliția, acuzată de blamarea victimei într-un comunicat oficial: „Atâtea solicitări vin și exact acest caz a ajuns pe Facebook”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Lista universităților din Moldova care au programe de învățământ dual",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Salariul profesorilor va constitui 120 % din salariul mediu pe economie? Ce promite Vasile Tofan pentru educație",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "(doc) Vasile Tofan și-a prezentat programul de guvernare. Documentul are 147 de pagini",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "S-a copiat mai mult în sesiunea suplimentară decât în cea de bază? 34 de elevi, eliminați de la examenul din clasa a IX-a",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "#diez &copy; 2026 - Toate drepturile rezervate",
+          "filler": false,
+          "news": true
+        }
+      ]
+    },
+    {
+      "id": "moldpres-cultura",
+      "name": "Moldpres — cultură",
+      "live": null,
+      "schedule": "https://www.moldpres.md/rom/cultura",
+      "ok": true,
+      "error": null,
+      "warning": null,
+      "slots": [
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Fii la curent cu cele mai recente știri",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Planuri și rapoarte de activitate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Declarația de răspundere managerială",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Arhiva de documente (Documentare)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Miros de pâine caldă”. O expoziție despre istoria pâinii, deschisă la Muzeul Național de Istorie a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Peste 160 de documente din opera lui Vasile Vasilache și Vladimir Beșleagă, expuse la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Festivalul Internațional de Film Transilvania a început la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Manuscrise, fotografii și amintiri despre Vladimir Beșleagă, reunite într-o expoziție la Muzeul Literaturii Române",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADMITERE 2026 // AMTAP oferă 240 de locuri bugetare la admiterea 2026. Înscrierile încep pe 27 iulie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Primiți cele mai recente știri direct pe e-malul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Monitorul oficial al Republicii Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ABONAMENT tipărit complet (partea I-V)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Produs NOU - \"Monitorul Oficial",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "al Republicii Moldova\" în format PDF",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Expoziția lui Roger Ballen, inaugurată la Muzeul Național de Artă al Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Noul sediu al Teatrului „B.P. Hasdeu” din Cahul intră în etapa finală de construcție",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tinerii specialiști din cultură sunt așteptați în instituțiile publice cu sprijin financiar de până la 120 mii de lei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Povestea pâinii din epoca fierului, prezentată într-o expoziție la Muzeul Național de Istorie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Eugenia Todorașcu, una dintre marile actrițe ale scenei moldovenești",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Patrimoniu restaurat, servicii culturale mai accesibile și sprijin pentru artiști - prioritățile ministrului Dan Suruceanu",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Patrimoniul cultural al Republicii Moldova, descoperit de fiica președintei Indiei în timpul vizitei la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Prioritățile ministrului Culturii, Dan Suruceanu: modele europene, susținerea artiștilor și o soluție pentru Filarmonica Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Trecutul ascuns al capitalei, dezvăluit într-o expoziție la Muzeul Național de Istorie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Vasile Brescanu, actorul care a marcat cinematografia moldovenească",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // „Ce-aș fi fost”, melodia unei epoci",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Planul Guvernului Tofan pentru sectorul cultural: susținerea creatorilor și modernizarea instituțiilor de profil",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Glebus Sainciuc, artistul care a transformat portretul în spectacol",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cristian Jardan a prezentat bilanțul activității Ministerului Culturii: proiecte culturale, sprijin pentru artiști și promovare internațională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Patrimoniul arheologic al culturii Cucuteni-Tripolie va putea fi explorat prin diorame 3D și realitate virtuală la Muzeul din Călărași",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cooperarea teatrală dintre R. Moldova și România, consolidată prin noi proiecte culturale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Tânărul artist moldovean Artur Dulghier și-a inaugurat prima expoziție personală la Viena",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Drumul spre Mănăstirea rupestră Țipova devine mai accesibil: au început lucrările de reamenajare a scărilor istorice",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Peste 170 de fotografii semnate de Mihai Potârniche, expuse la Iași",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Chișinăul de ieri și de azi, prezentat într-o expoziție de documente și cărți poștale la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Festivalul Internațional „Ukrainian Day in Moldova” a reunit comunități din trei țări la Iabloana",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Comuna Iabloana din raionul Glodeni găzduiește un festival care aduce împreună Republica Moldova, Ucraina și România",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Nouă personalități ale Republicii Moldova au primit titlul de Cetățean de Onoare al municipiului Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Veronica Garștea, prima femeie dirijor din Republica Moldova și simbol al artei corale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Șlagărul „Du-mă în Moldova mea”, readus în atenția publicului printr-o secvență de arhivă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Descoperă Moldova cu #MOLDPRES // Căsuța copilăriei, construită într-un copac de peste 150 de ani la Palanca",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Tradițiile și obiceiurile de vară au prins viață la Telenești, în cadrul Festivalului „Hora Sânzienelor”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Petre Ștefănucă, cercetătorul care a valorificat patrimoniul cultural al Basarabiei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Adresa: Republica Moldova, Chișinău, str.Puskin, 22",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "anticamera@moldpres.gov.md",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "© 2000-2026 \"I.P. MOLDPRES A.I.S.\"",
+          "filler": false,
+          "news": true
+        }
+      ]
+    }
+  ]
+}

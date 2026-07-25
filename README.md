@@ -62,6 +62,24 @@ Actions → **Check TV schedules** → Run workflow → tick `dry_run`.
 
 ---
 
+## How much warning you actually get
+
+Be clear-eyed about this. TRM server-renders **only the current day's grid**; the other six
+weekday tabs load over AJAX from `Programs/ajaxUpdateProgramsLst`, which returns an empty
+payload to any request that isn't a live browser session on the page. So the grid gives
+**hours** of notice, not days, and only for today.
+
+That is why the other two paths matter more than they look:
+
+- **Announcements** (Moldova-Film via TRM, Diez, Moldpres) name a channel and an exact time
+  and appear *days* before the grid does. `scraper/lib/announce.mjs` turns them into real
+  scheduled slots.
+- **`recorder --watch --maybes`** doesn't need warning at all — it sits there and captures
+  the untitled archive slots as they air.
+
+Checking every 30 minutes covers the grid's short horizon. Nothing here can see next
+Tuesday, and nothing pretends to.
+
 ## What makes this more than a string search
 
 **Generic rubrics.** TV listings routinely hide archive films behind a rubric name — `F.A.`, `Film artistic`, `Moldova de patrimoniu`, `Tezaur`, `Cinemateca` — with no title at all. An exact-match checker reports "nothing found" on precisely the week your film airs. Those slots surface separately as **posibile**. Fewer than a dozen a week; worth a glance.
@@ -87,7 +105,7 @@ Actions → **Check TV schedules** → Run workflow → tick `dry_run`.
 | **Moldova 1**, **Moldova 2** | Server-rendered grids. Reliable. The main event. |
 | **TRM culture + general news** | Scanned for announcements — these land *before* the grid updates |
 | **Diez**, **Moldpres** | Moldovan press; they republish Moldova-Film announcements |
-| **TVR Moldova** | Enabled, layout unverified — check the Canale tab after run one |
+| **TVR Moldova** | No schedule grid exists — `/program-tv`, `/program`, `/grila-de-programe` all 404. Scanned for announcements instead |
 | **Vocea Basarabiei** | Grid is JS-loaded and was empty when checked. Flagged `expectEmpty` so it never cries wolf. |
 | ~~ARAX / Zebra TV~~ | Channel *list* only, no times. Unusable. |
 | ~~Facebook~~ | **Not automatable** — see below |
@@ -119,9 +137,20 @@ Scores candidates by how title-like they are. Years and directors come from the 
 node recorder/record.mjs --list                    # what's coming
 node recorder/record.mjs --watch --ics --notify    # record, calendar, Telegram
 node recorder/record.mjs --watch --vlc             # also open VLC live
+node recorder/record.mjs --watch --maybes          # also grab untitled archive slots
 node recorder/record.mjs --now moldova-2 --mins 80 # right now
 npm run streams                                    # warm the cache by hand
 ```
+
+**`--maybes` is the one that catches an unlisted film.** TRM routinely airs archive titles
+under a rubric name only — `Moldova de patrimoniu`, `Tezaur`, `F.A.` — with no title in the
+grid at all, which is exactly the case no title-matcher can ever see. This records those
+slots speculatively. They recur most days, so it is opt-in and it will capture folk-music
+programmes too; that is the price of not missing the one broadcast that matters.
+
+ffmpeg does the recording, not VLC — `-c copy`, no re-encode, and it writes a clean MP4 on
+Ctrl-C. `--vlc` is separate: it opens VLC on the live stream so you can *watch* while the
+capture runs.
 
 On a VPS, point at published data instead of a checkout:
 
@@ -139,7 +168,7 @@ Personal time-shifting of a free-to-air broadcast you can already watch live —
 ## Development
 
 ```bash
-npm test              # 68 assertions across 3 suites, zero dependencies
+npm test              # 83 assertions across 4 suites, zero dependencies
 npm run check:dry     # fetch + match, notify nothing
 npm run check:debug   # plus parsed samples
 python3 -m http.server 8080 --directory docs
@@ -171,8 +200,8 @@ scraper/
   check.mjs         entry point
   lib/              normalize · html · trm · match · announce · streams · notify
   tools/            extract-titles · discover-streams
-  test/             all.mjs runs core + announce + streams
-recorder/           record.mjs · streams.json · install/
+  test/             all.mjs runs core + announce + streams + timing
+recorder/           record.mjs · timing.mjs · streams.json · install/
 ```
 
 MIT.

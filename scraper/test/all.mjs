@@ -17,6 +17,7 @@ const SUITES = [
   ['core        ', 'run.mjs'],
   ['announcements', 'announce.test.mjs'],
   ['streams     ', 'streams.test.mjs'],
+  ['rec. timing ', 'timing.test.mjs'],
 ];
 
 let failed = 0;

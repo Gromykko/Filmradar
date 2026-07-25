@@ -45,13 +45,10 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { resolveStream } from '../scraper/lib/streams.mjs';
+import { TZ, durationMins, planSlot } from './timing.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
-
-const TZ = 'Europe/Chisinau';
-const DAYS = { luni:1, 'marți':2, marti:2, miercuri:3, joi:4, vineri:5,
-               'sâmbătă':6, sambata:6, 'sîmbătă':6, 'duminică':7, duminica:7 };
 
 /* ------------------------------------------------------------------- args */
 function parseArgs(argv) {
@@ -62,6 +59,7 @@ function parseArgs(argv) {
     if (a === '--watch') o.watch = true;
     else if (a === '--list') o.list = true;
     else if (a === '--vlc') o.vlc = true;
+    else if (a === '--maybes') o.maybes = true;
     else if (a === '--ics') o.ics = true;
     else if (a === '--notify') o.notify = true;
     else if (a === '--dry-run') o.dryRun = true;
@@ -86,6 +84,10 @@ Filmradar recorder
   --list               print the upcoming recording plan and exit
   --now CHANNEL_ID     start recording a channel immediately
   --mins N             duration for --now (default 90)
+  --maybes             ALSO record untitled archive rubrics ("Moldova de
+                       patrimoniu", "Tezaur", "F.A.") — the slots where an
+                       unlisted heritage film is most likely to be hiding.
+                       Recurs most days, so expect false positives.
   --pad N              minutes of padding before/after   (default 3)
   --outdir DIR         output directory      (default ./recordings)
   --remote URL         poll a remote hits.json instead of the local file
@@ -133,43 +135,6 @@ async function loadHits() {
 async function loadSources() {
   const list = await loadJson(join(ROOT, 'data/sources.json'), []);
   return list.filter((s) => s.enabled !== false);
-}
-
-/** Current wall-clock parts in Chișinău, wherever this machine actually is. */
-function chisinauParts(date = new Date()) {
-  const p = new Intl.DateTimeFormat('en-GB', {
-    timeZone: TZ, weekday: 'long', hour: '2-digit', minute: '2-digit', hour12: false,
-  }).formatToParts(date);
-  const get = (t) => p.find((x) => x.type === t)?.value;
-  const wd = { Monday:1,Tuesday:2,Wednesday:3,Thursday:4,Friday:5,Saturday:6,Sunday:7 };
-  return { day: wd[get('weekday')], hour: +get('hour'), minute: +get('minute') };
-}
-
-/**
- * Milliseconds from now until the next occurrence of {weekday, HH:MM} in
- * Chișinău. Computed as a delta against Chișinău's own clock, so it stays
- * correct from any host timezone and across DST changes.
- */
-function msUntil(dayName, hhmm) {
-  const target = DAYS[String(dayName || '').toLowerCase()];
-  const [h, m] = String(hhmm || '').split(':').map(Number);
-  if (!target || !Number.isFinite(h) || !Number.isFinite(m)) return null;
-
-  const nowP = chisinauParts();
-  let dDays = target - nowP.day;
-  if (dDays < 0) dDays += 7;
-  let deltaMin = dDays * 1440 + (h * 60 + m) - (nowP.hour * 60 + nowP.minute);
-  if (deltaMin < -180) deltaMin += 7 * 1440; // comfortably past → next week
-  return deltaMin * 60_000;
-}
-
-function durationMins(h) {
-  if (!h.start || !h.end) return 90;
-  const [sh, sm] = h.start.split(':').map(Number);
-  const [eh, em] = h.end.split(':').map(Number);
-  let d = (eh * 60 + em) - (sh * 60 + sm);
-  if (d <= 0) d += 1440; // crosses midnight
-  return d;
 }
 
 /* --------------------------------------------------------------- ffmpeg check */
@@ -433,7 +398,18 @@ async function record(streamUrl, outFile, mins, label) {
 /* -------------------------------------------------------------------- main */
 async function planAndRun() {
   const hits = await loadHits();
-  const list = hits.current ?? [];
+  const list = [...(hits.current ?? [])];
+
+  // Rubric slots ("Moldova de patrimoniu", "Tezaur", "F.A.") name no film at
+  // all — and that is exactly where an unlisted archive title hides, which is
+  // the whole reason this project exists. Opt-in, because these rubrics recur
+  // most days: on by default they would fill the disk with folk-music shows.
+  if (opts.maybes) {
+    for (const m of hits.maybes ?? []) {
+      if (!m.start) continue; // news announcements carry no air time
+      list.push({ ...m, watched: m.slotTitle, speculative: true });
+    }
+  }
 
   if (!list.length) { log('Niciun titlu programat momentan.'); return; }
 
@@ -441,17 +417,27 @@ async function planAndRun() {
     const key = jobKey(h);
     if (active.has(key)) continue;
 
-    const ms = msUntil(h.dayName, h.start);
-    if (ms == null) { log(`⚠ nu pot calcula ora pentru „${h.watched}"`); continue; }
+    const plan = planSlot(h, { pad: opts.pad });
 
-    const startIn = ms - opts.pad * 60_000;
-    const mins = durationMins(h) + opts.pad * 2;
+    if (plan.skip) {
+      if (plan.reason === 'unparsable') {
+        log(`⚠ nu pot calcula ora pentru „${h.watched}"`);
+      } else if (opts.list) {
+        console.log(`  ⤫ ${h.watched} — ${h.channel} ${h.dayName} ${h.start} (deja difuzat)`);
+      }
+      continue;
+    }
+
+    const { ms, startIn, mins } = plan;
     const startsAt = new Date(Date.now() + ms);
     const when = startsAt.toLocaleString('ro-RO', { timeZone: TZ });
 
     if (opts.list) {
+      const eta = plan.late
+        ? `ÎN CURS, ${Math.round(plan.remainingMin)} min rămase`
+        : `peste ${(ms / 3600_000).toFixed(1)}h`;
       console.log(`  ${h.watched} — ${h.channel} ${h.dayName} ${h.start} `
-        + `(peste ${(ms / 3600_000).toFixed(1)}h, ${mins} min) → ${when}`);
+        + `(${eta}, ${mins} min) → ${when}`);
       continue;
     }
 

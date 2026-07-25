@@ -36,12 +36,15 @@ Grila e publicată pe zile (luni–duminică) chiar în pagina canalului.
 Rubricile în care apare de obicei: **„F.A." / „Film artistic", „Moldova de patrimoniu",
 „Tezaur", „Filmoteca"**.
 
-> ✅ **Am pus un task automat** care verifică zilnic, la 09:00, ambele grile TRM plus
-> secțiunea de știri, și te anunță dacă apare „Tunul de lemn".
-> (Se numește `tunul-de-lemn-tv-watch`, îl vezi în secțiunea *Scheduled* din bară.)
+> ✅ **Acest repo verifică automat**, la fiecare 30 de minute prin GitHub Actions, ambele
+> grile TRM plus fluxurile de știri, și te anunță (Telegram / e-mail) dacă apare
+> „Tunul de lemn" sau orice alt titlu din `data/watchlist.json`.
 
-**Notă:** task-urile programate rulează doar cât aplicația e deschisă. Dacă e închisă la
-ora respectivă, rulează la următoarea pornire.
+**Notă importantă despre preaviz.** TRM publică server-side **doar grila zilei curente** —
+zilele următoare se încarcă prin JavaScript, dintr-un endpoint care refuză cererile
+din afara paginii. Deci preavizul din grilă e de ore, nu de zile. De aceea contează la fel
+de mult *anunțurile* (Moldova-Film, TRM, Diez, Moldpres), care apar cu zile înainte, și
+de aceea recorder-ul poate porni singur — vezi `recorder/record.mjs`.
 
 ---
 
@@ -95,10 +98,11 @@ Peliculele sunt pe 35 mm și se degradează — de aici urgența.
 
 ## 5. Ce poți face concret, în ordinea efortului
 
-1. **Lasă task-ul automat să ruleze** — te anunță când apare în grilă.
+1. **Lasă radarul să ruleze** — Actions verifică la fiecare 30 min și te anunță când apare
+   în grilă; cu `node recorder/record.mjs --watch --maybes` înregistrează și singur.
 2. **Scrie la info@moldovafilm.md** — întreabă direct dacă versiunea restaurată se poate
    obține (copie digitală contra cost / licență / link de vizionare) și când e programată
-   următoarea difuzare TV. Vezi șablonul de mai jos.
+   următoarea difuzare TV.
 3. **Sună la +373 22 285 480** — răspund mai repede decât pe e-mail.
 4. **Cere ANA** să adauge filmul în playlistul public de pe YouTube — e fond de arhivă,
    au deja 27 de titluri acolo.
@@ -108,42 +112,11 @@ Peliculele sunt pe 35 mm și se degradează — de aici urgența.
 
 ---
 
-## 6. Șablon e-mail (RO)
-
-> **Către:** info@moldovafilm.md; administrare@moldovafilm.md
-> **Cc:** arhiva.gov.md (formular de contact)
-> **Subiect:** Solicitare — versiunea digitalizată a filmului „Tunul de lemn" (1986)
->
-> Stimată conducere a Studioului „Moldova-Film",
->
-> Mă adresez în legătură cu filmul artistic „Tunul de lemn" (1986, regia Vasile Brescanu,
-> scenariul Nicolae Esinencu), care face parte din patrimoniul cinematografic național.
->
-> În prezent, online circulă exclusiv copii de calitate foarte joasă, provenite din
-> înregistrări VHS/TV. Știu însă că filmul a fost restaurat și prezentat public în 2016,
-> la 30 de ani de la premieră.
->
-> Vă rog să-mi comunicați:
-> 1. dacă versiunea digitalizată/restaurată poate fi obținută de o persoană privată
->    (copie digitală contra cost, conform listei dvs. de prețuri) și în ce condiții;
-> 2. dacă există o difuzare TV programată pe Moldova 1 sau Moldova 2;
-> 3. dacă se are în vedere publicarea filmului pe un canal oficial online
->    (YouTube ANA, CINEMARON), așa cum s-a procedat cu alte titluri din arhivă.
->
-> Consider că un film de patrimoniu ar trebui să fie accesibil publicului într-o calitate
-> demnă de valoarea lui, iar în prezent singurele fragmente de bună calitate apar
-> sporadic pe rețele sociale.
->
-> Cu respect,
-> [nume] · [telefon] · alswatchs@yahoo.com
-
----
-
-## 7. Copii existente online (referință — toate de calitate slabă)
+## 6. Copii existente online (referință — toate de calitate slabă)
 
 Rip-uri vechi, listate doar ca punct de comparație, nu ca înlocuitor al versiunii restaurate:
 YouTube (mai multe încărcări), OK.ru, my.mail.ru, moldova-film.clan.su, ortodox.md.
 
 ---
 
-*Actualizat: 25 iulie 2026*
+*Actualizat: 26 iulie 2026*
