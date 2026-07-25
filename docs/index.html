@@ -339,17 +339,26 @@
       </div>
     </div>
 
-    <h2>3 · Faza următoare — înregistrare automată</h2>
-    <details>
-      <summary>Deschide VLC și înregistrează filmul la ora difuzării</summary>
+    <h2>3 · Înregistrare automată — se configurează o singură dată</h2>
+    <details open>
+      <summary>Înregistrează filmul singur, la ora difuzării</summary>
       <p class="meta">
         Repo-ul conține <code class="inline">recorder/record.mjs</code>: citește <code class="inline">data/hits.json</code>,
         așteaptă ora de start și pornește <code class="inline">ffmpeg</code> pe fluxul HLS al canalului,
         opțional deschizând și VLC ca să vezi în direct.
       </p>
-      <p class="meta">Pe PC sau VPS:</p>
-      <pre style="background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:11px;overflow:auto;font:12px var(--mono)">git clone &lt;repo&gt; &amp;&amp; cd tunuldelemn
-node recorder/record.mjs --watch --maybes --outdir ~/inregistrari</pre>
+      <p class="meta">Pe calculatorul tău (Windows), o singură dată:</p>
+      <pre style="background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:11px;overflow:auto;font:12px var(--mono)">winget install OpenJS.NodeJS.LTS
+winget install Gyan.FFmpeg
+
+node recorder\record.mjs --watch --maybes --outdir C:\Filmradar\recordings</pre>
+      <p class="hint">
+        Lasă comanda să ruleze. Verifică singură la fiecare 10 minute și pornește înregistrarea
+        la ora difuzării — nu trebuie să faci nimic în acel moment.
+        <strong>Dar calculatorul trebuie să fie pornit și să nu adoarmă:</strong>
+        <code class="inline">powercfg /change standby-timeout-ac 0</code>.
+        Un film la 08:30 e exact ora la care Windows ar fi adormit demult.
+      </p>
       <p class="hint">
         <strong>Fluxurile se rezolvă singure</strong> din pagina live a canalului (PeerTube) —
         la pornire și încă o dată chiar înainte de fiecare înregistrare, fiindcă adresele CDN

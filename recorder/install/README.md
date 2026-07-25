@@ -44,17 +44,63 @@ schtasks /create /tn "Filmradar Recorder" ^
   /sc onlogon /rl highest
 ```
 
-Note:
+Notă:
 
-- Înlocuiește calea din `/tr` cu calea reală unde ai clonat proiectul.
-- `/sc onlogon` pornește task-ul când te loghezi; pentru un server fără
+- Înlocuiește calea din `/tr` cu calea reală unde ai copiat proiectul.
+- `/sc onlogon` pornește sarcina când te loghezi; pentru un server fără
   utilizator logat permanent, folosește `/sc onstart` (rulează la pornirea
-  Windows, necesită drepturi de admin) în loc de `onlogon`.
-- Verifică task-ul creat: `schtasks /query /tn "Filmradar Recorder" /v /fo list`.
-- Șterge-l cu: `schtasks /delete /tn "Filmradar Recorder" /f`.
-- Ferestrele PowerShell/CMD deschise de Task Scheduler pot rămâne ascunse —
-  urmărește progresul din fișierele scrise în `--outdir`, sau adaugă
-  `--notify` cu un bot Telegram ca să primești mesaje de start/final.
+  Windows, necesită drepturi de administrator) în loc de `onlogon`.
+- Verifică sarcina creată: `schtasks /query /tn "Filmradar Recorder" /v /fo list`.
+- Șterge-o cu: `schtasks /delete /tn "Filmradar Recorder" /f`.
+
+### Trei lucruri care strică o instalare altfel corectă
+
+Fără ele pare că merge, și tace exact când conta.
+
+**1. Windows oprește sarcina după 72 de ore.** E valoarea implicită în Task
+Scheduler, iar `--watch` e menit să ruleze la nesfârșit. După trei zile se
+oprește fără eroare, fără repornire, fără nimic în jurnal. Dezactiveaz-o:
+
+```powershell
+$t = Get-ScheduledTask -TaskName "Filmradar Recorder"
+$t.Settings.ExecutionTimeLimit = "PT0S"    # fără limită de timp
+$t.Settings.RestartCount = 999
+$t.Settings.RestartInterval = "PT1M"       # repornește la un minut după o eroare
+Set-ScheduledTask -InputObject $t
+```
+
+Pe laptop, debifează și „Pornește sarcina doar dacă alimentarea e la rețea"
+din fila *Conditions*.
+
+**2. Nu vezi niciun mesaj.** Fereastra deschisă de Task Scheduler e ascunsă,
+deci fiecare linie de jurnal și fiecare eroare a ffmpeg dispar. Scrie-le
+într-un fișier — altfel o difuzare sărită („nu am niciun flux pentru
+canal") e complet invizibilă:
+
+```
+/tr "cmd.exe /c node.exe C:\cale\catre\proiect\recorder\record.mjs --watch --maybes --outdir C:\Filmradar\recordings >> C:\Filmradar\recorder.log 2>&1"
+```
+
+`--notify` prin Telegram ajută, dar nu înlocuiește jurnalul: te anunță doar
+la începutul și sfârșitul unei înregistrări, nu și atunci când una a fost
+sărită complet.
+
+**3. Calculatorul adoarme.** Un film la 08:30 e exact ora la care Windows a
+intrat demult în somn, iar înregistrarea moare acolo. Reconectarea din
+ffmpeg acoperă întreruperi de rețea de câteva secunde, nu o suspendare a
+sistemului:
+
+```
+powercfg /change standby-timeout-ac 0
+powercfg /change hibernate-timeout-ac 0
+```
+
+Ecranul poate să se stingă liniștit, nu contează. Revii oricând cu
+`powercfg /change standby-timeout-ac 30`.
+
+De reținut: nu există recuperare pentru o difuzare ratată. Dacă programul nu
+rula la ora respectivă, filmul e pierdut — sarcina programată e singura
+plasă de siguranță.
 
 ## Ambele platforme
 
