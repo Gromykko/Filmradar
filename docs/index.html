@@ -349,11 +349,21 @@
       </p>
       <p class="meta">Pe PC sau VPS:</p>
       <pre style="background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:11px;overflow:auto;font:12px var(--mono)">git clone &lt;repo&gt; &amp;&amp; cd tunuldelemn
-node recorder/record.mjs --watch --outdir ~/inregistrari</pre>
+node recorder/record.mjs --watch --maybes --outdir ~/inregistrari</pre>
       <p class="hint">
-        Fluxul HLS trebuie configurat o dată per canal în <code class="inline">recorder/streams.json</code> —
-        instrucțiuni de găsire în README. Înregistrarea e pentru uz personal (time-shifting)
-        dintr-o emisie liberă, neconditionată.
+        <strong>Fluxurile se rezolvă singure</strong> din pagina live a canalului (PeerTube) —
+        la pornire și încă o dată chiar înainte de fiecare înregistrare, fiindcă adresele CDN
+        se rotesc. <code class="inline">recorder/streams.json</code> e doar un cache de rezervă;
+        îl poți șterge oricând.
+      </p>
+      <p class="hint">
+        <code class="inline">--maybes</code> înregistrează și rubricile fără titlu de mai sus
+        („Moldova de patrimoniu”, „Tezaur”, „F.A.”) — exact sloturile în care un film de
+        patrimoniu poate sta nedetectabil. Se repetă aproape zilnic, deci vei prinde și
+        emisiuni care nu te interesează; ăsta e prețul ca să nu ratezi difuzarea care contează.
+      </p>
+      <p class="hint">
+        Înregistrarea e pentru uz personal (time-shifting) dintr-o emisie liberă, necondiționată.
       </p>
     </details>
   </section>
