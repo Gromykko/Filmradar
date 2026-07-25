@@ -22,7 +22,8 @@
  *   node recorder/record.mjs --watch --notify            Telegram ping on start/finish
  *
  * Options:
- *   --outdir DIR    where to write files      (default ./recordings)
+ *   --outdir DIR    where to write files      (default: the project's own
+ *                   recordings/ folder, regardless of where you run this from)
  *   --pad N         minutes of padding each side (default 3)
  *   --remote URL    poll a raw hits.json URL instead of the local file
  *                   e.g. https://raw.githubusercontent.com/USER/REPO/main/data/hits.json
@@ -52,7 +53,10 @@ const ROOT = resolve(__dirname, '..');
 
 /* ------------------------------------------------------------------- args */
 function parseArgs(argv) {
-  const o = { pad: 3, outdir: join(process.cwd(), 'recordings'), poll: 10 };
+  // Anchored to the project folder, NOT process.cwd(). Task Scheduler launches
+  // tasks from C:\Windows\System32, and a cwd-relative default would quietly
+  // scatter recordings there instead of somewhere you would ever look.
+  const o = { pad: 3, outdir: join(ROOT, 'recordings'), poll: 10 };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     const next = () => argv[++i];
@@ -89,7 +93,8 @@ Filmradar recorder
                        unlisted heritage film is most likely to be hiding.
                        Recurs most days, so expect false positives.
   --pad N              minutes of padding before/after   (default 3)
-  --outdir DIR         output directory      (default ./recordings)
+  --outdir DIR         output directory (default: the project's own
+                       recordings/ folder, wherever you run this from)
   --remote URL         poll a remote hits.json instead of the local file
   --poll N             minutes between polls (default 10)
   --vlc                also open VLC on the live stream when recording starts
