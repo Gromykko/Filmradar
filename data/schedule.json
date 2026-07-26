@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T11:35:07.921Z",
-  "updatedAtLocal": "26 iul. 2026, 14:35",
+  "updatedAt": "2026-07-26T12:43:53.364Z",
+  "updatedAtLocal": "26 iul. 2026, 15:43",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1982,6 +1982,17 @@
           "dayName": "duminică",
           "start": null,
           "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": null,
+          "end": null,
           "title": "Securitatea României este securitatea Moldovei",
           "filler": false,
           "announcement": true,
@@ -2057,17 +2068,6 @@
         {
           "day": 7,
           "dayName": "duminică",
-          "start": null,
-          "end": null,
-          "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
           "start": null,
           "end": null,
           "title": null,
@@ -2416,6 +2416,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cunoașteți povestea fierarului care a învățat meseria în armată și transformă fierul în artă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 15:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "România, trei drone doborâte în trei zile. Câte aparate au intrat ilegal în spațiul aerian",
           "filler": false,
           "news": true
@@ -2534,24 +2552,6 @@
           "start": null,
           "end": null,
           "title": "sâmbătă, 25 iulie 2026, 22:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Vara în culorile credinței: Atelier de pictură de icoane pentru copii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "sâmbătă, 25 iulie 2026, 21:00",
           "filler": false,
           "news": true
         },
@@ -2844,6 +2844,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Expoziția „Roger Ballen. Umbrele minții”, inaugurată la Muzeul Național de Artă al Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "BTA: Bear With Me” va avea premiera mondială la cea de-a 32-a ediție a Festivalului de Film de la Sarajevo, în august",
           "filler": false,
           "news": true
@@ -2872,15 +2881,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Festivalul Internațional de Film Transilvania a început la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Manuscrise, fotografii și amintiri despre Vladimir Beșleagă, reunite într-o expoziție la Muzeul Literaturii Române",
           "filler": false,
           "news": true
         },
@@ -2935,6 +2935,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Manuscrise, fotografii și amintiri despre Vladimir Beșleagă, reunite într-o expoziție la Muzeul Literaturii Române",
           "filler": false,
           "news": true
         },
@@ -3015,7 +3024,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Prioritățile ministrului Culturii, Dan Suruceanu: modele europene, susținerea artiștilor și o soluție pentru Filarmonica Națională",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -3024,7 +3033,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Prioritățile ministrului Culturii, Dan Suruceanu: modele europene, susținerea artiștilor și o soluție pentru Filarmonica Națională",
           "filler": false,
           "news": true
         },
@@ -3187,15 +3196,6 @@
           "start": null,
           "end": null,
           "title": "Descoperă Moldova cu #MOLDPRES // Căsuța copilăriei, construită într-un copac de peste 150 de ani la Palanca",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Tradițiile și obiceiurile de vară au prins viață la Telenești, în cadrul Festivalului „Hora Sânzienelor”",
           "filler": false,
           "news": true
         },
