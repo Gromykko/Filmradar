@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T17:40:10.477Z",
-  "updatedAtLocal": "26 iul. 2026, 20:40",
+  "updatedAt": "2026-07-26T19:31:46.903Z",
+  "updatedAtLocal": "26 iul. 2026, 22:31",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2048,7 +2048,7 @@
           "dayName": "duminică",
           "start": null,
           "end": null,
-          "title": "Securitatea României este securitatea Moldovei",
+          "title": null,
           "filler": false,
           "announcement": true,
           "channelId": null,
@@ -2059,7 +2059,7 @@
           "dayName": "duminică",
           "start": null,
           "end": null,
-          "title": null,
+          "title": "Securitatea României este securitatea Moldovei",
           "filler": false,
           "announcement": true,
           "channelId": null,
@@ -2137,7 +2137,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "CALM solicită intervenția autorităților și acuză abuzuri în reforma administrativ-teritorială",
+          "title": "Un bărbat a fost reținut la Comrat după ce a incendiat un automobil de serviciu al Poliției",
           "filler": false,
           "news": true
         },
@@ -2146,7 +2146,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "duminică, 26 iulie 2026, 16:00",
+          "title": "duminică, 26 iulie 2026, 21:19",
           "filler": false,
           "news": true
         },
@@ -2416,6 +2416,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Se caută cel mai puternic om. Gladiator Challenge Moldova devine competiție internațională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 21:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Onițcani, satul celor 100 de izvoare, în pericol să rămână fără apă",
           "filler": false,
           "news": true
@@ -2543,24 +2561,6 @@
           "start": null,
           "end": null,
           "title": "duminică, 26 iulie 2026, 12:58",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Dincolo de hartă, în suflet: Povestea basarabencei care nu-și uită rădăcinile",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 12:00",
           "filler": false,
           "news": true
         },
