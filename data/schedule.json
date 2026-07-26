@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T04:57:30.353Z",
-  "updatedAtLocal": "26 iul. 2026, 07:57",
+  "updatedAt": "2026-07-26T07:33:41.152Z",
+  "updatedAtLocal": "26 iul. 2026, 10:33",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1978,8 +1978,19 @@
           "kind": "tv"
         },
         {
-          "day": 6,
-          "dayName": "sâmbătă",
+          "day": 7,
+          "dayName": "duminică",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
           "start": null,
           "end": null,
           "title": null,
@@ -2049,17 +2060,6 @@
           "start": null,
           "end": null,
           "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": null,
-          "end": null,
-          "title": "Nu slăbiți peste noapte!",
           "filler": false,
           "announcement": true,
           "channelId": null,
@@ -2416,6 +2416,42 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Tragedie la Ungheni: O minoră de 17 ani a murit într-un accident cu ATV-ul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 10:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zelenski: Rusia pregătește un nou val de mobilizare și vrea încă 30.000 de soldați nord-coreeni",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 09:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Mitropolitul Basarabiei vorbește despre misiunea Bisericii și provocările prezentului",
           "filler": false,
           "news": true
@@ -2525,42 +2561,6 @@
           "start": null,
           "end": null,
           "title": "sâmbătă, 25 iulie 2026, 16:14",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Nu slăbiți peste noapte!” Medicul endocrinolog explică riscurile dietelor drastice",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "sâmbătă, 25 iulie 2026, 15:18",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Istoria unui gospodar care, chiar dacă și-a pierdut soția, continuă să-i ducă mai departe visul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "sâmbătă, 25 iulie 2026, 14:37",
           "filler": false,
           "news": true
         },
@@ -2862,6 +2862,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "BTA: Bear With Me” va avea premiera mondială la cea de-a 32-a ediție a Festivalului de Film de la Sarajevo, în august",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Miros de pâine caldă”. O expoziție despre istoria pâinii, deschisă la Muzeul Național de Istorie a Moldovei",
           "filler": false,
           "news": true
@@ -2890,15 +2899,6 @@
           "start": null,
           "end": null,
           "title": "Manuscrise, fotografii și amintiri despre Vladimir Beșleagă, reunite într-o expoziție la Muzeul Literaturii Române",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADMITERE 2026 // AMTAP oferă 240 de locuri bugetare la admiterea 2026. Înscrierile încep pe 27 iulie",
           "filler": false,
           "news": true
         },
@@ -2953,6 +2953,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ADMITERE 2026 // AMTAP oferă 240 de locuri bugetare la admiterea 2026. Înscrierile încep pe 27 iulie",
           "filler": false,
           "news": true
         },
@@ -3033,7 +3042,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Trecutul ascuns al capitalei, dezvăluit într-o expoziție la Muzeul Național de Istorie",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -3042,7 +3051,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Trecutul ascuns al capitalei, dezvăluit într-o expoziție la Muzeul Național de Istorie",
           "filler": false,
           "news": true
         },
@@ -3205,15 +3214,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Tradițiile și obiceiurile de vară au prins viață la Telenești, în cadrul Festivalului „Hora Sânzienelor”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Petre Ștefănucă, cercetătorul care a valorificat patrimoniul cultural al Basarabiei",
           "filler": false,
           "news": true
         },
