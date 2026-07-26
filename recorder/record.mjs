@@ -46,7 +46,7 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { resolveStream } from '../scraper/lib/streams.mjs';
-import { TZ, durationMins, planSlot } from './timing.mjs';
+import { TZ, durationMins, planSlot, todayNameRo } from './timing.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -68,6 +68,10 @@ function parseArgs(argv) {
     else if (a === '--notify') o.notify = true;
     else if (a === '--dry-run') o.dryRun = true;
     else if (a === '--now') o.now = next();
+    else if (a === '--channel') o.channel = next();
+    else if (a === '--from') o.from = next();
+    else if (a === '--to') o.to = next();
+    else if (a === '--day') o.day = next();
     else if (a === '--mins') o.mins = Number(next());
     else if (a === '--pad') o.pad = Number(next());
     else if (a === '--outdir') o.outdir = next();
@@ -80,13 +84,19 @@ function parseArgs(argv) {
 
 const opts = parseArgs(process.argv.slice(2));
 
-if (opts.help || (!opts.watch && !opts.list && !opts.now)) {
+if (opts.help || (!opts.watch && !opts.list && !opts.now && !(opts.channel && opts.from))) {
   console.log(`
 Filmradar recorder
 
   --watch              poll hits.json and record scheduled titles
   --list               print the upcoming recording plan and exit
-  --now CHANNEL_ID     start recording a channel immediately
+  --channel ID --from HH:MM [--to HH:MM] [--day luni…duminică]
+                       record ONE broadcast at its scheduled time. Times are
+                       Chișinău time, exactly as printed in the TV grid.
+                       Waits for the slot, joins late if it already started,
+                       refuses if it already ended. --day defaults to today.
+  --now CHANNEL_ID     start recording immediately (only for what is on air
+                       right now — for a later slot use --from above)
   --mins N             duration for --now (default 90)
   --maybes             ALSO record untitled archive rubrics ("Moldova de
                        patrimoniu", "Tezaur", "F.A.") — the slots where an
@@ -492,7 +502,78 @@ async function planAndRun() {
   }
 }
 
+/**
+ * One broadcast, given its slot times as printed in the TV grid.
+ *
+ *   --channel moldova-1 --from 14:45 --to 15:15 [--day sâmbătă]
+ *
+ * Times are Chișinău wall-clock, exactly as TRM lists them — no converting in
+ * your head. Waits for the slot, then records. This exists because the only
+ * manual option used to be --now, which starts instantly: aimed at a slot
+ * hours away it captured whatever happened to be on instead of the film.
+ *
+ * Handles all three cases through the same planner the watcher uses, so a
+ * slot already in progress is joined for its remaining runtime, and one that
+ * has finished says so rather than recording the wrong programme.
+ */
+async function recordOneSlot() {
+  const dayName = opts.day || todayNameRo();
+  const plan = planSlot({ dayName, start: opts.from, end: opts.to }, { pad: opts.pad });
+
+  if (plan.skip) {
+    if (plan.reason === 'aired') {
+      console.error(`✗ Emisiunea de ${dayName} ${opts.from}–${opts.to || '?'} s-a terminat deja.`);
+      console.error('  Pentru a înregistra ce e pe post chiar acum:');
+      console.error(`    node recorder/record.mjs --now ${opts.channel} --mins 60`);
+    } else {
+      console.error(`✗ Nu pot interpreta „${dayName} ${opts.from}". Folosește --from HH:MM și --day luni…duminică.`);
+    }
+    process.exit(1);
+  }
+
+  ensureFfmpeg();
+  const sources = await loadSources();
+  const src = sources.find((s) => s.id === opts.channel);
+  if (!src) {
+    console.error(`✗ Canal necunoscut: «${opts.channel}». Disponibile: ${sources.map((s) => s.id).join(', ')}`);
+    process.exit(1);
+  }
+
+  const startsAt = new Date(Date.now() + plan.ms);
+  const chis = startsAt.toLocaleString('ro-RO', { timeZone: TZ });
+  const here = startsAt.toLocaleString('ro-RO');
+  const both = chis === here ? chis : `${chis} (${here} la tine)`;
+
+  if (plan.late) {
+    log(`Emisiunea e ÎN CURS — intru acum, mai sunt ~${Math.round(plan.remainingMin)} min.`);
+  } else {
+    log(`Aștept ${both} — peste ${(plan.startIn / 60000).toFixed(0)} min. Lasă fereastra deschisă.`);
+  }
+  log(`Voi înregistra ${plan.mins} min de pe ${src.name} în ${opts.outdir}`);
+
+  await new Promise((go) => setTimeout(go, Math.max(0, plan.startIn)));
+
+  // Resolved only now: CDN addresses rotate between scheduling and air time.
+  const resolved = await resolveChannelUrl(opts.channel, src.live);
+  if (!resolved.url) {
+    console.error(`✗ Niciun flux disponibil pentru «${opts.channel}».`);
+    if (src.live) console.error(`  Deschide manual: ${src.live}`);
+    process.exit(1);
+  }
+  if (opts.vlc) openVlc(src.live || resolved.url);
+
+  const stamp = new Date().toISOString().slice(0, 10);
+  const out = join(opts.outdir, `${slug(`${opts.channel} ${dayName} ${opts.from}`)}_${stamp}.mp4`);
+  const proc = await record(resolved.url, out, plan.mins, `${src.name} ${opts.from}`);
+  if (proc) await new Promise((done) => proc.on('exit', done));
+}
+
 async function main() {
+  if (opts.channel && opts.from) {
+    await recordOneSlot();
+    return;
+  }
+
   if (opts.now) {
     ensureFfmpeg();
     const sources = await loadSources();

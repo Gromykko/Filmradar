@@ -13,7 +13,7 @@
  */
 
 import assert from 'node:assert/strict';
-import { msUntil, durationMins, planSlot } from '../../recorder/timing.mjs';
+import { msUntil, durationMins, planSlot, todayNameRo, DAY_NAMES } from '../../recorder/timing.mjs';
 
 let passed = 0;
 let failed = 0;
@@ -132,6 +132,29 @@ test('no end time: 90-min default still governs the aired/skip cut-off', () => {
   const live = planSlot({ dayName: 'duminică', start: '13:30', end: null }, { now: SUN_1400 });
   assert.equal(live.skip, false);
   assert.equal(live.late, true);
+});
+
+/* ------------------------------------------ one-off --from/--to plumbing */
+// The dashboard's record button emits --channel/--from/--to/--day. Its default
+// weekday must round-trip through the same table msUntil() parses, or a copied
+// command would fail on "unparsable" for no visible reason.
+
+test('todayNameRo returns a weekday msUntil can parse back', () => {
+  const name = todayNameRo(SUN_1400);
+  assert.equal(name, 'duminică');
+  assert.equal(min(msUntil(name, '16:00', SUN_1400)), 120);
+});
+
+test('every generated day name is understood by the planner', () => {
+  for (const [num, name] of Object.entries(DAY_NAMES)) {
+    const now = { day: Number(num), hour: 10, minute: 0 };
+    assert.equal(todayNameRo(now), name);
+    assert.equal(
+      planSlot({ dayName: name, start: '12:00', end: '13:00' }, { now }).skip,
+      false,
+      `${name} must plan, not fall through to unparsable`,
+    );
+  }
 });
 
 console.log(`\n  ${passed} passed, ${failed} failed\n`);

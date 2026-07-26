@@ -32,6 +32,9 @@
   .sub{color:var(--ink-2);font-size:13px;margin-top:3px;max-width:52ch}
   .stamp{font:12px/1.4 var(--mono);color:var(--ink-2);text-align:right}
   .tz-note{color:var(--accent);font-size:11px}
+  .copy-fallback{display:block;width:100%;margin-top:8px;padding:8px 10px;background:var(--bg);
+    border:1px solid var(--line);border-radius:6px;font:12px var(--mono);
+    color:var(--ink-1);user-select:all;overflow-x:auto;white-space:nowrap}
   .stamp .rel{color:var(--ink-2)}
 
   .tabs{display:flex;gap:2px;margin-bottom:20px;border-bottom:1px solid var(--line);flex-wrap:wrap;
@@ -532,18 +535,23 @@ function localSuffix(epoch){
    browsers cannot launch local programs, by design. So the honest version of
    a Record button is one that hands you the exact command, already filled in,
    ready to paste into a terminal. Duration is padded past the slot's end. */
-function recordCmd(channelId, start, end){
-  let mins = 90;
-  if(start && end){
-    let d = minutesOfDay(end) - minutesOfDay(start);
-    if(d <= 0) d += 24*60;
-    mins = d + 6;
-  }
-  return `node recorder/record.mjs --now ${channelId} --mins ${mins}`;
+/* The command describes the SLOT — channel, start, end, weekday — and the
+   recorder waits for it. It must never be "--now": that starts instantly, so
+   for a slot hours away it would record whatever happens to be on instead of
+   the film. One command form covers every case, because the recorder decides
+   what to do: wait, join a broadcast already running, or refuse one that has
+   finished. Times stay exactly as printed in the grid — Chișinău time — so
+   there is no timezone arithmetic to get wrong. */
+function recordCmd(channelId, start, end, dayName){
+  const parts = [`node recorder/record.mjs --channel ${channelId}`, `--from ${start}`];
+  if(end) parts.push(`--to ${end}`);
+  if(dayName) parts.push(`--day ${dayName}`);
+  return parts.join(' ');
 }
-function recordBtn(channelId, label, start, end){
-  const cmd = recordCmd(channelId, start, end);
-  return `<button class="btn sm" data-copy="${esc(cmd)}" title="Copiază comanda de înregistrare">⏺ Comandă de înregistrare</button>`;
+function recordBtn(channelId, start, end, dayName){
+  if(!channelId || !start) return '';
+  const cmd = recordCmd(channelId, start, end, dayName);
+  return `<button class="btn sm" data-copy="${esc(cmd)}" title="Copiază comanda — înregistrează la ora difuzării">⏺ Comandă de înregistrare</button>`;
 }
 
 function nowHHMM(){
@@ -858,6 +866,7 @@ function renderNow(){
           ${liveUrl?`<a class="btn primary lg" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Urmărește live</a>`:''}
           ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
           <button class="btn sm" data-ics='${esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}))}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
+          ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName)}
         </div>
       </div>`;
     }
@@ -875,6 +884,7 @@ function renderNow(){
         ${liveUrl?`<a class="btn primary" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Live</a>`:''}
         ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
         <button class="btn sm" data-ics='${esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}))}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
+        ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName)}
       </div>
     </div>`;
   }
@@ -916,7 +926,7 @@ function renderNow(){
         <div class="meta">${esc(m.channel)} · ${esc(whenStr(m))}${localSuffix(ep)} · <span class="pill">${esc(m.rubric||'')}</span></div>
         <div class="row">
           ${m.live ? `<a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a>` : ''}
-          ${m.channelId ? recordBtn(m.channelId, m.slotTitle, m.start, m.end) : ''}
+          ${recordBtn(m.channelId, m.start, m.end, m.dayName)}
         </div>
       </div>`;}).join('');
   }
@@ -932,13 +942,38 @@ function renderNow(){
 
   $$('[data-copy]').forEach(b=>b.onclick=async()=>{
     const cmd = b.dataset.copy;
+    let ok = false;
     try{
       await navigator.clipboard.writeText(cmd);
-      toast('Comandă copiată — lipește-o în terminal');
+      ok = true;
     }catch{
-      // Clipboard API needs a secure context and can be blocked outright;
-      // showing the command is still better than failing silently.
-      window.prompt('Copiază comanda:', cmd);
+      // The async Clipboard API needs a secure context and can be blocked
+      // outright. Fall back to the old execCommand path before giving up.
+      try{
+        const ta = document.createElement('textarea');
+        ta.value = cmd;
+        ta.setAttribute('readonly','');
+        ta.style.cssText = 'position:fixed;top:-1000px;opacity:0';
+        document.body.appendChild(ta);
+        ta.select();
+        ok = document.execCommand('copy');
+        ta.remove();
+      }catch{ ok = false; }
+    }
+    // Never prompt()/alert() here: a modal blocks the whole page, and this
+    // button sits on a card the user may be reading mid-broadcast. If copying
+    // fails, reveal the command inline so it can be selected by hand instead.
+    if(ok){
+      toast('Comandă copiată — lipește-o în terminal');
+    }else{
+      let out = b.parentElement.querySelector('.copy-fallback');
+      if(!out){
+        out = document.createElement('code');
+        out.className = 'copy-fallback';
+        b.parentElement.appendChild(out);
+      }
+      out.textContent = cmd;
+      toast('Nu am putut copia automat — selectează comanda de mai jos');
     }
   });
 }
@@ -1240,7 +1275,7 @@ $('#importBtn').onclick = ()=>{
     const parsed = JSON.parse(raw);
     if(!Array.isArray(parsed)) throw new Error('Trebuie să fie o listă');
     DATA.watchlist = parsed; saveLocal(); renderWatchlist(); toast('Importat');
-  }catch(e){ alert('JSON invalid: '+e.message); }
+  }catch(e){ toast('JSON invalid: '+e.message); }
 };
 
 $('#resetBtn').onclick = ()=>{
@@ -1274,7 +1309,7 @@ $('#testCfg').onclick = async ()=>{
   const {repo,token}=ghCfg();
   if(!repo||!token) return toast('Completează repo și token');
   try{ const r = await ghApi(`/repos/${repo}`); toast(`OK — ${r.full_name}`); }
-  catch(e){ alert(e.message); }
+  catch(e){ toast(e.message); }
 };
 
 $('#syncBtn').onclick = async ()=>{
@@ -1295,7 +1330,7 @@ $('#syncBtn').onclick = async ()=>{
                              content:b64, branch, ...(sha?{sha}:{}) })
     });
     toast('Sincronizat pe GitHub');
-  }catch(e){ alert('Sincronizare eșuată:\n'+e.message); }
+  }catch(e){ toast('Sincronizare eșuată: '+e.message); }
 };
 
 /* ── calendar (.ics) ──

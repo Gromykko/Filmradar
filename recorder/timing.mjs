@@ -17,6 +17,16 @@ export const DAYS = {
   'sâmbătă': 6, sambata: 6, 'sîmbătă': 6, 'duminică': 7, duminica: 7,
 };
 
+export const DAY_NAMES = {
+  1: 'luni', 2: 'marți', 3: 'miercuri', 4: 'joi',
+  5: 'vineri', 6: 'sâmbătă', 7: 'duminică',
+};
+
+/** Romanian name of today's weekday in Chișinău — the default for a one-off recording. */
+export function todayNameRo(now = chisinauParts()) {
+  return DAY_NAMES[now.day] ?? null;
+}
+
 /** Current wall-clock parts in Chișinău, wherever this machine actually is. */
 export function chisinauParts(date = new Date()) {
   const p = new Intl.DateTimeFormat('en-GB', {
