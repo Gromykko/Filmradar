@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T12:43:53.364Z",
-  "updatedAtLocal": "26 iul. 2026, 15:43",
+  "updatedAt": "2026-07-26T14:43:17.909Z",
+  "updatedAtLocal": "26 iul. 2026, 17:43",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1971,11 +1971,33 @@
           "dayName": "vineri",
           "start": null,
           "end": null,
-          "title": "Nu ne-am așteptat la o altă reacție",
+          "title": "Securitatea României este securitatea Moldovei",
           "filler": false,
           "announcement": true,
           "channelId": "moldova-2",
           "kind": "tv"
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 7,
+          "dayName": "duminică",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
         },
         {
           "day": 7,
@@ -2066,28 +2088,6 @@
           "kind": "screening"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": null,
-          "end": null,
-          "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": null,
-          "end": null,
-          "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
           "day": null,
           "dayName": null,
           "start": null,
@@ -2137,7 +2137,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Maia Sandu, după doborârea unei drone în România: „Securitatea României este securitatea Moldovei”",
+          "title": "CALM solicită intervenția autorităților și acuză abuzuri în reforma administrativ-teritorială",
           "filler": false,
           "news": true
         },
@@ -2146,7 +2146,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "duminică, 26 iulie 2026, 13:00",
+          "title": "duminică, 26 iulie 2026, 16:00",
           "filler": false,
           "news": true
         },
@@ -2317,6 +2317,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Maia Sandu, după doborârea unei drone în România: „Securitatea României este securitatea Moldovei”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Un mausoleu pentru eroii basarabeni din Primul Război Mondial va fi ridicat la Râșcani",
           "filler": false,
           "news": true
@@ -2336,15 +2345,6 @@
           "start": null,
           "end": null,
           "title": "Fratele lui Igor Dodon a pierdut în prima instanță procesul intentat împotriva SIS",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Igor Grosu, despre cazul ministrului Culturii: „Vom cere mai multe detalii”",
           "filler": false,
           "news": true
         },
@@ -2416,6 +2416,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Ambasadorul Rusiei, convocat la MAE după încălcările repetate ale spațiului aerian al României",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 17:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cunoașteți povestea fierarului care a învățat meseria în armată și transformă fierul în artă",
           "filler": false,
           "news": true
@@ -2444,6 +2462,15 @@
           "start": null,
           "end": null,
           "title": "duminică, 26 iulie 2026, 14:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 13:00",
           "filler": false,
           "news": true
         },
@@ -2516,42 +2543,6 @@
           "start": null,
           "end": null,
           "title": "duminică, 26 iulie 2026, 11:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zelenski: Rusia pregătește un nou val de mobilizare și vrea încă 30.000 de soldați nord-coreeni",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 09:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Mitropolitul Basarabiei vorbește despre misiunea Bisericii și provocările prezentului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "sâmbătă, 25 iulie 2026, 22:00",
           "filler": false,
           "news": true
         },
