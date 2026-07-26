@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T09:37:45.432Z",
-  "updatedAtLocal": "26 iul. 2026, 12:37",
+  "updatedAt": "2026-07-26T11:29:44.626Z",
+  "updatedAtLocal": "26 iul. 2026, 14:29",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1982,7 +1982,7 @@
           "dayName": "duminică",
           "start": null,
           "end": null,
-          "title": null,
+          "title": "Securitatea României este securitatea Moldovei",
           "filler": false,
           "announcement": true,
           "channelId": null,
@@ -2033,8 +2033,8 @@
           "kind": "screening"
         },
         {
-          "day": 6,
-          "dayName": "sâmbătă",
+          "day": 7,
+          "dayName": "duminică",
           "start": null,
           "end": null,
           "title": null,
@@ -2044,8 +2044,8 @@
           "kind": "screening"
         },
         {
-          "day": 6,
-          "dayName": "sâmbătă",
+          "day": 7,
+          "dayName": "duminică",
           "start": null,
           "end": null,
           "title": null,
@@ -2055,8 +2055,8 @@
           "kind": "screening"
         },
         {
-          "day": 6,
-          "dayName": "sâmbătă",
+          "day": 7,
+          "dayName": "duminică",
           "start": null,
           "end": null,
           "title": null,
@@ -2137,7 +2137,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "O nouă dronă, doborâtă de un F-16 românesc. Nicușor Dan acuză Rusia de încălcarea spațiului aerian",
+          "title": "Maia Sandu, după doborârea unei drone în România: „Securitatea României este securitatea Moldovei”",
           "filler": false,
           "news": true
         },
@@ -2146,7 +2146,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "duminică, 26 iulie 2026, 11:10",
+          "title": "duminică, 26 iulie 2026, 13:00",
           "filler": false,
           "news": true
         },
@@ -2416,6 +2416,42 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "România, trei drone doborâte în trei zile. Câte aparate au intrat ilegal în spațiul aerian",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 14:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cozi la ieșirea din Republica Moldova prin PTF Sculeni. Recomandări pentru călători",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 12:58",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Dincolo de hartă, în suflet: Povestea basarabencei care nu-și uită rădăcinile",
           "filler": false,
           "news": true
@@ -2426,6 +2462,24 @@
           "start": null,
           "end": null,
           "title": "duminică, 26 iulie 2026, 12:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O nouă dronă, doborâtă de un F-16 românesc. Nicușor Dan acuză Rusia de încălcarea spațiului aerian",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "duminică, 26 iulie 2026, 11:10",
           "filler": false,
           "news": true
         },
@@ -2498,51 +2552,6 @@
           "start": null,
           "end": null,
           "title": "sâmbătă, 25 iulie 2026, 21:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Chișinăul găzduiește o nouă ediție a Festivalului Internațional de Film Transilvania",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "sâmbătă, 25 iulie 2026, 20:20",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Lucrările la Muzeul Victimelor Deportărilor stagnează din lipsă de bani",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "sâmbătă, 25 iulie 2026, 19:40",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "sâmbătă, 25 iulie 2026, 19:00",
           "filler": false,
           "news": true
         },
@@ -2626,6 +2635,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Povestea unei femei care refuză să îmbătrânească și să joace după regulile societății. Ce citim pentru Clubul de carte din august",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "O expoziție imersivă urmează să fie inaugurată la Galeria PLAI. Ce reprezintă și până când va putea fi vizitată",
           "filler": false,
           "news": true
@@ -2698,7 +2716,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cât timp pe zi dedică lecturii cei mai activi cititori și de ce fetele citesc mai mult decât băieții",
+          "title": "(video) Pregătește popcornul! Patru filme pe care le poți viziona în premieră la cinematografele Cineplex pe 30 iulie și 6 august",
           "filler": false,
           "news": true
         },
@@ -2707,7 +2725,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Petrece 10 zile în Polonia, la o vizită de studiu gratuită. Studenții activi sunt încurajați să se înscrie",
+          "title": "Ultima lună de vară începe cu vreme călduroasă. Ce temperaturi ne așteaptă în perioada 27 iulie – 2 august",
           "filler": false,
           "news": true
         },
@@ -2716,7 +2734,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Bryan Adams vine pentru prima dată în Republica Moldova. Cât costă biletele",
+          "title": "Au început înscrierile la programul de stagii Blue Book. Tinerii pot lucra la sediul Comisiei Europene din Bruxelles sau Luxemburg",
           "filler": false,
           "news": true
         },
@@ -2725,7 +2743,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "The Rasmus revine în Moldova în martie 2027, cu noul album „WEIRDO” și cele mai mari hituri",
+          "title": "La ce etapă se află renovarea școlilor-model și care liceu din Chișinău va fi restaurat primul",
           "filler": false,
           "news": true
         },
@@ -2734,7 +2752,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Nova Lines susține tinerii specialiști în cadrul programului național UPSKILL Moldova",
+          "title": "Lista facultăților din Moldova care oferă programe de studii în limba engleză",
           "filler": false,
           "news": true
         },
@@ -2743,7 +2761,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Poliția, acuzată de blamarea victimei într-un comunicat oficial: „Atâtea solicitări vin și exact acest caz a ajuns pe Facebook”",
+          "title": "Cât costă să stai în căminele USM pe timpul verii și cine poate fi cazat acolo",
           "filler": false,
           "news": true
         },
@@ -2752,7 +2770,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lista universităților din Moldova care au programe de învățământ dual",
+          "title": "Care sunt domeniile de importanță strategică pentru Republica Moldova și unde pot fi studiate",
           "filler": false,
           "news": true
         },
@@ -2761,25 +2779,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Salariul profesorilor va constitui 120 % din salariul mediu pe economie? Ce promite Vasile Tofan pentru educație",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "(doc) Vasile Tofan și-a prezentat programul de guvernare. Documentul are 147 de pagini",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "S-a copiat mai mult în sesiunea suplimentară decât în cea de bază? 34 de elevi, eliminați de la examenul din clasa a IX-a",
+          "title": "În premieră, Codul educației va permite universităților să majoreze contractele studenților deja admiși",
           "filler": false,
           "news": true
         },
