@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T20:34:02.362Z",
-  "updatedAtLocal": "26 iul. 2026, 23:33",
+  "updatedAt": "2026-07-26T21:36:12.619Z",
+  "updatedAtLocal": "27 iul. 2026, 00:36",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10,56 +10,47 @@
       "schedule": "https://trm.md/ro/moldova-1",
       "ok": true,
       "error": null,
-      "warning": null,
+      "warning": "Only 6 slots parsed (expected at least 8) — extraction may be partially broken.",
       "slots": [
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "01:00",
+          "day": 1,
+          "dayName": "luni",
+          "start": "00:00",
+          "end": "00:50",
+          "title": "Show-ul central. Program de divertisment",
+          "filler": false,
+          "dayAssumed": true
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "00:50",
           "end": "01:40",
-          "title": "La noi în sat",
+          "title": "Raioane. Program de divertisment",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "01:40",
-          "end": "02:40",
-          "title": "O seară în familie",
+          "end": "03:30",
+          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "02:40",
-          "end": "03:10",
-          "title": "Всегда на высоте",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "03:10",
-          "end": "03:38",
-          "title": "Made in Germany. DW Germania",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "03:38",
+          "day": 1,
+          "dayName": "luni",
+          "start": "03:30",
           "end": "03:50",
-          "title": "Shift. DW Germania",
+          "title": "Chișinăul românesc. Arhitectura Chișinăului interbelic",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "03:50",
           "end": "05:15",
           "title": "Live studio. Program de divertisment",
@@ -67,453 +58,12 @@
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "05:15",
           "end": "05:58",
-          "title": "Mesager. Program informativ + știri sportive",
+          "title": "Mesager. Program informativ+știri sportive",
           "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "05:58",
-          "end": "06:00",
-          "title": "Deschiderea stației",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "06:00",
-          "end": "06:55",
-          "title": "Live studio. Program de divertisment",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "06:55",
-          "end": "07:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "07:00",
-          "end": "07:30",
-          "title": "Live studio. Program de divertisment",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "07:30",
-          "end": "07:40",
-          "title": "Să luăm aminte",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "07:40",
-          "end": "08:25",
-          "title": "Cuvintele credinței",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "08:25",
-          "end": "08:30",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "08:30",
-          "end": "09:00",
-          "title": "Moldova de patrimoniu",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "09:00",
-          "end": "09:30",
-          "title": "Zuper show",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "09:30",
-          "end": "09:32",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "09:32",
-          "end": "10:20",
-          "title": "Strumfii. Desen animat. Belgia, 2023 ep. 89,90,91,92",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "10:20",
-          "end": "11:11",
-          "title": "Frații elefanților. Documentar. Franța, 2015",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "11:11",
-          "end": "11:15",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "11:15",
-          "end": "12:15",
-          "title": "O seară în familie",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "12:15",
-          "end": "12:20",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "12:20",
-          "end": "13:00",
-          "title": "Zi de bine -magazin utilitar!",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "13:00",
-          "end": "13:05",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "13:05",
-          "end": "13:50",
-          "title": "Zi de bine -magazin utilitar!",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "13:50",
-          "end": "13:55",
-          "title": "secvente japoneze",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "13:55",
-          "end": "14:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:00",
-          "end": "14:40",
-          "title": "Pământ și oameni",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:40",
-          "end": "14:45",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:45",
-          "end": "15:15",
-          "title": "Tezaur",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "15:15",
-          "end": "15:20",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "15:20",
-          "end": "15:55",
-          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "15:55",
-          "end": "16:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "16:00",
-          "end": "16:55",
-          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "16:55",
-          "end": "17:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "17:00",
-          "end": "17:25",
-          "title": "Departe / Aproape",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "17:25",
-          "end": "17:30",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "17:30",
-          "end": "17:55",
-          "title": "Focus Europa. Coproducție TRM-DW",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "17:55",
-          "end": "18:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:00",
-          "end": "18:25",
-          "title": "Vector European",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:25",
-          "end": "18:30",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:30",
-          "end": "18:55",
-          "title": "Cultura",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:55",
-          "end": "19:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "19:00",
-          "end": "19:10",
-          "title": "Știri",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "19:10",
-          "end": "19:15",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "19:15",
-          "end": "20:05",
-          "title": "Armata romanticilor. Ep.1, Documentar. Franța,2024",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "20:05",
-          "end": "20:30",
-          "title": "Raioane. Program de divertisment",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "20:30",
-          "end": "20:35",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "20:35",
-          "end": "20:55",
-          "title": "Raioane. Program de divertisment",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "20:55",
-          "end": "21:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "21:00",
-          "end": "21:30",
-          "title": "Mesager. Program informativ",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "21:30",
-          "end": "21:35",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "21:35",
-          "end": "21:45",
-          "title": "Știri sportive",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "21:45",
-          "end": "21:50",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "21:50",
-          "end": "23:56",
-          "title": "Neguțătorul din Veneția. Dramă. UK. 2004",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "23:56",
-          "end": "00:00",
-          "title": "PUBLICITATE",
-          "filler": true,
           "dayAssumed": true
         }
       ]
@@ -528,398 +78,110 @@
       "warning": null,
       "slots": [
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "01:00",
-          "end": "01:25",
-          "title": "Orologiu sentimental. Valeria Grosu",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "01:25",
-          "end": "02:45",
-          "title": "DesCoperă. Opera Carmen",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "02:45",
-          "end": "03:10",
-          "title": "DW Arts",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "03:10",
-          "end": "03:35",
-          "title": "DW Euromaxx",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "03:35",
-          "end": "04:05",
-          "title": "Portrete în timp. P. Baracci",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "04:05",
-          "end": "05:55",
-          "title": "Spectacol. Intre noi e totul bine",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "05:55",
-          "end": "06:00",
-          "title": "Necuvintele",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "05:58",
-          "end": "06:00",
-          "title": "Deschiderea Statiei",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "06:00",
-          "end": "08:00",
-          "title": "Hai la hora mare. Nicolae Botgros",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "08:00",
-          "end": "08:30",
-          "title": "Dor. Muzică din prima jumatate a sec.XX",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "08:30",
-          "end": "08:35",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "08:35",
-          "end": "08:40",
-          "title": "Necuvintele",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "08:40",
-          "end": "10:00",
-          "title": "F.D. Patimile după Iurie",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "10:00",
-          "end": "11:00",
+          "day": 1,
+          "dayName": "luni",
+          "start": "00:10",
+          "end": "01:10",
           "title": "In memoriam. Angela Păduraru",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "11:00",
-          "end": "11:05",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "11:05",
-          "end": "11:55",
-          "title": "Spectacol. Hanuma P.2",
+          "day": 1,
+          "dayName": "luni",
+          "start": "01:10",
+          "end": "01:15",
+          "title": "Necuvintele",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "11:55",
-          "end": "12:20",
-          "title": "SoArta. Ion Hadârcă",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "12:20",
-          "end": "12:25",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "12:25",
-          "end": "13:45",
-          "title": "Concertino Acordeon Band & Kayser Band Bolero",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "13:45",
-          "end": "13:50",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "13:50",
-          "end": "14:00",
-          "title": "Text și muzică. Nicu Țărnă",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:00",
-          "end": "14:25",
-          "title": "DW Arts",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:25",
-          "end": "14:30",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:30",
-          "end": "14:55",
-          "title": "DW Euromaxx",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:55",
-          "end": "15:00",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "15:00",
-          "end": "15:30",
-          "title": "Artelier. E.Romanescu la 80 de ani",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "15:30",
-          "end": "16:00",
-          "title": "Concert. Mahaya",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "16:00",
-          "end": "16:10",
-          "title": "F.D Jocurile copilariei noastre",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "16:10",
-          "end": "16:40",
+          "day": 1,
+          "dayName": "luni",
+          "start": "01:15",
+          "end": "01:45",
           "title": "Proiect. Alexandru Cosmescu",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "16:40",
-          "end": "16:45",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "16:45",
-          "end": "17:00",
+          "day": 1,
+          "dayName": "luni",
+          "start": "01:45",
+          "end": "02:05",
           "title": "Chișinăul de ieri și de azi. Valea Morilor",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "17:00",
-          "end": "17:55",
-          "title": "Evantai folcloric",
+          "day": 1,
+          "dayName": "luni",
+          "start": "02:05",
+          "end": "02:30",
+          "title": "DW Arts",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "17:55",
-          "end": "18:00",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:00",
-          "end": "18:30",
-          "title": "Tezaur",
+          "day": 1,
+          "dayName": "luni",
+          "start": "02:30",
+          "end": "02:55",
+          "title": "DW Euromaxx",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:30",
-          "end": "19:00",
-          "title": "Moldova de patrimoniu",
+          "day": 1,
+          "dayName": "luni",
+          "start": "02:55",
+          "end": "03:05",
+          "title": "Text și muzică. Nicu Țărnă",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "19:00",
-          "end": "19:05",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "19:05",
-          "end": "19:25",
-          "title": "Portrete în timp. Vlad Bulat",
+          "day": 1,
+          "dayName": "luni",
+          "start": "03:05",
+          "end": "03:35",
+          "title": "Concert. Mahaya",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "19:25",
-          "end": "19:30",
-          "title": "Publicitate",
-          "filler": true,
+          "day": 1,
+          "dayName": "luni",
+          "start": "03:35",
+          "end": "04:05",
+          "title": "Artelier. E.Romanescu la 80 de ani",
+          "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "19:30",
-          "end": "20:30",
-          "title": "Telefilm prezintă. F.D. \"Plugarii\"",
-          "filler": true,
+          "day": 1,
+          "dayName": "luni",
+          "start": "04:05",
+          "end": "05:25",
+          "title": "Concertino Acordion Band & Kayser Band Bolero",
+          "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "20:30",
-          "end": "21:00",
+          "day": 1,
+          "dayName": "luni",
+          "start": "05:25",
+          "end": "05:55",
           "title": "Dor. Surorile Ciorici",
           "filler": false,
           "dayAssumed": true
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "21:00",
-          "end": "21:55",
-          "title": "F.D. Legendele Nordului (Legendele Europei, ep. 2)",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "21:55",
-          "end": "22:00",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "22:00",
-          "end": "23:10",
-          "title": "Spectacol. O zi din viața lui Helen",
-          "filler": false,
-          "dayAssumed": true
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "23:10",
-          "end": "00:10",
-          "title": "Eurovision Classical Concerts: WDR Symphony Orchestra.",
+          "day": 1,
+          "dayName": "luni",
+          "start": "05:55",
+          "end": "06:00",
+          "title": "Necuvintele",
           "filler": false,
           "dayAssumed": true
         }
