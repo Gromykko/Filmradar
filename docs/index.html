@@ -30,7 +30,8 @@
   h1{font-size:21px;margin:0;letter-spacing:-.2px}
   h1 span{color:var(--accent)}
   .sub{color:var(--ink-2);font-size:13px;margin-top:3px;max-width:52ch}
-  .stamp{font:12px/1.4 var(--mono);color:var(--ink-3);text-align:right}
+  .stamp{font:12px/1.4 var(--mono);color:var(--ink-2);text-align:right}
+  .tz-note{color:var(--accent);font-size:11px}
   .stamp .rel{color:var(--ink-2)}
 
   .tabs{display:flex;gap:2px;margin-bottom:20px;border-bottom:1px solid var(--line);flex-wrap:wrap;
@@ -504,6 +505,47 @@ function endEpochFor(startEpoch, start, end){
   if(diff <= 0) diff += 24*60; // crosses midnight
   return startEpoch + diff*60000;
 }
+/* ─────────────────────────────────────────────────── viewer-local time
+   TRM publishes every time in Chișinău wall-clock. Someone watching from
+   another country reading "12:00" will set an alarm for their own 12:00 and
+   miss the film by however many hours the offset is. So wherever a time is
+   shown, show what it is where the reader actually is — but only when that
+   genuinely differs, so a viewer in Moldova sees no redundant clutter. */
+const VIEWER_TZ = (() => {
+  try { return Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch { return ''; }
+})();
+const hhmmLocal = new Intl.DateTimeFormat('ro-RO', { hour:'2-digit', minute:'2-digit' });
+const hhmmChis  = new Intl.DateTimeFormat('ro-RO', { hour:'2-digit', minute:'2-digit', timeZone: TZ });
+function localTimeStr(epoch){ return hhmmLocal.format(new Date(epoch)); }
+/** True when the reader's clock shows a different time than Chișinău's. */
+function offsetFromChisinau(epoch){
+  return epoch!=null && hhmmLocal.format(new Date(epoch)) !== hhmmChis.format(new Date(epoch));
+}
+/** " · 11:00 la tine" — appended to a Moldova time, or "" when they agree. */
+function localSuffix(epoch){
+  if(!offsetFromChisinau(epoch)) return '';
+  return ` · <strong>${esc(localTimeStr(epoch))}</strong> la tine`;
+}
+
+/* ─────────────────────────────────────────────── "record this" command
+   A page served from GitHub Pages cannot start ffmpeg on your machine —
+   browsers cannot launch local programs, by design. So the honest version of
+   a Record button is one that hands you the exact command, already filled in,
+   ready to paste into a terminal. Duration is padded past the slot's end. */
+function recordCmd(channelId, start, end){
+  let mins = 90;
+  if(start && end){
+    let d = minutesOfDay(end) - minutesOfDay(start);
+    if(d <= 0) d += 24*60;
+    mins = d + 6;
+  }
+  return `node recorder/record.mjs --now ${channelId} --mins ${mins}`;
+}
+function recordBtn(channelId, label, start, end){
+  const cmd = recordCmd(channelId, start, end);
+  return `<button class="btn sm" data-copy="${esc(cmd)}" title="Copiază comanda de înregistrare">⏺ Comandă de înregistrare</button>`;
+}
+
 function nowHHMM(){
   const p = chisinauPartsAt(Date.now());
   return `${String(p.hh).padStart(2,'0')}:${String(p.mm).padStart(2,'0')}`;
@@ -574,7 +616,14 @@ function updateStamp(){
     return;
   }
   const iso = DATA.schedule.updatedAt;
-  el.innerHTML = `<span class="rel">${esc(relTime(iso))}</span><br>${esc(DATA.schedule.updatedAtLocal||'')}`;
+  const now = Date.now();
+  // Spell out the offset once, at the top, rather than relying on the reader
+  // noticing every per-slot "la tine" badge. Reading a Moldovan grid from
+  // another country and assuming the times are yours is a whole-hour mistake.
+  const tzNote = offsetFromChisinau(now)
+    ? `<br><span class="tz-note">orele de mai jos = ora Moldovei · la tine e ${esc(localTimeStr(now))}</span>`
+    : '';
+  el.innerHTML = `<span class="rel">${esc(relTime(iso))}</span><br>${esc(DATA.schedule.updatedAtLocal||'')}${tzNote}`;
 }
 
 /* ══════════════════════════════════════════════════════════ announcement parser
@@ -800,7 +849,7 @@ function renderNow(){
       return `<div class="hero"${startAttr}${endAttr}>
         <div class="kicker">Detectat acum ${tag}${assumedTag}</div>
         <h2 class="title">${esc(title)}</h2>
-        <div class="meta"><strong>${esc(channelName)}</strong> · ${esc(when)}
+        <div class="meta"><strong>${esc(channelName)}</strong> · ${esc(when)}${localSuffix(it.startEpoch)}
           ${!isAnn && it.h.confidence!=null?`<span class="pill pri" style="margin-left:6px">${it.h.confidence}</span>`:''}</div>
         ${!isAnn?`<div class="meta" style="margin-top:2px">listat ca: <code>${esc(it.h.slotTitle)}</code></div>`:
                   `<div class="meta" style="margin-top:2px">${[it.a.year,it.a.director].filter(Boolean).map(esc).join(' · ')}</div>`}
@@ -816,7 +865,7 @@ function renderNow(){
     return `<div class="${cardClasses}"${startAttr}${endAttr}>
       <h3>${esc(title)} ${tag}${assumedTag}</h3>
       <div class="meta">
-        <strong>${esc(channelName)}</strong> · ${esc(when)}
+        <strong>${esc(channelName)}</strong> · ${esc(when)}${localSuffix(it.startEpoch)}
         ${!isAnn && it.h.confidence!=null?`<span class="pill pri" style="margin-left:6px">${it.h.confidence}</span>`:''}
       </div>
       ${!isAnn?`<div class="meta" style="margin-top:4px">listat ca: <code>${esc(it.h.slotTitle)}</code></div>`:
@@ -859,12 +908,17 @@ function renderNow(){
       if(!a.start !== !b.start) return a.start ? -1 : 1;
       return String(a.start||'').localeCompare(String(b.start||''));
     });
-    html += maybesSorted.slice(0,25).map(m=>`
+    html += maybesSorted.slice(0,25).map(m=>{
+      const ep = (m.day && m.start) ? nextWeekdayOccurrence(m.day, m.start) : null;
+      return `
       <div class="card maybe">
         <h3 style="font-size:15px">${esc(m.slotTitle)}</h3>
-        <div class="meta">${esc(m.channel)} · ${esc(whenStr(m))} · <span class="pill">${esc(m.rubric||'')}</span></div>
-        ${m.live ? `<div class="row"><a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a></div>` : ''}
-      </div>`).join('');
+        <div class="meta">${esc(m.channel)} · ${esc(whenStr(m))}${localSuffix(ep)} · <span class="pill">${esc(m.rubric||'')}</span></div>
+        <div class="row">
+          ${m.live ? `<a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a>` : ''}
+          ${m.channelId ? recordBtn(m.channelId, m.slotTitle, m.start, m.end) : ''}
+        </div>
+      </div>`;}).join('');
   }
 
   el.innerHTML = html;
@@ -874,6 +928,18 @@ function renderNow(){
     const startEpoch = b.dataset.icsEpoch ? +b.dataset.icsEpoch : null;
     const endEpoch = b.dataset.icsEnd ? +b.dataset.icsEnd : null;
     downloadICS({ ...meta, startEpoch, endEpoch });
+  });
+
+  $$('[data-copy]').forEach(b=>b.onclick=async()=>{
+    const cmd = b.dataset.copy;
+    try{
+      await navigator.clipboard.writeText(cmd);
+      toast('Comandă copiată — lipește-o în terminal');
+    }catch{
+      // Clipboard API needs a secure context and can be blocked outright;
+      // showing the command is still better than failing silently.
+      window.prompt('Copiază comanda:', cmd);
+    }
   });
 }
 

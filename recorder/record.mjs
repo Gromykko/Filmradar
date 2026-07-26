@@ -436,13 +436,19 @@ async function planAndRun() {
     const { ms, startIn, mins } = plan;
     const startsAt = new Date(Date.now() + ms);
     const when = startsAt.toLocaleString('ro-RO', { timeZone: TZ });
+    // TRM publishes Chișinău wall time. Run this from another country and a
+    // bare "08:30" is an invitation to be an hour late — so when the machine's
+    // own clock disagrees, show both. (The scheduling itself is unaffected:
+    // it works off a delta against Chișinău's clock, not the local one.)
+    const local = startsAt.toLocaleString('ro-RO');
+    const whenBoth = local === when ? when : `${when} (${local} la tine)`;
 
     if (opts.list) {
       const eta = plan.late
         ? `ÎN CURS, ${Math.round(plan.remainingMin)} min rămase`
         : `peste ${(ms / 3600_000).toFixed(1)}h`;
       console.log(`  ${h.watched} — ${h.channel} ${h.dayName} ${h.start} `
-        + `(${eta}, ${mins} min) → ${when}`);
+        + `(${eta}, ${mins} min) → ${whenBoth}`);
       continue;
     }
 
