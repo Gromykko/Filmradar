@@ -2,9 +2,12 @@ name: Check TV schedules
 
 on:
   schedule:
-    # Every 30 minutes. GitHub queues cron jobs on a best-effort basis and can
-    # delay them under load, so treat this as "roughly half-hourly".
-    - cron: '*/30 * * * *'
+    # Twice an hour, deliberately NOT on :00/:30. GitHub queues scheduled runs
+    # best-effort and the top and half of the hour are when everybody else's
+    # crons pile in, so those slots get delayed the worst — observed gaps of
+    # 1-4 hours against a '*/30' schedule. An odd offset gets picked up sooner.
+    # Still best-effort: treat it as "about twice an hour", never a guarantee.
+    - cron: '7,37 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -62,6 +65,13 @@ jobs:
           fi
 
       - name: Commit updated data
+        # Runs even when the check step failed. Failure is now a deliberate
+        # signal (a broken Moldova 1/2 parser, or notifications not being
+        # delivered) — but the run still produced data worth keeping, and the
+        # per-run commit is also what stops GitHub disabling this cron after
+        # 60 days of repo inactivity. Without always(), the very outage the
+        # red run is warning about would also silence the schedule entirely.
+        if: always()
         run: |
           git config user.name  "filmradar[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

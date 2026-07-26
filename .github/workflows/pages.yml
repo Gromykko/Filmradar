@@ -7,6 +7,15 @@ on:
       - 'docs/**'
       - 'data/**'
       - '.github/workflows/pages.yml'
+  # The scheduled check commits data/ using the default GITHUB_TOKEN, and
+  # GitHub deliberately does NOT fire workflows from such pushes (it is how
+  # they stop a workflow re-triggering itself forever). So the push trigger
+  # above never sees the half-hourly data commits, and the dashboard would
+  # sit frozen on the last human push while the repo data moved on without
+  # it. Redeploying after every check run is what keeps the site live.
+  workflow_run:
+    workflows: ['Check TV schedules']
+    types: [completed]
   workflow_dispatch:
 
 permissions:
