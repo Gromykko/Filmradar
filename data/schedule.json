@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-27T11:37:17.465Z",
-  "updatedAtLocal": "27 iul. 2026, 14:37",
+  "updatedAt": "2026-07-27T13:58:08.704Z",
+  "updatedAtLocal": "27 iul. 2026, 16:58",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7911,6 +7911,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Petrocub Hânceşti îşi continuă seria neagră din debutul acestui sezon competiţional",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cristiano Ronaldo pleacă de la Manchester United",
           "filler": false,
           "news": true
@@ -7957,15 +7966,6 @@
           "start": null,
           "end": null,
           "title": "Super-starul portughez Cristiano Ronaldo, declaraţii incendiare: „M-am simţit trădat” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Vitalie Damaşcan a marcat al cincilea său gol în actuala ediţie de campionat a SuperLigii româneşti de fotbal (VIDEO)",
           "filler": false,
           "news": true
         },
@@ -11431,6 +11431,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // Petru Baracci, legenda scenei și filmului moldovenesc",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Expoziția „Roger Ballen. Umbrele minții”, inaugurată la Muzeul Național de Artă al Moldovei",
           "filler": false,
           "news": true
@@ -11459,15 +11468,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Peste 160 de documente din opera lui Vasile Vasilache și Vladimir Beșleagă, expuse la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Festivalul Internațional de Film Transilvania a început la Chișinău",
           "filler": false,
           "news": true
         },
@@ -11522,6 +11522,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Festivalul Internațional de Film Transilvania a început la Chișinău",
           "filler": false,
           "news": true
         },
@@ -11602,7 +11611,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Patrimoniul cultural al Republicii Moldova, descoperit de fiica președintei Indiei în timpul vizitei la Chișinău",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -11611,7 +11620,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Patrimoniul cultural al Republicii Moldova, descoperit de fiica președintei Indiei în timpul vizitei la Chișinău",
           "filler": false,
           "news": true
         },
