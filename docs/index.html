@@ -882,6 +882,7 @@ function renderNow(){
         <strong>${esc(channelName)}</strong> · ${esc(when)}${localSuffix(it.startEpoch)}
         ${!isAnn && it.h.confidence!=null?`<span class="pill pri" style="margin-left:6px">${it.h.confidence}</span>`:''}
       </div>
+      ${!isAnn && it.h.shortForFeature?`<div class="meta" style="margin-top:4px;color:var(--accent)">⚠ slot scurt — probabil o emisiune <em>despre</em> film, nu filmul întreg</div>`:''}
       ${!isAnn?`<div class="meta" style="margin-top:4px">listat ca: <code>${esc(it.h.slotTitle)}</code></div>`:
                 `<div class="meta" style="margin-top:4px">${[it.a.year,it.a.director].filter(Boolean).map(esc).join(' · ')}</div>`}
       <div class="meta countdown-text" style="margin-top:6px;font-weight:600;color:${it._desc.live?'var(--ok)':'var(--accent)'}">${esc(it._desc.text)}</div>

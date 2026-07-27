@@ -142,6 +142,9 @@ export function buildTelegramMessage({ hits, maybes, watchCount, runAt }) {
       );
       lines.push(`📺 ${escapeHtml(h.channel)} · ${escapeHtml(when)}`);
       lines.push(`   listat ca: <i>${escapeHtml(h.slotTitle)}</i>`);
+      if (h.shortForFeature) {
+        lines.push('   ⚠ doar ~25 min — probabil o emisiune <i>despre</i> film, nu filmul');
+      }
       lines.push(`   <a href="${h.live}">▶ stream live</a> · încredere ${h.confidence}`);
       lines.push('');
     }

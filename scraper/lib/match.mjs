@@ -140,6 +140,20 @@ export function scoreTitle(needle, haystack, { fuzzy = true } = {}) {
   };
 }
 
+/** Shortest a real feature film is likely to be, in minutes. */
+export const FEATURE_MIN_MINUTES = 50;
+
+/** True when a slot is too short to plausibly be a feature film. */
+export function isShortForFeature(slot) {
+  if (!slot?.start || !slot?.end) return false; // unknown length proves nothing
+  const [sh, sm] = slot.start.split(':').map(Number);
+  const [eh, em] = slot.end.split(':').map(Number);
+  if ([sh, sm, eh, em].some((n) => !Number.isFinite(n))) return false;
+  let mins = (eh * 60 + em) - (sh * 60 + sm);
+  if (mins <= 0) mins += 1440; // crosses midnight
+  return mins < FEATURE_MIN_MINUTES;
+}
+
 /** Does this slot look like an unnamed archive-film rubric? Returns the label. */
 export function genericFilmLabel(title) {
   return genericFilmRubric(title)?.label ?? null;
@@ -207,6 +221,14 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
           // Carried through so a hit on the title this project exists for
           // doesn't read like a hit on any of the other two dozen.
           priority: best.entry.priority === true,
+          // A feature film does not fit in 25 minutes. TRM runs portrait
+          // documentaries titled after the film they discuss — the first live
+          // match this project ever produced was "Singur în fața dragostei
+          // (Veniamin Apostol)" in a 25-minute slot, which is a programme
+          // about the film, not the film. Flagged rather than filtered: the
+          // grid's own times are sometimes wrong, and a missed broadcast
+          // costs far more than a wasted look.
+          shortForFeature: isShortForFeature(slot),
         });
         continue;
       }

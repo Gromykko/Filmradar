@@ -196,12 +196,22 @@ async function main() {
         state.alerted ??= {};
         for (const h of fresh) state.alerted[alertKey(h)] = new Date().toISOString();
       } else {
-        console.warn('  ⚠ Nicio notificare livrată — nu marchez ca alertat, se reîncearcă.');
-        // Retrying forever is right for a single bad run, but a token that has
-        // expired or a bot that got blocked fails identically on every run and
-        // would otherwise be visible nowhere. A non-zero exit turns that into a
-        // red X and GitHub's own "workflow failed" email.
-        process.exitCode = 1;
+        const nothingConfigured =
+          (delivery.telegram?.skipped ?? true) && (delivery.email?.skipped ?? true);
+        if (nothingConfigured) {
+          // No secrets set at all. Loud, but NOT a failed run: with matches now
+          // appearing regularly that would paint the repo permanently red, and
+          // a red X that always means the same thing is one you stop reading.
+          console.warn('  ⚠ POTRIVIRE GĂSITĂ, dar nicio cale de notificare nu e configurată.');
+          console.warn('    Adaugă TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID în Settings → Secrets.');
+          console.warn('    Rezultatele rămân pe panou; nu marchez ca alertat, se retrimite când configurezi.');
+        } else {
+          // Something WAS configured and did not deliver — an expired token, a
+          // blocked bot. That fails identically every run and would otherwise
+          // be visible nowhere, so turn it into a red X and GitHub's own email.
+          console.warn('  ⚠ Notificare configurată, dar nelivrată — nu marchez ca alertat, se reîncearcă.');
+          process.exitCode = 1;
+        }
       }
     }
   }

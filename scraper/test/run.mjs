@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 
 import { parseSchedule, CHANNELS, todayInChisinau, DAY_NAMES_RO } from '../lib/trm.mjs';
-import { scoreTitle, genericFilmLabel, genericFilmRubric, findMatches } from '../lib/match.mjs';
+import { scoreTitle, genericFilmLabel, genericFilmRubric, findMatches, isShortForFeature } from '../lib/match.mjs';
 import { fold, contentTokens } from '../lib/normalize.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -240,6 +240,33 @@ test('a matched slot is a hit, not also a maybe', () => {
 
 test('every hit carries a live stream link', () => {
   assert.ok(hits.every((h) => h.live?.startsWith('https://')));
+});
+
+/* ------------------------------------------- feature-length sanity check */
+// TRM airs portrait documentaries titled after the film they discuss. The
+// first live match this project produced was exactly that: "Singur în fața
+// dragostei (Veniamin Apostol)" in a 25-minute slot.
+
+test('a 25-minute slot is flagged as too short for a feature', () => {
+  assert.equal(isShortForFeature({ start: '14:00', end: '14:25' }), true);
+});
+
+test('a feature-length slot is not flagged', () => {
+  assert.equal(isShortForFeature({ start: '12:00', end: '13:13' }), false);
+  assert.equal(isShortForFeature({ start: '23:30', end: '00:50' }), false, 'crosses midnight');
+});
+
+test('unknown length is never flagged — it proves nothing', () => {
+  assert.equal(isShortForFeature({ start: '12:00', end: null }), false);
+  assert.equal(isShortForFeature({}), false);
+});
+
+test('the flag rides along on the hit', () => {
+  const slots = [{ day: 2, dayName: 'marți', start: '14:00', end: '14:25', title: 'Singur în fața dragostei (Veniamin Apostol)', filler: false }];
+  const res = [{ ok: true, channel: { id: 'moldova-2', name: 'Moldova 2', live: 'https://x/', schedule: 'https://y/' }, slots }];
+  const { hits } = findMatches(res, [{ title: 'Singur în fața dragostei', fuzzy: true }]);
+  assert.equal(hits.length, 1, 'must still be reported, not filtered out');
+  assert.equal(hits[0].shortForFeature, true);
 });
 
 /* ------------------------------------------ rubric kind: artistic vs doc */
