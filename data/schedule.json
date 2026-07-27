@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-27T13:58:08.704Z",
-  "updatedAtLocal": "27 iul. 2026, 16:58",
+  "updatedAt": "2026-07-27T16:32:18.071Z",
+  "updatedAtLocal": "27 iul. 2026, 19:32",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7911,15 +7911,6 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Petrocub Hânceşti îşi continuă seria neagră din debutul acestui sezon competiţional",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
           "title": "Cristiano Ronaldo pleacă de la Manchester United",
           "filler": false,
           "news": true
@@ -7966,6 +7957,15 @@
           "start": null,
           "end": null,
           "title": "Super-starul portughez Cristiano Ronaldo, declaraţii incendiare: „M-am simţit trădat” (VIDEO)",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Vitalie Damaşcan a marcat al cincilea său gol în actuala ediţie de campionat a SuperLigii româneşti de fotbal (VIDEO)",
           "filler": false,
           "news": true
         },
@@ -11431,6 +11431,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Claca, reînviată în satul Văratic. Localnicii s-au adunat pentru o zi de muncă și voie bună",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Tradiția olăritului, valorificată la Hoginești, la cea de-a X-a ediție a Târgului „La Vatra Olarului Vasile Gonciari”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Claca de odinioară a prins din nou viață în satul Văratic",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Petru Baracci, legenda scenei și filmului moldovenesc",
           "filler": false,
           "news": true
@@ -11441,33 +11468,6 @@
           "start": null,
           "end": null,
           "title": "Expoziția „Roger Ballen. Umbrele minții”, inaugurată la Muzeul Național de Artă al Moldovei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "BTA: Bear With Me” va avea premiera mondială la cea de-a 32-a ediție a Festivalului de Film de la Sarajevo, în august",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Miros de pâine caldă”. O expoziție despre istoria pâinii, deschisă la Muzeul Național de Istorie a Moldovei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Peste 160 de documente din opera lui Vasile Vasilache și Vladimir Beșleagă, expuse la Biblioteca Națională",
           "filler": false,
           "news": true
         },
@@ -11530,6 +11530,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "BTA: Bear With Me” va avea premiera mondială la cea de-a 32-a ediție a Festivalului de Film de la Sarajevo, în august",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Miros de pâine caldă”. O expoziție despre istoria pâinii, deschisă la Muzeul Național de Istorie a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Peste 160 de documente din opera lui Vasile Vasilache și Vladimir Beșleagă, expuse la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Festivalul Internațional de Film Transilvania a început la Chișinău",
           "filler": false,
           "news": true
@@ -11584,6 +11611,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // Povestea pâinii din epoca fierului, prezentată într-o expoziție la Muzeul Național de Istorie",
           "filler": false,
           "news": true
@@ -11603,15 +11639,6 @@
           "start": null,
           "end": null,
           "title": "Patrimoniu restaurat, servicii culturale mai accesibile și sprijin pentru artiști - prioritățile ministrului Dan Suruceanu",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -11765,33 +11792,6 @@
           "start": null,
           "end": null,
           "title": "Nouă personalități ale Republicii Moldova au primit titlul de Cetățean de Onoare al municipiului Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Veronica Garștea, prima femeie dirijor din Republica Moldova și simbol al artei corale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Șlagărul „Du-mă în Moldova mea”, readus în atenția publicului printr-o secvență de arhivă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Descoperă Moldova cu #MOLDPRES // Căsuța copilăriei, construită într-un copac de peste 150 de ani la Palanca",
           "filler": false,
           "news": true
         },
