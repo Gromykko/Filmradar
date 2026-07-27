@@ -19,10 +19,11 @@ think to look. Nothing in the code is specific to it, though. Put any title in t
 
 Three things decide whether this actually works for you.
 
-**1. You get hours of warning, not days.** TRM publishes only the current day's grid on its
-website. The other six weekday tabs load from somewhere that refuses to answer anything except
-a real browser sitting on the page. I tried; it's a dead end. So a film airing at 12:00 today
-becomes visible some time after midnight today — not last week.
+**1. You get about a day of warning, not a week.** TRM publishes only the current day's grid;
+its other six weekday tabs load from an endpoint that refuses anything but a real browser on
+the page. A second source (TV Mail, below) adds today plus tomorrow, which is what the horizon
+now rests on. Either way a film airing Saturday does not appear on Monday — so treat this as
+"tell me tonight about tomorrow", not "plan my week".
 
 **2. Because of that, the untitled slots matter more than the titles.** Moldovan TV routinely
 lists archive films under a rubric name with no title at all: `Moldova de patrimoniu`,
