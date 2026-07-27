@@ -32,6 +32,8 @@
   .sub{color:var(--ink-2);font-size:13px;margin-top:3px;max-width:52ch}
   .stamp{font:12px/1.4 var(--mono);color:var(--ink-2);text-align:right}
   .tz-note{color:var(--accent);font-size:11px}
+  .newslist{margin:6px 0 0;padding-left:20px;color:var(--ink-2);font-size:13px;line-height:1.7}
+  .newslist li{margin:0}
   .copy-fallback{display:block;width:100%;margin-top:8px;padding:8px 10px;background:var(--bg);
     border:1px solid var(--line);border-radius:6px;font:12px var(--mono);
     color:var(--ink-1);user-select:all;overflow-x:auto;white-space:nowrap}
@@ -542,15 +544,18 @@ function localSuffix(epoch){
    what to do: wait, join a broadcast already running, or refuse one that has
    finished. Times stay exactly as printed in the grid — Chișinău time — so
    there is no timezone arithmetic to get wrong. */
-function recordCmd(channelId, start, end, dayName){
+function recordCmd(channelId, start, end, dayName, date){
   const parts = [`node recorder/record.mjs --channel ${channelId}`, `--from ${start}`];
   if(end) parts.push(`--to ${end}`);
-  if(dayName) parts.push(`--day ${dayName}`);
+  // An exact date beats a weekday: it names one broadcast rather than "the
+  // next Monday at this time". Only the JSON-LD backup source supplies one.
+  if(date) parts.push(`--date ${date}`);
+  else if(dayName) parts.push(`--day ${dayName}`);
   return parts.join(' ');
 }
-function recordBtn(channelId, start, end, dayName){
+function recordBtn(channelId, start, end, dayName, date){
   if(!channelId || !start) return '';
-  const cmd = recordCmd(channelId, start, end, dayName);
+  const cmd = recordCmd(channelId, start, end, dayName, date);
   return `<button class="btn sm" data-copy="${esc(cmd)}" title="Copiază comanda — înregistrează la ora difuzării">⏺ Comandă de înregistrare</button>`;
 }
 
@@ -866,7 +871,7 @@ function renderNow(){
           ${liveUrl?`<a class="btn primary lg" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Urmărește live</a>`:''}
           ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
           <button class="btn sm" data-ics='${esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}))}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
-          ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName)}
+          ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName, it.h.date)}
         </div>
       </div>`;
     }
@@ -884,7 +889,7 @@ function renderNow(){
         ${liveUrl?`<a class="btn primary" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Live</a>`:''}
         ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
         <button class="btn sm" data-ics='${esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}))}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
-        ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName)}
+        ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName, it.h.date)}
       </div>
     </div>`;
   }
@@ -926,7 +931,7 @@ function renderNow(){
         <div class="meta">${esc(m.channel)} · ${esc(whenStr(m))}${localSuffix(ep)} · <span class="pill">${esc(m.rubric||'')}</span></div>
         <div class="row">
           ${m.live ? `<a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a>` : ''}
-          ${recordBtn(m.channelId, m.start, m.end, m.dayName)}
+          ${recordBtn(m.channelId, m.start, m.end, m.dayName, m.date)}
         </div>
       </div>`;}).join('');
   }
@@ -1134,7 +1139,16 @@ function renderGrid(){
       Rulează workflow-ul <strong>Check TV schedules</strong> sau local <code class="inline">npm run check</code>.</div>`;
     return;
   }
-  const chans = DATA.schedule?.channels || [];
+  // TV grids only. The news sources are scanned for announcements, not for
+  // programming — their "slots" are article headlines with no air time, and
+  // mixing 85 press headlines into the schedule table made it unreadable.
+  // Older schedule.json files predate the newsOnly flag, so fall back to the
+  // one thing that is always true of a real grid: its slots have times.
+  const allChans = DATA.schedule?.channels || [];
+  const isNewsSource = c => c.newsOnly === true
+    || (c.newsOnly === undefined && (c.slots||[]).length > 0 && !(c.slots||[]).some(s=>s.start));
+  const chans = allChans.filter(c=>!isNewsSource(c));
+  const newsChans = allChans.filter(isNewsSource);
   const cf=$('#chanFilter'), df=$('#dayFilter');
   if(!cf.dataset.init && chans.length){
     cf.innerHTML = `<option value="">Toate canalele</option>` +
@@ -1178,7 +1192,7 @@ function renderGrid(){
     }
   }
 
-  el.innerHTML = rows.length ? `<div class="card" style="padding:0;overflow:hidden"><div class="tablewrap"><table class="responsive"><thead><tr>
+  let html = rows.length ? `<div class="card" style="padding:0;overflow:hidden"><div class="tablewrap"><table class="responsive"><thead><tr>
       <th>Canal</th><th>Zi</th><th>Oră</th><th>Emisiune</th></tr></thead><tbody>` +
     rows.map(({c,s,hit,maybe,isNow})=>`<tr class="${hit?'is-hit':maybe?'is-maybe':''}${isNow?' is-now':''}">
       <td data-label="Canal" class="meta">${esc(c.name)}</td>
@@ -1186,7 +1200,26 @@ function renderGrid(){
       <td data-label="Oră" class="t">${esc(s.start||'')}${s.end?`–${esc(s.end)}`:''}</td>
       <td data-label="Emisiune">${hit?'🎬 ':''}${esc(s.title)}${isNow?'<span class="now-pill">acum la TV</span>':''}</td>
     </tr>`).join('') + `</tbody></table></div></div>`
-    : `<div class="empty">Niciun rezultat.</div>`;
+    : `<div class="empty">Niciun rezultat în grila TV.</div>`;
+
+  // Kept on the page, but below and clearly separated: these are articles the
+  // scanner read, not things you can watch. Collapsed, because on a normal day
+  // it is ~150 headlines and none of them is a broadcast.
+  const newsCount = newsChans.reduce((n,c)=>n+(c.slots||[]).length,0);
+  if(newsCount){
+    html += `<h2 style="margin-top:26px">Surse de presă — nu sunt emisiuni (${newsCount})</h2>
+      <div class="note">Acestea sunt titluri de articole citite de pe site-uri de știri, nu emisiuni din grilă.
+      Nu au oră de difuzare și nu pot fi înregistrate. Sunt scanate doar pentru <em>anunțuri</em> de difuzare —
+      un anunț care numește canalul și ora exactă devine automat o difuzare programată, în fila „Acum".</div>
+      <details><summary>Vezi titlurile citite</summary>` +
+      newsChans.map(c=>`<div style="margin-top:12px">
+        <div class="meta"><strong>${esc(c.name)}</strong> · ${(c.slots||[]).length} titluri
+          ${c.schedule?`· <a href="${esc(c.schedule)}" target="_blank" rel="noopener">sursa</a>`:''}</div>
+        <ul class="newslist">${(c.slots||[]).slice(0,20).map(s=>`<li>${esc(s.title)}</li>`).join('')}</ul>
+      </div>`).join('') + `</details>`;
+  }
+
+  el.innerHTML = html;
 }
 
 /* ══════════════════════════════════════════════════════════ Canale tab */

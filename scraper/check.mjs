@@ -91,7 +91,9 @@ async function main() {
     const real = r.slots.filter((s) => !s.filler).length;
     const tag = r.channel.newsOnly ? 'titluri știri' : 'sloturi';
     const assumed = r.dayAssumed ? ' [zi presupusă = azi]' : '';
-    log(`  ✓ ${r.channel.name}: ${r.slots.length} ${tag} (${real} utile)${assumed}`);
+    const alt = r.altAdded ? ` [+${r.altAdded} din sursa de rezervă]` : '';
+    log(`  ✓ ${r.channel.name}: ${r.slots.length} ${tag} (${real} utile)${assumed}${alt}`);
+    if (r.altError) console.warn(`    ⚠ sursa de rezervă a eșuat: ${r.altError}`);
     if (r.empty && r.channel.expectEmpty) {
       log('    · gol, ca de obicei (grilă încărcată prin JS) — ignor');
     }
@@ -211,6 +213,11 @@ async function main() {
       name: r.channel.name,
       live: r.channel.live,
       schedule: r.channel.schedule,
+      // Carried through so the dashboard can keep a TV grid and a news feed
+      // apart. Without these it listed press headlines in the same table as
+      // broadcast slots, which made the schedule tab nonsense to read.
+      newsOnly: r.channel.newsOnly === true,
+      tier: r.channel.tier ?? null,
       ok: r.ok,
       error: r.error ?? null,
       warning: r.warning ?? null,

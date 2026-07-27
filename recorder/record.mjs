@@ -72,6 +72,7 @@ function parseArgs(argv) {
     else if (a === '--from') o.from = next();
     else if (a === '--to') o.to = next();
     else if (a === '--day') o.day = next();
+    else if (a === '--date') o.date = next();
     else if (a === '--mins') o.mins = Number(next());
     else if (a === '--pad') o.pad = Number(next());
     else if (a === '--outdir') o.outdir = next();
@@ -518,11 +519,15 @@ async function planAndRun() {
  */
 async function recordOneSlot() {
   const dayName = opts.day || todayNameRo();
-  const plan = planSlot({ dayName, start: opts.from, end: opts.to }, { pad: opts.pad });
+  const when = opts.date ? opts.date : dayName;
+  const plan = planSlot(
+    { dayName, date: opts.date, start: opts.from, end: opts.to },
+    { pad: opts.pad },
+  );
 
   if (plan.skip) {
     if (plan.reason === 'aired') {
-      console.error(`✗ Emisiunea de ${dayName} ${opts.from}–${opts.to || '?'} s-a terminat deja.`);
+      console.error(`✗ Emisiunea de ${when} ${opts.from}–${opts.to || '?'} s-a terminat deja.`);
       console.error('  Pentru a înregistra ce e pe post chiar acum:');
       console.error(`    node recorder/record.mjs --now ${opts.channel} --mins 60`);
     } else {

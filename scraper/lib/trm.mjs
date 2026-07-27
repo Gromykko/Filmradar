@@ -312,6 +312,8 @@ export function parseNewsFeed(html) {
 export async function fetchAllChannels({ channels = CHANNELS } = {}) {
   const results = await Promise.all(
     channels.map(async (ch) => {
+      let altAdded = 0;
+      let altError = null;
       try {
         const html = await fetchPage(ch.schedule);
         let parsed = ch.newsOnly ? parseNewsFeed(html) : parseSchedule(html);
@@ -320,6 +322,31 @@ export async function fetchAllChannels({ channels = CHANNELS } = {}) {
         // ("Sâmbătă, 2 mai: Ora 12:00 la TV Moldova 2 cultural, «Titlu»…").
         // Those name a channel AND an exact time, so they're far more
         // actionable than a bare headline — merge them in as real slots.
+        // Second source for the same channel. TRM's grid is unreliable day to
+        // day, so anything it missed gets filled in from TV Mail's structured
+        // listings — merged into this channel, not added as another one, so a
+        // film both sources carry stays one hit and alerts once. A failure
+        // here is logged and ignored: the backup must never take down the
+        // primary read.
+        if (ch.altSchedule) {
+          try {
+            const { parseTvMail, mergeSlots } = await import('./tvmail.mjs');
+            const altHtml = await fetchPage(ch.altSchedule);
+            const alt = parseTvMail(altHtml);
+            if (alt.slots.length) {
+              const before = parsed.slots.length;
+              parsed = {
+                ...parsed,
+                slots: mergeSlots(parsed.slots, alt.slots),
+                parsedAnyTime: parsed.parsedAnyTime || alt.parsedAnyTime,
+              };
+              altAdded = parsed.slots.length - before;
+            }
+          } catch (err) {
+            altError = String(err.message ?? err);
+          }
+        }
+
         if (ch.newsOnly || ch.scanAnnouncements) {
           const announced = announcementsToSlots(parseAnnouncements(toText(html)));
           if (announced.length) {
@@ -330,18 +357,15 @@ export async function fetchAllChannels({ channels = CHANNELS } = {}) {
         // Some sources render their grid client-side and legitimately come back
         // empty. Flagging those as warnings every 30 min would train you to
         // ignore warnings, so known-empty sources stay quiet.
+        // Deliberately NOT a slot-count threshold. TRM publishes its grid
+        // unevenly: 56 slots for one day, 6 for the next (observed 27 Jul 2026
+        // — Monday showed only 00:00-05:55 all afternoon). A minimum-count
+        // canary fired on five consecutive healthy runs before this was
+        // removed, which is exactly how you teach someone to ignore a red X.
+        // Only "the page contains no time strings at all" is unambiguous.
         let warning = null;
-        if (!ch.newsOnly && !ch.expectEmpty) {
-          if (!parsed.parsedAnyTime) {
-            warning = 'No time slots found — page layout may have changed.';
-          } else if (parsed.slots.length < (ch.minSlots ?? 8)) {
-            // parsedAnyTime is only "did a time regex fire at least once", so a
-            // redesign that leaves a couple of stray HH:MM strings in a footer
-            // still reads as healthy. A real day's grid is dozens of slots;
-            // anything near-empty means extraction broke, not that TV stopped.
-            warning = `Only ${parsed.slots.length} slots parsed (expected at least `
-              + `${ch.minSlots ?? 8}) — extraction may be partially broken.`;
-          }
+        if (!parsed.parsedAnyTime && !ch.newsOnly && !ch.expectEmpty) {
+          warning = 'No time slots found — page layout may have changed.';
         }
 
         return {
@@ -352,6 +376,8 @@ export async function fetchAllChannels({ channels = CHANNELS } = {}) {
           dayAssumed: parsed.dayAssumed,
           empty: parsed.slots.length === 0,
           bytes: html.length,
+          altAdded,
+          altError,
         };
       } catch (err) {
         return { channel: ch, slots: [], ok: false, error: String(err.message ?? err) };

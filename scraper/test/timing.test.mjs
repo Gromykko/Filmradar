@@ -13,7 +13,8 @@
  */
 
 import assert from 'node:assert/strict';
-import { msUntil, durationMins, planSlot, todayNameRo, DAY_NAMES } from '../../recorder/timing.mjs';
+import { msUntil, msUntilDate, durationMins, planSlot, todayNameRo, DAY_NAMES } from '../../recorder/timing.mjs';
+import { parseTvMail, mergeSlots } from '../lib/tvmail.mjs';
 
 let passed = 0;
 let failed = 0;
@@ -155,6 +156,91 @@ test('every generated day name is understood by the planner', () => {
       `${name} must plan, not fall through to unparsable`,
     );
   }
+});
+
+/* --------------------------------------------------- exact calendar date */
+// Chișinău is UTC+3 in summer, UTC+2 in winter. These assert the real instant,
+// so a hardcoded offset or a naive Date parse would fail one of them.
+
+test('msUntilDate resolves a summer (EEST, UTC+3) date correctly', () => {
+  const from = Date.UTC(2026, 6, 27, 0, 0, 0); // 27 Jul 2026, 00:00 UTC
+  // 12:00 in Chișinău that day is 09:00 UTC → 9 hours out.
+  assert.equal(msUntilDate('2026-07-27', '12:00', from) / 3600000, 9);
+});
+
+test('msUntilDate resolves a winter (EET, UTC+2) date correctly', () => {
+  const from = Date.UTC(2026, 0, 15, 0, 0, 0); // 15 Jan 2026, 00:00 UTC
+  // 12:00 in Chișinău that day is 10:00 UTC → 10 hours out. Same code path,
+  // different offset: proof the DST handling is real and not a fixed +3.
+  assert.equal(msUntilDate('2026-01-15', '12:00', from) / 3600000, 10);
+});
+
+test('msUntilDate rejects malformed input instead of guessing', () => {
+  assert.equal(msUntilDate('27-07-2026', '12:00'), null);
+  assert.equal(msUntilDate('2026-07-27', 'noon'), null);
+  assert.equal(msUntilDate('', '12:00'), null);
+});
+
+test('an explicit date overrides the weekday in planSlot', () => {
+  // dayName says Sunday, date says a Monday — the date must win.
+  const nowMs = Date.UTC(2026, 6, 27, 6, 0, 0); // Mon 27 Jul, 09:00 Chișinău
+  const p = planSlot(
+    { dayName: 'duminică', date: '2026-07-27', start: '12:00', end: '13:13' },
+    { pad: 3, nowMs },
+  );
+  assert.equal(p.skip, false);
+  assert.equal(p.ms / 3600000, 3, 'three hours from 09:00 to 12:00 Chișinău');
+});
+
+test('a past exact date is refused, not rolled forward a week', () => {
+  const nowMs = Date.UTC(2026, 6, 27, 12, 0, 0); // Mon 27 Jul, 15:00 Chișinău
+  const p = planSlot({ date: '2026-07-27', start: '09:00', end: '10:00' }, { nowMs });
+  assert.equal(p.skip, true);
+  assert.equal(p.reason, 'aired');
+});
+
+/* ------------------------------------------------- TV Mail backup source */
+
+const LD = (events) =>
+  `<html><script type="application/ld+json">${JSON.stringify(events)}</script></html>`;
+
+test('parses JSON-LD events into dated slots', () => {
+  const { slots, dayAssumed } = parseTvMail(LD([
+    { '@type': 'Event', name: 'Tunul de lemn', startDate: '2026-07-27T09:00:00+00:00', endDate: '2026-07-27T10:13:00+00:00' },
+  ]));
+  assert.equal(slots.length, 1);
+  assert.equal(slots[0].date, '2026-07-27');
+  assert.equal(slots[0].start, '12:00', 'UTC 09:00 is 12:00 in Chișinău in July');
+  assert.equal(slots[0].end, '13:13');
+  assert.equal(slots[0].dayName, 'luni');
+  // The whole point of this source: dates are known, never inferred.
+  assert.equal(dayAssumed, false);
+});
+
+test('ignores non-Event and malformed entries without losing the good ones', () => {
+  const html = `<html>
+    <script type="application/ld+json">{ not json at all }</script>
+    <script type="application/ld+json">${JSON.stringify([
+      { '@type': 'WebPage', name: 'nope' },
+      { '@type': 'Event', name: 'no start date' },
+      { '@type': 'Event', name: 'Bun', startDate: '2026-07-27T09:00:00+00:00' },
+    ])}</script></html>`;
+  const { slots } = parseTvMail(html);
+  assert.equal(slots.length, 1);
+  assert.equal(slots[0].title, 'Bun');
+  assert.equal(slots[0].end, null);
+});
+
+test('merge keeps TRM wording and adds only genuinely new broadcasts', () => {
+  const trm = [{ dayName: 'luni', start: '12:00', end: '13:13', title: 'F.A. Tunul de lemn', filler: false }];
+  const alt = [
+    { dayName: 'luni', date: '2026-07-27', start: '12:00', end: '13:13', title: 'Tunul de lemn', filler: false },
+    { dayName: 'luni', date: '2026-07-27', start: '20:00', end: '21:00', title: 'Altceva', filler: false },
+  ];
+  const merged = mergeSlots(trm, alt);
+  assert.equal(merged.length, 2, 'the 12:00 duplicate must collapse');
+  assert.equal(merged[0].title, 'F.A. Tunul de lemn', "TRM's own wording wins");
+  assert.equal(merged[1].start, '20:00');
 });
 
 console.log(`\n  ${passed} passed, ${failed} failed\n`);

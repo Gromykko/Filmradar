@@ -58,6 +58,38 @@ export function msUntil(dayName, hhmm, now = chisinauParts()) {
   return deltaMin * 60_000;
 }
 
+/**
+ * Milliseconds until a specific Chișinău calendar date + time, e.g.
+ * ("2026-08-02", "12:00"). Unlike msUntil(), which repeats weekly, this names
+ * one exact moment — what you want when an announcement gives a real date
+ * ("Sâmbătă, 2 mai: ora 12:00") rather than a grid weekday.
+ *
+ * Chișinău wall-clock is converted to a true instant by guessing UTC and
+ * correcting twice, which settles DST without hardcoding any offset.
+ */
+export function msUntilDate(dateStr, hhmm, nowMs = Date.now()) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(dateStr || '').trim());
+  const [h, mi] = String(hhmm || '').split(':').map(Number);
+  if (!m || !Number.isFinite(h) || !Number.isFinite(mi)) return null;
+  const [y, mo, d] = [+m[1], +m[2], +m[3]];
+
+  const fmt = new Intl.DateTimeFormat('en-GB', {
+    timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
+  });
+  const partsAt = (ms) => {
+    const o = {};
+    for (const p of fmt.formatToParts(new Date(ms))) if (p.type !== 'literal') o[p.type] = p.value;
+    let hh = +o.hour; if (hh === 24) hh = 0;
+    return Date.UTC(+o.year, +o.month - 1, +o.day, hh, +o.minute, +o.second);
+  };
+
+  const want = Date.UTC(y, mo - 1, d, h, mi, 0);
+  let guess = want;
+  for (let i = 0; i < 3; i++) guess += want - partsAt(guess);
+  return guess - nowMs;
+}
+
 /** Slot length in minutes; 90 when the grid gives no end time. */
 export function durationMins(slot) {
   if (!slot.start || !slot.end) return 90;
@@ -75,8 +107,11 @@ export function durationMins(slot) {
  *           {skip:false, ms:number, startIn:number, mins:number,
  *            elapsedMin:number, remainingMin:number, late:boolean}}
  */
-export function planSlot(hit, { pad = 3, now = chisinauParts() } = {}) {
-  const ms = msUntil(hit.dayName, hit.start, now);
+export function planSlot(hit, { pad = 3, now = chisinauParts(), nowMs = Date.now() } = {}) {
+  // An explicit date wins over a weekday: it names one moment, not a repeat.
+  const ms = hit.date
+    ? msUntilDate(hit.date, hit.start, nowMs)
+    : msUntil(hit.dayName, hit.start, now);
   if (ms == null) return { skip: true, reason: 'unparsable' };
 
   const slotMins = durationMins(hit);

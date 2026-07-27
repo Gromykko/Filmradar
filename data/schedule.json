@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-27T08:05:15.090Z",
-  "updatedAtLocal": "27 iul. 2026, 11:05",
+  "updatedAt": "2026-07-27T09:56:17.321Z",
+  "updatedAtLocal": "27 iul. 2026, 12:56",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8,9 +8,11 @@
       "name": "Moldova 1",
       "live": "https://moldova1.md/live",
       "schedule": "https://trm.md/ro/moldova-1",
+      "newsOnly": false,
+      "tier": "primary",
       "ok": true,
       "error": null,
-      "warning": "Only 6 slots parsed (expected at least 8) — extraction may be partially broken.",
+      "warning": null,
       "slots": [
         {
           "day": 1,
@@ -65,6 +67,546 @@
           "title": "Mesager. Program informativ+știri sportive",
           "filler": false,
           "dayAssumed": true
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "05:58",
+          "end": "06:00",
+          "title": "Deschiderea staţiei",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "06:00",
+          "end": "06:20",
+          "title": "Pagini de colecție! (Creații semnate de Anatol Chiriac)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "06:20",
+          "end": "06:50",
+          "title": "С другой стороны",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "06:50",
+          "end": "06:55",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "06:55",
+          "end": "08:35",
+          "title": "Deschide-ți inima",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "08:35",
+          "end": "08:40",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "08:40",
+          "end": "09:05",
+          "title": "Magazinul copiilor",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "09:05",
+          "end": "09:10",
+          "title": "Secvențe japoneze (Îmbunătățirea calității vieții)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "09:10",
+          "end": "09:17",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "09:17",
+          "end": "10:00",
+          "title": "Zi de bine",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "10:00",
+          "end": "10:25",
+          "title": "Vector European",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "10:25",
+          "end": "10:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "10:30",
+          "end": "11:22",
+          "title": "Prin muzică în Europa",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "11:22",
+          "end": "11:25",
+          "title": "Roboții (Episodul 5)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "11:25",
+          "end": "11:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "11:30",
+          "end": "11:55",
+          "title": "Reporter pentru sănătate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "11:55",
+          "end": "12:01",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "12:01",
+          "end": "12:53",
+          "title": "Leviatanul african",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "12:53",
+          "end": "12:56",
+          "title": "Roboții (Episodul 3)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "12:56",
+          "end": "13:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "13:00",
+          "end": "13:30",
+          "title": "Ştiri",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "13:30",
+          "end": "13:37",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "13:37",
+          "end": "13:45",
+          "title": "Știri sportive",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "13:45",
+          "end": "14:09",
+          "title": "Unda Bugeacului",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "14:09",
+          "end": "14:13",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "14:13",
+          "end": "14:58",
+          "title": "Spitalul Santa Rosa (Episodul 103)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "14:58",
+          "end": "15:40",
+          "title": "Spitalul Santa Rosa (Episodul 104)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "15:10",
+          "end": "15:15",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "15:40",
+          "end": "16:23",
+          "title": "Spitalul Santa Rosa (Episodul 105)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "15:58",
+          "end": "16:03",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "16:25",
+          "end": "16:54",
+          "title": "Reporter pentru sănătate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "16:55",
+          "end": "17:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "17:00",
+          "end": "17:23",
+          "title": "Ştiri",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "17:23",
+          "end": "17:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "17:30",
+          "end": "18:00",
+          "title": "Live studio. Прямая трансляция",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "18:00",
+          "end": "18:07",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "18:07",
+          "end": "18:54",
+          "title": "Live studio. Прямая трансляция",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "18:54",
+          "end": "19:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "19:00",
+          "end": "19:58",
+          "title": "O seară în familie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "19:58",
+          "end": "20:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "20:00",
+          "end": "20:53",
+          "title": "Arena sportivă",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "20:53",
+          "end": "21:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "21:00",
+          "end": "21:30",
+          "title": "Mesager",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "21:30",
+          "end": "21:45",
+          "title": "Știri sportive",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "21:45",
+          "end": "21:50",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "21:50",
+          "end": "22:42",
+          "title": "Salazar: Lisabona în al doilea război mondial",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "22:42",
+          "end": "22:46",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "22:46",
+          "end": "23:16",
+          "title": "Ştiri Externe",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "23:16",
+          "end": "23:20",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "23:20",
+          "end": "01:35",
+          "title": "Crizantema de argint",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "01:35",
+          "end": "02:25",
+          "title": "Show-ul central",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "02:25",
+          "end": "03:15",
+          "title": "Raioane",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "03:15",
+          "end": "03:32",
+          "title": "Pagini de colecție! (George Enescu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "03:32",
+          "end": "05:15",
+          "title": "Tribute, Aplauze la scena deschisă",
+          "filler": false,
+          "source": "tvmail"
         }
       ]
     },
@@ -73,6 +615,8 @@
       "name": "Moldova 2",
       "live": "https://moldova1.md/moldova2",
       "schedule": "https://trm.md/ro/moldova-2",
+      "newsOnly": false,
+      "tier": "primary",
       "ok": true,
       "error": null,
       "warning": null,
@@ -184,6 +728,506 @@
           "title": "Necuvintele",
           "filler": false,
           "dayAssumed": true
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "05:58",
+          "end": "06:00",
+          "title": "Deschiderea staţiei",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "Evantai folcloric",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "07:00",
+          "end": "07:30",
+          "title": "Tezaur",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "07:30",
+          "end": "08:00",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "08:00",
+          "end": "08:30",
+          "title": "Dor (Surorile Ciorici)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "08:30",
+          "end": "09:00",
+          "title": "Artelier (E. Romanescu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "09:00",
+          "end": "09:10",
+          "title": "F.D (Jocurile copilăriei noastre)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "09:10",
+          "end": "09:40",
+          "title": "Focus TV (Peștera surprizelor)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "09:40",
+          "end": "09:45",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "09:45",
+          "end": "10:00",
+          "title": "Chișinăul de ieri și de azi (Valea morilor)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "10:00",
+          "end": "10:30",
+          "title": "Oameni iluștri ai neamului (Eugen Coseriu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "10:30",
+          "end": "10:35",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "10:35",
+          "end": "11:05",
+          "title": "Portrete în timp (Andrei Vartic)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "11:05",
+          "end": "11:10",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "11:10",
+          "end": "11:50",
+          "title": "De-ale teatrului (B. Cremene)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "11:50",
+          "end": "11:55",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "11:55",
+          "end": "13:30",
+          "title": "Spectacol (Patru surori)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "13:30",
+          "end": "13:35",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "13:35",
+          "end": "14:15",
+          "title": "Festivalul (Crescendo Handel Te Deum)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "14:15",
+          "end": "14:55",
+          "title": "Focul din vatră (V.Dumbraveanu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "14:55",
+          "end": "15:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "15:00",
+          "end": "15:25",
+          "title": "Arts 21",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "15:25",
+          "end": "15:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "15:30",
+          "end": "15:55",
+          "title": "Euromaxx DW",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "15:55",
+          "end": "16:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "16:00",
+          "end": "16:20",
+          "title": "F.D (Binecuvântarea)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "16:20",
+          "end": "16:25",
+          "title": "5 Minute la Muzeu (Valentina Rusu Ciobanu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "16:25",
+          "end": "16:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "16:30",
+          "end": "17:00",
+          "title": "SoArta (Maria Mardare - Fusu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "17:00",
+          "end": "17:55",
+          "title": "Evantai folcloric",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "17:55",
+          "end": "18:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "18:00",
+          "end": "18:30",
+          "title": "Tezaur",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "18:30",
+          "end": "19:00",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "19:00",
+          "end": "19:05",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "19:05",
+          "end": "19:35",
+          "title": "Portrete în timp (Simion Ghimpu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "19:35",
+          "end": "19:40",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "19:40",
+          "end": "20:00",
+          "title": "Povestea generațiilor (V.Besleaga - Credința)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "20:00",
+          "end": "20:05",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "20:05",
+          "end": "20:30",
+          "title": "Artelier (Ada Zevin)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "20:30",
+          "end": "21:00",
+          "title": "Dor (Radul mamei, Radule..)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "21:00",
+          "end": "21:55",
+          "title": "Legendele Europei (Episodul 3)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "21:55",
+          "end": "22:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "22:00",
+          "end": "23:40",
+          "title": "Autografe cu Simion Ghimpu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-07-27",
+          "start": "23:40",
+          "end": "00:40",
+          "title": "Memory Lane (Damien Rice)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "00:40",
+          "end": "01:20",
+          "title": "De-ale teatrului (B. Cremene)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "01:20",
+          "end": "02:55",
+          "title": "Spectacol (Patru surori)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "02:55",
+          "end": "03:00",
+          "title": "Necuvintele (Iulia Panici)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "03:00",
+          "end": "03:25",
+          "title": "Arts 21",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "03:25",
+          "end": "03:50",
+          "title": "Euromaxx DW",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-07-28",
+          "start": "03:50",
+          "end": "05:30",
+          "title": "Autografe cu Simion Ghimpu",
+          "filler": false,
+          "source": "tvmail"
         }
       ]
     },
@@ -192,6 +1236,8 @@
       "name": "TRM — știri cultură",
       "live": "https://moldova1.md/live",
       "schedule": "https://trm.md/ro/cultura",
+      "newsOnly": true,
+      "tier": "announcements",
       "ok": true,
       "error": null,
       "warning": null,
@@ -347,6 +1393,8 @@
       "name": "TRM — toate știrile",
       "live": "https://moldova1.md/live",
       "schedule": "https://trm.md/ro/stiri",
+      "newsOnly": true,
+      "tier": "announcements",
       "ok": true,
       "error": null,
       "warning": null,
@@ -1125,10 +2173,23 @@
       "name": "TVR Moldova",
       "live": null,
       "schedule": "https://tvrmoldova.md/",
+      "newsOnly": true,
+      "tier": "announcements",
       "ok": true,
       "error": null,
       "warning": null,
       "slots": [
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
         {
           "day": 1,
           "dayName": "luni",
@@ -1222,18 +2283,7 @@
           "dayName": "vineri",
           "start": null,
           "end": null,
-          "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": null,
-          "end": null,
-          "title": "Securitatea României este securitatea Moldovei",
+          "title": "O democrație europeană înseamnă cetățeni implicați și solidari",
           "filler": false,
           "announcement": true,
           "channelId": "moldova-2",
@@ -1284,8 +2334,8 @@
           "kind": "screening"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": null,
           "end": null,
           "title": null,
@@ -1295,8 +2345,8 @@
           "kind": "screening"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": null,
           "end": null,
           "title": null,
@@ -1306,8 +2356,8 @@
           "kind": "screening"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": null,
           "end": null,
           "title": null,
@@ -1317,8 +2367,8 @@
           "kind": "screening"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": null,
           "end": null,
           "title": null,
@@ -1328,8 +2378,8 @@
           "kind": "screening"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": null,
           "end": null,
           "title": null,
@@ -1339,8 +2389,8 @@
           "kind": "screening"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": null,
           "end": null,
           "title": null,
@@ -1391,6 +2441,24 @@
           "start": null,
           "end": null,
           "title": "„Drumul Basarabiei spre casă” 105 ani de la unirea cu România",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "MoldATSA are un nou administrator. Cine va conduce întreprinderea de stat?",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 12:14",
           "filler": false,
           "news": true
         },
@@ -1561,7 +2629,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Premierul Vasile Tofan anunță demisia ministrului Agriculturii, Radu Musteață",
+          "title": "Noi măsuri la Aeroportul Chișinău: Se amenajează o zonă temporară de pre-îmbarcare",
           "filler": false,
           "news": true
         },
@@ -1570,7 +2638,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "vineri, 24 iulie 2026, 08:51",
+          "title": "Planificat de aproape două decenii, drumul direct spre Portul Giurgiulești a fost inaugurat",
           "filler": false,
           "news": true
         },
@@ -1579,7 +2647,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Maia Sandu, după doborârea unei drone în România: „Securitatea României este securitatea Moldovei”",
+          "title": "România a ridicat două avioane F-16 după o alertă aeriană în apropiere de Sulina",
           "filler": false,
           "news": true
         },
@@ -1588,7 +2656,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un mausoleu pentru eroii basarabeni din Primul Război Mondial va fi ridicat la Râșcani",
+          "title": "Putin: Ucraina va pierde teritoriile vestice, care au aparținut cândva României, Poloniei, Ungariei",
           "filler": false,
           "news": true
         },
@@ -1597,7 +2665,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tiraspolul critică programul pentru reintegrare. Chiveri: „Nu ne-am așteptat la o altă reacție”",
+          "title": "Top diplome personalizate creative pentru elevi în 2026",
           "filler": false,
           "news": true
         },
@@ -1606,7 +2674,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Fratele lui Igor Dodon a pierdut în prima instanță procesul intentat împotriva SIS",
+          "title": "SOC.MD și sigURL au simulat o criză cibernetică în Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -1660,7 +2728,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tehnologie, energie verde și investiții în tineri: Succesul Agro-Firmei „Plaiul Bîrlădean”",
+          "title": "Doi tineri riscă până la cinci ani de închisoare după ce ar fi furat o mașină în Chișinău",
           "filler": false,
           "news": true
         },
@@ -1669,7 +2737,61 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Rochii din satin pentru nuntă: idei și recomandări",
+          "title": "luni, 27 iulie 2026, 12:30",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 12:03",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 12:01",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Petrolul Brent se ieftinește pe fondul calmării tensiunilor dintre SUA și Iran",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 11:34",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 11:19",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 11:15",
           "filler": false,
           "news": true
         },
@@ -1696,124 +2818,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Putin: Ucraina va pierde teritoriile vestice, care au aparținut cândva României, Poloniei, Ungariei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
           "title": "luni, 27 iulie 2026, 09:58",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Strategia Ucrainei. Kievul lovește sursa banilor Moscovei. Cum s-a schimbat conflictul?",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "luni, 27 iulie 2026, 08:22",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Se caută cel mai puternic om. Gladiator Challenge Moldova devine competiție internațională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 21:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Onițcani, satul celor 100 de izvoare, în pericol să rămână fără apă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 20:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Meșterii populari s-au reunit la Târgul Olarilor de la Hoginești",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 19:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Unicul conac în stil englezesc din Onțicani: O bijuterie arhitecturală cu istorie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 18:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ambasadorul Rusiei, convocat la MAE după încălcările repetate ale spațiului aerian al României",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 17:00",
           "filler": false,
           "news": true
         },
@@ -1860,6 +2865,8 @@
       "name": "Vocea Basarabiei TV",
       "live": "https://voceabasarabiei.md/live-tv/",
       "schedule": "https://voceabasarabiei.md/program-tv/?tv-channel=tv",
+      "newsOnly": false,
+      "tier": "secondary",
       "ok": true,
       "error": null,
       "warning": null,
@@ -1870,6 +2877,8 @@
       "name": "Diez — cultură",
       "live": null,
       "schedule": "https://diez.md/category/cultura/",
+      "newsOnly": true,
+      "tier": "announcements",
       "ok": true,
       "error": null,
       "warning": null,
@@ -1978,6 +2987,42 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Drumul M3 spre Giurgiulești a fost redeschis. Trei localități vor fi ocolite de camioanele de mare tonaj",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Șapte evenimente pentru un sfârșit de lună memorabil. Unde îți poți petrece timpul liber în săptămâna 27 iulie – 2 august",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Prietenii din Portugalia îmi spun «moldoveanca preferată».” Ina Mămăligă, despre studiile la medicină și jobul la aeroportul din Lisabona",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Te pregătești să devii student(ă)? #diez a pregătit o pagină cu răspunsuri la cele mai frecvente întrebări despre admitere",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "(video) Pregătește popcornul! Patru filme pe care le poți viziona în premieră la cinematografele Cineplex pe 30 iulie și 6 august",
           "filler": false,
           "news": true
@@ -2005,51 +3050,6 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "La ce etapă se află renovarea școlilor-model și care liceu din Chișinău va fi restaurat primul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Lista facultăților din Moldova care oferă programe de studii în limba engleză",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cât costă să stai în căminele USM pe timpul verii și cine poate fi cazat acolo",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Care sunt domeniile de importanță strategică pentru Republica Moldova și unde pot fi studiate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "În premieră, Codul educației va permite universităților să majoreze contractele studenților deja admiși",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
           "title": "#diez &copy; 2026 - Toate drepturile rezervate",
           "filler": false,
           "news": true
@@ -2061,6 +3061,8 @@
       "name": "Moldpres — cultură",
       "live": null,
       "schedule": "https://www.moldpres.md/rom/cultura",
+      "newsOnly": true,
+      "tier": "announcements",
       "ok": true,
       "error": null,
       "warning": null,

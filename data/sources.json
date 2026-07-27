@@ -3,15 +3,17 @@
     "id": "moldova-1",
     "name": "Moldova 1",
     "schedule": "https://trm.md/ro/moldova-1",
+    "altSchedule": "https://tv.mail.ru/kishinev/channel/2909/",
     "live": "https://moldova1.md/live",
     "enabled": true,
     "tier": "primary",
-    "notes": "TRM public TV. Server-rendered weekly grid — the reliable source. Airs digitised Moldova-Film titles."
+    "notes": "TRM public TV. Airs digitised Moldova-Film titles. TRM's own grid is published unevenly — 56 slots one day, 6 the next — so altSchedule pulls TV Mail's Chișinău listing for the same channel and merges what TRM missed. That source embeds schema.org JSON-LD with absolute timestamps, so its slots carry a real date instead of an assumed weekday."
   },
   {
     "id": "moldova-2",
     "name": "Moldova 2",
     "schedule": "https://trm.md/ro/moldova-2",
+    "altSchedule": "https://tv.mail.ru/kishinev/channel/2910/",
     "live": "https://moldova1.md/moldova2",
     "enabled": true,
     "tier": "primary",

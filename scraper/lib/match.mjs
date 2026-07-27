@@ -170,6 +170,10 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
           schedule: ch.schedule,
           day: slot.day,
           dayName: slot.dayName,
+          // Real calendar date when the source supplied one (TV Mail's JSON-LD
+          // does; TRM's grid never can). Lets the recorder target one exact
+          // broadcast instead of "the next Monday at this time".
+          date: slot.date ?? null,
           start: slot.start,
           end: slot.end,
           slotTitle: slot.title,
@@ -184,7 +188,14 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
         continue;
       }
 
-      if (includeMaybes && !slot.filler) {
+      // A "maybe" is meant to be a BROADCAST SLOT whose film is unnamed — a
+      // thing you could actually tune in to or record. A news headline that
+      // happens to contain "Moldova-Film" or "patrimoniu" is an article, has
+      // no air time, and cannot be recorded; listing it here buried the real
+      // rubric slots under permanent, undateable noise. News still earns its
+      // place through announce.mjs, which extracts a channel and an exact
+      // time and produces a genuine scheduled slot.
+      if (includeMaybes && !slot.filler && !slot.news && slot.start) {
         const label = genericFilmLabel(slot.title);
         if (label) {
           maybes.push({
@@ -194,6 +205,7 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
             schedule: ch.schedule,
             day: slot.day,
             dayName: slot.dayName,
+            date: slot.date ?? null,
             start: slot.start,
             end: slot.end,
             slotTitle: slot.title,
