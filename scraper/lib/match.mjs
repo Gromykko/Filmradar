@@ -17,22 +17,40 @@ import { fold, contentTokens, escapeRe } from './normalize.mjs';
  * Slot titles that mean "some archive film, name not given".
  * Matched against the folded title.
  */
+/**
+ * Rubrics that mean "some archive film, name not given".
+ *
+ * `kind` matters as much as the pattern. A feature film cannot air in a
+ * documentary strand: "F.D." is *film documentar*, so „Tunul de lemn" — a
+ * film artistic — will never be hiding behind it. Lumping both together
+ * padded the list with slots that could not possibly contain the target and
+ * buried the ones that could.
+ *
+ *   'artistic'  — feature-film strand. The target could genuinely be here.
+ *   'documentar'— documentary strand. A feature film cannot be here.
+ *   'necunoscut'— heritage/archive umbrella that carries either.
+ */
 export const GENERIC_FILM_PATTERNS = [
-  { re: /^f\s?a\b/, label: 'F.A. (film artistic)' },
-  { re: /^f\s?d\b/, label: 'F.D. (film documentar)' },
-  { re: /\bfilm artistic\b/, label: 'Film artistic' },
-  { re: /\bfilm documentar\b/, label: 'Film documentar' },
-  { re: /\bfilmoteca\b/, label: 'Filmoteca' },
-  { re: /\bmoldova de patrimoniu\b/, label: 'Moldova de patrimoniu' },
-  { re: /\bpatrimoniu\b/, label: 'Patrimoniu' },
-  { re: /\btezaur\b/, label: 'Tezaur' },
-  { re: /\bcinemateca\b/, label: 'Cinemateca' },
-  { re: /\bfilme? de colectie\b/, label: 'Filme de colecție' },
-  { re: /\bdestine de colectie\b/, label: 'Destine de colecție' },
-  { re: /\bportrete in timp\b/, label: 'Portrete în timp' },
-  { re: /\bpovestea generatiilor\b/, label: 'Povestea generațiilor' },
-  { re: /\bmoldova film\b/, label: 'Moldova-Film' },
-  { re: /\bcinema\b/, label: 'Cinema' },
+  { re: /^f\s?a\b/, label: 'F.A. (film artistic)', kind: 'artistic' },
+  { re: /\bfilm artistic\b/, label: 'Film artistic', kind: 'artistic' },
+  { re: /\bfilmoteca\b/, label: 'Filmoteca', kind: 'artistic' },
+  { re: /\bcinemateca\b/, label: 'Cinemateca', kind: 'artistic' },
+  { re: /\bfilme? de colectie\b/, label: 'Filme de colecție', kind: 'artistic' },
+  { re: /\bmoldova film\b/, label: 'Moldova-Film', kind: 'artistic' },
+  { re: /\bcinema\b/, label: 'Cinema', kind: 'artistic' },
+
+  { re: /^f\s?d\b/, label: 'F.D. (film documentar)', kind: 'documentar' },
+  { re: /\bfilm documentar\b/, label: 'Film documentar', kind: 'documentar' },
+  { re: /\bportrete in timp\b/, label: 'Portrete în timp', kind: 'documentar' },
+  { re: /\bpovestea generatiilor\b/, label: 'Povestea generațiilor', kind: 'documentar' },
+  { re: /\bdestine de colectie\b/, label: 'Destine de colecție', kind: 'documentar' },
+
+  // Heritage umbrellas. TRM uses these for restored features AND for
+  // documentaries, so they stay in the main list rather than being filtered
+  // out — this is exactly where an unlisted feature is most likely to sit.
+  { re: /\bmoldova de patrimoniu\b/, label: 'Moldova de patrimoniu', kind: 'necunoscut' },
+  { re: /\btezaur\b/, label: 'Tezaur', kind: 'necunoscut' },
+  { re: /\bpatrimoniu\b/, label: 'Patrimoniu', kind: 'necunoscut' },
 ];
 
 /** Levenshtein distance, capped for speed. */
@@ -122,11 +140,16 @@ export function scoreTitle(needle, haystack, { fuzzy = true } = {}) {
   };
 }
 
-/** Does this slot look like an unnamed archive-film rubric? */
+/** Does this slot look like an unnamed archive-film rubric? Returns the label. */
 export function genericFilmLabel(title) {
+  return genericFilmRubric(title)?.label ?? null;
+}
+
+/** As above, but keeps the kind — 'artistic' | 'documentar' | 'necunoscut'. */
+export function genericFilmRubric(title) {
   const f = fold(title);
-  for (const { re, label } of GENERIC_FILM_PATTERNS) {
-    if (re.test(f)) return label;
+  for (const p of GENERIC_FILM_PATTERNS) {
+    if (p.re.test(f)) return { label: p.label, kind: p.kind };
   }
   return null;
 }
@@ -196,8 +219,9 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
       // place through announce.mjs, which extracts a channel and an exact
       // time and produces a genuine scheduled slot.
       if (includeMaybes && !slot.filler && !slot.news && slot.start) {
-        const label = genericFilmLabel(slot.title);
-        if (label) {
+        const rubric = genericFilmRubric(slot.title);
+        if (rubric) {
+          const label = rubric.label;
           maybes.push({
             channelId: ch.id,
             channel: ch.name,
@@ -210,6 +234,9 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
             end: slot.end,
             slotTitle: slot.title,
             rubric: label,
+            // 'documentar' means a feature film cannot be here — the UI and
+            // the recorder use this to stop treating those as candidates.
+            rubricKind: rubric.kind,
           });
         }
       }

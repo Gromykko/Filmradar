@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 
 import { parseSchedule, CHANNELS, todayInChisinau, DAY_NAMES_RO } from '../lib/trm.mjs';
-import { scoreTitle, genericFilmLabel, findMatches } from '../lib/match.mjs';
+import { scoreTitle, genericFilmLabel, genericFilmRubric, findMatches } from '../lib/match.mjs';
 import { fold, contentTokens } from '../lib/normalize.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -240,6 +240,48 @@ test('a matched slot is a hit, not also a maybe', () => {
 
 test('every hit carries a live stream link', () => {
   assert.ok(hits.every((h) => h.live?.startsWith('https://')));
+});
+
+/* ------------------------------------------ rubric kind: artistic vs doc */
+// "F.D." is film documentar. „Tunul de lemn" is a film artistic and can never
+// air under it, so documentary strands must not be offered as places the
+// target might be hiding — they were padding the list and burying the real
+// candidates.
+
+test('documentary rubrics are classified as such', () => {
+  for (const t of ['F.D. Jocurile copilariei', 'Film documentar', 'Portrete în timp. Andrei Vartic',
+                   'Povestea generațiilor', 'Destine de colecție']) {
+    assert.equal(genericFilmRubric(t)?.kind, 'documentar', t);
+  }
+});
+
+test('feature-film rubrics are classified as artistic', () => {
+  for (const t of ['F.A. Tunul de lemn', 'Film artistic', 'Filmoteca', 'Cinemateca']) {
+    assert.equal(genericFilmRubric(t)?.kind, 'artistic', t);
+  }
+});
+
+test('heritage umbrellas stay candidates — they carry either kind', () => {
+  for (const t of ['Moldova de patrimoniu', 'Tezaur']) {
+    assert.equal(genericFilmRubric(t)?.kind, 'necunoscut', t);
+  }
+});
+
+test('F.D. must not be mistaken for F.A.', () => {
+  assert.notEqual(genericFilmRubric('F.D (Binecuvântarea)')?.kind, 'artistic');
+  assert.equal(genericFilmRubric('F.A. ceva')?.kind, 'artistic');
+});
+
+test('maybes carry rubricKind so the UI can split them', () => {
+  const slots = [
+    { day: 1, dayName: 'luni', start: '09:00', end: '09:10', title: 'F.D (Ceva)', filler: false },
+    { day: 1, dayName: 'luni', start: '18:30', end: '19:00', title: 'Moldova de patrimoniu', filler: false },
+  ];
+  const res = [{ ok: true, channel: { id: 'moldova-2', name: 'Moldova 2', live: 'https://x/', schedule: 'https://y/' }, slots }];
+  const { maybes } = findMatches(res, [{ title: 'Tunul de lemn', fuzzy: true }]);
+  assert.equal(maybes.length, 2);
+  assert.equal(maybes.find(m=>m.start==='09:00').rubricKind, 'documentar');
+  assert.equal(maybes.find(m=>m.start==='18:30').rubricKind, 'necunoscut');
 });
 
 /* ------------------------------------------------- Cyrillic listings ---- */

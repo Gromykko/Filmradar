@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T09:58:45.326Z",
+  "updatedAt": "2026-07-27T10:11:42.862Z",
   "current": [],
   "maybes": [
     {
@@ -13,7 +13,8 @@
       "start": "07:00",
       "end": "07:30",
       "slotTitle": "Tezaur",
-      "rubric": "Tezaur"
+      "rubric": "Tezaur",
+      "rubricKind": "necunoscut"
     },
     {
       "channelId": "moldova-2",
@@ -26,7 +27,8 @@
       "start": "07:30",
       "end": "08:00",
       "slotTitle": "Moldova de patrimoniu",
-      "rubric": "Moldova de patrimoniu"
+      "rubric": "Moldova de patrimoniu",
+      "rubricKind": "necunoscut"
     },
     {
       "channelId": "moldova-2",
@@ -39,7 +41,8 @@
       "start": "09:00",
       "end": "09:10",
       "slotTitle": "F.D (Jocurile copilăriei noastre)",
-      "rubric": "F.D. (film documentar)"
+      "rubric": "F.D. (film documentar)",
+      "rubricKind": "documentar"
     },
     {
       "channelId": "moldova-2",
@@ -52,7 +55,8 @@
       "start": "10:35",
       "end": "11:05",
       "slotTitle": "Portrete în timp (Andrei Vartic)",
-      "rubric": "Portrete în timp"
+      "rubric": "Portrete în timp",
+      "rubricKind": "documentar"
     },
     {
       "channelId": "moldova-2",
@@ -65,7 +69,8 @@
       "start": "16:00",
       "end": "16:20",
       "slotTitle": "F.D (Binecuvântarea)",
-      "rubric": "F.D. (film documentar)"
+      "rubric": "F.D. (film documentar)",
+      "rubricKind": "documentar"
     },
     {
       "channelId": "moldova-2",
@@ -78,7 +83,8 @@
       "start": "18:00",
       "end": "18:30",
       "slotTitle": "Tezaur",
-      "rubric": "Tezaur"
+      "rubric": "Tezaur",
+      "rubricKind": "necunoscut"
     },
     {
       "channelId": "moldova-2",
@@ -91,7 +97,8 @@
       "start": "18:30",
       "end": "19:00",
       "slotTitle": "Moldova de patrimoniu",
-      "rubric": "Moldova de patrimoniu"
+      "rubric": "Moldova de patrimoniu",
+      "rubricKind": "necunoscut"
     },
     {
       "channelId": "moldova-2",
@@ -104,7 +111,8 @@
       "start": "19:05",
       "end": "19:35",
       "slotTitle": "Portrete în timp (Simion Ghimpu)",
-      "rubric": "Portrete în timp"
+      "rubric": "Portrete în timp",
+      "rubricKind": "documentar"
     },
     {
       "channelId": "moldova-2",
@@ -117,7 +125,8 @@
       "start": "19:40",
       "end": "20:00",
       "slotTitle": "Povestea generațiilor (V.Besleaga - Credința)",
-      "rubric": "Povestea generațiilor"
+      "rubric": "Povestea generațiilor",
+      "rubricKind": "documentar"
     }
   ],
   "history": []

@@ -912,18 +912,19 @@ function renderNow(){
   }
 
   if(maybes.length){
-    html += `<h2>Posibile — rubrici fără titlu (${maybes.length})</h2>
-      <div class="note">Grilele TV moldovenești ascund adesea filme de arhivă sub un nume de rubrică generic
-      (F.A., Tezaur, Moldova de patrimoniu) fără a numi filmul — deci un titlu urmărit poate sta chiar aici,
-      nedetectabil prin potrivire de text. Merită verificat manual.</div>`;
-    // Chronological, and timed slots ahead of untimed news mentions — this is
-    // a list you triage by "what do I have to be at the TV for", so scrape
-    // order is useless.
-    const maybesSorted = [...maybes].sort((a,b)=>{
+    // Chronological: this is a list you triage by "when must I be at the TV".
+    const byTime = (a,b)=>{
       if(!a.start !== !b.start) return a.start ? -1 : 1;
       return String(a.start||'').localeCompare(String(b.start||''));
-    });
-    html += maybesSorted.slice(0,25).map(m=>{
+    };
+    // A feature film cannot air in a documentary strand, so F.D. / "Portrete
+    // în timp" and friends are not candidates for a film artistic. They stay
+    // on the page — the watchlist could one day hold a documentary — but out
+    // of the main list, which is meant to be things worth checking by hand.
+    const candidates = maybes.filter(m=>m.rubricKind !== 'documentar').sort(byTime);
+    const docs = maybes.filter(m=>m.rubricKind === 'documentar').sort(byTime);
+
+    const maybeCard = m=>{
       const ep = (m.day && m.start) ? nextWeekdayOccurrence(m.day, m.start) : null;
       return `
       <div class="card maybe">
@@ -933,7 +934,27 @@ function renderNow(){
           ${m.live ? `<a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a>` : ''}
           ${recordBtn(m.channelId, m.start, m.end, m.dayName, m.date)}
         </div>
-      </div>`;}).join('');
+      </div>`;
+    };
+
+    if(candidates.length){
+      html += `<h2>Posibile — rubrici fără titlu (${candidates.length})</h2>
+        <div class="note">Rubrici de <strong>film artistic</strong> sau de patrimoniu care nu numesc filmul
+        (F.A., Filmoteca, Tezaur, Moldova de patrimoniu). Un titlu urmărit poate sta chiar aici, fără să poată
+        fi găsit prin potrivire de text — de asta merită verificate manual.</div>`;
+      html += candidates.slice(0,25).map(maybeCard).join('');
+    }else{
+      html += `<h2>Posibile — rubrici fără titlu (0)</h2>
+        <div class="note">Nicio rubrică de film artistic fără titlu în grila disponibilă.</div>`;
+    }
+
+    if(docs.length){
+      html += `<details style="margin-top:18px"><summary>Rubrici documentare (${docs.length}) — un film artistic nu poate fi aici</summary>
+        <div class="note">„F.D." înseamnă <em>film documentar</em>, iar „Portrete în timp" și „Povestea generațiilor"
+        sunt tot documentare. „Tunul de lemn" e film artistic, deci nu poate fi difuzat sub aceste rubrici.
+        Listate doar dacă urmărești și documentare.</div>` +
+        docs.slice(0,25).map(maybeCard).join('') + `</details>`;
+    }
   }
 
   el.innerHTML = html;
@@ -1150,15 +1171,28 @@ function renderGrid(){
   const chans = allChans.filter(c=>!isNewsSource(c));
   const newsChans = allChans.filter(isNewsSource);
   const cf=$('#chanFilter'), df=$('#dayFilter');
+  // Only offer days that actually have programming. Listing all seven
+  // promised data that cannot exist: no source publishes beyond tomorrow, so
+  // picking "miercuri" silently returned an empty table and looked broken.
+  const dayCounts = new Map();
+  for(const c of chans) for(const s of (c.slots||[])){
+    if(!s.dayName || !s.start) continue;
+    dayCounts.set(s.dayName, (dayCounts.get(s.dayName)||0) + 1);
+  }
+  const ORDER = ['luni','marți','miercuri','joi','vineri','sâmbătă','duminică'];
+  const availableDays = ORDER.filter(d=>dayCounts.has(d));
+
   if(!cf.dataset.init && chans.length){
     cf.innerHTML = `<option value="">Toate canalele</option>` +
       chans.map(c=>`<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('');
-    df.innerHTML = `<option value="">Toate zilele</option>` +
-      ['luni','marți','miercuri','joi','vineri','sâmbătă','duminică']
-        .map(d=>`<option value="${d}">${d}</option>`).join('');
     cf.dataset.init='1';
     [cf,df,$('#gridSearch'),$('#hideFiller')].forEach(x=>x.addEventListener('input',renderGrid));
   }
+  // Rebuilt every render: which days exist changes as the day rolls over.
+  const keepDay = df.value;
+  df.innerHTML = `<option value="">Toate zilele</option>` +
+    availableDays.map(d=>`<option value="${d}">${d} (${dayCounts.get(d)})</option>`).join('');
+  df.value = availableDays.includes(keepDay) ? keepDay : '';
 
   const hitKeys = new Set((DATA.hits?.current||[]).map(h=>`${h.channelId}|${h.day}|${h.start}`));
   const mayKeys = new Set((DATA.hits?.maybes||[]).map(h=>`${h.channelId}|${h.day}|${h.start}`));
@@ -1201,6 +1235,14 @@ function renderGrid(){
       <td data-label="Emisiune">${hit?'🎬 ':''}${esc(s.title)}${isNow?'<span class="now-pill">acum la TV</span>':''}</td>
     </tr>`).join('') + `</tbody></table></div></div>`
     : `<div class="empty">Niciun rezultat în grila TV.</div>`;
+
+  // Say plainly how far the data reaches. Nobody should have to work out from
+  // an empty table that Wednesday simply has not been published anywhere yet.
+  html = `<div class="note" style="margin-bottom:14px">
+      Grila disponibilă acum: <strong>${availableDays.length ? esc(availableDays.join(', ')) : 'nimic'}</strong>.
+      Mai departe nu se poate vedea: TRM publică doar ziua curentă, iar sursa de rezervă adaugă ziua următoare.
+      Restul săptămânii <em>nu este publicat de nimeni</em> — nu e o eroare a aplicației.
+    </div>` + html;
 
   // Kept on the page, but below and clearly separated: these are articles the
   // scanner read, not things you can watch. Collapsed, because on a normal day

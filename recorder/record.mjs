@@ -64,6 +64,7 @@ function parseArgs(argv) {
     else if (a === '--list') o.list = true;
     else if (a === '--vlc') o.vlc = true;
     else if (a === '--maybes') o.maybes = true;
+    else if (a === '--maybes-all') { o.maybes = true; o.maybesAll = true; }
     else if (a === '--ics') o.ics = true;
     else if (a === '--notify') o.notify = true;
     else if (a === '--dry-run') o.dryRun = true;
@@ -102,7 +103,10 @@ Filmradar recorder
   --maybes             ALSO record untitled archive rubrics ("Moldova de
                        patrimoniu", "Tezaur", "F.A.") — the slots where an
                        unlisted heritage film is most likely to be hiding.
-                       Recurs most days, so expect false positives.
+                       Recurs most days, so expect false positives. Skips
+                       documentary strands (F.D.), where a feature film
+                       cannot air.
+  --maybes-all         as above but INCLUDING documentary rubrics
   --pad N              minutes of padding before/after   (default 3)
   --outdir DIR         output directory (default: the project's own
                        recordings/ folder, wherever you run this from)
@@ -423,6 +427,9 @@ async function planAndRun() {
   if (opts.maybes) {
     for (const m of hits.maybes ?? []) {
       if (!m.start) continue; // news announcements carry no air time
+      // "F.D." is film documentar. A feature film cannot air there, so
+      // recording those is guaranteed-wasted disk unless explicitly asked.
+      if (m.rubricKind === 'documentar' && !opts.maybesAll) continue;
       list.push({ ...m, watched: m.slotTitle, speculative: true });
     }
   }
