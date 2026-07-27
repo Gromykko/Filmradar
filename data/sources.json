@@ -3,21 +3,21 @@
     "id": "moldova-1",
     "name": "Moldova 1",
     "schedule": "https://trm.md/ro/moldova-1",
-    "altSchedule": "https://tv.mail.ru/kishinev/channel/2909/",
     "live": "https://moldova1.md/live",
     "enabled": true,
     "tier": "primary",
-    "notes": "TRM public TV. Airs digitised Moldova-Film titles. TRM's own grid is published unevenly — 56 slots one day, 6 the next — so altSchedule pulls TV Mail's Chișinău listing for the same channel and merges what TRM missed. That source embeds schema.org JSON-LD with absolute timestamps, so its slots carry a real date instead of an assumed weekday."
+    "notes": "TRM public TV. Airs digitised Moldova-Film titles. TRM's own grid is published unevenly and only ever covers today, so tvmailChannel pulls a FULL WEEK from TV Mail's schedule API for the same channel and merges what TRM missed. Those events carry unix timestamps, so their slots have a real date instead of an assumed weekday.",
+    "tvmailChannel": 2909
   },
   {
     "id": "moldova-2",
     "name": "Moldova 2",
     "schedule": "https://trm.md/ro/moldova-2",
-    "altSchedule": "https://tv.mail.ru/kishinev/channel/2910/",
     "live": "https://moldova1.md/moldova2",
     "enabled": true,
     "tier": "primary",
-    "notes": "Heaviest archive/culture rotation. A confirmed past airing of Tunul de lemn was announced here (Sâmbătă, ora 12:00, 'Moldova 2 cultural')."
+    "notes": "Heaviest archive/culture rotation. A confirmed past airing of Tunul de lemn was announced here (Sambata, ora 12:00, 'Moldova 2 cultural'). Same week-ahead backup as Moldova 1 via TV Mail channel 2910.",
+    "tvmailChannel": 2910
   },
   {
     "id": "trm-cultura",
@@ -42,12 +42,11 @@
   {
     "id": "tvr-moldova",
     "name": "TVR Moldova",
-    "schedule": "https://tv.mail.ru/kishinev/channel/2901/",
-    "parser": "jsonld",
     "live": null,
     "enabled": true,
     "tier": "secondary",
-    "notes": "TVR Moldova's own site publishes no grid at all — /program-tv, /program, /grila-de-programe and /live all 404 (checked 26 Jul 2026), only per-show pages exist. So the schedule comes from TV Mail's Chișinău listing instead, as schema.org JSON-LD with real dates. It runs Romanian and Moldovan heritage cinema, so it is worth watching. live is null: no public stream address was found, so the resolver skips it rather than failing every run."
+    "notes": "TVR Moldova publishes no grid of its own anywhere - /program-tv, /program, /grila-de-programe and /live all 404 (checked 26 Jul 2026). The entire schedule therefore comes from TV Mail's API (channel 2901), a full week ahead. Runs Romanian and Moldovan heritage cinema. live is null: no public stream address found, so the resolver skips it.",
+    "tvmailChannel": 2901
   },
   {
     "id": "vocea-basarabiei",

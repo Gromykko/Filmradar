@@ -81,7 +81,10 @@ async function main() {
   // ---------------------------------------------------------------- fetch
   const sources = await loadSources(DATA);
   log(`  ${sources.length} surse active`);
-  const results = await fetchAllChannels({ channels: sources });
+  // Week-ahead listings survive in the repo between runs, so a rate-limit or
+  // captcha from TV Mail costs us one refresh rather than the whole week.
+  const tvmailCache = await readJson(join(DATA, 'tvmail-cache.json'), {});
+  const results = await fetchAllChannels({ channels: sources, tvmailCache });
 
   for (const r of results) {
     if (!r.ok) {
@@ -240,6 +243,7 @@ async function main() {
       history,
     });
     await writeJson(join(DATA, 'state.json'), state);
+    await writeJson(join(DATA, 'tvmail-cache.json'), tvmailCache);
     log('  ✓ data/ actualizat');
   } else {
     log('  (dry run — nu scriu în data/)');

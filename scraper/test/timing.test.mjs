@@ -14,7 +14,7 @@
 
 import assert from 'node:assert/strict';
 import { msUntil, msUntilDate, durationMins, planSlot, todayNameRo, DAY_NAMES } from '../../recorder/timing.mjs';
-import { parseTvMail, mergeSlots } from '../lib/tvmail.mjs';
+import { parseTvMail, mergeSlots, fetchTvMailWeek } from '../lib/tvmail.mjs';
 
 let passed = 0;
 let failed = 0;
@@ -241,6 +241,74 @@ test('merge keeps TRM wording and adds only genuinely new broadcasts', () => {
   assert.equal(merged.length, 2, 'the 12:00 duplicate must collapse');
   assert.equal(merged[0].title, 'F.A. Tunul de lemn', "TRM's own wording wins");
   assert.equal(merged[1].start, '20:00');
+});
+
+/* --------------------------------------- TV Mail week cache (rate limits) */
+// This source hands back a captcha page if pushed — it did exactly that after
+// a burst of probing. So the week it gives us is cached in the repo, and these
+// pin the behaviour that makes a block survivable.
+
+const asyncTest = async (name, fn) => {
+  try { await fn(); passed++; console.log(`  ✓ ${name}`); }
+  catch (err) { failed++; console.error(`  ✗ ${name}\n      ${err.message}`); }
+};
+
+const ev = (name, hourUTC) => ({
+  name, start_ts: Math.floor(Date.UTC(2026, 6, 27, hourUTC, 0, 0) / 1000),
+  stop_ts: Math.floor(Date.UTC(2026, 6, 27, hourUTC + 1, 0, 0) / 1000),
+});
+
+await asyncTest('future days are fetched once, then served from cache', async () => {
+  const calls = [];
+  const fetcher = async (_ch, date) => { calls.push(date); return [ev('X', 9)]; };
+  const cache = {};
+  await fetchTvMailWeek(2910, { days: 3, fetcher, cache, paceMs: 0, maxFetch: 9 });
+  const firstRun = calls.length;
+  assert.equal(firstRun, 3);
+
+  calls.length = 0;
+  await fetchTvMailWeek(2910, { days: 3, fetcher, cache, paceMs: 0, maxFetch: 9 });
+  // Only today is refreshed; the other two come from cache. This is what keeps
+  // a run to one or two requests instead of seven.
+  assert.equal(calls.length, 1, `refetched ${calls.length} days, expected 1`);
+});
+
+await asyncTest('a failed day keeps its cached slots instead of blanking them', async () => {
+  let fail = false;
+  const fetcher = async () => { if (fail) throw new Error('captcha'); return [ev('Film bun', 9)]; };
+  const cache = {};
+  const ok = await fetchTvMailWeek(2910, { days: 3, fetcher, cache, paceMs: 0, maxFetch: 9 });
+  assert.equal(ok.slots.length, 3);
+
+  fail = true;
+  const blocked = await fetchTvMailWeek(2910, { days: 3, fetcher, cache, paceMs: 0, maxFetch: 9 });
+  assert.ok(blocked.errors.length, 'the failure should be reported');
+  // The whole point: yesterday's successful week survives today's block.
+  assert.equal(blocked.slots.length, 3, 'cached days were lost on failure');
+});
+
+await asyncTest('maxFetch caps how many requests one run may make', async () => {
+  const calls = [];
+  const fetcher = async (_c, d) => { calls.push(d); return [ev('X', 9)]; };
+  await fetchTvMailWeek(2910, { days: 7, fetcher, cache: {}, paceMs: 0, maxFetch: 2 });
+  assert.equal(calls.length, 2);
+});
+
+await asyncTest('dates before today are pruned from the cache', async () => {
+  const stale = '2020-01-01';
+  const cache = { 2910: { [stale]: [{ title: 'ancient' }] } };
+  await fetchTvMailWeek(2910, { days: 1, fetcher: async () => [], cache, paceMs: 0 });
+  assert.equal(cache[2910][stale], undefined, 'stale date should be dropped');
+});
+
+await asyncTest('a total outage yields no slots but never throws', async () => {
+  const r = await fetchTvMailWeek(2910, {
+    days: 3, cache: {}, paceMs: 0,
+    fetcher: async () => { throw new Error('HTTP 429'); },
+  });
+  assert.equal(r.slots.length, 0);
+  assert.equal(r.errors.length, 3);
+  assert.equal(r.parsedAnyTime, false);
 });
 
 console.log(`\n  ${passed} passed, ${failed} failed\n`);
