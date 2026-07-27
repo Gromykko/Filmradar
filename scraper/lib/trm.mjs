@@ -316,7 +316,18 @@ export async function fetchAllChannels({ channels = CHANNELS } = {}) {
       let altError = null;
       try {
         const html = await fetchPage(ch.schedule);
-        let parsed = ch.newsOnly ? parseNewsFeed(html) : parseSchedule(html);
+        // "jsonld" = a TV Mail listing page, whose schema.org blocks give one
+        // Event per programme with an absolute timestamp. Used as a channel's
+        // only source where the broadcaster publishes no usable grid at all.
+        let parsed;
+        if (ch.parser === 'jsonld') {
+          const { parseTvMail } = await import('./tvmail.mjs');
+          parsed = parseTvMail(html);
+        } else if (ch.newsOnly) {
+          parsed = parseNewsFeed(html);
+        } else {
+          parsed = parseSchedule(html);
+        }
 
         // News pages sometimes carry an explicit broadcast announcement
         // ("Sâmbătă, 2 mai: Ora 12:00 la TV Moldova 2 cultural, «Titlu»…").

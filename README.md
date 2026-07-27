@@ -183,12 +183,30 @@ delivered.
 
 | Source | What it gives |
 |---|---|
-| **Moldova 1**, **Moldova 2** | Server-rendered daily grid. The main event. |
-| **TRM culture + general news** | Announcements, which arrive before the grid updates |
+| **Moldova 1**, **Moldova 2** | TRM's own grid — the main event, but published unevenly |
+| **TV Mail (Chișinău)** | Second opinion on the same two channels, merged in. See below |
+| **TRM culture + general news** | Announcements, which arrive before any grid updates |
 | **Diez**, **Moldpres** | Moldovan press; they republish Moldova-Film announcements |
-| **TVR Moldova** | No schedule grid exists — every candidate URL 404s. Scanned for announcements only |
+| **TVR Moldova** | Its own site publishes no grid at all, so the schedule comes from TV Mail |
 | **Vocea Basarabiei** | Grid is JavaScript-loaded and came back empty. Flagged so it never cries wolf |
 | ~~Facebook~~ | The best feed, and not automatable — see below |
+
+### Why there are two sources for one channel
+
+TRM publishes its own grid unevenly. On 27 July 2026 it served 56 slots for Sunday and,
+all through Monday afternoon, six — every one of them already aired. A watcher that can
+only see TRM goes blind on days like that, and quietly reports "nothing found".
+
+So Moldova 1 and Moldova 2 are also read from TV Mail's Chișinău listings, which embed
+`schema.org` JSON-LD: one `Event` per programme with absolute ISO timestamps. On that same
+Monday it carried 54 and 50 further slots respectively.
+
+The two are **merged into one channel**, not listed as two, so a film both sources carry
+stays a single hit and alerts once. TRM's own wording wins where they overlap.
+
+The side benefit is real dates. TRM's page shows a weekday and no date at all, so a slot
+can only ever mean "the next Monday at 14:45". JSON-LD events carry a true calendar date,
+which is what lets the recorder target one exact broadcast via `--date`.
 
 `data/sources.json`. The parser keys off content *shape* — `HH:MM - HH:MM` then a title — not
 CSS selectors, so most schedule pages work without code changes.
@@ -207,7 +225,7 @@ the same parser runs in your browser; detected airings get added with one click.
 ## Development
 
 ```
-npm test              # 90 assertions across 4 suites, zero dependencies
+npm test              # 100 assertions across 4 suites, zero dependencies
 npm run check:dry     # fetch and match, notify nothing
 npm run check:debug   # the above, plus parsed samples
 ```

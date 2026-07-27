@@ -42,12 +42,12 @@
   {
     "id": "tvr-moldova",
     "name": "TVR Moldova",
-    "schedule": "https://tvrmoldova.md/",
+    "schedule": "https://tv.mail.ru/kishinev/channel/2901/",
+    "parser": "jsonld",
     "live": null,
     "enabled": true,
-    "tier": "announcements",
-    "newsOnly": true,
-    "notes": "Verified 26 Jul 2026: TVR Moldova publishes NO schedule grid — /program-tv, /program, /grila-de-programe and /live all return 404, and the site exposes only per-show pages. So it is scanned as an announcements source (headlines + explicit broadcast announcements) rather than a grid. live is null so the stream resolver skips it instead of failing every run."
+    "tier": "secondary",
+    "notes": "TVR Moldova's own site publishes no grid at all — /program-tv, /program, /grila-de-programe and /live all 404 (checked 26 Jul 2026), only per-show pages exist. So the schedule comes from TV Mail's Chișinău listing instead, as schema.org JSON-LD with real dates. It runs Romanian and Moldovan heritage cinema, so it is worth watching. live is null: no public stream address was found, so the resolver skips it rather than failing every run."
   },
   {
     "id": "vocea-basarabiei",
