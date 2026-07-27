@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-27T04:26:25.356Z",
-  "updatedAtLocal": "27 iul. 2026, 07:26",
+  "updatedAt": "2026-07-27T08:05:15.090Z",
+  "updatedAtLocal": "27 iul. 2026, 11:05",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1130,6 +1130,17 @@
       "warning": null,
       "slots": [
         {
+          "day": 1,
+          "dayName": "luni",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
           "day": 7,
           "dayName": "duminică",
           "start": null,
@@ -1222,17 +1233,6 @@
           "dayName": "vineri",
           "start": null,
           "end": null,
-          "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": null,
-          "end": null,
           "title": "Securitatea României este securitatea Moldovei",
           "filler": false,
           "announcement": true,
@@ -1240,8 +1240,41 @@
           "kind": "tv"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
           "start": null,
           "end": null,
           "title": null,
@@ -1289,39 +1322,6 @@
           "start": null,
           "end": null,
           "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": null,
-          "end": null,
-          "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": null,
-          "end": null,
-          "title": null,
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": null,
-          "end": null,
-          "title": "Securitatea României este securitatea Moldovei",
           "filler": false,
           "announcement": true,
           "channelId": null,
@@ -1391,6 +1391,24 @@
           "start": null,
           "end": null,
           "title": "„Drumul Basarabiei spre casă” 105 ani de la unirea cu România",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "A început admiterea în universitățile din R. Moldova. Dan Perciun: Alegeți să învățați acasă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 08:56",
           "filler": false,
           "news": true
         },
@@ -1561,24 +1579,6 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Grosu îl acuză pe Dodon de populism în cazul propunerii privind gazul rusesc: Speculații de doi bani",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "vineri, 24 iulie 2026, 08:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
           "title": "Maia Sandu, după doborârea unei drone în România: „Securitatea României este securitatea Moldovei”",
           "filler": false,
           "news": true
@@ -1678,6 +1678,60 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Pompierii moldoveni au lichidat un nou incendiu forestier în Grecia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 11:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Putin: Ucraina va pierde teritoriile vestice, care au aparținut cândva României, Poloniei, Ungariei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 09:58",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Strategia Ucrainei. Kievul lovește sursa banilor Moscovei. Cum s-a schimbat conflictul?",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "luni, 27 iulie 2026, 08:22",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Se caută cel mai puternic om. Gladiator Challenge Moldova devine competiție internațională",
           "filler": false,
           "news": true
@@ -1760,69 +1814,6 @@
           "start": null,
           "end": null,
           "title": "duminică, 26 iulie 2026, 17:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cunoașteți povestea fierarului care a învățat meseria în armată și transformă fierul în artă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 15:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "România, trei drone doborâte în trei zile. Câte aparate au intrat ilegal în spațiul aerian",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 14:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 13:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cozi la ieșirea din Republica Moldova prin PTF Sculeni. Recomandări pentru călători",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "duminică, 26 iulie 2026, 12:58",
           "filler": false,
           "news": true
         },
