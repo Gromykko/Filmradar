@@ -196,14 +196,32 @@ export async function fetchTvMailDay(channelId, date, regionId = TVMAIL_REGION_K
  */
 export function mergeSlots(primary, extra) {
   const key = (s) => `${s.date ?? s.dayName ?? '?'}|${s.start ?? '?'}`;
-  const seen = new Set(primary.map(key));
   const merged = [...primary];
+  const index = new Map();
+  for (let i = 0; i < merged.length; i++) {
+    index.set(key(merged[i]), i);
+    index.set(`${merged[i].dayName ?? '?'}|${merged[i].start ?? '?'}`, i);
+  }
+
   for (const s of extra) {
-    // A TRM slot with no date can still be the same broadcast; match on the
+    // A TRM slot with no date can still be the same broadcast; check the
     // weekday form too before deciding this is genuinely new.
-    if (seen.has(key(s)) || seen.has(`${s.dayName ?? '?'}|${s.start ?? '?'}`)) continue;
-    seen.add(key(s));
-    merged.push(s);
+    const at = index.get(key(s)) ?? index.get(`${s.dayName ?? '?'}|${s.start ?? '?'}`);
+    if (at === undefined) {
+      index.set(key(s), merged.length);
+      merged.push(s);
+      continue;
+    }
+    // Same broadcast in both. Prefer whichever title actually says more:
+    // TRM often lists a bare "Moldova de patrimoniu" where TV Mail names the
+    // programme, and keeping TRM's wording would throw that name away — the
+    // difference between a slot you must check by hand and one you can read.
+    const have = merged[at];
+    if ((s.title?.length ?? 0) > (have.title?.length ?? 0)) {
+      merged[at] = { ...have, title: s.title, date: have.date ?? s.date, end: have.end ?? s.end };
+    } else if (!have.date && s.date) {
+      merged[at] = { ...have, date: s.date };
+    }
   }
   return merged;
 }

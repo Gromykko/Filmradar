@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 
 import { parseSchedule, CHANNELS, todayInChisinau, DAY_NAMES_RO } from '../lib/trm.mjs';
-import { scoreTitle, genericFilmLabel, genericFilmRubric, findMatches, isShortForFeature } from '../lib/match.mjs';
+import { scoreTitle, genericFilmLabel, genericFilmRubric, findMatches, isShortForFeature, isBareRubric } from '../lib/match.mjs';
 import { fold, contentTokens } from '../lib/normalize.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -242,6 +242,35 @@ test('every hit carries a live stream link', () => {
   assert.ok(hits.every((h) => h.live?.startsWith('https://')));
 });
 
+/* ------------------------------------------------ bare vs named rubrics */
+// Only a slot with NO programme name is a place a film could hide. Before
+// this, 29 of 50 "possibles" were fully named programmes, which buried the
+// 21 real ones and made the list read as noise.
+
+test('a rubric alone is bare', () => {
+  assert.equal(isBareRubric('Tezaur', 'Tezaur'), true);
+  assert.equal(isBareRubric('Moldova de patrimoniu', 'Moldova de patrimoniu'), true);
+  assert.equal(isBareRubric('F.A.', 'F.A. (film artistic)'), true);
+});
+
+test('a rubric that names its programme is NOT bare', () => {
+  assert.equal(isBareRubric('F.D (Eminescu)', 'F.D. (film documentar)'), false);
+  assert.equal(isBareRubric('Portrete în timp (Andrei Vartic)', 'Portrete în timp'), false);
+  assert.equal(isBareRubric('F.A. Tunul de lemn', 'F.A. (film artistic)'), false);
+});
+
+test('named rubric slots do not become maybes', () => {
+  const slots = [
+    { day: 1, dayName: 'luni', start: '18:30', end: '19:00', title: 'Moldova de patrimoniu', filler: false },
+    { day: 1, dayName: 'luni', start: '16:00', end: '16:20', title: 'F.D (Eminescu)', filler: false },
+    { day: 1, dayName: 'luni', start: '10:35', end: '11:05', title: 'Portrete în timp (Andrei Vartic)', filler: false },
+  ];
+  const res = [{ ok: true, channel: { id: 'moldova-2', name: 'Moldova 2', live: 'https://x/', schedule: 'https://y/' }, slots }];
+  const { maybes } = findMatches(res, [{ title: 'Tunul de lemn', fuzzy: true }]);
+  assert.equal(maybes.length, 1, 'only the bare rubric should survive');
+  assert.equal(maybes[0].slotTitle, 'Moldova de patrimoniu');
+});
+
 /* ------------------------------------------- feature-length sanity check */
 // TRM airs portrait documentaries titled after the film they discuss. The
 // first live match this project produced was exactly that: "Singur în fața
@@ -300,8 +329,10 @@ test('F.D. must not be mistaken for F.A.', () => {
 });
 
 test('maybes carry rubricKind so the UI can split them', () => {
+  // Both bare: a named rubric is no longer a maybe at all, so the kind split
+  // has to be exercised with rubrics that genuinely name nothing.
   const slots = [
-    { day: 1, dayName: 'luni', start: '09:00', end: '09:10', title: 'F.D (Ceva)', filler: false },
+    { day: 1, dayName: 'luni', start: '09:00', end: '09:10', title: 'F.D.', filler: false },
     { day: 1, dayName: 'luni', start: '18:30', end: '19:00', title: 'Moldova de patrimoniu', filler: false },
   ];
   const res = [{ ok: true, channel: { id: 'moldova-2', name: 'Moldova 2', live: 'https://x/', schedule: 'https://y/' }, slots }];

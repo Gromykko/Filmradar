@@ -140,6 +140,27 @@ export function scoreTitle(needle, haystack, { fuzzy = true } = {}) {
   };
 }
 
+/**
+ * Is the slot title JUST the rubric, with no programme named after it?
+ *
+ * This is the whole distinction the "posibile" list depends on. "Tezaur" on
+ * its own tells you nothing — a film could be behind it. "F.D (Eminescu)" or
+ * "Portrete în timp (Andrei Vartic)" names the programme: it is not a mystery,
+ * it is simply something else, and listing it as a place your film might hide
+ * is false. Before this, 29 of 50 entries were named programmes, which buried
+ * the 21 real ones.
+ */
+export function isBareRubric(title, rubricLabel) {
+  const t = fold(title);
+  const r = fold(rubricLabel ?? '');
+  if (!t) return false;
+  if (!r) return true;
+  // Whatever is left after removing the rubric words: a couple of stray
+  // characters is still "bare", an actual name is not.
+  const leftover = t.replace(r, '').replace(/[^a-z0-9]+/g, '');
+  return leftover.length < 3;
+}
+
 /** Shortest a real feature film is likely to be, in minutes. */
 export const FEATURE_MIN_MINUTES = 50;
 
@@ -242,7 +263,9 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
       // time and produces a genuine scheduled slot.
       if (includeMaybes && !slot.filler && !slot.news && slot.start) {
         const rubric = genericFilmRubric(slot.title);
-        if (rubric) {
+        // Only genuinely nameless slots. A rubric that names its programme is
+        // not a hiding place — the title is right there, and it is not yours.
+        if (rubric && isBareRubric(slot.title, rubric.label)) {
           const label = rubric.label;
           maybes.push({
             channelId: ch.id,
