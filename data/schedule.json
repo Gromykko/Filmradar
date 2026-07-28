@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-28T10:13:27.282Z",
-  "updatedAtLocal": "28 iul. 2026, 13:13",
+  "updatedAt": "2026-07-28T12:24:07.263Z",
+  "updatedAtLocal": "28 iul. 2026, 15:24",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9855,6 +9855,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Festivalul „La Seceriș” a celebrat tradițiile rurale și munca agricultorilor la Cîrnățeni",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Eugeniu Coșeriu, savantul care a revoluționat studiul limbajului",
           "filler": false,
           "news": true
@@ -9883,15 +9892,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Tradiția olăritului, valorificată la Hoginești, la cea de-a X-a ediție a Târgului „La Vatra Olarului Vasile Gonciari”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Claca de odinioară a prins din nou viață în satul Văratic",
           "filler": false,
           "news": true
         },
@@ -9946,6 +9946,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Claca de odinioară a prins din nou viață în satul Văratic",
           "filler": false,
           "news": true
         },
@@ -10026,7 +10035,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "GALERIE FOTO // Expoziția lui Roger Ballen, inaugurată la Muzeul Național de Artă al Moldovei",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10035,7 +10044,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "GALERIE FOTO // Expoziția lui Roger Ballen, inaugurată la Muzeul Național de Artă al Moldovei",
           "filler": false,
           "news": true
         },
@@ -10207,15 +10216,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Chișinăul de ieri și de azi, prezentat într-o expoziție de documente și cărți poștale la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Festivalul Internațional „Ukrainian Day in Moldova” a reunit comunități din trei țări la Iabloana",
           "filler": false,
           "news": true
         },
