@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-29T04:29:11.442Z",
-  "updatedAtLocal": "29 iul. 2026, 07:29",
+  "updatedAt": "2026-07-29T07:27:17.260Z",
+  "updatedAtLocal": "29 iul. 2026, 10:26",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8395,6 +8395,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Festivalul Internațional de Film Transilvania – TIFF Chișinău a reunit peste 3.200 de spectatori la cea de-a șasea ediție",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Parlamentul a denunțat acordul cu CSI privind colaborarea în domeniul cărții și poligrafiei",
           "filler": false,
           "news": true
@@ -8423,15 +8432,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // România va dona cărți în limba română bibliotecilor din Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Claca, reînviată în satul Văratic. Localnicii s-au adunat pentru o zi de muncă și voie bună",
           "filler": false,
           "news": true
         },
@@ -8486,6 +8486,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Claca, reînviată în satul Văratic. Localnicii s-au adunat pentru o zi de muncă și voie bună",
           "filler": false,
           "news": true
         },
@@ -8566,7 +8575,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Manuscrise, fotografii și amintiri despre Vladimir Beșleagă, reunite într-o expoziție la Muzeul Literaturii Române",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8575,7 +8584,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Manuscrise, fotografii și amintiri despre Vladimir Beșleagă, reunite într-o expoziție la Muzeul Literaturii Române",
           "filler": false,
           "news": true
         },
@@ -8747,15 +8756,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Drumul spre Mănăstirea rupestră Țipova devine mai accesibil: au început lucrările de reamenajare a scărilor istorice",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Peste 170 de fotografii semnate de Mihai Potârniche, expuse la Iași",
           "filler": false,
           "news": true
         },
