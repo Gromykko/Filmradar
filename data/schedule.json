@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-29T07:27:17.260Z",
-  "updatedAtLocal": "29 iul. 2026, 10:26",
+  "updatedAt": "2026-07-29T10:15:51.746Z",
+  "updatedAtLocal": "29 iul. 2026, 13:15",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8395,7 +8395,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Festivalul Internațional de Film Transilvania – TIFF Chișinău a reunit peste 3.200 de spectatori la cea de-a șasea ediție",
+          "title": "„Independența care ne unește. Moldova-35”: programul evenimentelor dedicate celor 35 de ani de independență",
           "filler": false,
           "news": true
         },
@@ -8404,7 +8404,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Parlamentul a denunțat acordul cu CSI privind colaborarea în domeniul cărții și poligrafiei",
+          "title": "Republica Moldova denunță un acord CSI privind colaborarea în domeniul informației",
           "filler": false,
           "news": true
         },
@@ -8413,7 +8413,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Festivalul „La Seceriș” a celebrat tradițiile rurale și munca agricultorilor la Cîrnățeni",
+          "title": "R. Moldova se alătură proiectului TRADUKI pentru promovarea literaturii naționale în spațiul european",
           "filler": false,
           "news": true
         },
@@ -8422,7 +8422,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cronica ARHIVELOR // Eugeniu Coșeriu, savantul care a revoluționat studiul limbajului",
+          "title": "Un oraș din Republica Moldova va reprezenta țara în competiția pentru Capitala Europeană a Culturii 2033",
           "filler": false,
           "news": true
         },
@@ -8431,7 +8431,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // România va dona cărți în limba română bibliotecilor din Republica Moldova",
+          "title": "Publicațiile periodice vor beneficia de compensații pentru distribuirea presei tipărite",
           "filler": false,
           "news": true
         },
@@ -8494,6 +8494,60 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Republica Moldova va marca 35 de ani de la proclamarea Independenței printr-o serie de evenimente",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul Internațional de Film Transilvania – TIFF Chișinău a reunit peste 3.200 de spectatori la cea de-a șasea ediție",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Parlamentul a denunțat acordul cu CSI privind colaborarea în domeniul cărții și poligrafiei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Festivalul „La Seceriș” a celebrat tradițiile rurale și munca agricultorilor la Cîrnățeni",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Eugeniu Coșeriu, savantul care a revoluționat studiul limbajului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // România va dona cărți în limba română bibliotecilor din Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Claca, reînviată în satul Văratic. Localnicii s-au adunat pentru o zi de muncă și voie bună",
           "filler": false,
           "news": true
@@ -8513,6 +8567,15 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Claca de odinioară a prins din nou viață în satul Văratic",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8567,15 +8630,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Festivalul Internațional de Film Transilvania a început la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8702,60 +8756,6 @@
           "start": null,
           "end": null,
           "title": "Planul Guvernului Tofan pentru sectorul cultural: susținerea creatorilor și modernizarea instituțiilor de profil",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Glebus Sainciuc, artistul care a transformat portretul în spectacol",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cristian Jardan a prezentat bilanțul activității Ministerului Culturii: proiecte culturale, sprijin pentru artiști și promovare internațională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Patrimoniul arheologic al culturii Cucuteni-Tripolie va putea fi explorat prin diorame 3D și realitate virtuală la Muzeul din Călărași",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cooperarea teatrală dintre R. Moldova și România, consolidată prin noi proiecte culturale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Tânărul artist moldovean Artur Dulghier și-a inaugurat prima expoziție personală la Viena",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Drumul spre Mănăstirea rupestră Țipova devine mai accesibil: au început lucrările de reamenajare a scărilor istorice",
           "filler": false,
           "news": true
         },
