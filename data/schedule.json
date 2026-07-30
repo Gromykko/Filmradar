@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-30T06:11:30.693Z",
-  "updatedAtLocal": "30 iul. 2026, 09:11",
+  "updatedAt": "2026-07-30T09:16:53.609Z",
+  "updatedAtLocal": "30 iul. 2026, 12:16",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7590,6 +7590,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "GALERIE FOTO // Vernisajul expoziției „Noua Speranță” semnată de artistul plastic Roman Tolici",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Noua Speranță”, expoziția semnată de artistul plastic Roman Tolici, vernisată la Muzeul Național de Artă al Moldovei",
           "filler": false,
           "news": true
@@ -7618,15 +7627,6 @@
           "start": null,
           "end": null,
           "title": "R. Moldova se alătură proiectului TRADUKI pentru promovarea literaturii naționale în spațiul european",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Un oraș din Republica Moldova va reprezenta țara în competiția pentru Capitala Europeană a Culturii 2033",
           "filler": false,
           "news": true
         },
@@ -7681,6 +7681,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Un oraș din Republica Moldova va reprezenta țara în competiția pentru Capitala Europeană a Culturii 2033",
           "filler": false,
           "news": true
         },
@@ -7761,7 +7770,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Tradiția olăritului, valorificată la Hoginești, la cea de-a X-a ediție a Târgului „La Vatra Olarului Vasile Gonciari”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -7770,7 +7779,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Tradiția olăritului, valorificată la Hoginești, la cea de-a X-a ediție a Târgului „La Vatra Olarului Vasile Gonciari”",
           "filler": false,
           "news": true
         },
@@ -7942,15 +7951,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Vasile Brescanu, actorul care a marcat cinematografia moldovenească",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // „Ce-aș fi fost”, melodia unei epoci",
           "filler": false,
           "news": true
         },
