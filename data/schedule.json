@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-30T15:34:44.262Z",
-  "updatedAtLocal": "30 iul. 2026, 18:34",
+  "updatedAt": "2026-07-30T17:08:20.919Z",
+  "updatedAtLocal": "30 iul. 2026, 20:08",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7409,6 +7409,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Parlamentul a ratificat în prima lectură Convenția Consiliului Europei privind coproducția de opere audiovizuale sub formă de seriale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // Vernisajul expoziției „Noua Speranță” semnată de artistul plastic Roman Tolici",
           "filler": false,
           "news": true
@@ -7437,15 +7446,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova denunță un acord CSI privind colaborarea în domeniul informației",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "R. Moldova se alătură proiectului TRADUKI pentru promovarea literaturii naționale în spațiul european",
           "filler": false,
           "news": true
         },
@@ -7500,6 +7500,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "R. Moldova se alătură proiectului TRADUKI pentru promovarea literaturii naționale în spațiul european",
           "filler": false,
           "news": true
         },
@@ -7580,7 +7589,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Claca, reînviată în satul Văratic. Localnicii s-au adunat pentru o zi de muncă și voie bună",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -7589,7 +7598,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Claca, reînviată în satul Văratic. Localnicii s-au adunat pentru o zi de muncă și voie bună",
           "filler": false,
           "news": true
         },
@@ -7761,15 +7770,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Trecutul ascuns al capitalei, dezvăluit într-o expoziție la Muzeul Național de Istorie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Vasile Brescanu, actorul care a marcat cinematografia moldovenească",
           "filler": false,
           "news": true
         },
