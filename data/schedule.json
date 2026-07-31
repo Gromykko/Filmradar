@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-31T05:05:34.171Z",
-  "updatedAtLocal": "31 iul. 2026, 08:05",
+  "updatedAt": "2026-07-31T08:09:39.076Z",
+  "updatedAtLocal": "31 iul. 2026, 11:09",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6437,10 +6437,164 @@
       "schedule": "https://diez.md/category/cultura/",
       "newsOnly": true,
       "tier": "announcements",
-      "ok": false,
-      "error": "Failed to fetch https://diez.md/category/cultura/: HTTP 403 Forbidden",
+      "ok": true,
+      "error": null,
       "warning": null,
-      "slots": []
+      "slots": [
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tot ce trebuie să știi despre BAC",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tot ce trebuie să știi despre admiterea 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Orașele din Republica Moldova vor putea concura pentru titlul de „Capitală Europeană a Culturii” 2033",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cineaștii din Moldova vor putea coproduce seriale cu parteneri europeni și accesa noi finanțări",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce filme vor fi prezentate în august în cadrul Serilor de CRONOGRAF. Programul proiecțiilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cum va marca Republica Moldova cei 35 de ani de independență? Programul evenimentelor aprobate de Guvern",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Peste 3.200 de persoane au participat la TIFF Chișinău. Ce filme au putut vedea cinefilii și de ce oportunități au avut parte",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Povestea unei femei care refuză să îmbătrânească și să joace după regulile societății. Ce citim pentru Clubul de carte din august",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O expoziție imersivă urmează să fie inaugurată la Galeria PLAI. Ce reprezintă și până când va putea fi vizitată",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "De la producție și imagine de film la actorie: TIFF Chișinău anunță programul de workshopuri și masterclassuri",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "(doc) 21 de proiecte cinematografice au câștigat în 2026 finanțare de la stat. Vezi lista acestora și banii primiți",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Studenții ASEM își dezvoltă competențele financiare la Școala Finanțelor Moderne",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce generic va avea prima lecție din anul de studii 2026/2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce trebuie să știi despre noul program de master din Moldova care va permite tinerilor să studieze la o universitate europeană",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Urmează să-ți faci studiile în Danemarca? Participă la o sesiune online dedicată primilor pași după admitere",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Condiții moderne și incluzive: Căminul nr. 5 al UPSC, renovat capital",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "#diez &copy; 2026 - Toate drepturile rezervate",
+          "filler": false,
+          "news": true
+        }
+      ]
     },
     {
       "id": "moldpres-cultura",
