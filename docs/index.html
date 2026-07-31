@@ -39,8 +39,11 @@
     color:var(--ink-1);user-select:all;overflow-x:auto;white-space:nowrap}
   .stamp .rel{color:var(--ink-2)}
 
-  .tabs{display:flex;gap:2px;margin-bottom:20px;border-bottom:1px solid var(--line);flex-wrap:wrap;
-        overflow-x:auto;-webkit-overflow-scrolling:touch}
+  /* No overflow-x here: per CSS spec, a non-visible overflow on one axis forces
+     the other to `auto`, so `overflow-x:auto` gave the wrapped tab strip a
+     permanent vertical scrollbar on phones that ate 16px of width. Wrapping
+     alone handles narrow screens, and keeps every tab visible. */
+  .tabs{display:flex;gap:2px;margin-bottom:20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
   .tab{appearance:none;background:none;border:0;border-bottom:2px solid transparent;
        color:var(--ink-2);font:600 13px var(--sans);padding:10px 14px;cursor:pointer;margin-bottom:-1px;
        white-space:nowrap}
@@ -171,6 +174,23 @@
   /* ── sources ── */
   .source-stats{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:12px;color:var(--ink-2)}
   .source-stats b{color:var(--ink)}
+
+  /* ── phone ── */
+  @media(max-width:640px){
+    /* The header stamp is right-aligned beside the title on a wide screen. On a
+       phone it wraps to its own full-width row, where right-alignment left a
+       ragged edge fighting every other line on the page. */
+    .stamp{text-align:left}
+    .wrap{padding-left:14px;padding-right:14px}
+  }
+  /* Finger-sized controls on touch devices. .btn.sm rendered 27px tall, which
+     is under the 44px target everyone from Apple to WCAG asks for — and these
+     are the buttons you reach for one-handed while a film is starting. */
+  @media(pointer:coarse){
+    .btn{min-height:44px}
+    .btn.sm{min-height:40px;padding:8px 12px;font-size:13px}
+    .tab{padding:13px 14px}
+  }
 </style>
 </head>
 <body>
@@ -179,7 +199,7 @@
   <header class="top">
     <div>
       <h1>Film<span>radar</span></h1>
-      <div class="sub">Detector de titluri de patrimoniu în grilele TV din Republica Moldova — inclusiv țintă principală „Tunul de lemn" (1986), dar generic pentru orice film.</div>
+      <div class="sub">Detector de titluri de patrimoniu în grilele TV din Republica Moldova — inclusiv țintă principală „Tunul de lemn” (1986), dar generic pentru orice film.</div>
     </div>
     <div class="stamp" id="stamp">se încarcă…</div>
   </header>
@@ -211,7 +231,7 @@
       <div class="hint">
         Facebook nu poate fi verificat automat (necesită autentificare și blochează IP-urile din centre de date),
         deci pagina Moldova-Film trebuie copiată manual aici. Analiza se face în browser — nimic nu e trimis nicăieri.
-        Recunoaște zi + oră + titlu + an + regizor chiar și cu ghilimele nepotrivite sau „Ora12:00" lipit.
+        Recunoaște zi + oră + titlu + an + regizor chiar și cu ghilimele nepotrivite sau „Ora12:00” lipit.
       </div>
     </div>
 
@@ -233,7 +253,7 @@
         <button class="btn primary" id="addBtn">Adaugă</button>
       </div>
       <div class="hint">
-        Diacriticele nu contează — „Poienile roșii" prinde și „Poienile rosii". Adaugă alias-uri pentru titlul rusesc sau englez
+        Diacriticele nu contează — „Poienile roșii” prinde și „Poienile rosii”. Adaugă alias-uri pentru titlul rusesc sau englez
         direct din tabel, mai jos (separate prin virgulă).
       </div>
     </div>
@@ -250,7 +270,7 @@
     </div>
     <div class="hint" style="margin-top:-6px;margin-bottom:12px">
       Coloana <strong>Aprox.</strong> = potrivire aproximativă: tolerează o greșeală de tipar în cuvinte lungi.
-      Dezactiveaz-o pentru titluri scurte sau cuvinte comune (ex. „Fântâna", „A iubi") ca să eviți potriviri false.
+      Dezactiveaz-o pentru titluri scurte sau cuvinte comune (ex. „Fântâna”, „A iubi”) ca să eviți potriviri false.
     </div>
 
     <div id="watch-body"></div>
@@ -859,7 +879,6 @@ function renderNow(){
     const cls = ['card','hit', isLead?'lead':'', it._desc.urgent && !it._desc.ended ? 'urgent' : ''].filter(Boolean).join(' ');
     const startAttr = it.startEpoch!=null ? ` data-start="${it.startEpoch}"` : '';
     const endAttr = it.endEpoch!=null ? ` data-end="${it.endEpoch}"` : '';
-    const ics = esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}));
 
     return `<div class="${cls}"${startAttr}${endAttr}>
       ${isLead?`<span class="kicker">${it._desc.live?'Pe post acum':'Urmează'}</span>`:''}
@@ -875,7 +894,6 @@ function renderNow(){
       <div class="row">
         ${liveUrl?`<a class="btn primary${isLead?' lg':''}" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Urmărește live</a>`:''}
         ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
-        <button class="btn sm" data-ics='${ics}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
         ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName, it.h.date)}
       </div>
     </div>`;
@@ -911,13 +929,6 @@ function renderNow(){
   // still marks rows in the Grila TV table; it just is not news on this page.
 
   el.innerHTML = html;
-
-  $$('[data-ics]').forEach(b=>b.onclick=()=>{
-    const meta = JSON.parse(b.dataset.ics);
-    const startEpoch = b.dataset.icsEpoch ? +b.dataset.icsEpoch : null;
-    const endEpoch = b.dataset.icsEnd ? +b.dataset.icsEnd : null;
-    downloadICS({ ...meta, startEpoch, endEpoch });
-  });
 
   $$('[data-copy]').forEach(b=>b.onclick=async()=>{
     const cmd = b.dataset.copy;
@@ -981,7 +992,7 @@ function renderAnnounce(){
   $('#b-ann').textContent = (DATA.announcements||[]).length;
   const body = $('#ann-body');
   if(!DATA.announcements.length){
-    body.innerHTML = `<div class="empty">Niciun anunț analizat încă. Lipește un text mai sus și apasă „Analizează".</div>`;
+    body.innerHTML = `<div class="empty">Niciun anunț analizat încă. Lipește un text mai sus și apasă „Analizează”.</div>`;
   } else {
     body.innerHTML = DATA.announcements.map((a,i)=>annCard(a,i,false)).join('');
     wireAnnCards('#ann-body');
@@ -1014,7 +1025,7 @@ function wireAnnCards(scope){
     if(DATA.watchlist.some(w=>fold(w.title)===fold(a.title))){ toast('Titlul există deja în listă'); return; }
     DATA.watchlist.unshift({ id:slugify(a.title), title:a.title, aliases:[], year:a.year||undefined,
       director:a.director||undefined, fuzzy:true, enabled:true, notes:'Adăugat din anunț Facebook' });
-    saveLocal(); renderWatchlist(); toast(`„${a.title}" adăugat la titluri urmărite`);
+    saveLocal(); renderWatchlist(); toast(`„${a.title}” adăugat la titluri urmărite`);
   });
   $$(`${scope} [data-dl-ics]`).forEach(b=>b.onclick=()=>{
     const list = b.dataset.preview==='1' ? lastParsed : DATA.announcements;
@@ -1041,7 +1052,9 @@ $('#analyzeBtn').onclick = ()=>{
   lastParsed = parsed;
   const results = $('#ann-results');
   if(!parsed.length){
-    results.innerHTML = `<div class="note">Niciun anunț recunoscut. Verifică formatul: „Ziua, zi lună: Ora HH:MM la Canal, "Titlu”, an, regia Nume;".</div>`;
+    results.innerHTML = `<div class="note">Niciun anunț recunoscut. Formatul așteptat:
+      <code class="inline">Sâmbătă, 2 mai: Ora 12:00 la Moldova 2, „Titlu”, 1986, regia Nume;</code>
+      — îi trebuie cel puțin ziua, data și ora.</div>`;
     return;
   }
   results.innerHTML = `<h2>Găsite acum (${parsed.length})</h2>` + parsed.map((a,i)=>annCard(a,i,true)).join('');
@@ -1072,7 +1085,7 @@ function renderWatchlist(){
   $('#watchCount').textContent = `${rowsData.length} din ${DATA.watchlist.length} titluri`;
 
   if(!DATA.watchlist.length){ el.innerHTML=`<div class="empty">Niciun titlu. Adaugă unul mai sus.</div>`; return; }
-  if(!rowsData.length){ el.innerHTML=`<div class="empty">Niciun titlu nu se potrivește cu „${esc($('#watchSearch').value)}".</div>`; return; }
+  if(!rowsData.length){ el.innerHTML=`<div class="empty">Niciun titlu nu se potrivește cu „${esc($('#watchSearch').value)}”.</div>`; return; }
 
   el.innerHTML = `<div class="tablewrap"><table class="responsive"><thead><tr>
       <th>Titlu</th><th>An / regizor</th><th>Alias-uri</th><th>Aprox.</th><th>Activ</th><th></th>
@@ -1089,7 +1102,7 @@ function renderWatchlist(){
 
   $$('[data-del]').forEach(b=>b.onclick=()=>{
     const w = DATA.watchlist[+b.dataset.del];
-    if(confirm(`Ștergi „${w.title}" din lista de urmărire?`)){
+    if(confirm(`Ștergi „${w.title}” din lista de urmărire?`)){
       DATA.watchlist.splice(+b.dataset.del,1); saveLocal(); renderWatchlist();
     }
   });
@@ -1210,7 +1223,7 @@ function renderGrid(){
     html += `<h2 style="margin-top:26px">Surse de presă — nu sunt emisiuni (${newsCount})</h2>
       <div class="note">Acestea sunt titluri de articole citite de pe site-uri de știri, nu emisiuni din grilă.
       Nu au oră de difuzare și nu pot fi înregistrate. Sunt scanate doar pentru <em>anunțuri</em> de difuzare —
-      un anunț care numește canalul și ora exactă devine automat o difuzare programată, în fila „Acum".</div>
+      un anunț care numește canalul și ora exactă devine automat o difuzare programată, în fila „Acum”.</div>
       <details><summary>Vezi titlurile citite</summary>` +
       newsChans.map(c=>`<div style="margin-top:12px">
         <div class="meta"><strong>${esc(c.name)}</strong> · ${(c.slots||[]).length} titluri
@@ -1266,13 +1279,19 @@ function renderSources(){
 function renderHistory(){
   const h = DATA.hits?.history || [];
   $('#history-body').innerHTML = h.length
-    ? `<div class="tablewrap"><table class="responsive"><thead><tr>
+    ? `<div class="note info">O linie per difuzare, nu per verificare: dacă robotul vede aceeași
+        difuzare la fiecare rulare, rămâne o singură linie, cu ora primei detectări.</div>
+      <div class="tablewrap"><table class="responsive"><thead><tr>
         <th>Detectat</th><th>Titlu</th><th>Canal</th><th>Difuzare</th></tr></thead><tbody>` +
       h.map(x=>`<tr>
         <td data-label="Detectat" class="t">${esc((x.detectedAt||'').slice(0,16).replace('T',' '))}</td>
         <td data-label="Titlu"><strong>${esc(x.watched)}</strong><div class="hint">${esc(x.slotTitle)}</div></td>
         <td data-label="Canal" class="meta">${esc(x.channel)}</td>
-        <td data-label="Difuzare" class="meta">${esc(whenStr(x))}</td>
+        <td data-label="Difuzare" class="meta">${esc(whenStr(x))}${
+          // Most rows here are 25-minute slots — portraits about a film or its
+          // people, not the film. Without the mark the tab reads as "found it
+          // eight times", which would be a lie.
+          x.shortForFeature?' <span class="pill warn" title="Slot prea scurt pentru un film întreg — probabil o emisiune despre film">scurt</span>':''}</td>
       </tr>`).join('') + `</tbody></table></div>`
     : `<div class="empty">Nicio detectare încă.<br><br>
        Când un titlu apare în grilă, ajunge aici — și pe Telegram și e-mail.</div>`;

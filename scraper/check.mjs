@@ -239,10 +239,26 @@ async function main() {
   };
 
   const prevHits = await readJson(join(DATA, 'hits.json'), { history: [] });
-  const history = [
-    ...fresh.map((h) => ({ ...h, detectedAt: new Date().toISOString() })),
-    ...(prevHits.history ?? []),
-  ].slice(0, 200);
+  // History is a record of broadcasts, not of scraper runs. It used to append
+  // every `fresh` hit each run — and `fresh` only shrinks once state.alerted is
+  // written, which only happens when a notification actually delivers. With no
+  // Telegram/e-mail secret set, nothing is ever "already alerted", so one
+  // Saturday screening piled up 73 identical rows. Keying on the slot itself
+  // decouples the two: the first sighting keeps its detectedAt and later runs
+  // change nothing, whether or not notifications are configured.
+  const detectedNow = new Date().toISOString();
+  const byKey = new Map();
+  for (const h of [...(prevHits.history ?? [])].reverse()) {
+    const k = alertKey(h);
+    if (!byKey.has(k)) byKey.set(k, h); // oldest wins — that is when it turned up
+  }
+  for (const h of hits) {
+    const k = alertKey(h);
+    if (!byKey.has(k)) byKey.set(k, { ...h, detectedAt: detectedNow });
+  }
+  const history = [...byKey.values()]
+    .sort((a, b) => String(b.detectedAt ?? '').localeCompare(String(a.detectedAt ?? '')))
+    .slice(0, 200);
 
   if (!DRY_RUN) {
     await writeJson(join(DATA, 'schedule.json'), schedule);
