@@ -146,13 +146,16 @@
   details[open] summary{margin-bottom:10px}
   ol,ul{padding-left:20px} li{margin:5px 0}
 
-  /* ── Acum tab specifics ── */
-  .hero{background:var(--panel);border:1px solid var(--accent-dim);border-radius:calc(var(--radius) + 4px);
-        padding:22px;margin-bottom:18px;position:relative;overflow:hidden}
-  .hero .kicker{font:700 11px var(--sans);letter-spacing:.6px;text-transform:uppercase;color:var(--accent)}
-  .hero h2.title{font-size:24px;margin:6px 0 4px;letter-spacing:-.3px}
-  .hero .cd{font:700 26px/1.2 var(--sans);color:var(--accent);margin:10px 0 2px}
-  .hero .cd.live{color:var(--ok)}
+  /* ── Acum tab: one card style. The soonest broadcast is the same card with
+     bigger type, not a separate component — a different layout read as a
+     different category of thing, which it never was. ── */
+  .countdown-text{margin-top:8px;font-weight:600;color:var(--accent)}
+  .countdown-text.live{color:var(--ok)}
+  .card.lead{padding:22px;border-color:var(--accent-dim)}
+  .card.lead h3{font-size:24px;letter-spacing:-.3px;margin-bottom:6px}
+  .card.lead .countdown-text{font-size:26px;font-weight:700;line-height:1.2;margin-top:12px}
+  .kicker{display:block;font:700 11px var(--sans);letter-spacing:.6px;text-transform:uppercase;
+          color:var(--accent);margin-bottom:6px}
   .tag{display:inline-block;font:700 10px var(--sans);padding:2px 8px;border-radius:20px;margin-left:6px;
        letter-spacing:.3px;vertical-align:middle}
   .tag.grid{background:var(--panel-2);color:var(--ink-2);border:1px solid var(--line)}
@@ -372,10 +375,11 @@ node recorder\record.mjs --watch --maybes --outdir C:\Filmradar\recordings</pre>
         îl poți șterge oricând.
       </p>
       <p class="hint">
-        <code class="inline">--maybes</code> înregistrează și rubricile fără titlu de mai sus
+        <code class="inline">--maybes</code> înregistrează și rubricile care <em>nu numesc</em> filmul difuzat
         („Moldova de patrimoniu”, „Tezaur”, „F.A.”) — exact sloturile în care un film de
-        patrimoniu poate sta nedetectabil. Se repetă aproape zilnic, deci vei prinde și
-        emisiuni care nu te interesează; ăsta e prețul ca să nu ratezi difuzarea care contează.
+        patrimoniu poate sta nedetectabil, fiindcă nicio căutare după titlu nu-l poate găsi acolo.
+        Se repetă aproape zilnic, deci vei prinde și emisiuni care nu te interesează;
+        ăsta e prețul ca să nu ratezi difuzarea care contează.
       </p>
       <p class="hint">
         Înregistrarea e pentru uz personal (time-shifting) dintr-o emisie liberă, necondiționată.
@@ -787,7 +791,6 @@ function whenStr(x){
 
 function renderNow(){
   const hits = DATA.hits?.current || [];
-  const maybes = DATA.hits?.maybes || [];
   const el = $('#now-body');
 
   if(!DATA.schedule && !DATA.hits){
@@ -816,10 +819,10 @@ function renderNow(){
     .filter(x=>x.startEpoch!=null && x.startEpoch > Date.now() - 3*3600*1000); // drop long-past ones
 
   const all = [...gridItems, ...annItems];
-  // Counts the "Posibile" too. On a quiet day hits is 0 but there may be a
-  // dozen untitled archive slots below — a badge reading "0" told you there
-  // was nothing to look at on precisely the days worth looking.
-  $('#b-now').textContent = hits.length + annItems.length + (DATA.hits?.maybes?.length || 0);
+  // Only real detections. The badge must equal what the tab shows, or it is
+  // lying: it used to add the untitled strands, so it read "14" over a tab
+  // whose actual answer was "nothing found".
+  $('#b-now').textContent = hits.length + annItems.length;
 
   // Partition: live-now / upcoming first (soonest first), ended pushed to bottom.
   const active = [], ended = [];
@@ -841,7 +844,7 @@ function renderNow(){
       ${broken.map(c=>esc(c.name)).join(', ')}. Restul au fost verificate normal.</div>`;
   }
 
-  function cardFor(it, isHero){
+  function cardFor(it, isLead){
     const isAnn = it.kind==='ann';
     const title = isAnn ? it.a.title : it.h.watched;
     const channelName = isAnn ? channelDisplay(it.a.channel).name : it.h.channel;
@@ -853,30 +856,13 @@ function renderNow(){
     const dayAssumed = !isAnn && it.h.dayAssumed === true;
     const tag = isAnn ? `<span class="tag ann">din anunț</span>` : `<span class="tag grid">din grila TV</span>`;
     const assumedTag = dayAssumed ? `<span class="tag assumed">zi presupusă</span>` : '';
-    const cdClass = it._desc.live ? 'cd live' : 'cd';
-    const cardClasses = ['card','hit', it._desc.urgent && !it._desc.ended ? 'urgent' : ''].filter(Boolean).join(' ');
+    const cls = ['card','hit', isLead?'lead':'', it._desc.urgent && !it._desc.ended ? 'urgent' : ''].filter(Boolean).join(' ');
     const startAttr = it.startEpoch!=null ? ` data-start="${it.startEpoch}"` : '';
     const endAttr = it.endEpoch!=null ? ` data-end="${it.endEpoch}"` : '';
+    const ics = esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}));
 
-    if(isHero){
-      return `<div class="hero"${startAttr}${endAttr}>
-        <div class="kicker">${it._desc.live ? 'PE POST ACUM' : 'URMĂTOAREA DIFUZARE'} ${tag}${assumedTag}</div>
-        <h2 class="title">${esc(title)}</h2>
-        <div class="meta"><strong>${esc(channelName)}</strong> · ${esc(when)}${localSuffix(it.startEpoch)}
-          ${!isAnn && it.h.confidence!=null?`<span class="pill pri" style="margin-left:6px" title="Cât de sigură e potrivirea numelui: 1.00 = titlu identic, 0.95 = titlul apare întreg în denumirea emisiunii, sub 0.90 = potrivire pe cuvinte. Nu spune nimic despre calitatea filmului.">potrivire ${it.h.confidence}</span>`:''}</div>
-        ${!isAnn?`<div class="meta" style="margin-top:2px">listat ca: <code>${esc(it.h.slotTitle)}</code></div>`:
-                  `<div class="meta" style="margin-top:2px">${[it.a.year,it.a.director].filter(Boolean).map(esc).join(' · ')}</div>`}
-        <div class="${cdClass} countdown-text">${esc(it._desc.text)}</div>
-        <div class="row">
-          ${liveUrl?`<a class="btn primary lg" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Urmărește live</a>`:''}
-          ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
-          <button class="btn sm" data-ics='${esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}))}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
-          ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName, it.h.date)}
-        </div>
-      </div>`;
-    }
-
-    return `<div class="${cardClasses}"${startAttr}${endAttr}>
+    return `<div class="${cls}"${startAttr}${endAttr}>
+      ${isLead?`<span class="kicker">${it._desc.live?'Pe post acum':'Urmează'}</span>`:''}
       <h3>${esc(title)} ${tag}${assumedTag}</h3>
       <div class="meta">
         <strong>${esc(channelName)}</strong> · ${esc(when)}${localSuffix(it.startEpoch)}
@@ -885,29 +871,32 @@ function renderNow(){
       ${!isAnn && it.h.shortForFeature?`<div class="meta" style="margin-top:4px;color:var(--accent)">⚠ slot scurt — probabil o emisiune <em>despre</em> film, nu filmul întreg</div>`:''}
       ${!isAnn?`<div class="meta" style="margin-top:4px">listat ca: <code>${esc(it.h.slotTitle)}</code></div>`:
                 `<div class="meta" style="margin-top:4px">${[it.a.year,it.a.director].filter(Boolean).map(esc).join(' · ')}</div>`}
-      <div class="meta countdown-text" style="margin-top:6px;font-weight:600;color:${it._desc.live?'var(--ok)':'var(--accent)'}">${esc(it._desc.text)}</div>
+      <div class="countdown-text${it._desc.live?' live':''}">${esc(it._desc.text)}</div>
       <div class="row">
-        ${liveUrl?`<a class="btn primary" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Live</a>`:''}
+        ${liveUrl?`<a class="btn primary${isLead?' lg':''}" href="${esc(liveUrl)}" target="_blank" rel="noopener">▶ Urmărește live</a>`:''}
         ${scheduleUrl?`<a class="btn" href="${esc(scheduleUrl)}" target="_blank" rel="noopener">Grila canalului</a>`:''}
-        <button class="btn sm" data-ics='${esc(JSON.stringify({title, channelName, liveUrl, slotTitle: isAnn?title:it.h.slotTitle}))}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
+        <button class="btn sm" data-ics='${ics}' data-ics-epoch="${it.startEpoch??''}" data-ics-end="${it.endEpoch??''}">Adaugă în calendar</button>
         ${isAnn ? '' : recordBtn(it.h.channelId, it.h.start, it.h.end, it.h.dayName, it.h.date)}
       </div>
     </div>`;
   }
 
   if(active.length){
+    // One list, one heading, one card component. "Următoarea difuzare" and
+    // "Difuzări următoare" were never two kinds of thing — the same detections,
+    // sorted by time. The soonest is bigger (.lead), not different.
+    html += `<h2>Difuzări găsite (${active.length})</h2>`;
     html += cardFor(active[0], true);
-    if(active.length>1){
-      // Same kind of thing as the card above — only the first is given the
-      // big treatment because it is the one happening soonest. "Detectat acum"
-      // read as "on air now", which it usually was not.
-      html += `<h2>Difuzări următoare (${active.length-1})</h2>` + active.slice(1).map(it=>cardFor(it,false)).join('');
-    }
+    if(active.length>1) html += active.slice(1).map(it=>cardFor(it,false)).join('');
   } else {
     const watchedCount = DATA.watchlist.filter(w=>w.enabled!==false).length;
     html += `<div class="card"><h3 style="color:var(--ink-2)">Niciun titlu urmărit în grila curentă</h3>
       <div class="meta">Ultima verificare: ${esc(relTime(DATA.schedule?.updatedAt) || DATA.schedule?.updatedAtLocal || 'necunoscută')}
-      · ${watchedCount} titluri urmărite activ. Robotul continuă să verifice automat la fiecare rulare.</div></div>`;
+      · ${watchedCount} titluri urmărite activ. Robotul continuă să verifice automat la fiecare rulare.</div>
+      <div class="row">
+        <a class="btn" href="#grid">Vezi grila TV completă</a>
+        <a class="btn ghost" href="#watchlist">Adaugă un titlu de urmărit</a>
+      </div></div>`;
   }
 
   if(ended.length){
@@ -915,54 +904,11 @@ function renderNow(){
       ended.map(it=>cardFor(it,false)).join('') + `</details>`;
   }
 
-  if(maybes.length){
-    // Chronological: this is a list you triage by "when must I be at the TV".
-    const byTime = (a,b)=>{
-      if(!a.start !== !b.start) return a.start ? -1 : 1;
-      return String(a.start||'').localeCompare(String(b.start||''));
-    };
-    // A feature film cannot air in a documentary strand, so F.D. / "Portrete
-    // în timp" and friends are not candidates for a film artistic. They stay
-    // on the page — the watchlist could one day hold a documentary — but out
-    // of the main list, which is meant to be things worth checking by hand.
-    const candidates = maybes.filter(m=>m.rubricKind !== 'documentar').sort(byTime);
-    const docs = maybes.filter(m=>m.rubricKind === 'documentar').sort(byTime);
-
-    const maybeCard = m=>{
-      const ep = (m.day && m.start) ? nextWeekdayOccurrence(m.day, m.start) : null;
-      return `
-      <div class="card maybe">
-        <h3 style="font-size:15px">${esc(m.slotTitle)}</h3>
-        <div class="meta">${esc(m.channel)} · ${esc(whenStr(m))}${localSuffix(ep)} · <span class="pill">${esc(m.rubric||'')}</span></div>
-        <div class="row">
-          ${m.live ? `<a class="btn sm" href="${esc(m.live)}" target="_blank" rel="noopener">▶ Live</a>` : ''}
-          ${recordBtn(m.channelId, m.start, m.end, m.dayName, m.date)}
-        </div>
-      </div>`;
-    };
-
-    if(candidates.length){
-      // Collapsed: these are only ever the two or three strands TRM runs
-      // without naming the film, repeating daily, so they are reference
-      // material rather than news. Kept because they are the only slots where
-      // a film can air completely undetectable by title — but not in the way
-      // of the actual detections above.
-      const strands = [...new Set(candidates.map(m=>m.rubric))];
-      html += `<details style="margin-top:22px"><summary>Rubrici fără titlu (${candidates.length}) — ${esc(strands.join(', '))}</summary>
-        <div class="note">Emisiuni de patrimoniu care <strong>nu numesc filmul difuzat</strong>. Nu sunt detectări:
-        nu se poate ști ce rulează acolo fără să te uiți. Un film urmărit poate sta chiar aici, invizibil pentru
-        orice căutare după titlu — de asta lista rămâne, chiar dacă se repetă în fiecare zi.</div>`;
-      html += candidates.slice(0,25).map(maybeCard).join('') + `</details>`;
-    }
-
-    if(docs.length){
-      html += `<details style="margin-top:18px"><summary>Rubrici documentare (${docs.length}) — un film artistic nu poate fi aici</summary>
-        <div class="note">„F.D." înseamnă <em>film documentar</em>, iar „Portrete în timp" și „Povestea generațiilor"
-        sunt tot documentare. „Tunul de lemn" e film artistic, deci nu poate fi difuzat sub aceste rubrici.
-        Listate doar dacă urmărești și documentare.</div>` +
-        docs.slice(0,25).map(maybeCard).join('') + `</details>`;
-    }
-  }
+  // The untitled-strand lists ("Rubrici fără titlu", "Rubrici documentare")
+  // used to live here. They were the same three strands repeating every day
+  // and never a detection of anything — noise below the one thing this tab
+  // exists to answer. The data still flows to the recorder's --maybes flag and
+  // still marks rows in the Grila TV table; it just is not news on this page.
 
   el.innerHTML = html;
 
@@ -1018,7 +964,12 @@ function tick(){
     const endEpoch = el.dataset.end ? +el.dataset.end : null;
     const d = describeCountdown(startEpoch, endEpoch);
     const txt = el.querySelector('.countdown-text');
-    if(txt) txt.textContent = d.text;
+    if(txt){
+      txt.textContent = d.text;
+      // Without this a card that goes on air keeps the "upcoming" colour until
+      // the next full reload — the one moment the colour actually matters.
+      txt.classList.toggle('live', d.live);
+    }
     el.classList.toggle('urgent', d.urgent && !d.ended);
   });
 }
@@ -1440,14 +1391,21 @@ function downloadICS(x){
 
 /* ── tabs (roving-tabindex ARIA pattern for keyboard support) ── */
 const tabEls = $$('.tab');
-function selectTab(t){
+const tabByName = name => tabEls.find(x=>x.dataset.panel===name);
+function selectTab(t, {focus=true}={}){
+  if(!t) return;
   tabEls.forEach(x=>{
     const on = x===t;
     x.setAttribute('aria-selected', on);
     x.tabIndex = on ? 0 : -1;
   });
   $$('.panel').forEach(p=>p.hidden = p.id!=='p-'+t.dataset.panel);
-  t.focus();
+  if(focus) t.focus();
+  // Put the open tab in the URL: a reload, a bookmark or a link sent to
+  // someone else lands on the same tab instead of always on "Acum".
+  if(location.hash.slice(1) !== t.dataset.panel){
+    history.replaceState(null,'','#'+t.dataset.panel);
+  }
 }
 tabEls.forEach((t,idx)=>{
   t.onclick=()=>selectTab(t);
@@ -1455,16 +1413,21 @@ tabEls.forEach((t,idx)=>{
     if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
       e.preventDefault();
       const dir = e.key==='ArrowRight' ? 1 : -1;
-      const next = tabEls[(idx+dir+tabEls.length)%tabEls.length];
-      selectTab(next);
+      selectTab(tabEls[(idx+dir+tabEls.length)%tabEls.length]);
+    } else if(e.key==='Home'||e.key==='End'){
+      e.preventDefault();
+      selectTab(e.key==='Home' ? tabEls[0] : tabEls[tabEls.length-1]);
     }
   });
 });
+// Lets any plain <a href="#grid"> in the page act as a cross-tab link.
+window.addEventListener('hashchange',()=>selectTab(tabByName(location.hash.slice(1)), {focus:false}));
 
 /* ── init ── */
 (function init(){
   const c=cfg.get();
   $('#ghRepo').value=c.ghRepo||''; $('#ghBranch').value=c.ghBranch||'main'; $('#ghToken').value=c.ghToken||'';
+  selectTab(tabByName(location.hash.slice(1)), {focus:false});
   load();
   setInterval(load, 5*60*1000);
   setInterval(tick, 30*1000);

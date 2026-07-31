@@ -296,5 +296,17 @@
     "director": "Gheorghe Vodă",
     "fuzzy": true,
     "enabled": true
+  },
+  {
+    "id": "pichetul-linistit",
+    "title": "Pichetul liniștit",
+    "aliases": [
+      "Pichetul linistit",
+      "Тихая застава"
+    ],
+    "director": "V. Pascaru",
+    "fuzzy": true,
+    "enabled": true,
+    "notes": "scenariul: B. Durov; operator: V. Ciurea"
   }
 ]
