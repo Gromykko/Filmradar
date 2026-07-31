@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-31T08:09:39.076Z",
-  "updatedAtLocal": "31 iul. 2026, 11:09",
+  "updatedAt": "2026-07-31T10:24:02.529Z",
+  "updatedAtLocal": "31 iul. 2026, 13:23",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6648,6 +6648,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Patrimoniul și tradițiile Moldovei, prin ochii elevilor Școlii de Arte Plastice din Ungheni. Peste 30 de picturi inspirate de plaiul natal, expuse la Parlament",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Parlamentul a ratificat în prima lectură Convenția Consiliului Europei privind coproducția de opere audiovizuale sub formă de seriale",
           "filler": false,
           "news": true
@@ -6676,15 +6685,6 @@
           "start": null,
           "end": null,
           "title": "„Independența care ne unește. Moldova-35”: programul evenimentelor dedicate celor 35 de ani de independență",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova denunță un acord CSI privind colaborarea în domeniul informației",
           "filler": false,
           "news": true
         },
@@ -6739,6 +6739,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Republica Moldova denunță un acord CSI privind colaborarea în domeniul informației",
           "filler": false,
           "news": true
         },
@@ -6819,7 +6828,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // România va dona cărți în limba română bibliotecilor din Republica Moldova",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6828,7 +6837,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // România va dona cărți în limba română bibliotecilor din Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -7000,15 +7009,6 @@
           "start": null,
           "end": null,
           "title": "Prioritățile ministrului Culturii, Dan Suruceanu: modele europene, susținerea artiștilor și o soluție pentru Filarmonica Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Trecutul ascuns al capitalei, dezvăluit într-o expoziție la Muzeul Național de Istorie",
           "filler": false,
           "news": true
         },
