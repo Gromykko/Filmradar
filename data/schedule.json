@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-01T09:17:33.619Z",
-  "updatedAtLocal": "1 aug. 2026, 12:17",
+  "updatedAt": "2026-08-01T11:04:08.904Z",
+  "updatedAtLocal": "1 aug. 2026, 14:04",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5647,6 +5647,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Expoziția „Arheologia urbană și memoria ascunsă a Chișinăului”, deschisă pentru vizitatori la Muzeul Național de Istorie a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Patrimoniul și tradițiile Moldovei, prin ochii elevilor Școlii de Arte Plastice din Ungheni. Peste 30 de picturi inspirate de plaiul natal, expuse la Parlament",
           "filler": false,
           "news": true
@@ -5675,15 +5684,6 @@
           "start": null,
           "end": null,
           "title": "„Noua Speranță”, expoziția semnată de artistul plastic Roman Tolici, vernisată la Muzeul Național de Artă al Moldovei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Independența care ne unește. Moldova-35”: programul evenimentelor dedicate celor 35 de ani de independență",
           "filler": false,
           "news": true
         },
@@ -5738,6 +5738,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Independența care ne unește. Moldova-35”: programul evenimentelor dedicate celor 35 de ani de independență",
           "filler": false,
           "news": true
         },
@@ -5818,7 +5827,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cronica ARHIVELOR // Eugeniu Coșeriu, savantul care a revoluționat studiul limbajului",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5827,7 +5836,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Cronica ARHIVELOR // Eugeniu Coșeriu, savantul care a revoluționat studiul limbajului",
           "filler": false,
           "news": true
         },
@@ -5999,15 +6008,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Patrimoniul cultural al Republicii Moldova, descoperit de fiica președintei Indiei în timpul vizitei la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Prioritățile ministrului Culturii, Dan Suruceanu: modele europene, susținerea artiștilor și o soluție pentru Filarmonica Națională",
           "filler": false,
           "news": true
         },
