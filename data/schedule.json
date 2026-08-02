@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-02T05:04:05.032Z",
-  "updatedAtLocal": "2 aug. 2026, 08:04",
+  "updatedAt": "2026-08-02T07:40:14.514Z",
+  "updatedAtLocal": "2 aug. 2026, 10:40",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4528,6 +4528,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Scriitori și artiști din diaspora se reunesc în august la Biblioteca Națională în cadrul Zilelor Diasporei 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Expoziția „Arheologia urbană și memoria ascunsă a Chișinăului”, deschisă pentru vizitatori la Muzeul Național de Istorie a Moldovei",
           "filler": false,
           "news": true
@@ -4556,15 +4565,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Vernisajul expoziției „Noua Speranță” semnată de artistul plastic Roman Tolici",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Noua Speranță”, expoziția semnată de artistul plastic Roman Tolici, vernisată la Muzeul Național de Artă al Moldovei",
           "filler": false,
           "news": true
         },
@@ -4619,6 +4619,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Noua Speranță”, expoziția semnată de artistul plastic Roman Tolici, vernisată la Muzeul Național de Artă al Moldovei",
           "filler": false,
           "news": true
         },
@@ -4699,7 +4708,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Festivalul „La Seceriș” a celebrat tradițiile rurale și munca agricultorilor la Cîrnățeni",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4708,7 +4717,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Festivalul „La Seceriș” a celebrat tradițiile rurale și munca agricultorilor la Cîrnățeni",
           "filler": false,
           "news": true
         },
@@ -4880,15 +4889,6 @@
           "start": null,
           "end": null,
           "title": "Patrimoniu restaurat, servicii culturale mai accesibile și sprijin pentru artiști - prioritățile ministrului Dan Suruceanu",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul cultural al Republicii Moldova, descoperit de fiica președintei Indiei în timpul vizitei la Chișinău",
           "filler": false,
           "news": true
         },
