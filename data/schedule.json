@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-03T11:39:51.275Z",
-  "updatedAtLocal": "3 aug. 2026, 14:39",
+  "updatedAt": "2026-08-03T15:12:17.200Z",
+  "updatedAtLocal": "3 aug. 2026, 18:12",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2384,6 +2384,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Role cu sau fără frână pentru copii - când contează cu adevărat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
           "filler": false,
           "news": true
@@ -2403,15 +2412,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL | Profesia de SEO Specialist a devenit oficială în Republica Moldova: cod CORM 251316",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL // De ce în curând nu îţi vei mai putea instala panouri solare în Republica Moldova?",
           "filler": false,
           "news": true
         },
@@ -2498,6 +2498,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Role cu sau fără frână pentru copii - când contează cu adevărat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
           "filler": false,
           "news": true
@@ -2544,15 +2553,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL // Servicii de Curăţenie la un Click Distanţă în Chişinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL // Flori cu livrare în Chişinău – surpriza care schimbă ziua",
           "filler": false,
           "news": true
         },
@@ -6024,6 +6024,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Zilele Diasporei s-au deschis cu lansări de carte și o expoziție de pictură: arta și cultura îi reunesc pe moldoveni acasă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
           "filler": false,
           "news": true
@@ -6052,15 +6061,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Patrimoniul și tradițiile Moldovei, prin ochii elevilor Școlii de Arte Plastice din Ungheni. Peste 30 de picturi inspirate de plaiul natal, expuse la Parlament",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Parlamentul a ratificat în prima lectură Convenția Consiliului Europei privind coproducția de opere audiovizuale sub formă de seriale",
           "filler": false,
           "news": true
         },
@@ -6115,6 +6115,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Parlamentul a ratificat în prima lectură Convenția Consiliului Europei privind coproducția de opere audiovizuale sub formă de seriale",
           "filler": false,
           "news": true
         },
@@ -6195,7 +6204,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Festivalul Internațional de Film Transilvania – TIFF Chișinău a reunit peste 3.200 de spectatori la cea de-a șasea ediție",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6204,7 +6213,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Festivalul Internațional de Film Transilvania – TIFF Chișinău a reunit peste 3.200 de spectatori la cea de-a șasea ediție",
           "filler": false,
           "news": true
         },
@@ -6376,15 +6385,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Povestea pâinii din epoca fierului, prezentată într-o expoziție la Muzeul Național de Istorie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Eugenia Todorașcu, una dintre marile actrițe ale scenei moldovenești",
           "filler": false,
           "news": true
         },
