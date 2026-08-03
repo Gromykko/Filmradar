@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-03T15:12:17.200Z",
-  "updatedAtLocal": "3 aug. 2026, 18:12",
+  "updatedAt": "2026-08-03T17:27:32.643Z",
+  "updatedAtLocal": "3 aug. 2026, 20:27",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6024,6 +6024,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // Maria Bieșu, vocea care a dus faima operei din Republica Moldova pe marile scene ale lumii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Zilele Diasporei: povești, cărți și artă, care păstrează legătura cu Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Zilele Diasporei s-au deschis cu lansări de carte și o expoziție de pictură: arta și cultura îi reunesc pe moldoveni acasă",
           "filler": false,
           "news": true
@@ -6043,24 +6061,6 @@
           "start": null,
           "end": null,
           "title": "Scriitori și artiști din diaspora se reunesc în august la Biblioteca Națională în cadrul Zilelor Diasporei 2026",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Expoziția „Arheologia urbană și memoria ascunsă a Chișinăului”, deschisă pentru vizitatori la Muzeul Național de Istorie a Moldovei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul și tradițiile Moldovei, prin ochii elevilor Școlii de Arte Plastice din Ungheni. Peste 30 de picturi inspirate de plaiul natal, expuse la Parlament",
           "filler": false,
           "news": true
         },
@@ -6115,6 +6115,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Expoziția „Arheologia urbană și memoria ascunsă a Chișinăului”, deschisă pentru vizitatori la Muzeul Național de Istorie a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Patrimoniul și tradițiile Moldovei, prin ochii elevilor Școlii de Arte Plastice din Ungheni. Peste 30 de picturi inspirate de plaiul natal, expuse la Parlament",
           "filler": false,
           "news": true
         },
@@ -6186,6 +6204,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Publicațiile periodice vor beneficia de compensații pentru distribuirea presei tipărite",
           "filler": false,
           "news": true
@@ -6196,15 +6223,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova va marca 35 de ani de la proclamarea Independenței printr-o serie de evenimente",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6367,24 +6385,6 @@
           "start": null,
           "end": null,
           "title": "Noul sediu al Teatrului „B.P. Hasdeu” din Cahul intră în etapa finală de construcție",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Tinerii specialiști din cultură sunt așteptați în instituțiile publice cu sprijin financiar de până la 120 mii de lei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Povestea pâinii din epoca fierului, prezentată într-o expoziție la Muzeul Național de Istorie",
           "filler": false,
           "news": true
         },
