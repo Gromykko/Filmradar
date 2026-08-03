@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-03T07:40:37.597Z",
-  "updatedAtLocal": "3 aug. 2026, 10:39",
+  "updatedAt": "2026-08-03T11:39:51.275Z",
+  "updatedAtLocal": "3 aug. 2026, 14:39",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5885,7 +5885,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Studenții ASEM își dezvoltă competențele financiare la Școala Finanțelor Moderne",
+          "title": "BAC 2026: Care sunt cele 10 licee din afara municipiului Chișinău cu cele mai mari medii la examenul național",
           "filler": false,
           "news": true
         },
@@ -5894,7 +5894,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce generic va avea prima lecție din anul de studii 2026/2027",
+          "title": "Au fost constituite 17 patrule comunitare care vor contribui la protejarea sănătății populației în contextul schimbărilor climatice",
           "filler": false,
           "news": true
         },
@@ -5903,7 +5903,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce trebuie să știi despre noul program de master din Moldova care va permite tinerilor să studieze la o universitate europeană",
+          "title": "BAC 2026: lista celor mai „sincere” licee. În ce instituții notele din catalog coincid cu cele de la examene",
           "filler": false,
           "news": true
         },
@@ -5912,7 +5912,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Urmează să-ți faci studiile în Danemarca? Participă la o sesiune online dedicată primilor pași după admitere",
+          "title": "BAC 2026: care sunt cele 10 licee din Republica Moldova cu cele mai mari medii la examenul național",
           "filler": false,
           "news": true
         },
@@ -5921,7 +5921,43 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Condiții moderne și incluzive: Căminul nr. 5 al UPSC, renovat capital",
+          "title": "BAC 2026: care este rata de promovare și media examenelor din liceul tău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Studenții și tinerii din țară și diaspora pot participa la Forumul Tinerilor din Diasporă 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Șase evenimente recreative pentru începutul lunii august. Unde îți poți petrece timpul liber în perioada 3-9 august",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cum verifici online dacă angajatorul îți achită contribuțiile sociale și medicale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Moldova urmează să treacă la contoare inteligente. Datele despre consumul de energie vor fi colectate automat",
           "filler": false,
           "news": true
         },
@@ -5988,6 +6024,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Scriitori și artiști din diaspora se reunesc în august la Biblioteca Națională în cadrul Zilelor Diasporei 2026",
           "filler": false,
           "news": true
@@ -6016,15 +6061,6 @@
           "start": null,
           "end": null,
           "title": "Parlamentul a ratificat în prima lectură Convenția Consiliului Europei privind coproducția de opere audiovizuale sub formă de seriale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Vernisajul expoziției „Noua Speranță” semnată de artistul plastic Roman Tolici",
           "filler": false,
           "news": true
         },
@@ -6079,6 +6115,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Vernisajul expoziției „Noua Speranță” semnată de artistul plastic Roman Tolici",
           "filler": false,
           "news": true
         },
@@ -6159,7 +6204,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Parlamentul a denunțat acordul cu CSI privind colaborarea în domeniul cărții și poligrafiei",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6168,7 +6213,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Parlamentul a denunțat acordul cu CSI privind colaborarea în domeniul cărții și poligrafiei",
           "filler": false,
           "news": true
         },
@@ -6340,15 +6385,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Eugenia Todorașcu, una dintre marile actrițe ale scenei moldovenești",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Patrimoniu restaurat, servicii culturale mai accesibile și sprijin pentru artiști - prioritățile ministrului Dan Suruceanu",
           "filler": false,
           "news": true
         },
