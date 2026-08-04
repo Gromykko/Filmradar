@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-04T09:24:58.340Z",
-  "updatedAtLocal": "4 aug. 2026, 12:24",
+  "updatedAt": "2026-08-04T11:47:56.891Z",
+  "updatedAtLocal": "4 aug. 2026, 14:47",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6080,6 +6080,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Zilele Diasporei // Din Franța, înapoi acasă prin carte: Dina Vrâncean a lansat volumul „O vacanță la Lipnic”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Maria Bieșu, vocea care a dus faima operei din Republica Moldova pe marile scene ale lumii",
           "filler": false,
           "news": true
@@ -6108,15 +6117,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Scriitori și artiști din diaspora se reunesc în august la Biblioteca Națională în cadrul Zilelor Diasporei 2026",
           "filler": false,
           "news": true
         },
@@ -6171,6 +6171,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Scriitori și artiști din diaspora se reunesc în august la Biblioteca Națională în cadrul Zilelor Diasporei 2026",
           "filler": false,
           "news": true
         },
@@ -6251,7 +6260,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un oraș din Republica Moldova va reprezenta țara în competiția pentru Capitala Europeană a Culturii 2033",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6260,7 +6269,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Un oraș din Republica Moldova va reprezenta țara în competiția pentru Capitala Europeană a Culturii 2033",
           "filler": false,
           "news": true
         },
@@ -6432,15 +6441,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Expoziția lui Roger Ballen, inaugurată la Muzeul Național de Artă al Moldovei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Noul sediu al Teatrului „B.P. Hasdeu” din Cahul intră în etapa finală de construcție",
           "filler": false,
           "news": true
         },
