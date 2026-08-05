@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-05T12:25:56.486Z",
-  "updatedAtLocal": "5 aug. 2026, 15:25",
+  "updatedAt": "2026-08-05T14:59:48.220Z",
+  "updatedAtLocal": "5 aug. 2026, 17:59",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8871,6 +8871,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Creezi animații? Înscrie-te la Festivalul Animest Chișinău 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Muzeele și inițiativele culturale rurale din Moldova, invitate să se alăture Nopții Muzeelor la Sate 2026. Până când se fac înscrierile",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Arta întâlnește știința la Chișinău. O rezidență artistică explorează noi modalități de promovare a sănătății sexuale",
           "filler": false,
           "news": true
@@ -8934,16 +8952,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Povestea unei femei care refuză să îmbătrânească și să joace după regulile societății. Ce citim pentru Clubul de carte din august",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O expoziție imersivă urmează să fie inaugurată la Galeria PLAI. Ce reprezintă și până când va putea fi vizitată",
+          "title": "SIRIUS SOFTWARE – start-upul moldovenesc sprijinit de EU4Youth, care transformă contabilitatea prin inteligență artificială",
           "filler": false,
           "news": true
         },
@@ -8989,33 +8998,6 @@
           "start": null,
           "end": null,
           "title": "„Aveam magazinul online gata, dar nu puteam încasa nicio plată.” Cum Shopify și Paynet au ajutat doi tineri din Sângerei să lanseze o afacere care livrează în peste 20 de țări",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "A început concursul pentru Premiile Muzeului Național al Literaturii Române. Cine poate participa",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Profesorii relocați în urma reorganizării școlilor vor primi indemnizații de până la 300.000 de lei. Care sunt condițiile",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "UPDATE: înscrierile la noul colegiu moldo-turc din Comrat ar putea fi amânate până în anul de studii 2027/2028",
           "filler": false,
           "news": true
         },
@@ -9083,6 +9065,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Festivalul Lupilor revine la Orheiul Vechi cu trei zile de concerte și activități culturale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Diasporei // Experiențe de viață și amintiri, reunite în volumul „Lumea în care am trăit” semnat de Iurie Cojocaru",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Zilele Diasporei // Din Franța, înapoi acasă prin carte: Dina Vrâncean a lansat volumul „O vacanță la Lipnic”",
           "filler": false,
           "news": true
@@ -9102,24 +9102,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Zilele Diasporei: povești, cărți și artă, care păstrează legătura cu Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei s-au deschis cu lansări de carte și o expoziție de pictură: arta și cultura îi reunesc pe moldoveni acasă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
           "filler": false,
           "news": true
         },
@@ -9174,6 +9156,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Diasporei s-au deschis cu lansări de carte și o expoziție de pictură: arta și cultura îi reunesc pe moldoveni acasă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
           "filler": false,
           "news": true
         },
@@ -9245,6 +9245,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Republica Moldova denunță un acord CSI privind colaborarea în domeniul informației",
           "filler": false,
           "news": true
@@ -9255,15 +9264,6 @@
           "start": null,
           "end": null,
           "title": "R. Moldova se alătură proiectului TRADUKI pentru promovarea literaturii naționale în spațiul european",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9426,24 +9426,6 @@
           "start": null,
           "end": null,
           "title": "Manuscrise, fotografii și amintiri despre Vladimir Beșleagă, reunite într-o expoziție la Muzeul Literaturii Române",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADMITERE 2026 // AMTAP oferă 240 de locuri bugetare la admiterea 2026. Înscrierile încep pe 27 iulie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Expoziția lui Roger Ballen, inaugurată la Muzeul Național de Artă al Moldovei",
           "filler": false,
           "news": true
         },
