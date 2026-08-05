@@ -138,7 +138,15 @@ export async function fetchTvMailWeek(channelId, {
     // are fetched once and then reused — which is what keeps this workable:
     // after the first run only the newly-appearing day needs a request, so a
     // run costs one or two calls instead of seven.
-    const haveFresh = byDate[date] && date !== today;
+    //
+    // `.length` is load-bearing, not tidiness. A day can come back as an empty
+    // array without throwing — the API answers 200 with no events when it is
+    // rate-limiting, and a day too far out simply is not published yet. Testing
+    // `byDate[date]` alone made that empty array count as a good answer and
+    // cached it FOREVER: Moldova 1 and Moldova 2 were stuck at 0 events for
+    // Thu/Fri/Sat 6-8 Aug 2026 while the API served 46-53 events for each of
+    // those days on request. An empty day is never final; retry it.
+    const haveFresh = byDate[date]?.length && date !== today;
     if (!haveFresh && fetched < maxFetch) {
       try {
         if (fetched > 0 && paceMs) await new Promise((r) => setTimeout(r, paceMs));

@@ -18,6 +18,7 @@
 
 import assert from 'node:assert/strict';
 import { fetchAllChannels } from '../lib/trm.mjs';
+import { fetchTvMailWeek } from '../lib/tvmail.mjs';
 
 let passed = 0;
 let failed = 0;
@@ -115,6 +116,58 @@ await test('a good run is never overwritten by carried-over slots', () => {
   const fresh = [{ date: '2026-08-05', start: '12:00', title: 'Proaspăt' }];
   const prev = [{ date: '2026-08-09', start: '12:00', title: 'Vechi' }];
   assert.deepEqual(carry(fresh, prev, '2026-08-05'), fresh);
+});
+
+// -- empty-day caching -----------------------------------------------------
+// The bug that hid Friday: TV Mail answers 200 with zero events when it is
+// rate-limiting, and that empty array was cached as a final answer.
+const ymd = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Chisinau' });
+const dayAhead = (n) => ymd.format(new Date(Date.now() + n * 86400_000));
+
+await test('a day cached as empty is retried, not treated as answered', async () => {
+  const target = dayAhead(1);
+  const cache = { 2910: { [dayAhead(0)]: [], [target]: [] } };
+  const asked = [];
+  await fetchTvMailWeek(2910, {
+    cache,
+    paceMs: 0,
+    fetcher: async (ch, date) => {
+      asked.push(date);
+      return [{ name: 'Film', start_ts: Date.parse(`${date}T12:00:00Z`) / 1000 }];
+    },
+  });
+  assert.ok(asked.includes(target), `never retried the empty day ${target} — this is the bug`);
+  assert.equal(cache[2910][target].length, 1, 'retry result was not written back to the cache');
+});
+
+await test('a day cached with real events is not refetched', async () => {
+  const target = dayAhead(1);
+  const cache = { 2910: { [target]: [{ title: 'Deja acolo', start: '12:00', date: target }] } };
+  const asked = [];
+  const res = await fetchTvMailWeek(2910, {
+    cache,
+    paceMs: 0,
+    fetcher: async (ch, date) => {
+      asked.push(date);
+      return [];
+    },
+  });
+  assert.ok(!asked.includes(target), 'wasted a request on an already-good day');
+  assert.ok(res.slots.some((s) => s.title === 'Deja acolo'), 'dropped the cached day');
+});
+
+await test('a throwing day keeps its previously cached events', async () => {
+  const target = dayAhead(0); // today is always refetched
+  const cache = { 2910: { [target]: [{ title: 'Bun de ieri', start: '12:00', date: target }] } };
+  const res = await fetchTvMailWeek(2910, {
+    cache,
+    paceMs: 0,
+    fetcher: async () => {
+      throw new Error('non-JSON response (rate limited?)');
+    },
+  });
+  assert.ok(res.errors.length, 'a failed fetch should be reported');
+  assert.ok(res.slots.some((s) => s.title === 'Bun de ieri'), 'a captcha erased good cached data');
 });
 
 console.log(`\n  ${passed} passed, ${failed} failed\n`);

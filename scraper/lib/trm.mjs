@@ -319,6 +319,12 @@ export function parseNewsFeed(html) {
  * the week it gives us is kept on disk: a block on Tuesday must not wipe the
  * Saturday listing fetched on Monday. Channels are fetched sequentially rather
  * than in parallel for the same reason — a burst is what trips the limiter.
+ *
+ * That last sentence used to be a lie: this ran Promise.all, so all three TV
+ * Mail channels fired their day-requests concurrently, ~9 at once. TV Mail does
+ * not answer such a burst with an error — it answers 200 and an EMPTY event
+ * list, which looked exactly like a real day with no programming. Fetched one
+ * channel at a time, the same requests return 46-56 events per day.
  */
 export async function fetchAllChannels({
   channels = CHANNELS,
@@ -327,8 +333,9 @@ export async function fetchAllChannels({
   pageFetcher = fetchPage,
   tvmailFetcher,
 } = {}) {
-  const results = await Promise.all(
-    channels.map(async (ch) => {
+  const results = [];
+  for (const ch of channels) {
+    results.push(await (async () => {
       let altAdded = 0;
       let altError = null;
       let pageError = null;
@@ -436,8 +443,8 @@ export async function fetchAllChannels({
       } catch (err) {
         return { channel: ch, slots: [], ok: false, error: String(err.message ?? err) };
       }
-    }),
-  );
+    })());
+  }
   return results;
 }
 
