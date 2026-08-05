@@ -320,17 +320,38 @@ export function parseNewsFeed(html) {
  * Saturday listing fetched on Monday. Channels are fetched sequentially rather
  * than in parallel for the same reason — a burst is what trips the limiter.
  */
-export async function fetchAllChannels({ channels = CHANNELS, tvmailCache = {} } = {}) {
+export async function fetchAllChannels({
+  channels = CHANNELS,
+  tvmailCache = {},
+  // Injectable purely so the outage path can be tested offline.
+  pageFetcher = fetchPage,
+  tvmailFetcher,
+} = {}) {
   const results = await Promise.all(
     channels.map(async (ch) => {
       let altAdded = 0;
       let altError = null;
+      let pageError = null;
       try {
+        // The channel page is a source, not a prerequisite. TRM answers 502 for
+        // hours at a stretch (observed 5 Aug 2026), and when it does, the TV
+        // Mail merge below is precisely what is meant to carry the channel —
+        // so a page failure is recorded and stepped over, never thrown. It used
+        // to throw out of the whole handler, which skipped the backup and blanked
+        // Moldova 1 + Moldova 2 for the entire outage; TVR Moldova rode it out
+        // untouched only because it has no page to fail.
         // Channels with no page of their own (TVR Moldova) skip straight to
         // the API merge below.
-        const html = ch.schedule ? await fetchPage(ch.schedule) : '';
+        let html = '';
+        if (ch.schedule) {
+          try {
+            html = await pageFetcher(ch.schedule);
+          } catch (err) {
+            pageError = String(err.message ?? err);
+          }
+        }
         let parsed;
-        if (!ch.schedule) {
+        if (!ch.schedule || pageError) {
           parsed = { slots: [], parsedAnyTime: false, dayAssumed: false };
         } else if (ch.newsOnly) {
           parsed = parseNewsFeed(html);
@@ -354,6 +375,7 @@ export async function fetchAllChannels({ channels = CHANNELS, tvmailCache = {} }
             const alt = await fetchTvMailWeek(ch.tvmailChannel, {
               days: ch.tvmailDays ?? 7,
               cache: tvmailCache,
+              ...(tvmailFetcher ? { fetcher: tvmailFetcher, paceMs: 0 } : {}),
             });
             if (alt.slots.length) {
               const before = parsed.slots.length;
@@ -389,6 +411,15 @@ export async function fetchAllChannels({ channels = CHANNELS, tvmailCache = {} }
         let warning = null;
         if (!parsed.parsedAnyTime && !ch.newsOnly && !ch.expectEmpty) {
           warning = 'No time slots found — page layout may have changed.';
+        }
+        // Page down but the backup answered: degraded, not dead. Say so as a
+        // warning so the run still goes red for a primary channel, and keep the
+        // slots. Page down AND nothing to fall back on is the real failure.
+        if (pageError) {
+          if (!parsed.slots.length) {
+            return { channel: ch, slots: [], ok: false, error: pageError, altError };
+          }
+          warning = `Grila proprie indisponibilă (${pageError}) — folosesc sursa de rezervă.`;
         }
 
         return {

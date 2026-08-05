@@ -217,25 +217,47 @@ async function main() {
   }
 
   // ---------------------------------------------------------------- persist
+  // Second line of defence behind the per-channel backup source: one bad run
+  // must not empty a channel on the dashboard. If a channel came back with
+  // nothing, keep what the last good snapshot held — but only slots carrying a
+  // real date that hasn't passed, so this preserves a schedule and can never
+  // resurrect last week's.
+  const prevSchedule = await readJson(join(DATA, 'schedule.json'), { channels: [] });
+  const prevById = new Map((prevSchedule.channels ?? []).map((c) => [c.id, c]));
+  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Chisinau' }).format(new Date());
+
   const schedule = {
     updatedAt: new Date().toISOString(),
     updatedAtLocal: runAt,
     timezone: 'Europe/Chisinau',
-    channels: results.map((r) => ({
-      id: r.channel.id,
-      name: r.channel.name,
-      live: r.channel.live,
-      schedule: r.channel.schedule,
-      // Carried through so the dashboard can keep a TV grid and a news feed
-      // apart. Without these it listed press headlines in the same table as
-      // broadcast slots, which made the schedule tab nonsense to read.
-      newsOnly: r.channel.newsOnly === true,
-      tier: r.channel.tier ?? null,
-      ok: r.ok,
-      error: r.error ?? null,
-      warning: r.warning ?? null,
-      slots: r.slots,
-    })),
+    channels: results.map((r) => {
+      let slots = r.slots;
+      let stale = false;
+      if (!slots.length && !r.channel.expectEmpty) {
+        const kept = (prevById.get(r.channel.id)?.slots ?? []).filter((s) => s.date && s.date >= today);
+        if (kept.length) {
+          slots = kept;
+          stale = true;
+          console.warn(`    ⚠ ${r.channel.name}: gol acum, păstrez ${kept.length} sloturi din rularea anterioară.`);
+        }
+      }
+      return {
+        id: r.channel.id,
+        name: r.channel.name,
+        live: r.channel.live,
+        schedule: r.channel.schedule,
+        // Carried through so the dashboard can keep a TV grid and a news feed
+        // apart. Without these it listed press headlines in the same table as
+        // broadcast slots, which made the schedule tab nonsense to read.
+        newsOnly: r.channel.newsOnly === true,
+        tier: r.channel.tier ?? null,
+        ok: r.ok,
+        error: r.error ?? null,
+        warning: r.warning ?? null,
+        stale,
+        slots,
+      };
+    }),
   };
 
   const prevHits = await readJson(join(DATA, 'hits.json'), { history: [] });

@@ -19,6 +19,7 @@ const SUITES = [
   ['streams     ', 'streams.test.mjs'],
   ['rec. timing ', 'timing.test.mjs'],
   ['history     ', 'history.test.mjs'],
+  ['outage      ', 'outage.test.mjs'],
 ];
 
 let failed = 0;
