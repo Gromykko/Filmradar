@@ -252,6 +252,30 @@ export function parseSchedule(html, { assumeToday = true } = {}) {
     }
   }
 
+  // Resolve each weekday to an actual calendar date, so a TRM slot and a TV
+  // Mail slot for the same broadcast have the same identity.
+  //
+  // Without this, mergeSlots had to fall back to matching on weekday alone —
+  // and TV Mail's window is a ROLLING seven days spanning two calendar weeks,
+  // while TRM's grid is Monday-to-Sunday of the current one. Every next-week
+  // TV Mail slot therefore collided with TRM's same-weekday slot from this
+  // week: the film was dropped as a duplicate, and the TRM slot it merged into
+  // was stamped with a date a week wrong. Two watchlist films that really did
+  // air went undetected that way.
+  //
+  // Anchored at 12:00 UTC (14:00/15:00 in Chișinău) so no DST shift can push
+  // the arithmetic across a local date boundary.
+  const todayDow = todayInChisinau();
+  if (todayDow) {
+    const todayIso = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Chisinau' }).format(new Date());
+    for (const s of slots) {
+      if (s.day == null || s.date) continue;
+      const d = new Date(`${todayIso}T12:00:00Z`);
+      d.setUTCDate(d.getUTCDate() + (s.day - todayDow));
+      s.date = d.toISOString().slice(0, 10);
+    }
+  }
+
   return { slots, parsedAnyTime: sawAnyTime, dayAssumed };
 }
 
@@ -366,6 +390,10 @@ export async function fetchAllChannels({
           parsed = parseSchedule(html);
         }
 
+        // Captured here, before the TV Mail merge below ORs parsedAnyTime and
+        // replaces slots — after that point the page's own failure is invisible.
+        const pageBlank = parsed.parsedAnyTime && !parsed.slots.length;
+
         // News pages sometimes carry an explicit broadcast announcement
         // ("Sâmbătă, 2 mai: Ora 12:00 la TV Moldova 2 cultural, «Titlu»…").
         // Those name a channel AND an exact time, so they're far more
@@ -400,9 +428,16 @@ export async function fetchAllChannels({
         }
 
         if (ch.newsOnly || ch.scanAnnouncements) {
-          const announced = announcementsToSlots(parseAnnouncements(toText(html)));
-          if (announced.length) {
-            parsed = { ...parsed, slots: [...announced, ...parsed.slots] };
+          // Guarded like every other step in here: a throw while parsing an
+          // announcement would land in the outer catch and discard a whole
+          // successfully merged week. Same shape as the 502 bug above.
+          try {
+            const announced = announcementsToSlots(parseAnnouncements(toText(html)));
+            if (announced.length) {
+              parsed = { ...parsed, slots: [...announced, ...parsed.slots] };
+            }
+          } catch (err) {
+            altError = [altError, `anunțuri: ${err.message ?? err}`].filter(Boolean).join('; ');
           }
         }
 
@@ -418,6 +453,13 @@ export async function fetchAllChannels({
         let warning = null;
         if (!parsed.parsedAnyTime && !ch.newsOnly && !ch.expectEmpty) {
           warning = 'No time slots found — page layout may have changed.';
+        } else if (pageBlank && !ch.newsOnly) {
+          // Times were on the page but no slot could be built from them — the
+          // time-to-title pairing broke. Unlike a low slot count, which TRM
+          // produces legitimately all the time, this is unambiguous parser
+          // breakage. The backup source would otherwise refill `slots` and the
+          // run would go green with the channel's own grid silently dead.
+          warning = 'Times parsed but no slots built — pairing broke.';
         }
         // Page down but the backup answered: degraded, not dead. Say so as a
         // warning so the run still goes red for a primary channel, and keep the

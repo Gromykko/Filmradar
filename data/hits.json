@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T12:04:11.665Z",
+  "updatedAt": "2026-08-05T12:13:38.832Z",
   "current": [
     {
       "channelId": "moldova-2",
@@ -46,7 +46,7 @@
       "schedule": "https://trm.md/ro/moldova-1",
       "day": 3,
       "dayName": "miercuri",
-      "date": null,
+      "date": "2026-08-05",
       "start": "03:01",
       "end": "03:29",
       "slotTitle": "Moldova de patrimoniu",

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-05T12:04:11.661Z",
-  "updatedAtLocal": "5 aug. 2026, 15:03",
+  "updatedAt": "2026-08-05T12:13:38.819Z",
+  "updatedAtLocal": "5 aug. 2026, 15:13",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -22,7 +22,8 @@
           "end": "00:56",
           "title": "Show-ul central. Program de divertisment",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -31,7 +32,8 @@
           "end": "03:01",
           "title": "Cine-i soarele tău... Spectacol muzical",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -40,7 +42,8 @@
           "end": "03:29",
           "title": "Moldova de patrimoniu",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -49,7 +52,8 @@
           "end": "05:15",
           "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -98,7 +102,8 @@
           "end": "07:12",
           "title": "PUBLICITATE",
           "filler": true,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -2631,7 +2636,8 @@
           "end": "01:30",
           "title": "Spectacol \" Floare albastră\"",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -2640,7 +2646,8 @@
           "end": "03:55",
           "title": "Opera \" Norma\"",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -2649,7 +2656,8 @@
           "end": "04:00",
           "title": "5 minute la muzeu. Tudor Cataraga",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -2658,7 +2666,8 @@
           "end": "04:05",
           "title": "Reflecții europene",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -2667,7 +2676,8 @@
           "end": "04:35",
           "title": "Portrete în timp. Eugen Platon",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -2676,7 +2686,8 @@
           "end": "06:00",
           "title": "Spectacol \" Floare albastră\"",
           "filler": false,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -2995,7 +3006,8 @@
           "end": "16:15",
           "title": "Publicitate",
           "filler": true,
-          "dayAssumed": true
+          "dayAssumed": true,
+          "date": "2026-08-05"
         },
         {
           "day": 3,
@@ -8859,6 +8871,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Arta întâlnește știința la Chișinău. O rezidență artistică explorează noi modalități de promovare a sănătății sexuale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Lucrarea unei fotografe din Ceadâr-Lunga a fost inclusă pe lista scurtă a premiului internațional Global Peace Photo Award 2026",
           "filler": false,
           "news": true
@@ -8931,7 +8952,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "De la producție și imagine de film la actorie: TIFF Chișinău anunță programul de workshopuri și masterclassuri",
+          "title": "Ce licee din raionul sau municipiul tău au avut rata de promovare de 100 % la bac",
           "filler": false,
           "news": true
         },
@@ -8940,7 +8961,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "În Moldova va avea loc prima ligă de lupte între roboți. Când va avea loc competiția și cum te poți înscrie",
+          "title": "AGG Group investește în producția locală: un exemplu de reinvestire strategică în economia Republicii Moldova",
           "filler": false,
           "news": true
         },
@@ -8949,7 +8970,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Republica Moldova a găzduit, în premieră, cea de-a 25-a ediție a Școlii de Vară EPSA",
+          "title": "Programul evenimentelor organizate în capitală în contextul Zilei Internaționale a Tineretului",
           "filler": false,
           "news": true
         },
@@ -8958,7 +8979,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "AI-ul a cucerit industria IT din Republica Moldova: patru din cinci companii rezidente MITP folosesc inteligența artificială",
+          "title": "Un nou parc fotovoltaic va fi construit în municipiul Chișinău. Câte gospodării ar putea asigura cu energie",
           "filler": false,
           "news": true
         },
@@ -8967,7 +8988,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "O alee de sakura va uni Centrul de expoziții „Moldexpo” cu Valea Morilor",
+          "title": "„Aveam magazinul online gata, dar nu puteam încasa nicio plată.” Cum Shopify și Paynet au ajutat doi tineri din Sângerei să lanseze o afacere care livrează în peste 20 de țări",
           "filler": false,
           "news": true
         },
@@ -8976,7 +8997,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Moldova va avea un deficit de energie în această seară, 4 august. Ce ai putea face pentru a economisi electricitatea",
+          "title": "A început concursul pentru Premiile Muzeului Național al Literaturii Române. Cine poate participa",
           "filler": false,
           "news": true
         },
@@ -8985,7 +9006,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Top 10 locații cu cărucioare pentru copii în Moldova",
+          "title": "Profesorii relocați în urma reorganizării școlilor vor primi indemnizații de până la 300.000 de lei. Care sunt condițiile",
           "filler": false,
           "news": true
         },
@@ -8994,16 +9015,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "La ce profil s-au înscris cel mai mulți elevi în prima etapă de admitere la liceu și câte locuri libere au rămas",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Maib dă startul înscrierilor la cea de-a VI-a ediție a programului de internship",
+          "title": "UPDATE: înscrierile la noul colegiu moldo-turc din Comrat ar putea fi amânate până în anul de studii 2027/2028",
           "filler": false,
           "news": true
         },

@@ -158,6 +158,31 @@ async function main() {
     return;
   }
 
+  // -------------------------------------------------------- carry forward
+  // One bad run must not empty a channel. If a channel came back with nothing,
+  // keep what the last good snapshot held — but only slots carrying a real date
+  // that hasn't passed, so this preserves a schedule and can never resurrect
+  // last week's.
+  //
+  // This runs BEFORE matching, deliberately. It used to sit down in the persist
+  // step, which meant the resurrected slots reached schedule.json but never
+  // findMatches — so hits.json was overwritten with an empty set while the film
+  // sat visible in the schedule. recorder/record.mjs targets hits.current, so a
+  // transient Wednesday outage would quietly disarm the recorder for a
+  // broadcast on Saturday it had already found.
+  const prevSchedule = await readJson(join(DATA, 'schedule.json'), { channels: [] });
+  const prevById = new Map((prevSchedule.channels ?? []).map((c) => [c.id, c]));
+  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Chisinau' }).format(new Date());
+
+  for (const r of results) {
+    if (r.slots.length || r.channel.expectEmpty) continue;
+    const kept = (prevById.get(r.channel.id)?.slots ?? []).filter((s) => s.date && s.date >= today);
+    if (!kept.length) continue;
+    r.slots = kept;
+    r.stale = true;
+    console.warn(`    ⚠ ${r.channel.name}: gol acum, păstrez ${kept.length} sloturi din rularea anterioară.`);
+  }
+
   // ---------------------------------------------------------------- match
   const { hits, maybes } = findMatches(results, watchlist, { includeMaybes: true });
   log(`  → ${hits.length} potriviri, ${maybes.length} posibile`);
@@ -233,30 +258,11 @@ async function main() {
   }
 
   // ---------------------------------------------------------------- persist
-  // Second line of defence behind the per-channel backup source: one bad run
-  // must not empty a channel on the dashboard. If a channel came back with
-  // nothing, keep what the last good snapshot held — but only slots carrying a
-  // real date that hasn't passed, so this preserves a schedule and can never
-  // resurrect last week's.
-  const prevSchedule = await readJson(join(DATA, 'schedule.json'), { channels: [] });
-  const prevById = new Map((prevSchedule.channels ?? []).map((c) => [c.id, c]));
-  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Chisinau' }).format(new Date());
-
   const schedule = {
     updatedAt: new Date().toISOString(),
     updatedAtLocal: runAt,
     timezone: 'Europe/Chisinau',
     channels: results.map((r) => {
-      let slots = r.slots;
-      let stale = false;
-      if (!slots.length && !r.channel.expectEmpty) {
-        const kept = (prevById.get(r.channel.id)?.slots ?? []).filter((s) => s.date && s.date >= today);
-        if (kept.length) {
-          slots = kept;
-          stale = true;
-          console.warn(`    ⚠ ${r.channel.name}: gol acum, păstrez ${kept.length} sloturi din rularea anterioară.`);
-        }
-      }
       return {
         id: r.channel.id,
         name: r.channel.name,
@@ -270,8 +276,8 @@ async function main() {
         ok: r.ok,
         error: r.error ?? null,
         warning: r.warning ?? null,
-        stale,
-        slots,
+        stale: r.stale === true,
+        slots: r.slots,
       };
     }),
   };

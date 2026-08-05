@@ -232,7 +232,9 @@ test('ignores non-Event and malformed entries without losing the good ones', () 
 });
 
 test('merge keeps TRM wording and adds only genuinely new broadcasts', () => {
-  const trm = [{ dayName: 'luni', start: '12:00', end: '13:13', title: 'F.A. Tunul de lemn', filler: false }];
+  // Both sides carry a date: parseSchedule now resolves TRM's weekday tabs to
+  // calendar dates, so identity is date+start on both sides.
+  const trm = [{ dayName: 'luni', date: '2026-07-27', start: '12:00', end: '13:13', title: 'F.A. Tunul de lemn', filler: false }];
   const alt = [
     { dayName: 'luni', date: '2026-07-27', start: '12:00', end: '13:13', title: 'Tunul de lemn', filler: false },
     { dayName: 'luni', date: '2026-07-27', start: '20:00', end: '21:00', title: 'Altceva', filler: false },
@@ -241,6 +243,19 @@ test('merge keeps TRM wording and adds only genuinely new broadcasts', () => {
   assert.equal(merged.length, 2, 'the 12:00 duplicate must collapse');
   assert.equal(merged[0].title, 'F.A. Tunul de lemn', "TRM's own wording wins");
   assert.equal(merged[1].start, '20:00');
+});
+
+test('a next-week broadcast is not swallowed by the same weekday this week', () => {
+  // The collision that hid real films: TV Mail's window rolls across two
+  // calendar weeks, TRM's grid covers one. Matching on weekday alone made
+  // next Monday's film look like a duplicate of this Monday's rubric — it was
+  // dropped, and the slot it merged into was stamped a week wrong.
+  const trm = [{ dayName: 'luni', date: '2026-08-03', start: '20:00', title: 'Moldova de patrimoniu', filler: false }];
+  const alt = [{ dayName: 'luni', date: '2026-08-10', start: '20:00', title: 'Tunul de lemn', filler: false }];
+  const merged = mergeSlots(trm, alt);
+  assert.equal(merged.length, 2, 'next week is a different broadcast, not a duplicate');
+  assert.equal(merged[0].date, '2026-08-03', "this week's slot keeps its own date");
+  assert.ok(merged.some((s) => s.title === 'Tunul de lemn' && s.date === '2026-08-10'));
 });
 
 /* --------------------------------------- TV Mail week cache (rate limits) */

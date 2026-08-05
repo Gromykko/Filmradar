@@ -203,7 +203,12 @@ export function findMatches(channelResults, watchlist, { includeMaybes = true } 
   const active = watchlist.filter((w) => w.enabled !== false && w.title);
 
   for (const result of channelResults) {
-    if (!result.ok) continue;
+    // A failed fetch that still has slots is a channel carried forward from the
+    // last good run (see the carry-forward step in check.mjs). Those slots are
+    // real broadcasts that have not aired yet, and skipping them on `ok` alone
+    // is what let a transient outage wipe hits.json — and with it the list the
+    // recorder aims at. Only a channel with nothing at all is worth skipping.
+    if (!result.ok && !result.slots.length) continue;
     const ch = result.channel;
 
     for (const slot of result.slots) {

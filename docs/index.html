@@ -8,16 +8,25 @@
 <style>
   :root{
     --bg:#12110f; --panel:#1a1917; --panel-2:#221f1c; --line:#2f2b27;
-    --ink:#f2efe9; --ink-2:#a9a29a; --ink-3:#6f6960;
-    --accent:#d97757; --accent-dim:#8c4b34;
-    --ok:#6fa86f; --warn:#c9a227; --err:#c25f52;
+    /* Contrast-checked against --panel and --bg in both themes. --ink-3 sat at
+       3.2:1 and carried real content — .empty, .hint, table headers — and --err
+       at 4.2:1. --accent-solid is the one you may put white text on: plain
+       --accent under #fff is 3.1:1, which .btn.primary and .now-pill were. */
+    --ink:#f2efe9; --ink-2:#a9a29a; --ink-3:#8b847a;
+    --accent:#d97757; --accent-dim:#8c4b34; --accent-solid:#a8482a;
+    --ok:#6fa86f; --warn:#c9a227; --err:#e0736a;
     --radius:10px;
     --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   }
   @media (prefers-color-scheme: light){
+    /* This block used to override only the greys, so --accent, --ok, --warn and
+       --err kept their dark-theme values against a near-white page: 3.1, 2.8,
+       2.4 and 4.2 to one. Every one of them carries text — links, countdowns,
+       the ⚠ warning line, the error pills. */
     :root{ --bg:#faf9f7; --panel:#fff; --panel-2:#f4f2ee; --line:#e3ded6;
-           --ink:#1f1e1c; --ink-2:#5f5a52; --ink-3:#8c857b; --accent-dim:#e8c4b5; }
+           --ink:#1f1e1c; --ink-2:#5f5a52; --ink-3:#6b655c; --accent-dim:#e8c4b5;
+           --accent:#a8482a; --ok:#3d7a3d; --warn:#7a6100; --err:#a33d31; }
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);
@@ -51,7 +60,7 @@
   .tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
   .tab .badge{display:inline-block;margin-left:6px;background:var(--panel-2);color:var(--ink-2);
               border-radius:9px;padding:0 6px;font:600 11px var(--mono)}
-  .tab[aria-selected=true] .badge{background:var(--accent);color:#fff}
+  .tab[aria-selected=true] .badge{background:var(--accent-solid);color:#fff}
   .panel[hidden]{display:none}
 
   .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
@@ -76,7 +85,7 @@
        border-radius:7px;padding:8px 12px;font:600 13px var(--sans);cursor:pointer;text-decoration:none;
        display:inline-flex;align-items:center;gap:6px}
   .btn:hover{border-color:var(--ink-3)}
-  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.primary{background:var(--accent-solid);border-color:var(--accent-solid);color:#fff}
   .btn.primary:hover{filter:brightness(1.08)}
   .btn.ghost{background:none}
   .btn.sm{padding:5px 9px;font-size:12px}
@@ -105,7 +114,7 @@
   tr.is-now{background:color-mix(in srgb,var(--accent) 20%,transparent)}
   tr.is-maybe td:first-child{box-shadow:inset 2px 0 0 var(--ink-3)}
   td.t{font:12px var(--mono);color:var(--ink-2);white-space:nowrap}
-  .now-pill{background:var(--accent);color:#fff;padding:1px 7px;border-radius:20px;font:700 10px var(--sans);
+  .now-pill{background:var(--accent-solid);color:#fff;padding:1px 7px;border-radius:20px;font:700 10px var(--sans);
             margin-left:6px;letter-spacing:.3px}
 
   .tablewrap{overflow-x:auto}
@@ -214,13 +223,17 @@
     <button class="tab" role="tab" id="tab-setup" aria-controls="p-setup" data-panel="setup" aria-selected="false" tabindex="-1">Configurare</button>
   </div>
 
+  <!-- Every panel carries tabindex="0". Istoric and Grila TV are nothing but a
+       table — no button, no link, nothing focusable — so tabbing off the tab
+       strip skipped straight past their entire contents. -->
+
   <!-- ─────────────────────────────────────────────── ACUM -->
-  <section class="panel" id="p-now" role="tabpanel" aria-labelledby="tab-now">
+  <section class="panel" id="p-now" role="tabpanel" tabindex="0" aria-labelledby="tab-now">
     <div id="now-body"><div class="empty">Se încarcă datele…</div></div>
   </section>
 
   <!-- ─────────────────────────────────────────────── ANUNȚURI -->
-  <section class="panel" id="p-announce" role="tabpanel" aria-labelledby="tab-announce" hidden>
+  <section class="panel" id="p-announce" role="tabpanel" tabindex="0" aria-labelledby="tab-announce" hidden>
     <div class="card">
       <label for="annText">Lipește textul unei postări Moldova-Film</label>
       <textarea id="annText" placeholder='Sâmbătă, 2 mai: Ora12:00 la TV Moldova 2 cultural, "Tunul de lemn”, film artistic, 1986, regia Vasile Brescanu, scenariul Nicolae Esinenco;'></textarea>
@@ -245,7 +258,7 @@
   </section>
 
   <!-- ─────────────────────────────────────── WATCHLIST -->
-  <section class="panel" id="p-watchlist" role="tabpanel" aria-labelledby="tab-watchlist" hidden>
+  <section class="panel" id="p-watchlist" role="tabpanel" tabindex="0" aria-labelledby="tab-watchlist" hidden>
     <div class="card">
       <label for="newTitle">Adaugă un titlu de urmărit</label>
       <div class="row" style="margin-top:0">
@@ -265,7 +278,7 @@
     </div>
 
     <div class="searchrow">
-      <input type="text" id="watchSearch" placeholder="caută titlu, alias sau regizor…">
+      <input type="text" id="watchSearch" aria-label="Caută în titlurile urmărite" placeholder="caută titlu, alias sau regizor…">
       <span class="count-badge" id="watchCount">0 titluri</span>
     </div>
     <div class="hint" style="margin-top:-6px;margin-bottom:12px">
@@ -284,11 +297,11 @@
   </section>
 
   <!-- ──────────────────────────────────────────── GRILA -->
-  <section class="panel" id="p-grid" role="tabpanel" aria-labelledby="tab-grid" hidden>
+  <section class="panel" id="p-grid" role="tabpanel" tabindex="0" aria-labelledby="tab-grid" hidden>
     <div class="row" style="margin-bottom:14px">
-      <select id="chanFilter" style="max-width:230px"></select>
-      <select id="dayFilter" style="max-width:180px"></select>
-      <input type="text" id="gridSearch" placeholder="caută în grilă…" style="flex:1;min-width:160px">
+      <select id="chanFilter" aria-label="Filtrează după canal" style="max-width:230px"></select>
+      <select id="dayFilter" aria-label="Filtrează după zi" style="max-width:180px"></select>
+      <input type="text" id="gridSearch" aria-label="Caută în grila TV" placeholder="caută în grilă…" style="flex:1;min-width:160px">
       <label style="display:flex;align-items:center;gap:6px;text-transform:none;letter-spacing:0;margin:0;font-weight:400;color:var(--ink-2);font-size:13px">
         <input type="checkbox" id="hideFiller" checked style="width:auto"> ascunde publicitatea
       </label>
@@ -297,7 +310,7 @@
   </section>
 
   <!-- ─────────────────────────────────────────── CANALE -->
-  <section class="panel" id="p-sources" role="tabpanel" aria-labelledby="tab-sources" hidden>
+  <section class="panel" id="p-sources" role="tabpanel" tabindex="0" aria-labelledby="tab-sources" hidden>
     <div class="note info">
       Ce canale sunt verificate. Editează <code class="inline">data/sources.json</code> ca să adaugi altele —
       parserul nu depinde de structura paginii, ci de tiparul <code class="inline">HH:MM - HH:MM</code>
@@ -308,12 +321,12 @@
   </section>
 
   <!-- ────────────────────────────────────────── ISTORIC -->
-  <section class="panel" id="p-history" role="tabpanel" aria-labelledby="tab-history" hidden>
+  <section class="panel" id="p-history" role="tabpanel" tabindex="0" aria-labelledby="tab-history" hidden>
     <div id="history-body"></div>
   </section>
 
   <!-- ──────────────────────────────────────── CONFIGURARE -->
-  <section class="panel" id="p-setup" role="tabpanel" aria-labelledby="tab-setup" hidden>
+  <section class="panel" id="p-setup" role="tabpanel" tabindex="0" aria-labelledby="tab-setup" hidden>
     <h2>1 · Notificări</h2>
     <div class="card">
       <p class="meta" style="margin-top:0">
@@ -420,6 +433,12 @@ let repoWatchlist = [];
 const $  = (s)=>document.querySelector(s);
 const $$ = (s)=>[...document.querySelectorAll(s)];
 const esc = (s)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+/* Every list this page reads from JSON is optional but never optional-shaped:
+   `?.` and `||[]` only catch a missing key, and `{}` is truthy, so one
+   wrong-typed field made .map/.filter throw inside renderAll — which has no
+   isolation, so a single bad list left every tab stuck on its placeholder with
+   nothing in the UI to say why. Coerce at the boundary instead. */
+const arr = (v)=>Array.isArray(v)?v:[];
 
 function toast(msg){
   const t=$('#toast'); t.textContent=msg; t.classList.add('show');
@@ -615,8 +634,11 @@ function describeCountdown(startEpoch, endEpoch){
   if(now < startEpoch){
     const diff = startEpoch - now;
     const totalMin = Math.max(1, Math.round(diff/60000));
-    const h = Math.floor(totalMin/60), m = totalMin%60;
-    const text = h>0 ? `începe peste ${h}h ${m}m` : `începe peste ${m} min`;
+    const h = Math.floor(totalMin/60), m = totalMin%60, d = Math.floor(h/24);
+    // Past a day, "începe peste 167h 30m" is a number nobody reads as a time.
+    const text = d>0 ? `începe peste ${d} ${d===1?'zi':'zile'} și ${h%24}h`
+               : h>0 ? `începe peste ${h}h ${m}m`
+                     : `începe peste ${m} min`;
     return { text, urgent: diff <= 2*3600*1000, live:false, ended:false };
   }
   if(endEpoch==null || now <= endEpoch){
@@ -641,11 +663,14 @@ async function load(){
     getJSON('schedule.json'), getJSON('hits.json'),
     getJSON('watchlist.json'), getJSON('sources.json'),
   ]);
-  DATA.schedule = sched; DATA.hits = hits; DATA.sources = src || [];
-  repoWatchlist = wl || [];
+  DATA.schedule = sched; DATA.hits = hits; DATA.sources = arr(src);
+  repoWatchlist = arr(wl);
 
   let local=null; try{ local = JSON.parse(localStorage.getItem(LS.wl)); }catch{}
-  DATA.watchlist = Array.isArray(local) && local.length ? local : repoWatchlist;
+  // No `&& local.length`: an empty local list is a choice, not an absence.
+  // Deleting your last watched title used to bring the whole repo list back on
+  // the next five-minute reload.
+  DATA.watchlist = Array.isArray(local) ? local : repoWatchlist;
 
   loadAnnouncements();
   updateStamp();
@@ -816,7 +841,7 @@ function whenStr(x){
 }
 
 function renderNow(){
-  const hits = DATA.hits?.current || [];
+  const hits = arr(DATA.hits?.current);
   const el = $('#now-body');
 
   if(!DATA.schedule && !DATA.hits){
@@ -842,13 +867,15 @@ function renderNow(){
       const startEpoch = announcementEpoch(a);
       return { kind:'ann', a, startEpoch, endEpoch: startEpoch!=null ? startEpoch + 2*3600*1000 : null };
     })
-    .filter(x=>x.startEpoch!=null && x.startEpoch > Date.now() - 3*3600*1000); // drop long-past ones
+    // Drop long-past ones, and cap the far end too: announcementEpoch rolls a
+    // date more than two days gone into next year, so a "2 mai" post read in
+    // August became a broadcast eleven months out and sat in this tab counting
+    // down thousands of hours against a weekday that no longer matches.
+    .filter(x=>x.startEpoch!=null
+      && x.startEpoch > Date.now() - 3*3600*1000
+      && x.startEpoch < Date.now() + 60*86400000);
 
   const all = [...gridItems, ...annItems];
-  // Only real detections. The badge must equal what the tab shows, or it is
-  // lying: it used to add the untitled strands, so it read "14" over a tab
-  // whose actual answer was "nothing found".
-  $('#b-now').textContent = hits.length + annItems.length;
 
   // Partition: live-now / upcoming first (soonest first), ended pushed to bottom.
   const active = [], ended = [];
@@ -863,11 +890,28 @@ function renderNow(){
   });
   ended.sort((a,b)=>(b.startEpoch ?? 0)-(a.startEpoch ?? 0));
 
+  // Only real detections, and only the ones still ahead. The badge must equal
+  // what the tab shows, or it is lying: it used to add the untitled strands, so
+  // it read "14" over a tab whose actual answer was "nothing found" — and then
+  // it counted finished broadcasts too, reading "8" over "Difuzări găsite (1)".
+  $('#b-now').textContent = active.length;
+
   let html = '';
-  const broken = (DATA.schedule?.channels||[]).filter(c=>!c.ok);
+  // A stale channel is not an unread one: the fetch failed, so ok is false, but
+  // the previous run's slots were kept and the grid below is full. Lumping the
+  // two together announced an outage over a complete schedule, which reads as a
+  // false alarm — and hid the thing that actually matters, that those slots are
+  // from an earlier run and may already be wrong.
+  const chans = arr(DATA.schedule?.channels);
+  const broken = chans.filter(c=>!c.ok && !c.stale);
+  const stale = chans.filter(c=>c.stale);
   if(broken.length){
     html += `<div class="note"><strong>${broken.length} canal(e) nu au putut fi citite:</strong>
       ${broken.map(c=>esc(c.name)).join(', ')}. Restul au fost verificate normal.</div>`;
+  }
+  if(stale.length){
+    html += `<div class="note"><strong>${stale.length} canal(e) arată date din verificarea anterioară:</strong>
+      ${stale.map(c=>esc(c.name)).join(', ')}. Difuzările de mai jos pot fi depășite.</div>`;
   }
 
   function cardFor(it, isLead){
@@ -1142,7 +1186,7 @@ function renderGrid(){
   // mixing 85 press headlines into the schedule table made it unreadable.
   // Older schedule.json files predate the newsOnly flag, so fall back to the
   // one thing that is always true of a real grid: its slots have times.
-  const allChans = DATA.schedule?.channels || [];
+  const allChans = arr(DATA.schedule?.channels);
   const isNewsSource = c => c.newsOnly === true
     || (c.newsOnly === undefined && (c.slots||[]).length > 0 && !(c.slots||[]).some(s=>s.start));
   const chans = allChans.filter(c=>!isNewsSource(c));
@@ -1171,8 +1215,8 @@ function renderGrid(){
     availableDays.map(d=>`<option value="${d}">${d} (${dayCounts.get(d)})</option>`).join('');
   df.value = availableDays.includes(keepDay) ? keepDay : '';
 
-  const hitKeys = new Set((DATA.hits?.current||[]).map(h=>`${h.channelId}|${h.day}|${h.start}`));
-  const mayKeys = new Set((DATA.hits?.maybes||[]).map(h=>`${h.channelId}|${h.day}|${h.start}`));
+  const hitKeys = new Set(arr(DATA.hits?.current).map(h=>`${h.channelId}|${h.day}|${h.start}`));
+  const mayKeys = new Set(arr(DATA.hits?.maybes).map(h=>`${h.channelId}|${h.day}|${h.start}`));
   const q = $('#gridSearch').value.trim().toLowerCase();
   const hideFiller = $('#hideFiller').checked;
 
@@ -1255,32 +1299,44 @@ function renderGrid(){
 
 /* ══════════════════════════════════════════════════════════ Canale tab */
 function renderSources(){
-  const live = DATA.schedule?.channels || [];
+  const live = arr(DATA.schedule?.channels);
   const el = $('#sources-body');
   const list = DATA.sources.length ? DATA.sources : live;
   if(!list.length){ el.innerHTML=`<div class="empty">Nicio sursă configurată.</div>`; return; }
 
   el.innerHTML = list.map(s=>{
     const st = live.find(c=>c.id===s.id);
-    let pill = '<span class="pill">neverificat încă</span>';
+    // "dezactivat" is the starting state, not the final word: it used to be
+    // assigned last and overwrote the error pill, so a source that was both off
+    // and failing reported only that it was off.
+    let pill = s.enabled===false
+      ? `<span class="pill off">dezactivat</span>`
+      : `<span class="pill">neverificat încă</span>`;
     let stats = '';
     if(st){
       const slotCount = st.slots?.length || 0;
       const realCount = (st.slots||[]).filter(x=>!x.filler).length;
-      if(!st.ok){
+      // stale before ok: a carried-over channel has ok:false too, and "eroare"
+      // on its own suggests there is nothing to show when the grid is in fact
+      // full — of the previous run's slots.
+      if(st.stale){
+        pill = `<span class="pill warn">date păstrate</span>`;
+      } else if(!st.ok){
         pill = `<span class="pill err">eroare</span>`;
       } else if(slotCount===0){
         pill = s.expectEmpty ? `<span class="pill">gol (așteptat)</span>` : `<span class="pill warn">gol neașteptat</span>`;
       } else {
         pill = `<span class="pill on">${slotCount} sloturi</span>`;
       }
+      // Zero were parsed this run when the data is carried over. Reporting the
+      // kept count as "parsate" made a dead scrape look like a healthy one.
       stats = `<div class="source-stats">
-        <span>sloturi parsate: <b>${slotCount}</b></span>
+        <span>sloturi parsate: <b>${st.stale ? 0 : slotCount}</b></span>
+        ${st.stale?`<span>păstrate din rularea anterioară: <b>${slotCount}</b></span>`:''}
         <span>utile: <b>${realCount}</b></span>
         ${st.warning?`<span style="color:var(--warn)">⚠ ${esc(st.warning)}</span>`:''}
       </div>`;
     }
-    if(s.enabled===false) pill = `<span class="pill off">dezactivat</span>`;
     return `<div class="card">
       <h3>${esc(s.name)} ${pill} ${s.tier==='primary'?'<span class="pill pri">principal</span>':''}${s.newsOnly?'<span class="pill">flux știri</span>':''}</h3>
       ${s.notes?`<div class="meta">${esc(s.notes)}</div>`:''}
@@ -1295,7 +1351,7 @@ function renderSources(){
 
 /* ══════════════════════════════════════════════════════════ Istoric tab */
 function renderHistory(){
-  const h = DATA.hits?.history || [];
+  const h = arr(DATA.hits?.history);
   $('#history-body').innerHTML = h.length
     ? `<div class="note info">O linie per difuzare, nu per verificare: dacă robotul vede aceeași
         difuzare la fiecare rulare, rămâne o singură linie, cu ora primei detectări.</div>

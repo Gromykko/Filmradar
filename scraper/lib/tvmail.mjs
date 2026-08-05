@@ -131,8 +131,14 @@ export async function fetchTvMailWeek(channelId, {
   // file cannot grow without bound.
   for (const d of Object.keys(byDate)) if (d < today) delete byDate[d];
 
+  // Anchored at 12:00 UTC on today's Chișinău date rather than stepping 24h
+  // from `now`. Fixed 24h blocks added to a wall-clock date skip a day at the
+  // spring transition and repeat one in autumn — losing, in spring, the Sunday
+  // that carries the heaviest heritage-film rotation.
+  const base = Date.parse(`${today}T12:00:00Z`);
+
   for (let i = 0; i < days; i++) {
-    const date = ymd.format(new Date(Date.now() + i * 86400_000));
+    const date = ymd.format(new Date(base + i * 86400_000));
 
     // Today's listing can still change, so it is always refreshed. Future days
     // are fetched once and then reused — which is what keeps this workable:
@@ -208,13 +214,14 @@ export function mergeSlots(primary, extra) {
   const index = new Map();
   for (let i = 0; i < merged.length; i++) {
     index.set(key(merged[i]), i);
-    index.set(`${merged[i].dayName ?? '?'}|${merged[i].start ?? '?'}`, i);
   }
 
   for (const s of extra) {
-    // A TRM slot with no date can still be the same broadcast; check the
-    // weekday form too before deciding this is genuinely new.
-    const at = index.get(key(s)) ?? index.get(`${s.dayName ?? '?'}|${s.start ?? '?'}`);
+    // Both sides carry a real date now — parseSchedule resolves TRM's weekday
+    // tabs to calendar dates — so identity is date+start and nothing else. The
+    // weekday-only fallback that used to live here matched next week's TV Mail
+    // slots against this week's TRM ones and silently discarded the films.
+    const at = index.get(key(s));
     if (at === undefined) {
       index.set(key(s), merged.length);
       merged.push(s);
