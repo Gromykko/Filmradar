@@ -112,3 +112,47 @@ plasă de siguranță.
   înregistreze).
 - `--vlc` deschide fluxul live într-un player local când începe o
   înregistrare — util doar pe o mașină cu monitor, nu pe un VPS headless.
+
+## Captură redundantă, fără proiect: `capture.sh`
+
+`record.mjs` e calea bună pe o mașină care are proiectul. `capture.sh` din
+acest folder e pentru redundanță: un singur fișier care are nevoie doar de
+`sh`, `curl` și `ffmpeg`. Îl copiezi pe un NAS, pe un laptop împrumutat sau pe
+telefon (Termux) și îl rulezi. O difuzare care poate să nu se repete ani de
+zile nu trebuie să depindă de o singură mașină.
+
+```sh
+./capture.sh 2026-08-08 22:00 105 /volume1/video/tunul-de-lemn.mp4
+#            <dată>     <oră>  <min> <fișier>          [<pagina canalului>]
+```
+
+**Ora e ÎNTOTDEAUNA ora Chișinăului** — aceeași pe care o scrie TRM în grilă.
+Scriptul o convertește singur la ceasul mașinii pe care rulează, deci dai
+22:00 fie că ești în Chișinău, în Copenhaga sau oriunde altundeva. Dacă îl
+pornești după ora de start, începe imediat și prinde restul filmului.
+
+Rezolvă adresa fluxului la fiecare rulare, niciodată din fișier. TRM a
+schimbat deja și gazda și id-ul (`v0.trm.md/d5fafab0` → `v.trm.md/937e4e0e`),
+iar o adresă veche poate în continuare să difuzeze ALT canal — ai obține o
+înregistrare curată a emisiunii greșite și ai afla abia la vizionare.
+
+### Synology (DSM 7)
+
+DSM nu are `ffmpeg` în PATH. Cel mai sigur e prin Container Manager:
+
+```sh
+# rezolvi fluxul pe NAS, înregistrezi în container
+docker run --rm -v /volume1/video:/out linuxserver/ffmpeg \
+  -user_agent "Mozilla/5.0" -reconnect 1 -reconnect_streamed 1 \
+  -reconnect_delay_max 30 -i "<adresa m3u8>" -t 6300 \
+  -c copy -bsf:a aac_adtstoasc -movflags +faststart -y /out/tunul-de-lemn.mp4
+```
+
+Programează-l din **Control Panel → Task Scheduler → Scheduled Task**, ca
+`root`, la data și ora dorite. Verifică ÎNAINTE cu o probă de 60 de secunde —
+`-t 60` — și deschide fișierul. Un NAS în Moldova e cea mai bună poziție:
+fără restricții geografice și cel mai scurt drum până la TRM.
+
+### Spațiu
+
+~32 MB/minut la 1080p, copiere directă fără recodare. 105 minute ≈ 3,4 GB.
