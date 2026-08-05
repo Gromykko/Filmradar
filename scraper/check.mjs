@@ -118,6 +118,22 @@ async function main() {
     for (const r of brokenPrimary) {
       console.error(`  ‼ SURSĂ PRINCIPALĂ DEFECTĂ — ${r.channel.name}: ${r.error ?? r.warning}`);
     }
+    // A red run only notifies whoever reads GitHub's e-mail. On 5 Aug 2026
+    // three runs went red across eleven hours and nobody noticed until the
+    // missing grid was spotted by hand — so a channel that produced NO data
+    // says so on the same channel the film alerts use.
+    // Only `!ok`: a warning means the backup source carried the channel and
+    // nothing was lost. Alerting on those would make this as ignorable as the
+    // e-mails already are. Deliberately no "N runs in a row" gate either —
+    // that day's failures had healthy runs interleaved, so any such rule would
+    // have stayed silent through the whole thing.
+    const dead = brokenPrimary.filter((r) => !r.ok);
+    if (dead.length && !DRY_RUN) {
+      await sendTelegram(
+        `⚠️ Sursă principală fără date — ${runAt}\n` +
+          dead.map((r) => `• ${r.channel.name}: ${r.error}`).join('\n'),
+      );
+    }
     process.exitCode = 1;
   }
 

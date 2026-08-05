@@ -73,8 +73,14 @@ jobs:
         # red run is warning about would also silence the schedule entirely.
         if: always()
         run: |
-          git config user.name  "filmradar[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Commit as the repo owner, not as the Actions bot. The bot address
+          # is what GitHub was counting as a second contributor on a one-person
+          # repository. This is GitHub's own noreply alias for the account — it
+          # attributes the commit correctly without publishing a private address
+          # in every snapshot. The commits stay obviously automated: they all
+          # say "data: schedule snapshot".
+          git config user.name  "Gromykko"
+          git config user.email "186803449+Gromykko@users.noreply.github.com"
           git add data/
           if git diff --staged --quiet; then
             echo "No changes to commit."

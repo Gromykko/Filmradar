@@ -516,7 +516,13 @@ function nextWeekdayOccurrence(isoDay, hhmm, { fromEpoch = Date.now() } = {}){
   const base = new Date(Date.UTC(now.y, now.mo-1, now.d));
   base.setUTCDate(base.getUTCDate() + delta);
   let epoch = wallToEpoch(base.getUTCFullYear(), base.getUTCMonth()+1, base.getUTCDate(), hh, mm, 0);
-  if(delta===0 && epoch <= fromEpoch - 60000){ // already passed today by more than a minute — roll a week
+  // Never roll within the same day. This used to roll a week the moment a slot
+  // was 60s past its start, so a film actually on air read "începe peste 167h"
+  // while the Grila TV table said "acum la TV" about the very same slot — and
+  // "pe post acum" was unreachable outside a one-minute window. A slot that has
+  // already finished today stays today, and describeCountdown files it under
+  // difuzări trecute, which is what that section is for.
+  if(delta===0 && epoch <= fromEpoch - 24*3600*1000){
     base.setUTCDate(base.getUTCDate()+7);
     epoch = wallToEpoch(base.getUTCFullYear(), base.getUTCMonth()+1, base.getUTCDate(), hh, mm, 0);
   }
@@ -1200,20 +1206,32 @@ function renderGrid(){
   let html = rows.length ? `<div class="card" style="padding:0;overflow:hidden"><div class="tablewrap"><table class="responsive"><thead><tr>
       <th>Canal</th><th>Zi</th><th>Oră</th><th>Emisiune</th></tr></thead><tbody>` +
     rows.map(({c,s,hit,maybe,isNow})=>`<tr class="${hit?'is-hit':maybe?'is-maybe':''}${isNow?' is-now':''}">
-      <td data-label="Canal" class="meta">${esc(c.name)}</td>
+      <td data-label="Canal" class="meta">${esc(c.name)}${c.stale?' <span class="pill warn" title="Canalul nu a răspuns la ultima verificare — sloturi păstrate din rularea anterioară">păstrat</span>':''}</td>
       <td data-label="Zi" class="meta">${esc(s.dayName||'—')}${s.dayAssumed?' <span class="pill" title="Pagina publică doar ziua curentă">azi?</span>':''}</td>
       <td data-label="Oră" class="t">${esc(s.start||'')}${s.end?`–${esc(s.end)}`:''}</td>
-      <td data-label="Emisiune">${hit?'🎬 ':''}${esc(s.title)}${isNow?'<span class="now-pill">acum la TV</span>':''}</td>
+      <!-- "posibil" spelled out because the maybe-row marker was a 2px inset shadow
+           and nothing else: colour alone on a wide screen, and on a phone the
+           responsive layout turns it into a stray line beside a full-width cell. -->
+      <td data-label="Emisiune">${hit?'🎬 ':''}${esc(s.title)}${maybe&&!hit?' <span class="pill">posibil</span>':''}${isNow?'<span class="now-pill">acum la TV</span>':''}</td>
     </tr>`).join('') + `</tbody></table></div></div>`
     : `<div class="empty">Niciun rezultat în grila TV.</div>`;
 
   // Say plainly how far the data reaches. Nobody should have to work out from
   // an empty table that Wednesday simply has not been published anywhere yet.
+  // The last sentence is conditional for a reason: during the TRM 502 outage it
+  // swore "nu e o eroare a aplicației" over a table Moldova 1 and Moldova 2 had
+  // silently disappeared from, which was the one thing it must not say.
+  const down = allChans.filter(c=>!c.ok && !c.stale);
   html = `<div class="note" style="margin-bottom:14px">
       Grila disponibilă acum: <strong>${availableDays.length ? esc(availableDays.join(', ')) : 'nimic'}</strong>.
       Mai departe nu se poate vedea: TRM publică doar ziua curentă, iar sursa de rezervă adaugă ziua următoare.
-      Restul săptămânii <em>nu este publicat de nimeni</em> — nu e o eroare a aplicației.
+      ${down.length ? '' : 'Restul săptămânii <em>nu este publicat de nimeni</em> — nu e o eroare a aplicației.'}
     </div>` + html;
+  if(down.length){
+    html = `<div class="note"><strong>${down.length} canal(e) nu au răspuns la ultima verificare:</strong>
+      ${down.map(c=>esc(c.name)).join(', ')} — rândurile lor lipsesc din tabelul de mai jos.
+      Nu înseamnă că nu se difuzează nimic, ci că nu s-a putut afla ce se difuzează.</div>` + html;
+  }
 
   // Kept on the page, but below and clearly separated: these are articles the
   // scanner read, not things you can watch. Collapsed, because on a normal day
