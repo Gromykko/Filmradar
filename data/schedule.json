@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-06T04:27:17.992Z",
-  "updatedAtLocal": "6 aug. 2026, 07:26",
+  "updatedAt": "2026-08-06T07:22:58.167Z",
+  "updatedAtLocal": "6 aug. 2026, 10:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8025,6 +8025,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // Vladimir Herța - primul primar al Chișinăului după Unirea Basarabiei cu România",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Festivalul Lupilor revine la Orheiul Vechi cu trei zile de concerte și activități culturale",
           "filler": false,
           "news": true
@@ -8053,15 +8062,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Maria Bieșu, vocea care a dus faima operei din Republica Moldova pe marile scene ale lumii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Zilele Diasporei: povești, cărți și artă, care păstrează legătura cu Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -8116,6 +8116,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Zilele Diasporei: povești, cărți și artă, care păstrează legătura cu Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -8196,7 +8205,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Independența care ne unește. Moldova-35”: programul evenimentelor dedicate celor 35 de ani de independență",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8205,7 +8214,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "„Independența care ne unește. Moldova-35”: programul evenimentelor dedicate celor 35 de ani de independență",
           "filler": false,
           "news": true
         },
@@ -8377,15 +8386,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Festivalul Internațional de Film Transilvania a început la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Manuscrise, fotografii și amintiri despre Vladimir Beșleagă, reunite într-o expoziție la Muzeul Literaturii Române",
           "filler": false,
           "news": true
         },
