@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-07T00:44:17.295Z",
-  "updatedAtLocal": "7 aug. 2026, 03:43",
+  "updatedAt": "2026-08-07T04:02:44.475Z",
+  "updatedAtLocal": "7 aug. 2026, 07:02",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2562,6 +2562,406 @@
           "start": "03:30",
           "end": "05:15",
           "title": "Tribute, Aplauze la scena deschisă",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "05:15",
+          "end": "05:36",
+          "title": "Mesager",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "05:36",
+          "end": "05:58",
+          "title": "Știri sportive",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "05:58",
+          "end": "06:00",
+          "title": "Deschiderea staţiei",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "06:00",
+          "end": "06:25",
+          "title": "Un Rol cu Andrei Moșoi",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "06:25",
+          "end": "06:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "06:30",
+          "end": "08:35",
+          "title": "Țară mică, cântec mare.Youth Orchestra. Muzica anilor 70-90",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "08:35",
+          "end": "08:40",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "08:40",
+          "end": "09:10",
+          "title": "Zuper.show",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "09:10",
+          "end": "09:15",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "09:15",
+          "end": "10:00",
+          "title": "Zi de bine",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "10:00",
+          "end": "10:30",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "10:30",
+          "end": "10:32",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "10:32",
+          "end": "11:55",
+          "title": "Live studio. Прямая трансляция",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "11:55",
+          "end": "12:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "12:00",
+          "end": "12:57",
+          "title": "Eu și Ue",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "12:57",
+          "end": "13:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "13:00",
+          "end": "13:30",
+          "title": "Ştiri",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "13:30",
+          "end": "13:45",
+          "title": "Știri sportive",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "13:45",
+          "end": "14:10",
+          "title": "Săptămânal",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "14:10",
+          "end": "14:15",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "14:15",
+          "end": "15:00",
+          "title": "Spitalul Santa Rosa (Episodul 141)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "15:00",
+          "end": "15:45",
+          "title": "Spitalul Santa Rosa (Episodul 142)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "15:45",
+          "end": "16:30",
+          "title": "Spitalul Santa Rosa (Episodul 143)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "16:30",
+          "end": "16:55",
+          "title": "# Cultura",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "16:55",
+          "end": "17:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "17:00",
+          "end": "17:25",
+          "title": "Ştiri",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "17:25",
+          "end": "17:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "17:30",
+          "end": "18:57",
+          "title": "Live studio. Прямая трансляция",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "18:57",
+          "end": "19:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "19:00",
+          "end": "19:10",
+          "title": "Filler (Integrarea nr.1)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "19:10",
+          "end": "20:55",
+          "title": "DescOPERA (Ediția a X-a Orchestra Simfonică Teleradio - Moldova &#34;Dinastia Strauss&#34;)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "20:55",
+          "end": "21:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "21:00",
+          "end": "21:30",
+          "title": "Mesager",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "21:30",
+          "end": "21:45",
+          "title": "Știri sportive",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "21:45",
+          "end": "21:50",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "21:50",
+          "end": "22:58",
+          "title": "Agenția copoii (Episodul 9)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "22:58",
+          "end": "23:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "23:00",
+          "end": "23:30",
+          "title": "Ştiri Externe",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-13",
+          "start": "23:30",
+          "end": "00:00",
+          "title": "Un Rol cu Andrei Moșoi",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-14",
+          "start": "00:00",
+          "end": "06:00",
+          "title": "Revizie tehnică",
           "filler": false,
           "source": "tvmail"
         }
