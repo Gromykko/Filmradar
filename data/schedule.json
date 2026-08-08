@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-08T07:33:10.663Z",
-  "updatedAtLocal": "8 aug. 2026, 10:32",
+  "updatedAt": "2026-08-08T08:19:38.063Z",
+  "updatedAtLocal": "8 aug. 2026, 11:19",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10383,6 +10383,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Forumul Diasporei // „Cele șapte minuni ale Moldovei” – proiectul care își propune să apropie copiii din diaspora de țara de origine",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Vladimir Herța - primul primar al Chișinăului după Unirea Basarabiei cu România",
           "filler": false,
           "news": true
@@ -10411,15 +10420,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Diasporei // Din Franța, înapoi acasă prin carte: Dina Vrâncean a lansat volumul „O vacanță la Lipnic”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Maria Bieșu, vocea care a dus faima operei din Republica Moldova pe marile scene ale lumii",
           "filler": false,
           "news": true
         },
@@ -10474,6 +10474,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Maria Bieșu, vocea care a dus faima operei din Republica Moldova pe marile scene ale lumii",
           "filler": false,
           "news": true
         },
@@ -10554,7 +10563,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Noua Speranță”, expoziția semnată de artistul plastic Roman Tolici, vernisată la Muzeul Național de Artă al Moldovei",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10563,7 +10572,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "„Noua Speranță”, expoziția semnată de artistul plastic Roman Tolici, vernisată la Muzeul Național de Artă al Moldovei",
           "filler": false,
           "news": true
         },
@@ -10735,15 +10744,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Peste 160 de documente din opera lui Vasile Vasilache și Vladimir Beșleagă, expuse la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Festivalul Internațional de Film Transilvania a început la Chișinău",
           "filler": false,
           "news": true
         },
