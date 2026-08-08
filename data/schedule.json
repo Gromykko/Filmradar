@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-08T14:15:53.087Z",
-  "updatedAtLocal": "8 aug. 2026, 17:15",
+  "updatedAt": "2026-08-08T15:01:26.008Z",
+  "updatedAtLocal": "8 aug. 2026, 18:01",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10383,6 +10383,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Zilele Diasporei // „Autori basarabeni în lume”, expoziție de carte la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Forumul Diasporei // „Cele șapte minuni ale Moldovei” – proiectul care își propune să apropie copiii din diaspora de țara de origine",
           "filler": false,
           "news": true
@@ -10411,15 +10420,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Diasporei // Experiențe de viață și amintiri, reunite în volumul „Lumea în care am trăit” semnat de Iurie Cojocaru",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei // Din Franța, înapoi acasă prin carte: Dina Vrâncean a lansat volumul „O vacanță la Lipnic”",
           "filler": false,
           "news": true
         },
@@ -10474,6 +10474,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Diasporei // Din Franța, înapoi acasă prin carte: Dina Vrâncean a lansat volumul „O vacanță la Lipnic”",
           "filler": false,
           "news": true
         },
@@ -10554,7 +10563,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "GALERIE FOTO // Vernisajul expoziției „Noua Speranță” semnată de artistul plastic Roman Tolici",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10563,7 +10572,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "GALERIE FOTO // Vernisajul expoziției „Noua Speranță” semnată de artistul plastic Roman Tolici",
           "filler": false,
           "news": true
         },
@@ -10735,15 +10744,6 @@
           "start": null,
           "end": null,
           "title": "„Miros de pâine caldă”. O expoziție despre istoria pâinii, deschisă la Muzeul Național de Istorie a Moldovei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Peste 160 de documente din opera lui Vasile Vasilache și Vladimir Beșleagă, expuse la Biblioteca Națională",
           "filler": false,
           "news": true
         },
