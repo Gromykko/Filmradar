@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-09T08:58:19.425Z",
-  "updatedAtLocal": "9 aug. 2026, 11:57",
+  "updatedAt": "2026-08-09T09:52:48.773Z",
+  "updatedAtLocal": "9 aug. 2026, 12:52",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10021,6 +10021,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Lucrezi în domeniul aplicării legii și ai o pasiune pentru fotografie? Participă la concursul Capture26 și câștigă o vizită la Europol",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Zilele Filmului Moldovenesc” ajung la Florești. Opt filme vor fi proiectate timp de două zile",
           "filler": false,
           "news": true
@@ -10093,15 +10102,6 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce filme vor fi prezentate în august în cadrul Serilor de CRONOGRAF. Programul proiecțiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
           "title": "Ce scutiri fiscale pot solicita părinții în Moldova",
           "filler": false,
           "news": true
@@ -10111,7 +10111,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Eclipsă de Soare, Perseide și „parada planetelor”. Ce vom putea vedea pe cer pe 12 august",
+          "title": "Eclipsă de Soare, perseide și „parada planetelor”. Ce vom putea vedea pe cer pe 12 august",
           "filler": false,
           "news": true
         },
@@ -10147,7 +10147,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "După căsătorie, actul de identitate devine nevalabil dacă ți-ai schimbat numele",
+          "title": "După căsătorie actul de identitate devine nevalabil dacă ți-ai schimbat numele",
           "filler": false,
           "news": true
         },
@@ -10157,15 +10157,6 @@
           "start": null,
           "end": null,
           "title": "Ce trebuie să faci după o mușcătură de câine fără stăpân. Explicațiile medicului veterinar",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Admitere 2026: universitățile din Moldova publică rezultatele intermediare. Verifică dacă ai fost admis(ă)",
           "filler": false,
           "news": true
         },
