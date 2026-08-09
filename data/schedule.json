@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-09T11:40:12.363Z",
-  "updatedAtLocal": "9 aug. 2026, 14:40",
+  "updatedAt": "2026-08-09T13:11:56.292Z",
+  "updatedAtLocal": "9 aug. 2026, 16:11",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10224,6 +10224,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Forumul Diasporei // Ministrul Culturii a prezintat oportunitățile de finanțare pentru proiecte culturale și mobilitatea artiștilor",
           "filler": false,
           "news": true
@@ -10252,15 +10261,6 @@
           "start": null,
           "end": null,
           "title": "Forumul Diasporei // „Cele șapte minuni ale Moldovei” – proiectul care își propune să apropie copiii din diaspora de țara de origine",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Vladimir Herța - primul primar al Chișinăului după Unirea Basarabiei cu România",
           "filler": false,
           "news": true
         },
@@ -10315,6 +10315,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Vladimir Herța - primul primar al Chișinăului după Unirea Basarabiei cu România",
           "filler": false,
           "news": true
         },
@@ -10395,7 +10404,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Expoziția „Arheologia urbană și memoria ascunsă a Chișinăului”, deschisă pentru vizitatori la Muzeul Național de Istorie a Moldovei",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10404,7 +10413,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Expoziția „Arheologia urbană și memoria ascunsă a Chișinăului”, deschisă pentru vizitatori la Muzeul Național de Istorie a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10576,15 +10585,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Petru Baracci, legenda scenei și filmului moldovenesc",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Expoziția „Roger Ballen. Umbrele minții”, inaugurată la Muzeul Național de Artă al Moldovei",
           "filler": false,
           "news": true
         },
