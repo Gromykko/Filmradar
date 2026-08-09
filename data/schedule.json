@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-09T06:25:49.964Z",
-  "updatedAtLocal": "9 aug. 2026, 09:25",
+  "updatedAt": "2026-08-09T07:38:35.831Z",
+  "updatedAtLocal": "9 aug. 2026, 10:38",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10021,6 +10021,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "„Zilele Filmului Moldovenesc” ajung la Florești. Opt filme vor fi proiectate timp de două zile",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Orașele din Moldova pot concura pentru a reprezenta țara la concursul „Capitala Europeană a Culturii” 2033",
           "filler": false,
           "news": true
@@ -10093,7 +10102,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum va marca Republica Moldova cei 35 de ani de independență? Programul evenimentelor aprobate de Guvern",
+          "title": "Ce scutiri fiscale pot solicita părinții în Moldova",
           "filler": false,
           "news": true
         },
@@ -10102,7 +10111,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce locuri poți descoperi în ultima lună de vară. Selecția GemsAround",
+          "title": "Eclipsă de Soare, Perseide și „parada planetelor”. Ce vom putea vedea pe cer pe 12 august",
           "filler": false,
           "news": true
         },
@@ -10111,7 +10120,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "8-12 august 2026 – prezentarea actelor în original la concursul de admitere la USMF „Nicolae Testemițanu”",
+          "title": "Au început înscrierile pentru bursa Chevening. Tinerii din Moldova pot studia gratuit la un program de masterat în Marea Britanie",
           "filler": false,
           "news": true
         },
@@ -10120,7 +10129,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Circa 22.000 de candidați au depus dosarele la universitățile din Moldova în primul tur prin intermediul platformei eAdmitere",
+          "title": "De Ziua Tineretului, descoperă Chișinăul printr-un traseu cu indicii și provocări",
           "filler": false,
           "news": true
         },
@@ -10129,7 +10138,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "De la 1,5 până la 3,5 luni. Cât durează vacanța de vară a elevilor din țările UE",
+          "title": "„Mama care alăptează are nevoie de aproximativ 500 de kilocalorii în plus.” Care este alimentația în perioada alăptării",
           "filler": false,
           "news": true
         },
@@ -10138,7 +10147,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(video) Pregătește popcornul! Trei filme pe care le poți viziona în premieră la cinematografele Cineplex pe 20 august",
+          "title": "După căsătorie, actul de identitate devine nevalabil dacă ți-ai schimbat numele",
           "filler": false,
           "news": true
         },
@@ -10147,7 +10156,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un proiect nou, dar nu mic: zvelta a ajuns la aproximativ 180.000 de mașini la nivel global",
+          "title": "Ce trebuie să faci după o mușcătură de câine fără stăpân. Explicațiile medicului veterinar",
           "filler": false,
           "news": true
         },
@@ -10156,16 +10165,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Descoperă gratuit Consiliul UE din Bruxelles. Cum te poți înregistra la vizitele individuale, de grup și la tururile ghidate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Burse de 5.000 de lei pentru 10 fete rome din Moldova. Care sunt condițiile de aplicare",
+          "title": "Admitere 2026: universitățile din Moldova publică rezultatele intermediare. Verifică dacă ai fost admis(ă)",
           "filler": false,
           "news": true
         },
@@ -10233,6 +10233,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Orașele din Republica Moldova se pot înscrie în cursa pentru titlul de „Capitală Europeană a Culturii 2033”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Zilele Diasporei // „Autori basarabeni în lume”, expoziție de carte la Biblioteca Națională",
           "filler": false,
           "news": true
@@ -10261,15 +10270,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Lupilor revine la Orheiul Vechi cu trei zile de concerte și activități culturale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei // Experiențe de viață și amintiri, reunite în volumul „Lumea în care am trăit” semnat de Iurie Cojocaru",
           "filler": false,
           "news": true
         },
@@ -10324,6 +10324,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Diasporei // Experiențe de viață și amintiri, reunite în volumul „Lumea în care am trăit” semnat de Iurie Cojocaru",
           "filler": false,
           "news": true
         },
@@ -10404,7 +10413,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Parlamentul a ratificat în prima lectură Convenția Consiliului Europei privind coproducția de opere audiovizuale sub formă de seriale",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10413,7 +10422,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Parlamentul a ratificat în prima lectură Convenția Consiliului Europei privind coproducția de opere audiovizuale sub formă de seriale",
           "filler": false,
           "news": true
         },
@@ -10585,15 +10594,6 @@
           "start": null,
           "end": null,
           "title": "BTA: Bear With Me” va avea premiera mondială la cea de-a 32-a ediție a Festivalului de Film de la Sarajevo, în august",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Miros de pâine caldă”. O expoziție despre istoria pâinii, deschisă la Muzeul Național de Istorie a Moldovei",
           "filler": false,
           "news": true
         },
