@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T14:02:57.092Z",
-  "updatedAtLocal": "10 aug. 2026, 17:02",
+  "updatedAt": "2026-08-10T15:13:40.163Z",
+  "updatedAtLocal": "10 aug. 2026, 18:13",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -11042,6 +11042,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // Ion Vatamanu – poet, savant și una dintre vocile renașterii naționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
           "filler": false,
           "news": true
@@ -11070,15 +11079,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Diasporei // „Autori basarabeni în lume”, expoziție de carte la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Forumul Diasporei // „Cele șapte minuni ale Moldovei” – proiectul care își propune să apropie copiii din diaspora de țara de origine",
           "filler": false,
           "news": true
         },
@@ -11133,6 +11133,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Forumul Diasporei // „Cele șapte minuni ale Moldovei” – proiectul care își propune să apropie copiii din diaspora de țara de origine",
           "filler": false,
           "news": true
         },
@@ -11213,7 +11222,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Scriitori și artiști din diaspora se reunesc în august la Biblioteca Națională în cadrul Zilelor Diasporei 2026",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -11222,7 +11231,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Scriitori și artiști din diaspora se reunesc în august la Biblioteca Națională în cadrul Zilelor Diasporei 2026",
           "filler": false,
           "news": true
         },
@@ -11394,15 +11403,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Claca de odinioară a prins din nou viață în satul Văratic",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Petru Baracci, legenda scenei și filmului moldovenesc",
           "filler": false,
           "news": true
         },
