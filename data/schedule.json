@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T16:27:56.032Z",
-  "updatedAtLocal": "10 aug. 2026, 19:27",
+  "updatedAt": "2026-08-10T17:32:18.760Z",
+  "updatedAtLocal": "10 aug. 2026, 20:32",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -11042,6 +11042,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Scoarța, cămașa cu altiță și Mărțișorul, promovate în cadrul unui proiect național",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Ion Vatamanu – poet, savant și una dintre vocile renașterii naționale",
           "filler": false,
           "news": true
@@ -11070,15 +11079,6 @@
           "start": null,
           "end": null,
           "title": "Orașele din Republica Moldova se pot înscrie în cursa pentru titlul de „Capitală Europeană a Culturii 2033”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei // „Autori basarabeni în lume”, expoziție de carte la Biblioteca Națională",
           "filler": false,
           "news": true
         },
@@ -11133,6 +11133,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Diasporei // „Autori basarabeni în lume”, expoziție de carte la Biblioteca Națională",
           "filler": false,
           "news": true
         },
@@ -11213,7 +11222,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -11222,7 +11231,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
           "filler": false,
           "news": true
         },
@@ -11394,15 +11403,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Tradiția olăritului, valorificată la Hoginești, la cea de-a X-a ediție a Târgului „La Vatra Olarului Vasile Gonciari”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Claca de odinioară a prins din nou viață în satul Văratic",
           "filler": false,
           "news": true
         },
