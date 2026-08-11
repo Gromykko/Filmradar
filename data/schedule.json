@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:29:47.209Z",
-  "updatedAtLocal": "11 aug. 2026, 13:29",
+  "updatedAt": "2026-08-11T11:26:20.997Z",
+  "updatedAtLocal": "11 aug. 2026, 14:26",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9662,6 +9662,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Patrimoniul cultural de pe ambele maluri ale Prutului, celebrat prin meșteșuguri și tradiții la Cahul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Tradițiile și meșteșugurile populare, celebrate la Festivalul „Floare Ciuciuleni”",
           "filler": false,
           "news": true
@@ -9690,15 +9699,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Forumul Diasporei // Ministrul Culturii a prezintat oportunitățile de finanțare pentru proiecte culturale și mobilitatea artiștilor",
           "filler": false,
           "news": true
         },
@@ -9753,6 +9753,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Forumul Diasporei // Ministrul Culturii a prezintat oportunitățile de finanțare pentru proiecte culturale și mobilitatea artiștilor",
           "filler": false,
           "news": true
         },
@@ -9833,7 +9842,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "GALERIE FOTO // Zilele Diasporei: povești, cărți și artă, care păstrează legătura cu Republica Moldova",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9842,7 +9851,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "GALERIE FOTO // Zilele Diasporei: povești, cărți și artă, care păstrează legătura cu Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -10014,15 +10023,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // România va dona cărți în limba română bibliotecilor din Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Claca, reînviată în satul Văratic. Localnicii s-au adunat pentru o zi de muncă și voie bună",
           "filler": false,
           "news": true
         },
