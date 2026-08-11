@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-11T12:27:33.828Z",
-  "updatedAtLocal": "11 aug. 2026, 15:27",
+  "updatedAt": "2026-08-11T14:03:36.775Z",
+  "updatedAtLocal": "11 aug. 2026, 17:03",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9441,6 +9441,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Vrei să începi o colecție de artă? La Chișinău se organizează prima ediție „Young Collector”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Lucrezi în domeniul aplicării legii și ai o pasiune pentru fotografie? Participă la concursul Capture26 și câștigă o vizită la Europol",
           "filler": false,
           "news": true
@@ -9513,7 +9522,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cineaștii din Moldova vor putea coproduce seriale cu parteneri europeni și accesa noi finanțări",
+          "title": "Nova Lines devine partenerul The Moldova Project: 700 de copii aflați în situații de vulnerabilitate sunt pregătiți pentru noul an școlar",
           "filler": false,
           "news": true
         },
@@ -9522,7 +9531,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "ColorFest, un eveniment de storytelling și proiecție de film. Ce evenimente vor fi organizate la a doua ediție a ZIT Ungheni",
+          "title": "Vor fi lansate zboruri directe din Chișinău spre Brașov. Cât vor costa biletele",
           "filler": false,
           "news": true
         },
@@ -9531,7 +9540,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Peste 100 de începuturi la maib",
+          "title": "Șapte ținute roșii cusute manual. Cum o colecție vestimentară avangardistă poate transmite relația dintre mamă și fiică",
           "filler": false,
           "news": true
         },
@@ -9540,7 +9549,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Care este diferența dintre testarea HPV și testul PAP",
+          "title": "Maib rockstars: celebrăm oamenii din spatele performanței",
           "filler": false,
           "news": true
         },
@@ -9549,7 +9558,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Când va avea loc al doilea tur de admitere la universitățile din Moldova",
+          "title": "Integrarea economică europeană, una dintre temele centrale ale Moldova Business Week 2026. Ce înseamnă acest lucru pentru companiile din Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -9558,7 +9567,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Noi trebuie să le fim vocea.” Un protest pentru protecția animalelor va avea loc la Chișinău",
+          "title": "„3debine.md”: exemplul unui business local care a trecut cu succes în online cu Shopify și Paynet Business",
           "filler": false,
           "news": true
         },
@@ -9567,7 +9576,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Clacă, festivaluri, concerte și motocross. 10 evenimente la care să mergi în săptămâna 10-16 august",
+          "title": "Nu-ți găsești cartea de identitate? Poți declara online pierderea sau furtul actelor, direct de pe telefon sau calculator",
           "filler": false,
           "news": true
         },
@@ -9576,25 +9585,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tot cald va fi? Ce temperaturi ne așteaptă săptămâna viitoare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Lista colegiilor unde toți elevii au reușit să susțină examenul de bacalaureat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Utilizatori notificați când interacționează cu conținut AI. UE impune noi reguli din august 2026 cu privire la reglementarea AI",
+          "title": "Maib extinde emiterea online a garanțiilor bancare",
           "filler": false,
           "news": true
         },
@@ -9662,6 +9653,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Pâinea și portul popular, sărbătorite la Mîndîc. Festivalul tradițiilor a ajuns la cea de-a VIII-a ediție",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // „Hora de la Prut” a dus tradițiile din Ungheni la Festivalul Internațional de Folclor „Ceahlăul”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Patrimoniul cultural de pe ambele maluri ale Prutului, celebrat prin meșteșuguri și tradiții la Cahul",
           "filler": false,
           "news": true
@@ -9681,24 +9690,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Scoarța, cămașa cu altiță și Mărțișorul, promovate în cadrul unui proiect național",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Ion Vatamanu – poet, savant și una dintre vocile renașterii naționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
           "filler": false,
           "news": true
         },
@@ -9753,6 +9744,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Ion Vatamanu – poet, savant și una dintre vocile renașterii naționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
           "filler": false,
           "news": true
         },
@@ -9824,6 +9833,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Zilele Diasporei // Din Franța, înapoi acasă prin carte: Dina Vrâncean a lansat volumul „O vacanță la Lipnic”",
           "filler": false,
           "news": true
@@ -9834,15 +9852,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Maria Bieșu, vocea care a dus faima operei din Republica Moldova pe marile scene ale lumii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10005,24 +10014,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Festivalul „La Seceriș” a celebrat tradițiile rurale și munca agricultorilor la Cîrnățeni",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Eugeniu Coșeriu, savantul care a revoluționat studiul limbajului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // România va dona cărți în limba română bibliotecilor din Republica Moldova",
           "filler": false,
           "news": true
         },
