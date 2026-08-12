@@ -4828,7 +4828,438 @@
         "source": "tvmail"
       }
     ],
-    "2026-08-18": []
+    "2026-08-18": [
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "05:15",
+        "end": "05:36",
+        "title": "Mesager",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "05:36",
+        "end": "05:58",
+        "title": "Știri sportive",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "05:58",
+        "end": "06:00",
+        "title": "Deschiderea staţiei",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "06:00",
+        "end": "07:00",
+        "title": "Acasă, în Marienfeld",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "07:00",
+        "end": "07:05",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "07:05",
+        "end": "08:35",
+        "title": "Povestitorul satului",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "08:35",
+        "end": "08:40",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "08:40",
+        "end": "09:10",
+        "title": "Zuper.show",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "09:10",
+        "end": "09:15",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "09:15",
+        "end": "10:00",
+        "title": "Zi de bine",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "10:00",
+        "end": "10:26",
+        "title": "Banii în mișcare",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "10:26",
+        "end": "10:30",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "10:30",
+        "end": "11:55",
+        "title": "Live studio. Прямая трансляция",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "11:55",
+        "end": "12:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "12:00",
+        "end": "12:50",
+        "title": "Manaslu, regatul fragil din Himalaya",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "12:50",
+        "end": "12:55",
+        "title": "Secvențe japoneze",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "12:55",
+        "end": "13:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "13:00",
+        "end": "13:30",
+        "title": "Ştiri",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "13:30",
+        "end": "13:35",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "13:35",
+        "end": "13:45",
+        "title": "Știri sportive",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "13:45",
+        "end": "14:10",
+        "title": "Unda Bugeacului",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "14:10",
+        "end": "14:15",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "14:15",
+        "end": "15:00",
+        "title": "Spitalul Santa Rosa (Episodul 147)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "15:00",
+        "end": "15:45",
+        "title": "Spitalul Santa Rosa (Episodul 148)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "15:45",
+        "end": "16:30",
+        "title": "Spitalul Santa Rosa (Episodul 149)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "16:30",
+        "end": "16:55",
+        "title": "Moldova de patrimoniu",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "16:55",
+        "end": "17:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "17:00",
+        "end": "17:25",
+        "title": "Ştiri",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "17:25",
+        "end": "17:30",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "17:30",
+        "end": "18:55",
+        "title": "Live studio. Прямая трансляция",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "18:55",
+        "end": "19:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "19:00",
+        "end": "20:00",
+        "title": "Prin muzică în Europa",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "20:00",
+        "end": "20:55",
+        "title": "Pe față",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "20:55",
+        "end": "21:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "21:00",
+        "end": "21:30",
+        "title": "Mesager",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "21:30",
+        "end": "21:45",
+        "title": "Știri sportive",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "21:45",
+        "end": "21:50",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "21:50",
+        "end": "22:50",
+        "title": "Acasă: din cele mai vechi timpuri spre viitor (Episodul 1)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "22:50",
+        "end": "22:55",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "22:55",
+        "end": "23:25",
+        "title": "Ştiri Externe",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-08-18",
+        "start": "23:25",
+        "end": "01:25",
+        "title": "Țară mică -cântec mare (Youth Orchestra. Muzica anilor 70-90)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 3,
+        "dayName": "miercuri",
+        "date": "2026-08-19",
+        "start": "01:25",
+        "end": "03:30",
+        "title": "Lucia di Lammermoor",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 3,
+        "dayName": "miercuri",
+        "date": "2026-08-19",
+        "start": "03:30",
+        "end": "05:15",
+        "title": "Tribute, Aplauze la scena deschisă",
+        "filler": false,
+        "source": "tvmail"
+      }
+    ]
   },
   "2910": {
     "2026-08-12": [
