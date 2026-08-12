@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-12T06:39:09.145Z",
-  "updatedAtLocal": "12 aug. 2026, 09:38",
+  "updatedAt": "2026-08-12T08:37:25.214Z",
+  "updatedAtLocal": "12 aug. 2026, 11:37",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8623,6 +8623,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Comisia care va desemna laureații Premiului Național 2026 a fost aprobată. Cine face parte din ea",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Pâinea și portul popular, sărbătorite la Mîndîc. Festivalul tradițiilor a ajuns la cea de-a VIII-a ediție",
           "filler": false,
           "news": true
@@ -8651,15 +8660,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Tradițiile și meșteșugurile populare, celebrate la Festivalul „Floare Ciuciuleni”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Scoarța, cămașa cu altiță și Mărțișorul, promovate în cadrul unui proiect național",
           "filler": false,
           "news": true
         },
@@ -8714,6 +8714,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Scoarța, cămașa cu altiță și Mărțișorul, promovate în cadrul unui proiect național",
           "filler": false,
           "news": true
         },
@@ -8794,7 +8803,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Zilele Diasporei // Experiențe de viață și amintiri, reunite în volumul „Lumea în care am trăit” semnat de Iurie Cojocaru",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8803,7 +8812,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Zilele Diasporei // Experiențe de viață și amintiri, reunite în volumul „Lumea în care am trăit” semnat de Iurie Cojocaru",
           "filler": false,
           "news": true
         },
@@ -8975,15 +8984,6 @@
           "start": null,
           "end": null,
           "title": "Parlamentul a denunțat acordul cu CSI privind colaborarea în domeniul cărții și poligrafiei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Festivalul „La Seceriș” a celebrat tradițiile rurale și munca agricultorilor la Cîrnățeni",
           "filler": false,
           "news": true
         },
