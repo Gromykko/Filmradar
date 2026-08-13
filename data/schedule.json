@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-13T08:40:59.199Z",
-  "updatedAtLocal": "13 aug. 2026, 11:40",
+  "updatedAt": "2026-08-13T10:19:42.452Z",
+  "updatedAtLocal": "13 aug. 2026, 13:19",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8381,6 +8381,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "O bere produsă în Moldova a fost desemnată cea mai bună din lume la categoria „Best Stout & Porter”. Care e aceasta",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Vrei să începi o colecție de artă? La Chișinău se organizează prima ediție „Young Collector”",
           "filler": false,
           "news": true
@@ -8453,7 +8462,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Orașele din Republica Moldova vor putea concura pentru titlul de „Capitală Europeană a Culturii” 2033",
+          "title": "Moldovenii vor putea să vadă o eclipsă care va astupa peste 80 % din Soare. În ce an va avea loc fenomenul",
           "filler": false,
           "news": true
         },
@@ -8462,7 +8471,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Nova Lines devine partenerul The Moldova Project: 700 de copii aflați în situații de vulnerabilitate sunt pregătiți pentru noul an școlar",
+          "title": "Eurovision Song Contest 2027 va avea loc în orașul Burgas. Când se va desfășura Marea Finală",
           "filler": false,
           "news": true
         },
@@ -8471,7 +8480,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vor fi lansate zboruri directe din Chișinău spre Brașov. Cât vor costa biletele",
+          "title": "Eurovision a interzis țărilor aflate în război sau în „situații geopolitice sensibile” să găzduiască concursul",
           "filler": false,
           "news": true
         },
@@ -8480,7 +8489,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Șapte ținute roșii cusute manual. Cum o colecție vestimentară avangardistă poate transmite relația dintre mamă și fiică",
+          "title": "(foto) Cum s-a văzut eclipsa de Soare în Europa și Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -8489,7 +8498,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Maib rockstars: celebrăm oamenii din spatele performanței",
+          "title": "Tinerii dornici să-și dezvolte abilitățile de public speaking sunt invitați la SPEECH LAB 2026",
           "filler": false,
           "news": true
         },
@@ -8498,7 +8507,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Integrarea economică europeană, una dintre temele centrale ale Moldova Business Week 2026. Ce înseamnă acest lucru pentru companiile din Republica Moldova",
+          "title": "Republica Moldova oferă o reducere de 50 % pentru tranzitul mărfurilor ucrainene pe calea ferată",
           "filler": false,
           "news": true
         },
@@ -8507,7 +8516,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„3debine.md”: exemplul unui business local care a trecut cu succes în online cu Shopify și Paynet Business",
+          "title": "Informatica din clasa a V-a, disciplina „Arte” și mai multă istorie contemporană. Ce prevede noul Curriculum național",
           "filler": false,
           "news": true
         },
@@ -8516,16 +8525,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Nu-ți găsești cartea de identitate? Poți declara online pierderea sau furtul actelor, direct de pe telefon sau calculator",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Maib extinde emiterea online a garanțiilor bancare",
+          "title": "UTM oferă programe acreditate de formare continuă pentru specialiști și cadre didactice. Lista acestora",
           "filler": false,
           "news": true
         },
