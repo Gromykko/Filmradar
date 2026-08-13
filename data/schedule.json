@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-13T12:30:26.847Z",
-  "updatedAtLocal": "13 aug. 2026, 15:30",
+  "updatedAt": "2026-08-13T14:05:14.380Z",
+  "updatedAtLocal": "13 aug. 2026, 17:05",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8381,6 +8381,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "În ce va consta disciplina „Arte”, care integrează patru domenii și de către cine va fi predată",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "O bere produsă în Moldova a fost desemnată cea mai bună din lume la categoria „Best Stout & Porter”. Care e aceasta",
           "filler": false,
           "news": true
@@ -8453,7 +8462,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lucrarea unei fotografe din Ceadâr-Lunga a fost inclusă pe lista scurtă a premiului internațional Global Peace Photo Award 2026",
+          "title": "Viorel Jardan, despre dezvoltarea comunei Lozova și prioritățile administrației locale",
           "filler": false,
           "news": true
         },
@@ -8462,7 +8471,34 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Moldovenii vor putea să vadă o eclipsă care va astupa peste 80 % din Soare. În ce an va avea loc fenomenul",
+          "title": "Cum alegi și să comanzi flori online în Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Reforma „Restart în educație” ar putea fi amânată până în 2028 în Chișinău, Bălți și UTA Găgăuzia. Care sunt motivele",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cantinele a cinci școli din regiunea transnistreană, subordonate MEC, vor fi modernizate. Lista instituțiilor de învățământ",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Moldovenii vor putea să vadă o eclipsă care va „astupa” peste 80 % din Soare. În ce an va avea loc fenomenul",
           "filler": false,
           "news": true
         },
@@ -8481,51 +8517,6 @@
           "start": null,
           "end": null,
           "title": "Eurovision a interzis țărilor aflate în război sau în „situații geopolitice sensibile” să găzduiască concursul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "(foto) Cum s-a văzut eclipsa de Soare în Europa și Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Tinerii dornici să-și dezvolte abilitățile de public speaking sunt invitați la SPEECH LAB 2026",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova oferă o reducere de 50 % pentru tranzitul mărfurilor ucrainene pe calea ferată",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Informatica din clasa a V-a, disciplina „Arte” și mai multă istorie contemporană. Ce prevede noul Curriculum național",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "UTM oferă programe acreditate de formare continuă pentru specialiști și cadre didactice. Lista acestora",
           "filler": false,
           "news": true
         },
@@ -8593,6 +8584,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Filarmonica Națională revine pe agenda Ministerului Culturii. Dan Suruceanu: „Zi de zi suntem în proces de căutare a soluțiilor pentru această instituție”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Comisia care va desemna laureații Premiului Național 2026 a fost aprobată. Cine face parte din ea",
           "filler": false,
           "news": true
@@ -8621,15 +8621,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Patrimoniul cultural de pe ambele maluri ale Prutului, celebrat prin meșteșuguri și tradiții la Cahul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Tradițiile și meșteșugurile populare, celebrate la Festivalul „Floare Ciuciuleni”",
           "filler": false,
           "news": true
         },
@@ -8684,6 +8675,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Tradițiile și meșteșugurile populare, celebrate la Festivalul „Floare Ciuciuleni”",
           "filler": false,
           "news": true
         },
@@ -8764,7 +8764,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Festivalul Lupilor revine la Orheiul Vechi cu trei zile de concerte și activități culturale",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8773,7 +8773,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Festivalul Lupilor revine la Orheiul Vechi cu trei zile de concerte și activități culturale",
           "filler": false,
           "news": true
         },
@@ -8945,15 +8945,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Internațional de Film Transilvania – TIFF Chișinău a reunit peste 3.200 de spectatori la cea de-a șasea ediție",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Parlamentul a denunțat acordul cu CSI privind colaborarea în domeniul cărții și poligrafiei",
           "filler": false,
           "news": true
         },
