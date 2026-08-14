@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-14T21:00:34.126Z",
-  "updatedAtLocal": "15 aug. 2026, 00:00",
+  "updatedAt": "2026-08-14T21:37:18.167Z",
+  "updatedAtLocal": "15 aug. 2026, 00:36",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -18,9 +18,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "00:00",
-          "end": "06:00",
-          "title": "Revizie tehnică",
+          "start": "01:05",
+          "end": "01:57",
+          "title": "OVS 21. ep.5",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -28,9 +28,39 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "00:00",
+          "start": "01:57",
+          "end": "03:30",
+          "title": "Festivalul de muzică clasică „DescOpera”.",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "03:30",
+          "end": "05:15",
+          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "05:15",
+          "end": "05:58",
+          "title": "Mesager. Program informativ+știri sportive",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "05:58",
           "end": "06:00",
-          "title": "Revizie tehnică",
+          "title": "Deschiderea stației",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -39,107 +69,7 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "06:00",
-          "end": "06:02",
-          "title": "Live studio. Прямая трансляция",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "06:02",
-          "end": "07:17",
-          "title": "Nelly Cozaru . „Nu caut glorie, strălucire ...\". Documentar. Telefilm Chișinău.",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "07:17",
-          "end": "07:20",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "07:20",
-          "end": "08:35",
-          "title": "„Drag mi-e portul strămoșesc”. Concert",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "08:35",
-          "end": "08:40",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "08:40",
-          "end": "09:10",
-          "title": "Magazinul copiilor",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "09:10",
-          "end": "09:15",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "09:15",
-          "end": "10:00",
-          "title": "Zi de bine -magazin utilitar!",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "10:00",
-          "end": "10:25",
-          "title": "Focus Europa. Coproducție TRM-DW",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "10:25",
-          "end": "10:30",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "10:30",
-          "end": "11:55",
+          "end": "07:25",
           "title": "Live studio. Program de divertisment",
           "filler": false,
           "dayAssumed": true,
@@ -148,8 +78,8 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "11:55",
-          "end": "12:00",
+          "start": "07:25",
+          "end": "07:30",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
@@ -158,9 +88,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "12:00",
-          "end": "12:55",
-          "title": "Raioane",
+          "start": "07:30",
+          "end": "07:40",
+          "title": "Să luăm aminte...",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -168,10 +98,110 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "12:55",
-          "end": "13:00",
+          "start": "07:40",
+          "end": "08:25",
+          "title": "Cuvintele Credinței.",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "08:25",
+          "end": "08:30",
           "title": "PUBLICITATE",
           "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "08:30",
+          "end": "09:00",
+          "title": "Reporter pentru sănătate",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "09:00",
+          "end": "09:25",
+          "title": "Magazinul copiilor",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "09:25",
+          "end": "09:30",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "09:30",
+          "end": "10:00",
+          "title": "Zuper Show",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "10:00",
+          "end": "10:05",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "10:05",
+          "end": "10:17",
+          "title": "Reporter DW.Germania",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "10:17",
+          "end": "11:15",
+          "title": "Ultimi giganți din Sumatra. Documentar. Franța 2016",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "11:15",
+          "end": "12:15",
+          "title": "„Omul, teatrul…. Vitalie Rusu”. Documentar. Telefilm Chișinău",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "12:15",
+          "end": "13:00",
+          "title": "Zi de bine -magazin utilitar!",
+          "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
         },
@@ -179,8 +209,18 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "13:00",
-          "end": "13:25",
-          "title": "Publicitate",
+          "end": "13:05",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "13:05",
+          "end": "13:50",
+          "title": "Zi de bine -magazin utilitar!",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -188,9 +228,19 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "13:25",
-          "end": "13:35",
-          "title": "Știri sportive",
+          "start": "13:50",
+          "end": "13:55",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "13:55",
+          "end": "14:35",
+          "title": "Zi de bine -magazin utilitar!",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -198,9 +248,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "13:35",
-          "end": "14:15",
-          "title": "Pământ și oameni",
+          "start": "14:35",
+          "end": "15:15",
+          "title": "La noi în sat",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -208,10 +258,50 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "14:15",
+          "start": "15:15",
+          "end": "15:20",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "15:20",
+          "end": "15:55",
+          "title": "ЩоTижневик. Săptămânal (ucr.)",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "15:55",
+          "end": "16:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "16:00",
+          "end": "16:25",
+          "title": "# Cultura",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "16:25",
           "end": "16:30",
-          "title": "Spitalul Santa Rosa.Serial romance. Columbia, 2022 Ep. 142,143,141",
-          "filler": false,
+          "title": "PUBLICITATE",
+          "filler": true,
           "dayAssumed": true,
           "date": "2026-08-15"
         },
@@ -219,19 +309,9 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "16:30",
-          "end": "16:55",
-          "title": "Moldova de patrimoniu",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "16:55",
           "end": "17:00",
-          "title": "PUBLICITATE",
-          "filler": true,
+          "title": "În ritm de dans",
+          "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
         },
@@ -240,7 +320,7 @@
           "dayName": "sâmbătă",
           "start": "17:00",
           "end": "17:25",
-          "title": "Focus Europa",
+          "title": "Focus Europa. Coproducție TRM-DW",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -259,28 +339,8 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "17:30",
-          "end": "17:55",
-          "title": "Nova Ars",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "17:55",
-          "end": "18:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "18:00",
           "end": "18:30",
-          "title": "Всегда на высоте",
+          "title": "Stil nou",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -289,8 +349,8 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "18:30",
-          "end": "18:55",
-          "title": "Banii. Magazin economic",
+          "end": "19:25",
+          "title": "Prin muzică în Europa",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -298,8 +358,18 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "18:55",
-          "end": "19:00",
+          "start": "19:25",
+          "end": "20:15",
+          "title": "O seară în familie",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "20:15",
+          "end": "20:20",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
@@ -308,29 +378,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "19:00",
-          "end": "19:10",
-          "title": "„Eseu”. Documentar ,Republica Moldova, 2015",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "19:10",
-          "end": "19:15",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "19:15",
+          "start": "20:20",
           "end": "20:55",
-          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
+          "title": "С другой стороны",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -379,51 +429,11 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "21:50",
-          "end": "23:02",
-          "title": "Agenția Copoii, ep.10 comedie. Spania ,2018",
+          "end": "00:21",
+          "title": "Gioachino Rossini „Berbierul din Sevilla”. Operă în trei acte",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "23:02",
-          "end": "23:05",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "23:05",
-          "end": "23:35",
-          "title": "Știri externe (Glavnoe) (ru)",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "23:35",
-          "end": "01:05",
-          "title": "Închisoarea durilor. Drama. SUA, 2000",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "05:15",
-          "end": "05:36",
-          "title": "Mesager",
-          "filler": false,
-          "source": "tvmail"
         },
         {
           "day": 6,
@@ -432,256 +442,6 @@
           "start": "05:36",
           "end": "05:58",
           "title": "Știri sportive",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "05:58",
-          "end": "06:00",
-          "title": "Deschiderea staţiei",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "07:25",
-          "end": "07:30",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "07:30",
-          "end": "07:40",
-          "title": "Să luăm aminte...",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "07:40",
-          "end": "08:25",
-          "title": "Cuvintele Credinței.",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "08:25",
-          "end": "08:30",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "08:30",
-          "end": "09:00",
-          "title": "Reporter pentru sănătate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "09:00",
-          "end": "09:25",
-          "title": "Magazinul copiilor",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "09:25",
-          "end": "09:30",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "09:30",
-          "end": "10:00",
-          "title": "Zuper.show",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "10:05",
-          "end": "10:17",
-          "title": "Reporter. DW",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "10:17",
-          "end": "11:15",
-          "title": "Ultimi giganți din Sumatra",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "11:15",
-          "end": "12:15",
-          "title": "Omul, teatrul… Vitalie Rusu",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "12:15",
-          "end": "13:00",
-          "title": "Zi de bine",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "13:05",
-          "end": "13:50",
-          "title": "Zi de bine",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "13:50",
-          "end": "13:55",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "13:55",
-          "end": "14:35",
-          "title": "Zi de bine",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "14:35",
-          "end": "15:15",
-          "title": "La noi în sat",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "15:15",
-          "end": "15:20",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "15:20",
-          "end": "15:55",
-          "title": "Săptămânal",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "15:55",
-          "end": "16:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "16:00",
-          "end": "16:25",
-          "title": "# Cultura",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "16:25",
-          "end": "16:30",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "19:25",
-          "end": "20:15",
-          "title": "O seară în familie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "20:15",
-          "end": "20:20",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "20:20",
-          "end": "20:55",
-          "title": "С другой стороны",
           "filler": false,
           "source": "tvmail"
         },
@@ -3022,9 +2782,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "00:35",
-          "end": "01:10",
-          "title": "Profil. Iurie Canașin",
+          "start": "01:20",
+          "end": "01:35",
+          "title": "Lecturi A la Carte",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3032,9 +2792,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "01:10",
-          "end": "01:40",
-          "title": "Nova Ars",
+          "start": "01:35",
+          "end": "03:20",
+          "title": "DescOpera. G.Puccini. La Boheme",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3042,9 +2802,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "01:40",
-          "end": "02:40",
-          "title": "Alb sau Negru. Nicolae Esiniencu",
+          "start": "03:20",
+          "end": "03:50",
+          "title": "Identitate Basarabia. Vadim Tichisan",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3052,9 +2812,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "02:40",
-          "end": "03:40",
-          "title": "Concert. Bach & Shoubert și Orchestra Națională",
+          "start": "03:50",
+          "end": "04:40",
+          "title": "Spectacol \"Jubileu \"",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3062,9 +2822,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "03:40",
-          "end": "04:10",
-          "title": "Portrete în timp. Iulian Codău",
+          "start": "04:40",
+          "end": "05:15",
+          "title": "Alexandru Bernardazzi.Contribuții la estetica orașului Chișinău P.1+P.2",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3072,19 +2832,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "04:10",
-          "end": "04:35",
-          "title": "Caseta cu muzică",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "04:35",
+          "start": "05:15",
           "end": "06:00",
-          "title": "Spectacol \"Zăpezile de altădată\"",
+          "title": "Spectacol \"Filumena Marturano sau divorț în stil italian\" P.1",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3103,8 +2853,8 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "06:00",
-          "end": "07:00",
-          "title": "Evantai folcloric. Traian Jurchela P.2",
+          "end": "06:50",
+          "title": "Evantai Folcloric. Larisa Arsenii",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3112,9 +2862,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "07:00",
-          "end": "07:30",
-          "title": "Tezaur. 90 de ani CNCPPCI P.3",
+          "start": "06:50",
+          "end": "07:20",
+          "title": "Tezaur",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3122,8 +2872,8 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "07:30",
-          "end": "08:00",
+          "start": "07:20",
+          "end": "07:50",
           "title": "Moldova de patrimoniu",
           "filler": false,
           "dayAssumed": true,
@@ -3132,9 +2882,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "08:00",
-          "end": "08:05",
-          "title": "Publictate",
+          "start": "07:50",
+          "end": "08:20",
+          "title": "Artelier (Sculptura contemporană)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3142,9 +2892,19 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "08:05",
-          "end": "08:35",
-          "title": "Artelier. Mihai Damian",
+          "start": "08:20",
+          "end": "08:25",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "08:25",
+          "end": "08:55",
+          "title": "Dor (Filmul &#34;Vreau să cânt&#34;)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3152,49 +2912,19 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "08:35",
-          "end": "08:40",
-          "title": "Publictate",
-          "filler": false,
+          "start": "08:55",
+          "end": "09:00",
+          "title": "Publicitate",
+          "filler": true,
           "dayAssumed": true,
           "date": "2026-08-15"
         },
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "08:40",
-          "end": "09:10",
-          "title": "Dor. A. Mateevici",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "09:10",
-          "end": "09:15",
-          "title": "Publictate",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "09:15",
-          "end": "09:35",
-          "title": "Un Rol cu Boris Cremene",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "09:35",
+          "start": "09:00",
           "end": "09:50",
-          "title": "Cinemateca universală. Vivien Leigh",
+          "title": "F.D (Ion Găină. Omul de vineri)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3204,7 +2934,7 @@
           "dayName": "sâmbătă",
           "start": "09:50",
           "end": "09:55",
-          "title": "Aceasta clipa stop cadru (Andrei Mardare)",
+          "title": "Această clipă. Stop cadru. Andrei Mardare",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3215,7 +2945,7 @@
           "start": "09:55",
           "end": "10:00",
           "title": "Publicitate",
-          "filler": false,
+          "filler": true,
           "dayAssumed": true,
           "date": "2026-08-15"
         },
@@ -3223,38 +2953,8 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "10:00",
-          "end": "10:35",
-          "title": "Alexandru Bernardazzi. Contribuții la estetica orașului Chișinău P.1+P.2",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "10:35",
-          "end": "10:40",
-          "title": "Publictate",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "10:40",
-          "end": "10:55",
-          "title": "Lecturi A la Carte",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "10:55",
           "end": "11:00",
-          "title": "Respiro",
+          "title": "Orologiu sentimental. Raisa Lungu - Ploaie",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3263,28 +2963,18 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "11:00",
-          "end": "11:50",
-          "title": "Spectacol \"Jubileu \"",
-          "filler": false,
+          "end": "11:05",
+          "title": "Publicitate",
+          "filler": true,
           "dayAssumed": true,
           "date": "2026-08-15"
         },
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "11:50",
-          "end": "11:55",
-          "title": "Filler. Despre teatru. Larisa Turea",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "11:55",
+          "start": "11:05",
           "end": "12:00",
-          "title": "Publictate",
+          "title": "De-ale teatrului (Mihai Curagău)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3293,8 +2983,18 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "12:00",
-          "end": "12:30",
-          "title": "Cu noi la teatru. Ninela Caranfil",
+          "end": "12:05",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "12:05",
+          "end": "13:50",
+          "title": "Prietenii muzicii. Mihai Munteanu",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3302,9 +3002,19 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "12:30",
-          "end": "13:00",
-          "title": "Identitate Basarabia. Vadim Tichisan",
+          "start": "13:50",
+          "end": "13:55",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "13:55",
+          "end": "15:05",
+          "title": "Focul din vatră (Veniamin Apostol)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3312,9 +3022,19 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "13:00",
-          "end": "14:45",
-          "title": "DescOpera. G.Puccini. La Boheme",
+          "start": "15:05",
+          "end": "15:10",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "15:10",
+          "end": "15:36",
+          "title": "DW Arts",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3322,39 +3042,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "14:45",
-          "end": "14:50",
-          "title": "Publictate",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "14:50",
-          "end": "15:20",
-          "title": "Artelier. Sculptura contemporană",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "15:20",
-          "end": "15:25",
-          "title": "Publictate",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "15:25",
+          "start": "15:36",
           "end": "15:40",
-          "title": "Lecturi A la Carte",
+          "title": "Publictate",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3363,8 +3053,8 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "15:40",
-          "end": "15:45",
-          "title": "5 minute la muzeu. Dumitru Verdianu",
+          "end": "16:05",
+          "title": "DW Euromaxx",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3372,8 +3062,8 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "15:45",
-          "end": "15:50",
+          "start": "16:05",
+          "end": "16:10",
           "title": "Publictate",
           "filler": false,
           "dayAssumed": true,
@@ -3382,9 +3072,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "15:50",
+          "start": "16:10",
           "end": "16:40",
-          "title": "F.D. Ion Găină. Omul de vineri",
+          "title": "# Cultura",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3393,7 +3083,27 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "16:40",
-          "end": "16:45",
+          "end": "16:50",
+          "title": "F.D (Mama)",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "16:50",
+          "end": "16:55",
+          "title": "Aceatsă clipă. Stop cadru. Andrei Mardare",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "16:55",
+          "end": "17:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
@@ -3402,9 +3112,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "16:45",
-          "end": "17:40",
-          "title": "Evantai Folcloric. Larisa Arseni P.1",
+          "start": "17:00",
+          "end": "17:54",
+          "title": "Evantai folcloric (Serghei Lunchevici)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3412,8 +3122,8 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "17:40",
-          "end": "17:45",
+          "start": "17:54",
+          "end": "18:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
@@ -3422,9 +3132,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "17:45",
-          "end": "19:25",
-          "title": "Evantai Folcloric. Larisa Arseni P.2",
+          "start": "18:00",
+          "end": "18:15",
+          "title": "Tezaur (Parascovia Secrieru)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3432,8 +3142,18 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "19:25",
-          "end": "19:30",
+          "start": "18:15",
+          "end": "18:45",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "18:45",
+          "end": "18:50",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
@@ -3442,9 +3162,9 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "19:30",
-          "end": "20:55",
-          "title": "ANTInostalgia.",
+          "start": "18:50",
+          "end": "19:40",
+          "title": "Leonid Moșanu. Fluieraș de soc, mult zice cu foc",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3452,10 +3172,40 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "20:55",
+          "start": "19:40",
+          "end": "19:55",
+          "title": "Proiect (Vasile Corețchi)",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "19:55",
+          "end": "20:00",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "20:00",
+          "end": "20:30",
+          "title": "Artelier (Iraida Ciobanu)",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-08-15"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "start": "20:30",
           "end": "21:00",
-          "title": "Publicitate",
-          "filler": true,
+          "title": "Dor (Mihai Munteanu)",
+          "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
         },
@@ -3463,7 +3213,7 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "21:00",
-          "end": "21:50",
+          "end": "21:54",
           "title": "F.D (Războiul lumilor, un roman profetic)",
           "filler": false,
           "dayAssumed": true,
@@ -3472,17 +3222,7 @@
         {
           "day": 6,
           "dayName": "sâmbătă",
-          "start": "21:50",
-          "end": "21:55",
-          "title": "5 minute la muzeu. Dumitru Verdianu",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "21:55",
+          "start": "21:54",
           "end": "22:00",
           "title": "Publicitate",
           "filler": true,
@@ -3493,18 +3233,8 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "22:00",
-          "end": "22:45",
-          "title": "Spectacol \"Filumena Marturano sau divorț în stil italian\" P.1",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "start": "22:45",
           "end": "22:55",
-          "title": "Text și muzică. Nicu Țărnă",
+          "title": "Spectacol \"Filumena Marturano sau divorț în stil italian\" P.2",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
@@ -3523,311 +3253,11 @@
           "day": 6,
           "dayName": "sâmbătă",
           "start": "23:00",
-          "end": "01:20",
-          "title": "Expresul de noapte + F.A. Deșertul roșu",
+          "end": "00:15",
+          "title": "Sarajevo: Concertul pentru pace",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-08-15"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "05:15",
-          "end": "05:58",
-          "title": "Spectacol (Filumena Marturano sau divorț în stil italian)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "06:50",
-          "end": "07:20",
-          "title": "Tezaur",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "07:20",
-          "end": "07:50",
-          "title": "Moldova de patrimoniu",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "07:50",
-          "end": "08:20",
-          "title": "Artelier (Sculptura contemporană)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "08:20",
-          "end": "08:25",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "08:25",
-          "end": "08:55",
-          "title": "Dor (Filmul &#34;Vreau să cânt&#34;)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "08:55",
-          "end": "09:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "09:00",
-          "end": "09:50",
-          "title": "F.D (Ion Găină. Omul de vineri)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "11:05",
-          "end": "12:00",
-          "title": "De-ale teatrului (Mihai Curagău)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "12:05",
-          "end": "13:50",
-          "title": "Prietenii Muzicii",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "13:50",
-          "end": "13:55",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "13:55",
-          "end": "15:05",
-          "title": "Focul din vatră (Veniamin Apostol)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "15:05",
-          "end": "15:10",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "15:10",
-          "end": "15:36",
-          "title": "Arts 21",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "15:36",
-          "end": "15:40",
-          "title": "Publictate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "16:05",
-          "end": "16:10",
-          "title": "Publictate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "16:10",
-          "end": "16:40",
-          "title": "# Cultura",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "16:50",
-          "end": "16:55",
-          "title": "Aceasta clipa stop cadru (Andrei Mardare)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "16:55",
-          "end": "17:00",
-          "title": "Publictate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "17:00",
-          "end": "17:54",
-          "title": "Evantai folcloric (Serghei Lunchevici)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "17:54",
-          "end": "18:00",
-          "title": "Publictate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "18:00",
-          "end": "18:15",
-          "title": "Tezaur (Parascovia Secrieru)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "18:15",
-          "end": "18:45",
-          "title": "Moldova de patrimoniu",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "18:45",
-          "end": "18:50",
-          "title": "Publictate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "18:50",
-          "end": "19:40",
-          "title": "Leonid Moșanu. Fluieraș de soc, mult zice cu foc",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "19:40",
-          "end": "19:55",
-          "title": "Proiect (Vasile Corețchi)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "19:55",
-          "end": "20:00",
-          "title": "Publictate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "20:00",
-          "end": "20:30",
-          "title": "Artelier (Iraida Ciobanu)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "20:30",
-          "end": "21:00",
-          "title": "Dor (Mihai Munteanu)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-15",
-          "start": "21:54",
-          "end": "22:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
         },
         {
           "day": 7,
