@@ -5738,7 +5738,7 @@
         "dayName": "vineri",
         "date": "2026-08-14",
         "start": "23:00",
-        "end": "00:10",
+        "end": "00:05",
         "title": "Expresul de noapte",
         "filler": false,
         "source": "tvmail"
@@ -5747,9 +5747,19 @@
         "day": 6,
         "dayName": "sâmbătă",
         "date": "2026-08-15",
-        "start": "00:10",
+        "start": "00:05",
+        "end": "01:10",
+        "title": "F.A. (Noaptea morților vii)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-08-15",
+        "start": "01:10",
         "end": "01:20",
-        "title": "F.A. (Deșertul roșu)",
+        "title": "Spectroscop (Iraclii Meladze)",
         "filler": false,
         "source": "tvmail"
       },
