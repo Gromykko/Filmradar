@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-15T07:40:03.713Z",
-  "updatedAtLocal": "15 aug. 2026, 10:39",
+  "updatedAt": "2026-08-15T08:42:48.187Z",
+  "updatedAtLocal": "15 aug. 2026, 11:42",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7361,6 +7361,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Ești scenarist(ă)? Înscrie-ți proiectul la un concurs internațional și fă-l cunoscut producătorilor din peste 150 de țări",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Festivalul Vinului de Autor 2026. Timp de trei zile, 40 de vinificatori își vor prezenta vinurile care le poartă semnătura",
           "filler": false,
           "news": true
@@ -7433,7 +7442,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Muzeele și inițiativele culturale rurale din Moldova, invitate să se alăture Nopții Muzeelor la Sate 2026. Până când se fac înscrierile",
+          "title": "Au fost publicate rezultatele finale ale admiterii la universitățile din Moldova, în sesiunea de bază",
           "filler": false,
           "news": true
         },
@@ -7442,7 +7451,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tekwill Academy Kids lansează Școala de Performanță și Excelență TAK pentru elevii care aspiră la performanță în STEM",
+          "title": "Universitatea de Stat „Bogdan Petriceicu Hasdeu” din Cahul a publicat rezultatele finale ale admiterii pentru turul I",
           "filler": false,
           "news": true
         },
@@ -7451,7 +7460,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Sesiune suplimentară de admitere la USMF „Nicolae Testemițanu”. Au rămas 35 de locuri libere",
+          "title": "Turul II de admitere la UPSC. Care este oferta educațională a locurilor vacante",
           "filler": false,
           "news": true
         },
@@ -7460,7 +7469,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Gazul s-ar putea scumpi cu aproape 6 lei pentru un metru cub. ANRE urmează să decidă asupra noului tarif",
+          "title": "AMTAP a publicat rezultatele finale ale admiterii. Vezi listele candidaților înmatriculați",
           "filler": false,
           "news": true
         },
@@ -7469,7 +7478,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Rezultatele finale ale admiterii la Academia „Ștefan cel Mare” au fost publicate. Vezi listele",
+          "title": "Peste 18.000 de tineri au fost admiși la universitățile din Moldova în sesiunea de bază. Care au fost cele mai solicitate domenii",
           "filler": false,
           "news": true
         },
@@ -7478,34 +7487,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Admitere 2026: Universitatea Pedagogică de Stat „Ion Creangă” a publicat listele finale ale studenților înscriși în sesiunea de bază",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Când e timpul să renunți la cărucior? Pediatra Natalia Tripaduș, despre folosirea căruciorului după doi ani",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Universitatea Tehnică a Moldovei a publicat listele finale ale admiterii pentru sesiunea de bază",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Academia de Studii Economice din Moldova a publicat rezultatele finale ale admiterii pentru sesiunea de bază",
+          "title": "Universitatea de Stat „Alecu Russo” din Bălți a publicat listele finale ale candidaților admiși la studiile de licență",
           "filler": false,
           "news": true
         },
