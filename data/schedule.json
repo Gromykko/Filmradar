@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-16T17:31:31.027Z",
-  "updatedAtLocal": "16 aug. 2026, 20:31",
+  "updatedAt": "2026-08-16T17:52:53.895Z",
+  "updatedAtLocal": "16 aug. 2026, 20:52",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4516,6 +4516,1066 @@
           "start": "04:50",
           "end": "05:58",
           "title": "Alter Ego",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "05:58",
+          "end": "06:00",
+          "title": "Deschiderea Statiei",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "06:00",
+          "end": "06:45",
+          "title": "Virtuozi ai instrumentelor. Orchestra &#34;Mugurel&#34;",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "06:45",
+          "end": "07:00",
+          "title": "Tezaur (Ion Lozan)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "07:00",
+          "end": "07:30",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "07:30",
+          "end": "08:00",
+          "title": "Artelier (Dimitrie Sevastianov și Alexandru Plămădeală)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "08:00",
+          "end": "08:15",
+          "title": "Text si muzica (Pavel Olari)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "08:15",
+          "end": "08:20",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "08:20",
+          "end": "08:50",
+          "title": "Dor (Ana Puică)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "08:50",
+          "end": "08:55",
+          "title": "Necuvintele (Tania Cerga)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "08:55",
+          "end": "09:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "09:00",
+          "end": "09:35",
+          "title": "Proiect (Anna Godzina)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "09:35",
+          "end": "10:50",
+          "title": "F.D (Aria)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "10:50",
+          "end": "10:55",
+          "title": "5 Minute la Muzeu (Olga Orlova)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "10:55",
+          "end": "11:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "11:00",
+          "end": "11:45",
+          "title": "Spectacol (Horia P2)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "11:45",
+          "end": "11:50",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "11:50",
+          "end": "11:55",
+          "title": "Filler despre teatru (Diana Decuseara)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "11:55",
+          "end": "12:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "12:00",
+          "end": "12:30",
+          "title": "Identitate Basarabia (Petru Hadârcă)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "12:30",
+          "end": "12:35",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "12:35",
+          "end": "13:55",
+          "title": "Concert",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "13:55",
+          "end": "14:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "14:00",
+          "end": "14:40",
+          "title": "Focul din vatră (Ion Paulenco)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "14:40",
+          "end": "14:55",
+          "title": "Lecturi a la carte (C.Coadă)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "14:55",
+          "end": "15:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "15:00",
+          "end": "15:25",
+          "title": "Contur (Silvia Luca)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "15:25",
+          "end": "15:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "15:30",
+          "end": "16:00",
+          "title": "Artelier (Nina Șibaev)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "16:00",
+          "end": "16:05",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "16:05",
+          "end": "17:05",
+          "title": "&#34;Slovenia mea&#34; cu Ala Adamia",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "17:05",
+          "end": "17:10",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "17:10",
+          "end": "17:55",
+          "title": "Evantai folcloric (Simion Duja)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "17:55",
+          "end": "18:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "18:00",
+          "end": "18:15",
+          "title": "Tezaur (Oina, împreună mai puternici)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "18:15",
+          "end": "18:20",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "18:20",
+          "end": "18:50",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "18:50",
+          "end": "18:55",
+          "title": "Necuvintele (Tania Cerga)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "18:55",
+          "end": "19:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "19:00",
+          "end": "19:30",
+          "title": "Viata in arta (M.Eminescu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "19:30",
+          "end": "20:00",
+          "title": "Proiect. Ghenadie Popescu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "20:00",
+          "end": "20:25",
+          "title": "SoArta (Ecaterina Ajder)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "20:25",
+          "end": "20:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "20:30",
+          "end": "21:00",
+          "title": "Dor (Ion Crasnopolschi)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "21:00",
+          "end": "21:54",
+          "title": "Magicienii sticlari din Veneția",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "21:54",
+          "end": "22:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "Și iar Chirița (Partea 1)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-08-19",
+          "start": "23:00",
+          "end": "00:05",
+          "title": "Salon romantic la Veneția",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "00:05",
+          "end": "00:30",
+          "title": "Contur (Silvia Luca)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "00:30",
+          "end": "01:50",
+          "title": "Concert",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "01:50",
+          "end": "02:30",
+          "title": "Focul din vatră (Ion Paulenco)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "02:30",
+          "end": "03:00",
+          "title": "Viata in arta (M.Eminescu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "03:00",
+          "end": "03:25",
+          "title": "SoArta (Ecaterina Ajder)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "03:25",
+          "end": "04:10",
+          "title": "Spectacol (Horia P2)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "04:10",
+          "end": "04:30",
+          "title": "Lecturi a la carte (C.Coadă)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "04:30",
+          "end": "05:00",
+          "title": "Proiect. Ghenadie Popescu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "05:00",
+          "end": "05:58",
+          "title": "Și iar Chirița (Partea 1)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "05:58",
+          "end": "06:00",
+          "title": "Deschiderea Statiei",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "06:00",
+          "end": "06:45",
+          "title": "Evantai folcloric (Simion Duja)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "06:45",
+          "end": "07:00",
+          "title": "Tezaur (Oina, împreună mai puternici)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "07:00",
+          "end": "07:30",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "07:30",
+          "end": "08:00",
+          "title": "Artelier (Nina Șibaev)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "08:00",
+          "end": "08:30",
+          "title": "Dor (Ion Crasnopolschi)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "08:30",
+          "end": "08:35",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "08:35",
+          "end": "09:05",
+          "title": "Proiect. Ghenadie Popescu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "09:05",
+          "end": "09:10",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "09:10",
+          "end": "09:35",
+          "title": "SoArta (Ecaterina Ajder)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "09:35",
+          "end": "09:40",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "09:40",
+          "end": "10:40",
+          "title": "&#34;Slovenia mea&#34; cu Ala Adamia",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "10:40",
+          "end": "10:55",
+          "title": "Cinemateca universală (Sophia Loren)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "10:55",
+          "end": "11:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "11:00",
+          "end": "11:55",
+          "title": "Spectacol (Horia P3)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "11:55",
+          "end": "12:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "12:00",
+          "end": "12:30",
+          "title": "Cu noi la teatru (S.Finiti)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "12:30",
+          "end": "13:55",
+          "title": "Recital de pian cu Dana Ciocârlie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "13:55",
+          "end": "14:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "14:00",
+          "end": "14:45",
+          "title": "Focul din vatră (Victor Dumbraveanu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "14:45",
+          "end": "14:50",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "14:50",
+          "end": "15:00",
+          "title": "Text si muzica (Maria Mocanu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "15:00",
+          "end": "15:45",
+          "title": "Artelier (Drumeție la Cuhnești)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "15:45",
+          "end": "15:50",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "15:50",
+          "end": "16:20",
+          "title": "Dor (I. Burdin)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "16:20",
+          "end": "16:25",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "16:25",
+          "end": "16:35",
+          "title": "F.D (Cântec și dans)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "16:35",
+          "end": "16:50",
+          "title": "Cinemateca universală (Paul Newman)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "16:50",
+          "end": "16:55",
+          "title": "Acastă clipă. Tandrețe metalică",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "16:55",
+          "end": "17:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "17:00",
+          "end": "17:30",
+          "title": "Orchestra",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "17:30",
+          "end": "17:45",
+          "title": "Respiro Popular",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "17:45",
+          "end": "17:50",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "17:50",
+          "end": "18:20",
+          "title": "Tezaur (Ziua portului popular)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "18:20",
+          "end": "18:25",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "18:25",
+          "end": "18:55",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "18:55",
+          "end": "19:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "19:00",
+          "end": "20:57",
+          "title": "Un om care scrie (Dialog cu Mircea Cărtărescu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "20:57",
+          "end": "21:00",
+          "title": "Publictate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "21:00",
+          "end": "21:54",
+          "title": "Yul Brynner, magnificul",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "21:54",
+          "end": "22:00",
+          "title": "Publictate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "22:00",
+          "end": "22:56",
+          "title": "Și iar Chirița (Partea 2)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "22:56",
+          "end": "23:00",
+          "title": "Publictate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "date": "2026-08-20",
+          "start": "23:00",
+          "end": "00:05",
+          "title": "Expresul de noapte",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "00:05",
+          "end": "01:10",
+          "title": "F.A. (Noaptea morților vii)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "01:10",
+          "end": "02:35",
+          "title": "Recital de pian cu Dana Ciocârlie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "02:35",
+          "end": "03:20",
+          "title": "Focul din vatră (Victor Dumbraveanu)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "03:20",
+          "end": "04:20",
+          "title": "Spectacol (Horia P3)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "04:20",
+          "end": "04:50",
+          "title": "Cu noi la teatru (S.Finiti)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "04:50",
+          "end": "05:00",
+          "title": "Text si muzica (Maria Mocanu)",
           "filler": false,
           "source": "tvmail"
         }
