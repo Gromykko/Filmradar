@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-17T08:22:08.394Z",
-  "updatedAtLocal": "17 aug. 2026, 11:21",
+  "updatedAt": "2026-08-17T09:22:10.688Z",
+  "updatedAtLocal": "17 aug. 2026, 12:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7067,6 +7067,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Evacuator EVAX Chişinău: Cum alegi serviciul potrivit?",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | Role cu sau fără frână pentru copii - când contează cu adevărat",
           "filler": false,
           "news": true
@@ -7086,15 +7095,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL | Zbor.md – partenerul tău de încredere în lumea biletelor de avion ieftine",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Profesia de SEO Specialist a devenit oficială în Republica Moldova: cod CORM 251316",
           "filler": false,
           "news": true
         },
@@ -7182,6 +7182,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Evacuator EVAX Chişinău: Cum alegi serviciul potrivit?",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | Role cu sau fără frână pentru copii - când contează cu adevărat",
           "filler": false,
           "news": true
@@ -7228,15 +7237,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL // Cu suportul financiar al Uniunii Europene în Republica Moldova au fost deschise 16 spălătorii sociale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL // Servicii de Curăţenie la un Click Distanţă în Chişinău",
           "filler": false,
           "news": true
         },
