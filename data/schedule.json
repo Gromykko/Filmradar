@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T10:43:02.973Z",
-  "updatedAtLocal": "18 aug. 2026, 13:42",
+  "updatedAt": "2026-08-18T11:36:18.610Z",
+  "updatedAtLocal": "18 aug. 2026, 14:36",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9704,6 +9704,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Premiul Național 2026: cine poate candida și până când pot fi depuse dosarele",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // Ministerul Culturii îi invită pe copii să deseneze valorile care definesc Moldova",
           "filler": false,
           "news": true
@@ -9732,15 +9741,6 @@
           "start": null,
           "end": null,
           "title": "Filarmonica Națională revine pe agenda Ministerului Culturii. Dan Suruceanu: „Zi de zi suntem în proces de căutare a soluțiilor pentru această instituție”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Comisia care va desemna laureații Premiului Național 2026 a fost aprobată. Cine face parte din ea",
           "filler": false,
           "news": true
         },
@@ -9795,6 +9795,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Comisia care va desemna laureații Premiului Național 2026 a fost aprobată. Cine face parte din ea",
           "filler": false,
           "news": true
         },
@@ -9875,7 +9884,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Orașele din Republica Moldova se pot înscrie în cursa pentru titlul de „Capitală Europeană a Culturii 2033”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9884,7 +9893,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Orașele din Republica Moldova se pot înscrie în cursa pentru titlul de „Capitală Europeană a Culturii 2033”",
           "filler": false,
           "news": true
         },
@@ -10056,15 +10065,6 @@
           "start": null,
           "end": null,
           "title": "R. Moldova se alătură proiectului TRADUKI pentru promovarea literaturii naționale în spațiul european",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Un oraș din Republica Moldova va reprezenta țara în competiția pentru Capitala Europeană a Culturii 2033",
           "filler": false,
           "news": true
         },
