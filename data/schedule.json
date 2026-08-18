@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T09:45:40.302Z",
-  "updatedAtLocal": "18 aug. 2026, 12:45",
+  "updatedAt": "2026-08-18T10:43:02.973Z",
+  "updatedAtLocal": "18 aug. 2026, 13:42",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9501,6 +9501,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "(foto) Pe strada Ion Creangă a apărut o pictură murală de 120 de metri pătrați. Vezi cum arată aceasta",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ești scenarist(ă)? Înscrie-ți proiectul la un concurs internațional și fă-l cunoscut producătorilor din peste 150 de țări",
           "filler": false,
           "news": true
@@ -9573,7 +9582,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Creezi animații? Înscrie-te la Festivalul Animest Chișinău 2026",
+          "title": "Profesorii ies la protest. Reacția Guvernului: „În cel mai scurt timp, Executivul va prezenta soluții”",
           "filler": false,
           "news": true
         },
@@ -9582,7 +9591,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Au fost publicate rezultatele finale ale admiterii la universitățile din Moldova, în sesiunea de bază",
+          "title": "Maia Sandu explică de ce majorările salariale ale profesorilor întârzie: „Statul nu avea de unde să știe că va fi războiul din Iran”",
           "filler": false,
           "news": true
         },
@@ -9591,7 +9600,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Universitatea de Stat „Bogdan Petriceicu Hasdeu” din Cahul a publicat rezultatele finale ale admiterii pentru turul I",
+          "title": "Peste 4.300 de studenți au fost înmatriculați la UTM în primul tur al admiterii 2026",
           "filler": false,
           "news": true
         },
@@ -9600,7 +9609,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Turul II de admitere la UPSC. Care este oferta educațională a locurilor vacante",
+          "title": "Cum arată cel mai mare cămin studențesc din România, deschis la Timișoara. Are 902 locuri și va primi studenții din octombrie",
           "filler": false,
           "news": true
         },
@@ -9609,7 +9618,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "AMTAP a publicat rezultatele finale ale admiterii. Vezi listele candidaților înmatriculați",
+          "title": "Șapte școli din Moldova vor pilota Programul de Educație Accelerată pentru copiii care nu frecventează școala",
           "filler": false,
           "news": true
         },
@@ -9618,7 +9627,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Peste 18.000 de tineri au fost admiși la universitățile din Moldova în sesiunea de bază. Care au fost cele mai solicitate domenii",
+          "title": "„Faptul că romii învață este considerat ieșit din comun.” Cum EU4Youth transformă vieți prin dezvoltarea competențelor",
           "filler": false,
           "news": true
         },
@@ -9627,7 +9636,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Universitatea de Stat „Alecu Russo” din Bălți a publicat listele finale ale candidaților admiși la studiile de licență",
+          "title": "O clădire istorică din centrul Chișinăului va fi restaurată și transformată în Centrul de Cultură „Eugen Doga”",
           "filler": false,
           "news": true
         },
