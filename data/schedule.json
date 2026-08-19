@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T07:50:34.719Z",
-  "updatedAtLocal": "19 aug. 2026, 10:50",
+  "updatedAt": "2026-08-19T08:51:48.062Z",
+  "updatedAtLocal": "19 aug. 2026, 11:51",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8744,6 +8744,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Muzeul memorial al Statului Major al Frontului II Ucrainean va trece în proprietatea raionului Râșcani",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "R. Moldova și SUA discută consolidarea cooperării în cultură și mass-media",
           "filler": false,
           "news": true
@@ -8772,15 +8781,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Arta care păstrează legătura cu acasă. Două artiste din diaspora își expun lucrările la Parlament",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "BTA: Eurovision 2027 va transforma litoralul bulgăresc într-o mare scenă europeană",
           "filler": false,
           "news": true
         },
@@ -8835,6 +8835,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "BTA: Eurovision 2027 va transforma litoralul bulgăresc într-o mare scenă europeană",
           "filler": false,
           "news": true
         },
@@ -8915,7 +8924,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8924,7 +8933,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
           "filler": false,
           "news": true
         },
@@ -9096,15 +9105,6 @@
           "start": null,
           "end": null,
           "title": "„Independența care ne unește. Moldova-35”: programul evenimentelor dedicate celor 35 de ani de independență",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova denunță un acord CSI privind colaborarea în domeniul informației",
           "filler": false,
           "news": true
         },
