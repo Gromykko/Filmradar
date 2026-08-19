@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T13:06:03.379Z",
-  "updatedAtLocal": "19 aug. 2026, 16:05",
+  "updatedAt": "2026-08-19T13:56:23.170Z",
+  "updatedAtLocal": "19 aug. 2026, 16:56",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8541,6 +8541,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Patrimoniul cultural a fost transformat în povești digitale de către un grup de studenți de la USM, UTM și tineri din raioanele țării",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Foametea organizată din 1946-1947 va fi recunoscută oficial drept crimă împotriva umanității",
           "filler": false,
           "news": true
@@ -8613,7 +8622,34 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Zilele Filmului Moldovenesc” ajung la Florești. Opt filme vor fi proiectate timp de două zile",
+          "title": "Pe 20 august începe ultima etapă pentru înscrierea copiilor în clasa întâi la școlile din municipiul Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cu cât vor crește salariile bugetarilor din 1 ianuarie 2027. Principalele modificări propuse în noua lege a salarizării",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Salariile profesorilor vor crește din 1 ianuarie 2027. Întârzierile vor fi compensate cu plăți lunare în valoare de 1.000 de lei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Serile de CRONOGRAF ajung la final. Ce film vei putea urmări la ultima proiecție sub cerul liber din această vară",
           "filler": false,
           "news": true
         },
@@ -8641,42 +8677,6 @@
           "start": null,
           "end": null,
           "title": "Moldova Business Week 2026: șase beneficii ale integrării economice europene pentru mediul de afaceri din Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Lista iarmaroacelor școlare din Chișinău. Unde găsești rechzite, haine și ghiozdane pentru copilul tău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Carne, hrișcă și lapte cu cacao. Cât de nutritive sunt mesele copiilor de la grădinițele de stat din Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Centrele de Tineret din Moldova pot beneficia de echipamente pentru dezvoltarea serviciilor STEAM. Condițiile de aplicare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cum s-a desfășurat Festivalul Tineretului 2026",
           "filler": false,
           "news": true
         },
