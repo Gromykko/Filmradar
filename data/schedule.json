@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T08:51:48.062Z",
-  "updatedAtLocal": "19 aug. 2026, 11:51",
+  "updatedAt": "2026-08-19T09:46:02.068Z",
+  "updatedAtLocal": "19 aug. 2026, 12:45",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8541,6 +8541,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Foametea organizată din 1946-1947 va fi recunoscută oficial drept crimă împotriva umanității",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "(foto) Pe strada Ion Creangă a apărut o pictură murală de 120 de metri pătrați. Vezi cum arată aceasta",
           "filler": false,
           "news": true
@@ -8613,7 +8622,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Orașele din Moldova pot concura pentru a reprezenta țara la concursul „Capitala Europeană a Culturii” 2033",
+          "title": "Pe 1 septembrie va avea loc un marș al profesorilor în fața Parlamentului Republicii Moldova",
           "filler": false,
           "news": true
         },
@@ -8622,7 +8631,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Profesorii ies la protest. Reacția Guvernului: „În cel mai scurt timp, Executivul va prezenta soluții”",
+          "title": "Rezultate mai bune la PISA și salarii mai mari pentru profesori. Ce prevede Programul strategiei de dezvoltare „Educația 2030”",
           "filler": false,
           "news": true
         },
@@ -8631,7 +8640,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Maia Sandu explică de ce majorările salariale ale profesorilor întârzie: „Statul nu avea de unde să știe că va fi războiul din Iran”",
+          "title": "Moldova Business Week 2026: șase beneficii ale integrării economice europene pentru mediul de afaceri din Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -8640,7 +8649,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Peste 4.300 de studenți au fost înmatriculați la UTM în primul tur al admiterii 2026",
+          "title": "Lista iarmaroacelor școlare din Chișinău. Unde găsești rechzite, haine și ghiozdane pentru copilul tău",
           "filler": false,
           "news": true
         },
@@ -8649,7 +8658,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum arată cel mai mare cămin studențesc din România, deschis la Timișoara. Are 902 locuri și va primi studenții din octombrie",
+          "title": "Carne, hrișcă și lapte cu cacao. Cât de nutritive sunt mesele copiilor de la grădinițele de stat din Chișinău",
           "filler": false,
           "news": true
         },
@@ -8658,7 +8667,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Șapte școli din Moldova vor pilota Programul de Educație Accelerată pentru copiii care nu frecventează școala",
+          "title": "Centrele de Tineret din Moldova pot beneficia de echipamente pentru dezvoltarea serviciilor STEAM. Condițiile de aplicare",
           "filler": false,
           "news": true
         },
@@ -8667,16 +8676,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Faptul că romii învață este considerat ieșit din comun.” Cum EU4Youth transformă vieți prin dezvoltarea competențelor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O clădire istorică din centrul Chișinăului va fi restaurată și transformată în Centrul de Cultură „Eugen Doga”",
+          "title": "Cum s-a desfășurat Festivalul Tineretului 2026",
           "filler": false,
           "news": true
         },
@@ -8744,6 +8744,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Legislația audiovizuală a Republicii Moldova va fi ajustată la normele UE",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Muzeul memorial al Statului Major al Frontului II Ucrainean va trece în proprietatea raionului Râșcani",
           "filler": false,
           "news": true
@@ -8772,15 +8781,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // Ministerul Culturii îi invită pe copii să deseneze valorile care definesc Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Arta care păstrează legătura cu acasă. Două artiste din diaspora își expun lucrările la Parlament",
           "filler": false,
           "news": true
         },
@@ -8835,6 +8835,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Arta care păstrează legătura cu acasă. Două artiste din diaspora își expun lucrările la Parlament",
           "filler": false,
           "news": true
         },
@@ -8915,7 +8924,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cronica ARHIVELOR // Ion Vatamanu – poet, savant și una dintre vocile renașterii naționale",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8924,7 +8933,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Cronica ARHIVELOR // Ion Vatamanu – poet, savant și una dintre vocile renașterii naționale",
           "filler": false,
           "news": true
         },
@@ -9096,15 +9105,6 @@
           "start": null,
           "end": null,
           "title": "„Noua Speranță”, expoziția semnată de artistul plastic Roman Tolici, vernisată la Muzeul Național de Artă al Moldovei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Independența care ne unește. Moldova-35”: programul evenimentelor dedicate celor 35 de ani de independență",
           "filler": false,
           "news": true
         },
