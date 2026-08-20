@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T05:43:02.770Z",
-  "updatedAtLocal": "20 aug. 2026, 08:42",
+  "updatedAt": "2026-08-20T07:02:50.656Z",
+  "updatedAtLocal": "20 aug. 2026, 10:02",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9064,6 +9064,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Chișinăul devine capitala teatrului românesc: 20 de teatre și 26 de spectacole, la Reuniunea Teatrelor Naționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Filmului Românesc revin la Chișinău cu un program de proiecții, întâlniri și evenimente",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Salariile angajaților din cultură vor fi supuse consultărilor",
           "filler": false,
           "news": true
@@ -9083,24 +9101,6 @@
           "start": null,
           "end": null,
           "title": "Muzeul memorial al Statului Major al Frontului II Ucrainean va trece în proprietatea raionului Râșcani",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "R. Moldova și SUA discută consolidarea cooperării în cultură și mass-media",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Premiul Național 2026: cine poate candida și până când pot fi depuse dosarele",
           "filler": false,
           "news": true
         },
@@ -9155,6 +9155,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "R. Moldova și SUA discută consolidarea cooperării în cultură și mass-media",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Premiul Național 2026: cine poate candida și până când pot fi depuse dosarele",
           "filler": false,
           "news": true
         },
@@ -9226,6 +9244,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Patrimoniul cultural de pe ambele maluri ale Prutului, celebrat prin meșteșuguri și tradiții la Cahul",
           "filler": false,
           "news": true
@@ -9236,15 +9263,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Tradițiile și meșteșugurile populare, celebrate la Festivalul „Floare Ciuciuleni”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9407,24 +9425,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Patrimoniul și tradițiile Moldovei, prin ochii elevilor Școlii de Arte Plastice din Ungheni. Peste 30 de picturi inspirate de plaiul natal, expuse la Parlament",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Parlamentul a ratificat în prima lectură Convenția Consiliului Europei privind coproducția de opere audiovizuale sub formă de seriale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Vernisajul expoziției „Noua Speranță” semnată de artistul plastic Roman Tolici",
           "filler": false,
           "news": true
         },
