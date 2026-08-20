@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T08:53:13.997Z",
-  "updatedAtLocal": "20 aug. 2026, 11:52",
+  "updatedAt": "2026-08-20T09:47:11.644Z",
+  "updatedAtLocal": "20 aug. 2026, 12:46",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9064,6 +9064,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu” își deschide cortina: 11 spectacole și concerte, cu artiști din 12 țări",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Chișinăul devine capitala teatrului românesc: 20 de teatre și 26 de spectacole, la Reuniunea Teatrelor Naționale",
           "filler": false,
           "news": true
@@ -9092,15 +9101,6 @@
           "start": null,
           "end": null,
           "title": "Legislația audiovizuală a Republicii Moldova va fi ajustată la normele UE",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Muzeul memorial al Statului Major al Frontului II Ucrainean va trece în proprietatea raionului Râșcani",
           "filler": false,
           "news": true
         },
@@ -9155,6 +9155,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Muzeul memorial al Statului Major al Frontului II Ucrainean va trece în proprietatea raionului Râșcani",
           "filler": false,
           "news": true
         },
@@ -9235,7 +9244,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // „Hora de la Prut” a dus tradițiile din Ungheni la Festivalul Internațional de Folclor „Ceahlăul”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9244,7 +9253,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // „Hora de la Prut” a dus tradițiile din Ungheni la Festivalul Internațional de Folclor „Ceahlăul”",
           "filler": false,
           "news": true
         },
@@ -9416,15 +9425,6 @@
           "start": null,
           "end": null,
           "title": "Expoziția „Arheologia urbană și memoria ascunsă a Chișinăului”, deschisă pentru vizitatori la Muzeul Național de Istorie a Moldovei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul și tradițiile Moldovei, prin ochii elevilor Școlii de Arte Plastice din Ungheni. Peste 30 de picturi inspirate de plaiul natal, expuse la Parlament",
           "filler": false,
           "news": true
         },
