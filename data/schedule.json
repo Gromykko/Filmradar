@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-21T20:36:46.184Z",
-  "updatedAtLocal": "21 aug. 2026, 23:36",
+  "updatedAt": "2026-08-21T21:00:15.348Z",
+  "updatedAtLocal": "21 aug. 2026, 23:59",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -12,448 +12,18 @@
       "tier": "primary",
       "ok": true,
       "error": null,
-      "warning": null,
+      "warning": "Grila proprie indisponibilă (Failed to fetch https://trm.md/ro/moldova-1: HTTP 403 Forbidden) — folosesc sursa de rezervă.",
       "stale": false,
       "slots": [
         {
           "day": 5,
           "dayName": "vineri",
-          "start": "00:13",
-          "end": "02:45",
-          "title": "„Gheorghe Mustea și lumea muzicii sale\". Spectaco aniversar, desfășurat la Cahul",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "02:45",
-          "end": "03:15",
-          "title": "Global.DW. Germania",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "03:15",
-          "end": "03:25",
-          "title": "„Eseu”. Documentar ,Republica Moldova, 2015",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "03:25",
-          "end": "05:15",
-          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "05:15",
-          "end": "05:58",
-          "title": "Mesager. Program informativ+știri sportive",
+          "end": "05:36",
+          "title": "Mesager",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "05:58",
-          "end": "06:00",
-          "title": "Deschiderea stației",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "06:00",
-          "end": "06:40",
-          "title": "„Virtuozi”. Orchestra Mugurel",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "06:40",
-          "end": "06:45",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "06:45",
-          "end": "07:45",
-          "title": "„Regăsirea astrului uitat. Nicolaie Donici 150 ani”. Documentar",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "07:45",
-          "end": "08:40",
-          "title": ",,Copiii din Țara Doinelor”. Spectacol muzical - artistic cu participarea copiilor și a artiștilor consacrați.",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "08:40",
-          "end": "08:45",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "08:45",
-          "end": "09:12",
-          "title": "Magazinul copiilor",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "09:12",
-          "end": "09:15",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "09:15",
-          "end": "10:00",
-          "title": "Zi de bine -magazin utilitar!",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "10:00",
-          "end": "10:25",
-          "title": "Focus Europa",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "10:25",
-          "end": "10:30",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "10:30",
-          "end": "11:55",
-          "title": "Live studio. Program de divertisment",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "11:55",
-          "end": "12:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "12:00",
-          "end": "12:55",
-          "title": "Raioane",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "12:55",
-          "end": "13:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "13:00",
-          "end": "13:25",
-          "title": "Știri",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "13:25",
-          "end": "13:30",
-          "title": "Știri sportive",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "13:30",
-          "end": "13:35",
-          "title": "Cântecele independenței",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "13:35",
-          "end": "14:15",
-          "title": "Pământ și oameni (Best off)",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "14:15",
-          "end": "16:30",
-          "title": "Spitalul Santa Rosa.Serial romance. Columbia, 2022 Ep. 156,157,158",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "16:30",
-          "end": "16:55",
-          "title": "Moldova de patrimoniu",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "16:55",
-          "end": "17:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "17:00",
-          "end": "17:25",
-          "title": "Știri (ru)",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "17:25",
-          "end": "17:30",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "17:30",
-          "end": "17:55",
-          "title": "În ritm de dans",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "17:55",
-          "end": "18:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "18:00",
-          "end": "18:30",
-          "title": "Stil nou",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "18:30",
-          "end": "18:55",
-          "title": "Banii. Magazin economic",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "18:55",
-          "end": "19:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "19:00",
-          "end": "19:17",
-          "title": "„Un Chișinău dinaintea erei noastre”. Documentar",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "19:17",
-          "end": "20:55",
-          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "20:55",
-          "end": "21:00",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "21:00",
-          "end": "21:30",
-          "title": "Mesager. Program informativ",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "21:30",
-          "end": "21:45",
-          "title": "Știri sportive",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "21:45",
-          "end": "21:50",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "21:50",
-          "end": "22:43",
-          "title": "Salazar: Lisabona în al doilea război mondial 2022",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "22:43",
-          "end": "22:45",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "22:45",
-          "end": "23:15",
-          "title": "Știri externe (Glavnoe) (ru)",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "23:15",
-          "end": "00:57",
-          "title": "Atinși de foc. Dramă, SUA. 2016",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
@@ -469,9 +39,189 @@
           "day": 5,
           "dayName": "vineri",
           "date": "2026-08-21",
+          "start": "05:58",
+          "end": "06:00",
+          "title": "Deschiderea staţiei",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "06:00",
+          "end": "06:40",
+          "title": "Virtuozi",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "06:40",
+          "end": "06:45",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "06:45",
+          "end": "07:45",
+          "title": "Regăsirea astrului uitat",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "07:45",
+          "end": "08:40",
+          "title": "Copiii din Țara Doinelor",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "08:40",
+          "end": "08:45",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "08:45",
+          "end": "09:10",
+          "title": "Magazinul copiilor",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "09:10",
           "end": "09:15",
           "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "09:15",
+          "end": "10:00",
+          "title": "Zi de bine",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "10:00",
+          "end": "10:25",
+          "title": "Focus",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "10:25",
+          "end": "10:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "10:30",
+          "end": "11:55",
+          "title": "Live studio. Прямая трансляция",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "11:55",
+          "end": "12:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "12:00",
+          "end": "12:55",
+          "title": "Raioane",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "12:55",
+          "end": "13:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "13:00",
+          "end": "13:25",
+          "title": "Ştiri",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "13:25",
+          "end": "13:35",
+          "title": "Știri sportive",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "13:35",
+          "end": "14:15",
+          "title": "Pământ și oameni (Best off)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "14:15",
+          "end": "15:00",
+          "title": "Spitalul Santa Rosa (Episodul 156)",
           "filler": false,
           "source": "tvmail"
         },
@@ -492,6 +242,196 @@
           "start": "15:45",
           "end": "16:30",
           "title": "Spitalul Santa Rosa (Episodul 158)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "16:30",
+          "end": "16:55",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "16:55",
+          "end": "17:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "17:00",
+          "end": "17:25",
+          "title": "Ştiri",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "17:25",
+          "end": "17:30",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "În ritm de dans",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "17:55",
+          "end": "18:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "18:00",
+          "end": "18:30",
+          "title": "Stil nou",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "18:30",
+          "end": "18:55",
+          "title": "Banii în mișcare",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "18:55",
+          "end": "19:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "19:00",
+          "end": "19:17",
+          "title": "Un Chișinau dinaintea erei noastre",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "19:17",
+          "end": "20:55",
+          "title": "Tribute, Aplauze la scena deschisă",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "20:55",
+          "end": "21:00",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "21:00",
+          "end": "21:30",
+          "title": "Mesager",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "21:30",
+          "end": "21:45",
+          "title": "Știri sportive",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "21:45",
+          "end": "21:50",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "21:50",
+          "end": "22:43",
+          "title": "Salazar: Lisabona în al doilea război mondial",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "22:43",
+          "end": "22:45",
+          "title": "Publicitate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "22:45",
+          "end": "23:15",
+          "title": "Ştiri Externe",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-21",
+          "start": "23:15",
+          "end": "00:37",
+          "title": "Atinși de foc",
           "filler": false,
           "source": "tvmail"
         },
@@ -3586,468 +3526,418 @@
       "tier": "primary",
       "ok": true,
       "error": null,
-      "warning": null,
+      "warning": "Grila proprie indisponibilă (Failed to fetch https://trm.md/ro/moldova-2: HTTP 403 Forbidden) — folosesc sursa de rezervă.",
       "stale": false,
       "slots": [
         {
           "day": 5,
           "dayName": "vineri",
-          "start": "01:10",
-          "end": "02:35",
-          "title": "Recital de pian cu Dana Ciocârlie",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "02:35",
-          "end": "03:20",
-          "title": "Focul din vatră. Victor Dumbrăveanu",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "03:20",
-          "end": "04:20",
-          "title": "Spectacol \"Horia\" P.3",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "04:20",
-          "end": "04:50",
-          "title": "Cu noi la teatru. S.Finiti",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "start": "04:50",
-          "end": "05:00",
-          "title": "Text și muzică. Maria Mocanu",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "05:00",
-          "end": "06:00",
-          "title": "Spectacol \"Și iar Chirița\" P.2",
+          "end": "05:58",
+          "title": "Și iar Chirița (Partea 2)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "05:58",
           "end": "06:00",
           "title": "Deschiderea Statiei",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "06:00",
           "end": "06:30",
-          "title": "Evoluează orchestra \"Ciobănaș\"",
+          "title": "Orchestra",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "06:30",
           "end": "06:45",
-          "title": "Respiro popular",
+          "title": "Respiro Popular",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "06:45",
           "end": "07:15",
-          "title": "Tezaur. Ziua portului popular P.1",
+          "title": "Tezaur (Ziua portului popular)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "07:15",
           "end": "07:45",
           "title": "Moldova de patrimoniu",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "07:45",
           "end": "08:30",
           "title": "Artelier (Drumeție la Cuhnești)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "08:30",
           "end": "08:35",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "08:35",
           "end": "08:40",
-          "title": "Necuvintele. Marina Supac",
+          "title": "Necuvintele",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "08:40",
           "end": "09:10",
           "title": "Dor (I. Burdin)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "09:10",
           "end": "09:15",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "09:15",
           "end": "09:25",
           "title": "F.D (Cântec și dans)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "09:25",
           "end": "09:55",
           "title": "Portrete în timp (Boris Golea)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "09:55",
           "end": "10:00",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "10:00",
           "end": "10:21",
           "title": "Povestea generațiilor (V. Beșleagă - Vise)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "10:21",
           "end": "10:25",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "10:25",
           "end": "12:00",
-          "title": "Spectacol \" Dimitrie Cantemir\" P1+P2",
+          "title": "Dimitrie Cantemir",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "12:00",
           "end": "12:05",
-          "title": "Necuvintele. Marina Supac",
+          "title": "Necuvintele",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "12:05",
           "end": "12:10",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "12:10",
           "end": "13:00",
-          "title": "Concert. Noapte la Paris",
+          "title": "Concert",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "13:00",
           "end": "13:10",
           "title": "Proiect (Daniel Căldare)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "13:10",
           "end": "13:20",
           "title": "Text si muzica (Elena Karafizi)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "13:20",
           "end": "13:25",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "13:25",
           "end": "13:55",
           "title": "Dor (Nina Țurcanu)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "13:55",
           "end": "14:00",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "14:00",
           "end": "15:57",
           "title": "Un om care scrie (Dialog cu Mircea Cărtărescu)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "15:57",
           "end": "16:00",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "16:00",
           "end": "16:56",
-          "title": "F.D. Legământ",
+          "title": "Legământ",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "16:56",
           "end": "17:00",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "17:00",
           "end": "17:56",
           "title": "Evantai folcloric (Nina Țurcanu)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "17:56",
           "end": "18:00",
           "title": "Publictate",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "18:00",
           "end": "18:30",
-          "title": "Tezaur. Ziua portului popular P.2",
+          "title": "Tezaur (Ziua portului popular)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "18:30",
           "end": "19:00",
           "title": "Moldova de patrimoniu",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "19:00",
           "end": "19:27",
           "title": "Dan Spătaru",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "19:27",
           "end": "19:30",
           "title": "Publictate",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "19:30",
           "end": "21:00",
-          "title": "ANTInostalgia.Planuri cincinale: realizări și ficțiune.",
+          "title": "Antinostalgia (Cincinale. Realizări și ficțiune)",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "21:00",
           "end": "21:54",
           "title": "Richard Sorge, spionul lui Stalin",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "21:54",
           "end": "22:00",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "22:00",
           "end": "23:05",
           "title": "Spectacol de dans contemporan",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "23:05",
           "end": "23:10",
           "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "filler": false,
+          "source": "tvmail"
         },
         {
           "day": 5,
           "dayName": "vineri",
+          "date": "2026-08-21",
           "start": "23:10",
           "end": "00:35",
-          "title": "F.A. The Bow",
+          "title": "F.A.",
           "filler": false,
-          "dayAssumed": true,
-          "date": "2026-08-21"
+          "source": "tvmail"
         },
         {
           "day": 6,
@@ -5048,156 +4938,11 @@
       "schedule": "https://trm.md/ro/cultura",
       "newsOnly": true,
       "tier": "announcements",
-      "ok": true,
-      "error": null,
+      "ok": false,
+      "error": "Failed to fetch https://trm.md/ro/cultura: HTTP 403 Forbidden",
       "warning": null,
       "stale": false,
-      "slots": [
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cineaştii s-au reunit pentru a marca 70 de ani de la fondarea studioului „Moldova-Film” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O expoziţie de pictură, organizată la Ambasada SUA, în cadrul programului „Artă în Ambasade” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "În Republica Moldova a fost lansat un proiect pentru un turism durabil",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Conferinţă ştiinţifică internaţională, consacrată comemorării savantului George Emil Palade, organizată la Chişinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "La Chişinău se desfăşoară concursul naţional al cântecului folcloric „Tamara Ciobanu” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Doi artişti plastici şi-au expus lucrările la Biblioteca Ştiinţifică ”Andrei Lupan” a AŞM (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Antologia despre viaţa interpretei Ioana Căpraru, lansată la Biblioteca Naţională (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Dragoste la pachet” – un spectacol despre drama moldovencelor care au plecat la muncă în străinătate, în premieră, la Teatrul „Mihai Eminescu” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cinci documentare realizate de studioul „TeleFilm Chişinău\" vor fi proiectate la Roma",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Scriitorul Arcadie Suceveanu şi-a sărbătorit a 70-a aniversare (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ministrul român al Culturii, la Radio Moldova: Festivalul Naţional de Teatru de la Bucureşti - un proiect strategic pentru apropierea celor două maluri ale Prutului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Evacuator EVAX Chişinău: Cum alegi serviciul potrivit?",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Role cu sau fără frână pentru copii - când contează cu adevărat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Zbor.md – partenerul tău de încredere în lumea biletelor de avion ieftine",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Datele de contact vor fi folosite numai pentru verificarea informației și pentru a putea reveni cu întrebări.",
-          "filler": false,
-          "news": true
-        }
-      ]
+      "slots": []
     },
     {
       "id": "trm-stiri",
@@ -5206,779 +4951,11 @@
       "schedule": "https://trm.md/ro/stiri",
       "newsOnly": true,
       "tier": "announcements",
-      "ok": true,
-      "error": null,
+      "ok": false,
+      "error": "Failed to fetch https://trm.md/ro/stiri: HTTP 403 Forbidden",
       "warning": null,
       "stale": false,
-      "slots": [
-        {
-          "day": 4,
-          "dayName": "joi",
-          "start": null,
-          "end": null,
-          "title": "Adevărul despre fals",
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teleradio Moldova: juriul care a acordat punctajul la Eurovision nu reprezintă poziţia instituţiei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Reuniune trilaterală la Chişinău: TRM, NHK şi Suspilne consolidează cooperarea în serviciul public de media",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "TRM şi JICA au semnat un acord de grant în valoare de 21 milioane de lei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Concurs de selectare a participanţilor la un atelier de instruire",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "TRM a prezentat Strategia de dezvoltare pentru perioada 2026–2030",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Evacuator EVAX Chişinău: Cum alegi serviciul potrivit?",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Role cu sau fără frână pentru copii - când contează cu adevărat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Zbor.md – partenerul tău de încredere în lumea biletelor de avion ieftine",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Profesia de SEO Specialist a devenit oficială în Republica Moldova: cod CORM 251316",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL // De ce în curând nu îţi vei mai putea instala panouri solare în Republica Moldova?",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL // Cu suportul financiar al Uniunii Europene în Republica Moldova au fost deschise 16 spălătorii sociale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "RUBRICA „Adevărul despre fals”: Combatem propaganda din mediul online",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "RUBRICA „Adevărul despre fals”: Analizăm şi combatem ştirile neadevărate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "RUBRICA „Adevărul despre fals”: Cum combatem dezinformarea",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "RUBRICA „Adevărul despre fals”: Verificăm credibilitatea surselor din 4 ianuarie (AUDIO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Medicamentele expirate, un pericol pentru mediul înconjurător. Ce ne recomandă experţii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Nivelul apei în râul Nistru revine la normal (AUDIO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Procuratura Anticorupţie a depus recurs la Curtea Supremă de Justiţie pe cazul lui Igor Dodon",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Natalia Gavriliţa, după Consiliul Naţional Politic: PAS este un partid care va duce Republica Moldova în marea familie europeană",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Consiliul Naţional al PAS s-a reunit în şedinţă. Strategia pentru alegerile locale, pe agenda discuţiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Bogdan Aurescu şi Antony Blinken vor discuta la Bucureşti despre sprijinul României acordat Republicii Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "La Chişinău a fost semnat Acordul de asociere a Republicii Moldova la Programul UE pentru mediu şi politici climatice (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Bogdan Aurescu, despre crizele cu care se confruntă Republica Moldova: „Unele sunt generate artificial” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Şefa statului s-a întâlnit cu prim-ministra Lituaniei, Ingrida Šimonytė. Riscurile de securitate, pe agenda discuţiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Sondaj: Partidele care ar accede în Parlament, dacă duminica viitoare ar avea loc alegeri",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Peste 70 de antreprenori autohtoni şi-au expus produsele la târgul „Cămara Fest”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Viceguvernatorul BNM, despre beneficiile aderării la Zona Unică de Plăţi în Euro: „Costul - mai mic, viteza - mai mare”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Întreprinderea de stat „Moldatsa” va primi un grant de trei milioane de euro. În ce scop vor fi folosiţi banii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Din cauza războiului din Ucraina, producătorii autohtoni sunt în căutarea unor noi pieţe de desfacere",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Consumatorii din stânga Nistrului nu sunt afectaţi de reducerea volumelor de gaze, declară şeful Moldovagaz",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Andrei Spînu admite majorarea tarifului la energia electrică, însă declară că Guvernul va acorda compensaţii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Vladimir Bolea: Un sector agroindustrial puternic înseamnă o ţară asigurată (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Expoziţie-târg de păsări exotice la Cetatea Soroca",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Nu există nici un pericol pentru gospodării”. Activitatea posturilor de observare de pe râul Nistru din raioanele Ocniţa şi Soroca a fost sistată",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Centrul social \"Revenire\" din Soroca, luat cu asalt odată cu răcirea timpului (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Condiţii mai bune pentru viitoarele mame din Edineţ (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Locuitorii comunei Vasilcău din Soroca se plâng că nu au cu ce face focul în sobe (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Intervenţia pompierilor: Din cauza drumului impracticabil, ambulanţa nu a ajuns la pacientă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "La Edineţ a fost dat în exploatare un apeduct reabilitat şi extins din fonduri europene",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cineaştii s-au reunit pentru a marca 70 de ani de la fondarea studioului „Moldova-Film” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O expoziţie de pictură, organizată la Ambasada SUA, în cadrul programului „Artă în Ambasade” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "În Republica Moldova a fost lansat un proiect pentru un turism durabil",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Conferinţă ştiinţifică internaţională, consacrată comemorării savantului George Emil Palade, organizată la Chişinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "La Chişinău se desfăşoară concursul naţional al cântecului folcloric „Tamara Ciobanu” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Doi artişti plastici şi-au expus lucrările la Biblioteca Ştiinţifică ”Andrei Lupan” a AŞM (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Antologia despre viaţa interpretei Ioana Căpraru, lansată la Biblioteca Naţională (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cristiano Ronaldo pleacă de la Manchester United",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Selecţionata Republicii Moldova, învinsă de reprezentativa României",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Boxerii moldoveni au cucerit cinci medalii la turneul din Polonia",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "“Tricolorii” au fost învinşi cu 1-2 de reprezentativa Azerbaidjanului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Înotătorul moldovean Constantin Malachi a cucerit trei medalii de aur la campionatul Belgiei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Super-starul portughez Cristiano Ronaldo, declaraţii incendiare: „M-am simţit trădat” (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Vitalie Damaşcan a marcat al cincilea său gol în actuala ediţie de campionat a SuperLigii româneşti de fotbal (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Atenţionare de călătorie în Franţa",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O asociaţie de voluntari din Italia a donat spitalului din Ialoveni o ambulanţă şi echipamente medicale (VIDEO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Un copil moldovean din Montreal înregistrează performanţe la matematică, dar şi în fotbal",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldovenii stabiliţi în Spania vor beneficia de pensii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldovenii nu vor mai avea nevoie de vize pentru a călători în Statul Qatar",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Igor Grosu s-a întâlnit cu reprezentanţi ai diasporei moldoveneşti în Danemarca (FOTO)",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "La Chişinău se desfăşoară „Zilele Diasporei”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Eurovision Song Contest 2023: Modificări majore privind modalitatea de vot",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Trei ţări se retrag de la Eurovision 2023. Motivele invocate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Oraşul Liverpool va găzdui Eurovision Song Contest 2023",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Şapte oraşe britanice concurează la statutul de gazdă a următoarei ediţii a Eurovision",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "E oficial! Eurovision Song Contest 2023 va avea loc în Marea Britanie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Oraşul Bruxelles şi radiodifuzorul naţional francofon RTBF sunt gata să găzduiască Eurovision Song Contest",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Astăzi este ultima zi de agitaţie electorală pentru alegerile locale noi de duminică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Buletinele de vot vor fi tipărite doar în limba română",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "CEC: A fost aprobat sistemul de vot prin internet",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "CEC va sancţiona partidele care nu şi-au prezentat rapoartele financiare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Câţi cetăţeni cu drept de vot sunt în Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Peste trei milioane de alegători sunt înscrişi în Registrul de Stat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "CEC propune permiterea agitaţiei electorale în ziua alegerilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Rezultatele turului II al alegerilor locale: Comuna Branişte din raionul Rîşcani va avea un primar democrat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Locuitorii comunei Branişte îşi aleg primarul. Precizările CEC",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Duminică se va desfăşura turul II al alegerilor locale noi în comuna Branişte",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "CEC a început tipărirea buletinelor de vot pentru alegerile locale noi, turul II, din 30 octombrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Primarii din Sălcuţa şi Ialpujeni au fost aleşi din primul tur",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ziua tăcerii. Peste şase mii de cetăţeni sunt aşteptaţi duminică la alegeri în trei localităţi",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "La alegerile locale din octombrie, pentru trei mandate de primar candidează opt persoane",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Dacă eşti martorul unui eveniment, contactează-ne!",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Informaţia TA poate deveni o ştire!",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Datele de contact vor fi folosite numai pentru verificarea informației și pentru a putea reveni cu întrebări.",
-          "filler": false,
-          "news": true
-        }
-      ]
+      "slots": []
     },
     {
       "id": "tvr-moldova",
@@ -5991,456 +4968,6 @@
       "warning": null,
       "stale": false,
       "slots": [
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "05:00",
-          "end": "05:42",
-          "title": "Telejurnal Moldova",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "05:42",
-          "end": "05:55",
-          "title": "Sport",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "05:55",
-          "end": "06:55",
-          "title": "Lectia de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "06:55",
-          "end": "07:00",
-          "title": "Imn",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "07:00",
-          "end": "07:55",
-          "title": "Caravana TVR Moldova &#34;La tine-n sat&#34;",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "07:55",
-          "end": "08:55",
-          "title": "Tradiţii",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "08:55",
-          "end": "09:00",
-          "title": "Poet si poezie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "09:00",
-          "end": "10:00",
-          "title": "Istorii cu tâlc",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "10:00",
-          "end": "10:30",
-          "title": "Memorie şi destin",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "10:30",
-          "end": "10:55",
-          "title": "Impact plus",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "10:55",
-          "end": "11:00",
-          "title": "Poezie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "11:00",
-          "end": "12:00",
-          "title": "Lectia de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "12:00",
-          "end": "12:30",
-          "title": "Conexiuni economice",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "12:30",
-          "end": "13:00",
-          "title": "Dialoguri colorate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "13:00",
-          "end": "13:30",
-          "title": "Telejurnal Moldova",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "13:30",
-          "end": "14:00",
-          "title": "În Slujba Binelui",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "14:00",
-          "end": "14:45",
-          "title": "Telejurnal",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "14:45",
-          "end": "14:55",
-          "title": "Poezie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "14:55",
-          "end": "15:00",
-          "title": "Vorbeste corect!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "15:00",
-          "end": "15:30",
-          "title": "Călătorii cu gust",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "15:30",
-          "end": "16:00",
-          "title": "România… în bucate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "16:00",
-          "end": "16:50",
-          "title": "Drumul lui Lese",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "16:50",
-          "end": "17:00",
-          "title": "Discover România",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "17:00",
-          "end": "17:55",
-          "title": "Podcast militar",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "17:55",
-          "end": "18:00",
-          "title": "Poezie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "18:00",
-          "end": "18:30",
-          "title": "Memorie şi destin",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "18:30",
-          "end": "18:55",
-          "title": "Impact plus",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "18:55",
-          "end": "19:00",
-          "title": "Poezie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "19:00",
-          "end": "19:42",
-          "title": "Telejurnal Moldova. Прямая трансляция",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "19:42",
-          "end": "20:00",
-          "title": "Sport",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "20:55",
-          "end": "21:00",
-          "title": "Zi de zi cu părintele Ctin Necula",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "21:00",
-          "end": "22:20",
-          "title": "Vedeta familiei",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "22:20",
-          "end": "22:30",
-          "title": "Discover România",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "22:30",
-          "end": "23:00",
-          "title": "Istorii ascunse",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "23:00",
-          "end": "23:50",
-          "title": "Telejurnal",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 5,
-          "dayName": "vineri",
-          "date": "2026-08-21",
-          "start": "23:50",
-          "end": "00:00",
-          "title": "Poezie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "00:00",
-          "end": "01:00",
-          "title": "Drumul lui Lese",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "01:00",
-          "end": "01:30",
-          "title": "Cu susul in jos",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "01:30",
-          "end": "02:00",
-          "title": "Istorii ascunse",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "02:00",
-          "end": "03:00",
-          "title": "Podcast militar",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "03:00",
-          "end": "03:30",
-          "title": "Călătorii cu gust",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "03:30",
-          "end": "03:55",
-          "title": "România… în bucate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "03:55",
-          "end": "04:00",
-          "title": "Poezie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "04:00",
-          "end": "04:30",
-          "title": "Memorie şi destin",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 6,
-          "dayName": "sâmbătă",
-          "date": "2026-08-22",
-          "start": "04:30",
-          "end": "05:00",
-          "title": "Impact plus",
-          "filler": false,
-          "source": "tvmail"
-        },
         {
           "day": 6,
           "dayName": "sâmbătă",
@@ -8515,6 +7042,376 @@
           "day": 5,
           "dayName": "vineri",
           "date": "2026-08-28",
+          "start": "04:00",
+          "end": "05:00",
+          "title": "Obiectiv comun",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "05:00",
+          "end": "05:42",
+          "title": "Telejurnal Moldova",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "05:42",
+          "end": "05:55",
+          "title": "Sport",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "05:55",
+          "end": "06:55",
+          "title": "Lectia de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "06:55",
+          "end": "07:00",
+          "title": "Imn",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "Telematinal",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "08:00",
+          "end": "08:55",
+          "title": "Telematinal. Прямая трансляция (Episodul 2)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "08:55",
+          "end": "09:00",
+          "title": "Poet si poezie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "Telematinal",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "10:00",
+          "end": "10:55",
+          "title": "Documentar (35 de ani. Lungul drum catre democratie)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "10:55",
+          "end": "11:00",
+          "title": "Poezie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "11:00",
+          "end": "11:55",
+          "title": "Obiectiv comun",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "11:55",
+          "end": "12:00",
+          "title": "Vorbeste corect!",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "12:00",
+          "end": "12:30",
+          "title": "Conexiuni economice",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "12:30",
+          "end": "13:00",
+          "title": "Dialoguri colorate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "13:00",
+          "end": "13:30",
+          "title": "Telejurnal Moldova",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "13:30",
+          "end": "14:00",
+          "title": "În Slujba Binelui",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "14:00",
+          "end": "18:00",
+          "title": "Festivalul (National al Cantecului si Dansului Popular Romanesc &#34;Mamaia&#34;)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "18:00",
+          "end": "18:55",
+          "title": "Obiectiv comun",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "18:55",
+          "end": "19:00",
+          "title": "Poezie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "19:00",
+          "end": "19:42",
+          "title": "Telejurnal Moldova. Прямая трансляция",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "19:42",
+          "end": "20:00",
+          "title": "Sport",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "20:00",
+          "end": "20:55",
+          "title": "Transnistria - Viata in zona gri",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "20:55",
+          "end": "21:00",
+          "title": "Zi de zi cu părintele Ctin Necula",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "Documentar (35 de ani. Lungul drum catre democratie)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "21:50",
+          "end": "22:00",
+          "title": "Pastila de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "22:00",
+          "end": "22:30",
+          "title": "Călătorii cu gust",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "22:30",
+          "end": "23:00",
+          "title": "Istorii ascunse",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "23:00",
+          "end": "23:50",
+          "title": "Telejurnal",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 5,
+          "dayName": "vineri",
+          "date": "2026-08-28",
+          "start": "23:50",
+          "end": "00:00",
+          "title": "Poezie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "date": "2026-08-29",
+          "start": "00:00",
+          "end": "01:20",
+          "title": "Vedeta familiei",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "date": "2026-08-29",
+          "start": "01:20",
+          "end": "01:30",
+          "title": "Discover România",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "date": "2026-08-29",
+          "start": "01:30",
+          "end": "02:30",
+          "title": "Omul si timpul",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "date": "2026-08-29",
+          "start": "02:30",
+          "end": "03:00",
+          "title": "Cu susul in jos",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "date": "2026-08-29",
+          "start": "03:00",
+          "end": "03:30",
+          "title": "Călătorii cu gust",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "date": "2026-08-29",
+          "start": "03:30",
+          "end": "03:55",
+          "title": "România… în bucate (#Calatorie cu gust - Iasi)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "date": "2026-08-29",
+          "start": "03:55",
+          "end": "04:00",
+          "title": "Poezie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 6,
+          "dayName": "sâmbătă",
+          "date": "2026-08-29",
           "start": "04:00",
           "end": "05:00",
           "title": "Obiectiv comun",
