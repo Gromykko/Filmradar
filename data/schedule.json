@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-21T10:43:52.750Z",
-  "updatedAtLocal": "21 aug. 2026, 13:43",
+  "updatedAt": "2026-08-21T11:36:58.544Z",
+  "updatedAtLocal": "21 aug. 2026, 14:36",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8792,6 +8792,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Descoperă Moldova cu #MOLDPRES // Muzeul din Trușeni, locul unde obiectele vechi spun istoria comunității",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Nunta de altădată a prins viață la Nimoreni, în cadrul festivalului „Nunta din Străbuni”",
           "filler": false,
           "news": true
@@ -8820,15 +8829,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Filmului Românesc revin la Chișinău cu un program de proiecții, întâlniri și evenimente",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Salariile angajaților din cultură vor fi supuse consultărilor",
           "filler": false,
           "news": true
         },
@@ -8883,6 +8883,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Salariile angajaților din cultură vor fi supuse consultărilor",
           "filler": false,
           "news": true
         },
@@ -8963,7 +8972,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Comisia care va desemna laureații Premiului Național 2026 a fost aprobată. Cine face parte din ea",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8972,7 +8981,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Comisia care va desemna laureații Premiului Național 2026 a fost aprobată. Cine face parte din ea",
           "filler": false,
           "news": true
         },
@@ -9144,15 +9153,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Scriitori și artiști din diaspora se reunesc în august la Biblioteca Națională în cadrul Zilelor Diasporei 2026",
           "filler": false,
           "news": true
         },
