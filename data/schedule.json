@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-22T10:58:53.600Z",
-  "updatedAtLocal": "22 aug. 2026, 13:58",
+  "updatedAt": "2026-08-22T11:32:26.626Z",
+  "updatedAtLocal": "22 aug. 2026, 14:32",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8161,6 +8161,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Programul evenimentelor dedicate Zilei Independenței. Când va avea loc parada militară și la ce oră începe concertul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Patrimoniul cultural a fost transformat în povești digitale de către un grup de studenți de la USM, UTM și tineri din raioanele țării",
           "filler": false,
           "news": true
@@ -8233,7 +8242,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lucrezi în domeniul aplicării legii și ai o pasiune pentru fotografie? Participă la concursul Capture26 și câștigă o vizită la Europol",
+          "title": "(doc) Vasile Tofan și-a declarat averea. Premierul deține zeci de milioane de lei, mai multe apartamente și un Mercedes Benz",
           "filler": false,
           "news": true
         },
@@ -8242,7 +8251,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Donează o carte copiilor din grădinițe. Cum te poți alătura campaniei „O carte de la tine – o lume pentru mine”",
+          "title": "Cât costă, de fapt, să mergi la sală în Chișinău, dincolo de prețul abonamentului",
           "filler": false,
           "news": true
         },
@@ -8251,7 +8260,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Laptop pentru facultate: ce configurație îți trebuie și ce programe poți obține gratuit cu adresa ta de student",
+          "title": "(grafic) Ce salarii au persoanele din domeniul învățământului. De la 5.500 la 30.000 de lei lunar",
           "filler": false,
           "news": true
         },
@@ -8260,7 +8269,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un teren sufocat de anvelope abandonate, curățat în urma unei intervenții voluntare a A.P. Moldcontrol",
+          "title": "De ce în Republica Moldova nu ai voie să îți schimbi patronimicul",
           "filler": false,
           "news": true
         },
@@ -8269,7 +8278,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Actorul și regizorul român Valeriu Andriuță va fi celebrat în cadrul Zilelor Filmului Românesc la Chișinău, la secțiunea „Focus”",
+          "title": "Absolvenții profilului real ar putea beneficia de facilități la admiterea în unele domenii universitare",
           "filler": false,
           "news": true
         },
@@ -8278,7 +8287,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Premieră în Moldova: plăți contactless direct de pe ceasul Amazfit cu Zepp Pay, cu maib și Mastercard",
+          "title": "(foto) 57 de microbuze școlare noi vor ajunge în școlile din Moldova. Ce raioane vor primi cele mai multe",
           "filler": false,
           "news": true
         },
@@ -8287,7 +8296,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "La ce specialități din școlile profesionale au mai rămas locuri bugetare libere",
+          "title": "Un număr record de tineri specialiști au fost repartizați în școlile din Moldova. Câți profesori mai lipsesc",
           "filler": false,
           "news": true
         },
@@ -8296,25 +8305,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Câte locuri libere au rămas la liceele din Chișinău după cele două etape de admitere",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "E plăcut să primești: Orange le oferă clienților bonusuri la alegere, direct din My Orange",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Reduceri de până la 60 %, plată în rate și un bonus avantajos: iute lansează Back to School",
+          "title": "(foto) Mitul munițiilor de la Cobasna „a explodat”? SIS a prezentat detalii despre depozitul din regiunea transnistreană",
           "filler": false,
           "news": true
         },
