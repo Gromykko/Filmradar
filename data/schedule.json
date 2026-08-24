@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T09:28:10.298Z",
-  "updatedAtLocal": "24 aug. 2026, 12:28",
+  "updatedAt": "2026-08-24T10:20:44.606Z",
+  "updatedAtLocal": "24 aug. 2026, 13:20",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -12561,6 +12561,42 @@
           "start": null,
           "end": null,
           "title": "© 2000-2026 \"I.P. MOLDPRES A.I.S.\"",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Folosim cookie-uri esențiale pentru funcționarea site-ului si cookie-uri de analiză pentru îmbunătățirea serviciilor.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Prin alegerea unei opțiuni confirmi că ai citit",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Termenii și condițiile de utilizare.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Acceptare esențial Acceptare",
           "filler": false,
           "news": true
         }
