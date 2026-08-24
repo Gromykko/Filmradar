@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T11:05:11.582Z",
-  "updatedAtLocal": "24 aug. 2026, 14:05",
+  "updatedAt": "2026-08-24T11:42:00.734Z",
+  "updatedAtLocal": "24 aug. 2026, 14:41",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -12173,6 +12173,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Tradițiile autentice ale Republicii Moldova au prins viață la Horești, în cadrul Festivalului „Tezaur Național”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Rezervația „Orheiul Vechi” vizitată de ministrul Culturii. Dan Suruceanu: „Sprijinim dezvoltarea și valorificarea zonei”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Descoperă Moldova cu #MOLDPRES // Muzeul din Trușeni, locul unde obiectele vechi spun istoria comunității",
           "filler": false,
           "news": true
@@ -12192,24 +12210,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu” își deschide cortina: 11 spectacole și concerte, cu artiști din 12 țări",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Chișinăul devine capitala teatrului românesc: 20 de teatre și 26 de spectacole, la Reuniunea Teatrelor Naționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Filmului Românesc revin la Chișinău cu un program de proiecții, întâlniri și evenimente",
           "filler": false,
           "news": true
         },
@@ -12264,6 +12264,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Chișinăul devine capitala teatrului românesc: 20 de teatre și 26 de spectacole, la Reuniunea Teatrelor Naționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Filmului Românesc revin la Chișinău cu un program de proiecții, întâlniri și evenimente",
           "filler": false,
           "news": true
         },
@@ -12335,6 +12353,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "BTA: Eurovision 2027 va transforma litoralul bulgăresc într-o mare scenă europeană",
           "filler": false,
           "news": true
@@ -12345,15 +12372,6 @@
           "start": null,
           "end": null,
           "title": "Filarmonica Națională revine pe agenda Ministerului Culturii. Dan Suruceanu: „Zi de zi suntem în proces de căutare a soluțiilor pentru această instituție”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -12516,24 +12534,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Zilele Diasporei: povești, cărți și artă, care păstrează legătura cu Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei s-au deschis cu lansări de carte și o expoziție de pictură: arta și cultura îi reunesc pe moldoveni acasă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Pantelimon Halippa - unul dintre cei mai importanți reprezentanți ai generației Unirii Basarabiei cu România din 27 martie 1918",
           "filler": false,
           "news": true
         },
