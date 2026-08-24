@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T18:02:23.865Z",
-  "updatedAtLocal": "24 aug. 2026, 21:02",
+  "updatedAt": "2026-08-24T18:56:05.726Z",
+  "updatedAtLocal": "24 aug. 2026, 21:55",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -649,99 +649,9 @@
           "day": 1,
           "dayName": "luni",
           "date": "2026-08-24",
-          "start": "06:20",
-          "end": "06:50",
-          "title": "С другой стороны",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "11:15",
-          "end": "11:23",
-          "title": "Filler (Cântecele Independenței)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "11:23",
-          "end": "11:30",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "14:09",
-          "end": "14:15",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "16:00",
-          "end": "16:03",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "16:47",
-          "end": "16:57",
-          "title": "Filler",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "16:57",
-          "end": "17:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "19:16",
-          "end": "19:54",
-          "title": "În Context",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "19:54",
-          "end": "20:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-08-24",
-          "start": "23:51",
-          "end": "01:51",
-          "title": "Țară mică, cântec mare.Youth Orchestra. Muzica anilor 70-90",
+          "start": "19:33",
+          "end": "19:56",
+          "title": "Focus",
           "filler": false,
           "source": "tvmail"
         },
@@ -749,7 +659,27 @@
           "day": 2,
           "dayName": "marți",
           "date": "2026-08-25",
-          "start": "01:51",
+          "start": "00:06",
+          "end": "01:46",
+          "title": "Deschide-ți inima",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-08-25",
+          "start": "01:46",
+          "end": "01:50",
+          "title": "Secvențe japoneze (Artificiile tradiționale în divertismentul modern)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-08-25",
+          "start": "01:50",
           "end": "03:50",
           "title": "Bună dimineața!",
           "filler": false,
