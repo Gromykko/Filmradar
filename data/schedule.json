@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T16:07:19.856Z",
-  "updatedAtLocal": "24 aug. 2026, 19:07",
+  "updatedAt": "2026-08-24T17:08:58.636Z",
+  "updatedAtLocal": "24 aug. 2026, 20:08",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -12173,6 +12173,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Chișinăul devine, pentru o săptămână, capitala literaturii europene: CHILL aduce împreună scriitori din Moldova, Ucraina și Europa",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Republica Moldova va avea o nouă lege privind activitatea mass-media, aliniată la standardele europene",
           "filler": false,
           "news": true
@@ -12201,15 +12210,6 @@
           "start": null,
           "end": null,
           "title": "Producătorii moldoveni vor avea acces la coproducții europene și noi mecanisme de finanțare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Tradițiile autentice ale Republicii Moldova au prins viață la Horești, în cadrul Festivalului „Tezaur Național”",
           "filler": false,
           "news": true
         },
@@ -12264,6 +12264,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Tradițiile autentice ale Republicii Moldova au prins viață la Horești, în cadrul Festivalului „Tezaur Național”",
           "filler": false,
           "news": true
         },
@@ -12344,7 +12353,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Muzeul memorial al Statului Major al Frontului II Ucrainean va trece în proprietatea raionului Râșcani",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -12353,7 +12362,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Muzeul memorial al Statului Major al Frontului II Ucrainean va trece în proprietatea raionului Râșcani",
           "filler": false,
           "news": true
         },
@@ -12525,15 +12534,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Vladimir Herța - primul primar al Chișinăului după Unirea Basarabiei cu România",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Lupilor revine la Orheiul Vechi cu trei zile de concerte și activități culturale",
           "filler": false,
           "news": true
         },
