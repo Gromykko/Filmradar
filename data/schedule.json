@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T14:22:51.649Z",
-  "updatedAtLocal": "24 aug. 2026, 17:22",
+  "updatedAt": "2026-08-24T15:20:33.342Z",
+  "updatedAtLocal": "24 aug. 2026, 18:20",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -12173,6 +12173,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Dan Suruceanu, de Ziua Independenței Ucrainei: „Libertatea și cultura să rămână reperele care ne unesc, să ne dea puterea de a construi un viitor european”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Glasuri bărbătești și cântece de haiducie au răsunat la Rezina",
           "filler": false,
           "news": true
@@ -12201,15 +12210,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Rezervația „Orheiul Vechi” vizitată de ministrul Culturii. Dan Suruceanu: „Sprijinim dezvoltarea și valorificarea zonei”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Descoperă Moldova cu #MOLDPRES // Muzeul din Trușeni, locul unde obiectele vechi spun istoria comunității",
           "filler": false,
           "news": true
         },
@@ -12264,6 +12264,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Descoperă Moldova cu #MOLDPRES // Muzeul din Trușeni, locul unde obiectele vechi spun istoria comunității",
           "filler": false,
           "news": true
         },
@@ -12344,7 +12353,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Premiul Național 2026: cine poate candida și până când pot fi depuse dosarele",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -12353,7 +12362,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Premiul Național 2026: cine poate candida și până când pot fi depuse dosarele",
           "filler": false,
           "news": true
         },
@@ -12525,15 +12534,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Diasporei // Experiențe de viață și amintiri, reunite în volumul „Lumea în care am trăit” semnat de Iurie Cojocaru",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei // Din Franța, înapoi acasă prin carte: Dina Vrâncean a lansat volumul „O vacanță la Lipnic”",
           "filler": false,
           "news": true
         },
