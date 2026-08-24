@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T13:10:05.727Z",
-  "updatedAtLocal": "24 aug. 2026, 16:09",
+  "updatedAt": "2026-08-24T14:22:51.649Z",
+  "updatedAtLocal": "24 aug. 2026, 17:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -12173,6 +12173,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Glasuri bărbătești și cântece de haiducie au răsunat la Rezina",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Producătorii moldoveni vor avea acces la coproducții europene și noi mecanisme de finanțare",
           "filler": false,
           "news": true
@@ -12201,15 +12210,6 @@
           "start": null,
           "end": null,
           "title": "Descoperă Moldova cu #MOLDPRES // Muzeul din Trușeni, locul unde obiectele vechi spun istoria comunității",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Nunta de altădată a prins viață la Nimoreni, în cadrul festivalului „Nunta din Străbuni”",
           "filler": false,
           "news": true
         },
@@ -12264,6 +12264,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Nunta de altădată a prins viață la Nimoreni, în cadrul festivalului „Nunta din Străbuni”",
           "filler": false,
           "news": true
         },
@@ -12344,7 +12353,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "VIDEO // Ministerul Culturii îi invită pe copii să deseneze valorile care definesc Moldova",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -12353,7 +12362,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "VIDEO // Ministerul Culturii îi invită pe copii să deseneze valorile care definesc Moldova",
           "filler": false,
           "news": true
         },
@@ -12525,15 +12534,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Diasporei // Din Franța, înapoi acasă prin carte: Dina Vrâncean a lansat volumul „O vacanță la Lipnic”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Maria Bieșu, vocea care a dus faima operei din Republica Moldova pe marile scene ale lumii",
           "filler": false,
           "news": true
         },
