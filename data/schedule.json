@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-25T09:48:29.172Z",
-  "updatedAtLocal": "25 aug. 2026, 12:48",
+  "updatedAt": "2026-08-25T10:46:22.093Z",
+  "updatedAtLocal": "25 aug. 2026, 13:46",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10663,6 +10663,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Programele TV în limba română și conținutul autohton vor avea o pondere mai mare în spațiul audiovizual. Inițiativa legislativă, susținută de Parlament",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // „Independența care ne unește: Moldova 35”. Peste 200 de documente despre istoria Independenței, reunite într-o expoziție la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Spectacolele Independenței”: istoria și memoria Basarabiei, readuse în scenă la Teatrul Național",
           "filler": false,
           "news": true
@@ -10682,24 +10700,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova va avea o nouă lege privind activitatea mass-media, aliniată la standardele europene",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Dan Suruceanu, de Ziua Independenței Ucrainei: „Libertatea și cultura să rămână reperele care ne unesc, să ne dea puterea de a construi un viitor european”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Glasuri bărbătești și cântece de haiducie au răsunat la Rezina",
           "filler": false,
           "news": true
         },
@@ -10754,6 +10754,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Dan Suruceanu, de Ziua Independenței Ucrainei: „Libertatea și cultura să rămână reperele care ne unesc, să ne dea puterea de a construi un viitor european”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Glasuri bărbătești și cântece de haiducie au răsunat la Rezina",
           "filler": false,
           "news": true
         },
@@ -10825,6 +10843,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Zilele Filmului Românesc revin la Chișinău cu un program de proiecții, întâlniri și evenimente",
           "filler": false,
           "news": true
@@ -10835,15 +10862,6 @@
           "start": null,
           "end": null,
           "title": "Salariile angajaților din cultură vor fi supuse consultărilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -11006,24 +11024,6 @@
           "start": null,
           "end": null,
           "title": "Orașele din Republica Moldova se pot înscrie în cursa pentru titlul de „Capitală Europeană a Culturii 2033”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei // „Autori basarabeni în lume”, expoziție de carte la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Forumul Diasporei // „Cele șapte minuni ale Moldovei” – proiectul care își propune să apropie copiii din diaspora de țara de origine",
           "filler": false,
           "news": true
         },
