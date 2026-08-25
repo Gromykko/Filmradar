@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-25T13:07:45.889Z",
-  "updatedAtLocal": "25 aug. 2026, 16:07",
+  "updatedAt": "2026-08-25T14:25:25.297Z",
+  "updatedAtLocal": "25 aug. 2026, 17:25",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10663,6 +10663,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Editurile își pot propune titlurile pentru Programul de editare a cărții naționale 2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Fotografiile lui Mihai Potârniche, expuse la Președinție la 35 de ani de la Independență: „Ceea ce am fotografiat atunci este astăzi istorie”",
           "filler": false,
           "news": true
@@ -10691,15 +10700,6 @@
           "start": null,
           "end": null,
           "title": "„Spectacolele Independenței”: istoria și memoria Basarabiei, readuse în scenă la Teatrul Național",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Chișinăul devine, pentru o săptămână, capitala literaturii europene: CHILL aduce împreună scriitori din Moldova, Ucraina și Europa",
           "filler": false,
           "news": true
         },
@@ -10754,6 +10754,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Chișinăul devine, pentru o săptămână, capitala literaturii europene: CHILL aduce împreună scriitori din Moldova, Ucraina și Europa",
           "filler": false,
           "news": true
         },
@@ -10834,7 +10843,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu” își deschide cortina: 11 spectacole și concerte, cu artiști din 12 țări",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10843,7 +10852,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu” își deschide cortina: 11 spectacole și concerte, cu artiști din 12 țări",
           "filler": false,
           "news": true
         },
@@ -11015,15 +11024,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Forumul Diasporei // Ministrul Culturii a prezintat oportunitățile de finanțare pentru proiecte culturale și mobilitatea artiștilor",
           "filler": false,
           "news": true
         },
