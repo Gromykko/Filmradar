@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-26T06:03:57.229Z",
-  "updatedAtLocal": "26 aug. 2026, 09:03",
+  "updatedAt": "2026-08-26T07:06:09.355Z",
+  "updatedAtLocal": "26 aug. 2026, 10:05",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9333,6 +9333,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Ministerul Culturii dă start colectării ofertelor pentru traducerea cărții naționale în străinătate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Filmului Românesc aduc la Chișinău patru filme lansate pe marile scene internaționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Editurile își pot propune titlurile pentru Programul de editare a cărții naționale 2027",
           "filler": false,
           "news": true
@@ -9352,24 +9370,6 @@
           "start": null,
           "end": null,
           "title": "Programele TV în limba română și conținutul autohton vor avea o pondere mai mare în spațiul audiovizual. Inițiativa legislativă, susținută de Parlament",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Independența care ne unește: Moldova 35”. Peste 200 de documente despre istoria Independenței, reunite într-o expoziție la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Spectacolele Independenței”: istoria și memoria Basarabiei, readuse în scenă la Teatrul Național",
           "filler": false,
           "news": true
         },
@@ -9424,6 +9424,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // „Independența care ne unește: Moldova 35”. Peste 200 de documente despre istoria Independenței, reunite într-o expoziție la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Spectacolele Independenței”: istoria și memoria Basarabiei, readuse în scenă la Teatrul Național",
           "filler": false,
           "news": true
         },
@@ -9495,6 +9513,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Descoperă Moldova cu #MOLDPRES // Muzeul din Trușeni, locul unde obiectele vechi spun istoria comunității",
           "filler": false,
           "news": true
@@ -9505,15 +9532,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Nunta de altădată a prins viață la Nimoreni, în cadrul festivalului „Nunta din Străbuni”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9676,24 +9694,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Scoarța, cămașa cu altiță și Mărțișorul, promovate în cadrul unui proiect național",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Ion Vatamanu – poet, savant și una dintre vocile renașterii naționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Diasporei // O poveste despre Moldova spusă prin culori: „Dincolo de prag”, expoziția Olgăi Chilat, stabilită la Bruxelles",
           "filler": false,
           "news": true
         },
