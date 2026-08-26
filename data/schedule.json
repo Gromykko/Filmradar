@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-26T11:40:15.311Z",
-  "updatedAtLocal": "26 aug. 2026, 14:40",
+  "updatedAt": "2026-08-26T13:12:34.643Z",
+  "updatedAtLocal": "26 aug. 2026, 16:12",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5867,6 +5867,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Zdrobitor manual sau electric: care este diferenţa dintre ele",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | Evacuator EVAX Chişinău: Cum alegi serviciul potrivit?",
           "filler": false,
           "news": true
@@ -5886,15 +5895,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Zbor.md – partenerul tău de încredere în lumea biletelor de avion ieftine",
           "filler": false,
           "news": true
         },
@@ -5982,6 +5982,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Zdrobitor manual sau electric: care este diferenţa dintre ele",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | Evacuator EVAX Chişinău: Cum alegi serviciul potrivit?",
           "filler": false,
           "news": true
@@ -6028,15 +6037,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL // De ce în curând nu îţi vei mai putea instala panouri solare în Republica Moldova?",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL // Cu suportul financiar al Uniunii Europene în Republica Moldova au fost deschise 16 spălătorii sociale",
           "filler": false,
           "news": true
         },
@@ -9121,6 +9121,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Bookfest revine la Chișinău. Când și unde se va desfășura Salonul de Carte",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Trei festivaluri de literatură se reunesc la Chișinău. Ce aduce ediția din acest an a festivalului CHILL",
           "filler": false,
           "news": true
@@ -9193,7 +9202,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "O bere produsă în Moldova a fost desemnată cea mai bună din lume la categoria „Best Stout & Porter”. Care e aceasta",
+          "title": "În sezonul rece 2026/2027 doar cei mai vulnerabili cetățeni ar putea primi compensații pentru energie",
           "filler": false,
           "news": true
         },
@@ -9202,7 +9211,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Festivalul Vinului de Autor 2026: cinci experiențe pe care le poți trăi într-un singur weekend",
+          "title": "În perioada 26-31 august va fi limitat temporar accesul persoanelor în anumite locuri publice din Chișinău. Care sunt străzile vizate",
           "filler": false,
           "news": true
         },
@@ -9211,7 +9220,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lista cadourile pe care le-a primit Maia Sandu în 2026. Toate au rămas la Președinție",
+          "title": "Mai multe școli profesionale vor fi adaptate pentru elevii cu dizabilități și cerințe educaționale speciale",
           "filler": false,
           "news": true
         },
@@ -9220,7 +9229,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "100 de smartphone-uri sunt în joc pentru clienții cu pachet salarial maib",
+          "title": "Ce premii vor primi participanții care vor obține notele 9 și 10 la Marea Dictare Națională",
           "filler": false,
           "news": true
         },
@@ -9229,7 +9238,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tată pentru nouă copii: povestea bărbatului care a învățat să le fie totul",
+          "title": "Începi viața de student în curând? Lista lucrurilor necesare pentru studenția în România",
           "filler": false,
           "news": true
         },
@@ -9238,7 +9247,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Primul meu gând a fost: «Așa ceva e posibil?».” Codrina Pietraru, despre cei trei ani de studii la București, oportunitățile din România și burnout",
+          "title": "Școlile și grădinițele cu deficit de fonduri vor putea primi bani din economiile altor instituții de învățământ pentru salariile profesorilor",
           "filler": false,
           "news": true
         },
@@ -9247,7 +9256,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cinci evenimente la care să-ți petreci ultimele seri ale acestei veri",
+          "title": "Formula Student Team UTM participă la primele competiții internaționale",
           "filler": false,
           "news": true
         },
@@ -9256,16 +9265,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Circa 260.000 de prezervative au fost retrase de pe piața din Franța din cauza riscului de rupere",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "(video) Ce este un CCTV și cum îi poate ajuta acest dispozitiv pe tinerii cu deficiențe de vedere să participe la Marea Dictare Națională",
+          "title": "Indemnizații de până la 375.000 de lei pentru tinerii care aleg să lucreze în învățământ profesional tehnic și superior din țară",
           "filler": false,
           "news": true
         },
