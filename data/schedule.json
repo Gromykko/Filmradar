@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-27T03:32:35.653Z",
-  "updatedAtLocal": "27 aug. 2026, 06:32",
+  "updatedAt": "2026-08-27T14:37:14.029Z",
+  "updatedAtLocal": "27 aug. 2026, 17:37",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9381,6 +9381,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "(video) De Ziua Independenței, maib readuce „Răsai” în vocile unei noi generații",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce mesaje au transmis politicienii și liderii internaționali Republicii Moldova cu ocazia celor 35 de ani de independență",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Direcția noastră e comună – spre UE.” Mesajul Președintei Maia Sandu cu ocazia celor 35 de ani de independență a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ce se va întâmpla cu tradițiile noastre după aderarea la Uniunea Europeană",
           "filler": false,
           "news": true
@@ -9426,7 +9453,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Foametea organizată din 1946-1947 va fi recunoscută oficial drept crimă împotriva umanității",
+          "title": "Femeile din Moldova care au peste 55 de ani pot învăța gratuit o meserie. Ce cursuri sunt disponibile și cum te înscrii",
           "filler": false,
           "news": true
         },
@@ -9435,7 +9462,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(foto) Pe strada Ion Creangă a apărut o pictură murală de 120 de metri pătrați. Vezi cum arată aceasta",
+          "title": "Începe o nouă rundă de înscrieri la cursurilor gratuite despre robotică și programare pentru elevii din școli profesionale și colegii",
           "filler": false,
           "news": true
         },
@@ -9444,7 +9471,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ești scenarist(ă)? Înscrie-ți proiectul la un concurs internațional și fă-l cunoscut producătorilor din peste 150 de țări",
+          "title": "Independență, migrație și dor. Ce spune Satoshi despre Republica Moldova în piesele sale",
           "filler": false,
           "news": true
         },
@@ -9453,7 +9480,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Festivalul Vinului de Autor 2026. Timp de trei zile, 40 de vinificatori își vor prezenta vinurile care le poartă semnătura",
+          "title": "Programul Festivalului YARDSALE + THE ART. Organizatorii promit un weekend dedicat artei și muzicii",
           "filler": false,
           "news": true
         },
@@ -9462,61 +9489,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Vinul care ne unește”: Oficiul Național al Viei și Vinului lansează platforma care conectează Vinul Moldovei, vinăriile, HoReCa și consumatorii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "În Moldova va fi construit primul spital care va oferi servicii gratuite de îngrijire pentru pacienții cu boli incurabile",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "În sezonul rece 2026/2027 doar cei mai vulnerabili cetățeni ar putea primi compensații pentru energie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "În perioada 26-31 august va fi limitat temporar accesul persoanelor în anumite locuri publice din Chișinău. Care sunt străzile vizate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Mai multe școli profesionale vor fi adaptate pentru elevii cu dizabilități și cerințe educaționale speciale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ce premii vor primi participanții care vor obține notele 9 și 10 la Marea Dictare Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Începi viața de student în curând? Lista lucrurilor necesare pentru studenția în România",
+          "title": "Elevii din Moldova pot învăța gratuit la o școală din China, SUA sau Țările de Jos. Au început înscrierile pentru bursele UWC",
           "filler": false,
           "news": true
         },
@@ -9584,6 +9557,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Sofia Rotaru felicită Republica Moldova cu ocazia Zilei Independenței: „La mulți ani! Să fie pace”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ministerul Culturii dă start colectării ofertelor pentru traducerea cărții naționale în străinătate",
           "filler": false,
           "news": true
@@ -9612,15 +9594,6 @@
           "start": null,
           "end": null,
           "title": "Fotografiile lui Mihai Potârniche, expuse la Președinție la 35 de ani de la Independență: „Ceea ce am fotografiat atunci este astăzi istorie”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Programele TV în limba română și conținutul autohton vor avea o pondere mai mare în spațiul audiovizual. Inițiativa legislativă, susținută de Parlament",
           "filler": false,
           "news": true
         },
@@ -9675,6 +9648,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Programele TV în limba română și conținutul autohton vor avea o pondere mai mare în spațiul audiovizual. Inițiativa legislativă, susținută de Parlament",
           "filler": false,
           "news": true
         },
@@ -9755,7 +9737,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Rezervația „Orheiul Vechi” vizitată de ministrul Culturii. Dan Suruceanu: „Sprijinim dezvoltarea și valorificarea zonei”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9764,7 +9746,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Rezervația „Orheiul Vechi” vizitată de ministrul Culturii. Dan Suruceanu: „Sprijinim dezvoltarea și valorificarea zonei”",
           "filler": false,
           "news": true
         },
@@ -9936,15 +9918,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Tradițiile și meșteșugurile populare, celebrate la Festivalul „Floare Ciuciuleni”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Scoarța, cămașa cu altiță și Mărțișorul, promovate în cadrul unui proiect național",
           "filler": false,
           "news": true
         },
