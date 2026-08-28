@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-28T00:00:21.897Z",
-  "updatedAtLocal": "28 aug. 2026, 03:00",
+  "updatedAt": "2026-08-28T11:17:49.421Z",
+  "updatedAtLocal": "28 aug. 2026, 14:17",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8857,6 +8857,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Revistele culturale pot obține finanțare de la stat pentru anul 2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Mii de oameni au sărbătorit Independența Republicii Moldova în Piața Marii Adunări Naționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Bookfest revine la Chișinău: cinci zile de carte, întâlniri cu scriitori și evenimente culturale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Sofia Rotaru felicită Republica Moldova cu ocazia Zilei Independenței: „La mulți ani! Să fie pace”",
           "filler": false,
           "news": true
@@ -8867,33 +8894,6 @@
           "start": null,
           "end": null,
           "title": "Ministerul Culturii dă start colectării ofertelor pentru traducerea cărții naționale în străinătate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Filmului Românesc aduc la Chișinău patru filme lansate pe marile scene internaționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Editurile își pot propune titlurile pentru Programul de editare a cărții naționale 2027",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Fotografiile lui Mihai Potârniche, expuse la Președinție la 35 de ani de la Independență: „Ceea ce am fotografiat atunci este astăzi istorie”",
           "filler": false,
           "news": true
         },
@@ -8956,6 +8956,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Zilele Filmului Românesc aduc la Chișinău patru filme lansate pe marile scene internaționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Editurile își pot propune titlurile pentru Programul de editare a cărții naționale 2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Fotografiile lui Mihai Potârniche, expuse la Președinție la 35 de ani de la Independență: „Ceea ce am fotografiat atunci este astăzi istorie”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Programele TV în limba română și conținutul autohton vor avea o pondere mai mare în spațiul audiovizual. Inițiativa legislativă, susținută de Parlament",
           "filler": false,
           "news": true
@@ -9010,6 +9037,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Glasuri bărbătești și cântece de haiducie au răsunat la Rezina",
           "filler": false,
           "news": true
@@ -9029,15 +9065,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Tradițiile autentice ale Republicii Moldova au prins viață la Horești, în cadrul Festivalului „Tezaur Național”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9191,33 +9218,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Pâinea și portul popular, sărbătorite la Mîndîc. Festivalul tradițiilor a ajuns la cea de-a VIII-a ediție",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Hora de la Prut” a dus tradițiile din Ungheni la Festivalul Internațional de Folclor „Ceahlăul”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul cultural de pe ambele maluri ale Prutului, celebrat prin meșteșuguri și tradiții la Cahul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Tradițiile și meșteșugurile populare, celebrate la Festivalul „Floare Ciuciuleni”",
           "filler": false,
           "news": true
         },
