@@ -9203,6 +9203,448 @@
         "filler": false,
         "source": "tvmail"
       }
+    ],
+    "2026-09-04": [
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "05:58",
+        "end": "06:00",
+        "title": "Deschiderea Statiei",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "06:00",
+        "end": "07:00",
+        "title": "Hai la hora mare (Episodul 1)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "07:00",
+        "end": "07:15",
+        "title": "Tezaur (Antonia Rusu)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "07:15",
+        "end": "07:45",
+        "title": "Moldova de patrimoniu",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "07:45",
+        "end": "08:15",
+        "title": "Artelier (Complexul memorial Mingir)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "08:15",
+        "end": "08:20",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "08:20",
+        "end": "08:50",
+        "title": "Dor (Gheorghe Urschi)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "08:50",
+        "end": "08:55",
+        "title": "Necuvintele",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "08:55",
+        "end": "09:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "09:00",
+        "end": "09:40",
+        "title": "People to people (Episodul 3)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "09:40",
+        "end": "09:50",
+        "title": "Chișinăul de ieri și de azi",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "09:50",
+        "end": "09:55",
+        "title": "Necuvintele",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "09:55",
+        "end": "10:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "10:00",
+        "end": "10:20",
+        "title": "Portrete în timp (Vasile Constantinov)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "10:20",
+        "end": "10:25",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "10:25",
+        "end": "10:55",
+        "title": "Athenaeum",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "10:55",
+        "end": "11:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "11:00",
+        "end": "12:30",
+        "title": "Să le spunem pe nume",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "12:30",
+        "end": "12:35",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "12:35",
+        "end": "14:25",
+        "title": "Turandot de G.Puccini",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "14:25",
+        "end": "14:30",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "14:30",
+        "end": "15:00",
+        "title": "Identitate Basarabia (Eugen Negruță)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "15:00",
+        "end": "15:25",
+        "title": "In lumea artelor (Gheorghe Guzun)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "15:25",
+        "end": "15:30",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "15:30",
+        "end": "16:00",
+        "title": "Dor (Gheorghe Vodă)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "16:00",
+        "end": "16:35",
+        "title": "People to people (Episodul 4)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "16:35",
+        "end": "16:40",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "16:40",
+        "end": "16:55",
+        "title": "Cinemateca universală (Uma Thurman)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "16:55",
+        "end": "17:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "17:00",
+        "end": "18:05",
+        "title": "Hai la hora mare (Episodul 2)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "18:05",
+        "end": "18:10",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "18:10",
+        "end": "18:55",
+        "title": "Tezaur (Nicolae Dron - iutier)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "18:55",
+        "end": "19:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "19:00",
+        "end": "19:30",
+        "title": "Moldova de patrimoniu",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "19:30",
+        "end": "21:00",
+        "title": "Antinostalgia (Foametea din anii 1946-1947 din RSS Moldovenească)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "21:00",
+        "end": "21:54",
+        "title": "F.D (Antagoniștii: Caravaggio împotriva lui Baglione)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "21:54",
+        "end": "22:00",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-04",
+        "start": "22:00",
+        "end": "00:20",
+        "title": "Alexandr Vertinski. Monospectacol",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-05",
+        "start": "00:20",
+        "end": "02:10",
+        "title": "Frumoasa venețiană",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-05",
+        "start": "02:10",
+        "end": "02:30",
+        "title": "Portrete în timp (Vasile Constantinov)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-05",
+        "start": "02:30",
+        "end": "03:00",
+        "title": "Athenaeum",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-05",
+        "start": "03:00",
+        "end": "03:30",
+        "title": "Identitate Basarabia (Eugen Negruță)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-05",
+        "start": "03:30",
+        "end": "03:40",
+        "title": "Chișinăul de ieri și de azi",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-05",
+        "start": "03:40",
+        "end": "05:58",
+        "title": "Alexandr Vertinski. Monospectacol",
+        "filler": false,
+        "source": "tvmail"
+      }
     ]
   }
 }
