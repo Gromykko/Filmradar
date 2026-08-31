@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-31T01:21:13.867Z",
-  "updatedAtLocal": "31 aug. 2026, 04:21",
+  "updatedAt": "2026-08-31T07:36:36.322Z",
+  "updatedAtLocal": "31 aug. 2026, 10:36",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -512,6 +512,16 @@
           "start": "22:05",
           "end": "22:20",
           "title": "Concert",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-08-31",
+          "start": "22:20",
+          "end": "22:50",
+          "title": "Ştiri Externe",
           "filler": false,
           "source": "tvmail"
         },
@@ -11835,7 +11845,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Ziua Limbii Române unește simbolic Republica Moldova, România și Ucraina. Sărbătoarea, marcată în premieră la Cernăuți",
+          "title": "FOTO // Publicații rare dedicate lui Grigore Vieru, donate Bibliotecii Parlamentului de fiul poetului",
           "filler": false,
           "news": true
         },
@@ -11844,7 +11854,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "BTA: Producția „Bacantele” de Euripide, în regia lui Javor Gardev, revine la Atena cu un spectacol la Teatrul Lycabettus",
+          "title": "Consiliul Academic Român reafirmă rolul limbii române în păstrarea identității și unității. Declarația de la Chișinău",
           "filler": false,
           "news": true
         },
@@ -11853,7 +11863,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "GALERIE FOTO // „Serenade la Butuceni”: Povestea unui concert spusă în imagini",
+          "title": "Scriitorul și pedagogul Aurelian Silvestru – o viață între lupta pentru limba română și educația generațiilor",
           "filler": false,
           "news": true
         },
@@ -11862,7 +11872,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Moldova sunt EU // Carolina Cheianu-Tudos: Dragostea de țară și de limba română, transformată în misiunea de a păstra trecutul",
+          "title": "VIDEO // Ambasadoarea UE, Iwona Piórko, recită în limba română o poezie scrisă de fiica sa",
           "filler": false,
           "news": true
         },
@@ -11871,7 +11881,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "INTERVIU MOLDPRES // Soprana Violeta Botezatu, de la Veneția la Butuceni: „Serenade” despre dor, rădăcini și revenire",
+          "title": "Ziua Limbii Române, sărbătorită la Chișinău prin Marea Dictare Națională și evenimente culturale",
           "filler": false,
           "news": true
         },
@@ -11934,6 +11944,51 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Ziua Limbii Române unește simbolic Republica Moldova, România și Ucraina. Sărbătoarea, marcată în premieră la Cernăuți",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "BTA: Producția „Bacantele” de Euripide, în regia lui Javor Gardev, revine la Atena cu un spectacol la Teatrul Lycabettus",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // „Serenade la Butuceni”: Povestea unui concert spusă în imagini",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Moldova sunt EU // Carolina Cheianu-Tudos: Dragostea de țară și de limba română, transformată în misiunea de a păstra trecutul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "INTERVIU MOLDPRES // Soprana Violeta Botezatu, de la Veneția la Butuceni: „Serenade” despre dor, rădăcini și revenire",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Cuvinte care formează, imagini care inspiră”: Manualele de Limba română, de ieri și de azi, expuse la Biblioteca Națională",
           "filler": false,
           "news": true
@@ -11962,6 +12017,15 @@
           "start": null,
           "end": null,
           "title": "Noaptea Muzeelor la Sate începe astăzi în Republica Moldova și România. Ce pot descoperi vizitatorii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -12007,15 +12071,6 @@
           "start": null,
           "end": null,
           "title": "Ministerul Culturii dă start colectării ofertelor pentru traducerea cărții naționale în străinătate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -12151,51 +12206,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Nunta de altădată a prins viață la Nimoreni, în cadrul festivalului „Nunta din Străbuni”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu” își deschide cortina: 11 spectacole și concerte, cu artiști din 12 țări",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Chișinăul devine capitala teatrului românesc: 20 de teatre și 26 de spectacole, la Reuniunea Teatrelor Naționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Filmului Românesc revin la Chișinău cu un program de proiecții, întâlniri și evenimente",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Salariile angajaților din cultură vor fi supuse consultărilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Legislația audiovizuală a Republicii Moldova va fi ajustată la normele UE",
           "filler": false,
           "news": true
         },

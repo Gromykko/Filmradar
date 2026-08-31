@@ -3231,6 +3231,16 @@
         "day": 1,
         "dayName": "luni",
         "date": "2026-08-31",
+        "start": "22:20",
+        "end": "22:50",
+        "title": "Ştiri Externe",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 1,
+        "dayName": "luni",
+        "date": "2026-08-31",
         "start": "22:50",
         "end": "22:55",
         "title": "Publicitate",
