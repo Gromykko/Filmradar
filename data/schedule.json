@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-01T11:34:15.495Z",
-  "updatedAtLocal": "1 sept. 2026, 14:34",
+  "updatedAt": "2026-09-01T15:32:20.364Z",
+  "updatedAtLocal": "1 sept. 2026, 18:32",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10283,6 +10283,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Lecția negocierii României cu Uniunea Europeană: pașii tehnici și greșelile pe care Republica Moldova trebuie să le evite",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Tații își iubesc mai mult fiicele, iar cu fiii sunt mai severi?” Cum diferă dragostea paternă față de fete și băieți",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Aceiași țară, aceleași taxe.” De astăzi, 1 septembrie, companiile din regiunea transnistreană vor achita TVA pentru unele mărfuri aduse pe malul drept",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Dor, mamă sau harpacică. Care sunt cuvintele preferate în limba română ale urmăritorilor #diez",
           "filler": false,
           "news": true
@@ -10311,24 +10338,6 @@
           "start": null,
           "end": null,
           "title": "Circa 8.000 de elevi din Chișinău vor primi câte 700 de lei pentru pregătirea de noul an școlar",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Primăria vine cu precizări noi legate de bannerul cu Eugen Doga: „Greșeala va fi suportată de agentul economic”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Studenții ar trebui să afle din timp dacă primesc sau nu cămin. CNTM vine cu o listă de cerințe la adresa USM și MEC",
           "filler": false,
           "news": true
         },
@@ -10396,6 +10405,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Bookfest Chișinău 2026: cinci zile dedicate cărții, autorilor și dialogului cultural",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Spectacolul „Dosarele Siberiei”, la Cotroceni. Președintele Nicușor Dan: „Memoria victimelor represiunilor totalitare aparține întregii Europe”",
           "filler": false,
           "news": true
@@ -10424,15 +10442,6 @@
           "start": null,
           "end": null,
           "title": "Spectacolul „Dosarele Siberiei”, prezentat astăzi la Palatul Cotroceni",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Publicații rare dedicate lui Grigore Vieru, donate Bibliotecii Parlamentului de fiul poetului",
           "filler": false,
           "news": true
         },
@@ -10487,6 +10496,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Publicații rare dedicate lui Grigore Vieru, donate Bibliotecii Parlamentului de fiul poetului",
           "filler": false,
           "news": true
         },
@@ -10567,7 +10585,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "INTERVIU MOLDPRES // Soprana Violeta Botezatu, de la Veneția la Butuceni: „Serenade” despre dor, rădăcini și revenire",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -10576,7 +10594,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "INTERVIU MOLDPRES // Soprana Violeta Botezatu, de la Veneția la Butuceni: „Serenade” despre dor, rădăcini și revenire",
           "filler": false,
           "news": true
         },
@@ -10748,15 +10766,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Glasuri bărbătești și cântece de haiducie au răsunat la Rezina",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Producătorii moldoveni vor avea acces la coproducții europene și noi mecanisme de finanțare",
           "filler": false,
           "news": true
         },
