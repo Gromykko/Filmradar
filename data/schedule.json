@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-02T13:35:08.343Z",
-  "updatedAtLocal": "2 sept. 2026, 16:34",
+  "updatedAt": "2026-09-02T17:20:49.332Z",
+  "updatedAtLocal": "2 sept. 2026, 20:20",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9173,7 +9173,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lecția negocierii României cu Uniunea Europeană: pașii tehnici și greșelile pe care Republica Moldova trebuie să le evite",
+          "title": "Cum a evoluat nivelul apei în lacurile din Moldova în ultimii trei ani. Manta a secat aproape complet",
           "filler": false,
           "news": true
         },
@@ -9182,7 +9182,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Tații își iubesc mai mult fiicele, iar cu fiii sunt mai severi?” Cum diferă dragostea paternă față de fete și băieți",
+          "title": "„Așezate pe hârtie frumos, toate lucrurile arată bine.” Fostă directoare de liceu, despre crearea Agențiile Teritoriale pentru Educație",
           "filler": false,
           "news": true
         },
@@ -9191,7 +9191,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Aceiași țară, aceleași taxe.” De astăzi, 1 septembrie, companiile din regiunea transnistreană vor achita TVA pentru unele mărfuri aduse pe malul drept",
+          "title": "Sectoarele economice cu potențial investițional, pe agenda Moldova Business Week 2026",
           "filler": false,
           "news": true
         },
@@ -9200,7 +9200,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Dor, mamă sau harpacică. Care sunt cuvintele preferate în limba română ale urmăritorilor #diez",
+          "title": "Deeptech Training of Trainers: mentorii Deeptech GigaHack 2026 au participat, în premieră, la un program de formare",
           "filler": false,
           "news": true
         },
@@ -9209,7 +9209,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Câți elevi și câți profesori vom avea în școlile din Moldova în anul de studii 2026/2027",
+          "title": "(grafic) Cum a evoluat numărul de elevi înscriși în clasa întâi în ultimii șase ani",
           "filler": false,
           "news": true
         },
@@ -9218,7 +9218,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Bullying, mediu sau empatie. Despre ce subiecte și-ar fi dorit moldovenii să discute profesorii cu elevii la prima lecție",
+          "title": "Lista oportunităților al căror termen-limită pentru înregistrare expiră în luna septembrie",
           "filler": false,
           "news": true
         },
@@ -9227,7 +9227,16 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Circa 8.000 de elevi din Chișinău vor primi câte 700 de lei pentru pregătirea de noul an școlar",
+          "title": "Justiție, transparență și economie: cum a atras statul de drept investiții în România și ce lecții poate învăța Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cum poți obține nota 10 la bac la informatică",
           "filler": false,
           "news": true
         },
@@ -9237,6 +9246,51 @@
           "start": null,
           "end": null,
           "title": "#diez &copy; 2026 - Toate drepturile rezervate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Gestionează consimțământul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "The technical storage or access that is used exclusively for statistical purposes.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Administrează vânzătorii {vendor_count}",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Citește mai multe despre aceste scopuri",
           "filler": false,
           "news": true
         }
