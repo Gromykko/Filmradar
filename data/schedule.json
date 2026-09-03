@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-03T05:45:54.101Z",
-  "updatedAtLocal": "3 sept. 2026, 08:45",
+  "updatedAt": "2026-09-03T11:08:17.017Z",
+  "updatedAtLocal": "3 sept. 2026, 14:07",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8177,6 +8177,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Florin Piersic, omagiat la Zilele Filmului Românesc. Trei producții de colecție, pe ecranele din Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Spațiile Editurii „Universul” vor fi transformate într-un centru modern pentru cultură și industrii creative",
           "filler": false,
           "news": true
@@ -8205,15 +8214,6 @@
           "start": null,
           "end": null,
           "title": "Bookfest Chișinău 2026: cinci zile dedicate cărții, autorilor și dialogului cultural",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Spectacolul „Dosarele Siberiei”, la Cotroceni. Președintele Nicușor Dan: „Memoria victimelor represiunilor totalitare aparține întregii Europe”",
           "filler": false,
           "news": true
         },
@@ -8268,6 +8268,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Spectacolul „Dosarele Siberiei”, la Cotroceni. Președintele Nicușor Dan: „Memoria victimelor represiunilor totalitare aparține întregii Europe”",
           "filler": false,
           "news": true
         },
@@ -8348,7 +8357,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Ziua Limbii Române unește simbolic Republica Moldova, România și Ucraina. Sărbătoarea, marcată în premieră la Cernăuți",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8357,7 +8366,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Ziua Limbii Române unește simbolic Republica Moldova, România și Ucraina. Sărbătoarea, marcată în premieră la Cernăuți",
           "filler": false,
           "news": true
         },
@@ -8537,15 +8546,6 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Chișinăul devine, pentru o săptămână, capitala literaturii europene: CHILL aduce împreună scriitori din Moldova, Ucraina și Europa",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
           "title": "Adresa: Republica Moldova, Chișinău, str.Puskin, 22",
           "filler": false,
           "news": true
@@ -8565,42 +8565,6 @@
           "start": null,
           "end": null,
           "title": "© 2000-2026 \"I.P. MOLDPRES A.I.S.\"",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Folosim cookie-uri esențiale pentru funcționarea site-ului si cookie-uri de analiză pentru îmbunătățirea serviciilor.",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Prin alegerea unei opțiuni confirmi că ai citit",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Termenii și condițiile de utilizare.",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Acceptare esențial Acceptare",
           "filler": false,
           "news": true
         }
