@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-04T04:23:51.033Z",
-  "updatedAtLocal": "4 sept. 2026, 07:23",
+  "updatedAt": "2026-09-04T09:02:10.279Z",
+  "updatedAtLocal": "4 sept. 2026, 12:01",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6789,6 +6789,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "România a decis ce film va propune la Premiile Oscar 2027. A fost scris și regizat de un cineast cu rădăcini în Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Un film despre istoria romilor deportați din Basarabia în timpul celui de-Al Doilea Război Mondial va fi proiectat la New York",
           "filler": false,
           "news": true
@@ -6852,7 +6861,25 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Direcția noastră e comună – spre UE.” Mesajul Președintei Maia Sandu cu ocazia celor 35 de ani de independență a Moldovei",
+          "title": "Cum sunt asigurați elevii din Republica Moldova cu manuale școlare. Precizările Ministerului Educației și Cercetării",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "(foto) Fotografii cu manuale uzate, publicate de părinți. Aceștia se plâng de starea cărților primite de elevi",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Liceele și colegiile din țară se pot înscrie la un program care le va ajuta să formeze o echipă de robotică în instituție",
           "filler": false,
           "news": true
         },
@@ -6898,42 +6925,6 @@
           "start": null,
           "end": null,
           "title": "„EU și tu” revine cu o nouă ediție. Tinerii din Moldova se pot înscrie la un schimb intercultural despre valorile europene",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Consiliile Elevilor din Chișinău pot obține până la 10.000 de lei pentru proiecte. Condițiile de înscriere în programul de granturi",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "200 de brățări noi, urmărire la frontieră și dosar penal. Lista măsurilor anunțate de Guvern după crima de la Măgdăcești",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Protest la Chișinău după ce o femeie a fost ucisă, deși ceruse de două ori protecția statului. Când și unde va avea loc",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Artiștii din Moldova sunt invitați la un schimb de experiență cu colegi din Ucraina și Georgia despre dezvoltarea sectorului cultural",
           "filler": false,
           "news": true
         },
