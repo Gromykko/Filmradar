@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T12:02:56.449Z",
-  "updatedAtLocal": "5 sept. 2026, 15:02",
+  "updatedAt": "2026-09-05T15:08:02.413Z",
+  "updatedAtLocal": "5 sept. 2026, 18:07",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7169,6 +7169,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // VinOpera 2026: Muzica clasică și vinul, într-o experiență culturală la Bulboaca",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Olimpismul și Războiul Rece, într-o nouă cercetare semnată de Sergiu Gurin",
           "filler": false,
           "news": true
@@ -7197,15 +7206,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova renunță la Acordul CSI privind schimbul de publicații între biblioteci",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O nouă ediție a Festivalului „Maria Bieșu” începe la Chișinău. Ce spectacole pregătește Opera Națională?",
           "filler": false,
           "news": true
         },
@@ -7260,6 +7260,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O nouă ediție a Festivalului „Maria Bieșu” începe la Chișinău. Ce spectacole pregătește Opera Națională?",
           "filler": false,
           "news": true
         },
@@ -7340,7 +7349,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Spectacolul „Dosarele Siberiei”, prezentat astăzi la Palatul Cotroceni",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -7349,7 +7358,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Spectacolul „Dosarele Siberiei”, prezentat astăzi la Palatul Cotroceni",
           "filler": false,
           "news": true
         },
@@ -7521,15 +7530,6 @@
           "start": null,
           "end": null,
           "title": "Ministerul Culturii dă start colectării ofertelor pentru traducerea cărții naționale în străinătate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Filmului Românesc aduc la Chișinău patru filme lansate pe marile scene internaționale",
           "filler": false,
           "news": true
         },
