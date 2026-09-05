@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T04:18:51.926Z",
-  "updatedAtLocal": "5 sept. 2026, 07:18",
+  "updatedAt": "2026-09-05T08:33:44.169Z",
+  "updatedAtLocal": "5 sept. 2026, 11:33",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7169,6 +7169,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Șase autori, premiați la Chișinău pentru contribuția la literatura română contemporană",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Condiții mai bune de cazare pentru studenții AMTAP. Etajul II al căminului de pe strada Armenească, renovat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Republica Moldova renunță la Acordul CSI privind schimbul de publicații între biblioteci",
           "filler": false,
           "news": true
@@ -7188,24 +7206,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Florin Piersic, omagiat la Zilele Filmului Românesc. Trei producții de colecție, pe ecranele din Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Spațiile Editurii „Universul” vor fi transformate într-un centru modern pentru cultură și industrii creative",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Bookfest Chișinău și-a deschis ediția 2026. Cititorii sunt așteptați timp de cinci zile la sărbătoarea cărții",
           "filler": false,
           "news": true
         },
@@ -7260,6 +7260,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Spațiile Editurii „Universul” vor fi transformate într-un centru modern pentru cultură și industrii creative",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Bookfest Chișinău și-a deschis ediția 2026. Cititorii sunt așteptați timp de cinci zile la sărbătoarea cărții",
           "filler": false,
           "news": true
         },
@@ -7331,6 +7349,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Consiliul Academic Român reafirmă rolul limbii române în păstrarea identității și unității. Declarația de la Chișinău",
           "filler": false,
           "news": true
@@ -7341,15 +7368,6 @@
           "start": null,
           "end": null,
           "title": "Scriitorul și pedagogul Aurelian Silvestru – o viață între lupta pentru limba română și educația generațiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -7512,24 +7530,6 @@
           "start": null,
           "end": null,
           "title": "Editurile își pot propune titlurile pentru Programul de editare a cărții naționale 2027",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Fotografiile lui Mihai Potârniche, expuse la Președinție la 35 de ani de la Independență: „Ceea ce am fotografiat atunci este astăzi istorie”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Programele TV în limba română și conținutul autohton vor avea o pondere mai mare în spațiul audiovizual. Inițiativa legislativă, susținută de Parlament",
           "filler": false,
           "news": true
         },
