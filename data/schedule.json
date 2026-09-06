@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-06T04:30:17.957Z",
-  "updatedAtLocal": "6 sept. 2026, 07:30",
+  "updatedAt": "2026-09-06T08:52:56.770Z",
+  "updatedAtLocal": "6 sept. 2026, 11:52",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6169,6 +6169,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cineaștii din Moldova își pot înscrie lucrările la Festivalul Internațional de Film de la Rotterdam. Care sunt premiile",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Lista festivalurilor care vor avea loc toamna aceasta în Moldova",
           "filler": false,
           "news": true
@@ -6232,7 +6241,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(video) De Ziua Independenței, maib readuce „Răsai” în vocile unei noi generații",
+          "title": "EXCLUSIV: Dan Perciun și-a prezentat actele de studii. Ce arată diplomele de la Tonbridge, Cambridge și Babeș-Bolyai",
           "filler": false,
           "news": true
         },
@@ -6241,7 +6250,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Încă 60 de instituții de învățământ din țară vor beneficia de sprijin pentru consolidarea educației incluzive",
+          "title": "Elevii ar urma să aibă acces la aplicația „EVO Junior”. Aceasta va include catalogul electronic și sondaje periodice despre școală",
           "filler": false,
           "news": true
         },
@@ -6250,7 +6259,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Primii absolvenți ai Programului de instruire postuniversitară pentru cetățeni străini au susținut examenul OSCE",
+          "title": "Cine poate învăța la un liceu seral, câți ani durează studiile și cum sunt organizate lecțiile",
           "filler": false,
           "news": true
         },
@@ -6259,7 +6268,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cinci oportunități destinate studenților, al căror termen-limită pentru înregistrare expiră în luna septembrie",
+          "title": "Ce este vinovăția maternă, de ce apare și cum poate fi gestionată",
           "filler": false,
           "news": true
         },
@@ -6268,7 +6277,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Republica Moldova avansează dialogul privind siguranța și sănătatea mintală a copiilor și adolescenților în mediul digital",
+          "title": "Cinci oportunități destinate elevilor, al căror termen-limită pentru înregistrare expiră în luna septembrie",
           "filler": false,
           "news": true
         },
@@ -6277,7 +6286,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Elevii și studenții evrei din Moldova vor putea absenta de la lecții și cursuri în zilele principalelor sărbători evreiești",
+          "title": "Când vor avea loc sesiunile online pentru profesori din cadrul decadei despre valorile naționale",
           "filler": false,
           "news": true
         },
@@ -6286,7 +6295,16 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum sunt asigurați elevii din Republica Moldova cu manuale școlare. Precizările Ministerului Educației și Cercetării",
+          "title": "Toamna începe la teatru! O listă cu spectacole pe care ai putea să le vezi în luna septembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "UPDATE: absorbantele, tampoanele și cupele menstruale vor rămâne la cota redusă de TVA",
           "filler": false,
           "news": true
         },
@@ -6399,6 +6417,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Opera „Lucia di Lammermoor” deschide cortina celei de-a XXXIV-a ediții a Festivalului „Maria Bieșu”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // VinOpera 2026: Muzica clasică și vinul, într-o experiență culturală la Bulboaca",
           "filler": false,
           "news": true
@@ -6427,15 +6454,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Condiții mai bune de cazare pentru studenții AMTAP. Etajul II al căminului de pe strada Armenească, renovat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova renunță la Acordul CSI privind schimbul de publicații între biblioteci",
           "filler": false,
           "news": true
         },
@@ -6490,6 +6508,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Republica Moldova renunță la Acordul CSI privind schimbul de publicații între biblioteci",
           "filler": false,
           "news": true
         },
@@ -6570,7 +6597,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Teatrul, punte spre Europa. Regizorul Petru Hadârcă: „Dacă ar vedea acum Grigore Vieru de câte ori trecem Prutul...”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6579,7 +6606,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Teatrul, punte spre Europa. Regizorul Petru Hadârcă: „Dacă ar vedea acum Grigore Vieru de câte ori trecem Prutul...”",
           "filler": false,
           "news": true
         },
@@ -6751,15 +6778,6 @@
           "start": null,
           "end": null,
           "title": "Sofia Rotaru felicită Republica Moldova cu ocazia Zilei Independenței: „La mulți ani! Să fie pace”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ministerul Culturii dă start colectării ofertelor pentru traducerea cărții naționale în străinătate",
           "filler": false,
           "news": true
         },
