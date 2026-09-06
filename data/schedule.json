@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-06T08:52:56.770Z",
-  "updatedAtLocal": "6 sept. 2026, 11:52",
+  "updatedAt": "2026-09-06T12:51:43.944Z",
+  "updatedAtLocal": "6 sept. 2026, 15:51",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6417,6 +6417,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Descoperă Moldova cu #MOLDPRES // Arome de altădată: pâinea tradițională, readusă la Muzeul Etnografic din Cantemir",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Opera „Lucia di Lammermoor” deschide cortina celei de-a XXXIV-a ediții a Festivalului „Maria Bieșu”",
           "filler": false,
           "news": true
@@ -6445,15 +6454,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Șase autori, premiați la Chișinău pentru contribuția la literatura română contemporană",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Condiții mai bune de cazare pentru studenții AMTAP. Etajul II al căminului de pe strada Armenească, renovat",
           "filler": false,
           "news": true
         },
@@ -6508,6 +6508,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Condiții mai bune de cazare pentru studenții AMTAP. Etajul II al căminului de pe strada Armenească, renovat",
           "filler": false,
           "news": true
         },
@@ -6588,7 +6597,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Congresul Mondial al Eminescologilor, la a XV-a ediție. Ministrul Dan Suruceanu: „Un spațiu în care descoperim operele care nu încetează să ne vorbească”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6597,7 +6606,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Congresul Mondial al Eminescologilor, la a XV-a ediție. Ministrul Dan Suruceanu: „Un spațiu în care descoperim operele care nu încetează să ne vorbească”",
           "filler": false,
           "news": true
         },
@@ -6769,15 +6778,6 @@
           "start": null,
           "end": null,
           "title": "Bookfest revine la Chișinău: cinci zile de carte, întâlniri cu scriitori și evenimente culturale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Sofia Rotaru felicită Republica Moldova cu ocazia Zilei Independenței: „La mulți ani! Să fie pace”",
           "filler": false,
           "news": true
         },
