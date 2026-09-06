@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-06T16:12:12.485Z",
-  "updatedAtLocal": "6 sept. 2026, 19:12",
+  "updatedAt": "2026-09-06T18:37:02.876Z",
+  "updatedAtLocal": "6 sept. 2026, 21:36",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6417,6 +6417,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Președinta Maia Sandu a vizitat Bookfest Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Descoperă Moldova cu #MOLDPRES // Arome de altădată: pâinea tradițională, readusă la Muzeul Etnografic din Cantemir",
           "filler": false,
           "news": true
@@ -6445,15 +6454,6 @@
           "start": null,
           "end": null,
           "title": "Olimpismul și Războiul Rece, într-o nouă cercetare semnată de Sergiu Gurin",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Șase autori, premiați la Chișinău pentru contribuția la literatura română contemporană",
           "filler": false,
           "news": true
         },
@@ -6508,6 +6508,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Șase autori, premiați la Chișinău pentru contribuția la literatura română contemporană",
           "filler": false,
           "news": true
         },
@@ -6588,7 +6597,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Spectacolul „Dosarele Siberiei”, la Cotroceni. Președintele Nicușor Dan: „Memoria victimelor represiunilor totalitare aparține întregii Europe”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6597,7 +6606,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Spectacolul „Dosarele Siberiei”, la Cotroceni. Președintele Nicușor Dan: „Memoria victimelor represiunilor totalitare aparține întregii Europe”",
           "filler": false,
           "news": true
         },
@@ -6769,15 +6778,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Mii de oameni au sărbătorit Independența Republicii Moldova în Piața Marii Adunări Naționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Bookfest revine la Chișinău: cinci zile de carte, întâlniri cu scriitori și evenimente culturale",
           "filler": false,
           "news": true
         },
