@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T13:34:20.246Z",
-  "updatedAtLocal": "8 sept. 2026, 16:34",
+  "updatedAt": "2026-09-08T17:29:32.239Z",
+  "updatedAtLocal": "8 sept. 2026, 20:29",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9106,6 +9106,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Republica Moldova și Danemarca vor extinde cooperarea în domeniul culturii, cinematografiei și mass-media",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Ion Arachelu, actorul care a dat culoare comediei pe scenă și ecranul moldovenesc",
           "filler": false,
           "news": true
@@ -9134,15 +9143,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Mihail Ciachir, preotul și cărturarul care a promovat limba română și cultura găgăuză",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Concert aniversar dedicat celor 45 de ani de creație ai compozitorului Constantin Rusnac",
           "filler": false,
           "news": true
         },
@@ -9197,6 +9197,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Concert aniversar dedicat celor 45 de ani de creație ai compozitorului Constantin Rusnac",
           "filler": false,
           "news": true
         },
@@ -9277,7 +9286,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Șase autori, premiați la Chișinău pentru contribuția la literatura română contemporană",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9286,7 +9295,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Șase autori, premiați la Chișinău pentru contribuția la literatura română contemporană",
           "filler": false,
           "news": true
         },
@@ -9458,15 +9467,6 @@
           "start": null,
           "end": null,
           "title": "BTA: Producția „Bacantele” de Euripide, în regia lui Javor Gardev, revine la Atena cu un spectacol la Teatrul Lycabettus",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // „Serenade la Butuceni”: Povestea unui concert spusă în imagini",
           "filler": false,
           "news": true
         },
