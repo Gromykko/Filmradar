@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T09:03:47.727Z",
-  "updatedAtLocal": "8 sept. 2026, 12:03",
+  "updatedAt": "2026-09-08T13:34:20.246Z",
+  "updatedAtLocal": "8 sept. 2026, 16:34",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8849,6 +8849,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Fundația Orange Moldova lansează Orange Opera și deschide scena TNOB „Maria Bieșu” pentru tinerele talente din școlile de artă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "O expoziție dedicată sinagogilor din Chișinău a fost inaugurată la Muzeul Național de Istorie. Până când poate fi vizitată",
           "filler": false,
           "news": true
@@ -8921,7 +8930,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "100.000 de lei pentru realizări care contribuie la dezvoltarea Republicii Moldova. Cum depui dosarul la „Premiul Național 2026”",
+          "title": "„Am putut să gestionez o clasă de circa 30 de copii.” Două tinere, despre emoțiile și fricile primelor zile de școală în calitate de profesoare",
           "filler": false,
           "news": true
         },
@@ -8930,7 +8939,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Sectoarele economice cu potențial investițional se regăsesc pe agenda Moldova Business Week 2026",
+          "title": "Teatru-Spălătorie revine la Chișinău cu două spectacole. Când și unde le puteți vedea",
           "filler": false,
           "news": true
         },
@@ -8939,7 +8948,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(foto) Un interviu #diez, editat cu AI și folosit pentru a dezinforma. Falsul a fost distribuit de canalele proruse",
+          "title": "Sectoarele care creează noi oportunități investiționale în Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -8948,7 +8957,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(video) Hai la film! Patru producții cinematografice pe care le poți viziona în premieră la Cineplex pe 10 și 17 septembrie",
+          "title": "Candidații la funcția de bașcan al UTA Găgăuzia vor trebui să demonstreze că știu limba de stat. Cum ar putea fi verificați",
           "filler": false,
           "news": true
         },
@@ -8957,7 +8966,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Circulația rutieră pe mai multe drumuri din Moldova va fi restricționată pe 9 septembrie",
+          "title": "Lista țărilor care au obținut cele mai bune rezultate la PISA 2025. Pe ce loc se află Moldova și România",
           "filler": false,
           "news": true
         },
@@ -8966,7 +8975,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Șapte evenimente la care poți merge între 7 și 13 septembrie: maraton, concerte și degustări de vin",
+          "title": "Un program gratuit de psihoterapie, destinat adulților vorbitori de română, a fost lansat de USM. Cum te poți înscrie",
           "filler": false,
           "news": true
         },
@@ -8975,7 +8984,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Maxime de 30 °C. Cum va fi vremea săptămâna viitoare în nordul, centrul și sudul țării",
+          "title": "USMF „Nicolae Testemițanu” a inaugurat un bloc nou de studii pentru studenți și medici rezidenți",
           "filler": false,
           "news": true
         },
@@ -8984,16 +8993,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Salariul mediu al cadrelor didactice rămâne sub media pe economie. Cât au câștigat profesorii în trimestrul II al anului 2026",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ONU a votat pentru schimbarea hărții lumii. De ce Moldova și Ucraina s-au abținut de la vot",
+          "title": "Rezultate PISA 2025: jumătate dintre elevii moldoveni nu ating minimul necesar la matematică și lectură",
           "filler": false,
           "news": true
         },
@@ -9106,6 +9106,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // Ion Arachelu, actorul care a dat culoare comediei pe scenă și ecranul moldovenesc",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Arta și creația locală, reunite la cea de-a VIII-a ediție ARTSALE",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Turul României 2026 debutează, în premieră, la Chișinău. Prima etapă se desfășoară integral în Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Mihail Ciachir, preotul și cărturarul care a promovat limba română și cultura găgăuză",
           "filler": false,
           "news": true
@@ -9116,33 +9143,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Concert aniversar dedicat celor 45 de ani de creație ai compozitorului Constantin Rusnac",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova și Grecia pregătesc noi proiecte în baza Memorandumului de cooperare culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Eugeniu Coșeriu – savantul care a pus bazele lingvisticii integrale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu”, inaugurat la Chișinău",
           "filler": false,
           "news": true
         },
@@ -9205,6 +9205,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Republica Moldova și Grecia pregătesc noi proiecte în baza Memorandumului de cooperare culturală",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Eugeniu Coșeriu – savantul care a pus bazele lingvisticii integrale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu”, inaugurat la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Președinta Maia Sandu a vizitat Bookfest Chișinău",
           "filler": false,
           "news": true
@@ -9259,6 +9286,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Condiții mai bune de cazare pentru studenții AMTAP. Etajul II al căminului de pe strada Armenească, renovat",
           "filler": false,
           "news": true
@@ -9278,15 +9314,6 @@
           "start": null,
           "end": null,
           "title": "O nouă ediție a Festivalului „Maria Bieșu” începe la Chișinău. Ce spectacole pregătește Opera Națională?",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9440,33 +9467,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // „Serenade la Butuceni”: Povestea unui concert spusă în imagini",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldova sunt EU // Carolina Cheianu-Tudos: Dragostea de țară și de limba română, transformată în misiunea de a păstra trecutul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "INTERVIU MOLDPRES // Soprana Violeta Botezatu, de la Veneția la Butuceni: „Serenade” despre dor, rădăcini și revenire",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Cuvinte care formează, imagini care inspiră”: Manualele de Limba română, de ieri și de azi, expuse la Biblioteca Națională",
           "filler": false,
           "news": true
         },
