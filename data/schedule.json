@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T04:27:52.998Z",
-  "updatedAtLocal": "8 sept. 2026, 07:27",
+  "updatedAt": "2026-09-08T09:03:47.727Z",
+  "updatedAtLocal": "8 sept. 2026, 12:03",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9106,6 +9106,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // Mihail Ciachir, preotul și cărturarul care a promovat limba română și cultura găgăuză",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Concert aniversar dedicat celor 45 de ani de creație ai compozitorului Constantin Rusnac",
           "filler": false,
           "news": true
@@ -9134,15 +9143,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu”, inaugurat la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Președinta Maia Sandu a vizitat Bookfest Chișinău",
           "filler": false,
           "news": true
         },
@@ -9197,6 +9197,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Președinta Maia Sandu a vizitat Bookfest Chișinău",
           "filler": false,
           "news": true
         },
@@ -9277,7 +9286,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Florin Piersic, omagiat la Zilele Filmului Românesc. Trei producții de colecție, pe ecranele din Chișinău",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9286,7 +9295,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Florin Piersic, omagiat la Zilele Filmului Românesc. Trei producții de colecție, pe ecranele din Chișinău",
           "filler": false,
           "news": true
         },
@@ -9458,15 +9467,6 @@
           "start": null,
           "end": null,
           "title": "„Cuvinte care formează, imagini care inspiră”: Manualele de Limba română, de ieri și de azi, expuse la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "BTA: Spectacolul „Bacantele” de Euripide, în regia lui Javor Gardev, pus în scenă la Teatrul Antic din Dion",
           "filler": false,
           "news": true
         },
