@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-09T16:52:35.963Z",
-  "updatedAtLocal": "9 sept. 2026, 19:52",
+  "updatedAt": "2026-09-09T19:44:16.947Z",
+  "updatedAtLocal": "9 sept. 2026, 22:44",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8256,6 +8256,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "România invită Republica Moldova la Târgul de Carte de la Frankfurt. Stand comun în 2028",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Reuniunea Teatrelor Naționale Românești se deschide astăzi la Chișinău",
           "filler": false,
           "news": true
@@ -8284,15 +8293,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova și Danemarca vor extinde cooperarea în domeniul culturii, cinematografiei și mass-media",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Ion Arachelu, actorul care a dat culoare comediei pe scenă și ecranul moldovenesc",
           "filler": false,
           "news": true
         },
@@ -8347,6 +8347,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Ion Arachelu, actorul care a dat culoare comediei pe scenă și ecranul moldovenesc",
           "filler": false,
           "news": true
         },
@@ -8427,7 +8436,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Descoperă Moldova cu #MOLDPRES // Arome de altădată: pâinea tradițională, readusă la Muzeul Etnografic din Cantemir",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8436,7 +8445,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Descoperă Moldova cu #MOLDPRES // Arome de altădată: pâinea tradițională, readusă la Muzeul Etnografic din Cantemir",
           "filler": false,
           "news": true
         },
@@ -8608,15 +8617,6 @@
           "start": null,
           "end": null,
           "title": "Scriitorul și pedagogul Aurelian Silvestru – o viață între lupta pentru limba română și educația generațiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // Ambasadoarea UE, Iwona Piórko, recită în limba română o poezie scrisă de fiica sa",
           "filler": false,
           "news": true
         },
