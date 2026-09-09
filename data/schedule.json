@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-09T12:18:38.012Z",
-  "updatedAtLocal": "9 sept. 2026, 15:18",
+  "updatedAt": "2026-09-09T16:52:35.963Z",
+  "updatedAtLocal": "9 sept. 2026, 19:52",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7999,6 +7999,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Elevii din Chișinău pot câștiga până la 8.000 de lei în cadrul concursului „Arta de la geamul meu”. Condițiile de participare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Fundația Orange Moldova lansează Orange Opera și deschide scena TNOB „Maria Bieșu” pentru tinerele talente din școlile de artă",
           "filler": false,
           "news": true
@@ -8071,7 +8080,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Mai modest” în declarații, dar cel mai mult de până acum în realitate. Cât a costat Ziua Independenței în 2026",
+          "title": "Maib lansează a șasea emisiune de obligațiuni corporative din cadrul Programului IV de ofertă publică",
           "filler": false,
           "news": true
         },
@@ -8080,7 +8089,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Am putut să gestionez o clasă de circa 30 de copii.” Două tinere, despre emoțiile și fricile primelor zile de școală în calitate de profesoare",
+          "title": "Ce ar trebui să știe un copil înainte să meargă la grădiniță",
           "filler": false,
           "news": true
         },
@@ -8089,7 +8098,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Teatru-Spălătorie revine la Chișinău cu două spectacole. Când și unde le puteți vedea",
+          "title": "SUP, canoe și dragon boat. O nouă ediție a Olympic ECOFest va avea loc în capitală la sfârșitul lunii septembrie",
           "filler": false,
           "news": true
         },
@@ -8098,7 +8107,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Sectoarele care creează noi oportunități investiționale în Republica Moldova",
+          "title": "AIESEC în Chișinău recrutează noi membri. Ce oportunități de dezvoltare profesională sunt disponibile",
           "filler": false,
           "news": true
         },
@@ -8107,7 +8116,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Candidații la funcția de bașcan al UTA Găgăuzia vor trebui să demonstreze că știu limba de stat. Cum ar putea fi verificați",
+          "title": "Ce este un puseu de creștere, la ce vârstă apare, care sunt simptomele și cum să-ți ajuți copilul",
           "filler": false,
           "news": true
         },
@@ -8116,7 +8125,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lista țărilor care au obținut cele mai bune rezultate la PISA 2025. Pe ce loc se află Moldova și România",
+          "title": "Ce prevede politica fiscală și vamală pentru 2027. A fost aprobată de miniștri și urmează să fie votată de deputați",
           "filler": false,
           "news": true
         },
@@ -8125,7 +8134,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un program gratuit de psihoterapie, destinat adulților vorbitori de română, a fost lansat de USM. Cum te poți înscrie",
+          "title": "Ce spune ISW despre drona care a căzut în raionul Râșcani: „În șase minute poate ajunge din Odesa în Moldova”",
           "filler": false,
           "news": true
         },
@@ -8134,16 +8143,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "USMF „Nicolae Testemițanu” a inaugurat un bloc nou de studii pentru studenți și medici rezidenți",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Rezultate PISA 2025: jumătate dintre elevii moldoveni nu ating minimul necesar la matematică și lectură",
+          "title": "Donald Trump a publicat un video de 6 minute cu luptătorul moldovean Ion Cuțelaba. Contextul postării nu este clar",
           "filler": false,
           "news": true
         },
