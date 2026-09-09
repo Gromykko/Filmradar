@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-09T06:38:47.248Z",
-  "updatedAtLocal": "9 sept. 2026, 09:38",
+  "updatedAt": "2026-09-09T12:18:38.012Z",
+  "updatedAtLocal": "9 sept. 2026, 15:18",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8256,6 +8256,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Reuniunea Teatrelor Naționale Românești se deschide astăzi la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // „Suntem ceea ce iubim”: Teatrele Naționale Românești se reunesc la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Nicolae Sulac, vocea emblematică a muzicii populare",
           "filler": false,
           "news": true
@@ -8275,24 +8293,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Ion Arachelu, actorul care a dat culoare comediei pe scenă și ecranul moldovenesc",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Arta și creația locală, reunite la cea de-a VIII-a ediție ARTSALE",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Turul României 2026 debutează, în premieră, la Chișinău. Prima etapă se desfășoară integral în Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -8347,6 +8347,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Arta și creația locală, reunite la cea de-a VIII-a ediție ARTSALE",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Turul României 2026 debutează, în premieră, la Chișinău. Prima etapă se desfășoară integral în Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -8418,6 +8436,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Opera „Lucia di Lammermoor” deschide cortina celei de-a XXXIV-a ediții a Festivalului „Maria Bieșu”",
           "filler": false,
           "news": true
@@ -8428,15 +8455,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // VinOpera 2026: Muzica clasică și vinul, într-o experiență culturală la Bulboaca",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8599,24 +8617,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // Ambasadoarea UE, Iwona Piórko, recită în limba română o poezie scrisă de fiica sa",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ziua Limbii Române, sărbătorită la Chișinău prin Marea Dictare Națională și evenimente culturale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Ziua Limbii Române unește simbolic Republica Moldova, România și Ucraina. Sărbătoarea, marcată în premieră la Cernăuți",
           "filler": false,
           "news": true
         },
