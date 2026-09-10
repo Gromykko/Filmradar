@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-10T10:01:23.285Z",
-  "updatedAtLocal": "10 sept. 2026, 13:01",
+  "updatedAt": "2026-09-10T14:22:49.565Z",
+  "updatedAtLocal": "10 sept. 2026, 17:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7160,6 +7160,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Samsung Galaxy S26 FE: cea mai nouă experiență flagship, axată pe ceea ce contează cu adevărat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Când iPhone 18 Pro va putea fi cumpărat în Moldova",
           "filler": false,
           "news": true
@@ -7197,15 +7206,6 @@
           "start": null,
           "end": null,
           "title": "Maib lansează a șasea emisiune de obligațiuni corporative din cadrul Programului IV de ofertă publică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ce ar trebui să știe un copil înainte să meargă la grădiniță",
           "filler": false,
           "news": true
         },
