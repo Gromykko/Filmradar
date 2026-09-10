@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-10T14:22:49.565Z",
-  "updatedAtLocal": "10 sept. 2026, 17:22",
+  "updatedAt": "2026-09-10T17:50:54.741Z",
+  "updatedAtLocal": "10 sept. 2026, 20:50",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7318,6 +7318,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Arta decorativă contemporană, la Chișinău: Peste 70 de artiști participă la Bienala Internațională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Expoziție dedicată lui Gheorghe Cincilei, la Muzeul Național al Literaturii Române",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Speakerul Igor Grosu a îndemnat cetățenii să vină la Gala „Te cânt, Patrie și Neam”: „Să celebrăm prin muzică și cultură unitatea și dragostea de țară”",
           "filler": false,
           "news": true
@@ -7337,24 +7355,6 @@
           "start": null,
           "end": null,
           "title": "Reuniunea Teatrelor Naționale Românești s-a deschis la Chișinău. Premierul Vasile Tofan: „Cultura va învinge barbarismul\"",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "România invită Republica Moldova la Târgul de Carte de la Frankfurt. Stand comun în 2028",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Reuniunea Teatrelor Naționale Românești se deschide astăzi la Chișinău",
           "filler": false,
           "news": true
         },
@@ -7409,6 +7409,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "România invită Republica Moldova la Târgul de Carte de la Frankfurt. Stand comun în 2028",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Reuniunea Teatrelor Naționale Românești se deschide astăzi la Chișinău",
           "filler": false,
           "news": true
         },
@@ -7480,6 +7498,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Concert aniversar dedicat celor 45 de ani de creație ai compozitorului Constantin Rusnac",
           "filler": false,
           "news": true
@@ -7490,15 +7517,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova și Grecia pregătesc noi proiecte în baza Memorandumului de cooperare culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -7661,24 +7679,6 @@
           "start": null,
           "end": null,
           "title": "Congresul Mondial al Eminescologilor, la a XV-a ediție. Ministrul Dan Suruceanu: „Un spațiu în care descoperim operele care nu încetează să ne vorbească”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul, punte spre Europa. Regizorul Petru Hadârcă: „Dacă ar vedea acum Grigore Vieru de câte ori trecem Prutul...”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Spectacolul „Dosarele Siberiei”, prezentat astăzi la Palatul Cotroceni",
           "filler": false,
           "news": true
         },
