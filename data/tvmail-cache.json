@@ -1,437 +1,5 @@
 {
   "2901": {
-    "2026-09-11": [
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "05:00",
-        "end": "05:42",
-        "title": "Telejurnal Moldova",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "05:42",
-        "end": "06:00",
-        "title": "Sport",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "06:00",
-        "end": "06:55",
-        "title": "Punctul pe azi",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "06:55",
-        "end": "07:00",
-        "title": "Imnul României",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "07:00",
-        "end": "08:00",
-        "title": "Telematinal (Episodul 1)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "08:00",
-        "end": "08:55",
-        "title": "Telematinal (Episodul 2)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "08:55",
-        "end": "09:00",
-        "title": "Poet şi poezie",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "09:00",
-        "end": "10:00",
-        "title": "Telematinal",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "10:00",
-        "end": "10:55",
-        "title": "Tradiţii",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "10:55",
-        "end": "11:00",
-        "title": "Poet şi poezie",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "11:00",
-        "end": "11:55",
-        "title": "Obiectiv comun",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "11:55",
-        "end": "12:00",
-        "title": "Vorbeste corect!",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "12:00",
-        "end": "12:30",
-        "title": "Conexiuni economice",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "12:30",
-        "end": "13:00",
-        "title": "Dialoguri colorate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "13:00",
-        "end": "13:30",
-        "title": "Telejurnal Moldova",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "13:30",
-        "end": "14:00",
-        "title": "În Slujba Binelui",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "14:00",
-        "end": "14:45",
-        "title": "Telejurnal",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "14:45",
-        "end": "14:55",
-        "title": "Fake News Alert",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "14:55",
-        "end": "15:00",
-        "title": "Vorbeste corect!",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "15:00",
-        "end": "15:50",
-        "title": "Cântec și poveste",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "15:50",
-        "end": "16:00",
-        "title": "Discover România",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "16:00",
-        "end": "16:30",
-        "title": "Călătorii cu gust",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "16:30",
-        "end": "17:00",
-        "title": "România… în bucate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "17:00",
-        "end": "17:55",
-        "title": "Podcast militar",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "17:55",
-        "end": "18:00",
-        "title": "Poet şi poezie",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "18:00",
-        "end": "18:55",
-        "title": "Obiectiv comun (St. Chişinău)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "18:55",
-        "end": "19:00",
-        "title": "Poet şi poezie",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "19:00",
-        "end": "19:42",
-        "title": "Telejurnal Moldova",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "19:42",
-        "end": "20:00",
-        "title": "Sport",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "20:00",
-        "end": "20:55",
-        "title": "Transnistria - Viaţa în zona gri",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "20:55",
-        "end": "21:00",
-        "title": "Zi de zi cu părintele Ctin Necula",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "21:00",
-        "end": "22:35",
-        "title": "Podcast #Raport",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "22:35",
-        "end": "23:00",
-        "title": "Istorii ascunse",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "23:00",
-        "end": "23:50",
-        "title": "Ştiri",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "23:50",
-        "end": "00:00",
-        "title": "Fake News Alert",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "00:00",
-        "end": "01:20",
-        "title": "Vedeta familiei",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "01:20",
-        "end": "01:30",
-        "title": "Discover România",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "01:30",
-        "end": "02:30",
-        "title": "Podcast militar",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "02:30",
-        "end": "03:00",
-        "title": "Cu Susul În Jos",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "03:00",
-        "end": "03:30",
-        "title": "Călătorii cu gust",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "03:30",
-        "end": "03:55",
-        "title": "România… în bucate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "03:55",
-        "end": "04:00",
-        "title": "Poet şi poezie",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "04:00",
-        "end": "05:00",
-        "title": "Obiectiv comun",
-        "filler": false,
-        "source": "tvmail"
-      }
-    ],
     "2026-09-12": [
       {
         "day": 6,
@@ -469,7 +37,7 @@
         "date": "2026-09-12",
         "start": "06:55",
         "end": "07:00",
-        "title": "Imn",
+        "title": "Imnul României",
         "filler": false,
         "source": "tvmail"
       },
@@ -519,7 +87,7 @@
         "date": "2026-09-12",
         "start": "11:00",
         "end": "12:00",
-        "title": "Ferma Anul 26 (Episodul 1290)",
+        "title": "Ferma Anul 24 (Episodul 1290)",
         "filler": false,
         "source": "tvmail"
       },
@@ -529,7 +97,7 @@
         "date": "2026-09-12",
         "start": "12:00",
         "end": "12:30",
-        "title": "Pescar hoinar",
+        "title": "Pescar hoinar (Aventuri pe râu şi pe lac...)",
         "filler": false,
         "source": "tvmail"
       },
@@ -539,7 +107,7 @@
         "date": "2026-09-12",
         "start": "12:30",
         "end": "13:30",
-        "title": "GEO 360° (Namibia - o noua speranta pentru gheparzi)",
+        "title": "GEO 360° (Namibia - o nouă speranţă pentru gheparzi)",
         "filler": false,
         "source": "tvmail"
       },
@@ -579,7 +147,7 @@
         "date": "2026-09-12",
         "start": "14:55",
         "end": "15:00",
-        "title": "Poet si poezie",
+        "title": "Poet şi poezie",
         "filler": false,
         "source": "tvmail"
       },
@@ -639,7 +207,7 @@
         "date": "2026-09-12",
         "start": "19:30",
         "end": "19:45",
-        "title": "Reportajele Telejurnalului",
+        "title": "Reportajele Telejurnalului. Прямая трансляция",
         "filler": false,
         "source": "tvmail"
       },
@@ -729,7 +297,7 @@
         "date": "2026-09-13",
         "start": "00:00",
         "end": "01:35",
-        "title": "Drag de Romania mea!",
+        "title": "Drag de România mea",
         "filler": false,
         "source": "tvmail"
       },
@@ -2513,486 +2081,344 @@
         "filler": false,
         "source": "tvmail"
       }
-    ]
-  },
-  "2909": {
-    "2026-09-11": [
+    ],
+    "2026-09-18": [
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "05:15",
-        "end": "05:36",
-        "title": "Mesager",
+        "date": "2026-09-18",
+        "start": "05:00",
+        "end": "05:45",
+        "title": "Telejurnal Moldova",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "05:36",
-        "end": "05:58",
-        "title": "Știri sportive",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "05:58",
+        "date": "2026-09-18",
+        "start": "05:45",
         "end": "06:00",
-        "title": "Deschiderea staţiei",
+        "title": "Discover România",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "06:00",
-        "end": "06:50",
-        "title": "În Context",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "06:50",
         "end": "06:55",
-        "title": "Publicitate",
+        "title": "Punctul pe azi",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "06:55",
         "end": "07:00",
-        "title": "Bună dimineața!",
+        "title": "Imnul României",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "07:00",
-        "end": "07:10",
-        "title": "Ştiri",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "07:10",
-        "end": "07:15",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "07:15",
         "end": "08:00",
-        "title": "Bună dimineața!",
+        "title": "Telematinal (Episodul 1)",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "08:00",
-        "end": "08:10",
-        "title": "Ştiri",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "08:10",
-        "end": "08:15",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "08:15",
-        "end": "08:30",
-        "title": "Bună dimineața!",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "08:30",
-        "end": "08:35",
-        "title": "Știri sportive",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "08:35",
         "end": "08:55",
-        "title": "Bună dimineața!",
+        "title": "Telematinal (Episodul 2)",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "08:55",
         "end": "09:00",
-        "title": "Publicitate",
+        "title": "Poet şi poezie",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "09:00",
-        "end": "09:10",
-        "title": "Ştiri",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "09:10",
-        "end": "09:15",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "09:15",
         "end": "10:00",
-        "title": "Zi de bine",
+        "title": "Telematinal",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "10:00",
-        "end": "10:25",
-        "title": "Focus Europa",
+        "end": "10:55",
+        "title": "Tradiţii",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "10:25",
-        "end": "10:30",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "10:30",
+        "date": "2026-09-18",
+        "start": "10:55",
         "end": "11:00",
-        "title": "Live studio. Прямая трансляция",
+        "title": "Poet şi poezie",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "11:00",
-        "end": "11:05",
-        "title": "Publicitate",
+        "end": "11:55",
+        "title": "Obiectiv comun",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "11:05",
-        "end": "11:54",
-        "title": "Live studio. Прямая трансляция",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "11:54",
+        "date": "2026-09-18",
+        "start": "11:55",
         "end": "12:00",
-        "title": "Publicitate",
+        "title": "Vorbeste corect!",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "12:00",
-        "end": "12:25",
-        "title": "Raioane",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "12:25",
         "end": "12:30",
-        "title": "Publicitate",
+        "title": "Conexiuni economice",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "12:30",
-        "end": "12:55",
-        "title": "Raioane",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "12:55",
         "end": "13:00",
-        "title": "Publicitate",
+        "title": "Dialoguri colorate",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "13:00",
-        "end": "13:25",
-        "title": "Ştiri",
+        "end": "13:30",
+        "title": "Telejurnal Moldova",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "13:25",
-        "end": "13:35",
-        "title": "Știri sportive",
+        "date": "2026-09-18",
+        "start": "13:30",
+        "end": "14:00",
+        "title": "În Slujba Binelui",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "13:35",
-        "end": "14:15",
-        "title": "Pământ și oameni",
+        "date": "2026-09-18",
+        "start": "14:00",
+        "end": "14:45",
+        "title": "Telejurnal",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "14:15",
-        "end": "14:18",
-        "title": "Publicitate",
+        "date": "2026-09-18",
+        "start": "14:45",
+        "end": "14:55",
+        "title": "Fake News Alert",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "14:18",
+        "date": "2026-09-18",
+        "start": "14:55",
         "end": "15:00",
-        "title": "Spitalul Santa Rosa (Episodul 197)",
+        "title": "Vorbeste corect!",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "15:00",
-        "end": "15:10",
-        "title": "Ştiri pe scurt",
+        "end": "15:50",
+        "title": "Cântec și poveste",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "15:10",
-        "end": "15:15",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "15:15",
+        "date": "2026-09-18",
+        "start": "15:50",
         "end": "16:00",
-        "title": "Spitalul Santa Rosa (Episodul 198)",
+        "title": "Discover România",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "16:00",
-        "end": "16:05",
-        "title": "Publicitate",
+        "end": "16:30",
+        "title": "Călătorii cu gust",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "16:05",
-        "end": "16:49",
-        "title": "Spitalul Santa Rosa (Episodul 199)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "16:49",
-        "end": "16:55",
-        "title": "Secvențe japoneze",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "16:55",
+        "date": "2026-09-18",
+        "start": "16:30",
         "end": "17:00",
-        "title": "Publicitate",
+        "title": "România… în bucate",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "17:00",
-        "end": "17:25",
-        "title": "Ştiri",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "17:25",
-        "end": "17:30",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "17:30",
         "end": "17:55",
-        "title": "În ritm de dans",
+        "title": "Podcast militar",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "17:55",
         "end": "18:00",
-        "title": "Publicitate",
+        "title": "Poet şi poezie",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "18:00",
-        "end": "18:30",
-        "title": "Stil nou",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "18:30",
         "end": "18:55",
-        "title": "Banii în mișcare",
+        "title": "Obiectiv comun (St. Chişinău)",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "18:55",
         "end": "19:00",
-        "title": "Publicitate",
+        "title": "Poet şi poezie",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
+        "date": "2026-09-18",
         "start": "19:00",
-        "end": "19:10",
+        "end": "19:45",
+        "title": "Telejurnal Moldova",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-18",
+        "start": "19:45",
+        "end": "20:00",
+        "title": "Fake News Alert",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-18",
+        "start": "20:00",
+        "end": "20:55",
+        "title": "Transnistria - Viaţa în zona gri",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-18",
+        "start": "20:55",
+        "end": "21:00",
+        "title": "Zi de zi cu părintele Ctin Necula",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-18",
+        "start": "21:00",
+        "end": "22:35",
+        "title": "Podcast #Raport",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-18",
+        "start": "22:35",
+        "end": "23:00",
+        "title": "Istorii ascunse",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 5,
+        "dayName": "vineri",
+        "date": "2026-09-18",
+        "start": "23:00",
+        "end": "23:50",
         "title": "Ştiri",
         "filler": false,
         "source": "tvmail"
@@ -3000,134 +2426,96 @@
       {
         "day": 5,
         "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "19:10",
-        "end": "19:15",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "19:15",
-        "end": "20:55",
-        "title": "Tribute, Aplauze la scena deschisă",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "20:55",
-        "end": "21:00",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "21:00",
-        "end": "21:30",
-        "title": "Mesager",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "21:30",
-        "end": "21:45",
-        "title": "Știri sportive",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "21:45",
-        "end": "21:50",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "21:50",
-        "end": "22:00",
-        "title": "Reuniunea Teatrelor Naționale Românești. Ediția a XI-a",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "22:00",
-        "end": "22:30",
-        "title": "Ştiri Externe",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "22:30",
-        "end": "23:00",
-        "title": "Focus Europa",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "23:00",
-        "end": "01:17",
-        "title": "Între cer şi pământ",
+        "date": "2026-09-18",
+        "start": "23:50",
+        "end": "00:00",
+        "title": "Fake News Alert",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 6,
         "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "01:17",
-        "end": "01:40",
-        "title": "Global 3000",
+        "date": "2026-09-19",
+        "start": "00:00",
+        "end": "01:20",
+        "title": "Vedeta familiei",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 6,
         "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "01:40",
+        "date": "2026-09-19",
+        "start": "01:20",
+        "end": "01:30",
+        "title": "Discover România",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-19",
+        "start": "01:30",
+        "end": "02:30",
+        "title": "Podcast militar",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-19",
+        "start": "02:30",
+        "end": "03:00",
+        "title": "Cu Susul În Jos",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-19",
+        "start": "03:00",
         "end": "03:30",
-        "title": "Bună dimineața!",
+        "title": "Călătorii cu gust",
         "filler": false,
         "source": "tvmail"
       },
       {
         "day": 6,
         "dayName": "sâmbătă",
-        "date": "2026-09-12",
+        "date": "2026-09-19",
         "start": "03:30",
-        "end": "05:15",
-        "title": "Tribute, Aplauze la scena deschisă",
+        "end": "03:55",
+        "title": "România… în bucate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-19",
+        "start": "03:55",
+        "end": "04:00",
+        "title": "Poet şi poezie",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-19",
+        "start": "04:00",
+        "end": "05:00",
+        "title": "Obiectiv comun",
         "filler": false,
         "source": "tvmail"
       }
-    ],
+    ]
+  },
+  "2909": {
     "2026-09-12": [
       {
         "day": 6,
@@ -4178,61 +3566,31 @@
     "2026-09-16": []
   },
   "2910": {
-    "2026-09-11": [
+    "2026-09-12": [
       {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "05:15",
-        "end": "05:30",
-        "title": "Text si muzica (Lidia Scarlat)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "05:30",
-        "end": "05:58",
-        "title": "Orologiu sentimental (Victor Hristov)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
         "start": "05:58",
         "end": "06:00",
-        "title": "Deschiderea Statiei",
+        "title": "Deschiderea staţiei",
         "filler": false,
         "source": "tvmail"
       },
       {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
         "start": "06:00",
-        "end": "06:55",
+        "end": "07:00",
         "title": "Evantai folcloric",
         "filler": false,
         "source": "tvmail"
       },
       {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "06:55",
-        "end": "07:00",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
         "start": "07:00",
         "end": "07:30",
         "title": "Tezaur",
@@ -4240,9 +3598,9 @@
         "source": "tvmail"
       },
       {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
         "start": "07:30",
         "end": "08:00",
         "title": "Moldova de patrimoniu",
@@ -4250,444 +3608,22 @@
         "source": "tvmail"
       },
       {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
         "start": "08:00",
         "end": "08:30",
-        "title": "Artelier (Gh. Jalbă)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "08:30",
-        "end": "09:00",
-        "title": "Dor (Tudor Ungureanu)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "09:00",
-        "end": "09:40",
-        "title": "People to people (Episodul 10)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "09:40",
-        "end": "09:45",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "09:45",
-        "end": "09:50",
-        "title": "Reflecții de toamnă (Titus Jucov)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "09:50",
-        "end": "09:55",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "09:55",
-        "end": "10:00",
-        "title": "Necuvintele",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "10:00",
-        "end": "10:30",
-        "title": "Singur în fața dragostei (Eugenia Todorașcu)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "10:30",
-        "end": "10:35",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "10:35",
-        "end": "11:05",
-        "title": "Portrete în timp (Vera Mereuță, Artistă Emerită)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "11:05",
-        "end": "11:10",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "11:10",
-        "end": "12:00",
-        "title": "Țara mea de glorie,Țara mea de dor",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "12:00",
-        "end": "12:05",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "12:05",
-        "end": "13:30",
-        "title": "Select Cvartet Plus (Latino Meets Balkan Music)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "13:30",
-        "end": "13:35",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "13:35",
-        "end": "14:00",
-        "title": "Povestea generațiilor (V.Beșleagă- Locul în viață)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "14:00",
-        "end": "14:30",
-        "title": "Proiect. Ghenadie Popescu",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "14:30",
-        "end": "14:35",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "14:35",
-        "end": "15:05",
-        "title": "Destine de colecție (Efim Josanu, jurnalist de televiziune)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "15:05",
-        "end": "15:35",
-        "title": "Orologiu sentimental (Timofei Bătrânu)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "15:35",
-        "end": "15:40",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "15:40",
-        "end": "16:00",
-        "title": "Text si muzica",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "16:00",
-        "end": "16:40",
-        "title": "People to people (Episodul 11)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "16:40",
-        "end": "16:45",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "16:45",
-        "end": "17:00",
-        "title": "Lecturi a la carte (A.Prohin)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "17:00",
-        "end": "17:55",
-        "title": "Evantai folcloric",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "17:55",
-        "end": "18:00",
-        "title": "Publicitate",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "18:00",
-        "end": "18:30",
-        "title": "Tezaur",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "18:30",
-        "end": "19:00",
-        "title": "Moldova de patrimoniu",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "19:00",
-        "end": "19:30",
         "title": "Artelier (Dorina Vrabie)",
         "filler": false,
         "source": "tvmail"
       },
       {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "19:30",
-        "end": "21:00",
-        "title": "Antinostalgia (Deficitul în perioada sovietică)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "21:00",
-        "end": "22:00",
-        "title": "Daniel Bruhl, un european la Hollywood",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "22:00",
-        "end": "23:00",
-        "title": "Snails",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 5,
-        "dayName": "vineri",
-        "date": "2026-09-11",
-        "start": "23:00",
-        "end": "01:00",
-        "title": "Expresul de noapte (Cu Marina Gogu Grigorivna F.A.Hoții de biciclete)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
         "day": 6,
         "dayName": "sâmbătă",
         "date": "2026-09-12",
-        "start": "01:00",
-        "end": "02:25",
-        "title": "Select Cvartet Plus (Latino Meets Balkan Music)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "02:25",
-        "end": "02:55",
-        "title": "Proiect. Ghenadie Popescu",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "02:55",
-        "end": "03:25",
-        "title": "Destine de colecție (Efim Josanu, jurnalist de televiziune)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "03:25",
-        "end": "03:55",
-        "title": "Orologiu sentimental (Timofei Bătrânu)",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "03:55",
-        "end": "04:55",
-        "title": "Snails",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "04:55",
-        "end": "05:58",
-        "title": "Spectacol (Scaunele)",
-        "filler": false,
-        "source": "tvmail"
-      }
-    ],
-    "2026-09-12": [
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "05:00",
-        "end": "06:00",
-        "title": "No program",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "06:00",
-        "end": "07:00",
-        "title": "No program",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "07:00",
-        "end": "08:00",
-        "title": "No program",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 6,
-        "dayName": "sâmbătă",
-        "date": "2026-09-12",
-        "start": "08:00",
+        "start": "08:30",
         "end": "09:00",
-        "title": "No program",
+        "title": "Portrete în timp (Petru Baracci)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4696,8 +3632,18 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "09:00",
+        "end": "09:40",
+        "title": "People to people (Episodul 11)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "09:40",
         "end": "10:00",
-        "title": "No program",
+        "title": "Agenda RTNR",
         "filler": false,
         "source": "tvmail"
       },
@@ -4706,8 +3652,28 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "10:00",
+        "end": "10:25",
+        "title": "Orologiu sentimental (Ana Lupan)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "10:25",
+        "end": "10:30",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "10:30",
         "end": "11:00",
-        "title": "No program",
+        "title": "SoArta (Igor Guzun)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4716,8 +3682,8 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "11:00",
-        "end": "12:00",
-        "title": "No program",
+        "end": "11:05",
+        "title": "Publicitate",
         "filler": false,
         "source": "tvmail"
       },
@@ -4725,9 +3691,9 @@
         "day": 6,
         "dayName": "sâmbătă",
         "date": "2026-09-12",
-        "start": "12:00",
-        "end": "13:00",
-        "title": "No program",
+        "start": "11:05",
+        "end": "12:35",
+        "title": "Peter Pan",
         "filler": false,
         "source": "tvmail"
       },
@@ -4735,9 +3701,39 @@
         "day": 6,
         "dayName": "sâmbătă",
         "date": "2026-09-12",
-        "start": "13:00",
+        "start": "12:35",
+        "end": "12:40",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "12:40",
+        "end": "13:50",
+        "title": "Adagietto. Omagiu pianistului Iurie Mahovici",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "13:50",
+        "end": "13:55",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "13:55",
         "end": "14:00",
-        "title": "No program",
+        "title": "Necuvintele (Igor Guzun)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4746,8 +3742,38 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "14:00",
+        "end": "14:25",
+        "title": "Arts 21",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "14:25",
+        "end": "14:30",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "14:30",
+        "end": "14:55",
+        "title": "Euromaxx DW",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "14:55",
         "end": "15:00",
-        "title": "No program",
+        "title": "Publicitate",
         "filler": false,
         "source": "tvmail"
       },
@@ -4756,8 +3782,18 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "15:00",
+        "end": "15:50",
+        "title": "SoArta (Petru Vutcărău)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "15:50",
         "end": "16:00",
-        "title": "No program",
+        "title": "Text si muzica (Lilian Severin. Snails 1)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4766,8 +3802,28 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "16:00",
+        "end": "16:45",
+        "title": "People to people (Episodul 12)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "16:45",
+        "end": "16:50",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "16:50",
         "end": "17:00",
-        "title": "No program",
+        "title": "Text si muzica (Lilian Severin Snails 2)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4776,8 +3832,18 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "17:00",
+        "end": "17:55",
+        "title": "Evantai folcloric",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "17:55",
         "end": "18:00",
-        "title": "No program",
+        "title": "Publicitate",
         "filler": false,
         "source": "tvmail"
       },
@@ -4786,8 +3852,18 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "18:00",
+        "end": "18:30",
+        "title": "Tezaur",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "18:30",
         "end": "19:00",
-        "title": "No program",
+        "title": "Moldova de patrimoniu",
         "filler": false,
         "source": "tvmail"
       },
@@ -4796,8 +3872,48 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "19:00",
+        "end": "19:05",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "19:05",
+        "end": "19:25",
+        "title": "Agenda RTNR",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "19:25",
+        "end": "19:30",
+        "title": "Publicitate",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "19:30",
+        "end": "19:55",
+        "title": "Orologiu sentimental (Ana Lupan)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "19:55",
         "end": "20:00",
-        "title": "No program",
+        "title": "Publicitate",
         "filler": false,
         "source": "tvmail"
       },
@@ -4806,8 +3922,18 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "20:00",
+        "end": "20:30",
+        "title": "Artelier (Ludmila Furdui)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "20:30",
         "end": "21:00",
-        "title": "No program",
+        "title": "Dor (Dolgan Radu)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4816,8 +3942,18 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "21:00",
+        "end": "21:55",
+        "title": "F.D (O operă pentru un imperiu)",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 6,
+        "dayName": "sâmbătă",
+        "date": "2026-09-12",
+        "start": "21:55",
         "end": "22:00",
-        "title": "No program",
+        "title": "Publicitate",
         "filler": false,
         "source": "tvmail"
       },
@@ -4826,8 +3962,8 @@
         "dayName": "sâmbătă",
         "date": "2026-09-12",
         "start": "22:00",
-        "end": "23:00",
-        "title": "No program",
+        "end": "23:10",
+        "title": "Nina Crulicovschi E seara unei intalniri",
         "filler": false,
         "source": "tvmail"
       },
@@ -4835,9 +3971,9 @@
         "day": 6,
         "dayName": "sâmbătă",
         "date": "2026-09-12",
-        "start": "23:00",
-        "end": "00:00",
-        "title": "No program",
+        "start": "23:10",
+        "end": "01:30",
+        "title": "Spectacol (Liliacul)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4845,9 +3981,9 @@
         "day": 7,
         "dayName": "duminică",
         "date": "2026-09-13",
-        "start": "00:00",
-        "end": "01:00",
-        "title": "No program",
+        "start": "01:30",
+        "end": "01:55",
+        "title": "Orologiu sentimental (Ana Lupan)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4855,9 +3991,9 @@
         "day": 7,
         "dayName": "duminică",
         "date": "2026-09-13",
-        "start": "01:00",
+        "start": "01:55",
         "end": "02:00",
-        "title": "No program",
+        "title": "Necuvintele (Igor Guzun)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4866,8 +4002,28 @@
         "dayName": "duminică",
         "date": "2026-09-13",
         "start": "02:00",
+        "end": "02:25",
+        "title": "Arts 21",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 7,
+        "dayName": "duminică",
+        "date": "2026-09-13",
+        "start": "02:25",
+        "end": "02:50",
+        "title": "Euromaxx DW",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 7,
+        "dayName": "duminică",
+        "date": "2026-09-13",
+        "start": "02:50",
         "end": "03:00",
-        "title": "No program",
+        "title": "Text si muzica (Lilian Severin Snails 2)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4876,8 +4032,18 @@
         "dayName": "duminică",
         "date": "2026-09-13",
         "start": "03:00",
+        "end": "03:30",
+        "title": "# Cultura",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 7,
+        "dayName": "duminică",
+        "date": "2026-09-13",
+        "start": "03:30",
         "end": "04:00",
-        "title": "No program",
+        "title": "SoArta (Igor Guzun)",
         "filler": false,
         "source": "tvmail"
       },
@@ -4886,8 +4052,8 @@
         "dayName": "duminică",
         "date": "2026-09-13",
         "start": "04:00",
-        "end": "05:00",
-        "title": "No program",
+        "end": "05:10",
+        "title": "Nina Crulicovschi E seara unei intalniri",
         "filler": false,
         "source": "tvmail"
       }
