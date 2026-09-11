@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-11T05:55:54.077Z",
-  "updatedAtLocal": "11 sept. 2026, 08:55",
+  "updatedAt": "2026-09-11T11:12:44.571Z",
+  "updatedAtLocal": "11 sept. 2026, 14:12",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6458,6 +6458,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // „Muzee de la Sat”, proiect transnațional lansat în Republica Moldova. Cinci muzee rurale au intrat în circuitul digital",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Arta decorativă contemporană, la Chișinău: Peste 70 de artiști participă la Bienala Internațională",
           "filler": false,
           "news": true
@@ -6486,15 +6495,6 @@
           "start": null,
           "end": null,
           "title": "Mărturii despre maestrul Nicolae Sulac, într-o carte lansată la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Reuniunea Teatrelor Naționale Românești s-a deschis la Chișinău. Premierul Vasile Tofan: „Cultura va învinge barbarismul\"",
           "filler": false,
           "news": true
         },
@@ -6549,6 +6549,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Reuniunea Teatrelor Naționale Românești s-a deschis la Chișinău. Premierul Vasile Tofan: „Cultura va învinge barbarismul\"",
           "filler": false,
           "news": true
         },
@@ -6629,7 +6638,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cronica ARHIVELOR // Mihail Ciachir, preotul și cărturarul care a promovat limba română și cultura găgăuză",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -6638,7 +6647,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Cronica ARHIVELOR // Mihail Ciachir, preotul și cărturarul care a promovat limba română și cultura găgăuză",
           "filler": false,
           "news": true
         },
@@ -6810,15 +6819,6 @@
           "start": null,
           "end": null,
           "title": "Spectacolul „Dosarele Siberiei”, la Cotroceni. Președintele Nicușor Dan: „Memoria victimelor represiunilor totalitare aparține întregii Europe”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Congresul Mondial al Eminescologilor, la a XV-a ediție. Ministrul Dan Suruceanu: „Un spațiu în care descoperim operele care nu încetează să ne vorbească”",
           "filler": false,
           "news": true
         },
