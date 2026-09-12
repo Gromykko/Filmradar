@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-12T04:58:50.358Z",
-  "updatedAtLocal": "12 sept. 2026, 07:58",
+  "updatedAt": "2026-09-12T09:14:41.281Z",
+  "updatedAtLocal": "12 sept. 2026, 12:14",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5638,6 +5638,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Gala Festivalului „Te cânt, Patrie și Neam” va reuni 500 de artiști în scuarul Parlamentului. Din cauza prognozei meteo, concertul va începe la ora 16:00",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // „Muzee de la Sat”, proiect transnațional lansat în Republica Moldova. Cinci muzee rurale au intrat în circuitul digital",
           "filler": false,
           "news": true
@@ -5666,15 +5675,6 @@
           "start": null,
           "end": null,
           "title": "Speakerul Igor Grosu a îndemnat cetățenii să vină la Gala „Te cânt, Patrie și Neam”: „Să celebrăm prin muzică și cultură unitatea și dragostea de țară”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Mărturii despre maestrul Nicolae Sulac, într-o carte lansată la Chișinău",
           "filler": false,
           "news": true
         },
@@ -5729,6 +5729,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Mărturii despre maestrul Nicolae Sulac, într-o carte lansată la Chișinău",
           "filler": false,
           "news": true
         },
@@ -5809,7 +5818,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Turul României 2026 debutează, în premieră, la Chișinău. Prima etapă se desfășoară integral în Republica Moldova",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5818,7 +5827,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Turul României 2026 debutează, în premieră, la Chișinău. Prima etapă se desfășoară integral în Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -5990,15 +5999,6 @@
           "start": null,
           "end": null,
           "title": "Bookfest Chișinău 2026: cinci zile dedicate cărții, autorilor și dialogului cultural",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Spectacolul „Dosarele Siberiei”, la Cotroceni. Președintele Nicușor Dan: „Memoria victimelor represiunilor totalitare aparține întregii Europe”",
           "filler": false,
           "news": true
         },
