@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-13T01:23:57.640Z",
-  "updatedAtLocal": "13 sept. 2026, 04:23",
+  "updatedAt": "2026-09-13T06:44:53.462Z",
+  "updatedAtLocal": "13 sept. 2026, 09:44",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5008,6 +5008,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "„Otello” de Giuseppe Verdi, pe scena de la Chișinău. Spectacolul va reuni artiști din mai multe țări",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO, VIDEO // Peste 500 de artiști, la Gala „Te cânt, Patrie și Neam”. Speakerul Igor Grosu: „Sper să devină o frumoasă tradiție a Parlamentului”",
           "filler": false,
           "news": true
@@ -5036,15 +5045,6 @@
           "start": null,
           "end": null,
           "title": "Arta decorativă contemporană, la Chișinău: Peste 70 de artiști participă la Bienala Internațională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Expoziție dedicată lui Gheorghe Cincilei, la Muzeul Național al Literaturii Române",
           "filler": false,
           "news": true
         },
@@ -5099,6 +5099,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Expoziție dedicată lui Gheorghe Cincilei, la Muzeul Național al Literaturii Române",
           "filler": false,
           "news": true
         },
@@ -5179,7 +5188,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cronica ARHIVELOR // Ion Arachelu, actorul care a dat culoare comediei pe scenă și ecranul moldovenesc",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5188,7 +5197,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Cronica ARHIVELOR // Ion Arachelu, actorul care a dat culoare comediei pe scenă și ecranul moldovenesc",
           "filler": false,
           "news": true
         },
@@ -5360,15 +5369,6 @@
           "start": null,
           "end": null,
           "title": "Bookfest Chișinău și-a deschis ediția 2026. Cititorii sunt așteptați timp de cinci zile la sărbătoarea cărții",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Start Bookfest Chişinău. 30 de edituri şi zeci de evenimente culturale",
           "filler": false,
           "news": true
         },
