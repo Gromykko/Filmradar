@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-13T06:44:53.462Z",
-  "updatedAtLocal": "13 sept. 2026, 09:44",
+  "updatedAt": "2026-09-13T12:42:09.328Z",
+  "updatedAtLocal": "13 sept. 2026, 15:41",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5008,6 +5008,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Misterul din spatele romanului „Temă pentru acasă” de Nicolae Dabija. Destăinuirile muzeografei de la Țipova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Otello” de Giuseppe Verdi, pe scena de la Chișinău. Spectacolul va reuni artiști din mai multe țări",
           "filler": false,
           "news": true
@@ -5036,15 +5045,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // „Muzee de la Sat”, proiect transnațional lansat în Republica Moldova. Cinci muzee rurale au intrat în circuitul digital",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Arta decorativă contemporană, la Chișinău: Peste 70 de artiști participă la Bienala Internațională",
           "filler": false,
           "news": true
         },
@@ -5099,6 +5099,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Arta decorativă contemporană, la Chișinău: Peste 70 de artiști participă la Bienala Internațională",
           "filler": false,
           "news": true
         },
@@ -5179,7 +5188,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Republica Moldova și Danemarca vor extinde cooperarea în domeniul culturii, cinematografiei și mass-media",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5188,7 +5197,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Republica Moldova și Danemarca vor extinde cooperarea în domeniul culturii, cinematografiei și mass-media",
           "filler": false,
           "news": true
         },
@@ -5360,15 +5369,6 @@
           "start": null,
           "end": null,
           "title": "Spațiile Editurii „Universul” vor fi transformate într-un centru modern pentru cultură și industrii creative",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Bookfest Chișinău și-a deschis ediția 2026. Cititorii sunt așteptați timp de cinci zile la sărbătoarea cărții",
           "filler": false,
           "news": true
         },
