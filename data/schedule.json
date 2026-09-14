@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-14T05:24:46.223Z",
-  "updatedAtLocal": "14 sept. 2026, 08:24",
+  "updatedAt": "2026-09-14T10:57:20.711Z",
+  "updatedAtLocal": "14 sept. 2026, 13:57",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1205,7 +1205,7 @@
           "date": "2026-09-14",
           "start": "09:00",
           "end": "10:00",
-          "title": "Telematinal",
+          "title": "Telematinal (Episodul 3)",
           "filler": false,
           "source": "tvmail"
         },
@@ -1355,7 +1355,7 @@
           "date": "2026-09-14",
           "start": "16:30",
           "end": "17:00",
-          "title": "România… în bucate (Gatim romaneste)",
+          "title": "România… în bucate",
           "filler": false,
           "source": "tvmail"
         },
@@ -1435,7 +1435,7 @@
           "date": "2026-09-14",
           "start": "20:55",
           "end": "21:00",
-          "title": "Zi de zi cu părintele Ctin Necula",
+          "title": "Zi de zi",
           "filler": false,
           "source": "tvmail"
         },
@@ -1495,7 +1495,7 @@
           "date": "2026-09-15",
           "start": "00:00",
           "end": "01:00",
-          "title": "Portret de secol",
+          "title": "Exclusiv în România",
           "filler": false,
           "source": "tvmail"
         },
@@ -4140,7 +4140,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Samsung Galaxy S26 FE: cea mai nouă experiență flagship, axată pe ceea ce contează cu adevărat",
+          "title": "Vrei să știi să faci față situațiilor de urgență? Înscrie-te la un forum european pentru tineri care va avea loc la Bruxelles",
           "filler": false,
           "news": true
         },
@@ -4149,7 +4149,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Când iPhone 18 Pro va putea fi cumpărat în Moldova",
+          "title": "Cât costă lemnele pentru foc în acest an în localitățile din Moldova",
           "filler": false,
           "news": true
         },
@@ -4158,7 +4158,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Elevii din Moldova ar putea avea 30 de minute de lectură pe zi la școală",
+          "title": "Toți studenții de la licență, înscriși la buget la specialități STEAM din domeniul educației, vor primi bursă",
           "filler": false,
           "news": true
         },
@@ -4167,7 +4167,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Conținutul examenelor de clasa a IX-a ar putea fi revizuit după rezultatele elevilor la PISA",
+          "title": "„Ideea de a mă întoarce acasă nu a dispărut.” Virginia Grama, despre ajutorul pe care îl oferă studenților moldoveni din Danemarca",
           "filler": false,
           "news": true
         },
@@ -4176,7 +4176,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(foto) Cum arată iPhone 18 Pro, iPhone 18 Pro Max și primul iPhone pliabil și cât costă noile telefoane",
+          "title": "Victoriabank acceptă actele digitale din EVO în toate sucursalele",
           "filler": false,
           "news": true
         },
@@ -4185,7 +4185,25 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Maib lansează a șasea emisiune de obligațiuni corporative din cadrul Programului IV de ofertă publică",
+          "title": "RADACINI lansează primele vinuri cu Denumire de Origine Protejată din Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Balet, rock și operă. Șapte evenimente la care ai putea să mergi săptămâna viitoare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Continuă ploile sau nu? Prognoza meteo pentru perioada 14-20 septembrie",
           "filler": false,
           "news": true
         },
@@ -4298,6 +4316,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Peste 500 de artiști din Republica Moldova au participat la Gala Festivalului „Te cânt, Patrie și Neam”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Misterul din spatele romanului „Temă pentru acasă” de Nicolae Dabija. Destăinuirile muzeografei de la Țipova",
           "filler": false,
           "news": true
@@ -4326,15 +4353,6 @@
           "start": null,
           "end": null,
           "title": "Gala Festivalului „Te cânt, Patrie și Neam” va reuni 500 de artiști în scuarul Parlamentului. Din cauza prognozei meteo, concertul va începe la ora 16:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Muzee de la Sat”, proiect transnațional lansat în Republica Moldova. Cinci muzee rurale au intrat în circuitul digital",
           "filler": false,
           "news": true
         },
@@ -4389,6 +4407,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // „Muzee de la Sat”, proiect transnațional lansat în Republica Moldova. Cinci muzee rurale au intrat în circuitul digital",
           "filler": false,
           "news": true
         },
@@ -4469,7 +4496,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cronica ARHIVELOR // Nicolae Sulac, vocea emblematică a muzicii populare",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4478,7 +4505,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Cronica ARHIVELOR // Nicolae Sulac, vocea emblematică a muzicii populare",
           "filler": false,
           "news": true
         },
@@ -4650,15 +4677,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Florin Piersic, omagiat la Zilele Filmului Românesc. Trei producții de colecție, pe ecranele din Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Spațiile Editurii „Universul” vor fi transformate într-un centru modern pentru cultură și industrii creative",
           "filler": false,
           "news": true
         },
