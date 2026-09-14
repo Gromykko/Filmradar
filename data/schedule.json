@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-14T16:56:49.723Z",
-  "updatedAtLocal": "14 sept. 2026, 19:56",
+  "updatedAt": "2026-09-14T20:55:39.010Z",
+  "updatedAtLocal": "14 sept. 2026, 23:55",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4325,6 +4325,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Simpozion dedicat savantului Nicolae Donici, organizat la Dubăsarii Vechi",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Descoperă Moldova cu #MOLDPRES // Muzeul din Slobozia Mare adună sub același acoperiș poveștile și tradițiile satului",
           "filler": false,
           "news": true
@@ -4353,15 +4362,6 @@
           "start": null,
           "end": null,
           "title": "Misterul din spatele romanului „Temă pentru acasă” de Nicolae Dabija. Destăinuirile muzeografei de la Țipova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Otello” de Giuseppe Verdi, pe scena de la Chișinău. Spectacolul va reuni artiști din mai multe țări",
           "filler": false,
           "news": true
         },
@@ -4416,6 +4416,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Otello” de Giuseppe Verdi, pe scena de la Chișinău. Spectacolul va reuni artiști din mai multe țări",
           "filler": false,
           "news": true
         },
@@ -4496,7 +4505,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "România invită Republica Moldova la Târgul de Carte de la Frankfurt. Stand comun în 2028",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4505,7 +4514,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "România invită Republica Moldova la Târgul de Carte de la Frankfurt. Stand comun în 2028",
           "filler": false,
           "news": true
         },
@@ -4677,15 +4686,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Condiții mai bune de cazare pentru studenții AMTAP. Etajul II al căminului de pe strada Armenească, renovat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova renunță la Acordul CSI privind schimbul de publicații între biblioteci",
           "filler": false,
           "news": true
         },
