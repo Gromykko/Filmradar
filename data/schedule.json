@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T14:57:37.784Z",
-  "updatedAtLocal": "15 sept. 2026, 17:57",
+  "updatedAt": "2026-09-15T18:56:39.842Z",
+  "updatedAtLocal": "15 sept. 2026, 21:56",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4457,6 +4457,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Republica Moldova, Ucraina și România pregătesc nominalizarea comună pentru UNESCO a complexului cultural „Precucuteni–Ariuşd–Cucuteni–Trypillia”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Moldova–Ucraina: Noi proiecte culturale, discutate de Dan Suruceanu și Paun Rohovei. Ce spectacole vor fi prezentate publicului",
           "filler": false,
           "news": true
@@ -4485,15 +4494,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Descoperă Moldova cu #MOLDPRES // Muzeul din Slobozia Mare adună sub același acoperiș poveștile și tradițiile satului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Diversitatea etnică și tradițiile culturale, puse în valoare la Festivalul Etniilor de la Călărași",
           "filler": false,
           "news": true
         },
@@ -4548,6 +4548,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Diversitatea etnică și tradițiile culturale, puse în valoare la Festivalul Etniilor de la Călărași",
           "filler": false,
           "news": true
         },
@@ -4628,7 +4637,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Speakerul Igor Grosu a îndemnat cetățenii să vină la Gala „Te cânt, Patrie și Neam”: „Să celebrăm prin muzică și cultură unitatea și dragostea de țară”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4637,7 +4646,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Speakerul Igor Grosu a îndemnat cetățenii să vină la Gala „Te cânt, Patrie și Neam”: „Să celebrăm prin muzică și cultură unitatea și dragostea de țară”",
           "filler": false,
           "news": true
         },
@@ -4809,15 +4818,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // VinOpera 2026: Muzica clasică și vinul, într-o experiență culturală la Bulboaca",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Olimpismul și Războiul Rece, într-o nouă cercetare semnată de Sergiu Gurin",
           "filler": false,
           "news": true
         },
