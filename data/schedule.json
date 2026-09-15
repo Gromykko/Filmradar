@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T10:01:19.672Z",
-  "updatedAtLocal": "15 sept. 2026, 13:01",
+  "updatedAt": "2026-09-15T14:57:37.784Z",
+  "updatedAtLocal": "15 sept. 2026, 17:57",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4209,6 +4209,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "La Muzeul Național de Artă al Moldovei a fost inaugurată expoziția „ALB DUPĂ ALB”, semnată de Doina Mihăilescu",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "La Drochia va fi organizat un festival dedicat diversității, tradițiilor și oportunităților pentru tineri. Când va avea loc „Mozaic Cultural”",
           "filler": false,
           "news": true
@@ -4281,7 +4290,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ești pasionat(ă) de literatură și vrei să te întâlnești cu scriitori și profesioniști din domeniul culturii? Devino voluntar(ă) la Festivalul CHILL",
+          "title": "Casa încă nu e gata. Dar poate fi deja conectată",
           "filler": false,
           "news": true
         },
@@ -4290,7 +4299,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Medici de familie, instruiți pentru servicii de maternitate incluzive pentru persoanele cu dizabilități",
+          "title": "Câți profesori tineri rămân în sistem după angajare? Datele prezentate de Ministerul Educației",
           "filler": false,
           "news": true
         },
@@ -4299,7 +4308,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Liceenii din Chișinău se pot înscrie la cursuri gratuite de limba italiană. Lecțiile vor fi organizate de o profesoară nativă",
+          "title": "A cincea ediție aniversară Oktoberfest la Keller Holz: cum o berărie moldovenească îmbină tradițiile europene și coloritul local",
           "filler": false,
           "news": true
         },
@@ -4308,7 +4317,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Oportunitate pentru bunicul sau bunica ta! USM organizează ateliere de educație digitală și stil de viață activ destinate tinerilor în etate",
+          "title": "(foto) Ce este și cum lucrează aplicația „STOP-DROG”: permite raportarea anonimă a incidentelor cu droguri",
           "filler": false,
           "news": true
         },
@@ -4317,7 +4326,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Părinții pot achita pentru alimentația copiilor și alte servicii din cadrul școlilor prin aplicația EVO. Lista instituțiilor conectate",
+          "title": "Primul Sprint Kood Moldova s-a încheiat. Începe formarea unei noi generații de specialiști tech",
           "filler": false,
           "news": true
         },
@@ -4326,7 +4335,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tinerii din Anenii Noi au descoperit diversitatea prin dialog, creativitate și colaborare",
+          "title": "Când și cum o să poți depune cererea pentru compensațiile la energie în sezonul rece 2026/2027",
           "filler": false,
           "news": true
         },
@@ -4335,34 +4344,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(foto) Un grup de tineri din Edineț au pictat un graffiti pe pereții parcului din oraș",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Vrei să știi să faci față situațiilor de urgență? Înscrie-te la un forum european pentru tineri care va avea loc la Bruxelles",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cât costă lemnele pentru foc în acest an în localitățile din Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Toți studenții de la licență, înscriși la buget la specialități STEAM din domeniul educației, vor primi bursă",
+          "title": "Avioanele NATO au doborât, în premieră, o dronă deasupra Lituaniei. Survolările s-au intensificat în ultima vreme",
           "filler": false,
           "news": true
         },
@@ -4475,6 +4457,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Moldova–Ucraina: Noi proiecte culturale, discutate de Dan Suruceanu și Paun Rohovei. Ce spectacole vor fi prezentate publicului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Expoziție dedicată lui Michael Davitt și dezbatere despre Dracula, proiecte culturale discutate la Biblioteca Națională cu ambasadorul Irlandei",
           "filler": false,
           "news": true
@@ -4503,15 +4494,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Diversitatea etnică și tradițiile culturale, puse în valoare la Festivalul Etniilor de la Călărași",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Peste 500 de artiști din Republica Moldova au participat la Gala Festivalului „Te cânt, Patrie și Neam”",
           "filler": false,
           "news": true
         },
@@ -4566,6 +4548,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Peste 500 de artiști din Republica Moldova au participat la Gala Festivalului „Te cânt, Patrie și Neam”",
           "filler": false,
           "news": true
         },
@@ -4646,7 +4637,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Mărturii despre maestrul Nicolae Sulac, într-o carte lansată la Chișinău",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4655,7 +4646,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Mărturii despre maestrul Nicolae Sulac, într-o carte lansată la Chișinău",
           "filler": false,
           "news": true
         },
@@ -4827,15 +4818,6 @@
           "start": null,
           "end": null,
           "title": "Olimpismul și Războiul Rece, într-o nouă cercetare semnată de Sergiu Gurin",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Șase autori, premiați la Chișinău pentru contribuția la literatura română contemporană",
           "filler": false,
           "news": true
         },
