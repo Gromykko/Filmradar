@@ -1,108 +1,6 @@
 {
   "2901": {
-    "2026-09-15": [
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-15",
-        "start": "05:00",
-        "end": "05:42",
-        "title": "Telejurnal Moldova",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-15",
-        "start": "05:42",
-        "end": "06:00",
-        "title": "Sport",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-15",
-        "start": "06:00",
-        "end": "06:55",
-        "title": "Punctul pe azi",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-15",
-        "start": "06:55",
-        "end": "08:55",
-        "title": "Imnul României",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-15",
-        "start": "08:55",
-        "end": "20:55",
-        "title": "Programul nu este furnizat de canal",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-15",
-        "start": "20:55",
-        "end": "07:00",
-        "title": "Programul nu este furnizat de canal",
-        "filler": false,
-        "source": "tvmail"
-      }
-    ],
     "2026-09-16": [
-      {
-        "day": 3,
-        "dayName": "miercuri",
-        "date": "2026-09-16",
-        "start": "05:00",
-        "end": "05:42",
-        "title": "Telejurnal Moldova",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 3,
-        "dayName": "miercuri",
-        "date": "2026-09-16",
-        "start": "05:42",
-        "end": "06:00",
-        "title": "Sport",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 3,
-        "dayName": "miercuri",
-        "date": "2026-09-16",
-        "start": "06:00",
-        "end": "06:55",
-        "title": "Punctul pe azi",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 3,
-        "dayName": "miercuri",
-        "date": "2026-09-16",
-        "start": "06:55",
-        "end": "07:00",
-        "title": "Imnul României",
-        "filler": false,
-        "source": "tvmail"
-      },
       {
         "day": 3,
         "dayName": "miercuri",
@@ -139,7 +37,7 @@
         "date": "2026-09-16",
         "start": "09:00",
         "end": "10:00",
-        "title": "Telematinal",
+        "title": "Telematinal (Episodul 3)",
         "filler": false,
         "source": "tvmail"
       },
@@ -148,8 +46,8 @@
         "dayName": "miercuri",
         "date": "2026-09-16",
         "start": "10:00",
-        "end": "10:55",
-        "title": "Istorii cu tâlc",
+        "end": "10:57",
+        "title": "Lectia de istorie",
         "filler": false,
         "source": "tvmail"
       },
@@ -157,7 +55,7 @@
         "day": 3,
         "dayName": "miercuri",
         "date": "2026-09-16",
-        "start": "10:55",
+        "start": "10:57",
         "end": "11:00",
         "title": "Pastila de istorie",
         "filler": false,
@@ -188,8 +86,18 @@
         "dayName": "miercuri",
         "date": "2026-09-16",
         "start": "12:00",
+        "end": "12:30",
+        "title": "Artcrush",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 3,
+        "dayName": "miercuri",
+        "date": "2026-09-16",
+        "start": "12:30",
         "end": "12:55",
-        "title": "Agricultura modernă",
+        "title": "Memorie şi destin",
         "filler": false,
         "source": "tvmail"
       },
@@ -218,8 +126,18 @@
         "dayName": "miercuri",
         "date": "2026-09-16",
         "start": "13:30",
+        "end": "13:45",
+        "title": "Reportajele Telejurnalului",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 3,
+        "dayName": "miercuri",
+        "date": "2026-09-16",
+        "start": "13:45",
         "end": "14:00",
-        "title": "Raftul de cultura",
+        "title": "Europa azi",
         "filler": false,
         "source": "tvmail"
       },
@@ -279,7 +197,7 @@
         "date": "2026-09-16",
         "start": "16:00",
         "end": "16:30",
-        "title": "Natură si aventură",
+        "title": "Identitate Basarabia",
         "filler": false,
         "source": "tvmail"
       },
@@ -299,7 +217,7 @@
         "date": "2026-09-16",
         "start": "17:00",
         "end": "17:55",
-        "title": "Destine ca-n filme",
+        "title": "Hai Hui cu Marina",
         "filler": false,
         "source": "tvmail"
       },
@@ -338,7 +256,7 @@
         "dayName": "miercuri",
         "date": "2026-09-16",
         "start": "19:00",
-        "end": "19:45",
+        "end": "19:42",
         "title": "Telejurnal Moldova",
         "filler": false,
         "source": "tvmail"
@@ -347,9 +265,9 @@
         "day": 3,
         "dayName": "miercuri",
         "date": "2026-09-16",
-        "start": "19:45",
+        "start": "19:42",
         "end": "20:00",
-        "title": "Fake News Alert",
+        "title": "Sport",
         "filler": false,
         "source": "tvmail"
       },
@@ -369,7 +287,7 @@
         "date": "2026-09-16",
         "start": "20:55",
         "end": "21:00",
-        "title": "Zi de zi cu părintele Ctin Necula",
+        "title": "Zi de zi",
         "filler": false,
         "source": "tvmail"
       },
@@ -378,8 +296,18 @@
         "dayName": "miercuri",
         "date": "2026-09-16",
         "start": "21:00",
+        "end": "21:30",
+        "title": "Expertul de pe canapea",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 3,
+        "dayName": "miercuri",
+        "date": "2026-09-16",
+        "start": "21:30",
         "end": "22:00",
-        "title": "Frații",
+        "title": "Cu Susul În Jos",
         "filler": false,
         "source": "tvmail"
       },
@@ -389,7 +317,7 @@
         "date": "2026-09-16",
         "start": "22:00",
         "end": "23:00",
-        "title": "Dezacorduri de pace",
+        "title": "Portret de secol",
         "filler": false,
         "source": "tvmail"
       },
@@ -419,7 +347,7 @@
         "date": "2026-09-17",
         "start": "00:00",
         "end": "01:00",
-        "title": "Portret de secol (Sfârşit de sistem)",
+        "title": "Paie şi asfalt (Episodul 1)",
         "filler": false,
         "source": "tvmail"
       },
@@ -428,18 +356,8 @@
         "dayName": "joi",
         "date": "2026-09-17",
         "start": "01:00",
-        "end": "01:30",
-        "title": "Artcrush",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 4,
-        "dayName": "joi",
-        "date": "2026-09-17",
-        "start": "01:30",
         "end": "02:00",
-        "title": "Anchete",
+        "title": "Paie şi asfalt (Episodul 2)",
         "filler": false,
         "source": "tvmail"
       },
@@ -449,7 +367,7 @@
         "date": "2026-09-17",
         "start": "02:00",
         "end": "02:30",
-        "title": "Raftul de cultura",
+        "title": "Dialoguri colorate",
         "filler": false,
         "source": "tvmail"
       },
@@ -459,7 +377,7 @@
         "date": "2026-09-17",
         "start": "02:30",
         "end": "03:00",
-        "title": "În Slujba Binelui",
+        "title": "Memorie şi destin",
         "filler": false,
         "source": "tvmail"
       },
@@ -469,7 +387,7 @@
         "date": "2026-09-17",
         "start": "03:00",
         "end": "03:30",
-        "title": "Natură si aventură",
+        "title": "Identitate Basarabia",
         "filler": false,
         "source": "tvmail"
       },
@@ -2083,16 +2001,17 @@
         "filler": false,
         "source": "tvmail"
       }
-    ]
+    ],
+    "2026-09-22": []
   },
   "2909": {
-    "2026-09-15": [],
     "2026-09-16": [],
-    "2026-09-17": []
+    "2026-09-17": [],
+    "2026-09-18": []
   },
   "2910": {
-    "2026-09-15": [],
     "2026-09-16": [],
-    "2026-09-17": []
+    "2026-09-17": [],
+    "2026-09-18": []
   }
 }
