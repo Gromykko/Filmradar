@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-16T05:57:53.039Z",
-  "updatedAtLocal": "16 sept. 2026, 08:57",
+  "updatedAt": "2026-09-16T11:25:38.186Z",
+  "updatedAtLocal": "16 sept. 2026, 14:25",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4467,6 +4467,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cinematografia românească revine la Chișinău. Începe cea de-a XII-a ediție a Zilelor Filmului Românesc",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Teatrul din Luhansk vine în Republica Moldova cu un spectacol inspirat din Edgar Allan Poe",
           "filler": false,
           "news": true
@@ -4495,15 +4504,6 @@
           "start": null,
           "end": null,
           "title": "Moldova–Ucraina: Noi proiecte culturale, discutate de Dan Suruceanu și Paun Rohovei. Ce spectacole vor fi prezentate publicului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Expoziție dedicată lui Michael Davitt și dezbatere despre Dracula, proiecte culturale discutate la Biblioteca Națională cu ambasadorul Irlandei",
           "filler": false,
           "news": true
         },
@@ -4558,6 +4558,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Expoziție dedicată lui Michael Davitt și dezbatere despre Dracula, proiecte culturale discutate la Biblioteca Națională cu ambasadorul Irlandei",
           "filler": false,
           "news": true
         },
@@ -4638,7 +4647,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // „Muzee de la Sat”, proiect transnațional lansat în Republica Moldova. Cinci muzee rurale au intrat în circuitul digital",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4647,7 +4656,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // „Muzee de la Sat”, proiect transnațional lansat în Republica Moldova. Cinci muzee rurale au intrat în circuitul digital",
           "filler": false,
           "news": true
         },
@@ -4819,15 +4828,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Președinta Maia Sandu a vizitat Bookfest Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Descoperă Moldova cu #MOLDPRES // Arome de altădată: pâinea tradițională, readusă la Muzeul Etnografic din Cantemir",
           "filler": false,
           "news": true
         },
