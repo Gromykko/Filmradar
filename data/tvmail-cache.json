@@ -2002,7 +2002,68 @@
         "source": "tvmail"
       }
     ],
-    "2026-09-22": []
+    "2026-09-22": [
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-09-22",
+        "start": "05:00",
+        "end": "05:45",
+        "title": "Telejurnal Moldova",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-09-22",
+        "start": "05:45",
+        "end": "06:00",
+        "title": "Discover România",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-09-22",
+        "start": "06:00",
+        "end": "06:55",
+        "title": "Punctul pe azi",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-09-22",
+        "start": "06:55",
+        "end": "08:55",
+        "title": "Imnul României",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-09-22",
+        "start": "08:55",
+        "end": "20:55",
+        "title": "Programul nu este furnizat de canal",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 2,
+        "dayName": "marți",
+        "date": "2026-09-22",
+        "start": "20:55",
+        "end": "07:00",
+        "title": "Programul nu este furnizat de canal",
+        "filler": false,
+        "source": "tvmail"
+      }
+    ]
   },
   "2909": {
     "2026-09-16": [],

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-16T00:47:01.810Z",
-  "updatedAtLocal": "16 sept. 2026, 03:46",
+  "updatedAt": "2026-09-16T05:57:53.039Z",
+  "updatedAtLocal": "16 sept. 2026, 08:57",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4108,6 +4108,66 @@
           "title": "Imnul României",
           "filler": false,
           "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-22",
+          "start": "05:00",
+          "end": "05:45",
+          "title": "Telejurnal Moldova",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-22",
+          "start": "05:45",
+          "end": "06:00",
+          "title": "Discover România",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-22",
+          "start": "06:00",
+          "end": "06:55",
+          "title": "Punctul pe azi",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-22",
+          "start": "06:55",
+          "end": "08:55",
+          "title": "Imnul României",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-22",
+          "start": "08:55",
+          "end": "20:55",
+          "title": "Programul nu este furnizat de canal",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-22",
+          "start": "20:55",
+          "end": "07:00",
+          "title": "Programul nu este furnizat de canal",
+          "filler": false,
+          "source": "tvmail"
         }
       ]
     },
@@ -4407,6 +4467,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Teatrul din Luhansk vine în Republica Moldova cu un spectacol inspirat din Edgar Allan Poe",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
           "filler": false,
           "news": true
@@ -4435,15 +4504,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Expoziție dedicată lui Michael Davitt și dezbatere despre Dracula, proiecte culturale discutate la Biblioteca Națională cu ambasadorul Irlandei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Simpozion dedicat savantului Nicolae Donici, organizat la Dubăsarii Vechi",
           "filler": false,
           "news": true
         },
@@ -4498,6 +4558,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Simpozion dedicat savantului Nicolae Donici, organizat la Dubăsarii Vechi",
           "filler": false,
           "news": true
         },
@@ -4578,7 +4647,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Arta decorativă contemporană, la Chișinău: Peste 70 de artiști participă la Bienala Internațională",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4587,7 +4656,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Arta decorativă contemporană, la Chișinău: Peste 70 de artiști participă la Bienala Internațională",
           "filler": false,
           "news": true
         },
@@ -4759,15 +4828,6 @@
           "start": null,
           "end": null,
           "title": "Descoperă Moldova cu #MOLDPRES // Arome de altădată: pâinea tradițională, readusă la Muzeul Etnografic din Cantemir",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Opera „Lucia di Lammermoor” deschide cortina celei de-a XXXIV-a ediții a Festivalului „Maria Bieșu”",
           "filler": false,
           "news": true
         },
