@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-17T10:24:28.224Z",
-  "updatedAtLocal": "17 sept. 2026, 13:24",
+  "updatedAt": "2026-09-17T15:17:55.814Z",
+  "updatedAtLocal": "17 sept. 2026, 18:17",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4209,6 +4209,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Record Guinness de Ziua Vinului. Participanții ar urma să formeze cea mai mare imagine umană a unei vițe-de-vie din lume",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Teatrul Fără Nume reprezintă Moldova pe scenele din Serbia și România. Spectacolul „Matca” ajunge la un festival din Brașov",
           "filler": false,
           "news": true
@@ -4281,7 +4290,52 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "România a decis ce film va propune la Premiile Oscar 2027. A fost scris și regizat de un cineast cu rădăcini în Republica Moldova",
+          "title": "Proiectele strategice ale Guvernului vor fi implementate de o nouă structură – Moldova Project. Cine o va conduce",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cinci păsări protejate au fost găsite împușcate. Un cocostârc urmărit prin satelit a dus la descoperirea crimei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Noul studiu privind piața materialelor de construcții și serviciilor de inginerie din Republica Moldova analizează oportunitățile pentru investiții și producție",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Traficul rutier va fi sistat în acest weekend pe mai multe străzi din centrul Capitalei. Cum va circula transportul public",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Un program de limbă și cultură română a fost recunoscut de Consiliul pentru Educație din Illinois, SUA",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Până la 40.000 de lei pentru ideile de afaceri prietenoase cu mediul. Doritorii sunt invitați la noua ediție Green Tech Incubator",
           "filler": false,
           "news": true
         },
@@ -4291,69 +4345,6 @@
           "start": null,
           "end": null,
           "title": "Paul Gamurari este noul rector al Academiei de Muzica Teatru si Arte Plastice",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Verifică de unde e mai avantajos să cumperi energie și gaze. ANRE a lansat un instrument pentru compararea prețurilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O nouă generație de studenți a îmbrăcat halatul alb la USMF „Nicolae Testemițanu”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldova are un nou program privind sănătatea sexuală și reproductivă. Ce prevede acesta și cât va costa",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Concurs artistic pentru elevii din Moldova. Care sunt criteriile de eligibilitate și premiile oferite",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Organizațiile de tineret pot primi finanțare de până la 600.000 de lei. Vezi cum te poți înscrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "MITP în primul semestru din 2026: de la echipe mici la mari jucători internaționali. Cine generează vânzări?",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Frizerii și saloane din Chișinău unde poți să-ți tunzi copilul cu vârsta de până la 10 ani",
           "filler": false,
           "news": true
         },
@@ -4466,6 +4457,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Festivalul Etniilor, la cea de-a XXV-a ediție: 24 de etnii își vor prezenta tradițiile la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Zilele Filmului Românesc, la a XII-a ediție, cu filme noi și pelicule de patrimoniu, la Chișinău",
           "filler": false,
           "news": true
@@ -4494,15 +4494,6 @@
           "start": null,
           "end": null,
           "title": "Teatrul din Luhansk vine în Republica Moldova cu un spectacol inspirat din Edgar Allan Poe",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
           "filler": false,
           "news": true
         },
@@ -4557,6 +4548,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
           "filler": false,
           "news": true
         },
@@ -4637,7 +4637,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Otello” de Giuseppe Verdi, pe scena de la Chișinău. Spectacolul va reuni artiști din mai multe țări",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4646,7 +4646,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "„Otello” de Giuseppe Verdi, pe scena de la Chișinău. Spectacolul va reuni artiști din mai multe țări",
           "filler": false,
           "news": true
         },
@@ -4818,15 +4818,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova și Grecia pregătesc noi proiecte în baza Memorandumului de cooperare culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Eugeniu Coșeriu – savantul care a pus bazele lingvisticii integrale",
           "filler": false,
           "news": true
         },
