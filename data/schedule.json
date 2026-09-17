@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-17T05:19:40.944Z",
-  "updatedAtLocal": "17 sept. 2026, 08:19",
+  "updatedAt": "2026-09-17T10:24:28.224Z",
+  "updatedAtLocal": "17 sept. 2026, 13:24",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4209,6 +4209,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Teatrul Fără Nume reprezintă Moldova pe scenele din Serbia și România. Spectacolul „Matca” ajunge la un festival din Brașov",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "La Muzeul Național de Artă al Moldovei a fost inaugurată expoziția „ALB DUPĂ ALB”, semnată de Doina Mihăilescu",
           "filler": false,
           "news": true
@@ -4281,7 +4290,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un film despre istoria romilor deportați din Basarabia în timpul celui de-Al Doilea Război Mondial va fi proiectat la New York",
+          "title": "Paul Gamurari este noul rector al Academiei de Muzica Teatru si Arte Plastice",
           "filler": false,
           "news": true
         },
@@ -4290,7 +4299,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Casa încă nu e gata. Dar poate fi deja conectată",
+          "title": "Verifică de unde e mai avantajos să cumperi energie și gaze. ANRE a lansat un instrument pentru compararea prețurilor",
           "filler": false,
           "news": true
         },
@@ -4299,7 +4308,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Câți profesori tineri rămân în sistem după angajare? Datele prezentate de Ministerul Educației",
+          "title": "O nouă generație de studenți a îmbrăcat halatul alb la USMF „Nicolae Testemițanu”",
           "filler": false,
           "news": true
         },
@@ -4308,7 +4317,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "A cincea ediție aniversară Oktoberfest la Keller Holz: cum o berărie moldovenească îmbină tradițiile europene și coloritul local",
+          "title": "Moldova are un nou program privind sănătatea sexuală și reproductivă. Ce prevede acesta și cât va costa",
           "filler": false,
           "news": true
         },
@@ -4317,7 +4326,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(foto) Ce este și cum lucrează aplicația „STOP-DROG”: permite raportarea anonimă a incidentelor cu droguri",
+          "title": "Concurs artistic pentru elevii din Moldova. Care sunt criteriile de eligibilitate și premiile oferite",
           "filler": false,
           "news": true
         },
@@ -4326,7 +4335,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Primul Sprint Kood Moldova s-a încheiat. Începe formarea unei noi generații de specialiști tech",
+          "title": "Organizațiile de tineret pot primi finanțare de până la 600.000 de lei. Vezi cum te poți înscrie",
           "filler": false,
           "news": true
         },
@@ -4335,7 +4344,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Când și cum o să poți depune cererea pentru compensațiile la energie în sezonul rece 2026/2027",
+          "title": "MITP în primul semestru din 2026: de la echipe mici la mari jucători internaționali. Cine generează vânzări?",
           "filler": false,
           "news": true
         },
@@ -4344,7 +4353,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Avioanele NATO au doborât, în premieră, o dronă deasupra Lituaniei. Survolările s-au intensificat în ultima vreme",
+          "title": "Frizerii și saloane din Chișinău unde poți să-ți tunzi copilul cu vârsta de până la 10 ani",
           "filler": false,
           "news": true
         },
@@ -4457,6 +4466,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Zilele Filmului Românesc, la a XII-a ediție, cu filme noi și pelicule de patrimoniu, la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Coșbuc și Bacovia, reuniți într-o expoziție aniversară la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cinematografia românească revine la Chișinău. Începe cea de-a XII-a ediție a Zilelor Filmului Românesc",
           "filler": false,
           "news": true
@@ -4476,24 +4503,6 @@
           "start": null,
           "end": null,
           "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova, Ucraina și România pregătesc nominalizarea comună pentru UNESCO a complexului cultural „Precucuteni–Ariuşd–Cucuteni–Trypillia”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldova–Ucraina: Noi proiecte culturale, discutate de Dan Suruceanu și Paun Rohovei. Ce spectacole vor fi prezentate publicului",
           "filler": false,
           "news": true
         },
@@ -4548,6 +4557,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Republica Moldova, Ucraina și România pregătesc nominalizarea comună pentru UNESCO a complexului cultural „Precucuteni–Ariuşd–Cucuteni–Trypillia”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Moldova–Ucraina: Noi proiecte culturale, discutate de Dan Suruceanu și Paun Rohovei. Ce spectacole vor fi prezentate publicului",
           "filler": false,
           "news": true
         },
@@ -4619,6 +4646,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO, VIDEO // Peste 500 de artiști, la Gala „Te cânt, Patrie și Neam”. Speakerul Igor Grosu: „Sper să devină o frumoasă tradiție a Parlamentului”",
           "filler": false,
           "news": true
@@ -4629,15 +4665,6 @@
           "start": null,
           "end": null,
           "title": "Gala Festivalului „Te cânt, Patrie și Neam” va reuni 500 de artiști în scuarul Parlamentului. Din cauza prognozei meteo, concertul va începe la ora 16:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4800,24 +4827,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Eugeniu Coșeriu – savantul care a pus bazele lingvisticii integrale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Internațional de Operă și Balet „Maria Bieșu”, inaugurat la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Președinta Maia Sandu a vizitat Bookfest Chișinău",
           "filler": false,
           "news": true
         },
