@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-18T05:52:05.901Z",
-  "updatedAtLocal": "18 sept. 2026, 08:51",
+  "updatedAt": "2026-09-18T11:07:43.754Z",
+  "updatedAtLocal": "18 sept. 2026, 14:07",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4537,6 +4537,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Zilele Filmului Românesc au început la Chișinău cu proiecția filmului „Cercul”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO // Spectacolul „Lungul drum al zilei către noapte” al Teatrului din Sibiu, aplaudat la Chișinău în prezența Maiei Sandu și a premierului Vasile Tofan",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul CHILL a început la Chișinău și reunește scriitori din 11 țări",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Festivalul Etniilor, la cea de-a XXV-a ediție: 24 de etnii își vor prezenta tradițiile la Chișinău",
           "filler": false,
           "news": true
@@ -4547,33 +4574,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Filmului Românesc, la a XII-a ediție, cu filme noi și pelicule de patrimoniu, la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Coșbuc și Bacovia, reuniți într-o expoziție aniversară la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cinematografia românească revine la Chișinău. Începe cea de-a XII-a ediție a Zilelor Filmului Românesc",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul din Luhansk vine în Republica Moldova cu un spectacol inspirat din Edgar Allan Poe",
           "filler": false,
           "news": true
         },
@@ -4636,6 +4636,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Coșbuc și Bacovia, reuniți într-o expoziție aniversară la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cinematografia românească revine la Chișinău. Începe cea de-a XII-a ediție a Zilelor Filmului Românesc",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Teatrul din Luhansk vine în Republica Moldova cu un spectacol inspirat din Edgar Allan Poe",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
           "filler": false,
           "news": true
@@ -4690,6 +4717,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Diversitatea etnică și tradițiile culturale, puse în valoare la Festivalul Etniilor de la Călărași",
           "filler": false,
           "news": true
@@ -4709,15 +4745,6 @@
           "start": null,
           "end": null,
           "title": "Misterul din spatele romanului „Temă pentru acasă” de Nicolae Dabija. Destăinuirile muzeografei de la Țipova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4871,33 +4898,6 @@
           "start": null,
           "end": null,
           "title": "Turul României 2026 debutează, în premieră, la Chișinău. Prima etapă se desfășoară integral în Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Mihail Ciachir, preotul și cărturarul care a promovat limba română și cultura găgăuză",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Concert aniversar dedicat celor 45 de ani de creație ai compozitorului Constantin Rusnac",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova și Grecia pregătesc noi proiecte în baza Memorandumului de cooperare culturală",
           "filler": false,
           "news": true
         },
