@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-19T05:00:15.538Z",
-  "updatedAtLocal": "19 sept. 2026, 07:59",
+  "updatedAt": "2026-09-19T09:26:21.611Z",
+  "updatedAtLocal": "19 sept. 2026, 12:26",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4407,6 +4407,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Creștinii ortodocși de stil vechi prăznuiesc astăzi Minunea Sfântului Arhanghel Mihail. Hram în 31 de localităţi din Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Zilele Filmului Românesc au început la Chișinău cu proiecția filmului „Cercul”",
           "filler": false,
           "news": true
@@ -4435,15 +4444,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Etniilor, la cea de-a XXV-a ediție: 24 de etnii își vor prezenta tradițiile la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Filmului Românesc, la a XII-a ediție, cu filme noi și pelicule de patrimoniu, la Chișinău",
           "filler": false,
           "news": true
         },
@@ -4498,6 +4498,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Filmului Românesc, la a XII-a ediție, cu filme noi și pelicule de patrimoniu, la Chișinău",
           "filler": false,
           "news": true
         },
@@ -4578,7 +4587,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Descoperă Moldova cu #MOLDPRES // Muzeul din Slobozia Mare adună sub același acoperiș poveștile și tradițiile satului",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4587,7 +4596,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Descoperă Moldova cu #MOLDPRES // Muzeul din Slobozia Mare adună sub același acoperiș poveștile și tradițiile satului",
           "filler": false,
           "news": true
         },
@@ -4759,15 +4768,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Arta și creația locală, reunite la cea de-a VIII-a ediție ARTSALE",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Turul României 2026 debutează, în premieră, la Chișinău. Prima etapă se desfășoară integral în Republica Moldova",
           "filler": false,
           "news": true
         },
