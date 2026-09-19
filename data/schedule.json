@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-19T09:26:21.611Z",
-  "updatedAtLocal": "19 sept. 2026, 12:26",
+  "updatedAt": "2026-09-19T13:22:59.684Z",
+  "updatedAtLocal": "19 sept. 2026, 16:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4407,6 +4407,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Premierul Vasile Tofan, la Festivalul etnocultural din Taraclia: „Faptul că știm încă o limbă și încă o cultură face Moldova mai bogată”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Creștinii ortodocși de stil vechi prăznuiesc astăzi Minunea Sfântului Arhanghel Mihail. Hram în 31 de localităţi din Moldova",
           "filler": false,
           "news": true
@@ -4435,15 +4444,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul CHILL a început la Chișinău și reunește scriitori din 11 țări",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Etniilor, la cea de-a XXV-a ediție: 24 de etnii își vor prezenta tradițiile la Chișinău",
           "filler": false,
           "news": true
         },
@@ -4498,6 +4498,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul Etniilor, la cea de-a XXV-a ediție: 24 de etnii își vor prezenta tradițiile la Chișinău",
           "filler": false,
           "news": true
         },
@@ -4578,7 +4587,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Simpozion dedicat savantului Nicolae Donici, organizat la Dubăsarii Vechi",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4587,7 +4596,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Simpozion dedicat savantului Nicolae Donici, organizat la Dubăsarii Vechi",
           "filler": false,
           "news": true
         },
@@ -4759,15 +4768,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Ion Arachelu, actorul care a dat culoare comediei pe scenă și ecranul moldovenesc",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Arta și creația locală, reunite la cea de-a VIII-a ediție ARTSALE",
           "filler": false,
           "news": true
         },
