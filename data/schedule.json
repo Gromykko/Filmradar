@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-20T17:39:30.250Z",
-  "updatedAtLocal": "20 sept. 2026, 20:39",
+  "updatedAt": "2026-09-20T20:45:06.314Z",
+  "updatedAtLocal": "20 sept. 2026, 23:44",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4497,6 +4497,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "„La Traviata” de Giuseppe Verdi, povestea unei iubiri sacrificiale, prezentată la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO, FOTO // Festivalul Etniilor, ajuns la ediția a XXV-a, a reunit la Chișinău peste 45 de organizații etnoculturale",
           "filler": false,
           "news": true
@@ -4525,15 +4534,6 @@
           "start": null,
           "end": null,
           "title": "Creștinii ortodocși de stil vechi prăznuiesc astăzi Minunea Sfântului Arhanghel Mihail. Hram în 31 de localităţi din Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Zilele Filmului Românesc au început la Chișinău cu proiecția filmului „Cercul”",
           "filler": false,
           "news": true
         },
@@ -4588,6 +4588,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Zilele Filmului Românesc au început la Chișinău cu proiecția filmului „Cercul”",
           "filler": false,
           "news": true
         },
@@ -4668,7 +4677,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Republica Moldova, Ucraina și România pregătesc nominalizarea comună pentru UNESCO a complexului cultural „Precucuteni–Ariuşd–Cucuteni–Trypillia”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4677,7 +4686,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Republica Moldova, Ucraina și România pregătesc nominalizarea comună pentru UNESCO a complexului cultural „Precucuteni–Ariuşd–Cucuteni–Trypillia”",
           "filler": false,
           "news": true
         },
@@ -4849,15 +4858,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // „Suntem ceea ce iubim”: Teatrele Naționale Românești se reunesc la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Nicolae Sulac, vocea emblematică a muzicii populare",
           "filler": false,
           "news": true
         },
