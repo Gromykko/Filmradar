@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-21T07:55:06.568Z",
-  "updatedAtLocal": "21 sept. 2026, 10:54",
+  "updatedAt": "2026-09-21T15:04:30.391Z",
+  "updatedAtLocal": "21 sept. 2026, 18:03",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5037,6 +5037,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "VIDEO // „Caligula”, spectacolul Teatrului „Ivan Franko” din Kiev, a fost prezentat la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„La Traviata” de Giuseppe Verdi, povestea unei iubiri sacrificiale, prezentată la Chișinău",
           "filler": false,
           "news": true
@@ -5065,15 +5074,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Premierul Vasile Tofan, la Festivalul etnocultural din Taraclia: „Faptul că știm încă o limbă și încă o cultură face Moldova mai bogată”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Creștinii ortodocși de stil vechi prăznuiesc astăzi Minunea Sfântului Arhanghel Mihail. Hram în 31 de localităţi din Moldova",
           "filler": false,
           "news": true
         },
@@ -5128,6 +5128,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Creștinii ortodocși de stil vechi prăznuiesc astăzi Minunea Sfântului Arhanghel Mihail. Hram în 31 de localităţi din Moldova",
           "filler": false,
           "news": true
         },
@@ -5208,7 +5217,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5217,7 +5226,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
           "filler": false,
           "news": true
         },
@@ -5389,15 +5398,6 @@
           "start": null,
           "end": null,
           "title": "Reuniunea Teatrelor Naționale Românești se deschide astăzi la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // „Suntem ceea ce iubim”: Teatrele Naționale Românești se reunesc la Chișinău",
           "filler": false,
           "news": true
         },
