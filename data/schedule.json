@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-22T13:22:24.615Z",
-  "updatedAtLocal": "22 sept. 2026, 16:22",
+  "updatedAt": "2026-09-22T17:44:49.184Z",
+  "updatedAtLocal": "22 sept. 2026, 20:44",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4399,6 +4399,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "(video) Am lansat un nou proiect video – „Direcția: NORD”. Primul episod este despre tinerii și tinerele din Dondușeni",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "În scuarul Parlamentului va fi prezentat spectacolul „Noaptea scrisă cu roșu”. Intrarea este gratuită",
           "filler": false,
           "news": true
@@ -4471,7 +4480,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cineaștii din Moldova își pot înscrie lucrările la Festivalul Internațional de Film de la Rotterdam. Care sunt premiile",
+          "title": "ACT Festival revine pe 26 septembrie la Castel Mimi cu cea de-a doua ediție – Common Culture",
           "filler": false,
           "news": true
         },
@@ -4480,7 +4489,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Guvernul va majora bugetul pentru compensațiile la energie. Peste 620.000 de gospodării ar urma să primească ajutor pentru plata facturilor",
+          "title": "(doc) #diez caută un liceu pentru a-i reflecta la nivel național alegerile în Consiliul de Elevi. Cum poate aplica instituția ta",
           "filler": false,
           "news": true
         },
@@ -4489,7 +4498,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Guvernul a aprobat introducerea stării de urgență în sectorul energetic și hidrologic pentru 60 de zile",
+          "title": "Alătură-te Săptămânii Naționale a Voluntariatului și transformă ideile în acțiuni concrete pentru comunitatea ta",
           "filler": false,
           "news": true
         },
@@ -4498,7 +4507,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(live) Maia Sandu cere declararea stării de urgență în domeniul energetic. Ce soluții propune Consiliul de Securitate",
+          "title": "Forumul Național al Minorităților Etnice revine cu o nouă ediție și premiază inițiativele care promovează diversitatea culturală",
           "filler": false,
           "news": true
         },
@@ -4507,7 +4516,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Elevii minorităților etnice din Moldova își pot înscrie eseurile la concursul „Tânărul cercetător”",
+          "title": "(video) Patru filme pe care le poți viziona în premieră la cinematografele Cineplex din Chișinău pe 24 și 30 septembrie",
           "filler": false,
           "news": true
         },
@@ -4516,7 +4525,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cinci motive să vii la Noaptea Cercetătorilor Europeni: roboți, planetariu, VR și gustoșenii",
+          "title": "Cinci zile, peste 30 de evenimente, vizite de studiu și forumuri sectoriale. Vezi agenda completă a Moldova Business Week 2026",
           "filler": false,
           "news": true
         },
@@ -4525,7 +4534,16 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Partidul lui Putin a câștigat alegerile din Rusia. Cum s-ar fi votat la Tiraspol",
+          "title": "Cel mai mare magazin Linella din țară s-a deschis pe Calea Ieșilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Resursele alocate pentru educația incluzivă în școlile din Moldova ar urma să crească la 4 %",
           "filler": false,
           "news": true
         },
