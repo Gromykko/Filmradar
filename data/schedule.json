@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-22T07:39:59.899Z",
-  "updatedAtLocal": "22 sept. 2026, 10:39",
+  "updatedAt": "2026-09-22T13:22:24.615Z",
+  "updatedAtLocal": "22 sept. 2026, 16:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4638,7 +4638,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Arcul de Triumf din Chișinău va fi înregistrat ca proprietate publică a statului",
+          "title": "FOTO // Invențiile poloneze care au schimbat lumea, prezentate într-o expoziție la Muzeul de Istorie și Etnografie din Mereni",
           "filler": false,
           "news": true
         },
@@ -4647,7 +4647,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Peste 2 000 de spectatori au participat la Zilele Filmului Românesc de la Chișinău",
+          "title": "Expoziția „CLARA – Artă pentru prevenție” deschide la Chișinău un program de evenimente despre corp și sănătate",
           "filler": false,
           "news": true
         },
@@ -4656,7 +4656,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "VIDEO // „Caligula”, spectacolul Teatrului „Ivan Franko” din Kiev, a fost prezentat la Chișinău",
+          "title": "FOTO // Turiștii pot descoperi specificul arhitectural al Orheiului Vechi prin intermediul unui nou ghid",
           "filler": false,
           "news": true
         },
@@ -4665,7 +4665,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„La Traviata” de Giuseppe Verdi, povestea unei iubiri sacrificiale, prezentată la Chișinău",
+          "title": "FOTO // Descoperă Moldova cu #MOLDPRES // „Prepeleacul”, obiectul neobișnuit care păstrează o parte din istoria satului Iurceni",
           "filler": false,
           "news": true
         },
@@ -4674,7 +4674,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "VIDEO, FOTO // Festivalul Etniilor, ajuns la ediția a XXV-a, a reunit la Chișinău peste 45 de organizații etnoculturale",
+          "title": "Liedul basarabean, adus mai aproape de public prin trei concerte la Butuceni, Cahul și Chișinău",
           "filler": false,
           "news": true
         },
@@ -4737,6 +4737,60 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Republica Moldova urmărește aderarea la rețeaua TRADUKI. Subiectul, discutat de ministrul Dan Suruceanu cu ambasadorul Germaniei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Arcul de Triumf din Chișinău va fi înregistrat ca proprietate publică a statului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Peste 2 000 de spectatori au participat la Zilele Filmului Românesc de la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO // „Caligula”, spectacolul Teatrului „Ivan Franko” din Kiev, a fost prezentat la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„La Traviata” de Giuseppe Verdi, povestea unei iubiri sacrificiale, prezentată la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO, FOTO // Festivalul Etniilor, ajuns la ediția a XXV-a, a reunit la Chișinău peste 45 de organizații etnoculturale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // Festivalul Etniilor 2026 reunește la Chișinău tradiții și culturi din întreaga țară",
           "filler": false,
           "news": true
@@ -4756,6 +4810,15 @@
           "start": null,
           "end": null,
           "title": "Creștinii ortodocși de stil vechi prăznuiesc astăzi Minunea Sfântului Arhanghel Mihail. Hram în 31 de localităţi din Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4810,15 +4873,6 @@
           "start": null,
           "end": null,
           "title": "Coșbuc și Bacovia, reuniți într-o expoziție aniversară la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4945,60 +4999,6 @@
           "start": null,
           "end": null,
           "title": "Gala Festivalului „Te cânt, Patrie și Neam” va reuni 500 de artiști în scuarul Parlamentului. Din cauza prognozei meteo, concertul va începe la ora 16:00",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Muzee de la Sat”, proiect transnațional lansat în Republica Moldova. Cinci muzee rurale au intrat în circuitul digital",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Arta decorativă contemporană, la Chișinău: Peste 70 de artiști participă la Bienala Internațională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Expoziție dedicată lui Gheorghe Cincilei, la Muzeul Național al Literaturii Române",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Speakerul Igor Grosu a îndemnat cetățenii să vină la Gala „Te cânt, Patrie și Neam”: „Să celebrăm prin muzică și cultură unitatea și dragostea de țară”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Mărturii despre maestrul Nicolae Sulac, într-o carte lansată la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Reuniunea Teatrelor Naționale Românești s-a deschis la Chișinău. Premierul Vasile Tofan: „Cultura va învinge barbarismul\"",
           "filler": false,
           "news": true
         },
