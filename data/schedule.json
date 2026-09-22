@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-22T01:49:55.273Z",
-  "updatedAtLocal": "22 sept. 2026, 04:49",
+  "updatedAt": "2026-09-22T07:39:59.899Z",
+  "updatedAtLocal": "22 sept. 2026, 10:39",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4399,6 +4399,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "În scuarul Parlamentului va fi prezentat spectacolul „Noaptea scrisă cu roșu”. Intrarea este gratuită",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Record Guinness de Ziua Vinului. Participanții ar urma să formeze cea mai mare imagine umană a unei vițe-de-vie din lume",
           "filler": false,
           "news": true
@@ -4471,7 +4480,16 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lista festivalurilor care vor avea loc toamna aceasta în Moldova",
+          "title": "Guvernul va majora bugetul pentru compensațiile la energie. Peste 620.000 de gospodării ar urma să primească ajutor pentru plata facturilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Guvernul a aprobat introducerea stării de urgență în sectorul energetic și hidrologic pentru 60 de zile",
           "filler": false,
           "news": true
         },
@@ -4508,33 +4526,6 @@
           "start": null,
           "end": null,
           "title": "Partidul lui Putin a câștigat alegerile din Rusia. Cum s-ar fi votat la Tiraspol",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Aderarea la UE și regiunea transnistreană. Cum poate Moldova avansa pe cele două direcții fără să blocheze procesul de reintegrare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Tinerii din Moldova sunt invitați la un training de trei zile despre voluntariatul comunitar și leadership. Cum te poți înscrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Militari băuți în căutarea dronei? Un autoturism al Ministerului Apărării a fost implicat într-un accident",
           "filler": false,
           "news": true
         },
@@ -4647,6 +4638,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Arcul de Triumf din Chișinău va fi înregistrat ca proprietate publică a statului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Peste 2 000 de spectatori au participat la Zilele Filmului Românesc de la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // „Caligula”, spectacolul Teatrului „Ivan Franko” din Kiev, a fost prezentat la Chișinău",
           "filler": false,
           "news": true
@@ -4666,24 +4675,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO, FOTO // Festivalul Etniilor, ajuns la ediția a XXV-a, a reunit la Chișinău peste 45 de organizații etnoculturale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Festivalul Etniilor 2026 reunește la Chișinău tradiții și culturi din întreaga țară",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Premierul Vasile Tofan, la Festivalul etnocultural din Taraclia: „Faptul că știm încă o limbă și încă o cultură face Moldova mai bogată”",
           "filler": false,
           "news": true
         },
@@ -4738,6 +4729,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Festivalul Etniilor 2026 reunește la Chișinău tradiții și culturi din întreaga țară",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Premierul Vasile Tofan, la Festivalul etnocultural din Taraclia: „Faptul că știm încă o limbă și încă o cultură face Moldova mai bogată”",
           "filler": false,
           "news": true
         },
@@ -4809,6 +4818,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cinematografia românească revine la Chișinău. Începe cea de-a XII-a ediție a Zilelor Filmului Românesc",
           "filler": false,
           "news": true
@@ -4819,15 +4837,6 @@
           "start": null,
           "end": null,
           "title": "Teatrul din Luhansk vine în Republica Moldova cu un spectacol inspirat din Edgar Allan Poe",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4990,24 +4999,6 @@
           "start": null,
           "end": null,
           "title": "Reuniunea Teatrelor Naționale Românești s-a deschis la Chișinău. Premierul Vasile Tofan: „Cultura va învinge barbarismul\"",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "România invită Republica Moldova la Târgul de Carte de la Frankfurt. Stand comun în 2028",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Reuniunea Teatrelor Naționale Românești se deschide astăzi la Chișinău",
           "filler": false,
           "news": true
         },
