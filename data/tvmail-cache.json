@@ -1,67 +1,5 @@
 {
   "2901": {
-    "2026-09-22": [
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-22",
-        "start": "05:00",
-        "end": "05:45",
-        "title": "Telejurnal Moldova",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-22",
-        "start": "05:45",
-        "end": "06:00",
-        "title": "Discover România",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-22",
-        "start": "06:00",
-        "end": "06:55",
-        "title": "Punctul pe azi",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-22",
-        "start": "06:55",
-        "end": "08:55",
-        "title": "Imnul României",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-22",
-        "start": "08:55",
-        "end": "20:55",
-        "title": "Programul nu este furnizat de canal",
-        "filler": false,
-        "source": "tvmail"
-      },
-      {
-        "day": 2,
-        "dayName": "marți",
-        "date": "2026-09-22",
-        "start": "20:55",
-        "end": "07:00",
-        "title": "Programul nu este furnizat de canal",
-        "filler": false,
-        "source": "tvmail"
-      }
-    ],
     "2026-09-23": [
       {
         "day": 3,
@@ -108,7 +46,7 @@
         "dayName": "miercuri",
         "date": "2026-09-23",
         "start": "10:00",
-        "end": "10:55",
+        "end": "10:57",
         "title": "Lectia de istorie",
         "filler": false,
         "source": "tvmail"
@@ -117,7 +55,7 @@
         "day": 3,
         "dayName": "miercuri",
         "date": "2026-09-23",
-        "start": "10:55",
+        "start": "10:57",
         "end": "11:00",
         "title": "Pastila de istorie",
         "filler": false,
@@ -259,7 +197,7 @@
         "date": "2026-09-23",
         "start": "16:00",
         "end": "16:30",
-        "title": "Identitate Basarabia",
+        "title": "Identitate Basarabia Studioul teritorial Iaşi",
         "filler": false,
         "source": "tvmail"
       },
@@ -379,7 +317,7 @@
         "date": "2026-09-23",
         "start": "22:00",
         "end": "23:00",
-        "title": "Portret de secol (Anii 1985-1988)",
+        "title": "Portret de secol (Anul 1989 (I))",
         "filler": false,
         "source": "tvmail"
       },
@@ -408,8 +346,8 @@
         "dayName": "joi",
         "date": "2026-09-24",
         "start": "00:00",
-        "end": "01:30",
-        "title": "Documentar (Tatăl meu e marinar)",
+        "end": "01:00",
+        "title": "Reţeaua de idoli",
         "filler": false,
         "source": "tvmail"
       },
@@ -417,9 +355,19 @@
         "day": 4,
         "dayName": "joi",
         "date": "2026-09-24",
-        "start": "01:30",
-        "end": "02:30",
+        "start": "01:00",
+        "end": "02:00",
         "title": "Frații",
+        "filler": false,
+        "source": "tvmail"
+      },
+      {
+        "day": 4,
+        "dayName": "joi",
+        "date": "2026-09-24",
+        "start": "02:00",
+        "end": "02:30",
+        "title": "Dialoguri colorate",
         "filler": false,
         "source": "tvmail"
       },
@@ -2082,16 +2030,17 @@
         "source": "tvmail"
       }
     ],
-    "2026-09-28": []
+    "2026-09-28": [],
+    "2026-09-29": []
   },
   "2909": {
-    "2026-09-22": [],
     "2026-09-23": [],
-    "2026-09-24": []
+    "2026-09-24": [],
+    "2026-09-25": []
   },
   "2910": {
-    "2026-09-22": [],
     "2026-09-23": [],
-    "2026-09-24": []
+    "2026-09-24": [],
+    "2026-09-25": []
   }
 }
