@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-23T04:39:23.411Z",
-  "updatedAtLocal": "23 sept. 2026, 07:39",
+  "updatedAt": "2026-09-23T09:55:27.900Z",
+  "updatedAtLocal": "23 sept. 2026, 12:55",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4288,6 +4288,506 @@
           "title": "Fake News Alert",
           "filler": false,
           "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "05:20",
+          "end": "05:30",
+          "title": "Discover România",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "05:30",
+          "end": "06:00",
+          "title": "Dialoguri colorate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "06:00",
+          "end": "06:55",
+          "title": "Lectia de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "06:55",
+          "end": "07:00",
+          "title": "Imnul României",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "Telematinal (Episodul 1)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "08:00",
+          "end": "08:55",
+          "title": "Telematinal (Episodul 2)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "08:55",
+          "end": "09:00",
+          "title": "Pastila de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "Telematinal (Episodul 3)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "10:00",
+          "end": "10:55",
+          "title": "Impact global",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "10:55",
+          "end": "11:00",
+          "title": "Pastila de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "11:00",
+          "end": "11:55",
+          "title": "Obiectiv comun",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "11:55",
+          "end": "12:00",
+          "title": "Vorbeste corect!",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "12:00",
+          "end": "12:55",
+          "title": "Caravana TVR Moldova &#34;La tine-n sat&#34;",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "12:55",
+          "end": "13:00",
+          "title": "Pastila de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "13:00",
+          "end": "13:30",
+          "title": "Telejurnal Moldova",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "13:30",
+          "end": "14:00",
+          "title": "Retrospectiva saptamanii",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "14:00",
+          "end": "14:45",
+          "title": "Telejurnal",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "14:45",
+          "end": "14:55",
+          "title": "Fake News Alert",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "14:55",
+          "end": "15:00",
+          "title": "Vorbeste corect!",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "15:00",
+          "end": "15:50",
+          "title": "Cântec și poveste",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "15:50",
+          "end": "16:00",
+          "title": "Discover România",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "16:00",
+          "end": "16:30",
+          "title": "Povestea din ochii lor",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "16:30",
+          "end": "17:00",
+          "title": "România… în bucate (Gatim romaneste)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "17:00",
+          "end": "17:55",
+          "title": "Exclusiv în România",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "17:55",
+          "end": "18:00",
+          "title": "Pastila de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "18:00",
+          "end": "18:55",
+          "title": "Obiectiv comun",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "18:55",
+          "end": "19:00",
+          "title": "Pastila de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "19:00",
+          "end": "19:42",
+          "title": "Telejurnal Moldova",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "19:42",
+          "end": "20:00",
+          "title": "Sport",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "20:00",
+          "end": "20:55",
+          "title": "Punctul pe azi",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "20:55",
+          "end": "21:00",
+          "title": "Zi de zi",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "21:00",
+          "end": "21:30",
+          "title": "Conexiuni economice",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "21:30",
+          "end": "22:00",
+          "title": "La pas prin ţară",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "Garantat 100%",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "23:00",
+          "end": "23:50",
+          "title": "Telejurnal",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "date": "2026-09-28",
+          "start": "23:50",
+          "end": "00:00",
+          "title": "Fake News Alert",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "00:00",
+          "end": "01:00",
+          "title": "Hard-Talk",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "01:00",
+          "end": "01:30",
+          "title": "Conexiuni economice",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "01:30",
+          "end": "02:30",
+          "title": "Agricultura modernă",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "02:30",
+          "end": "03:00",
+          "title": "Impact plus",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "03:00",
+          "end": "03:30",
+          "title": "Povestea din ochii lor",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "03:30",
+          "end": "03:55",
+          "title": "România… în bucate",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "03:55",
+          "end": "04:00",
+          "title": "Pastila de istorie",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "04:00",
+          "end": "05:00",
+          "title": "Obiectiv comun",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "05:00",
+          "end": "05:42",
+          "title": "Telejurnal Moldova",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "05:42",
+          "end": "06:00",
+          "title": "Sport",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "06:00",
+          "end": "06:55",
+          "title": "Punctul pe azi",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "06:55",
+          "end": "08:55",
+          "title": "Imnul României",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "08:55",
+          "end": "20:55",
+          "title": "Programul nu este furnizat de canal",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-09-29",
+          "start": "20:55",
+          "end": "07:00",
+          "title": "Programul nu este furnizat de canal",
+          "filler": false,
+          "source": "tvmail"
         }
       ]
     },
@@ -4331,6 +4831,24 @@
           "start": null,
           "end": null,
           "title": "Tot ce trebuie să știi despre admiterea 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Artiști din opt țări vor prezenta șapte spectacole de dans la Chișinău. Programul Moldova Dance Festival Contact+",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O nouă producție cinematografică se filmează în Republica Moldova. Despre ce este și cine face parte din echipă",
           "filler": false,
           "news": true
         },
@@ -4402,7 +4920,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Fundația Orange Moldova lansează Orange Opera și deschide scena TNOB „Maria Bieșu” pentru tinerele talente din școlile de artă",
+          "title": "Deeptech GigaHack 2026: mentori cu experiență în tehnologie, cercetare și business și challenge-uri adevărate pentru inovatori",
           "filler": false,
           "news": true
         },
@@ -4411,7 +4929,25 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "O expoziție dedicată sinagogilor din Chișinău a fost inaugurată la Muzeul Național de Istorie. Până când poate fi vizitată",
+          "title": "AIQT IUCOSOFT: platforma de pregătire pentru examenele Certiport prin învățare, exercițiu și testare inteligentă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Coming Out Days Fest revine la Chișinău. Când se va desfășura",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tradiții müncheneze cu un colorit moldovenesc: cum s-a desfășurat cea de-a V-a ediție aniversară Oktoberfest la Keller Holz",
           "filler": false,
           "news": true
         },
@@ -4430,60 +4966,6 @@
           "start": null,
           "end": null,
           "title": "(doc) #diez caută un liceu pentru a-i reflecta la nivel național alegerile în Consiliul de Elevi. Cum poate aplica instituția ta",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Alătură-te Săptămânii Naționale a Voluntariatului și transformă ideile în acțiuni concrete pentru comunitatea ta",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Forumul Național al Minorităților Etnice revine cu o nouă ediție și premiază inițiativele care promovează diversitatea culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "(video) Patru filme pe care le poți viziona în premieră la cinematografele Cineplex din Chișinău pe 24 și 30 septembrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cinci zile, peste 30 de evenimente, vizite de studiu și forumuri sectoriale. Vezi agenda completă a Moldova Business Week 2026",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cel mai mare magazin Linella din țară s-a deschis pe Calea Ieșilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Resursele alocate pentru educația incluzivă în școlile din Moldova ar urma să crească la 4 %",
           "filler": false,
           "news": true
         },
@@ -4596,43 +5078,43 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "VIDEO // Un cazan de bronz, vechi de aproape trei milenii, a fost salvat de specialiști la Fălești",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Expoziția „BookM@p 2” aduce la Chișinău universul ilustrației de carte pentru copii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // O nouă atracție turistică în Găgăuzia: „Ciotra găgăuză”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Peste 25 de olari și ceramiști, reuniți la expoziția „Moștenire vie”, la Muzeul Național de Etnografie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Invențiile poloneze care au schimbat lumea, prezentate într-o expoziție la Muzeul de Istorie și Etnografie din Mereni",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Expoziția „CLARA – Artă pentru prevenție” deschide la Chișinău un program de evenimente despre corp și sănătate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Turiștii pot descoperi specificul arhitectural al Orheiului Vechi prin intermediul unui nou ghid",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Descoperă Moldova cu #MOLDPRES // „Prepeleacul”, obiectul neobișnuit care păstrează o parte din istoria satului Iurceni",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Liedul basarabean, adus mai aproape de public prin trei concerte la Butuceni, Cahul și Chișinău",
           "filler": false,
           "news": true
         },
@@ -4695,6 +5177,42 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Expoziția „CLARA – Artă pentru prevenție” deschide la Chișinău un program de evenimente despre corp și sănătate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Turiștii pot descoperi specificul arhitectural al Orheiului Vechi prin intermediul unui nou ghid",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Descoperă Moldova cu #MOLDPRES // „Prepeleacul”, obiectul neobișnuit care păstrează o parte din istoria satului Iurceni",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Liedul basarabean, adus mai aproape de public prin trei concerte la Butuceni, Cahul și Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Republica Moldova urmărește aderarea la rețeaua TRADUKI. Subiectul, discutat de ministrul Dan Suruceanu cu ambasadorul Germaniei",
           "filler": false,
           "news": true
@@ -4740,6 +5258,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO, FOTO // Festivalul Etniilor, ajuns la ediția a XXV-a, a reunit la Chișinău peste 45 de organizații etnoculturale",
           "filler": false,
           "news": true
@@ -4768,15 +5295,6 @@
           "start": null,
           "end": null,
           "title": "Creștinii ortodocși de stil vechi prăznuiesc astăzi Minunea Sfântului Arhanghel Mihail. Hram în 31 de localităţi din Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4921,42 +5439,6 @@
           "start": null,
           "end": null,
           "title": "Peste 500 de artiști din Republica Moldova au participat la Gala Festivalului „Te cânt, Patrie și Neam”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Misterul din spatele romanului „Temă pentru acasă” de Nicolae Dabija. Destăinuirile muzeografei de la Țipova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Otello” de Giuseppe Verdi, pe scena de la Chișinău. Spectacolul va reuni artiști din mai multe țări",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO, VIDEO // Peste 500 de artiști, la Gala „Te cânt, Patrie și Neam”. Speakerul Igor Grosu: „Sper să devină o frumoasă tradiție a Parlamentului”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Gala Festivalului „Te cânt, Patrie și Neam” va reuni 500 de artiști în scuarul Parlamentului. Din cauza prognozei meteo, concertul va începe la ora 16:00",
           "filler": false,
           "news": true
         },
