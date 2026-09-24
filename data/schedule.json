@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-24T06:07:52.532Z",
-  "updatedAtLocal": "24 sept. 2026, 09:07",
+  "updatedAt": "2026-09-24T12:10:16.436Z",
+  "updatedAtLocal": "24 sept. 2026, 15:09",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4719,6 +4719,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Ai vrea să înveți DJ-ing? Înscrie-te la trei ateliere unde vei experimenta și vei învăța să dai voce ideilor tale prin muzică",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Artiști din opt țări vor prezenta șapte spectacole de dans la Chișinău. Programul Moldova Dance Festival Contact+ 2026",
           "filler": false,
           "news": true
@@ -4791,7 +4800,43 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Elevii din Chișinău pot câștiga până la 8.000 de lei în cadrul concursului „Arta de la geamul meu”. Condițiile de participare",
+          "title": "Ce ar trebui să faci dacă vezi resturi de drone sau dacă auzi o explozie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Îți faci studiile la programul „Profesiile Viitorului”. Vino la Mediacor să-ți cunoști colegii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "A fost lansată o nouă campanie care promovează Republica Moldova în cinci piețe europene",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Oto QR – meniul digital care aduce restaurantelor din Moldova un bon mediu cu până la 12 % mai mare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "99,6 % dintre moldoveni știu să citească și să scrie. Cum arată situația în lume",
           "filler": false,
           "news": true
         },
@@ -4819,42 +4864,6 @@
           "start": null,
           "end": null,
           "title": "Consiliere psihologică anonimă și gratuită pentru adolescenți. A fost lansată aplicația 12PLUS",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cea de-a cincea ediție Moldova Electronics Forum va reuni la Chișinău peste 100 de participanți din industria electronică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Deeptech GigaHack 2026: mentori cu experiență în tehnologie, cercetare și business și challenge-uri adevărate pentru inovatori",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "AIQT IUCOSOFT: platforma de pregătire pentru examenele Certiport prin învățare, exercițiu și testare inteligentă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Coming Out Days Fest revine la Chișinău. Când se va desfășura",
           "filler": false,
           "news": true
         },
@@ -4967,7 +4976,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Documentar despre migrația evreiască și destinul unor familii din Moldova, prezentat la Chișinău",
+          "title": "FOTO // Rolul lecturii în societatea contemporană, discutat la Biblioteca Națională",
           "filler": false,
           "news": true
         },
@@ -4976,7 +4985,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Spectacolul „Ciuleandra” de Liviu Rebreanu marchează 30 de ani de la premieră la Satiricus. Teatrul îl readuce pe scenă",
+          "title": "FOTO // Elevii Școlii de Arte din Varnița au descoperit limbile europene prin muzică",
           "filler": false,
           "news": true
         },
@@ -4985,7 +4994,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "VIDEO // Un cazan de bronz, vechi de aproape trei milenii, a fost salvat de specialiști la Fălești",
+          "title": "FOTO // „CLARA – Artă pentru prevenție”, o expoziție despre sănătate, corp și importanța prevenției",
           "filler": false,
           "news": true
         },
@@ -4994,7 +5003,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Expoziția „BookM@p 2” aduce la Chișinău universul ilustrației de carte pentru copii",
+          "title": "FOTO // La Cahul a avut loc prima ediție a Festivalului „Bat inimi de Fanfară”",
           "filler": false,
           "news": true
         },
@@ -5003,7 +5012,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // O nouă atracție turistică în Găgăuzia: „Ciotra găgăuză”",
+          "title": "FOTO // Lumina și culorile Moldovei, în prima expoziție a artistei ucrainene Hanna Kozeletska",
           "filler": false,
           "news": true
         },
@@ -5066,6 +5075,51 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Documentar despre migrația evreiască și destinul unor familii din Moldova, prezentat la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Spectacolul „Ciuleandra” de Liviu Rebreanu marchează 30 de ani de la premieră la Satiricus. Teatrul îl readuce pe scenă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO // Un cazan de bronz, vechi de aproape trei milenii, a fost salvat de specialiști la Fălești",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Expoziția „BookM@p 2” aduce la Chișinău universul ilustrației de carte pentru copii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // O nouă atracție turistică în Găgăuzia: „Ciotra găgăuză”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Peste 25 de olari și ceramiști, reuniți la expoziția „Moștenire vie”, la Muzeul Național de Etnografie",
           "filler": false,
           "news": true
@@ -5094,6 +5148,15 @@
           "start": null,
           "end": null,
           "title": "FOTO // Turiștii pot descoperi specificul arhitectural al Orheiului Vechi prin intermediul unui nou ghid",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5139,15 +5202,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Peste 2 000 de spectatori au participat la Zilele Filmului Românesc de la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5283,51 +5337,6 @@
           "start": null,
           "end": null,
           "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova, Ucraina și România pregătesc nominalizarea comună pentru UNESCO a complexului cultural „Precucuteni–Ariuşd–Cucuteni–Trypillia”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldova–Ucraina: Noi proiecte culturale, discutate de Dan Suruceanu și Paun Rohovei. Ce spectacole vor fi prezentate publicului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Expoziție dedicată lui Michael Davitt și dezbatere despre Dracula, proiecte culturale discutate la Biblioteca Națională cu ambasadorul Irlandei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Simpozion dedicat savantului Nicolae Donici, organizat la Dubăsarii Vechi",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Descoperă Moldova cu #MOLDPRES // Muzeul din Slobozia Mare adună sub același acoperiș poveștile și tradițiile satului",
           "filler": false,
           "news": true
         },
