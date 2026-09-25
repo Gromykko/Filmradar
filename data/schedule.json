@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-25T04:50:05.331Z",
-  "updatedAtLocal": "25 sept. 2026, 07:49",
+  "updatedAt": "2026-09-25T10:09:12.911Z",
+  "updatedAtLocal": "25 sept. 2026, 13:08",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4729,6 +4729,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "„Satira comentează istoria”. 50 de caricaturi realizate de elevi din Moldova vor fi expuse la Muzeul Național de Istorie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ai vrea să înveți DJ-ing? Înscrie-te la trei ateliere unde vei experimenta și vei învăța să dai voce ideilor tale prin muzică",
           "filler": false,
           "news": true
@@ -4801,7 +4810,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "La Drochia va fi organizat un festival dedicat diversității, tradițiilor și oportunităților pentru tineri. Când va avea loc „Mozaic Cultural”",
+          "title": "Itinerar complet pentru un road trip de toamnă prin Moldova",
           "filler": false,
           "news": true
         },
@@ -4810,7 +4819,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce ar trebui să faci dacă vezi resturi de drone sau dacă auzi o explozie",
+          "title": "A fost lansată o petiție pentru reglementarea schimbării sexului/identității de gen în actele de identitate. Cum o poți semna",
           "filler": false,
           "news": true
         },
@@ -4819,7 +4828,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Îți faci studiile la programul „Profesiile Viitorului”. Vino la Mediacor să-ți cunoști colegii",
+          "title": "„Examenul instrumental funcțional extins în stomatologia multidisciplinară”: curs de instruire",
           "filler": false,
           "news": true
         },
@@ -4828,7 +4837,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "A fost lansată o nouă campanie care promovează Republica Moldova în cinci piețe europene",
+          "title": "Prima reuniune a Comitetului de Monitorizare UE – Republica Moldova privind Mecanismul de Reformă și Creștere",
           "filler": false,
           "news": true
         },
@@ -4837,7 +4846,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Oto QR – meniul digital care aduce restaurantelor din Moldova un bon mediu cu până la 12 % mai mare",
+          "title": "Cum poți utiliza AI pentru a construi o mișcare socială. Participă la un workshop despre activismul în mediul digital",
           "filler": false,
           "news": true
         },
@@ -4846,7 +4855,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "99,6 % dintre moldoveni știu să citească și să scrie. Cum arată situația în lume",
+          "title": "Câte drone și rachete au survolat ilegal spațiul aerian al Moldovei de la declanșarea războiului în Ucraina",
           "filler": false,
           "news": true
         },
@@ -4855,7 +4864,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Aproape jumătate dintre exporturile țării sunt generate de servicii. Moldova Export Forum va reflecta dinamica exporturilor în cadrul Moldova Business Week 2026",
+          "title": "#YouthEconomy a revenit în forță! 25 de elevi, patru mentori de top și lecții de business din prima sursă",
           "filler": false,
           "news": true
         },
@@ -4864,16 +4873,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ziua Națională a Vinului 2026: 25 de ediții care celebrează „Vinul care ne unește”. Descoperă detalii despre cea mai mare sărbătoare a sectorului vitivinicol",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Consiliere psihologică anonimă și gratuită pentru adolescenți. A fost lansată aplicația 12PLUS",
+          "title": "Donatella Scarpa: „Nu construiam doar o unitate de producție, ci o echipă adevărată”",
           "filler": false,
           "news": true
         },
