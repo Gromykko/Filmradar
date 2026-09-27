@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-27T06:34:21.686Z",
-  "updatedAtLocal": "27 sept. 2026, 09:33",
+  "updatedAt": "2026-09-27T12:25:50.460Z",
+  "updatedAtLocal": "27 sept. 2026, 15:25",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4649,6 +4649,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Ești tânăr(ă) cineast(ă) și ai un film pentru copii sau adolescenți? Îl poți înscrie la un festival internațional din Singapore",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Satira comentează istoria”. 50 de caricaturi realizate de elevi din Moldova vor fi expuse la Muzeul Național de Istorie",
           "filler": false,
           "news": true
@@ -4721,7 +4730,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "La Muzeul Național de Artă al Moldovei a fost inaugurată expoziția „ALB DUPĂ ALB”, semnată de Doina Mihăilescu",
+          "title": "Poliția a găsit fragmente de dronă într-o localitate de la Ștefan Vodă după o sesizare a localnicilor. Ce se cunoaște la moment",
           "filler": false,
           "news": true
         },
@@ -4730,7 +4739,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Itinerar complet pentru un road trip de toamnă prin Moldova",
+          "title": "Directoarea Colegiului Politehnic din Bălți a plecat din funcție după ancheta #diez. Consiliul de etică al MEC analizează cazul",
           "filler": false,
           "news": true
         },
@@ -4739,7 +4748,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "A fost lansată o petiție pentru reglementarea schimbării sexului/identității de gen în actele de identitate. Cum o poți semna",
+          "title": "Cum a ajuns o elevă din Chișinău să danseze Ciuleandra în Germania și să promoveze Moldova în Armenia",
           "filler": false,
           "news": true
         },
@@ -4748,7 +4757,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Examenul instrumental funcțional extins în stomatologia multidisciplinară”: curs de instruire",
+          "title": "România a adoptat legea care incriminează căsătoriile forțate. Ce prevedea aceasta și care este situația în Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -4757,7 +4766,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Prima reuniune a Comitetului de Monitorizare UE – Republica Moldova privind Mecanismul de Reformă și Creștere",
+          "title": "SUA oferă burse de cercetare lectorilor universitari și experților din Moldova. Care sunt condițiile pentru înregistrare",
           "filler": false,
           "news": true
         },
@@ -4766,7 +4775,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum poți utiliza AI pentru a construi o mișcare socială. Participă la un workshop despre activismul în mediul digital",
+          "title": "Consiliul Europei a adoptat prima strategie pentru drepturile persoanelor LGBT. Ce priorități prevede documentul",
           "filler": false,
           "news": true
         },
@@ -4775,7 +4784,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Câte drone și rachete au survolat ilegal spațiul aerian al Moldovei de la declanșarea războiului în Ucraina",
+          "title": "Băiat sau fată? De ce părinții își doresc un copil de un anumit gen și când această dorință poate deveni o problemă",
           "filler": false,
           "news": true
         },
@@ -4784,16 +4793,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "#YouthEconomy a revenit în forță! 25 de elevi, patru mentori de top și lecții de business din prima sursă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Donatella Scarpa: „Nu construiam doar o unitate de producție, ci o echipă adevărată”",
+          "title": "Moldova Tourism Forum 2026. Peste 300 de participanți au discutat despre etapele de dezvoltare a turismului național",
           "filler": false,
           "news": true
         },
