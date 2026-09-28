@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-28T08:38:14.698Z",
-  "updatedAtLocal": "28 sept. 2026, 11:38",
+  "updatedAt": "2026-09-28T17:37:12.654Z",
+  "updatedAtLocal": "28 sept. 2026, 20:36",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4649,6 +4649,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Ți-ar plăcea să faci film documentar? MOLDOX organizează trei ateliere unde vei învăța să dai voce ideilor tale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ești tânăr(ă) cineast(ă) și ai un film pentru copii sau adolescenți? Îl poți înscrie la un festival internațional din Singapore",
           "filler": false,
           "news": true
@@ -4721,7 +4730,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Teatrul Fără Nume reprezintă Moldova pe scenele din Serbia și România. Spectacolul „Matca” ajunge la un festival din Brașov",
+          "title": "Studiezi în România și vrei să găsești prieteni și oportunități? O listă de asociații și organizații în care te poți implica",
           "filler": false,
           "news": true
         },
@@ -4730,7 +4739,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Poliția a găsit fragmente de dronă într-o localitate de la Ștefan Vodă după o sesizare a localnicilor. Ce se cunoaște la moment",
+          "title": "Aeroportul din Chișinău a lansat o aplicație destinată călătoriilor mai accesibile. Ce informații include",
           "filler": false,
           "news": true
         },
@@ -4739,7 +4748,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Directoarea Colegiului Politehnic din Bălți a plecat din funcție după ancheta #diez. Consiliul de etică al MEC analizează cazul",
+          "title": "Republica Moldova se pregătește să intre din nou în Guinness World Records: repetiție generală în PMAN pentru crearea unei vițe-de-vie umane",
           "filler": false,
           "news": true
         },
@@ -4748,7 +4757,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum a ajuns o elevă din Chișinău să danseze Ciuleandra în Germania și să promoveze Moldova în Armenia",
+          "title": "Un nou protest pentru protecția animalelor va avea loc în fața Guvernului. „Problema este pasată de la o instituție la alta”",
           "filler": false,
           "news": true
         },
@@ -4757,7 +4766,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "România a adoptat legea care incriminează căsătoriile forțate. Ce prevedea aceasta și care este situația în Republica Moldova",
+          "title": "Obligațiunile corporative maib, deja în maibank",
           "filler": false,
           "news": true
         },
@@ -4766,7 +4775,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "SUA oferă burse de cercetare lectorilor universitari și experților din Moldova. Care sunt condițiile pentru înregistrare",
+          "title": "Cât va costa căldura de la 1 octombrie, după ce a fost aprobată creșterea tarifului",
           "filler": false,
           "news": true
         },
@@ -4775,7 +4784,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Consiliul Europei a adoptat prima strategie pentru drepturile persoanelor LGBT. Ce priorități prevede documentul",
+          "title": "Prețul la gaze naturale a fost majorat. Cât vor achita moldovenii din luna octombrie",
           "filler": false,
           "news": true
         },
@@ -4784,16 +4793,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Băiat sau fată? De ce părinții își doresc un copil de un anumit gen și când această dorință poate deveni o problemă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldova Tourism Forum 2026. Peste 300 de participanți au discutat despre etapele de dezvoltare a turismului național",
+          "title": "Profesorii din Moldova care vor să afle cum poate fi utilizată AI în educație se pot înscrie la un atelier practic",
           "filler": false,
           "news": true
         },
@@ -4906,7 +4906,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Rolul lecturii în societatea contemporană, discutat la Biblioteca Națională",
+          "title": "Republica Moldova și Israel discută noi proiecte de cooperare culturală",
           "filler": false,
           "news": true
         },
@@ -4915,7 +4915,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Elevii Școlii de Arte din Varnița au descoperit limbile europene prin muzică",
+          "title": "FOTO // Vestigii ale culturii Cucuteni–Trypillia, expuse la Muzeul Național de Istorie",
           "filler": false,
           "news": true
         },
@@ -4924,7 +4924,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // „CLARA – Artă pentru prevenție”, o expoziție despre sănătate, corp și importanța prevenției",
+          "title": "Teatrul „Alexie Mateevici” pornește într-un turneu în Italia cu spectacolul „Jubileul”",
           "filler": false,
           "news": true
         },
@@ -4933,16 +4933,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // La Cahul a avut loc prima ediție a Festivalului „Bat inimi de Fanfară”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Lumina și culorile Moldovei, în prima expoziție a artistei ucrainene Hanna Kozeletska",
+          "title": "Descoperă Moldova cu #MOLDPRES // Păcală, Tândală și Făt-Frumos prind chip în măștile lui Grigore Stamati",
           "filler": false,
           "news": true
         },
@@ -5005,6 +4996,51 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Rolul lecturii în societatea contemporană, discutat la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Elevii Școlii de Arte din Varnița au descoperit limbile europene prin muzică",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // „CLARA – Artă pentru prevenție”, o expoziție despre sănătate, corp și importanța prevenției",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // La Cahul a avut loc prima ediție a Festivalului „Bat inimi de Fanfară”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Lumina și culorile Moldovei, în prima expoziție a artistei ucrainene Hanna Kozeletska",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Documentar despre migrația evreiască și destinul unor familii din Moldova, prezentat la Chișinău",
           "filler": false,
           "news": true
@@ -5033,6 +5069,15 @@
           "start": null,
           "end": null,
           "title": "FOTO // Expoziția „BookM@p 2” aduce la Chișinău universul ilustrației de carte pentru copii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5078,15 +5123,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Turiștii pot descoperi specificul arhitectural al Orheiului Vechi prin intermediul unui nou ghid",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5222,51 +5258,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Etniilor, la cea de-a XXV-a ediție: 24 de etnii își vor prezenta tradițiile la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Filmului Românesc, la a XII-a ediție, cu filme noi și pelicule de patrimoniu, la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Coșbuc și Bacovia, reuniți într-o expoziție aniversară la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cinematografia românească revine la Chișinău. Începe cea de-a XII-a ediție a Zilelor Filmului Românesc",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul din Luhansk vine în Republica Moldova cu un spectacol inspirat din Edgar Allan Poe",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Rezina: „Instituțiile culturale au nevoie de investiții și specialiști”",
           "filler": false,
           "news": true
         },
