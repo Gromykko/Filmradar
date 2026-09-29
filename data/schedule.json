@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-29T02:33:44.685Z",
-  "updatedAtLocal": "29 sept. 2026, 05:33",
+  "updatedAt": "2026-09-29T09:00:58.066Z",
+  "updatedAtLocal": "29 sept. 2026, 12:00",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4506,6 +4506,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "VIDEO // Voucherul cultural pentru tineri va ajunge la 2.000 de lei și va putea fi folosit pentru sport",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Republica Moldova și Israel discută noi proiecte de cooperare culturală",
           "filler": false,
           "news": true
@@ -4525,15 +4534,6 @@
           "start": null,
           "end": null,
           "title": "Teatrul „Alexie Mateevici” pornește într-un turneu în Italia cu spectacolul „Jubileul”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Descoperă Moldova cu #MOLDPRES // Păcală, Tândală și Făt-Frumos prind chip în măștile lui Grigore Stamati",
           "filler": false,
           "news": true
         },
@@ -4588,6 +4588,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Descoperă Moldova cu #MOLDPRES // Păcală, Tândală și Făt-Frumos prind chip în măștile lui Grigore Stamati",
           "filler": false,
           "news": true
         },
@@ -4668,7 +4677,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Expoziția „BookM@p 2” aduce la Chișinău universul ilustrației de carte pentru copii",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4677,7 +4686,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Expoziția „BookM@p 2” aduce la Chișinău universul ilustrației de carte pentru copii",
           "filler": false,
           "news": true
         },
@@ -4849,15 +4858,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul CHILL a început la Chișinău și reunește scriitori din 11 țări",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Etniilor, la cea de-a XXV-a ediție: 24 de etnii își vor prezenta tradițiile la Chișinău",
           "filler": false,
           "news": true
         },
