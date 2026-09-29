@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-29T09:00:58.066Z",
-  "updatedAtLocal": "29 sept. 2026, 12:00",
+  "updatedAt": "2026-09-29T15:44:01.672Z",
+  "updatedAtLocal": "29 sept. 2026, 18:43",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -4249,6 +4249,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Creatorii de animație din Republica Moldova se pot înscrie la un festival internațional. Care este termenul-limită",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ministerul Culturii, Agenția de Guvernare Electronică, Mastercard Moldova și Paynet anunță un nou capitol al Programului Național „Voucher Cultural”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ți-ar plăcea să faci film documentar? MOLDOX organizează trei ateliere unde vei învăța să dai voce ideilor tale",
           "filler": false,
           "news": true
@@ -4312,7 +4330,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "În scuarul Parlamentului va fi prezentat spectacolul „Noaptea scrisă cu roșu”. Intrarea este gratuită",
+          "title": "Premieră la Deeptech GigaHack 2026: infrastructura critică, testată într-un scenariu de atac și apărare",
           "filler": false,
           "news": true
         },
@@ -4321,7 +4339,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Record Guinness de Ziua Vinului. Participanții ar urma să formeze cea mai mare imagine umană a unei vițe-de-vie din lume",
+          "title": "Profesorii din Republica Moldova pot câștiga 1 milion de dolari. A fost lansat concursul „Global Teacher Prize”",
           "filler": false,
           "news": true
         },
@@ -4330,7 +4348,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Studiezi în România și vrei să găsești prieteni și oportunități? O listă de asociații și organizații în care te poți implica",
+          "title": "ACT Festival – Common Culture a adunat peste 2.000 de oameni la Castel Mimi. Colectivul de artiști vizuali CAPS câștigă competiția de video mapping",
           "filler": false,
           "news": true
         },
@@ -4339,7 +4357,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Aeroportul din Chișinău a lansat o aplicație destinată călătoriilor mai accesibile. Ce informații include",
+          "title": "Reguli noi pentru examenul auto. Ce schimbări sunt propuse pentru viitorii șoferi și unde-ți poți expune opinia despre acestea",
           "filler": false,
           "news": true
         },
@@ -4348,7 +4366,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Republica Moldova se pregătește să intre din nou în Guinness World Records: repetiție generală în PMAN pentru crearea unei vițe-de-vie umane",
+          "title": "Start Moldova Business Week 2026. Timp de cinci zile, economia Republicii Moldova este în prim-plan: investiții, exporturi și proiecte strategice",
           "filler": false,
           "news": true
         },
@@ -4357,7 +4375,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un nou protest pentru protecția animalelor va avea loc în fața Guvernului. „Problema este pasată de la o instituție la alta”",
+          "title": "(video) „Moldova a primit un suport enorm din partea României. S-a investit în educația de calitate și în condiții pentru copii” – opiniile cetățenilor Republicii Moldova",
           "filler": false,
           "news": true
         },
@@ -4366,34 +4384,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Obligațiunile corporative maib, deja în maibank",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cât va costa căldura de la 1 octombrie, după ce a fost aprobată creșterea tarifului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Prețul la gaze naturale a fost majorat. Cât vor achita moldovenii din luna octombrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Profesorii din Moldova care vor să afle cum poate fi utilizată AI în educație se pot înscrie la un atelier practic",
+          "title": "Un copil ar fi fost agresat pe teritoriul unui gimnaziu din Căușeni. Ce (nu) spune instituția vizată",
           "filler": false,
           "news": true
         },
@@ -4506,6 +4497,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Teatrul Național „Mihai Eminescu” va efectua un turneu în Grecia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "PREMIERĂ // Experiențele supraviețuitoarelor violenței, aduse pe scena Teatrului „Luceafărul”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // Voucherul cultural pentru tineri va ajunge la 2.000 de lei și va putea fi folosit pentru sport",
           "filler": false,
           "news": true
@@ -4525,15 +4534,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Vestigii ale culturii Cucuteni–Trypillia, expuse la Muzeul Național de Istorie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul „Alexie Mateevici” pornește într-un turneu în Italia cu spectacolul „Jubileul”",
           "filler": false,
           "news": true
         },
@@ -4588,6 +4588,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Teatrul „Alexie Mateevici” pornește într-un turneu în Italia cu spectacolul „Jubileul”",
           "filler": false,
           "news": true
         },
@@ -4659,6 +4668,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Spectacolul „Ciuleandra” de Liviu Rebreanu marchează 30 de ani de la premieră la Satiricus. Teatrul îl readuce pe scenă",
           "filler": false,
           "news": true
@@ -4669,15 +4687,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // Un cazan de bronz, vechi de aproape trei milenii, a fost salvat de specialiști la Fălești",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -4840,24 +4849,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Zilele Filmului Românesc au început la Chișinău cu proiecția filmului „Cercul”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // Spectacolul „Lungul drum al zilei către noapte” al Teatrului din Sibiu, aplaudat la Chișinău în prezența Maiei Sandu și a premierului Vasile Tofan",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul CHILL a început la Chișinău și reunește scriitori din 11 țări",
           "filler": false,
           "news": true
         },
