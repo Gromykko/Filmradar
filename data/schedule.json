@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02T06:09:09.262Z",
-  "updatedAtLocal": "2 oct. 2026, 09:08",
+  "updatedAt": "2026-10-02T13:08:16.026Z",
+  "updatedAtLocal": "2 oct. 2026, 16:07",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -3527,6 +3527,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Alte șapte muzee din Republica Moldova vor fi digitalizate în cadrul programului „Muzee de la sat”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO // Artiștii pot folosi spațiile din clădirea „Universul” la tarife reduse",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Teatre din Moldova și Azerbaidjan vor dezvolta proiecte artistice comune în baza unui Memorandum",
           "filler": false,
           "news": true
@@ -3546,24 +3564,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Festivalul Internațional de muzică clasică „CRESCENDO” și-a deschis cea de-a XIV-a ediție la Cahul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Drumul Conacelor” - un nou traseu turistic de 24 de kilometri, lansat în raionul Orhei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul Național „Mihai Eminescu” va efectua un turneu în Grecia",
           "filler": false,
           "news": true
         },
@@ -3626,6 +3626,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // „Drumul Conacelor” - un nou traseu turistic de 24 de kilometri, lansat în raionul Orhei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Teatrul Național „Mihai Eminescu” va efectua un turneu în Grecia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "PREMIERĂ // Experiențele supraviețuitoarelor violenței, aduse pe scena Teatrului „Luceafărul”",
           "filler": false,
           "news": true
@@ -3680,6 +3698,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Rolul lecturii în societatea contemporană, discutat la Biblioteca Națională",
           "filler": false,
           "news": true
@@ -3690,15 +3717,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Elevii Școlii de Arte din Varnița au descoperit limbile europene prin muzică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -3861,24 +3879,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // „Caligula”, spectacolul Teatrului „Ivan Franko” din Kiev, a fost prezentat la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„La Traviata” de Giuseppe Verdi, povestea unei iubiri sacrificiale, prezentată la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO, FOTO // Festivalul Etniilor, ajuns la ediția a XXV-a, a reunit la Chișinău peste 45 de organizații etnoculturale",
           "filler": false,
           "news": true
         },
