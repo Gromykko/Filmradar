@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-05T07:39:49.673Z",
-  "updatedAtLocal": "5 oct. 2026, 10:39",
+  "updatedAt": "2026-10-05T17:05:40.630Z",
+  "updatedAtLocal": "5 oct. 2026, 20:05",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -632,16 +632,6 @@
           "start": "09:15",
           "end": "10:00",
           "title": "Zi de bine",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "date": "2026-10-05",
-          "start": "10:29",
-          "end": "10:35",
-          "title": "Publicitate",
           "filler": false,
           "source": "tvmail"
         },
@@ -10580,6 +10570,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Un angajat al Poliției de Frontieră a fost rănit, iar un autobuz a fost deteriorat în urma atacurilor Rusiei în zona Palanca – Maiakî-Udobnoe",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cum arată cel mai tipic profesor din Moldova: ce vârstă are, câți bani primește și ce spune despre egalitatea de gen",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Spectacol documentar, meci de fotbal și prezentare de modă. Șapte evenimente la care ai putea merge săptămâna viitoare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Va mai fi cald? Prognoza meteo pentru perioada 5-11 octombrie",
           "filler": false,
           "news": true
@@ -10608,42 +10625,6 @@
           "start": null,
           "end": null,
           "title": "Cinci producători autohtoni de la care poți cumpăra gustări naturale pentru câini și pisici",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ce este depresia postnatală, cum o recunoaștem, ce o poate provoca și unde putem cere ajutor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Liceul Teoretic „Mircea Eliade”, câștigătorul concursului #diez pentru reflectarea alegerilor din Consiliul Elevilor. Cine candidează și ce propun echipele",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldova a stabilit un record mondial. Circa 500 de persoane au format cea mai mare imagine umană a unei vițe-de-vie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Tot ce trebuie să știe cuplurile care nu pot concepe un copil despre fertilizarea in vitro în Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -10756,6 +10737,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Șapte persoane au fost selectate pentru Premiul Național 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Republica Moldova, promovată în China ca destinație turistică. Ambasadoarea Zhihua Dong: „Ne dorim ca tot mai mulți chinezi să cunoască și să îndrăgească Moldova”",
           "filler": false,
           "news": true
@@ -10784,15 +10774,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // Artiștii pot folosi spațiile din clădirea „Universul” la tarife reduse",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Teatre din Moldova și Azerbaidjan vor dezvolta proiecte artistice comune în baza unui Memorandum",
           "filler": false,
           "news": true
         },
@@ -10847,6 +10828,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Teatre din Moldova și Azerbaidjan vor dezvolta proiecte artistice comune în baza unui Memorandum",
           "filler": false,
           "news": true
         },
@@ -11099,15 +11089,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova urmărește aderarea la rețeaua TRADUKI. Subiectul, discutat de ministrul Dan Suruceanu cu ambasadorul Germaniei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Arcul de Triumf din Chișinău va fi înregistrat ca proprietate publică a statului",
           "filler": false,
           "news": true
         },
