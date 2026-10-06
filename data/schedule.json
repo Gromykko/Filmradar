@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-06T10:45:36.224Z",
-  "updatedAtLocal": "6 oct. 2026, 13:45",
+  "updatedAt": "2026-10-06T17:10:04.445Z",
+  "updatedAtLocal": "6 oct. 2026, 20:09",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9227,6 +9227,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Teatru și povești pentru copii, timp de 13 zile, la Cahul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // „Leliță Ioană”, interpretată de Maria Drăgan într-o înregistrare de arhivă din 1967",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Maria Drăgan, omagiată la Nisporeni prin cântec și un festival național de folclor",
           "filler": false,
           "news": true
@@ -9246,24 +9264,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Teatrul Național „Mihai Eminescu” marchează 105 ani de istorie și creație",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul „Andrei Vartic”, la a doua ediție: 15 spectacole din șapte țări, la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Șapte persoane au fost selectate pentru Premiul Național 2026",
           "filler": false,
           "news": true
         },
@@ -9318,6 +9318,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul „Andrei Vartic”, la a doua ediție: 15 spectacole din șapte țări, la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Șapte persoane au fost selectate pentru Premiul Național 2026",
           "filler": false,
           "news": true
         },
@@ -9389,6 +9407,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // „Drumul Conacelor” - un nou traseu turistic de 24 de kilometri, lansat în raionul Orhei",
           "filler": false,
           "news": true
@@ -9399,15 +9426,6 @@
           "start": null,
           "end": null,
           "title": "Teatrul Național „Mihai Eminescu” va efectua un turneu în Grecia",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9561,24 +9579,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Peste 25 de olari și ceramiști, reuniți la expoziția „Moștenire vie”, la Muzeul Național de Etnografie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Invențiile poloneze care au schimbat lumea, prezentate într-o expoziție la Muzeul de Istorie și Etnografie din Mereni",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Expoziția „CLARA – Artă pentru prevenție” deschide la Chișinău un program de evenimente despre corp și sănătate",
           "filler": false,
           "news": true
         },
