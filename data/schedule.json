@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-06T03:18:44.608Z",
-  "updatedAtLocal": "6 oct. 2026, 06:18",
+  "updatedAt": "2026-10-06T10:45:36.224Z",
+  "updatedAtLocal": "6 oct. 2026, 13:45",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9227,6 +9227,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Maria Drăgan, omagiată la Nisporeni prin cântec și un festival național de folclor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Noi proiecte culturale și schimburi profesionale, discutate cadrul celei de-a 11-a reuniuni a Grupului de lucru GUAM",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Teatrul Național „Mihai Eminescu” marchează 105 ani de istorie și creație",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Festivalul „Andrei Vartic”, la a doua ediție: 15 spectacole din șapte țări, la Chișinău",
           "filler": false,
           "news": true
@@ -9237,33 +9264,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Șapte persoane au fost selectate pentru Premiul Național 2026",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova, promovată în China ca destinație turistică. Ambasadoarea Zhihua Dong: „Ne dorim ca tot mai mulți chinezi să cunoască și să îndrăgească Moldova”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Nunta lui Figaro”, pe scena Teatrului Național de Operă și Balet „Maria Bieșu”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Alte șapte muzee din Republica Moldova vor fi digitalizate în cadrul programului „Muzee de la sat”",
           "filler": false,
           "news": true
         },
@@ -9326,6 +9326,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Republica Moldova, promovată în China ca destinație turistică. Ambasadoarea Zhihua Dong: „Ne dorim ca tot mai mulți chinezi să cunoască și să îndrăgească Moldova”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Nunta lui Figaro”, pe scena Teatrului Național de Operă și Balet „Maria Bieșu”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Alte șapte muzee din Republica Moldova vor fi digitalizate în cadrul programului „Muzee de la sat”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // Artiștii pot folosi spațiile din clădirea „Universul” la tarife reduse",
           "filler": false,
           "news": true
@@ -9380,6 +9407,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "PREMIERĂ // Experiențele supraviețuitoarelor violenței, aduse pe scena Teatrului „Luceafărul”",
           "filler": false,
           "news": true
@@ -9399,15 +9435,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova și Israel discută noi proiecte de cooperare culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9552,33 +9579,6 @@
           "start": null,
           "end": null,
           "title": "Expoziția „CLARA – Artă pentru prevenție” deschide la Chișinău un program de evenimente despre corp și sănătate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Turiștii pot descoperi specificul arhitectural al Orheiului Vechi prin intermediul unui nou ghid",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Descoperă Moldova cu #MOLDPRES // „Prepeleacul”, obiectul neobișnuit care păstrează o parte din istoria satului Iurceni",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Liedul basarabean, adus mai aproape de public prin trei concerte la Butuceni, Cahul și Chișinău",
           "filler": false,
           "news": true
         },
