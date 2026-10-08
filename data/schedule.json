@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-08T07:17:27.914Z",
-  "updatedAtLocal": "8 oct. 2026, 10:17",
+  "updatedAt": "2026-10-08T14:54:23.590Z",
+  "updatedAtLocal": "8 oct. 2026, 17:54",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9247,6 +9247,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // „UNCOVERED”, noul spectacol al TNME despre culisele jurnalismului de investigație",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Bustul lui Grigore Vieru a fost inaugurat pe Aleea Clasicilor din Hâncești",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Spectacolul TNME „Greva gospodinelor” va fi prezentat la Festivalul „Constantin Tănase” din Vaslui",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Lucrările de restaurare a Vilei Pronin și noile spații ale Muzeului Literaturii, vizitate de ministrul Culturii",
           "filler": false,
           "news": true
@@ -9257,33 +9284,6 @@
           "start": null,
           "end": null,
           "title": "Teatru și povești pentru copii, timp de 13 zile, la Cahul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // „Leliță Ioană”, interpretată de Maria Drăgan într-o înregistrare de arhivă din 1967",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Maria Drăgan, omagiată la Nisporeni prin cântec și un festival național de folclor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Noi proiecte culturale și schimburi profesionale, discutate cadrul celei de-a 11-a reuniuni a Grupului de lucru GUAM",
           "filler": false,
           "news": true
         },
@@ -9346,6 +9346,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // „Leliță Ioană”, interpretată de Maria Drăgan într-o înregistrare de arhivă din 1967",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Maria Drăgan, omagiată la Nisporeni prin cântec și un festival național de folclor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Noi proiecte culturale și schimburi profesionale, discutate cadrul celei de-a 11-a reuniuni a Grupului de lucru GUAM",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Teatrul Național „Mihai Eminescu” marchează 105 ani de istorie și creație",
           "filler": false,
           "news": true
@@ -9400,6 +9427,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // Artiștii pot folosi spațiile din clădirea „Universul” la tarife reduse",
           "filler": false,
           "news": true
@@ -9419,15 +9455,6 @@
           "start": null,
           "end": null,
           "title": "Spectacolul „Chirița în concert la Chișinău” va fi prezentat la Festivalul Internațional de Teatru Clasic de la Arad",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9572,33 +9599,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Spectacolul „Ciuleandra” de Liviu Rebreanu marchează 30 de ani de la premieră la Satiricus. Teatrul îl readuce pe scenă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // Un cazan de bronz, vechi de aproape trei milenii, a fost salvat de specialiști la Fălești",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Expoziția „BookM@p 2” aduce la Chișinău universul ilustrației de carte pentru copii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // O nouă atracție turistică în Găgăuzia: „Ciotra găgăuză”",
           "filler": false,
           "news": true
         },
