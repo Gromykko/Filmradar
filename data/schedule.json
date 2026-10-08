@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-08T14:54:23.590Z",
-  "updatedAtLocal": "8 oct. 2026, 17:54",
+  "updatedAt": "2026-10-08T20:40:17.382Z",
+  "updatedAtLocal": "8 oct. 2026, 23:40",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -601,7 +601,7 @@
           "date": "2026-10-09",
           "start": "01:00",
           "end": "01:30",
-          "title": "Made In Germany",
+          "title": "# Cultura",
           "filler": false,
           "source": "tvmail"
         },
