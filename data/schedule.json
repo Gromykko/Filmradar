@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-11T06:24:23.673Z",
-  "updatedAtLocal": "11 oct. 2026, 09:24",
+  "updatedAt": "2026-10-11T13:28:52.735Z",
+  "updatedAtLocal": "11 oct. 2026, 16:28",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10589,6 +10589,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Tinerii din Moldova pot participa gratuit la un festival de scurtmetraje din Franța. Care sunt condițiile",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Tartuffe”, o comedie despre ipocrizie și manipulare, va fi jucată la Teatrul Fără Nume",
           "filler": false,
           "news": true
@@ -10661,7 +10670,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Artiști din opt țări vor prezenta șapte spectacole de dans la Chișinău. Programul Moldova Dance Festival Contact+ 2026",
+          "title": "Donald Trump, nemulțumit că nu a primit Nobelul pentru Pace, în ciuda războiului declanșat împotriva Iranului",
           "filler": false,
           "news": true
         },
@@ -10670,7 +10679,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Universitatea de Stat din Moldova a obținut un nou premiu în domeniul patrimoniului cultural",
+          "title": "Vrei să lucrezi timp de cinci luni în Parlamentul European? Aplică la stagiile plătite Schuman",
           "filler": false,
           "news": true
         },
@@ -10679,7 +10688,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Jocurile Olimpice de Tineret 2026: cine reprezintă Moldova, cât costă biletele și cum vom putea urmări competițiile",
+          "title": "Trebuie să îți schimbi buletinul cu adresa de domiciliu după reforma teritorială? Explicațiile autorităților",
           "filler": false,
           "news": true
         },
@@ -10688,7 +10697,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lista centrelor pentru copii cu autism. Unde se oferă servicii specializate gratuite",
+          "title": "(grafic) Topul celor mai mari și mai mici primării din Moldova după reforma teritorială. Câți locuitori vor avea",
           "filler": false,
           "news": true
         },
@@ -10697,7 +10706,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Daniel Munteanu a câștigat alegerile în Consiliul elevilor la Liceul Teoretic „Mircea Eliade”",
+          "title": "Trump a anunțat că SUA vor importa motorină din Rusia. Zelenski: „Cadourile făcute lui Putin nu aduc pacea”",
           "filler": false,
           "news": true
         },
@@ -10706,7 +10715,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "MILAP 2026: UN CADRU, UN FILM! Opt zile de cinema alături de profesioniști internaționali",
+          "title": "O listă de cursuri gratuite pentru viitorii părinți pe care le poți urma la Chișinău",
           "filler": false,
           "news": true
         },
@@ -10715,7 +10724,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cea de a XXV-a ediție a Zilei Naționale a Vinului a scris istorie: un record mondial și noi recorduri naționale",
+          "title": "Cum ajung banii Uniunii Europene în Moldova și ce reforme trebuie să facem pentru a-i primi",
           "filler": false,
           "news": true
         },
@@ -10724,16 +10733,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "25.000 de lei pentru cei mai activi voluntari din Chișinău. A fost lansat Festivalul Municipal al Voluntarilor 2026",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "A fost decernat Premiul Nobel pentru Pace 2026. L-a ridicat o juristă sud-africană",
+          "title": "USMF „Nicolae Testemițanu” – promotoarea excelenței și cercetării interdisciplinare",
           "filler": false,
           "news": true
         },
@@ -10846,6 +10846,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Concert de gală la Chișinău, festivalul Internațional de Operă și Balet „Maria Bieșu” ajunge la final",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // „UNCOVERED”, noul spectacol al TNME despre culisele jurnalismului de investigație",
           "filler": false,
           "news": true
@@ -10874,15 +10883,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Lucrările de restaurare a Vilei Pronin și noile spații ale Muzeului Literaturii, vizitate de ministrul Culturii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatru și povești pentru copii, timp de 13 zile, la Cahul",
           "filler": false,
           "news": true
         },
@@ -10937,6 +10937,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Teatru și povești pentru copii, timp de 13 zile, la Cahul",
           "filler": false,
           "news": true
         },
@@ -11017,7 +11026,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Alte șapte muzee din Republica Moldova vor fi digitalizate în cadrul programului „Muzee de la sat”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -11026,7 +11035,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Alte șapte muzee din Republica Moldova vor fi digitalizate în cadrul programului „Muzee de la sat”",
           "filler": false,
           "news": true
         },
@@ -11189,15 +11198,6 @@
           "start": null,
           "end": null,
           "title": "Documentar despre migrația evreiască și destinul unor familii din Moldova, prezentat la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Spectacolul „Ciuleandra” de Liviu Rebreanu marchează 30 de ani de la premieră la Satiricus. Teatrul îl readuce pe scenă",
           "filler": false,
           "news": true
         },
