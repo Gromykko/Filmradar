@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-12T09:06:04.109Z",
-  "updatedAtLocal": "12 oct. 2026, 12:05",
+  "updatedAt": "2026-10-12T19:00:22.516Z",
+  "updatedAtLocal": "12 oct. 2026, 22:00",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10717,6 +10717,17 @@
       "stale": false,
       "slots": [
         {
+          "day": 2,
+          "dayName": "marți",
+          "start": null,
+          "end": null,
+          "title": null,
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
           "day": null,
           "dayName": null,
           "start": null,
@@ -10731,6 +10742,24 @@
           "start": null,
           "end": null,
           "title": "Tot ce trebuie să știi despre admiterea 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "În Ucraina elevii din școlile minorităților naționale vor putea învăța în limbile română și maghiară",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Timp de patru zile, la Cinematograful Odeon vei putea viziona de filme animate și vei putea participa la ateliere și masterclassuri",
           "filler": false,
           "news": true
         },
@@ -10802,7 +10831,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Satira comentează istoria”. 50 de caricaturi realizate de elevi din Moldova vor fi expuse la Muzeul Național de Istorie",
+          "title": "Exporturile de servicii ale Republicii Moldova ating un nivel record: Sectorul IT și Serviciile pentru afaceri devin noul motor al economiei naționale",
           "filler": false,
           "news": true
         },
@@ -10811,7 +10840,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ai vrea să înveți DJ-ing? Înscrie-te la trei ateliere unde vei experimenta și vei învăța să dai voce ideilor tale prin muzică",
+          "title": "Grădinițele vor avea un program de activitate redus marți, 13 octombrie. Ce pot face părinții care nu-și pot lua copiii mai devreme",
           "filler": false,
           "news": true
         },
@@ -10820,7 +10849,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Donald Trump, nemulțumit că nu a primit Nobelul pentru Pace, în ciuda războiului declanșat împotriva Iranului",
+          "title": "Nouă oportunități destinate elevilor, al căror termen-limită pentru înregistrare expiră în luna octombrie",
           "filler": false,
           "news": true
         },
@@ -10829,7 +10858,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să lucrezi timp de cinci luni în Parlamentul European? Aplică la stagiile plătite Schuman",
+          "title": "Primarul Ion Ceban este obligat de instanță să ceară scuze publice de la câțiva jurnaliști și activiști civici",
           "filler": false,
           "news": true
         },
@@ -10838,7 +10867,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Trebuie să îți schimbi buletinul cu adresa de domiciliu după reforma teritorială? Explicațiile autorităților",
+          "title": "Doi cercetători americani au primit Premiul Nobel pentru Științe Economice după ce au creat modele care ajută la gestionarea crizelor",
           "filler": false,
           "news": true
         },
@@ -10847,7 +10876,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(grafic) Topul celor mai mari și mai mici primării din Moldova după reforma teritorială. Câți locuitori vor avea",
+          "title": "RE: Coffee – electronicele vechi pot fi schimbate pe o cafea de Ziua Internațională a DEEE",
           "filler": false,
           "news": true
         },
@@ -10856,34 +10885,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Trump a anunțat că SUA vor importa motorină din Rusia. Zelenski: „Cadourile făcute lui Putin nu aduc pacea”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O listă de cursuri gratuite pentru viitorii părinți pe care le poți urma la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cum ajung banii Uniunii Europene în Moldova și ce reforme trebuie să facem pentru a-i primi",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "USMF „Nicolae Testemițanu” – promotoarea excelenței și cercetării interdisciplinare",
+          "title": "Căminele și laboratoarele a 25 de colegii, centre de excelență și școli profesionale vor fi renovate. Despre ce instituții este vorba",
           "filler": false,
           "news": true
         },
@@ -10996,6 +10998,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Patrimoniul cultural, desenat pe asfalt de copiii din Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // O pictură murală inspirată de tradiția horei moldovenești, inaugurată într-o localitate din Italia",
           "filler": false,
           "news": true
@@ -11024,15 +11035,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // „UNCOVERED”, noul spectacol al TNME despre culisele jurnalismului de investigație",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Bustul lui Grigore Vieru a fost inaugurat pe Aleea Clasicilor din Hâncești",
           "filler": false,
           "news": true
         },
@@ -11087,6 +11089,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Bustul lui Grigore Vieru a fost inaugurat pe Aleea Clasicilor din Hâncești",
           "filler": false,
           "news": true
         },
@@ -11167,7 +11178,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Șapte persoane au fost selectate pentru Premiul Național 2026",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -11176,7 +11187,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Șapte persoane au fost selectate pentru Premiul Național 2026",
           "filler": false,
           "news": true
         },
@@ -11339,15 +11350,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // „CLARA – Artă pentru prevenție”, o expoziție despre sănătate, corp și importanța prevenției",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // La Cahul a avut loc prima ediție a Festivalului „Bat inimi de Fanfară”",
           "filler": false,
           "news": true
         },
