@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-12T01:44:22.549Z",
-  "updatedAtLocal": "12 oct. 2026, 04:44",
+  "updatedAt": "2026-10-12T09:06:04.109Z",
+  "updatedAtLocal": "12 oct. 2026, 12:05",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -10996,6 +10996,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // O pictură murală inspirată de tradiția horei moldovenești, inaugurată într-o localitate din Italia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Turnul clopotniței din Vadul Rașcov, restaurat cu sprijinul UE și al PNUD. Monumentul a fost inaugurat după încheierea lucrărilor de conservare",
           "filler": false,
           "news": true
@@ -11024,15 +11033,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Bustul lui Grigore Vieru a fost inaugurat pe Aleea Clasicilor din Hâncești",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Spectacolul TNME „Greva gospodinelor” va fi prezentat la Festivalul „Constantin Tănase” din Vaslui",
           "filler": false,
           "news": true
         },
@@ -11087,6 +11087,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Spectacolul TNME „Greva gospodinelor” va fi prezentat la Festivalul „Constantin Tănase” din Vaslui",
           "filler": false,
           "news": true
         },
@@ -11167,7 +11176,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Republica Moldova, promovată în China ca destinație turistică. Ambasadoarea Zhihua Dong: „Ne dorim ca tot mai mulți chinezi să cunoască și să îndrăgească Moldova”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -11176,7 +11185,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Republica Moldova, promovată în China ca destinație turistică. Ambasadoarea Zhihua Dong: „Ne dorim ca tot mai mulți chinezi să cunoască și să îndrăgească Moldova”",
           "filler": false,
           "news": true
         },
@@ -11339,15 +11348,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // La Cahul a avut loc prima ediție a Festivalului „Bat inimi de Fanfară”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Lumina și culorile Moldovei, în prima expoziție a artistei ucrainene Hanna Kozeletska",
           "filler": false,
           "news": true
         },
