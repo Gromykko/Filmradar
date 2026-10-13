@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-13T01:18:01.580Z",
-  "updatedAtLocal": "13 oct. 2026, 04:17",
+  "updatedAt": "2026-10-13T08:24:47.318Z",
+  "updatedAtLocal": "13 oct. 2026, 11:24",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -9488,6 +9488,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Federico García Lorca, evocat la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Peste 4.000 de spectatori au participat la Zilele Filmului Românesc în Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Patrimoniul cultural, desenat pe asfalt de copiii din Chișinău",
           "filler": false,
           "news": true
@@ -9507,24 +9525,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Turnul clopotniței din Vadul Rașcov, restaurat cu sprijinul UE și al PNUD. Monumentul a fost inaugurat după încheierea lucrărilor de conservare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Concert de gală la Chișinău, festivalul Internațional de Operă și Balet „Maria Bieșu” ajunge la final",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „UNCOVERED”, noul spectacol al TNME despre culisele jurnalismului de investigație",
           "filler": false,
           "news": true
         },
@@ -9579,6 +9579,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Concert de gală la Chișinău, festivalul Internațional de Operă și Balet „Maria Bieșu” ajunge la final",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // „UNCOVERED”, noul spectacol al TNME despre culisele jurnalismului de investigație",
           "filler": false,
           "news": true
         },
@@ -9650,6 +9668,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Teatrul Național „Mihai Eminescu” marchează 105 ani de istorie și creație",
           "filler": false,
           "news": true
@@ -9660,15 +9687,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul „Andrei Vartic”, la a doua ediție: 15 spectacole din șapte țări, la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9822,24 +9840,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Rolul lecturii în societatea contemporană, discutat la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Elevii Școlii de Arte din Varnița au descoperit limbile europene prin muzică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „CLARA – Artă pentru prevenție”, o expoziție despre sănătate, corp și importanța prevenției",
           "filler": false,
           "news": true
         },
