@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-13T08:24:47.318Z",
-  "updatedAtLocal": "13 oct. 2026, 11:24",
+  "updatedAt": "2026-10-13T16:24:46.417Z",
+  "updatedAtLocal": "13 oct. 2026, 19:24",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -540,7 +540,7 @@
           "dayName": "marți",
           "start": "21:50",
           "end": "22:42",
-          "title": "Faith. Dramă, Marea Britanie, 2023, ep.2",
+          "title": "Pagini de colecție! (Opera Ștefan cel Mare. Tab. 7)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-10-13"
@@ -576,11 +576,51 @@
           "date": "2026-10-13"
         },
         {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-10-13",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "Ultima oră! Ediție specială",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-10-13",
+          "start": "23:00",
+          "end": "23:55",
+          "title": "Faith (Episodul 2)",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 2,
+          "dayName": "marți",
+          "date": "2026-10-13",
+          "start": "23:55",
+          "end": "00:25",
+          "title": "Ştiri Externe",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
           "day": 3,
           "dayName": "miercuri",
           "date": "2026-10-14",
-          "start": "00:05",
-          "end": "01:25",
+          "start": "00:25",
+          "end": "01:15",
+          "title": "Arena sportivă",
+          "filler": false,
+          "source": "tvmail"
+        },
+        {
+          "day": 3,
+          "dayName": "miercuri",
+          "date": "2026-10-14",
+          "start": "01:15",
+          "end": "02:54",
           "title": "# Cultura",
           "filler": false,
           "source": "tvmail"
@@ -589,9 +629,9 @@
           "day": 3,
           "dayName": "miercuri",
           "date": "2026-10-14",
-          "start": "01:25",
-          "end": "01:50",
-          "title": "La drum! (DW.Gemania)",
+          "start": "02:54",
+          "end": "03:20",
+          "title": "La drum!",
           "filler": false,
           "source": "tvmail"
         },
@@ -599,9 +639,9 @@
           "day": 3,
           "dayName": "miercuri",
           "date": "2026-10-14",
-          "start": "01:50",
+          "start": "03:20",
           "end": "03:50",
-          "title": "Bună dimineața!",
+          "title": "Moldova de patrimoniu",
           "filler": false,
           "source": "tvmail"
         },
@@ -6267,6 +6307,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Panouri personalizate pentru grădiniţă: cum să alegi materialele care ajută",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | Zdrobitor manual sau electric: care este diferenţa dintre ele",
           "filler": false,
           "news": true
@@ -6286,15 +6335,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL | Role cu sau fără frână pentru copii - când contează cu adevărat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
           "filler": false,
           "news": true
         },
@@ -6391,6 +6431,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Panouri personalizate pentru grădiniţă: cum să alegi materialele care ajută",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | Zdrobitor manual sau electric: care este diferenţa dintre ele",
           "filler": false,
           "news": true
@@ -6437,15 +6486,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL | Profesia de SEO Specialist a devenit oficială în Republica Moldova: cod CORM 251316",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL // De ce în curând nu îţi vei mai putea instala panouri solare în Republica Moldova?",
           "filler": false,
           "news": true
         },
@@ -9321,6 +9361,42 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Muzica tinerilor artiști și poezia se întâlnesc la noua ediție a concertului „Alteritate”. Când va avea loc evenimentul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Pe traseele examenelor auto din sectorul Râșcani al Capitalei au apărut noi marcaje rutiere",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Profesorii din Moldova sunt invitați să susțină examenele de clasa a IX-a sau de bac în locul elevilor. Care este scopul inițiativei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce negociază Republica Moldova cu UE pentru deschiderea clusterelor de aderare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Exporturile de servicii ale Republicii Moldova ating un nivel record: Sectorul IT și Serviciile pentru afaceri devin noul motor al economiei naționale",
           "filler": false,
           "news": true
@@ -9340,42 +9416,6 @@
           "start": null,
           "end": null,
           "title": "Nouă oportunități destinate elevilor, al căror termen-limită pentru înregistrare expiră în luna octombrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Primarul Ion Ceban este obligat de instanță să ceară scuze publice de la câțiva jurnaliști și activiști civici",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Doi cercetători americani au primit Premiul Nobel pentru Științe Economice după ce au creat modele care ajută la gestionarea crizelor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "RE: Coffee – electronicele vechi pot fi schimbate pe o cafea de Ziua Internațională a DEEE",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Căminele și laboratoarele a 25 de colegii, centre de excelență și școli profesionale vor fi renovate. Despre ce instituții este vorba",
           "filler": false,
           "news": true
         },
@@ -9488,7 +9528,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Federico García Lorca, evocat la Chișinău",
+          "title": "Asociația moldovenilor din Portugalia „Miorița” a marcat 20 de ani de activitate printr-un concert aniversar",
           "filler": false,
           "news": true
         },
@@ -9497,7 +9537,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Peste 4.000 de spectatori au participat la Zilele Filmului Românesc în Republica Moldova",
+          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Taraclia: Finanțarea proiectelor culturale și atragerea tinerilor în domeniu, printre subiectele discutate",
           "filler": false,
           "news": true
         },
@@ -9506,7 +9546,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Patrimoniul cultural, desenat pe asfalt de copiii din Chișinău",
+          "title": "Municipiul Cahul, singurul candidat la titlul de „Capitală Europeană a Culturii 2033” din Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -9515,7 +9555,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // O pictură murală inspirată de tradiția horei moldovenești, inaugurată într-o localitate din Italia",
+          "title": "VIDEO // „Grădina de sticlă”, aplaudată în Grecia. Spectacolul TNME a ajuns la publicul din Pireu",
           "filler": false,
           "news": true
         },
@@ -9524,7 +9564,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Turnul clopotniței din Vadul Rașcov, restaurat cu sprijinul UE și al PNUD. Monumentul a fost inaugurat după încheierea lucrărilor de conservare",
+          "title": "FOTO // Ministerul Culturii propune simplificarea procedurii de obținere a subvențiilor pentru mass-media",
           "filler": false,
           "news": true
         },
@@ -9587,6 +9627,51 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Federico García Lorca, evocat la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Peste 4.000 de spectatori au participat la Zilele Filmului Românesc în Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Patrimoniul cultural, desenat pe asfalt de copiii din Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // O pictură murală inspirată de tradiția horei moldovenești, inaugurată într-o localitate din Italia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Turnul clopotniței din Vadul Rașcov, restaurat cu sprijinul UE și al PNUD. Monumentul a fost inaugurat după încheierea lucrărilor de conservare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Concert de gală la Chișinău, festivalul Internațional de Operă și Balet „Maria Bieșu” ajunge la final",
           "filler": false,
           "news": true
@@ -9615,6 +9700,15 @@
           "start": null,
           "end": null,
           "title": "Spectacolul TNME „Greva gospodinelor” va fi prezentat la Festivalul „Constantin Tănase” din Vaslui",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9660,15 +9754,6 @@
           "start": null,
           "end": null,
           "title": "Noi proiecte culturale și schimburi profesionale, discutate cadrul celei de-a 11-a reuniuni a Grupului de lucru GUAM",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -9804,42 +9889,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova și Israel discută noi proiecte de cooperare culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Vestigii ale culturii Cucuteni–Trypillia, expuse la Muzeul Național de Istorie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul „Alexie Mateevici” pornește într-un turneu în Italia cu spectacolul „Jubileul”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Descoperă Moldova cu #MOLDPRES // Păcală, Tândală și Făt-Frumos prind chip în măștile lui Grigore Stamati",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Rolul lecturii în societatea contemporană, discutat la Biblioteca Națională",
           "filler": false,
           "news": true
         },
