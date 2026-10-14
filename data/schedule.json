@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T00:35:29.458Z",
-  "updatedAtLocal": "14 oct. 2026, 03:35",
+  "updatedAt": "2026-10-14T05:23:28.003Z",
+  "updatedAtLocal": "14 oct. 2026, 08:23",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8445,6 +8445,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Creştinii ortodocşi de stil vechi sărbătoresc Acoperământul Maicii Domnului. Hram la Chişinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Asociația moldovenilor din Portugalia „Miorița” a marcat 20 de ani de activitate printr-un concert aniversar",
           "filler": false,
           "news": true
@@ -8473,15 +8482,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // „Grădina de sticlă”, aplaudată în Grecia. Spectacolul TNME a ajuns la publicul din Pireu",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Ministerul Culturii propune simplificarea procedurii de obținere a subvențiilor pentru mass-media",
           "filler": false,
           "news": true
         },
@@ -8536,6 +8536,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Ministerul Culturii propune simplificarea procedurii de obținere a subvențiilor pentru mass-media",
           "filler": false,
           "news": true
         },
@@ -8616,7 +8625,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Spectacolul TNME „Greva gospodinelor” va fi prezentat la Festivalul „Constantin Tănase” din Vaslui",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8625,7 +8634,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Spectacolul TNME „Greva gospodinelor” va fi prezentat la Festivalul „Constantin Tănase” din Vaslui",
           "filler": false,
           "news": true
         },
@@ -8797,15 +8806,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // Voucherul cultural pentru tineri va ajunge la 2.000 de lei și va putea fi folosit pentru sport",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova și Israel discută noi proiecte de cooperare culturală",
           "filler": false,
           "news": true
         },
