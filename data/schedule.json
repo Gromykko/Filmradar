@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T05:23:28.003Z",
-  "updatedAtLocal": "14 oct. 2026, 08:23",
+  "updatedAt": "2026-10-14T10:34:36.754Z",
+  "updatedAtLocal": "14 oct. 2026, 13:34",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8445,6 +8445,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Chișinăul de odinioară: povești și tradiții mai puțin cunoscute ale capitalei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Creştinii ortodocşi de stil vechi sărbătoresc Acoperământul Maicii Domnului. Hram la Chişinău",
           "filler": false,
           "news": true
@@ -8473,15 +8482,6 @@
           "start": null,
           "end": null,
           "title": "Municipiul Cahul, singurul candidat la titlul de „Capitală Europeană a Culturii 2033” din Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // „Grădina de sticlă”, aplaudată în Grecia. Spectacolul TNME a ajuns la publicul din Pireu",
           "filler": false,
           "news": true
         },
@@ -8536,6 +8536,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO // „Grădina de sticlă”, aplaudată în Grecia. Spectacolul TNME a ajuns la publicul din Pireu",
           "filler": false,
           "news": true
         },
@@ -8616,7 +8625,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Bustul lui Grigore Vieru a fost inaugurat pe Aleea Clasicilor din Hâncești",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -8625,7 +8634,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Bustul lui Grigore Vieru a fost inaugurat pe Aleea Clasicilor din Hâncești",
           "filler": false,
           "news": true
         },
@@ -8797,15 +8806,6 @@
           "start": null,
           "end": null,
           "title": "PREMIERĂ // Experiențele supraviețuitoarelor violenței, aduse pe scena Teatrului „Luceafărul”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // Voucherul cultural pentru tineri va ajunge la 2.000 de lei și va putea fi folosit pentru sport",
           "filler": false,
           "news": true
         },
