@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T10:34:36.754Z",
-  "updatedAtLocal": "14 oct. 2026, 13:34",
+  "updatedAt": "2026-10-14T15:28:33.574Z",
+  "updatedAtLocal": "14 oct. 2026, 18:28",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -8179,6 +8179,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cum s-a schimbat Chișinăul de-a lungul anilor? 13 fotografii comparate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "În Ucraina elevii din școlile minorităților naționale vor putea învăța în limbile română și maghiară",
           "filler": false,
           "news": true
@@ -8251,7 +8260,52 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ești tânăr(ă) cineast(ă) și ai un film pentru copii sau adolescenți? Îl poți înscrie la un festival internațional din Singapore",
+          "title": "Ești pasionat(ă) de fotografie? Participă gratuit la un curs de fotografie pentru începători",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Liderii din tehnologie, business și Guvern se reunesc la Chișinău pentru agenda AI a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tinerii din centrul și sudul Moldovei pot obține câte 750 de euro pentru proiecte în comunitate. Cum poți aplica",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "O nouă ediție EcoVoucher. Peste 8.000 de familii vor primi câte 7.000 de lei pentru a înlocui electrocasnicele vechi cu unele noi",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Hram sau Ziua Orașului. Ce sărbătorim pe 14 octombrie la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cum primești bursa de studii și în ce condiții o poți pierde. Ce prevede noul regulament",
           "filler": false,
           "news": true
         },
@@ -8270,69 +8324,6 @@
           "start": null,
           "end": null,
           "title": "Elevii de etnie romă ar putea învăța limba romani ca limbă maternă, iar o disciplină despre istoria comunității ar putea fi predată în școli",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul „Vulpea de Fier” aduce cavaleri, jocuri și dansuri medievale în centrul Chișinăului. Când are loc evenimentul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cum primești bursa de studii și în ce condiții o poți pierde. Ce prevede noul regulament",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Profesorii din Moldova pot participa gratuit la programe de formare a competențelor digitale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Moldova Business Week 2026 în cifre: peste 350 de milioane de euro în proiecte investiționale, o nouă bursă și parteneriate internaționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cinci oportunități destinate studenților, al căror termen-limită pentru înregistrare expiră în luna octombrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Muzica tinerilor artiști și poezia se întâlnesc la noua ediție a concertului „Alteritate”. Când va avea loc evenimentul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Pe traseele examenelor auto din sectorul Râșcani al Capitalei au apărut noi marcaje rutiere",
           "filler": false,
           "news": true
         },
