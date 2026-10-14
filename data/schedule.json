@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T19:40:38.797Z",
-  "updatedAtLocal": "14 oct. 2026, 22:40",
+  "updatedAt": "2026-10-14T23:10:08.828Z",
+  "updatedAtLocal": "15 oct. 2026, 02:09",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -16,794 +16,574 @@
       "stale": false,
       "slots": [
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "00:05",
-          "end": "01:47",
-          "title": "Gala Premiilor Patrimoniului Cultural",
+          "day": 4,
+          "dayName": "joi",
+          "start": "00:20",
+          "end": "02:02",
+          "title": "Din Gramofon. Muzica Chișinăului Interbelic",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "01:47",
-          "end": "02:10",
-          "title": "La drum DW.Germania",
+          "day": 4,
+          "dayName": "joi",
+          "start": "02:02",
+          "end": "03:03",
+          "title": "Acasă în Marienfeld. Documentar,Telefilm Chișinău",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "02:10",
+          "day": 4,
+          "dayName": "joi",
+          "start": "03:03",
           "end": "03:50",
           "title": "Bună dimineața!",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "03:50",
           "end": "05:15",
           "title": "Live studio. Program de divertisment",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "05:15",
           "end": "05:58",
-          "title": "Mesager. Program informativ + știri sportive",
+          "title": "Mesager. Program informativ+știri sportive",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "05:58",
           "end": "06:00",
           "title": "Deschiderea stației",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "06:00",
-          "end": "06:50",
-          "title": "În context",
+          "end": "06:25",
+          "title": "Arta și mitopoetica orașului Chișinău. \"Școala de tapiserie din Chișinău\". Documentar",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
+          "start": "06:20",
+          "end": "06:50",
+          "title": "Vizitele Monarhilor la Chișinău.Ultimul Rege Mihai 1. Partea a III-a",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
           "start": "06:50",
           "end": "06:55",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "06:55",
           "end": "07:00",
           "title": "Bună Dimineața!",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "07:00",
           "end": "07:10",
           "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "07:10",
           "end": "07:15",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "07:15",
           "end": "08:00",
           "title": "Bună Dimineața!",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "08:00",
           "end": "08:10",
           "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "08:10",
           "end": "08:15",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "08:15",
           "end": "08:30",
           "title": "Bună Dimineața!",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "08:30",
+          "end": "08:35",
+          "title": "Știri sportive",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "08:35",
+          "end": "08:55",
+          "title": "Bună Dimineața!",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "08:55",
+          "end": "09:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "09:00",
+          "end": "09:10",
+          "title": "Știri",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "09:10",
+          "end": "09:15",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "09:15",
           "end": "10:00",
-          "title": "Domnului să ne rugăm. Înălțarea Domnului (Ispasul) (Liturghia de Hramul orașului Chișinău)",
+          "title": "Zi de bine -magazin utilitar!",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "10:00",
-          "end": "10:05",
+          "end": "10:25",
+          "title": "Moldova de patrimoniu",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "10:25",
+          "end": "10:30",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "10:05",
-          "end": "10:20",
-          "title": "Arta și mitopoetica orașului Chișinău (V. Brâncoveanu)",
+          "day": 4,
+          "dayName": "joi",
+          "start": "10:30",
+          "end": "12:30",
+          "title": "Castelul Umblător al lui Howl. Film de animație, Japonia, 2024",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "10:20",
-          "end": "12:00",
-          "title": "Rugă pentru Chișinău! Inaugurarea sărbătorii de hram",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "12:00",
-          "end": "12:05",
-          "title": "PUBLICITATE",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "12:05",
+          "day": 4,
+          "dayName": "joi",
+          "start": "12:30",
           "end": "12:35",
-          "title": "Vizitele monarhilor la Chișinău (Ultimul Rege Mihai 1. Partea a II-a)",
-          "filler": false,
+          "title": "PUBLICITATE",
+          "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "12:35",
           "end": "12:55",
-          "title": "Un Chișinău dinaintea erei noastre. Documentar",
+          "title": "Gheorghe Vrabie . Contribuții la formarea identității Simbolice a Chișinăului. Documentar",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "12:55",
           "end": "13:00",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "13:00",
           "end": "13:30",
           "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "13:30",
           "end": "13:45",
           "title": "Știri sportive",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "13:45",
-          "end": "14:00",
-          "title": "Romano drom",
+          "end": "14:10",
+          "title": "ЩоTижневик. Săptămânal (ucr.)",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "14:00",
-          "end": "14:12",
-          "title": "Reporter.DW.Germania",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "14:12",
+          "day": 4,
+          "dayName": "joi",
+          "start": "14:10",
           "end": "14:15",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "14:15",
           "end": "15:00",
-          "title": "Spitalul Santa Rosa.Serial romance. Columbia, 2022 Ep. 241",
+          "title": "Spitalul Santa Rosa.Serial romance. Columbia, 2022 Ep. 242",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "15:00",
           "end": "15:10",
           "title": "Știri pe scurt",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "15:10",
           "end": "15:15",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "15:15",
           "end": "16:00",
-          "title": "Spitalul Santa Rosa.Serial romance. Columbia, 2022 Ep. 242",
+          "title": "Spitalul Santa Rosa.Serial romance. Columbia, 2022 Ep.243",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "16:00",
           "end": "16:53",
-          "title": "Lupta pentru viață:seceta. Documentar. Germania, 2023",
+          "title": "Lupta pentru viață: inundația. Documentar. Germania, 2023",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "16:53",
           "end": "17:00",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "17:00",
-          "end": "17:15",
+          "end": "17:25",
           "title": "Știri (ru)",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "17:15",
-          "end": "17:20",
+          "day": 4,
+          "dayName": "joi",
+          "start": "17:25",
+          "end": "17:30",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "17:20",
-          "end": "19:25",
-          "title": "Chișinău - La mulți ani! (Divertisment muzical retro)",
+          "day": 4,
+          "dayName": "joi",
+          "start": "17:30",
+          "end": "18:00",
+          "title": "Live studio. Program de divertisment",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "19:25",
-          "end": "19:30",
+          "day": 4,
+          "dayName": "joi",
+          "start": "18:00",
+          "end": "18:05",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "19:30",
-          "end": "19:40",
+          "day": 4,
+          "dayName": "joi",
+          "start": "18:06",
+          "end": "18:55",
+          "title": "Live studio. Program de divertisment",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "18:55",
+          "end": "19:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "19:00",
+          "end": "19:10",
           "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "19:40",
-          "end": "19:45",
+          "day": 4,
+          "dayName": "joi",
+          "start": "19:10",
+          "end": "19:15",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "19:45",
-          "end": "20:55",
-          "title": "Chișinău - La mulți ani! (Folk urban)",
+          "day": 4,
+          "dayName": "joi",
+          "start": "19:15",
+          "end": "19:55",
+          "title": "În context",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
+          "start": "19:55",
+          "end": "20:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "20:00",
+          "end": "20:55",
+          "title": "Bună seara cu Mircea Surdu!",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
           "start": "20:55",
           "end": "21:00",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "21:00",
           "end": "21:30",
           "title": "Mesager. Program informativ",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "21:30",
-          "end": "21:35",
+          "end": "21:45",
           "title": "Știri sportive",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "21:35",
-          "end": "22:20",
-          "title": "Chișinău -La mulți ani!Folk urban",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "22:20",
-          "end": "22:25",
+          "day": 4,
+          "dayName": "joi",
+          "start": "21:45",
+          "end": "21:50",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "22:25",
-          "end": "23:15",
-          "title": "Faith. Dramă, Marea Britanie, 2023, ep.3",
+          "day": 4,
+          "dayName": "joi",
+          "start": "21:50",
+          "end": "22:42",
+          "title": "Faith. Dramă, Marea Britanie, 2023, ep.4",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "23:15",
-          "end": "23:45",
+          "day": 4,
+          "dayName": "joi",
+          "start": "22:42",
+          "end": "22:50",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "22:50",
+          "end": "23:20",
           "title": "Știri externe (Glavnoe) (ru)",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "23:45",
-          "end": "00:20",
-          "title": "Antinostalgia Orașul meu din roșii flori. Documentar Telefilm Chișinău",
+          "day": 4,
+          "dayName": "joi",
+          "start": "23:20",
+          "end": "00:10",
+          "title": "Prin muzică în Europa",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "21:45",
-          "end": "21:50",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "21:50",
-          "end": "22:30",
-          "title": "Chișinău - La mulți ani!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "22:30",
-          "end": "22:35",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "22:35",
-          "end": "23:25",
-          "title": "Faith (Episodul 3)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "23:25",
-          "end": "23:55",
-          "title": "Ştiri Externe",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "23:55",
-          "end": "00:23",
-          "title": "Orașul meu din roșii flori",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "00:23",
-          "end": "02:05",
-          "title": "Din Gramofon. Muzica Chișinăului Interbelic",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "02:05",
-          "end": "03:05",
-          "title": "Acasă, în Marienfeld",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "03:05",
-          "end": "03:50",
-          "title": "Bună dimineața!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "03:50",
-          "end": "05:15",
-          "title": "Live studio. Прямая трансляция",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "05:15",
-          "end": "05:58",
-          "title": "Mesager (Știri sportive)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "05:58",
-          "end": "06:00",
-          "title": "Deschiderea staţiei",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "06:00",
-          "end": "06:50",
-          "title": "În Context",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "06:50",
-          "end": "06:55",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "06:55",
-          "end": "07:00",
-          "title": "Bună dimineața!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "07:00",
-          "end": "07:10",
-          "title": "Ştiri",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "07:10",
-          "end": "07:15",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "07:15",
-          "end": "08:00",
-          "title": "Bună dimineața!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "08:00",
-          "end": "08:10",
-          "title": "Ştiri",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "08:10",
-          "end": "08:15",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "08:15",
-          "end": "08:30",
-          "title": "Bună dimineața!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "08:30",
-          "end": "08:35",
-          "title": "Știri sportive",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "08:35",
-          "end": "08:55",
-          "title": "Bună dimineața!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "08:55",
-          "end": "09:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "09:00",
-          "end": "09:10",
-          "title": "Ştiri",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "09:10",
-          "end": "09:15",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "09:15",
-          "end": "10:00",
-          "title": "Zi de bine",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "10:00",
-          "end": "10:25",
-          "title": "Moldova de patrimoniu",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "10:25",
-          "end": "10:30",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "10:30",
-          "end": "11:55",
-          "title": "Live studio. Прямая трансляция",
-          "filler": false,
-          "source": "tvmail"
+          "date": "2026-10-15"
         },
         {
           "day": 4,
@@ -822,296 +602,6 @@
           "start": "12:00",
           "end": "12:55",
           "title": "Eu și Ue",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "12:55",
-          "end": "13:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "13:00",
-          "end": "13:30",
-          "title": "Ştiri",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "13:30",
-          "end": "13:45",
-          "title": "Știri sportive",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "13:45",
-          "end": "14:10",
-          "title": "Săptămânal",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "14:10",
-          "end": "14:15",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "14:15",
-          "end": "15:00",
-          "title": "Spitalul Santa Rosa",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "15:00",
-          "end": "15:10",
-          "title": "Ştiri pe scurt",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "15:10",
-          "end": "15:15",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "15:15",
-          "end": "16:00",
-          "title": "Spitalul Santa Rosa",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "16:00",
-          "end": "16:53",
-          "title": "Уточняется!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "16:53",
-          "end": "17:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "17:00",
-          "end": "17:30",
-          "title": "Știri",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "17:30",
-          "end": "18:00",
-          "title": "Live studio. Прямая трансляция",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "18:00",
-          "end": "18:06",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "18:06",
-          "end": "18:55",
-          "title": "Live studio. Прямая трансляция",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "18:55",
-          "end": "19:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "19:00",
-          "end": "19:10",
-          "title": "Ştiri",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "19:10",
-          "end": "19:15",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "19:15",
-          "end": "19:55",
-          "title": "În Context",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "19:55",
-          "end": "20:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "20:00",
-          "end": "20:55",
-          "title": "Bună seara!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "20:55",
-          "end": "21:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "21:00",
-          "end": "21:30",
-          "title": "Mesager",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "21:30",
-          "end": "21:45",
-          "title": "Știri sportive",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "21:45",
-          "end": "21:50",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "21:50",
-          "end": "22:42",
-          "title": "Faith (Episodul 4)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "22:42",
-          "end": "22:50",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "22:50",
-          "end": "23:20",
-          "title": "Ştiri Externe",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "23:20",
-          "end": "00:10",
-          "title": "Prin muzică în Europa",
           "filler": false,
           "source": "tvmail"
         },
@@ -2630,754 +2120,474 @@
       "stale": false,
       "slots": [
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "00:40",
-          "end": "01:20",
-          "title": "Focul din vatră. P.Teodorovici",
+          "end": "01:45",
+          "title": "Spectacol \"Horia\" P.1",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "01:20",
-          "end": "02:25",
-          "title": "W.A.Mozart. Fragmente din opere celebre",
+          "day": 4,
+          "dayName": "joi",
+          "start": "01:45",
+          "end": "02:20",
+          "title": "Orologiu sentimental V.Rusu-Ciobanu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "02:25",
-          "end": "03:10",
-          "title": "Spectacol \"Bădăranii\" P.2",
+          "day": 4,
+          "dayName": "joi",
+          "start": "02:20",
+          "end": "02:35",
+          "title": "Lecturi A la carte",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "03:10",
-          "end": "03:40",
-          "title": "Cu noi la teatru. Vitalie Drucec",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "03:40",
-          "end": "03:45",
+          "day": 4,
+          "dayName": "joi",
+          "start": "02:35",
+          "end": "02:40",
           "title": "Necuvintele",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "03:45",
+          "day": 4,
+          "dayName": "joi",
+          "start": "02:40",
           "end": "04:25",
-          "title": "Grigore Vieru. Poezie și destin",
+          "title": "Din Gramofon. Muzica Chișinăului intebelic",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "04:25",
           "end": "06:00",
-          "title": "Spectacol \"Menageria de sticlă\"",
+          "title": "Spectacol \"Steaua fără nume\" P.1",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "05:58",
           "end": "06:00",
           "title": "Deschiderea Statiei",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "06:00",
-          "end": "06:30",
-          "title": "Melodiile lui Constantin Rusnac",
+          "end": "07:05",
+          "title": "Concert. Dor de Eminescu P.1",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "06:30",
-          "end": "07:00",
-          "title": "Tezaur. Brâu tradițional",
+          "day": 4,
+          "dayName": "joi",
+          "start": "07:05",
+          "end": "07:40",
+          "title": "Tezaur (În memoriam meșteri populari)",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "07:00",
-          "end": "07:30",
+          "day": 4,
+          "dayName": "joi",
+          "start": "07:40",
+          "end": "08:10",
           "title": "Moldova de patrimoniu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "07:30",
-          "end": "08:00",
-          "title": "Artelier. Dumitru Verdianu",
+          "day": 4,
+          "dayName": "joi",
+          "start": "08:10",
+          "end": "08:40",
+          "title": "Artelier. Chișinăul vechi",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "08:00",
-          "end": "08:30",
-          "title": "Artelier (Eleonora Romanescu)",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "08:30",
-          "end": "08:35",
+          "day": 4,
+          "dayName": "joi",
+          "start": "08:40",
+          "end": "08:45",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "08:35",
-          "end": "08:40",
-          "title": "Necuvintele",
+          "day": 4,
+          "dayName": "joi",
+          "start": "08:45",
+          "end": "09:15",
+          "title": "Dor. Chișinău",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "08:40",
-          "end": "09:50",
-          "title": "F.D. Slovacia mea cu Svetlana Belova",
+          "day": 4,
+          "dayName": "joi",
+          "start": "09:15",
+          "end": "09:45",
+          "title": "Chișinăul românesc. G.D.Dumitrescu despre Chișinăul interbelic Pub 1 ( +6 min )",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "09:50",
+          "day": 4,
+          "dayName": "joi",
+          "start": "09:45",
           "end": "09:55",
-          "title": "5 minute la muzeu. Andrei Sârbu",
+          "title": "Text și muzică. Gheorghe Gușan",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "09:55",
           "end": "10:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "10:00",
-          "end": "10:35",
-          "title": "Orologiu sentimental V.Rusu-Ciobanu",
+          "end": "10:30",
+          "title": "Portrete în timp. M.Bădicheanu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "10:35",
-          "end": "10:40",
+          "day": 4,
+          "dayName": "joi",
+          "start": "10:30",
+          "end": "10:35",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "10:40",
+          "day": 4,
+          "dayName": "joi",
+          "start": "10:35",
           "end": "10:55",
-          "title": "Lecturi A la carte",
+          "title": "Povestea generațiilor. A.Strâmbeanu - Familia",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "10:55",
           "end": "11:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "11:00",
-          "end": "12:20",
-          "title": "Trei crai de la răsărit",
+          "end": "11:50",
+          "title": "Spectacol (Episodul 1)",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "12:20",
-          "end": "12:25",
-          "title": "Filler. Despre teatru. Nicolae Darie",
+          "day": 4,
+          "dayName": "joi",
+          "start": "11:50",
+          "end": "11:54",
+          "title": "Necuvintele",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "12:25",
-          "end": "12:30",
+          "day": 4,
+          "dayName": "joi",
+          "start": "11:54",
+          "end": "12:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "12:30",
-          "end": "14:35",
-          "title": "Din Gramofon. Muzica Chișinăului intebelic",
+          "day": 4,
+          "dayName": "joi",
+          "start": "12:00",
+          "end": "15:10",
+          "title": "Operetta \"Liliacul\" de Johann Strauss",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "14:35",
-          "end": "14:40",
+          "day": 4,
+          "dayName": "joi",
+          "start": "15:10",
+          "end": "15:25",
+          "title": "Lecturi A la carte",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "15:25",
+          "end": "15:30",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "14:40",
-          "end": "15:46",
-          "title": "Grigore Vieru. Poezie și destin",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "15:46",
-          "end": "15:54",
-          "title": "Text și muzică. Lilian Severin. Snails",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "15:54",
+          "day": 4,
+          "dayName": "joi",
+          "start": "15:30",
           "end": "16:00",
-          "title": "Publicitate",
-          "filler": true,
+          "title": "Negarea ispitei. Vasile Spinei",
+          "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "16:00",
           "end": "16:25",
-          "title": "Chișinăul românesc. G.D.Dumitrescu despre Chișinăul interbelic",
+          "title": "F.D. Constantin Constantinov",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "16:25",
           "end": "16:30",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "16:30",
-          "end": "16:45",
-          "title": "Cinemateca universală. John Malkovici",
+          "end": "16:57",
+          "title": "Focus TV. Tudor Grama",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "16:45",
-          "end": "16:50",
+          "day": 4,
+          "dayName": "joi",
+          "start": "16:57",
+          "end": "17:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "16:50",
-          "end": "17:55",
-          "title": "Concert. Dor de Eminescu P.1",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "17:55",
+          "day": 4,
+          "dayName": "joi",
+          "start": "17:00",
           "end": "18:00",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "18:00",
-          "end": "18:35",
-          "title": "Tezaur. Muzeul satului. Chișinău",
+          "title": "Concert. Dor de Eminescu P.2",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
+          "start": "18:00",
+          "end": "18:15",
+          "title": "Tezaur. Andrei Tihon. Creator de buciume",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "18:15",
+          "end": "18:30",
+          "title": "Respiro popular",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "18:30",
+          "end": "18:35",
+          "title": "Moldova de patrimoniu",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
           "start": "18:35",
           "end": "18:40",
-          "title": "Tezaur (În memoriam meșteri populari)",
-          "filler": true,
+          "title": "Necuvintele",
+          "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "18:40",
           "end": "19:10",
           "title": "Moldova de patrimoniu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "19:10",
-          "end": "19:45",
-          "title": "Orologiu sentimental V.Rusu-Ciobanu",
+          "end": "19:50",
+          "title": "Orologiu sentimental. M.Bădicheanu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "19:45",
-          "end": "19:50",
+          "day": 4,
+          "dayName": "joi",
+          "start": "19:50",
+          "end": "19:55",
+          "title": "Această clipă. Stop cadru. Andrei Mardare",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-10-15"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "19:55",
+          "end": "20:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "19:50",
-          "end": "20:00",
-          "title": "Text și muzică. Lilian Severin. Snails",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "20:00",
           "end": "20:30",
-          "title": "Artelier. Chișinăul vechi",
+          "title": "Artelier (Ion Zderciuc)",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "20:30",
           "end": "21:00",
-          "title": "Dor (Mihai Toderașcu)",
+          "title": "Dor. Capela corală \"Moldova\"",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "21:00",
           "end": "21:54",
-          "title": "F.D. Viețile ascunse ale operelor de artă, ep. 1",
+          "title": "F.D. Viețile ascunse ale operelor de artă, ep. 2",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "21:54",
           "end": "22:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
+          "day": 4,
+          "dayName": "joi",
           "start": "22:00",
-          "end": "23:35",
-          "title": "Spectacol \"Steaua fără nume\" P.1",
+          "end": "22:55",
+          "title": "Spectacol \"Steaua fără nume\" P.2",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-10-14"
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "23:35",
-          "end": "23:40",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "start": "23:40",
-          "end": "00:40",
-          "title": "Memory Lane: George Ezra",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-10-14"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "09:10",
-          "end": "10:40",
-          "title": "Patimile după Iurie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "12:36",
-          "end": "12:40",
-          "title": "Filler",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "12:40",
-          "end": "13:16",
-          "title": "Cu noi la teatru (Eugen Ureche)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "13:16",
-          "end": "13:20",
-          "title": "Text si muzica (Akord)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "13:20",
-          "end": "13:50",
-          "title": "Identitate Basarabia (Virgiliu Mărgineanu)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "13:50",
-          "end": "13:55",
-          "title": "Necuvintele",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "13:55",
-          "end": "14:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "14:00",
-          "end": "15:45",
-          "title": "Ecouri orientale în muzica clasică",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "15:45",
-          "end": "15:55",
-          "title": "Spectroscop (Melcii)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "15:55",
-          "end": "16:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "17:15",
-          "end": "18:30",
-          "title": "Evantai folcloric",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "18:30",
-          "end": "18:35",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "18:50",
-          "end": "18:55",
-          "title": "Necuvintele",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "18:55",
-          "end": "19:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "19:00",
-          "end": "19:35",
-          "title": "Moldova de patrimoniu",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "19:35",
-          "end": "19:40",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "19:40",
-          "end": "19:55",
-          "title": "Lecturi a la carte",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "19:55",
-          "end": "20:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
+          "day": 4,
+          "dayName": "joi",
           "start": "22:55",
           "end": "23:00",
           "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-10-15"
         },
         {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
+          "day": 4,
+          "dayName": "joi",
           "start": "23:00",
-          "end": "00:00",
-          "title": "Memory Lane (London Grammar)",
+          "end": "01:40",
+          "title": "Expresul de noapte. F.A. Hard Boiled",
           "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "00:00",
-          "end": "01:15",
-          "title": "Trei crai de la răsărit",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "01:15",
-          "end": "02:45",
-          "title": "Ecouri orientale în muzica clasică",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "02:45",
-          "end": "03:15",
-          "title": "Cu noi la teatru (Eugen Ureche)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "03:15",
-          "end": "03:45",
-          "title": "Identitate Basarabia (Virgiliu Mărgineanu)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "03:45",
-          "end": "04:00",
-          "title": "Lecturi a la carte",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "04:00",
-          "end": "05:05",
-          "title": "Ethno jazz Festival (Formația Trigon)",
-          "filler": false,
-          "source": "tvmail"
+          "dayAssumed": true,
+          "date": "2026-10-15"
         },
         {
           "day": 4,
@@ -3386,36 +2596,6 @@
           "start": "05:05",
           "end": "05:58",
           "title": "Spectacol (Steaua fară nume P.2)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "05:58",
-          "end": "06:00",
-          "title": "Deschiderea Statiei",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "06:00",
-          "end": "07:05",
-          "title": "Evantai folcloric",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "07:05",
-          "end": "07:20",
-          "title": "Tezaur (În memoriam meșteri populari)",
           "filler": false,
           "source": "tvmail"
         },
@@ -3506,26 +2686,6 @@
           "start": "10:50",
           "end": "10:55",
           "title": "Necuvintele",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "10:55",
-          "end": "11:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "11:00",
-          "end": "12:30",
-          "title": "Spectacol (Episodul 1)",
           "filler": false,
           "source": "tvmail"
         },
@@ -3633,16 +2793,6 @@
           "day": 4,
           "dayName": "joi",
           "date": "2026-10-15",
-          "start": "17:00",
-          "end": "18:10",
-          "title": "Evantai folcloric",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
           "start": "18:10",
           "end": "18:25",
           "title": "Tezaur (Elena Taban)",
@@ -3656,16 +2806,6 @@
           "start": "18:25",
           "end": "18:30",
           "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "18:30",
-          "end": "19:00",
-          "title": "Moldova de patrimoniu",
           "filler": false,
           "source": "tvmail"
         },
@@ -3703,59 +2843,9 @@
           "day": 4,
           "dayName": "joi",
           "date": "2026-10-15",
-          "start": "20:00",
-          "end": "20:30",
-          "title": "Artelier (Ion Zderciuc)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "20:30",
-          "end": "20:55",
-          "title": "Dor (Aureliu Busuioc)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
           "start": "20:55",
           "end": "21:00",
           "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "21:00",
-          "end": "21:54",
-          "title": "Viețile ascunse ale operelor de artă",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "21:54",
-          "end": "22:00",
-          "title": "Publicitate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "22:00",
-          "end": "23:25",
-          "title": "Treapta a noua",
           "filler": false,
           "source": "tvmail"
         },
@@ -6109,416 +5199,6 @@
       "warning": null,
       "stale": false,
       "slots": [
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "07:00",
-          "end": "08:00",
-          "title": "Telematinal (Episodul 1)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "08:00",
-          "end": "08:55",
-          "title": "Telematinal (Episodul 2)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "08:55",
-          "end": "09:00",
-          "title": "Pastila de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "09:00",
-          "end": "10:00",
-          "title": "Telematinal (Episodul 3)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "10:00",
-          "end": "10:55",
-          "title": "Lectia de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "10:55",
-          "end": "11:00",
-          "title": "Pastila de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "11:00",
-          "end": "11:55",
-          "title": "Obiectiv comun",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "11:55",
-          "end": "12:00",
-          "title": "Vorbeste corect!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "12:00",
-          "end": "12:30",
-          "title": "Artcrush",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "12:30",
-          "end": "12:55",
-          "title": "Memorie şi destin",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "12:55",
-          "end": "13:00",
-          "title": "Pastila de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "13:00",
-          "end": "13:30",
-          "title": "Telejurnal Moldova",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "13:30",
-          "end": "13:45",
-          "title": "Reportajele Telejurnalului",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "13:45",
-          "end": "14:00",
-          "title": "Europa azi",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "14:00",
-          "end": "14:45",
-          "title": "Telejurnal",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "14:45",
-          "end": "14:55",
-          "title": "Fake News Alert",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "14:55",
-          "end": "15:00",
-          "title": "Vorbeste corect!",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "15:00",
-          "end": "15:30",
-          "title": "Identitate Basarabia (Studioul teritorial Iaşi Realizator:)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "15:30",
-          "end": "16:00",
-          "title": "România… în bucate (Cu tigaia&#39;n spateEmisiune realizată de TVR ClujJurnalist Cătălin BlebeaProducător Cristina Petrina Murgu(redifuzare))",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "16:00",
-          "end": "16:50",
-          "title": "Reţeaua de idoli (Sezonul 2, ediţia 8)",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "16:50",
-          "end": "17:00",
-          "title": "Discover România",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "17:00",
-          "end": "17:55",
-          "title": "Poarta Pangrati",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "17:55",
-          "end": "18:00",
-          "title": "Pastila de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "18:00",
-          "end": "18:55",
-          "title": "Obiectiv comun",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "18:55",
-          "end": "19:00",
-          "title": "Pastila de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "19:00",
-          "end": "19:42",
-          "title": "Telejurnal Moldova",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "19:42",
-          "end": "20:00",
-          "title": "Sport",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "20:00",
-          "end": "20:55",
-          "title": "Punctul pe azi",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "20:55",
-          "end": "21:00",
-          "title": "Zi de zi",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "21:00",
-          "end": "22:00",
-          "title": "Frații",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "22:00",
-          "end": "23:00",
-          "title": "Dezacorduri de pace",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "23:00",
-          "end": "23:50",
-          "title": "Telejurnal",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 3,
-          "dayName": "miercuri",
-          "date": "2026-10-14",
-          "start": "23:50",
-          "end": "00:00",
-          "title": "Fake News Alert",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "00:00",
-          "end": "00:50",
-          "title": "Nemuritorii",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "00:50",
-          "end": "01:45",
-          "title": "Frații",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "01:45",
-          "end": "02:15",
-          "title": "Dialoguri colorate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "02:15",
-          "end": "03:00",
-          "title": "Generația EU",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "03:00",
-          "end": "03:30",
-          "title": "Identitate Basarabia",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "03:30",
-          "end": "03:55",
-          "title": "România… în bucate",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "03:55",
-          "end": "04:00",
-          "title": "Pastila de istorie",
-          "filler": false,
-          "source": "tvmail"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "date": "2026-10-15",
-          "start": "04:00",
-          "end": "05:00",
-          "title": "Obiectiv comun",
-          "filler": false,
-          "source": "tvmail"
-        },
         {
           "day": 4,
           "dayName": "joi",
