@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-15T12:50:46.380Z",
-  "updatedAtLocal": "15 oct. 2026, 15:50",
+  "updatedAt": "2026-10-15T17:44:49.430Z",
+  "updatedAtLocal": "15 oct. 2026, 20:44",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -6859,6 +6859,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "(video) Cum e viața tinerilor din Ocnița? Despre oportunitățile de muncă și dezvoltare departe de capitală, într-un nou episod „Direcția: NORD”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "(galerie foto) Toamna se numără căldările cu poamă. Adu-ți aminte cum era la cules struguri prin câteva fotografii de octombrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cum s-a schimbat Chișinăul de-a lungul anilor? 13 fotografii comparate",
           "filler": false,
           "news": true
@@ -6922,7 +6940,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ministerul Culturii, Agenția de Guvernare Electronică, Mastercard Moldova și Paynet anunță un nou capitol al Programului Național „Voucher Cultural”",
+          "title": "Cât de (ne)transparente sunt universitățile din Moldova? Ce arată rezultatele unei analize realizate de Liga studenților",
           "filler": false,
           "news": true
         },
@@ -6931,7 +6949,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ți-ar plăcea să faci film documentar? MOLDOX organizează trei ateliere unde vei învăța să dai voce ideilor tale",
+          "title": "De la cultura organizațională din Moldova la recunoaștere internațională: Moldcell, premiată la Employer Branding Awards 2026",
           "filler": false,
           "news": true
         },
@@ -6940,7 +6958,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ești pasionat(ă) de fotografie? Participă gratuit la un curs de fotografie pentru începători",
+          "title": "UTM condamnă distribuirea imaginilor cu agresiunea unui tânăr în presă. Elevii implicați au fost exmatriculați definitiv",
           "filler": false,
           "news": true
         },
@@ -6949,7 +6967,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Liderii din tehnologie, business și Guvern se reunesc la Chișinău pentru agenda AI a Moldovei",
+          "title": "Practica din anul I, examen practic la absolvire și masterat obligatoriu. Ce schimbări îi așteaptă pe viitorii studenți la Pedagogie",
           "filler": false,
           "news": true
         },
@@ -6958,7 +6976,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tinerii din centrul și sudul Moldovei pot obține câte 750 de euro pentru proiecte în comunitate. Cum poți aplica",
+          "title": "Luceafărul reînvie în Moldova. Ce denumiri noi de comune vor apărea după reforma administrativ-teritorială",
           "filler": false,
           "news": true
         },
@@ -6967,7 +6985,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "O nouă ediție EcoVoucher. Peste 8.000 de familii vor primi câte 7.000 de lei pentru a înlocui electrocasnicele vechi cu unele noi",
+          "title": "De ce ziarele Primăriei Chișinău au ajuns în școli și grădinițe? Director: „Nu am observat nicio tangență cu politica”",
           "filler": false,
           "news": true
         },
@@ -6976,34 +6994,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Hram sau Ziua Orașului. Ce sărbătorim pe 14 octombrie la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cum primești bursa de studii și în ce condiții o poți pierde. Ce prevede noul regulament",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Maib, desemnată cea mai bună bancă pentru IMM din Europa Centrală și de Est",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Elevii de etnie romă ar putea învăța limba romani ca limbă maternă, iar o disciplină despre istoria comunității ar putea fi predată în școli",
+          "title": "Un bărbat din Chișinău a dat peste un milion de lei escrocilor. A fost mințit că figurează într-un dosar privind terorismul",
           "filler": false,
           "news": true
         },
@@ -7116,6 +7107,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // „Satul European”: investiție de peste 7 milioane de lei în muzeul din Taraclia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Descoperă Moldova cu #MOLDPRES // Biserica din Piatra, între istorie și renaștere: mormintele familiei Lazo și icoanele salvate în perioada sovietică",
           "filler": false,
           "news": true
@@ -7144,15 +7144,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Chișinăul de odinioară: povești și tradiții mai puțin cunoscute ale capitalei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Creştinii ortodocşi de stil vechi sărbătoresc Acoperământul Maicii Domnului. Hram la Chişinău",
           "filler": false,
           "news": true
         },
@@ -7207,6 +7198,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Creştinii ortodocşi de stil vechi sărbătoresc Acoperământul Maicii Domnului. Hram la Chişinău",
           "filler": false,
           "news": true
         },
@@ -7287,7 +7287,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // O pictură murală inspirată de tradiția horei moldovenești, inaugurată într-o localitate din Italia",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -7296,7 +7296,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // O pictură murală inspirată de tradiția horei moldovenești, inaugurată într-o localitate din Italia",
           "filler": false,
           "news": true
         },
@@ -7468,15 +7468,6 @@
           "start": null,
           "end": null,
           "title": "Spectacolul „Chirița în concert la Chișinău” va fi prezentat la Festivalul Internațional de Teatru Clasic de la Arad",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Festivalul Internațional de muzică clasică „CRESCENDO” și-a deschis cea de-a XIV-a ediție la Cahul",
           "filler": false,
           "news": true
         },
