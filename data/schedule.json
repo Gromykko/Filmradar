@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-15T07:21:31.353Z",
-  "updatedAtLocal": "15 oct. 2026, 10:21",
+  "updatedAt": "2026-10-15T12:50:46.380Z",
+  "updatedAtLocal": "15 oct. 2026, 15:50",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -7116,6 +7116,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Descoperă Moldova cu #MOLDPRES // Biserica din Piatra, între istorie și renaștere: mormintele familiei Lazo și icoanele salvate în perioada sovietică",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Patrimoniul vitivinicol și tradițiile alimentare, reflectate într-o expoziție deschisă la Muzeul de Istorie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Emil Loteanu, omagiat printr-o expoziție cu circa 100 de documente la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Chișinăul de odinioară: povești și tradiții mai puțin cunoscute ale capitalei",
           "filler": false,
           "news": true
@@ -7126,33 +7153,6 @@
           "start": null,
           "end": null,
           "title": "Creştinii ortodocşi de stil vechi sărbătoresc Acoperământul Maicii Domnului. Hram la Chişinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Asociația moldovenilor din Portugalia „Miorița” a marcat 20 de ani de activitate printr-un concert aniversar",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Taraclia: Finanțarea proiectelor culturale și atragerea tinerilor în domeniu, printre subiectele discutate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Municipiul Cahul, singurul candidat la titlul de „Capitală Europeană a Culturii 2033” din Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -7215,6 +7215,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Asociația moldovenilor din Portugalia „Miorița” a marcat 20 de ani de activitate printr-un concert aniversar",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Taraclia: Finanțarea proiectelor culturale și atragerea tinerilor în domeniu, printre subiectele discutate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Municipiul Cahul, singurul candidat la titlul de „Capitală Europeană a Culturii 2033” din Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // „Grădina de sticlă”, aplaudată în Grecia. Spectacolul TNME a ajuns la publicul din Pireu",
           "filler": false,
           "news": true
@@ -7269,6 +7296,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Turnul clopotniței din Vadul Rașcov, restaurat cu sprijinul UE și al PNUD. Monumentul a fost inaugurat după încheierea lucrărilor de conservare",
           "filler": false,
           "news": true
@@ -7288,15 +7324,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // „UNCOVERED”, noul spectacol al TNME despre culisele jurnalismului de investigație",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -7450,33 +7477,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Festivalul Internațional de muzică clasică „CRESCENDO” și-a deschis cea de-a XIV-a ediție la Cahul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Drumul Conacelor” - un nou traseu turistic de 24 de kilometri, lansat în raionul Orhei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul Național „Mihai Eminescu” va efectua un turneu în Grecia",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "PREMIERĂ // Experiențele supraviețuitoarelor violenței, aduse pe scena Teatrului „Luceafărul”",
           "filler": false,
           "news": true
         },
