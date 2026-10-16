@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-16T14:12:45.680Z",
-  "updatedAtLocal": "16 oct. 2026, 17:12",
+  "updatedAt": "2026-10-16T18:19:54.602Z",
+  "updatedAtLocal": "16 oct. 2026, 21:19",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5477,6 +5477,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Săptămâna Limbii Italiene în Lume începe la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Teatrul bulgar „Smeshen Petak” și Școala de Arte din Taraclia, vizitate de ministrul Culturii",
           "filler": false,
           "news": true
@@ -5505,15 +5514,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Teatrul „Alexie Mateevici” a prezentat spectacolul „Jubileul” pentru diaspora din Torino și Milano",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Meșterii populari, celebrați la Forumul Patrimoniului Cultural Imaterial",
           "filler": false,
           "news": true
         },
@@ -5568,6 +5568,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Meșterii populari, celebrați la Forumul Patrimoniului Cultural Imaterial",
           "filler": false,
           "news": true
         },
@@ -5648,7 +5657,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Asociația moldovenilor din Portugalia „Miorița” a marcat 20 de ani de activitate printr-un concert aniversar",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5657,7 +5666,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Asociația moldovenilor din Portugalia „Miorița” a marcat 20 de ani de activitate printr-un concert aniversar",
           "filler": false,
           "news": true
         },
@@ -5829,15 +5838,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Teatrul Național „Mihai Eminescu” marchează 105 ani de istorie și creație",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul „Andrei Vartic”, la a doua ediție: 15 spectacole din șapte țări, la Chișinău",
           "filler": false,
           "news": true
         },
