@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-16T04:23:42.727Z",
-  "updatedAtLocal": "16 oct. 2026, 07:23",
+  "updatedAt": "2026-10-16T09:16:08.103Z",
+  "updatedAtLocal": "16 oct. 2026, 12:15",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -5477,6 +5477,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Republica Moldova și România pregătesc un acord de colaborare în domeniul patrimoniului muzeal",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // „Satul European”: investiție de peste 7 milioane de lei în muzeul din Taraclia",
           "filler": false,
           "news": true
@@ -5505,15 +5514,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Emil Loteanu, omagiat printr-o expoziție cu circa 100 de documente la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Chișinăul de odinioară: povești și tradiții mai puțin cunoscute ale capitalei",
           "filler": false,
           "news": true
         },
@@ -5568,6 +5568,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Chișinăul de odinioară: povești și tradiții mai puțin cunoscute ale capitalei",
           "filler": false,
           "news": true
         },
@@ -5648,7 +5657,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Patrimoniul cultural, desenat pe asfalt de copiii din Chișinău",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -5657,7 +5666,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Patrimoniul cultural, desenat pe asfalt de copiii din Chișinău",
           "filler": false,
           "news": true
         },
@@ -5829,15 +5838,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Teatre din Moldova și Azerbaidjan vor dezvolta proiecte artistice comune în baza unui Memorandum",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Spectacolul „Chirița în concert la Chișinău” va fi prezentat la Festivalul Internațional de Teatru Clasic de la Arad",
           "filler": false,
           "news": true
         },
