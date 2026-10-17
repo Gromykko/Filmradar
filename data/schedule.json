@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T04:57:39.470Z",
-  "updatedAtLocal": "17 oct. 2026, 07:57",
+  "updatedAt": "2026-10-17T09:16:31.350Z",
+  "updatedAtLocal": "17 oct. 2026, 12:16",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -3969,6 +3969,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "A fost lansat un instrument care îți permite să vizitezi virtual cinci muzee din satele Moldovei, în format 3D",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "(video) Cum e viața tinerilor din Ocnița? Despre oportunitățile de muncă și dezvoltare departe de capitală, într-un nou episod „Direcția: NORD”",
           "filler": false,
           "news": true
@@ -4041,7 +4050,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Creatorii de animație din Republica Moldova se pot înscrie la un festival internațional. Care este termenul-limită",
+          "title": "Câștigă până la 2.500 de RONI pentru un eseu despre securitatea regiunii Mării Negre. Pot aplica studenții și tinerii cercetători",
           "filler": false,
           "news": true
         },
@@ -4050,7 +4059,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cât de (ne)transparente sunt universitățile din Moldova? Ce arată rezultatele unei analize realizate de Liga studenților",
+          "title": "Studenții la Drept pot obține burse de merit de 20.000 de lei și stagii profesionale",
           "filler": false,
           "news": true
         },
@@ -4059,7 +4068,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "De la cultura organizațională din Moldova la recunoaștere internațională: Moldcell, premiată la Employer Branding Awards 2026",
+          "title": "O bunică-robot va reprezenta Moldova la Barcelona Design Week. Cum arată aceasta",
           "filler": false,
           "news": true
         },
@@ -4068,7 +4077,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "UTM condamnă distribuirea imaginilor cu agresiunea unui tânăr în presă. Elevii implicați au fost exmatriculați definitiv",
+          "title": "Moldova AI Hub a fost lansat oficial: de la angajamente de cooperare la dezvoltarea capacităților naționale în domeniul inteligenței artificiale",
           "filler": false,
           "news": true
         },
@@ -4077,7 +4086,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Practica din anul I, examen practic la absolvire și masterat obligatoriu. Ce schimbări îi așteaptă pe viitorii studenți la Pedagogie",
+          "title": "Tinerii voluntari, organizațiile și consiliile elevilor, se pot înscrie la concursul „Premiul Național pentru Tineret 2026”",
           "filler": false,
           "news": true
         },
@@ -4086,7 +4095,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Luceafărul reînvie în Moldova. Ce denumiri noi de comune vor apărea după reforma administrativ-teritorială",
+          "title": "Inhalator pentru copii în sezonul răcelilor: ce verificați",
           "filler": false,
           "news": true
         },
@@ -4095,16 +4104,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "De ce ziarele Primăriei Chișinău au ajuns în școli și grădinițe? Director: „Nu am observat nicio tangență cu politica”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Un bărbat din Chișinău a dat peste un milion de lei escrocilor. A fost mințit că figurează într-un dosar privind terorismul",
+          "title": "Studenții USM vor beneficia de cursuri gratuite de educație financiară oferite de OTP Fáy Alapítvány și Fundația OK",
           "filler": false,
           "news": true
         },
@@ -4217,7 +4217,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Săptămâna Limbii Italiene în Lume începe la Chișinău",
+          "title": "Săptămâna Limbii Italiene începe la Chișinău",
           "filler": false,
           "news": true
         },
