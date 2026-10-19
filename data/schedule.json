@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T05:17:01.048Z",
-  "updatedAtLocal": "19 oct. 2026, 08:16",
+  "updatedAt": "2026-10-19T11:13:36.340Z",
+  "updatedAtLocal": "19 oct. 2026, 14:13",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2178,6 +2178,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Un documentar moldovenesc din 2012 a fost premiat în cadrul unui festival internațional din SUA. Despre ce este lucrarea",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "A fost lansat un instrument care îți permite să vizitezi virtual cinci muzee din satele Moldovei, în format 3D",
           "filler": false,
           "news": true
@@ -2250,7 +2259,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lista celor mai buni producători de vin de casă din Moldova. Au fost anunțați câștigătorii concursului „Polobocul de Aur 2025”",
+          "title": "Profesorii care vor avea un tânăr sau o tânără la practică vor fi remunerați suplimentar",
           "filler": false,
           "news": true
         },
@@ -2259,7 +2268,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Câștigă până la 2.500 de RONI pentru un eseu despre securitatea regiunii Mării Negre. Pot aplica studenții și tinerii cercetători",
+          "title": "Absolvenții de licență la Pedagogie vor trebui să urmeze un program de masterat pentru a preda la clasele primare, gimnaziale și liceale",
           "filler": false,
           "news": true
         },
@@ -2268,7 +2277,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Studenții la Drept pot obține burse de merit de 20.000 de lei și stagii profesionale",
+          "title": "Opt evenimente la care ai putea merge săptămâna viitoare",
           "filler": false,
           "news": true
         },
@@ -2277,7 +2286,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "O bunică-robot va reprezenta Moldova la Barcelona Design Week. Cum arată aceasta",
+          "title": "Cum va fi vremea în perioada 19-25 octombrie",
           "filler": false,
           "news": true
         },
@@ -2286,7 +2295,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Moldova AI Hub a fost lansat oficial: de la angajamente de cooperare la dezvoltarea capacităților naționale în domeniul inteligenței artificiale",
+          "title": "Vrei să lansezi o afacere? Participă la un curs gratuit de educație antreprenorială și află cum o poți face",
           "filler": false,
           "news": true
         },
@@ -2295,7 +2304,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tinerii voluntari, organizațiile și consiliile elevilor, se pot înscrie la concursul „Premiul Național pentru Tineret 2026”",
+          "title": "Dacă ți-ai pierdut animalul de companie, îl poți găsi mai ușor. În Moldova a fost lansată o platformă cu hartă interactivă",
           "filler": false,
           "news": true
         },
@@ -2304,7 +2313,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Inhalator pentru copii în sezonul răcelilor: ce verificați",
+          "title": "Protestele elevilor din Franța s-au transformat în manifestații naționale împotriva creșterii costului vieții. Ce se întâmplă",
           "filler": false,
           "news": true
         },
@@ -2313,7 +2322,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Studenții USM vor beneficia de cursuri gratuite de educație financiară oferite de OTP Fáy Alapítvány și Fundația OK",
+          "title": "„Inovează azi. Asigură hrana de mâine.” Copiii și tinerii din Moldova pot participa la un concurs internațional de desen",
           "filler": false,
           "news": true
         },
