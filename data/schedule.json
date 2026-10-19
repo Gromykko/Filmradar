@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T11:13:36.340Z",
-  "updatedAtLocal": "19 oct. 2026, 14:13",
+  "updatedAt": "2026-10-19T17:45:10.748Z",
+  "updatedAtLocal": "19 oct. 2026, 20:44",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2435,43 +2435,43 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Protejarea patrimoniului cultural mobil, discutată la lansarea celei de-a III-a ediții a programului de microcalificare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Săptămâna Limbii Italiene în Lume s-a deschis la Chișinău. Ambasadorul Italiei: „Între noi există o legătură bazată pe sensibilitate culturală”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Spectacolul „Richard al III-lea” de la Chișinău, pe scena Festivalului Dimitria din Salonic",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Poziția Republicii Moldova în negocierile cu UE privind cultura și patrimoniul, supusă consultărilor publice",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Săptămâna Limbii Italiene începe la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Teatrul bulgar „Smeshen Petak” și Școala de Arte din Taraclia, vizitate de ministrul Culturii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Glebus Sainciuc, artistul care a transformat măștile în artă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Regina Maria și legătura sa cu Basarabia, reflectate într-un volum semnat de Iulian Rusanovschi",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Teatrul „Alexie Mateevici” a prezentat spectacolul „Jubileul” pentru diaspora din Torino și Milano",
           "filler": false,
           "news": true
         },
@@ -2534,6 +2534,42 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Teatrul bulgar „Smeshen Petak” și Școala de Arte din Taraclia, vizitate de ministrul Culturii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Glebus Sainciuc, artistul care a transformat măștile în artă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Regina Maria și legătura sa cu Basarabia, reflectate într-un volum semnat de Iulian Rusanovschi",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Teatrul „Alexie Mateevici” a prezentat spectacolul „Jubileul” pentru diaspora din Torino și Milano",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Meșterii populari, celebrați la Forumul Patrimoniului Cultural Imaterial",
           "filler": false,
           "news": true
@@ -2579,6 +2615,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Patrimoniul vitivinicol și tradițiile alimentare, reflectate într-o expoziție deschisă la Muzeul de Istorie",
           "filler": false,
           "news": true
@@ -2607,15 +2652,6 @@
           "start": null,
           "end": null,
           "title": "Creştinii ortodocşi de stil vechi sărbătoresc Acoperământul Maicii Domnului. Hram la Chişinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2760,42 +2796,6 @@
           "start": null,
           "end": null,
           "title": "Teatru și povești pentru copii, timp de 13 zile, la Cahul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // „Leliță Ioană”, interpretată de Maria Drăgan într-o înregistrare de arhivă din 1967",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Maria Drăgan, omagiată la Nisporeni prin cântec și un festival național de folclor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Noi proiecte culturale și schimburi profesionale, discutate cadrul celei de-a 11-a reuniuni a Grupului de lucru GUAM",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Teatrul Național „Mihai Eminescu” marchează 105 ani de istorie și creație",
           "filler": false,
           "news": true
         },
