@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-20T06:33:54.288Z",
-  "updatedAtLocal": "20 oct. 2026, 09:33",
+  "updatedAt": "2026-10-20T12:09:12.704Z",
+  "updatedAtLocal": "20 oct. 2026, 15:08",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2515,6 +2515,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Închisoare și amenzi de până la 125.000 de lei pentru comercializarea tezelor. MEC propune modificarea legislației",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Dumitru Matcovschi, poetul care a devenit un simbol al renașterii naționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Romanul „Costul vieților noastre”, de Liuba Rusnac, lansat la Ambasada Republicii Moldova de la Viena",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Protejarea patrimoniului cultural mobil, discutată la lansarea celei de-a III-a ediții a programului de microcalificare",
           "filler": false,
           "news": true
@@ -2525,33 +2552,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Săptămâna Limbii Italiene în Lume s-a deschis la Chișinău. Ambasadorul Italiei: „Între noi există o legătură bazată pe sensibilitate culturală”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Spectacolul „Richard al III-lea” de la Chișinău, pe scena Festivalului Dimitria din Salonic",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Poziția Republicii Moldova în negocierile cu UE privind cultura și patrimoniul, supusă consultărilor publice",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Săptămâna Limbii Italiene începe la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2614,6 +2614,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Spectacolul „Richard al III-lea” de la Chișinău, pe scena Festivalului Dimitria din Salonic",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Poziția Republicii Moldova în negocierile cu UE privind cultura și patrimoniul, supusă consultărilor publice",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Săptămâna Limbii Italiene începe la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Teatrul bulgar „Smeshen Petak” și Școala de Arte din Taraclia, vizitate de ministrul Culturii",
           "filler": false,
           "news": true
@@ -2668,6 +2695,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Republica Moldova și România pregătesc un acord de colaborare în domeniul patrimoniului muzeal",
           "filler": false,
           "news": true
@@ -2687,15 +2723,6 @@
           "start": null,
           "end": null,
           "title": "Descoperă Moldova cu #MOLDPRES // Biserica din Piatra, între istorie și renaștere: mormintele familiei Lazo și icoanele salvate în perioada sovietică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2849,33 +2876,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Bustul lui Grigore Vieru a fost inaugurat pe Aleea Clasicilor din Hâncești",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Spectacolul TNME „Greva gospodinelor” va fi prezentat la Festivalul „Constantin Tănase” din Vaslui",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Lucrările de restaurare a Vilei Pronin și noile spații ale Muzeului Literaturii, vizitate de ministrul Culturii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatru și povești pentru copii, timp de 13 zile, la Cahul",
           "filler": false,
           "news": true
         },
