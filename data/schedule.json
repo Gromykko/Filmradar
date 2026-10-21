@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T09:38:46.111Z",
-  "updatedAtLocal": "21 oct. 2026, 12:38",
+  "updatedAt": "2026-10-21T15:10:37.273Z",
+  "updatedAtLocal": "21 oct. 2026, 18:10",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2485,6 +2485,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cronica ARHIVELOR // Maria Sagaidac, actrița care a îmbinat filmul cu știința",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // „Zilele Liedului Basarabean”, la prima ediție: muzica vocală a compozitorilor moldoveni, promovată în trei localități",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Experți greci instruiesc specialiștii din Moldova în valorificarea patrimoniului arheologic și utilizarea inteligenței artificiale",
           "filler": false,
           "news": true
@@ -2504,24 +2522,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Dumitru Matcovschi, poetul care a devenit un simbol al renașterii naționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Romanul „Costul vieților noastre”, de Liuba Rusnac, lansat la Ambasada Republicii Moldova de la Viena",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Protejarea patrimoniului cultural mobil, discutată la lansarea celei de-a III-a ediții a programului de microcalificare",
           "filler": false,
           "news": true
         },
@@ -2576,6 +2576,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Romanul „Costul vieților noastre”, de Liuba Rusnac, lansat la Ambasada Republicii Moldova de la Viena",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Protejarea patrimoniului cultural mobil, discutată la lansarea celei de-a III-a ediții a programului de microcalificare",
           "filler": false,
           "news": true
         },
@@ -2647,6 +2665,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Teatrul „Alexie Mateevici” a prezentat spectacolul „Jubileul” pentru diaspora din Torino și Milano",
           "filler": false,
           "news": true
@@ -2657,15 +2684,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Meșterii populari, celebrați la Forumul Patrimoniului Cultural Imaterial",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2828,24 +2846,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Turnul clopotniței din Vadul Rașcov, restaurat cu sprijinul UE și al PNUD. Monumentul a fost inaugurat după încheierea lucrărilor de conservare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Concert de gală la Chișinău, festivalul Internațional de Operă și Balet „Maria Bieșu” ajunge la final",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „UNCOVERED”, noul spectacol al TNME despre culisele jurnalismului de investigație",
           "filler": false,
           "news": true
         },
