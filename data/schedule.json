@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T04:36:11.940Z",
-  "updatedAtLocal": "21 oct. 2026, 07:35",
+  "updatedAt": "2026-10-21T09:38:46.111Z",
+  "updatedAtLocal": "21 oct. 2026, 12:38",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2485,6 +2485,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Experți greci instruiesc specialiștii din Moldova în valorificarea patrimoniului arheologic și utilizarea inteligenței artificiale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Închisoare și amenzi de până la 125.000 de lei pentru comercializarea tezelor. MEC propune modificarea legislației",
           "filler": false,
           "news": true
@@ -2513,15 +2522,6 @@
           "start": null,
           "end": null,
           "title": "Protejarea patrimoniului cultural mobil, discutată la lansarea celei de-a III-a ediții a programului de microcalificare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Săptămâna Limbii Italiene în Lume s-a deschis la Chișinău. Ambasadorul Italiei: „Între noi există o legătură bazată pe sensibilitate culturală”",
           "filler": false,
           "news": true
         },
@@ -2576,6 +2576,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Săptămâna Limbii Italiene în Lume s-a deschis la Chișinău. Ambasadorul Italiei: „Între noi există o legătură bazată pe sensibilitate culturală”",
           "filler": false,
           "news": true
         },
@@ -2656,7 +2665,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Compozitorul și profesorul universitar Pavel Anton a trecut în neființă",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2665,7 +2674,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Compozitorul și profesorul universitar Pavel Anton a trecut în neființă",
           "filler": false,
           "news": true
         },
@@ -2837,15 +2846,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // „UNCOVERED”, noul spectacol al TNME despre culisele jurnalismului de investigație",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Bustul lui Grigore Vieru a fost inaugurat pe Aleea Clasicilor din Hâncești",
           "filler": false,
           "news": true
         },
