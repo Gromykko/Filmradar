@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-22T12:22:27.821Z",
-  "updatedAtLocal": "22 oct. 2026, 15:22",
+  "updatedAt": "2026-10-22T17:36:26.139Z",
+  "updatedAtLocal": "22 oct. 2026, 20:36",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2415,6 +2415,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Povestea din spatele legendei despre Dracula: cultura irlandeză și filmul din 1931, prezentate la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Patrimoniul cultural al Șoldăneștiului, valorificat prin artă și dialog între generații",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Dumitru Caraciobanu, actorul care a marcat teatrul și filmul moldovenesc",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Animest Chișinău aduce patru zile de filme de animație, ateliere și întâlniri cu artiști",
           "filler": false,
           "news": true
@@ -2425,33 +2452,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Maria Sagaidac, actrița care a îmbinat filmul cu știința",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Zilele Liedului Basarabean”, la prima ediție: muzica vocală a compozitorilor moldoveni, promovată în trei localități",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Experți greci instruiesc specialiștii din Moldova în valorificarea patrimoniului arheologic și utilizarea inteligenței artificiale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Închisoare și amenzi de până la 125.000 de lei pentru comercializarea tezelor. MEC propune modificarea legislației",
           "filler": false,
           "news": true
         },
@@ -2514,6 +2514,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // „Zilele Liedului Basarabean”, la prima ediție: muzica vocală a compozitorilor moldoveni, promovată în trei localități",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Experți greci instruiesc specialiștii din Moldova în valorificarea patrimoniului arheologic și utilizarea inteligenței artificiale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Închisoare și amenzi de până la 125.000 de lei pentru comercializarea tezelor. MEC propune modificarea legislației",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Dumitru Matcovschi, poetul care a devenit un simbol al renașterii naționale",
           "filler": false,
           "news": true
@@ -2568,6 +2595,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Săptămâna Limbii Italiene începe la Chișinău",
           "filler": false,
           "news": true
@@ -2587,15 +2623,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Glebus Sainciuc, artistul care a transformat măștile în artă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2749,33 +2776,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Federico García Lorca, evocat la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Peste 4.000 de spectatori au participat la Zilele Filmului Românesc în Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul cultural, desenat pe asfalt de copiii din Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // O pictură murală inspirată de tradiția horei moldovenești, inaugurată într-o localitate din Italia",
           "filler": false,
           "news": true
         },
