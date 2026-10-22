@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-22T06:33:19.362Z",
-  "updatedAtLocal": "22 oct. 2026, 09:33",
+  "updatedAt": "2026-10-22T12:22:27.821Z",
+  "updatedAtLocal": "22 oct. 2026, 15:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2158,6 +2158,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Un scurtmetraj filmat într-un sat din Moldova a câștigat trei premii la Festivalul Internațional de Film de la Varșovia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Un documentar moldovenesc din 2012 a fost premiat în cadrul unui festival internațional din SUA. Despre ce este lucrarea",
           "filler": false,
           "news": true
@@ -2230,7 +2239,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Tartuffe”, o comedie despre ipocrizie și manipulare, va fi jucată la Teatrul Fără Nume",
+          "title": "Cum alegi ochelarii de vedere potriviți? Cinci recomandări de la specialiștii Felicia Optic Center",
           "filler": false,
           "news": true
         },
@@ -2239,7 +2248,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Profesorii care vor avea un tânăr sau o tânără la practică vor fi remunerați suplimentar",
+          "title": "Studenții moldoveni din Austria au un nou loc pentru colaborare și schimb de experiențe. La Viena a fost deschisă filiala LSORM",
           "filler": false,
           "news": true
         },
@@ -2248,7 +2257,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Absolvenții de licență la Pedagogie vor trebui să urmeze un program de masterat pentru a preda la clasele primare, gimnaziale și liceale",
+          "title": "Burse de până la 9.000 de RONI pentru scriitorii basarabeni. Au început înscrierile pentru noua ediție a rezidențelor Cărturești",
           "filler": false,
           "news": true
         },
@@ -2257,7 +2266,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Opt evenimente la care ai putea merge săptămâna viitoare",
+          "title": "Activități de formare pentru profesori despre noul curriculum disciplinar. Cursurile se vor desfășura online",
           "filler": false,
           "news": true
         },
@@ -2266,7 +2275,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum va fi vremea în perioada 19-25 octombrie",
+          "title": "Moldova – Beyond Borders: înscrie-te la a XIV-a ediție a Galei Studenților Originari din Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -2275,7 +2284,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să lansezi o afacere? Participă la un curs gratuit de educație antreprenorială și află cum o poți face",
+          "title": "Locul momentului în Chișinău: Hai Pixel, prima și singura arenă cu podea LED interactivă din Moldova",
           "filler": false,
           "news": true
         },
@@ -2284,7 +2293,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Dacă ți-ai pierdut animalul de companie, îl poți găsi mai ușor. În Moldova a fost lansată o platformă cu hartă interactivă",
+          "title": "Când vor avea loc olimpiadele municipale și raionale în anul de studii 2026/2027",
           "filler": false,
           "news": true
         },
@@ -2293,16 +2302,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Protestele elevilor din Franța s-au transformat în manifestații naționale împotriva creșterii costului vieții. Ce se întâmplă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Inovează azi. Asigură hrana de mâine.” Copiii și tinerii din Moldova pot participa la un concurs internațional de desen",
+          "title": "Vrei să înveți gratuit în America timp de un an? Trei absolvenți ai programului FLEX Global povestesc despre studiile la un liceu din SUA",
           "filler": false,
           "news": true
         },
@@ -2415,6 +2415,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Animest Chișinău aduce patru zile de filme de animație, ateliere și întâlniri cu artiști",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Maria Sagaidac, actrița care a îmbinat filmul cu știința",
           "filler": false,
           "news": true
@@ -2443,15 +2452,6 @@
           "start": null,
           "end": null,
           "title": "Închisoare și amenzi de până la 125.000 de lei pentru comercializarea tezelor. MEC propune modificarea legislației",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Dumitru Matcovschi, poetul care a devenit un simbol al renașterii naționale",
           "filler": false,
           "news": true
         },
@@ -2506,6 +2506,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Dumitru Matcovschi, poetul care a devenit un simbol al renașterii naționale",
           "filler": false,
           "news": true
         },
@@ -2586,7 +2595,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Regina Maria și legătura sa cu Basarabia, reflectate într-un volum semnat de Iulian Rusanovschi",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2595,7 +2604,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Regina Maria și legătura sa cu Basarabia, reflectate într-un volum semnat de Iulian Rusanovschi",
           "filler": false,
           "news": true
         },
@@ -2767,15 +2776,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // O pictură murală inspirată de tradiția horei moldovenești, inaugurată într-o localitate din Italia",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Turnul clopotniței din Vadul Rașcov, restaurat cu sprijinul UE și al PNUD. Monumentul a fost inaugurat după încheierea lucrărilor de conservare",
           "filler": false,
           "news": true
         },
