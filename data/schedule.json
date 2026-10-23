@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-23T04:40:11.960Z",
-  "updatedAtLocal": "23 oct. 2026, 07:39",
+  "updatedAt": "2026-10-23T09:59:21.698Z",
+  "updatedAtLocal": "23 oct. 2026, 12:59",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2199,7 +2199,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum alegi ochelarii de vedere potriviți? Cinci recomandări de la specialiștii Felicia Optic Center",
+          "title": "Ce faci dacă găsești țigări în geanta copilului tău și cum îl convingi să trăiască cu 10 ani mai mult",
           "filler": false,
           "news": true
         },
@@ -2208,7 +2208,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Studenții moldoveni din Austria au un nou loc pentru colaborare și schimb de experiențe. La Viena a fost deschisă filiala LSORM",
+          "title": "Bustul profesorului Dumitru Șcerbatiuc, dezvelit în semn de prețuire și recunoștință",
           "filler": false,
           "news": true
         },
@@ -2217,7 +2217,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Burse de până la 9.000 de RONI pentru scriitorii basarabeni. Au început înscrierile pentru noua ediție a rezidențelor Cărturești",
+          "title": "Platformele de taxi vor trebui să lucreze cu băncile licențiate în Moldova. Ce prevede noua lege",
           "filler": false,
           "news": true
         },
@@ -2226,7 +2226,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Activități de formare pentru profesori despre noul curriculum disciplinar. Cursurile se vor desfășura online",
+          "title": "Premii pentru încredere și performanță. PORT MALL a celebrat trei ani de parteneriate durabile",
           "filler": false,
           "news": true
         },
@@ -2235,7 +2235,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Moldova – Beyond Borders: înscrie-te la a XIV-a ediție a Galei Studenților Originari din Republica Moldova",
+          "title": "Vrei să-ți faci primul CV? Tinerii din Chișinău pot participa la un program gratuit de ghidare în carieră",
           "filler": false,
           "news": true
         },
@@ -2244,7 +2244,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Locul momentului în Chișinău: Hai Pixel, prima și singura arenă cu podea LED interactivă din Moldova",
+          "title": "De la voce la acțiune: 25 de organizații promovează participarea civică a tinerilor și femeilor în deciziile comunităților",
           "filler": false,
           "news": true
         },
@@ -2253,7 +2253,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Când vor avea loc olimpiadele municipale și raionale în anul de studii 2026/2027",
+          "title": "Maib va crea un spațiu dedicat copiilor angajaților, promovând un mediu de lucru prietenos familiei",
           "filler": false,
           "news": true
         },
@@ -2262,7 +2262,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să înveți gratuit în America timp de un an? Trei absolvenți ai programului FLEX Global povestesc despre studiile la un liceu din SUA",
+          "title": "Copiii și tinerii din Moldova pot participa gratuit la un concurs internațional de desen despre viitorul alimentației",
           "filler": false,
           "news": true
         },
@@ -2375,6 +2375,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Ansamblul „Ciuleandra” a reprezentat Republica Moldova la un festival internațional de folclor din Bosnia și Herțegovina",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Povestea din spatele legendei despre Dracula: cultura irlandeză și filmul din 1931, prezentate la Chișinău",
           "filler": false,
           "news": true
@@ -2403,15 +2412,6 @@
           "start": null,
           "end": null,
           "title": "Animest Chișinău aduce patru zile de filme de animație, ateliere și întâlniri cu artiști",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Maria Sagaidac, actrița care a îmbinat filmul cu știința",
           "filler": false,
           "news": true
         },
@@ -2466,6 +2466,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Maria Sagaidac, actrița care a îmbinat filmul cu știința",
           "filler": false,
           "news": true
         },
@@ -2546,7 +2555,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Poziția Republicii Moldova în negocierile cu UE privind cultura și patrimoniul, supusă consultărilor publice",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2555,7 +2564,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Poziția Republicii Moldova în negocierile cu UE privind cultura și patrimoniul, supusă consultărilor publice",
           "filler": false,
           "news": true
         },
@@ -2727,15 +2736,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Ministerul Culturii propune simplificarea procedurii de obținere a subvențiilor pentru mass-media",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Federico García Lorca, evocat la Chișinău",
           "filler": false,
           "news": true
         },
