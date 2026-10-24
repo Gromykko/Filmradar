@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-24T05:48:16.095Z",
-  "updatedAtLocal": "24 oct. 2026, 08:47",
+  "updatedAt": "2026-10-24T10:51:00.805Z",
+  "updatedAtLocal": "24 oct. 2026, 13:50",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2285,6 +2285,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Moștenirea unei generații de scriitori, evocată la Muzeul Național al Literaturii Române",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // Ziua Armatei României, marcată la Chișinău printr-o expoziție dedicată misiunilor militare internaționale din perioada interbelică",
           "filler": false,
           "news": true
@@ -2313,15 +2322,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Patrimoniul cultural al Șoldăneștiului, valorificat prin artă și dialog între generații",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Dumitru Caraciobanu, actorul care a marcat teatrul și filmul moldovenesc",
           "filler": false,
           "news": true
         },
@@ -2376,6 +2376,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Dumitru Caraciobanu, actorul care a marcat teatrul și filmul moldovenesc",
           "filler": false,
           "news": true
         },
@@ -2456,7 +2465,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Săptămâna Limbii Italiene în Lume s-a deschis la Chișinău. Ambasadorul Italiei: „Între noi există o legătură bazată pe sensibilitate culturală”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2465,7 +2474,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Săptămâna Limbii Italiene în Lume s-a deschis la Chișinău. Ambasadorul Italiei: „Între noi există o legătură bazată pe sensibilitate culturală”",
           "filler": false,
           "news": true
         },
@@ -2637,15 +2646,6 @@
           "start": null,
           "end": null,
           "title": "Municipiul Cahul, singurul candidat la titlul de „Capitală Europeană a Culturii 2033” din Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // „Grădina de sticlă”, aplaudată în Grecia. Spectacolul TNME a ajuns la publicul din Pireu",
           "filler": false,
           "news": true
         },
