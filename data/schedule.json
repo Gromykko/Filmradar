@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-24T10:51:00.805Z",
-  "updatedAtLocal": "24 oct. 2026, 13:50",
+  "updatedAt": "2026-10-24T14:28:14.191Z",
+  "updatedAtLocal": "24 oct. 2026, 17:27",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2028,6 +2028,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "(joc) Păpușoi, mălai sau cucuruz? Alege cuvintele pe care le folosești și află de unde îți vine graiul",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Creezi filme de acțiune, crimă sau mister? Înscrie-ți producția la un festival internațional și beneficiază de feedback și promovare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Un scurtmetraj filmat într-un sat din Moldova a câștigat trei premii la Festivalul Internațional de Film de la Varșovia",
           "filler": false,
           "news": true
@@ -2091,7 +2109,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Timp de patru zile, la Cinematograful Odeon vei putea viziona de filme animate și vei putea participa la ateliere și masterclassuri",
+          "title": "Seniorii din Chișinău vor putea învăța să folosească telefonul și internetul la un atelier gratuit",
           "filler": false,
           "news": true
         },
@@ -2100,7 +2118,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tinerii din Moldova pot participa gratuit la un festival de scurtmetraje din Franța. Care sunt condițiile",
+          "title": "Drona căzută în satul Chiștelnița avea o parte de luptă de 52,4 kilograme, care a fost nimicită controlat",
           "filler": false,
           "news": true
         },
@@ -2109,7 +2127,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce faci dacă găsești țigări în geanta copilului tău și cum îl convingi să trăiască cu 10 ani mai mult",
+          "title": "Ai o editură sau activezi în domeniul literar? Europa Creativă oferă finanțare pentru proiecte de traducere și publicare",
           "filler": false,
           "news": true
         },
@@ -2118,7 +2136,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Bustul profesorului Dumitru Șcerbatiuc, dezvelit în semn de prețuire și recunoștință",
+          "title": "Ce sunt creditele universitare și cum se calculează pe parcursul studiilor",
           "filler": false,
           "news": true
         },
@@ -2127,7 +2145,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Platformele de taxi vor trebui să lucreze cu băncile licențiate în Moldova. Ce prevede noua lege",
+          "title": "„Prevenție, educație, implicare comunitară” – pentru o viață fără alcool",
           "filler": false,
           "news": true
         },
@@ -2136,7 +2154,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Premii pentru încredere și performanță. PORT MALL a celebrat trei ani de parteneriate durabile",
+          "title": "Niciun metru pătrat liber la PORT MALL. Omul de afaceri Anatolie Golea anunță extinderea suprafeței",
           "filler": false,
           "news": true
         },
@@ -2145,34 +2163,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să-ți faci primul CV? Tinerii din Chișinău pot participa la un program gratuit de ghidare în carieră",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "De la voce la acțiune: 25 de organizații promovează participarea civică a tinerilor și femeilor în deciziile comunităților",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Maib va crea un spațiu dedicat copiilor angajaților, promovând un mediu de lucru prietenos familiei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Copiii și tinerii din Moldova pot participa gratuit la un concurs internațional de desen despre viitorul alimentației",
+          "title": "BAC 2027: elevii alolingvi pot obține nota 10 din oficiu la limba română. Cum arată testele și cum te poți înscrie",
           "filler": false,
           "news": true
         },
@@ -2285,6 +2276,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Două spectacole shakespeariene din Republica Moldova, prezentate la Festivalul Național de Teatru din România",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Ministra Culturii din România, deschisă pentru consolidarea cooperării cu Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO // Sala cu Orgă își completează colecția cu 24 de instrumente muzicale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Moștenirea unei generații de scriitori, evocată la Muzeul Național al Literaturii Române",
           "filler": false,
           "news": true
@@ -2295,33 +2313,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Ziua Armatei României, marcată la Chișinău printr-o expoziție dedicată misiunilor militare internaționale din perioada interbelică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Ansamblul „Ciuleandra” a reprezentat Republica Moldova la un festival internațional de folclor din Bosnia și Herțegovina",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Povestea din spatele legendei despre Dracula: cultura irlandeză și filmul din 1931, prezentate la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul cultural al Șoldăneștiului, valorificat prin artă și dialog între generații",
           "filler": false,
           "news": true
         },
@@ -2384,6 +2375,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Ansamblul „Ciuleandra” a reprezentat Republica Moldova la un festival internațional de folclor din Bosnia și Herțegovina",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Povestea din spatele legendei despre Dracula: cultura irlandeză și filmul din 1931, prezentate la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Patrimoniul cultural al Șoldăneștiului, valorificat prin artă și dialog între generații",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Dumitru Caraciobanu, actorul care a marcat teatrul și filmul moldovenesc",
           "filler": false,
           "news": true
@@ -2438,6 +2456,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cronica ARHIVELOR // Dumitru Matcovschi, poetul care a devenit un simbol al renașterii naționale",
           "filler": false,
           "news": true
@@ -2457,15 +2484,6 @@
           "start": null,
           "end": null,
           "title": "Protejarea patrimoniului cultural mobil, discutată la lansarea celei de-a III-a ediții a programului de microcalificare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2619,33 +2637,6 @@
           "start": null,
           "end": null,
           "title": "Creştinii ortodocşi de stil vechi sărbătoresc Acoperământul Maicii Domnului. Hram la Chişinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Asociația moldovenilor din Portugalia „Miorița” a marcat 20 de ani de activitate printr-un concert aniversar",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ministrul Culturii, Dan Suruceanu, în vizită la Taraclia: Finanțarea proiectelor culturale și atragerea tinerilor în domeniu, printre subiectele discutate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Municipiul Cahul, singurul candidat la titlul de „Capitală Europeană a Culturii 2033” din Republica Moldova",
           "filler": false,
           "news": true
         },
