@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25T05:15:10.815Z",
-  "updatedAtLocal": "25 oct. 2026, 07:14",
+  "updatedAt": "2026-10-25T10:06:59.295Z",
+  "updatedAtLocal": "25 oct. 2026, 12:06",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2058,6 +2058,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Un covor țesut de o moldoveancă deportată în Siberia împreună cu cei șase copii ai săi se regăsește acum la Muzeul Național de Etnografie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "(joc) Păpușoi, mălai sau cucuruz? Alege cuvintele pe care le folosești și află de unde îți vine graiul",
           "filler": false,
           "news": true
@@ -2130,7 +2139,25 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "În Ucraina elevii din școlile minorităților naționale vor putea învăța în limbile română și maghiară",
+          "title": "Când vor avea loc olimpiadele republicane în anul de studii 2026/2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Învață gratuit la universitățile din Suedia datorită burselor pentru masterat. Ce domenii poți studia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Concurs național de ilustrații de Crăciun „Crăciunul mEU acasă”. Cine poate participa",
           "filler": false,
           "news": true
         },
@@ -2158,42 +2185,6 @@
           "start": null,
           "end": null,
           "title": "Ai o editură sau activezi în domeniul literar? Europa Creativă oferă finanțare pentru proiecte de traducere și publicare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ce sunt creditele universitare și cum se calculează pe parcursul studiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Prevenție, educație, implicare comunitară” – pentru o viață fără alcool",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Niciun metru pătrat liber la PORT MALL. Omul de afaceri Anatolie Golea anunță extinderea suprafeței",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "BAC 2027: elevii alolingvi pot obține nota 10 din oficiu la limba română. Cum arată testele și cum te poți înscrie",
           "filler": false,
           "news": true
         },
@@ -2306,6 +2297,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Monumentul istoric Casa Bodescu din Bălți, restaurat cu sprijinul Guvernului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Două spectacole shakespeariene din Republica Moldova, prezentate la Festivalul Național de Teatru din România",
           "filler": false,
           "news": true
@@ -2334,15 +2334,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Moștenirea unei generații de scriitori, evocată la Muzeul Național al Literaturii Române",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Ziua Armatei României, marcată la Chișinău printr-o expoziție dedicată misiunilor militare internaționale din perioada interbelică",
           "filler": false,
           "news": true
         },
@@ -2397,6 +2388,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Ziua Armatei României, marcată la Chișinău printr-o expoziție dedicată misiunilor militare internaționale din perioada interbelică",
           "filler": false,
           "news": true
         },
@@ -2477,7 +2477,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Închisoare și amenzi de până la 125.000 de lei pentru comercializarea tezelor. MEC propune modificarea legislației",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2486,7 +2486,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Închisoare și amenzi de până la 125.000 de lei pentru comercializarea tezelor. MEC propune modificarea legislației",
           "filler": false,
           "news": true
         },
@@ -2658,15 +2658,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Chișinăul de odinioară: povești și tradiții mai puțin cunoscute ale capitalei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Creştinii ortodocşi de stil vechi sărbătoresc Acoperământul Maicii Domnului. Hram la Chişinău",
           "filler": false,
           "news": true
         },
