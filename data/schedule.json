@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25T14:22:07.035Z",
-  "updatedAtLocal": "25 oct. 2026, 16:21",
+  "updatedAt": "2026-10-25T17:50:21.850Z",
+  "updatedAtLocal": "25 oct. 2026, 19:50",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2139,6 +2139,42 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "SUA, Taiwan, Singapore: în ce țări vor avea loc olimpiadele internaționale la care vor putea participa elevii în anul de studii 2026/2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Un roman despre memorie, iubire, traumă și construcția identității masculine. Ce citim pentru Clubul de carte din noiembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Poți sau nu să folosești un abonament la transport public pentru studenți dacă ești la masterat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Vom mai avea zile cu ploi sau nu? Ce temperaturi ne așteaptă în ultima săptămână de octombrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Când vor avea loc olimpiadele republicane în anul de studii 2026/2027",
           "filler": false,
           "news": true
@@ -2158,33 +2194,6 @@
           "start": null,
           "end": null,
           "title": "Concurs național de ilustrații de Crăciun „Crăciunul mEU acasă”. Cine poate participa",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Seniorii din Chișinău vor putea învăța să folosească telefonul și internetul la un atelier gratuit",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Drona căzută în satul Chiștelnița avea o parte de luptă de 52,4 kilograme, care a fost nimicită controlat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ai o editură sau activezi în domeniul literar? Europa Creativă oferă finanțare pentru proiecte de traducere și publicare",
           "filler": false,
           "news": true
         },
@@ -2297,6 +2306,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Memoria victimelor foametei organizate din 1946–1947, evocată la Avdarma",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Monumentul istoric Casa Bodescu din Bălți, restaurat cu sprijinul Guvernului",
           "filler": false,
           "news": true
@@ -2316,24 +2334,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Ministra Culturii din România, deschisă pentru consolidarea cooperării cu Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // Sala cu Orgă își completează colecția cu 24 de instrumente muzicale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Moștenirea unei generații de scriitori, evocată la Muzeul Național al Literaturii Române",
           "filler": false,
           "news": true
         },
@@ -2388,6 +2388,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO // Sala cu Orgă își completează colecția cu 24 de instrumente muzicale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Moștenirea unei generații de scriitori, evocată la Muzeul Național al Literaturii Române",
           "filler": false,
           "news": true
         },
@@ -2459,6 +2477,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // „Zilele Liedului Basarabean”, la prima ediție: muzica vocală a compozitorilor moldoveni, promovată în trei localități",
           "filler": false,
           "news": true
@@ -2469,15 +2496,6 @@
           "start": null,
           "end": null,
           "title": "Experți greci instruiesc specialiștii din Moldova în valorificarea patrimoniului arheologic și utilizarea inteligenței artificiale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2640,24 +2658,6 @@
           "start": null,
           "end": null,
           "title": "Patrimoniul vitivinicol și tradițiile alimentare, reflectate într-o expoziție deschisă la Muzeul de Istorie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Emil Loteanu, omagiat printr-o expoziție cu circa 100 de documente la Biblioteca Națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Chișinăul de odinioară: povești și tradiții mai puțin cunoscute ale capitalei",
           "filler": false,
           "news": true
         },
