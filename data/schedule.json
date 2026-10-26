@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-26T15:08:00.686Z",
-  "updatedAtLocal": "26 oct. 2026, 17:07",
+  "updatedAt": "2026-10-26T20:44:13.743Z",
+  "updatedAtLocal": "26 oct. 2026, 22:43",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2396,6 +2396,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Casa Națională din Nisporeni, un secol de istorie și tradiție culturală",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Gheorghe Mustea va susține concerte în opt localități din țară, cu ocazia împlinirii a 75 de ani",
           "filler": false,
           "news": true
@@ -2415,15 +2424,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Memoria victimelor foametei organizate din 1946–1947, evocată la Avdarma",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Monumentul istoric Casa Bodescu din Bălți, restaurat cu sprijinul Guvernului",
           "filler": false,
           "news": true
         },
@@ -2478,6 +2478,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Monumentul istoric Casa Bodescu din Bălți, restaurat cu sprijinul Guvernului",
           "filler": false,
           "news": true
         },
@@ -2558,7 +2567,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cronica ARHIVELOR // Dumitru Caraciobanu, actorul care a marcat teatrul și filmul moldovenesc",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2567,7 +2576,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Cronica ARHIVELOR // Dumitru Caraciobanu, actorul care a marcat teatrul și filmul moldovenesc",
           "filler": false,
           "news": true
         },
@@ -2739,15 +2748,6 @@
           "start": null,
           "end": null,
           "title": "Republica Moldova și România pregătesc un acord de colaborare în domeniul patrimoniului muzeal",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Satul European”: investiție de peste 7 milioane de lei în muzeul din Taraclia",
           "filler": false,
           "news": true
         },
