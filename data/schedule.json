@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-27T05:33:22.638Z",
-  "updatedAtLocal": "27 oct. 2026, 07:33",
+  "updatedAt": "2026-10-27T10:56:54.021Z",
+  "updatedAtLocal": "27 oct. 2026, 12:56",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1341,15 +1341,13 @@
       "stale": false,
       "slots": [
         {
-          "day": 4,
-          "dayName": "joi",
+          "day": null,
+          "dayName": null,
           "start": null,
           "end": null,
-          "title": "Adevărul despre fals",
+          "title": "Concurs de proiecte de film documentar 2026",
           "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
+          "news": true
         },
         {
           "day": null,
@@ -1384,15 +1382,6 @@
           "start": null,
           "end": null,
           "title": "Concurs de selectare a participanţilor la un atelier de instruire",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "TRM a prezentat Strategia de dezvoltare pentru perioada 2026–2030",
           "filler": false,
           "news": true
         },
@@ -2178,6 +2167,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "SKILLET ajunge pentru prima dată la Chișinău, în cadrul turneului european „After the Storm”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Un covor țesut de o moldoveancă deportată în Siberia împreună cu cei șase copii ai săi se regăsește acum la Muzeul Național de Etnografie",
           "filler": false,
           "news": true
@@ -2250,7 +2248,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum s-a schimbat Chișinăul de-a lungul anilor? 13 fotografii comparate",
+          "title": "Solistul trupei Rammstein, Till Lindemann, va susține un concert la Chișinău. Când începe vânzarea biletelor",
           "filler": false,
           "news": true
         },
@@ -2259,7 +2257,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "SUA, Taiwan, Singapore: în ce țări vor avea loc olimpiadele internaționale la care vor putea participa elevii în anul de studii 2026/2027",
+          "title": "(video) Fotbalistul englez Harry Kane a câștigat Balonul de Aur 2026. Cine sunt laureații galei",
           "filler": false,
           "news": true
         },
@@ -2268,7 +2266,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un roman despre memorie, iubire, traumă și construcția identității masculine. Ce citim pentru Clubul de carte din noiembrie",
+          "title": "Cinci zile de film documentar la Chișinău. Când începe noua ediție a festivalului internațional MOLDOX",
           "filler": false,
           "news": true
         },
@@ -2277,7 +2275,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Poți sau nu să folosești un abonament la transport public pentru studenți dacă ești la masterat",
+          "title": "(video) Cu tata spre grădiniță: grija pentru copii începe în fiecare dimineață",
           "filler": false,
           "news": true
         },
@@ -2286,7 +2284,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vom mai avea zile cu ploi sau nu? Ce temperaturi ne așteaptă în ultima săptămână de octombrie",
+          "title": "Generația Z: cum își aleg tinerii profesia și ce trucuri folosesc pentru a învăța mai eficient",
           "filler": false,
           "news": true
         },
@@ -2295,7 +2293,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Când vor avea loc olimpiadele republicane în anul de studii 2026/2027",
+          "title": "Ești din Comrat și te interesează jurnalismul? Participă la Youth Media Labs și primește 100 de euro pentru realizarea unui material",
           "filler": false,
           "news": true
         },
@@ -2304,7 +2302,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Învață gratuit la universitățile din Suedia datorită burselor pentru masterat. Ce domenii poți studia",
+          "title": "Tinerii refugiați ucraineni și cei din Chișinău sunt așteptați la Youth Connect Weekend. Ce activități au pregătit organizatorii",
           "filler": false,
           "news": true
         },
@@ -2313,7 +2311,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Concurs național de ilustrații de Crăciun „Crăciunul mEU acasă”. Cine poate participa",
+          "title": "Studenții din anul I vor urma cursul obligatoriu „Etică și Integritate Academică”",
           "filler": false,
           "news": true
         },
