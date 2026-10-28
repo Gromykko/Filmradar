@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-28T13:29:51.730Z",
-  "updatedAtLocal": "28 oct. 2026, 15:29",
+  "updatedAt": "2026-10-28T19:05:09.400Z",
+  "updatedAtLocal": "28 oct. 2026, 21:04",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2504,6 +2504,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Teatrul Național „Mihai Eminescu”, aplauze în Grecia. Petru Hadârcă: „Am lăsat o amprentă bună și o sete de a reveni”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Casa Națională din Nisporeni, un secol de istorie și tradiție culturală",
           "filler": false,
           "news": true
@@ -2666,7 +2675,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Patrimoniul cultural al Șoldăneștiului, valorificat prin artă și dialog între generații",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2675,7 +2684,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Patrimoniul cultural al Șoldăneștiului, valorificat prin artă și dialog între generații",
           "filler": false,
           "news": true
         },
@@ -2847,15 +2856,6 @@
           "start": null,
           "end": null,
           "title": "Compozitorul și profesorul universitar Pavel Anton a trecut în neființă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Republica Moldova și România pregătesc un acord de colaborare în domeniul patrimoniului muzeal",
           "filler": false,
           "news": true
         },
