@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-28T06:14:59.283Z",
-  "updatedAtLocal": "28 oct. 2026, 08:14",
+  "updatedAt": "2026-10-28T13:29:51.730Z",
+  "updatedAtLocal": "28 oct. 2026, 15:29",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2247,6 +2247,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Au fost anunțați câștigătorii Premiului Național 2026. Cine sunt cetățenii care vor primi câte 100.000 de lei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "SKILLET ajunge pentru prima dată la Chișinău, în cadrul turneului european „After the Storm”",
           "filler": false,
           "news": true
@@ -2319,7 +2328,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(galerie foto) Toamna se numără căldările cu poamă. Adu-ți aminte cum era la cules struguri prin câteva fotografii de octombrie",
+          "title": "Vrei să înveți despre bani, cybersecurity și AI? Înscrie-te la Startup 101 Academy – o școală de antreprenoriat online gratuită",
           "filler": false,
           "news": true
         },
@@ -2328,7 +2337,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Solistul trupei Rammstein, Till Lindemann, va susține un concert la Chișinău. Când începe vânzarea biletelor",
+          "title": "Profesorii care vor merge în UTA Găgăuzia și Taraclia să predea în română vor primi indemnizații în valoare de 200.000 lei",
           "filler": false,
           "news": true
         },
@@ -2337,7 +2346,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(video) Fotbalistul englez Harry Kane a câștigat Balonul de Aur 2026. Cine sunt laureații galei",
+          "title": "Ziua europeană a donării de organe: apel public la solidaritate și responsabilitate",
           "filler": false,
           "news": true
         },
@@ -2346,7 +2355,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cinci zile de film documentar la Chișinău. Când începe noua ediție a festivalului internațional MOLDOX",
+          "title": "Până în 2040 în Europa va fi dezvoltată o rețea de trenuri de mare viteză. Proiectul vizează și Chișinăul",
           "filler": false,
           "news": true
         },
@@ -2355,7 +2364,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(video) Cu tata spre grădiniță: grija pentru copii începe în fiecare dimineață",
+          "title": "Prima ediție a Festivalului „UNIȚI PRIN DIVERSITATE”, organizat la Universitatea de Stat din Moldova",
           "filler": false,
           "news": true
         },
@@ -2364,7 +2373,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Generația Z: cum își aleg tinerii profesia și ce trucuri folosesc pentru a învăța mai eficient",
+          "title": "Detalii noi despre compensațiile la căldură: care va fi valoarea lor și câte familii vor beneficia de ele",
           "filler": false,
           "news": true
         },
@@ -2373,7 +2382,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ești din Comrat și te interesează jurnalismul? Participă la Youth Media Labs și primește 100 de euro pentru realizarea unui material",
+          "title": "USMF „Nicolae Testemițanu”, în top 25 de lideri de export din Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -2382,16 +2391,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tinerii refugiați ucraineni și cei din Chișinău sunt așteptați la Youth Connect Weekend. Ce activități au pregătit organizatorii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Studenții din anul I vor urma cursul obligatoriu „Etică și Integritate Academică”",
+          "title": "Ce planuri ai pentru cariera ta? Completează un chestionar dedicat tinerilor NEET",
           "filler": false,
           "news": true
         },
