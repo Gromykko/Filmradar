@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-31T05:29:06.126Z",
-  "updatedAtLocal": "31 oct. 2026, 07:28",
+  "updatedAt": "2026-10-31T11:11:38.171Z",
+  "updatedAtLocal": "31 oct. 2026, 13:11",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1977,6 +1977,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Organizațiile culturale din Moldova pot obține finanțare pentru a găzdui artiști din străinătate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Te pasionează pianul? Înscrie-te la Concursul Național „Lia Oxinoit”",
           "filler": false,
           "news": true
@@ -2049,7 +2058,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "A fost lansat un instrument care îți permite să vizitezi virtual cinci muzee din satele Moldovei, în format 3D",
+          "title": "Vrei să înveți cum se construiesc și se programează roboții? Înscrie-te la Clubul de Robotică din Chișinău",
           "filler": false,
           "news": true
         },
@@ -2058,7 +2067,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(video) Cum arată o zi de muncă a unui șef de raion „Legume-Fructe” în cadrul Kaufland",
+          "title": "Când vor avea loc testările naționale pentru elevii din clasa a IV-a din anul de studii 2026/2027",
           "filler": false,
           "news": true
         },
@@ -2067,7 +2076,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Sală de studii renovată pentru studenți și masteranzi",
+          "title": "Vrei să înveți cum să gestionezi schimbările și să gândești creativ? Participă la două workshopuri gratuite",
           "filler": false,
           "news": true
         },
@@ -2076,7 +2085,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Parteneriatul SUMMA și FIBA Group lansează proiectul MallDova Park, o investiție de 250 de milioane de euro în Republica Moldova",
+          "title": "Au deschis un Laborator de educație non-formală și vor realiza un ziar local. Cum se promovează valorile europene printre tinerii din Brânzenii Noi",
           "filler": false,
           "news": true
         },
@@ -2085,7 +2094,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Când vor avea loc examenele de clasa a IX-a în anul școlar 2026/2027",
+          "title": "Datele tale au fost furate? Urmează să fie lansat un mecanism care te va anunța despre asta",
           "filler": false,
           "news": true
         },
@@ -2094,7 +2103,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Congresul Internațional de Radiologie și Imagistică MIRAI 2026",
+          "title": "Burse Regale pentru doi studenți UTM din agricultură și medicină veterinară",
           "filler": false,
           "news": true
         },
@@ -2103,25 +2112,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Câți studenți internaționali au fost admiși la universitățile din Moldova și din ce țări vin",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "BAC 2027: când vor avea loc examenele de absolvire a liceului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O producătoare de cașcavaluri din Basarabeasca este în lista celor 100 de femei remarcabile în domeniul agroalimentar și al dezvoltării rurale din lume",
+          "title": "Profesorii, elevii și părinții pot contribui cu materiale didactice la dezvoltarea platformei EduResurse",
           "filler": false,
           "news": true
         },
@@ -2234,6 +2225,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Teatrul Național „Mihai Eminescu”, pe scenele Europei: patru festivaluri internaționale și un nou spectacol despre jurnalismul de investigație",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Doina și Ion Aldea-Teodorovici, comemorați la 34 de ani de la trecerea în eternitate",
           "filler": false,
           "news": true
@@ -2262,15 +2262,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Casa Națională din Nisporeni, un secol de istorie și tradiție culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Gheorghe Mustea va susține concerte în opt localități din țară, cu ocazia împlinirii a 75 de ani",
           "filler": false,
           "news": true
         },
@@ -2325,6 +2316,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Gheorghe Mustea va susține concerte în opt localități din țară, cu ocazia împlinirii a 75 de ani",
           "filler": false,
           "news": true
         },
@@ -2396,7 +2396,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "GALERIE FOTO // Ziua Armatei României, marcată la Chișinău printr-o expoziție dedicată misiunilor militare internaționale din perioada interbelică",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2405,7 +2405,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "GALERIE FOTO // Ziua Armatei României, marcată la Chișinău printr-o expoziție dedicată misiunilor militare internaționale din perioada interbelică",
           "filler": false,
           "news": true
         },
@@ -2577,15 +2577,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Regina Maria și legătura sa cu Basarabia, reflectate într-un volum semnat de Iulian Rusanovschi",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Teatrul „Alexie Mateevici” a prezentat spectacolul „Jubileul” pentru diaspora din Torino și Milano",
           "filler": false,
           "news": true
         },
