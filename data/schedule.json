@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-01T05:54:18.365Z",
-  "updatedAtLocal": "1 nov. 2026, 07:53",
+  "updatedAt": "2026-11-01T13:13:37.350Z",
+  "updatedAtLocal": "1 nov. 2026, 15:13",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2235,6 +2235,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Nicolae Guțu transformă lemnul în bijuterii și obiecte de uz casnic",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "INTERVIU MOLDPRES // Petru Hadârcă: „Teatrul are menirea să promoveze valorile democratice, europene, valorile unei lumi libere. Teatrul este un pilon în educarea societății”",
           "filler": false,
           "news": true
@@ -2263,15 +2272,6 @@
           "start": null,
           "end": null,
           "title": "Premierul Vasile Tofan propune ca anul 2027 să fie declarat „Anul Ion și Doina Aldea-Teodorovici”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul Național „Mihai Eminescu”, aplauze în Grecia. Petru Hadârcă: „Am lăsat o amprentă bună și o sete de a reveni”",
           "filler": false,
           "news": true
         },
@@ -2326,6 +2326,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Teatrul Național „Mihai Eminescu”, aplauze în Grecia. Petru Hadârcă: „Am lăsat o amprentă bună și o sete de a reveni”",
           "filler": false,
           "news": true
         },
@@ -2397,7 +2406,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "VIDEO // Sala cu Orgă își completează colecția cu 24 de instrumente muzicale",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2406,7 +2415,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "VIDEO // Sala cu Orgă își completează colecția cu 24 de instrumente muzicale",
           "filler": false,
           "news": true
         },
@@ -2578,15 +2587,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Teatrul bulgar „Smeshen Petak” și Școala de Arte din Taraclia, vizitate de ministrul Culturii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Glebus Sainciuc, artistul care a transformat măștile în artă",
           "filler": false,
           "news": true
         },
