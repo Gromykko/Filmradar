@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-02T01:47:33.119Z",
-  "updatedAtLocal": "2 nov. 2026, 03:47",
+  "updatedAt": "2026-11-02T09:22:57.733Z",
+  "updatedAtLocal": "2 nov. 2026, 11:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1218,7 +1218,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să înveți cum se construiesc și se programează roboții? Înscrie-te la Clubul de Robotică din Chișinău",
+          "title": "Moldovenii se pot înscrie pentru a obține compensații la energie în sezonul rece 2026/2027",
           "filler": false,
           "news": true
         },
@@ -1227,7 +1227,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Când vor avea loc testările naționale pentru elevii din clasa a IV-a din anul de studii 2026/2027",
+          "title": "Temperaturi de la 1 la 13 °C. Cum va fi vremea în Moldova săptămâna viitoare",
           "filler": false,
           "news": true
         },
@@ -1236,7 +1236,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să înveți cum să gestionezi schimbările și să gândești creativ? Participă la două workshopuri gratuite",
+          "title": "Ce planuri ai pentru ultima lună de toamnă? Lista evenimentelor la care poți merge în perioada 2-8 noiembrie",
           "filler": false,
           "news": true
         },
@@ -1245,7 +1245,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Au deschis un Laborator de educație non-formală și vor realiza un ziar local. Cum se promovează valorile europene printre tinerii din Brânzenii Noi",
+          "title": "Alegeri în șapte localități din Moldova. De ce într-un sat din centrul țării s-a organizat un referendum",
           "filler": false,
           "news": true
         },
@@ -1254,7 +1254,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Datele tale au fost furate? Urmează să fie lansat un mecanism care te va anunța despre asta",
+          "title": "Guvernul susține că atacul cibernetic recent nu a compromis semnăturile electronice. De unde a pornit discuția",
           "filler": false,
           "news": true
         },
@@ -1263,7 +1263,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Burse Regale pentru doi studenți UTM din agricultură și medicină veterinară",
+          "title": "Copilul a intrat în cameră în timp ce întrețineam relații sexuale. Cum ar trebui să reacționăm",
           "filler": false,
           "news": true
         },
@@ -1272,7 +1272,25 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Profesorii, elevii și părinții pot contribui cu materiale didactice la dezvoltarea platformei EduResurse",
+          "title": "(grafic) Câți tineri învață în universitățile din Moldova și cum a evoluat numărul lor în ultimele decenii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce amenzi riscă șoferii care nu circulă cu luminile aprinse pe timp de zi. Regula este valabilă din 1 noiembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Burse pentru studii liceale în Marea Britanie. Elevii și elevele claselor a X-a pot învăța gratuit timp de doi ani la o școală privată",
           "filler": false,
           "news": true
         },
