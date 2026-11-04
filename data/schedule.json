@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-04T11:31:53.602Z",
-  "updatedAtLocal": "4 nov. 2026, 13:31",
+  "updatedAt": "2026-11-04T18:51:23.974Z",
+  "updatedAtLocal": "4 nov. 2026, 20:51",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2323,6 +2323,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Biblioteca „Lesia Ukrainka”, redeschisă după renovare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Moștenirea artistică a lui Emil Loteanu, evocată la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Personalitatea cineastului Emil Loteanu, evocată la Muzeul de Istorie a Orașului Chișinău",
           "filler": false,
           "news": true
@@ -2342,24 +2360,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” revine la Chișinău cu 15 spectacole",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul cultural, descoperit prin experiența specialiștilor și vizite de studiu",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // „Caiete Documentare”: România și Republica Moldova, împreună pe drumul european – un volum semnat de 90 de autori, lansat la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2414,6 +2414,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Patrimoniul cultural, descoperit prin experiența specialiștilor și vizite de studiu",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // „Caiete Documentare”: România și Republica Moldova, împreună pe drumul european – un volum semnat de 90 de autori, lansat la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2485,6 +2503,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Teatrul Național „Mihai Eminescu”, aplauze în Grecia. Petru Hadârcă: „Am lăsat o amprentă bună și o sete de a reveni”",
           "filler": false,
           "news": true
@@ -2495,15 +2522,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Casa Națională din Nisporeni, un secol de istorie și tradiție culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2657,24 +2675,6 @@
           "start": null,
           "end": null,
           "title": "Experți greci instruiesc specialiștii din Moldova în valorificarea patrimoniului arheologic și utilizarea inteligenței artificiale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Închisoare și amenzi de până la 125.000 de lei pentru comercializarea tezelor. MEC propune modificarea legislației",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Dumitru Matcovschi, poetul care a devenit un simbol al renașterii naționale",
           "filler": false,
           "news": true
         },
