@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-04T03:12:39.970Z",
-  "updatedAtLocal": "4 nov. 2026, 05:12",
+  "updatedAt": "2026-11-04T11:31:53.602Z",
+  "updatedAtLocal": "4 nov. 2026, 13:31",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2323,6 +2323,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Personalitatea cineastului Emil Loteanu, evocată la Muzeul de Istorie a Orașului Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cronica ARHIVELOR // Leonora Romanescu, nume de referință în arta plastică și restaurarea operelor de artă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” revine la Chișinău cu 15 spectacole",
           "filler": false,
           "news": true
@@ -2342,24 +2360,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // „Caiete Documentare”: România și Republica Moldova, împreună pe drumul european – un volum semnat de 90 de autori, lansat la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Arhitectura Chișinăului interbelic, prezentată publicului din Iași prin două expoziții",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Conacul Pommer din Țaul și două clădiri istorice din Chișinău vor fi restaurate",
           "filler": false,
           "news": true
         },
@@ -2414,6 +2414,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Arhitectura Chișinăului interbelic, prezentată publicului din Iași prin două expoziții",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Conacul Pommer din Țaul și două clădiri istorice din Chișinău vor fi restaurate",
           "filler": false,
           "news": true
         },
@@ -2485,6 +2503,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Gheorghe Mustea va susține concerte în opt localități din țară, cu ocazia împlinirii a 75 de ani",
           "filler": false,
           "news": true
@@ -2495,15 +2522,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Leonida Lari, una dintre vocile mișcării de renaștere națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2657,24 +2675,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Dumitru Matcovschi, poetul care a devenit un simbol al renașterii naționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Romanul „Costul vieților noastre”, de Liuba Rusnac, lansat la Ambasada Republicii Moldova de la Viena",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Protejarea patrimoniului cultural mobil, discutată la lansarea celei de-a III-a ediții a programului de microcalificare",
           "filler": false,
           "news": true
         },
