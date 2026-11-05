@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T00:20:13.564Z",
-  "updatedAtLocal": "5 nov. 2026, 02:19",
+  "updatedAt": "2026-11-05T07:21:26.919Z",
+  "updatedAtLocal": "5 nov. 2026, 09:21",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2313,6 +2313,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Formația „Noroc” – 60 de ani de șlagăre, muzică și istorie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Biblioteca „Lesia Ukrainka”, redeschisă după renovare",
           "filler": false,
           "news": true
@@ -2341,15 +2350,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Leonora Romanescu, nume de referință în arta plastică și restaurarea operelor de artă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” revine la Chișinău cu 15 spectacole",
           "filler": false,
           "news": true
         },
@@ -2404,6 +2404,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” revine la Chișinău cu 15 spectacole",
           "filler": false,
           "news": true
         },
@@ -2484,7 +2493,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Premierul Vasile Tofan propune ca anul 2027 să fie declarat „Anul Ion și Doina Aldea-Teodorovici”",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2493,7 +2502,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Premierul Vasile Tofan propune ca anul 2027 să fie declarat „Anul Ion și Doina Aldea-Teodorovici”",
           "filler": false,
           "news": true
         },
@@ -2656,15 +2665,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // „Zilele Liedului Basarabean”, la prima ediție: muzica vocală a compozitorilor moldoveni, promovată în trei localități",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Experți greci instruiesc specialiștii din Moldova în valorificarea patrimoniului arheologic și utilizarea inteligenței artificiale",
           "filler": false,
           "news": true
         },
