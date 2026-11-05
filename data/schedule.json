@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T15:47:39.812Z",
-  "updatedAtLocal": "5 nov. 2026, 17:47",
+  "updatedAt": "2026-11-05T21:57:22.630Z",
+  "updatedAtLocal": "5 nov. 2026, 23:57",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2304,6 +2304,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Președinta Maia Sandu, la concertul formației „Noroc”: „A ținut vie limba română și demnitatea unei generații care și-a câștigat independența”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Nota lui Vasile Tofan pentru Guvernul pe care îl conduce: De ce nu și-a acordat un calificativ mai mare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Salonul Național de Arte Contemporane: 85 de artiști plastici prezintă 85 de opere",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Cultura Cucuteni, redescoperită la Muzeul din Călărași printr-o dioramă 3D și tehnologii VR",
           "filler": false,
           "news": true
@@ -2314,33 +2341,6 @@
           "start": null,
           "end": null,
           "title": "Zonele de protecție a monumentelor istorice, discutate cu mediul de afaceri și arhitecții. Ministerul Culturii pregătește o nouă lege",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Formația „Noroc” – 60 de ani de șlagăre, muzică și istorie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Biblioteca „Lesia Ukrainka”, redeschisă după renovare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Moștenirea artistică a lui Emil Loteanu, evocată la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2403,6 +2403,33 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Formația „Noroc” – 60 de ani de șlagăre, muzică și istorie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Biblioteca „Lesia Ukrainka”, redeschisă după renovare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Moștenirea artistică a lui Emil Loteanu, evocată la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Personalitatea cineastului Emil Loteanu, evocată la Muzeul de Istorie a Orașului Chișinău",
           "filler": false,
           "news": true
@@ -2457,6 +2484,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Conacul Pommer din Țaul și două clădiri istorice din Chișinău vor fi restaurate",
           "filler": false,
           "news": true
@@ -2476,15 +2512,6 @@
           "start": null,
           "end": null,
           "title": "INTERVIU MOLDPRES // Petru Hadârcă: „Teatrul are menirea să promoveze valorile democratice, europene, valorile unei lumi libere. Teatrul este un pilon în educarea societății”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2629,33 +2656,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Povestea din spatele legendei despre Dracula: cultura irlandeză și filmul din 1931, prezentate la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul cultural al Șoldăneștiului, valorificat prin artă și dialog între generații",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Dumitru Caraciobanu, actorul care a marcat teatrul și filmul moldovenesc",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Animest Chișinău aduce patru zile de filme de animație, ateliere și întâlniri cu artiști",
           "filler": false,
           "news": true
         },
