@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T09:49:50.829Z",
-  "updatedAtLocal": "6 nov. 2026, 11:49",
+  "updatedAt": "2026-11-06T17:27:44.542Z",
+  "updatedAtLocal": "6 nov. 2026, 19:26",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1956,8 +1956,8 @@
       "schedule": "https://voceabasarabiei.md/program-tv/?tv-channel=tv",
       "newsOnly": false,
       "tier": "secondary",
-      "ok": true,
-      "error": null,
+      "ok": false,
+      "error": "Failed to fetch https://voceabasarabiei.md/program-tv/?tv-channel=tv: This operation was aborted",
       "warning": null,
       "stale": false,
       "slots": []
@@ -1989,6 +1989,15 @@
           "start": null,
           "end": null,
           "title": "Tot ce trebuie să știi despre admiterea 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Adolescenții din diaspora se pot înscrie la tabăra de iarnă „DOR de Tradiții”. Programul include excursii și ateliere de meșteșugărit",
           "filler": false,
           "news": true
         },
@@ -2069,7 +2078,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un documentar moldovenesc din 2012 a fost premiat în cadrul unui festival internațional din SUA. Despre ce este lucrarea",
+          "title": "Maib își conturează următoarea etapă de dezvoltare în cadrul unei sesiuni strategice la Berlin",
           "filler": false,
           "news": true
         },
@@ -2078,7 +2087,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "100 de zile ale Guvernului Tofan. Ce a reușit echipa în primele trei luni de mandat și cât de mulțumită este de activitatea sa",
+          "title": "Trei zile de documentare pentru copii, adolescenți și adulți. Astra Film Chișinău revine cu a cincea ediție",
           "filler": false,
           "news": true
         },
@@ -2087,7 +2096,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Moldova a avansat în șase domenii, inclusiv educație. Comisia Europeană, despre nivelul de pregătire al țării pentru aderare",
+          "title": "Elevilor li se va explica cum să-și protejeze datele. Deciziile Consiliului de Securitate, după atacul cibernetic din octombrie",
           "filler": false,
           "news": true
         },
@@ -2096,7 +2105,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Elevii din Cazangic învață să identifice problemele comunității și să propună soluții",
+          "title": "Black Friday pe nativ.md: reduceri de până la 50 % și iPhone 18 Pro la preț special",
           "filler": false,
           "news": true
         },
@@ -2105,7 +2114,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Așa-numitul lider de la Tiraspol, Vadim Krasnoselski, ar putea primi interdicția de a părăsi Moldova timp de cinci ani",
+          "title": "Copiii romi vor fi în continuare sprijiniți să-și continue studiile. Încă 22 de instituții participă la un proiect în acest sens",
           "filler": false,
           "news": true
         },
@@ -2114,7 +2123,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Gândul Mâței încheie turneul național „Prieteni de Drum” cu un concert la Chișinău Arena. Când va avea loc evenimentul",
+          "title": "Cum un tech blogger din Moldova a construit o companie IT cu peste 100 de milioane de descărcări",
           "filler": false,
           "news": true
         },
@@ -2123,7 +2132,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Sesiune de dialog între studenții USM și reprezentanții ONU în Moldova despre pacea durabilă și diplomație",
+          "title": "Te pasionează fizica aplicată sau astronomia? Participă la un concurs internațional și testează-ți cunoștințele",
           "filler": false,
           "news": true
         },
@@ -2132,16 +2141,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ești pasionat(ă) de printare 3D? Participă la un atelier gratuit",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "La Universitatea de Stat din Moldova s-a desfășurat Școala de Toamnă de Filosofie pentru liceeni",
+          "title": "Cercetarea academică a USM în sprijinul comunităților locale: workshop dedicat patrimoniului cultural, desfășurat la Fălești",
           "filler": false,
           "news": true
         },
@@ -2254,6 +2254,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Igor Grosu la 60 de ani de la fondarea formației „Noroc”: „Este un adevărat simbol al neamului nostru”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // Raportul de activitate al Guvernului în primele 100 de zile. Dan Suruceanu: „Construim un sector cultural modern, ancorat în valorile și interesele noastre naționale”",
           "filler": false,
           "news": true
@@ -2282,15 +2291,6 @@
           "start": null,
           "end": null,
           "title": "Nota lui Vasile Tofan pentru Guvernul pe care îl conduce: De ce nu și-a acordat un calificativ mai mare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Salonul Național de Arte Contemporane: 85 de artiști plastici prezintă 85 de opere",
           "filler": false,
           "news": true
         },
@@ -2345,6 +2345,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Salonul Național de Arte Contemporane: 85 de artiști plastici prezintă 85 de opere",
           "filler": false,
           "news": true
         },
@@ -2425,7 +2434,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Patrimoniul cultural, descoperit prin experiența specialiștilor și vizite de studiu",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2434,7 +2443,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Patrimoniul cultural, descoperit prin experiența specialiștilor și vizite de studiu",
           "filler": false,
           "news": true
         },
@@ -2597,15 +2606,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Moștenirea unei generații de scriitori, evocată la Muzeul Național al Literaturii Române",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Ziua Armatei României, marcată la Chișinău printr-o expoziție dedicată misiunilor militare internaționale din perioada interbelică",
           "filler": false,
           "news": true
         },
