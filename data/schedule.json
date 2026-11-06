@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T02:20:55.090Z",
-  "updatedAtLocal": "6 nov. 2026, 04:20",
+  "updatedAt": "2026-11-06T09:49:50.829Z",
+  "updatedAtLocal": "6 nov. 2026, 11:49",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2254,6 +2254,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "VIDEO // Raportul de activitate al Guvernului în primele 100 de zile. Dan Suruceanu: „Construim un sector cultural modern, ancorat în valorile și interesele noastre naționale”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Marele Emil Loteanu, în fotocronica MOLDPRES: Imagini rare de pe platourile de filmare la 90 de ani de la naștere",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Președinta Maia Sandu, la concertul formației „Noroc”: „A ținut vie limba română și demnitatea unei generații care și-a câștigat independența”",
           "filler": false,
           "news": true
@@ -2273,24 +2291,6 @@
           "start": null,
           "end": null,
           "title": "Salonul Național de Arte Contemporane: 85 de artiști plastici prezintă 85 de opere",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Cultura Cucuteni, redescoperită la Muzeul din Călărași printr-o dioramă 3D și tehnologii VR",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zonele de protecție a monumentelor istorice, discutate cu mediul de afaceri și arhitecții. Ministerul Culturii pregătește o nouă lege",
           "filler": false,
           "news": true
         },
@@ -2345,6 +2345,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Cultura Cucuteni, redescoperită la Muzeul din Călărași printr-o dioramă 3D și tehnologii VR",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zonele de protecție a monumentelor istorice, discutate cu mediul de afaceri și arhitecții. Ministerul Culturii pregătește o nouă lege",
           "filler": false,
           "news": true
         },
@@ -2416,6 +2434,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // „Caiete Documentare”: România și Republica Moldova, împreună pe drumul european – un volum semnat de 90 de autori, lansat la Chișinău",
           "filler": false,
           "news": true
@@ -2426,15 +2453,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Arhitectura Chișinăului interbelic, prezentată publicului din Iași prin două expoziții",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2588,24 +2606,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Ziua Armatei României, marcată la Chișinău printr-o expoziție dedicată misiunilor militare internaționale din perioada interbelică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Ansamblul „Ciuleandra” a reprezentat Republica Moldova la un festival internațional de folclor din Bosnia și Herțegovina",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Povestea din spatele legendei despre Dracula: cultura irlandeză și filmul din 1931, prezentate la Chișinău",
           "filler": false,
           "news": true
         },
