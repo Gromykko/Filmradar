@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-07T09:13:07.086Z",
-  "updatedAtLocal": "7 nov. 2026, 11:12",
+  "updatedAt": "2026-11-07T15:53:58.861Z",
+  "updatedAtLocal": "7 nov. 2026, 17:53",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1987,6 +1987,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Ești student(ă) și îți place să scrii scenarii de film? Participă la concursul CineMAscris 2026 și câștigă 280 de euro",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Adolescenții din diaspora se pot înscrie la tabăra de iarnă „DOR de Tradiții”. Programul include excursii și ateliere de meșteșugărit",
           "filler": false,
           "news": true
@@ -2059,7 +2068,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un scurtmetraj filmat într-un sat din Moldova a câștigat trei premii la Festivalul Internațional de Film de la Varșovia",
+          "title": "Ai făcut voluntariat în 2026? Poți câștiga până la 30.000 de lei la Festivalul Voluntarilor",
           "filler": false,
           "news": true
         },
@@ -2068,7 +2077,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Maib își conturează următoarea etapă de dezvoltare în cadrul unei sesiuni strategice la Berlin",
+          "title": "BAC 2027: când vor fi publicate testele de exersare și se vor desfășura testările pe eșantion. Cronologia examenelor",
           "filler": false,
           "news": true
         },
@@ -2077,7 +2086,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Trei zile de documentare pentru copii, adolescenți și adulți. Astra Film Chișinău revine cu a cincea ediție",
+          "title": "Joacă fotbal pentru o cauză nobilă. Înscrie-te la un turneu caritabil care susține un spital din Leova",
           "filler": false,
           "news": true
         },
@@ -2086,7 +2095,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Elevilor li se va explica cum să-și protejeze datele. Deciziile Consiliului de Securitate, după atacul cibernetic din octombrie",
+          "title": "Vrei să știi ce date ți-au fost accesate în urma atacului cibernetic? Există deja o modalitate, iar curând va fi lansată și a doua",
           "filler": false,
           "news": true
         },
@@ -2095,7 +2104,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Black Friday pe nativ.md: reduceri de până la 50 % și iPhone 18 Pro la preț special",
+          "title": "Branding pe roți: cum mașina de firmă devine o reclamă permanentă pe străzile orașului",
           "filler": false,
           "news": true
         },
@@ -2104,7 +2113,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Copiii romi vor fi în continuare sprijiniți să-și continue studiile. Încă 22 de instituții participă la un proiect în acest sens",
+          "title": "„Academia Basarabiei”, ediția a II-a: profesorii au explorat rolul istoriei și al limbii române în formarea identității naționale",
           "filler": false,
           "news": true
         },
@@ -2113,25 +2122,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum un tech blogger din Moldova a construit o companie IT cu peste 100 de milioane de descărcări",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Te pasionează fizica aplicată sau astronomia? Participă la un concurs internațional și testează-ți cunoștințele",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cercetarea academică a USM în sprijinul comunităților locale: workshop dedicat patrimoniului cultural, desfășurat la Fălești",
+          "title": "Ți se cer bani la grădiniță sau la școală? Participă la un atelier gratuit despre cum să refuzi colectările informale",
           "filler": false,
           "news": true
         },
