@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-08T05:53:47.738Z",
-  "updatedAtLocal": "8 nov. 2026, 07:53",
+  "updatedAt": "2026-11-08T13:15:15.651Z",
+  "updatedAtLocal": "8 nov. 2026, 15:14",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2017,6 +2017,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "(foto) Un beci a fost descoperit la Leova în timpul reconstrucției trotuarelor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Nu știi ce carte să mai citești? Deschide „cotor space”, platforma care te ajută să găsești prieteni de lectură în Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ești student(ă) și îți place să scrii scenarii de film? Participă la concursul CineMAscris 2026 și câștigă 280 de euro",
           "filler": false,
           "news": true
@@ -2080,7 +2098,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(joc) Păpușoi, mălai sau cucuruz? Alege cuvintele pe care le folosești și află de unde îți vine graiul",
+          "title": "Cinci oportunități destinate elevilor, al căror termen-limită pentru înregistrare expiră în luna noiembrie",
           "filler": false,
           "news": true
         },
@@ -2089,7 +2107,34 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Creezi filme de acțiune, crimă sau mister? Înscrie-ți producția la un festival internațional și beneficiază de feedback și promovare",
+          "title": "Vrei să ajungi la Riga? Înscrie-te la un dialog național despre combaterea dezinformării",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce este gaslightingul și cum se manifestă într-o relație",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce spune MEC și cum răspunde DGETS în cazul concursului pentru funcția de director al Liceului „Academia Copiilor”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Vrei să testezi cunoștințele într-o competiție? Înscrie-te la Night Quiz",
           "filler": false,
           "news": true
         },
@@ -2099,60 +2144,6 @@
           "start": null,
           "end": null,
           "title": "Ai făcut voluntariat în 2026? Poți câștiga până la 30.000 de lei la Festivalul Voluntarilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "BAC 2027: când vor fi publicate testele de exersare și se vor desfășura testările pe eșantion. Cronologia examenelor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Joacă fotbal pentru o cauză nobilă. Înscrie-te la un turneu caritabil care susține un spital din Leova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Vrei să știi ce date ți-au fost accesate în urma atacului cibernetic? Există deja o modalitate, iar curând va fi lansată și a doua",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Branding pe roți: cum mașina de firmă devine o reclamă permanentă pe străzile orașului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Academia Basarabiei”, ediția a II-a: profesorii au explorat rolul istoriei și al limbii române în formarea identității naționale",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ți se cer bani la grădiniță sau la școală? Participă la un atelier gratuit despre cum să refuzi colectările informale",
           "filler": false,
           "news": true
         },
