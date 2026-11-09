@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-09T01:56:52.200Z",
-  "updatedAtLocal": "9 nov. 2026, 03:56",
+  "updatedAt": "2026-11-09T09:40:26.314Z",
+  "updatedAtLocal": "9 nov. 2026, 11:40",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2336,6 +2336,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "VIDEO // Filmul „2438 KM sau Toate drumurile duc la Roma”, în curând în cinematografe. Regizorul Sergiu Prodan: „O comedie la care se plânge”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Astra Film revine Chișinău: trei zile de povești reale pe marele ecran",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // Personalitatea lui Emil Loteanu, evocată la 90 de ani",
           "filler": false,
           "news": true
@@ -2355,24 +2373,6 @@
           "start": null,
           "end": null,
           "title": "Igor Grosu la 60 de ani de la fondarea formației „Noroc”: „Este un adevărat simbol al neamului nostru”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // Raportul de activitate al Guvernului în primele 100 de zile. Dan Suruceanu: „Construim un sector cultural modern, ancorat în valorile și interesele noastre naționale”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Marele Emil Loteanu, în fotocronica MOLDPRES: Imagini rare de pe platourile de filmare la 90 de ani de la naștere",
           "filler": false,
           "news": true
         },
@@ -2427,6 +2427,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "VIDEO // Raportul de activitate al Guvernului în primele 100 de zile. Dan Suruceanu: „Construim un sector cultural modern, ancorat în valorile și interesele noastre naționale”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Marele Emil Loteanu, în fotocronica MOLDPRES: Imagini rare de pe platourile de filmare la 90 de ani de la naștere",
           "filler": false,
           "news": true
         },
@@ -2498,6 +2516,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // Moștenirea artistică a lui Emil Loteanu, evocată la Chișinău",
           "filler": false,
           "news": true
@@ -2508,15 +2535,6 @@
           "start": null,
           "end": null,
           "title": "Personalitatea cineastului Emil Loteanu, evocată la Muzeul de Istorie a Orașului Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2670,24 +2688,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Monumentul istoric Casa Bodescu din Bălți, restaurat cu sprijinul Guvernului",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Două spectacole shakespeariene din Republica Moldova, prezentate la Festivalul Național de Teatru din România",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Ministra Culturii din România, deschisă pentru consolidarea cooperării cu Republica Moldova",
           "filler": false,
           "news": true
         },
