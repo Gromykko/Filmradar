@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-09T09:40:26.314Z",
-  "updatedAtLocal": "9 nov. 2026, 11:40",
+  "updatedAt": "2026-11-09T20:40:29.751Z",
+  "updatedAtLocal": "9 nov. 2026, 22:40",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2075,6 +2075,17 @@
       "stale": false,
       "slots": [
         {
+          "day": 5,
+          "dayName": "vineri",
+          "start": null,
+          "end": null,
+          "title": "Nicolae Testemițanu",
+          "filler": false,
+          "announcement": true,
+          "channelId": null,
+          "kind": "screening"
+        },
+        {
           "day": null,
           "dayName": null,
           "start": null,
@@ -2178,7 +2189,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cinci oportunități destinate elevilor, al căror termen-limită pentru înregistrare expiră în luna noiembrie",
+          "title": "1.500 de elevi de clasa a IX-a din Chișinău vor urma lecții suplimentare gratuite de pregătire pentru examenul la matematică",
           "filler": false,
           "news": true
         },
@@ -2187,7 +2198,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să ajungi la Riga? Înscrie-te la un dialog național despre combaterea dezinformării",
+          "title": "De ce sunt anulate unele rezultate la examenele auto și ce încălcări sunt depistate cel mai des",
           "filler": false,
           "news": true
         },
@@ -2196,7 +2207,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce este gaslightingul și cum se manifestă într-o relație",
+          "title": "A fost lansată linia electrică Vulcănești-Chișinău. Moldova își reduce dependența de infrastructura transnistreană",
           "filler": false,
           "news": true
         },
@@ -2205,7 +2216,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce spune MEC și cum răspunde DGETS în cazul concursului pentru funcția de director al Liceului „Academia Copiilor”",
+          "title": "(video) Între grădiniță, lecții și lemne de foc. Un tată din Mărăndeni își crește singur cei patru copii",
           "filler": false,
           "news": true
         },
@@ -2214,7 +2225,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să testezi cunoștințele într-o competiție? Înscrie-te la Night Quiz",
+          "title": "Elevii din Chișinău vor avea zi scurtă vineri, 20 noiembrie. Care este motivul",
           "filler": false,
           "news": true
         },
@@ -2223,7 +2234,34 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ai făcut voluntariat în 2026? Poți câștiga până la 30.000 de lei la Festivalul Voluntarilor",
+          "title": "De la Chapel Hill la Chișinău: studente din SUA au explorat farmacia din Republica Moldova la USMF „Nicolae Testemițanu”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Șase evenimente la care să-ți petreci serile lui Brumar în săptămâna 9-15 noiembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Este normal să simt durere și să sângerez la primul sex? Cu ce explicații vine o medică obstetriciană-ginecologă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ce le este interzis profesorilor în relația cu părinții, conform Codului de etică",
           "filler": false,
           "news": true
         },
@@ -2336,7 +2374,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "VIDEO // Filmul „2438 KM sau Toate drumurile duc la Roma”, în curând în cinematografe. Regizorul Sergiu Prodan: „O comedie la care se plânge”",
+          "title": "FOTO // Biblioteca Națională digitalizează inventarierea colecțiilor cu ajutorul tehnologiei de identificare automată",
           "filler": false,
           "news": true
         },
@@ -2345,7 +2383,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Astra Film revine Chișinău: trei zile de povești reale pe marele ecran",
+          "title": "FOTO // Sărbătoarea tradițională „Kasîm”, celebrată la Ceadîr-Lunga prin expoziții, meșteșuguri și muzică",
           "filler": false,
           "news": true
         },
@@ -2354,7 +2392,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "GALERIE FOTO // Personalitatea lui Emil Loteanu, evocată la 90 de ani",
+          "title": "GALERIE FOTO // ClassFest 2026, deschis la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2363,7 +2401,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // „Ultimul romantic al filmului nostru”. Moștenirea cinematografică a regizorului Emil Loteanu, evocată de cineaști",
+          "title": "FOTO // Chișinăul găzduiește cea de-a XV-a ediție „ClassFest Acting Lab”: teatru, experiment și dialog internațional",
           "filler": false,
           "news": true
         },
@@ -2372,7 +2410,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Igor Grosu la 60 de ani de la fondarea formației „Noroc”: „Este un adevărat simbol al neamului nostru”",
+          "title": "FOTO // Volumul „Asaltul limitelor”, o incursiune în viața și creația Eugeniei Bulat, lansat la Biblioteca Națională",
           "filler": false,
           "news": true
         },
@@ -2435,6 +2473,51 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "VIDEO // Filmul „2438 KM sau Toate drumurile duc la Roma”, în curând în cinematografe. Regizorul Sergiu Prodan: „O comedie la care se plânge”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Astra Film revine Chișinău: trei zile de povești reale pe marele ecran",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Personalitatea lui Emil Loteanu, evocată la 90 de ani",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // „Ultimul romantic al filmului nostru”. Moștenirea cinematografică a regizorului Emil Loteanu, evocată de cineaști",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Igor Grosu la 60 de ani de la fondarea formației „Noroc”: „Este un adevărat simbol al neamului nostru”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // Raportul de activitate al Guvernului în primele 100 de zile. Dan Suruceanu: „Construim un sector cultural modern, ancorat în valorile și interesele noastre naționale”",
           "filler": false,
           "news": true
@@ -2463,6 +2546,15 @@
           "start": null,
           "end": null,
           "title": "Nota lui Vasile Tofan pentru Guvernul pe care îl conduce: De ce nu și-a acordat un calificativ mai mare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2508,15 +2600,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Biblioteca „Lesia Ukrainka”, redeschisă după renovare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2652,42 +2735,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Casa Națională din Nisporeni, un secol de istorie și tradiție culturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Gheorghe Mustea va susține concerte în opt localități din țară, cu ocazia împlinirii a 75 de ani",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Leonida Lari, una dintre vocile mișcării de renaștere națională",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Memoria victimelor foametei organizate din 1946–1947, evocată la Avdarma",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Monumentul istoric Casa Bodescu din Bălți, restaurat cu sprijinul Guvernului",
           "filler": false,
           "news": true
         },
