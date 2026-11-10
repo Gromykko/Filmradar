@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-10T11:43:47.866Z",
-  "updatedAtLocal": "10 nov. 2026, 13:43",
+  "updatedAt": "2026-11-10T19:39:59.209Z",
+  "updatedAtLocal": "10 nov. 2026, 21:39",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2313,43 +2313,43 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Parcursul european al Republicii Moldova și restaurarea patrimoniului, discutate de Marta Kos și Mitropolitul Vladimir",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Comisara Marta Kos s-a întâlnit cu Mitropolitul Basarabiei. Discuțiile au vizat libertatea religioasă, reparațiile istorice și cooperarea socială",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cristofor Aldea-Teodorovici, în vizită la Consulatul General al Republicii Moldova la Barcelona: „Sperăm să fie și începutul unor frumoase colaborări și proiecte comune”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Elon Musk dezvăluit”, filmul care deschide Astra Film Chișinău. Ce include programul celor trei zile de festival",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Biblioteca Națională explorează soluții digitale pentru modernizarea inventarierii colecțiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Sărbătoarea tradițională „Kasîm”, celebrată la Ceadîr-Lunga prin expoziții, meșteșuguri și muzică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // ClassFest 2026, deschis la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Chișinăul găzduiește cea de-a XV-a ediție „ClassFest Acting Lab”: teatru, experiment și dialog internațional",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Volumul „Asaltul limitelor”, o incursiune în viața și creația Eugeniei Bulat, lansat la Biblioteca Națională",
           "filler": false,
           "news": true
         },
@@ -2412,6 +2412,42 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Sărbătoarea tradițională „Kasîm”, celebrată la Ceadîr-Lunga prin expoziții, meșteșuguri și muzică",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // ClassFest 2026, deschis la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Chișinăul găzduiește cea de-a XV-a ediție „ClassFest Acting Lab”: teatru, experiment și dialog internațional",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Volumul „Asaltul limitelor”, o incursiune în viața și creația Eugeniei Bulat, lansat la Biblioteca Națională",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // Filmul „2438 KM sau Toate drumurile duc la Roma”, în curând în cinematografe. Regizorul Sergiu Prodan: „O comedie la care se plânge”",
           "filler": false,
           "news": true
@@ -2457,6 +2493,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "VIDEO // Raportul de activitate al Guvernului în primele 100 de zile. Dan Suruceanu: „Construim un sector cultural modern, ancorat în valorile și interesele noastre naționale”",
           "filler": false,
           "news": true
@@ -2485,15 +2530,6 @@
           "start": null,
           "end": null,
           "title": "Nota lui Vasile Tofan pentru Guvernul pe care îl conduce: De ce nu și-a acordat un calificativ mai mare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2638,42 +2674,6 @@
           "start": null,
           "end": null,
           "title": "Teatrul Național „Mihai Eminescu”, pe scenele Europei: patru festivaluri internaționale și un nou spectacol despre jurnalismul de investigație",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Doina și Ion Aldea-Teodorovici, comemorați la 34 de ani de la trecerea în eternitate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Premierul Vasile Tofan propune ca anul 2027 să fie declarat „Anul Ion și Doina Aldea-Teodorovici”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul Național „Mihai Eminescu”, aplauze în Grecia. Petru Hadârcă: „Am lăsat o amprentă bună și o sete de a reveni”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Casa Națională din Nisporeni, un secol de istorie și tradiție culturală",
           "filler": false,
           "news": true
         },
