@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-10T03:29:25.557Z",
-  "updatedAtLocal": "10 nov. 2026, 05:29",
+  "updatedAt": "2026-11-10T11:43:47.866Z",
+  "updatedAtLocal": "10 nov. 2026, 13:43",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2025,17 +2025,6 @@
       "stale": false,
       "slots": [
         {
-          "day": 5,
-          "dayName": "vineri",
-          "start": null,
-          "end": null,
-          "title": "Nicolae Testemițanu",
-          "filler": false,
-          "announcement": true,
-          "channelId": null,
-          "kind": "screening"
-        },
-        {
           "day": null,
           "dayName": null,
           "start": null,
@@ -2139,6 +2128,69 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Elevii susțin în premieră testări tematice la biologie, chimie și fizică. Cum arată testele din anii precedenți",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "(petiție) Lista femeilor ale căror busturi ar putea să apară pe Aleea Clasicilor. Inițiatorii vor să adune 500 de semnături",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Când vor avea loc examenele de bac în România în anul de studii 2026/2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Sancțiune disciplinară pentru o remarcă cu caracter sexual adresate unei eleve. Ce recomandă Consiliul de Etică școlilor",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Încheierea negocierilor de aderare la începutul anului 2028.” Ce spune Marta Kos despre progresele Moldovei privind integrarea în UE",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cinci oportunități destinate studenților, al căror termen-limită pentru înregistrare expiră în luna noiembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Pregătește întreaga familie pentru sezonul rece: geci de iarnă, costume călduroase și articole termice",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "1.500 de elevi de clasa a IX-a din Chișinău vor urma lecții suplimentare gratuite de pregătire pentru examenul la matematică",
           "filler": false,
           "news": true
@@ -2149,69 +2201,6 @@
           "start": null,
           "end": null,
           "title": "De ce sunt anulate unele rezultate la examenele auto și ce încălcări sunt depistate cel mai des",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "A fost lansată linia electrică Vulcănești-Chișinău. Moldova își reduce dependența de infrastructura transnistreană",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "(video) Între grădiniță, lecții și lemne de foc. Un tată din Mărăndeni își crește singur cei patru copii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Elevii din Chișinău vor avea zi scurtă vineri, 20 noiembrie. Care este motivul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "De la Chapel Hill la Chișinău: studente din SUA au explorat farmacia din Republica Moldova la USMF „Nicolae Testemițanu”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Șase evenimente la care să-ți petreci serile lui Brumar în săptămâna 9-15 noiembrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Este normal să simt durere și să sângerez la primul sex? Cu ce explicații vine o medică obstetriciană-ginecologă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ce le este interzis profesorilor în relația cu părinții, conform Codului de etică",
           "filler": false,
           "news": true
         },
@@ -2324,7 +2313,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Biblioteca Națională digitalizează inventarierea colecțiilor cu ajutorul tehnologiei de identificare automată",
+          "title": "FOTO // Biblioteca Națională explorează soluții digitale pentru modernizarea inventarierii colecțiilor",
           "filler": false,
           "news": true
         },
