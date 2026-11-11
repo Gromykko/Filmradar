@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T07:09:54.915Z",
-  "updatedAtLocal": "11 nov. 2026, 09:09",
+  "updatedAt": "2026-11-11T15:35:49.157Z",
+  "updatedAtLocal": "11 nov. 2026, 17:35",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2393,6 +2393,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Premieră la Teatrul „Satiricus”: „Îmblânzirea scorpiei”, o montare modernă după Shakespeare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Shakespeare, într-o nouă montare la Teatrul „Satiricus”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Parcursul european al Republicii Moldova și restaurarea patrimoniului, discutate de Marta Kos și Mitropolitul Vladimir",
           "filler": false,
           "news": true
@@ -2412,24 +2430,6 @@
           "start": null,
           "end": null,
           "title": "Cristofor Aldea-Teodorovici, în vizită la Consulatul General al Republicii Moldova la Barcelona: „Sperăm să fie și începutul unor frumoase colaborări și proiecte comune”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Elon Musk dezvăluit”, filmul care deschide Astra Film Chișinău. Ce include programul celor trei zile de festival",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Biblioteca Națională explorează soluții digitale pentru modernizarea inventarierii colecțiilor",
           "filler": false,
           "news": true
         },
@@ -2484,6 +2484,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Elon Musk dezvăluit”, filmul care deschide Astra Film Chișinău. Ce include programul celor trei zile de festival",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Biblioteca Națională explorează soluții digitale pentru modernizarea inventarierii colecțiilor",
           "filler": false,
           "news": true
         },
@@ -2555,6 +2573,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // „Ultimul romantic al filmului nostru”. Moștenirea cinematografică a regizorului Emil Loteanu, evocată de cineaști",
           "filler": false,
           "news": true
@@ -2565,15 +2592,6 @@
           "start": null,
           "end": null,
           "title": "Igor Grosu la 60 de ani de la fondarea formației „Noroc”: „Este un adevărat simbol al neamului nostru”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2736,24 +2754,6 @@
           "start": null,
           "end": null,
           "title": "Nicolae Guțu transformă lemnul în bijuterii și obiecte de uz casnic",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "INTERVIU MOLDPRES // Petru Hadârcă: „Teatrul are menirea să promoveze valorile democratice, europene, valorile unei lumi libere. Teatrul este un pilon în educarea societății”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Teatrul Național „Mihai Eminescu”, pe scenele Europei: patru festivaluri internaționale și un nou spectacol despre jurnalismul de investigație",
           "filler": false,
           "news": true
         },
