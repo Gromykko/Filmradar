@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T22:15:52.030Z",
-  "updatedAtLocal": "12 nov. 2026, 00:15",
+  "updatedAt": "2026-11-12T03:19:38.688Z",
+  "updatedAtLocal": "12 nov. 2026, 05:19",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -18,9 +18,9 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "00:00",
-          "end": "06:00",
-          "title": "REVIZIE TEHNICĂ",
+          "start": "01:52",
+          "end": "03:50",
+          "title": "Bună dimineața!",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -28,8 +28,28 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "06:00",
-          "end": "06:02",
+          "start": "03:50",
+          "end": "05:15",
+          "title": "Live studio. Program de divertisment",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-12"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "05:15",
+          "end": "05:58",
+          "title": "Mesager. Program informativ + știri sportive",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-12"
+        },
+        {
+          "day": 4,
+          "dayName": "joi",
+          "start": "05:58",
+          "end": "06:00",
           "title": "Deschiderea stației",
           "filler": false,
           "dayAssumed": true,
@@ -38,7 +58,7 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "06:02",
+          "start": "06:00",
           "end": "06:50",
           "title": "În context",
           "filler": false,
@@ -189,8 +209,8 @@
           "day": 4,
           "dayName": "joi",
           "start": "10:00",
-          "end": "10:25",
-          "title": "Departe /Aproape",
+          "end": "10:28",
+          "title": "Moldova de patrimoniu",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -198,7 +218,7 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "10:25",
+          "start": "10:28",
           "end": "10:30",
           "title": "PUBLICITATE",
           "filler": true,
@@ -250,7 +270,7 @@
           "dayName": "joi",
           "start": "12:00",
           "end": "12:55",
-          "title": "Pe față. Talk-show politic",
+          "title": "EU și UE",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -289,8 +309,8 @@
           "day": 4,
           "dayName": "joi",
           "start": "13:45",
-          "end": "14:00",
-          "title": "Romano drom",
+          "end": "14:10",
+          "title": "ЩоTижневик. Săptămânal (ucr.)",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -298,18 +318,8 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "14:00",
-          "end": "14:12",
-          "title": "Reporter. DW. Germania",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-12"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
-          "start": "14:12",
-          "end": "14:16",
+          "start": "14:10",
+          "end": "14:15",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
@@ -318,9 +328,9 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "14:16",
+          "start": "14:15",
           "end": "15:00",
-          "title": "Spitalul Santa Rosa. Serial romance. Columbia, 2022. Ep. 261",
+          "title": "Spitalul Santa Rosa. Serial romance. Columbia, 2022. Ep. 262",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -350,7 +360,7 @@
           "dayName": "joi",
           "start": "15:15",
           "end": "16:00",
-          "title": "Spitalul Santa Rosa. Serial romance. Columbia, 2022. Ep. 262",
+          "title": "Spitalul Santa Rosa. Serial romance. Columbia, 2022. Ep. 263",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -360,7 +370,7 @@
           "dayName": "joi",
           "start": "16:00",
           "end": "16:50",
-          "title": "Dehesa: pădurea linxului iberic.",
+          "title": "Dehesa: pădurea linxului iberic. Documentar.",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -418,7 +428,7 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "18:05",
+          "start": "18:06",
           "end": "18:55",
           "title": "Live studio. Program de divertisment",
           "filler": false,
@@ -480,7 +490,7 @@
           "dayName": "joi",
           "start": "20:00",
           "end": "20:55",
-          "title": "EU și UE",
+          "title": "Bună seara cu Mircea Surdu!",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -530,7 +540,7 @@
           "dayName": "joi",
           "start": "21:50",
           "end": "22:42",
-          "title": "Faith. Dramă. Marea Britanie, 2023. ep. 19",
+          "title": "Faith. Dramă. Marea Britanie, 2023. ep. 20",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -549,7 +559,7 @@
           "day": 4,
           "dayName": "joi",
           "start": "22:45",
-          "end": "23:10",
+          "end": "23:15",
           "title": "Știri externe (Glavnoe) (ru)",
           "filler": false,
           "dayAssumed": true,
@@ -558,19 +568,9 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "23:10",
-          "end": "23:55",
-          "title": "La noi în sat",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-12"
-        },
-        {
-          "day": 4,
-          "dayName": "joi",
           "start": "23:15",
-          "end": "00:00",
-          "title": "Arena sportivă",
+          "end": "23:45",
+          "title": "Made in Germany. DW. Germania",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
@@ -578,9 +578,9 @@
         {
           "day": 4,
           "dayName": "joi",
-          "start": "23:55",
-          "end": "01:52",
-          "title": "Giuseppe Verdi, opera „Traviata”",
+          "start": "23:45",
+          "end": "00:30",
+          "title": "Arta seducției. Documentar. Autentic. Germania, 2023. Ep. 2",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-12"
