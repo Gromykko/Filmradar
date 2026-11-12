@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T03:19:38.688Z",
-  "updatedAtLocal": "12 nov. 2026, 05:19",
+  "updatedAt": "2026-11-12T11:47:47.733Z",
+  "updatedAtLocal": "12 nov. 2026, 13:47",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2393,7 +2393,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Scriitorul austriac Thomas Glavinic, la Chișinău: O întâlnire despre puterea literaturii de a explora realitatea",
+          "title": "Ministerul Culturii lansează concursul pentru Premiile anuale în domeniul culturii. Dosarele pot fi depuse până pe 15 decembrie",
           "filler": false,
           "news": true
         },
@@ -2402,7 +2402,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Premieră la Teatrul „Satiricus”: „Îmblânzirea scorpiei”, o montare modernă după Shakespeare",
+          "title": "Astra Film Chișinău s-a deschis cu documentarul „Elon Musk dezvăluit”, despre culisele companiei Tesla",
           "filler": false,
           "news": true
         },
@@ -2411,7 +2411,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "GALERIE FOTO // Shakespeare, într-o nouă montare la Teatrul „Satiricus”",
+          "title": "MOLDOX 2026: 40 de filme documentare și cinci zile de dezbateri",
           "filler": false,
           "news": true
         },
@@ -2420,7 +2420,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Parcursul european al Republicii Moldova și restaurarea patrimoniului, discutate de Marta Kos și Mitropolitul Vladimir",
+          "title": "FOTO // LitFilm și-a încheiat cea de-a III-a ediție. Opt scenarii, prezentate producătorilor și regizorilor",
           "filler": false,
           "news": true
         },
@@ -2429,7 +2429,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Comisara Marta Kos s-a întâlnit cu Mitropolitul Basarabiei. Discuțiile au vizat libertatea religioasă, reparațiile istorice și cooperarea socială",
+          "title": "Festivalul Internațional de Muzică „J.S. Bach” începe astăzi la Chișinău. Programul evenimentelor",
           "filler": false,
           "news": true
         },
@@ -2492,6 +2492,51 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Scriitorul austriac Thomas Glavinic, la Chișinău: O întâlnire despre puterea literaturii de a explora realitatea",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Premieră la Teatrul „Satiricus”: „Îmblânzirea scorpiei”, o montare modernă după Shakespeare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // Shakespeare, într-o nouă montare la Teatrul „Satiricus”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Parcursul european al Republicii Moldova și restaurarea patrimoniului, discutate de Marta Kos și Mitropolitul Vladimir",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Comisara Marta Kos s-a întâlnit cu Mitropolitul Basarabiei. Discuțiile au vizat libertatea religioasă, reparațiile istorice și cooperarea socială",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cristofor Aldea-Teodorovici, în vizită la Consulatul General al Republicii Moldova la Barcelona: „Sperăm să fie și începutul unor frumoase colaborări și proiecte comune”",
           "filler": false,
           "news": true
@@ -2520,6 +2565,15 @@
           "start": null,
           "end": null,
           "title": "FOTO // Sărbătoarea tradițională „Kasîm”, celebrată la Ceadîr-Lunga prin expoziții, meșteșuguri și muzică",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2565,15 +2619,6 @@
           "start": null,
           "end": null,
           "title": "Astra Film revine Chișinău: trei zile de povești reale pe marele ecran",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2709,51 +2754,6 @@
           "start": null,
           "end": null,
           "title": "Cronica ARHIVELOR // Leonora Romanescu, nume de referință în arta plastică și restaurarea operelor de artă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” revine la Chișinău cu 15 spectacole",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Patrimoniul cultural, descoperit prin experiența specialiștilor și vizite de studiu",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // „Caiete Documentare”: România și Republica Moldova, împreună pe drumul european – un volum semnat de 90 de autori, lansat la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Arhitectura Chișinăului interbelic, prezentată publicului din Iași prin două expoziții",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Conacul Pommer din Țaul și două clădiri istorice din Chișinău vor fi restaurate",
           "filler": false,
           "news": true
         },
