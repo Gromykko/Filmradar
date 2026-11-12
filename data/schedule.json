@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T11:47:47.733Z",
-  "updatedAtLocal": "12 nov. 2026, 13:47",
+  "updatedAt": "2026-11-12T19:51:00.485Z",
+  "updatedAtLocal": "12 nov. 2026, 21:50",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2127,6 +2127,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "A început depunerea dosarelor pentru Premiile în domeniul culturii. Cum poți candida la cele 18 categorii",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "(foto) Un beci a fost descoperit la Leova în timpul reconstrucției trotuarelor",
           "filler": false,
           "news": true
@@ -2199,7 +2208,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un covor țesut de o moldoveancă deportată în Siberia împreună cu cei șase copii ai săi se regăsește acum la Muzeul Național de Etnografie",
+          "title": "Vrei să schimbi ceva în localitatea ta? Participă la un hackathon de două zile și găsește soluții alături de alți tineri",
           "filler": false,
           "news": true
         },
@@ -2208,7 +2217,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Elevii susțin în premieră testări tematice la biologie, chimie și fizică. Cum arată testele din anii precedenți",
+          "title": "USM, laureată a peste 200 de medalii de aur în 2026, și-a celebrat excelența în cercetare la Gala Performanței",
           "filler": false,
           "news": true
         },
@@ -2217,7 +2226,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(petiție) Lista femeilor ale căror busturi ar putea să apară pe Aleea Clasicilor. Inițiatorii vor să adune 500 de semnături",
+          "title": "(video) O persoană a fost reținută pentru colectarea de informații în interesul serviciilor ruse",
           "filler": false,
           "news": true
         },
@@ -2226,7 +2235,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Când vor avea loc examenele de bac în România în anul de studii 2026/2027",
+          "title": "Un troleibuz a fost cuprins de fum în centrul Chișinăului. Cât de des este verificat sistemul de încălzire al transportului public",
           "filler": false,
           "news": true
         },
@@ -2235,7 +2244,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Sancțiune disciplinară pentru o remarcă cu caracter sexual adresate unei eleve. Ce recomandă Consiliul de Etică școlilor",
+          "title": "Povestea „Notei 10” ajunge la Chișinău: o expoziție-eveniment dedicată Nadiei Comăneci la Palatul Republicii",
           "filler": false,
           "news": true
         },
@@ -2244,7 +2253,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Încheierea negocierilor de aderare la începutul anului 2028.” Ce spune Marta Kos despre progresele Moldovei privind integrarea în UE",
+          "title": "Tinerii pot participa la un dialog cu ministrul sănătății, Alexandru Gasnaș. Cum te înscrii",
           "filler": false,
           "news": true
         },
@@ -2253,7 +2262,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cinci oportunități destinate studenților, al căror termen-limită pentru înregistrare expiră în luna noiembrie",
+          "title": "Digitalizarea și inovațiile în stomatologie, subiectul Congresului Asociației Stomatologilor din Republica Moldova",
           "filler": false,
           "news": true
         },
@@ -2262,25 +2271,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Pregătește întreaga familie pentru sezonul rece: geci de iarnă, costume călduroase și articole termice",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "1.500 de elevi de clasa a IX-a din Chișinău vor urma lecții suplimentare gratuite de pregătire pentru examenul la matematică",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "De ce sunt anulate unele rezultate la examenele auto și ce încălcări sunt depistate cel mai des",
+          "title": "(doc) Guvernul a aprobat o nouă lege a salarizării. Cum vor crește veniturile bugetarilor",
           "filler": false,
           "news": true
         },
@@ -2393,6 +2384,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Biblioteca „Lesia Ukrainka”, un spațiu de sprijin pentru copiii refugiați din Ucraina la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Ministerul Culturii lansează concursul pentru Premiile anuale în domeniul culturii. Dosarele pot fi depuse până pe 15 decembrie",
           "filler": false,
           "news": true
@@ -2421,15 +2421,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // LitFilm și-a încheiat cea de-a III-a ediție. Opt scenarii, prezentate producătorilor și regizorilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Internațional de Muzică „J.S. Bach” începe astăzi la Chișinău. Programul evenimentelor",
           "filler": false,
           "news": true
         },
@@ -2484,6 +2475,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul Internațional de Muzică „J.S. Bach” începe astăzi la Chișinău. Programul evenimentelor",
           "filler": false,
           "news": true
         },
@@ -2564,7 +2564,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Sărbătoarea tradițională „Kasîm”, celebrată la Ceadîr-Lunga prin expoziții, meșteșuguri și muzică",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2573,7 +2573,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Sărbătoarea tradițională „Kasîm”, celebrată la Ceadîr-Lunga prin expoziții, meșteșuguri și muzică",
           "filler": false,
           "news": true
         },
@@ -2745,15 +2745,6 @@
           "start": null,
           "end": null,
           "title": "Personalitatea cineastului Emil Loteanu, evocată la Muzeul de Istorie a Orașului Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cronica ARHIVELOR // Leonora Romanescu, nume de referință în arta plastică și restaurarea operelor de artă",
           "filler": false,
           "news": true
         },
