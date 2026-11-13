@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T07:51:56.723Z",
-  "updatedAtLocal": "13 nov. 2026, 09:51",
+  "updatedAt": "2026-11-13T16:14:19.501Z",
+  "updatedAtLocal": "13 nov. 2026, 18:13",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2067,6 +2067,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Silent Reading Party la Teatru. Ia-ți cartea preferată și citește în liniște alături de alți pasionați de lectură",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Artiști din 38 de țări la Chișinău. Când se va desfășura prima ediție a BIENNALE „RENAISSANCE”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "A început depunerea dosarelor pentru Premiile în domeniul culturii. Cum poți candida la cele 18 categorii",
           "filler": false,
           "news": true
@@ -2130,7 +2148,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Au fost anunțați câștigătorii Premiului Național 2026. Cine sunt cetățenii care vor primi câte 100.000 de lei",
+          "title": "Ce rezultate au obținut sportivii și sportivele din Republica Moldova la Jocurile Olimpice de Tineret de la Dakar 2026",
           "filler": false,
           "news": true
         },
@@ -2139,7 +2157,16 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "SKILLET ajunge pentru prima dată la Chișinău, în cadrul turneului european „After the Storm”",
+          "title": "Un nou capitol pentru brandul austriac de suplimente BITONIC. Ce se află în spatele noii imagini",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "ONU oferă trei premii pentru promovarea drepturilor omului în Moldova. Cine poate fi nominalizat și cum aplici",
           "filler": false,
           "news": true
         },
@@ -2167,51 +2194,6 @@
           "start": null,
           "end": null,
           "title": "(video) O persoană a fost reținută pentru colectarea de informații în interesul serviciilor ruse",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Un troleibuz a fost cuprins de fum în centrul Chișinăului. Cât de des este verificat sistemul de încălzire al transportului public",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Povestea „Notei 10” ajunge la Chișinău: o expoziție-eveniment dedicată Nadiei Comăneci la Palatul Republicii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Tinerii pot participa la un dialog cu ministrul sănătății, Alexandru Gasnaș. Cum te înscrii",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Digitalizarea și inovațiile în stomatologie, subiectul Congresului Asociației Stomatologilor din Republica Moldova",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "(doc) Guvernul a aprobat o nouă lege a salarizării. Cum vor crește veniturile bugetarilor",
           "filler": false,
           "news": true
         },
@@ -2324,6 +2306,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Includerea Moldovei în programul destinațiilor turistice ale Chinei, discutată de ambasadorul Petru Frunze cu oficialii chinezi",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Biblioteca „Lesia Ukrainka”, un spațiu de sprijin pentru copiii refugiați din Ucraina la Chișinău",
           "filler": false,
           "news": true
@@ -2352,15 +2343,6 @@
           "start": null,
           "end": null,
           "title": "MOLDOX 2026: 40 de filme documentare și cinci zile de dezbateri",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // LitFilm și-a încheiat cea de-a III-a ediție. Opt scenarii, prezentate producătorilor și regizorilor",
           "filler": false,
           "news": true
         },
@@ -2415,6 +2397,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // LitFilm și-a încheiat cea de-a III-a ediție. Opt scenarii, prezentate producătorilor și regizorilor",
           "filler": false,
           "news": true
         },
@@ -2495,7 +2486,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Biblioteca Națională explorează soluții digitale pentru modernizarea inventarierii colecțiilor",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2504,7 +2495,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Biblioteca Națională explorează soluții digitale pentru modernizarea inventarierii colecțiilor",
           "filler": false,
           "news": true
         },
@@ -2676,15 +2667,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Moștenirea artistică a lui Emil Loteanu, evocată la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Personalitatea cineastului Emil Loteanu, evocată la Muzeul de Istorie a Orașului Chișinău",
           "filler": false,
           "news": true
         },
