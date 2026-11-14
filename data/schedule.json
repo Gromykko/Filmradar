@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T10:13:39.408Z",
-  "updatedAtLocal": "14 nov. 2026, 12:13",
+  "updatedAt": "2026-11-14T16:43:07.177Z",
+  "updatedAtLocal": "14 nov. 2026, 18:42",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1957,6 +1957,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "A fost anunțat programul Festivalului Internațional de Teatru Contemporan „Andrei Vartic” 2026. Ce evenimente vor avea loc",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Silent Reading Party la Teatru. Ia-ți cartea preferată și citește în liniște alături de alți pasionați de lectură",
           "filler": false,
           "news": true
@@ -2029,7 +2038,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Te pasionează pianul? Înscrie-te la Concursul Național „Lia Oxinoit”",
+          "title": "Adolescentul tău nu știe ce profesie să aleagă? Poți afla cum să-l ghidezi la evenimentul tematic „Adunarea Părinților”",
           "filler": false,
           "news": true
         },
@@ -2038,7 +2047,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce rezultate au obținut sportivii și sportivele din Republica Moldova la Jocurile Olimpice de Tineret de la Dakar 2026",
+          "title": "Cum îți poți ajuta copilul să se adapteze mai ușor la grădiniță",
           "filler": false,
           "news": true
         },
@@ -2047,7 +2056,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un nou capitol pentru brandul austriac de suplimente BITONIC. Ce se află în spatele noii imagini",
+          "title": "Programul InnoDays 2026: experți internaționali și produse rezultate din cercetare, în prim-plan pe 19 noiembrie",
           "filler": false,
           "news": true
         },
@@ -2056,7 +2065,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "ONU oferă trei premii pentru promovarea drepturilor omului în Moldova. Cine poate fi nominalizat și cum aplici",
+          "title": "Elevele și elevii vor putea candida individual pentru un loc în loturile naționale de fete și juniori la matematică și informatică",
           "filler": false,
           "news": true
         },
@@ -2065,7 +2074,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vrei să schimbi ceva în localitatea ta? Participă la un hackathon de două zile și găsește soluții alături de alți tineri",
+          "title": "Argint la Campionatul Național Universitar de Volei pentru selecționata ASEM",
           "filler": false,
           "news": true
         },
@@ -2074,7 +2083,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "USM, laureată a peste 200 de medalii de aur în 2026, și-a celebrat excelența în cercetare la Gala Performanței",
+          "title": "Moldcell aduce în Republica Moldova trei premii GOLD și un BRONZE de la International Customer Experience Awards 2026",
           "filler": false,
           "news": true
         },
@@ -2083,7 +2092,16 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(video) O persoană a fost reținută pentru colectarea de informații în interesul serviciilor ruse",
+          "title": "Cum vor fi acordate sporurile de performanță profesorilor din 2027. MEC pregătește noi reguli",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Câți tineri candidează la alegerile din UTA Găgăuzia și de la ce vârstă poți fi bașcan",
           "filler": false,
           "news": true
         },
