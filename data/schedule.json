@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T07:55:04.745Z",
-  "updatedAtLocal": "16 nov. 2026, 09:54",
+  "updatedAt": "2026-11-16T18:24:51.212Z",
+  "updatedAtLocal": "16 nov. 2026, 20:24",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2147,6 +2147,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "La Chișinău va fi lansată o carte dedicată cinematografiei documentare. Accesul la eveniment este gratuit",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "A fost anunțat programul Festivalului Internațional de Teatru Contemporan „Andrei Vartic” 2026. Ce evenimente vor avea loc",
           "filler": false,
           "news": true
@@ -2219,7 +2228,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Organizațiile culturale din Moldova pot obține finanțare pentru a găzdui artiști din străinătate",
+          "title": "Ce planuri ai pentru săptămâna viitoare? Îți recomandăm câteva evenimente la care să mergi în săptămâna 16-22 noiembrie",
           "filler": false,
           "news": true
         },
@@ -2228,7 +2237,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Adolescentul tău nu știe ce profesie să aleagă? Poți afla cum să-l ghidezi la evenimentul tematic „Adunarea Părinților”",
+          "title": "Pentru ce poți fi amendat(ă) în transportul public și care este valoarea sancțiunii",
           "filler": false,
           "news": true
         },
@@ -2237,7 +2246,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum îți poți ajuta copilul să se adapteze mai ușor la grădiniță",
+          "title": "Ce sporuri lunare vor primi profesorii în funcție de gradul didactic și pentru deținerea unui titlu științific",
           "filler": false,
           "news": true
         },
@@ -2246,7 +2255,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Programul InnoDays 2026: experți internaționali și produse rezultate din cercetare, în prim-plan pe 19 noiembrie",
+          "title": "Cine poate învăța la un liceu republican și câte instituții de acest fel avem în Moldova",
           "filler": false,
           "news": true
         },
@@ -2255,7 +2264,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Elevele și elevii vor putea candida individual pentru un loc în loturile naționale de fete și juniori la matematică și informatică",
+          "title": "BAC 2027: ce teste au rezolvat elevii la limba și literatura română din ultimii șase ani",
           "filler": false,
           "news": true
         },
@@ -2264,7 +2273,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Argint la Campionatul Național Universitar de Volei pentru selecționata ASEM",
+          "title": "Se va încălzi sau vom avea ploi? Cum va fi vremea în perioada 16-21 noiembrie",
           "filler": false,
           "news": true
         },
@@ -2273,7 +2282,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Moldcell aduce în Republica Moldova trei premii GOLD și un BRONZE de la International Customer Experience Awards 2026",
+          "title": "Locuitorii din UTA Găgăuzia își aleg astăzi, 15 noiembrie, bașcanul și deputații Adunării Populare",
           "filler": false,
           "news": true
         },
@@ -2282,16 +2291,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum vor fi acordate sporurile de performanță profesorilor din 2027. MEC pregătește noi reguli",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Câți tineri candidează la alegerile din UTA Găgăuzia și de la ce vârstă poți fi bașcan",
+          "title": "Doi frați din Moldova au realizat un joc educațional pentru copii, bazat pe abecedar",
           "filler": false,
           "news": true
         },
@@ -2404,6 +2404,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Au început înscrierile pentru Eurovision 2027. Artiștii se pot înregistra până pe 11 decembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Includerea Moldovei în programul destinațiilor turistice ale Chinei, discutată de ambasadorul Petru Frunze cu oficialii chinezi",
           "filler": false,
           "news": true
@@ -2432,15 +2441,6 @@
           "start": null,
           "end": null,
           "title": "Astra Film Chișinău s-a deschis cu documentarul „Elon Musk dezvăluit”, despre culisele companiei Tesla",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "MOLDOX 2026: 40 de filme documentare și cinci zile de dezbateri",
           "filler": false,
           "news": true
         },
@@ -2495,6 +2495,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "MOLDOX 2026: 40 de filme documentare și cinci zile de dezbateri",
           "filler": false,
           "news": true
         },
@@ -2575,7 +2584,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "„Elon Musk dezvăluit”, filmul care deschide Astra Film Chișinău. Ce include programul celor trei zile de festival",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2584,7 +2593,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "„Elon Musk dezvăluit”, filmul care deschide Astra Film Chișinău. Ce include programul celor trei zile de festival",
           "filler": false,
           "news": true
         },
@@ -2756,15 +2765,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Biblioteca „Lesia Ukrainka”, redeschisă după renovare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Moștenirea artistică a lui Emil Loteanu, evocată la Chișinău",
           "filler": false,
           "news": true
         },
