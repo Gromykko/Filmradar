@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T02:03:51.012Z",
-  "updatedAtLocal": "17 nov. 2026, 04:03",
+  "updatedAt": "2026-11-17T10:38:41.534Z",
+  "updatedAtLocal": "17 nov. 2026, 12:38",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1307,6 +1307,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Top scaune de masă de buget pentru bebeluşi din magazinul Mamico",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | Cărucior pentru copii: ce tip alegeţi după vârsta copilului",
           "filler": false,
           "news": true
@@ -1326,15 +1335,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL | Zdrobitor manual sau electric: care este diferenţa dintre ele",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Evacuator EVAX Chişinău: Cum alegi serviciul potrivit?",
           "filler": false,
           "news": true
         },
@@ -1420,6 +1420,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "ADVERTORIAL | Top scaune de masă de buget pentru bebeluşi din magazinul Mamico",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "ADVERTORIAL | Cărucior pentru copii: ce tip alegeţi după vârsta copilului",
           "filler": false,
           "news": true
@@ -1466,15 +1475,6 @@
           "start": null,
           "end": null,
           "title": "ADVERTORIAL | De ce este important solul, pe înţelesul copiilor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ADVERTORIAL | Zbor.md – partenerul tău de încredere în lumea biletelor de avion ieftine",
           "filler": false,
           "news": true
         },
@@ -2197,6 +2197,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "„Ce noroc că sunt Român!”. Pe 1 decembrie, la Chișinău va avea loc un spectacol muzical dedicat Zilei Naționale a României",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "La Chișinău va fi lansată o carte dedicată cinematografiei documentare. Accesul la eveniment este gratuit",
           "filler": false,
           "news": true
@@ -2269,7 +2278,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Adolescenții din diaspora se pot înscrie la tabăra de iarnă „DOR de Tradiții”. Programul include excursii și ateliere de meșteșugărit",
+          "title": "Cum am putea reduce analfabetismul funcțional printre elevii din Moldova și ce-ar putea schimba profesorii în modul în care se predă la școală",
           "filler": false,
           "news": true
         },
@@ -2278,7 +2287,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce planuri ai pentru săptămâna viitoare? Îți recomandăm câteva evenimente la care să mergi în săptămâna 16-22 noiembrie",
+          "title": "Cum s-a desfășurat cea de-a cincea ediție Empower Locals. Antreprenorii au avut ocazia să cunoască potențiali parteneri",
           "filler": false,
           "news": true
         },
@@ -2287,7 +2296,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Pentru ce poți fi amendat(ă) în transportul public și care este valoarea sancțiunii",
+          "title": "Au început înscrierile la Eurovision 2027. Artiștii și artistele din Moldova pot depune piesele pentru selecția națională",
           "filler": false,
           "news": true
         },
@@ -2296,7 +2305,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ce sporuri lunare vor primi profesorii în funcție de gradul didactic și pentru deținerea unui titlu științific",
+          "title": "Peste 70 de cercetători din cinci țări, reuniți la USM în cadrul Conferinței „Latinitate, Romanitate, Românitate”",
           "filler": false,
           "news": true
         },
@@ -2305,7 +2314,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cine poate învăța la un liceu republican și câte instituții de acest fel avem în Moldova",
+          "title": "A crescut numărul specializărilor pentru care elevii vor susține examene în baza unor teste unice. Care sunt noile programe",
           "filler": false,
           "news": true
         },
@@ -2314,7 +2323,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "BAC 2027: ce teste au rezolvat elevii la limba și literatura română din ultimii șase ani",
+          "title": "Echipele de volei ale USMF „Nicolae Testemițanu” au devenit campioane la două competiții",
           "filler": false,
           "news": true
         },
@@ -2323,7 +2332,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Se va încălzi sau vom avea ploi? Cum va fi vremea în perioada 16-21 noiembrie",
+          "title": "Maib se alătură Săptămânii Internaționale de Conștientizare a Fraudelor",
           "filler": false,
           "news": true
         },
@@ -2332,16 +2341,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Locuitorii din UTA Găgăuzia își aleg astăzi, 15 noiembrie, bașcanul și deputații Adunării Populare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Doi frați din Moldova au realizat un joc educațional pentru copii, bazat pe abecedar",
+          "title": "PC gaming de Black Friday: ce placă video și ce monitor alegi",
           "filler": false,
           "news": true
         },
@@ -2454,6 +2454,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "DOC // Un bust al poetului găgăuz Piotr Moise va fi instalat la Comrat. Ordinul Ministerului Culturii, publicat în Monitorul Oficial",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "CRONICA ARHIVELOR // Magda Isanos, poeta care a transformat sensibilitatea în versuri și a lăsat o operă literară remarcabilă",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Au început înscrierile pentru Eurovision 2027. Artiștii se pot înregistra până pe 11 decembrie",
           "filler": false,
           "news": true
@@ -2473,24 +2491,6 @@
           "start": null,
           "end": null,
           "title": "Biblioteca „Lesia Ukrainka”, un spațiu de sprijin pentru copiii refugiați din Ucraina la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Ministerul Culturii lansează concursul pentru Premiile anuale în domeniul culturii. Dosarele pot fi depuse până pe 15 decembrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Astra Film Chișinău s-a deschis cu documentarul „Elon Musk dezvăluit”, despre culisele companiei Tesla",
           "filler": false,
           "news": true
         },
@@ -2545,6 +2545,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ministerul Culturii lansează concursul pentru Premiile anuale în domeniul culturii. Dosarele pot fi depuse până pe 15 decembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Astra Film Chișinău s-a deschis cu documentarul „Elon Musk dezvăluit”, despre culisele companiei Tesla",
           "filler": false,
           "news": true
         },
@@ -2616,6 +2634,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Comisara Marta Kos s-a întâlnit cu Mitropolitul Basarabiei. Discuțiile au vizat libertatea religioasă, reparațiile istorice și cooperarea socială",
           "filler": false,
           "news": true
@@ -2626,15 +2653,6 @@
           "start": null,
           "end": null,
           "title": "Cristofor Aldea-Teodorovici, în vizită la Consulatul General al Republicii Moldova la Barcelona: „Sperăm să fie și începutul unor frumoase colaborări și proiecte comune”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2797,24 +2815,6 @@
           "start": null,
           "end": null,
           "title": "Zonele de protecție a monumentelor istorice, discutate cu mediul de afaceri și arhitecții. Ministerul Culturii pregătește o nouă lege",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Formația „Noroc” – 60 de ani de șlagăre, muzică și istorie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Biblioteca „Lesia Ukrainka”, redeschisă după renovare",
           "filler": false,
           "news": true
         },
