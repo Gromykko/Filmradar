@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T10:38:41.534Z",
-  "updatedAtLocal": "17 nov. 2026, 12:38",
+  "updatedAt": "2026-11-17T19:47:19.484Z",
+  "updatedAtLocal": "17 nov. 2026, 21:46",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2197,6 +2197,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "(video) Tinerii și tinerele din raionul Edineț, în centrul celui de-al treilea episod „Direcția: NORD”. Cu ce se ocupă și ce visuri au",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Tradiția șezătorii și cusutul covorului din Văleni au fost prezentate în cadrul unui eveniment internațional",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Ce noroc că sunt Român!”. Pe 1 decembrie, la Chișinău va avea loc un spectacol muzical dedicat Zilei Naționale a României",
           "filler": false,
           "news": true
@@ -2260,7 +2278,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Nu știi ce carte să mai citești? Deschide „cotor space”, platforma care te ajută să găsești prieteni de lectură în Chișinău",
+          "title": "Elevii și studenții pot vizita gratuit mai multe instituții publice și media din Moldova. Care e programul și cum te poți înscrie",
           "filler": false,
           "news": true
         },
@@ -2269,7 +2287,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ești student(ă) și îți place să scrii scenarii de film? Participă la concursul CineMAscris 2026 și câștigă 280 de euro",
+          "title": "ONU cere Republicii Moldova să asigure protecție mamelor copiilor cu dizabilități care sunt victime ale violenței",
           "filler": false,
           "news": true
         },
@@ -2278,7 +2296,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum am putea reduce analfabetismul funcțional printre elevii din Moldova și ce-ar putea schimba profesorii în modul în care se predă la școală",
+          "title": "Maib – intermediar financiar la primele emisiuni de obligațiuni corporative ale companiilor de stat",
           "filler": false,
           "news": true
         },
@@ -2287,7 +2305,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cum s-a desfășurat cea de-a cincea ediție Empower Locals. Antreprenorii au avut ocazia să cunoască potențiali parteneri",
+          "title": "Profesorii de română din școlile cu predare în rusă vor susține o evaluare a competențelor lingvistice. Care este scopul",
           "filler": false,
           "news": true
         },
@@ -2296,7 +2314,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Au început înscrierile la Eurovision 2027. Artiștii și artistele din Moldova pot depune piesele pentru selecția națională",
+          "title": "Premii de până la 5.000 de lei pentru jurnaliștii care vor publica materiale despre USMF. Cum participi la concurs",
           "filler": false,
           "news": true
         },
@@ -2305,7 +2323,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Peste 70 de cercetători din cinci țări, reuniți la USM în cadrul Conferinței „Latinitate, Romanitate, Românitate”",
+          "title": "Universitatea de Stat din Moldova celebrează Ziua Mondială a Filosofiei UNESCO prin „Săptămâna Filosofiei la USM”",
           "filler": false,
           "news": true
         },
@@ -2314,34 +2332,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "A crescut numărul specializărilor pentru care elevii vor susține examene în baza unor teste unice. Care sunt noile programe",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Echipele de volei ale USMF „Nicolae Testemițanu” au devenit campioane la două competiții",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Maib se alătură Săptămânii Internaționale de Conștientizare a Fraudelor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "PC gaming de Black Friday: ce placă video și ce monitor alegi",
+          "title": "Endometrioza – o provocare medicală abordată interdisciplinar",
           "filler": false,
           "news": true
         },
@@ -2454,6 +2445,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Cărți din Republica Moldova vor completa colecția Bibliotecii Parlamentului European. Victor Negrescu: „Limba română, cultura și valorile europene ne unesc”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "DOC // Un bust al poetului găgăuz Piotr Moise va fi instalat la Comrat. Ordinul Ministerului Culturii, publicat în Monitorul Oficial",
           "filler": false,
           "news": true
@@ -2482,15 +2482,6 @@
           "start": null,
           "end": null,
           "title": "Includerea Moldovei în programul destinațiilor turistice ale Chinei, discutată de ambasadorul Petru Frunze cu oficialii chinezi",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Biblioteca „Lesia Ukrainka”, un spațiu de sprijin pentru copiii refugiați din Ucraina la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2545,6 +2536,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Biblioteca „Lesia Ukrainka”, un spațiu de sprijin pentru copiii refugiați din Ucraina la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2625,7 +2625,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "FOTO // Parcursul european al Republicii Moldova și restaurarea patrimoniului, discutate de Marta Kos și Mitropolitul Vladimir",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2634,7 +2634,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "FOTO // Parcursul european al Republicii Moldova și restaurarea patrimoniului, discutate de Marta Kos și Mitropolitul Vladimir",
           "filler": false,
           "news": true
         },
@@ -2806,15 +2806,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Cultura Cucuteni, redescoperită la Muzeul din Călărași printr-o dioramă 3D și tehnologii VR",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zonele de protecție a monumentelor istorice, discutate cu mediul de afaceri și arhitecții. Ministerul Culturii pregătește o nouă lege",
           "filler": false,
           "news": true
         },
