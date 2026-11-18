@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T10:40:54.753Z",
-  "updatedAtLocal": "18 nov. 2026, 12:40",
+  "updatedAt": "2026-11-18T19:22:55.062Z",
+  "updatedAtLocal": "18 nov. 2026, 21:22",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2117,6 +2117,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "A fost aprobat Programul pentru susținerea populației de etnie romă din Moldova. Care sunt principalele obiective ale proiectului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "(video) Tinerii și tinerele din raionul Edineț, în centrul celui de-al treilea episod „Direcția: NORD”. Cu ce se ocupă și ce visuri au",
           "filler": false,
           "news": true
@@ -2189,7 +2198,52 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(foto) Un beci a fost descoperit la Leova în timpul reconstrucției trotuarelor",
+          "title": "Un plan pentru viitor: locuitorii satului Speia își fac vocea auzită",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Evaluarea externă a studiilor superioare de doctorat în domeniile stomatologie și farmacie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cum alegi ochelarii de brand cadou fără să greșești măsura sau dioptria: ghidul Pro Optic pentru surprize memorabile",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Federațiile sportive din Moldova vor fi finanțate în funcție de performanțe. Care este bugetul alocat pentru anul 2027",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Educație pentru viitor: ce le oferă Startup101 Academy tinerilor din țară și din diaspora",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Bugetul de stat pentru anul 2027 a fost aprobat. Salariul mediu lunar urmează să crească la 18.800 de lei",
           "filler": false,
           "news": true
         },
@@ -2199,60 +2253,6 @@
           "start": null,
           "end": null,
           "title": "De la cercetare la politici publice. Recomandările de la InnoDays 2026 vor contribui la viitorul program pentru antreprenoriat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Elevii și studenții pot vizita gratuit mai multe instituții publice și media din Moldova. Care e programul și cum te poți înscrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "ONU cere Republicii Moldova să asigure protecție mamelor copiilor cu dizabilități care sunt victime ale violenței",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Maib – intermediar financiar la primele emisiuni de obligațiuni corporative ale companiilor de stat",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Profesorii de română din școlile cu predare în rusă vor susține o evaluare a competențelor lingvistice. Care este scopul",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Premii de până la 5.000 de lei pentru jurnaliștii care vor publica materiale despre USMF. Cum participi la concurs",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Universitatea de Stat din Moldova celebrează Ziua Mondială a Filosofiei UNESCO prin „Săptămâna Filosofiei la USM”",
           "filler": false,
           "news": true
         },
