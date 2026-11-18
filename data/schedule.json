@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T02:22:47.248Z",
-  "updatedAtLocal": "18 nov. 2026, 04:22",
+  "updatedAt": "2026-11-18T10:40:54.753Z",
+  "updatedAtLocal": "18 nov. 2026, 12:40",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2198,6 +2198,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "De la cercetare la politici publice. Recomandările de la InnoDays 2026 vor contribui la viitorul program pentru antreprenoriat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Elevii și studenții pot vizita gratuit mai multe instituții publice și media din Moldova. Care e programul și cum te poți înscrie",
           "filler": false,
           "news": true
@@ -2244,15 +2253,6 @@
           "start": null,
           "end": null,
           "title": "Universitatea de Stat din Moldova celebrează Ziua Mondială a Filosofiei UNESCO prin „Săptămâna Filosofiei la USM”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Endometrioza – o provocare medicală abordată interdisciplinar",
           "filler": false,
           "news": true
         },
@@ -2365,6 +2365,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” s-a deschis la Chișinău cu un spectacol inspirat din opera lui Soljenițîn",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Expoziția „O călătorie în tropice”, inaugurată la Muzeul Național de Etnografie și Istorie Naturală",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Cărți din Republica Moldova vor completa colecția Bibliotecii Parlamentului European. Victor Negrescu: „Limba română, cultura și valorile europene ne unesc”",
           "filler": false,
           "news": true
@@ -2384,24 +2402,6 @@
           "start": null,
           "end": null,
           "title": "CRONICA ARHIVELOR // Magda Isanos, poeta care a transformat sensibilitatea în versuri și a lăsat o operă literară remarcabilă",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Au început înscrierile pentru Eurovision 2027. Artiștii se pot înregistra până pe 11 decembrie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Includerea Moldovei în programul destinațiilor turistice ale Chinei, discutată de ambasadorul Petru Frunze cu oficialii chinezi",
           "filler": false,
           "news": true
         },
@@ -2456,6 +2456,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Au început înscrierile pentru Eurovision 2027. Artiștii se pot înregistra până pe 11 decembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Includerea Moldovei în programul destinațiilor turistice ale Chinei, discutată de ambasadorul Petru Frunze cu oficialii chinezi",
           "filler": false,
           "news": true
         },
@@ -2527,6 +2545,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Premieră la Teatrul „Satiricus”: „Îmblânzirea scorpiei”, o montare modernă după Shakespeare",
           "filler": false,
           "news": true
@@ -2537,15 +2564,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Shakespeare, într-o nouă montare la Teatrul „Satiricus”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2708,24 +2726,6 @@
           "start": null,
           "end": null,
           "title": "Nota lui Vasile Tofan pentru Guvernul pe care îl conduce: De ce nu și-a acordat un calificativ mai mare",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Salonul Național de Arte Contemporane: 85 de artiști plastici prezintă 85 de opere",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Cultura Cucuteni, redescoperită la Muzeul din Călărași printr-o dioramă 3D și tehnologii VR",
           "filler": false,
           "news": true
         },
