@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T01:27:53.125Z",
-  "updatedAtLocal": "19 nov. 2026, 03:27",
+  "updatedAt": "2026-11-19T09:27:56.231Z",
+  "updatedAtLocal": "19 nov. 2026, 11:27",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2268,6 +2268,60 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Învață engleza cu ajutorul AI. A fost lansat un manual digital interactiv",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Ești lucrător de tineret? Participă la un training Erasmus+ în Polonia",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Vei auzi mai puține anunțuri la Aeroportul din Chișinău. Ce informații nu vor mai răsuna în terminal",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Rezistența la antimicrobiene: de ce este nevoie de eforturi comune pentru protejarea sănătății oamenilor, animalelor și mediului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "#SuperCoders 2026: 2.483 de elevi, părinți și profesori din 61 de școli au învățat despre inteligența artificială și siguranța online",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "A fost finalizat programul de formare în domeniul tehnologiilor digitale și al inteligenței artificiale la USM",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Un plan pentru viitor: locuitorii satului Speia își fac vocea auzită",
           "filler": false,
           "news": true
@@ -2278,51 +2332,6 @@
           "start": null,
           "end": null,
           "title": "Evaluarea externă a studiilor superioare de doctorat în domeniile stomatologie și farmacie",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cum alegi ochelarii de brand cadou fără să greșești măsura sau dioptria: ghidul Pro Optic pentru surprize memorabile",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Federațiile sportive din Moldova vor fi finanțate în funcție de performanțe. Care este bugetul alocat pentru anul 2027",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Educație pentru viitor: ce le oferă Startup101 Academy tinerilor din țară și din diaspora",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Bugetul de stat pentru anul 2027 a fost aprobat. Salariul mediu lunar urmează să crească la 18.800 de lei",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "De la cercetare la politici publice. Recomandările de la InnoDays 2026 vor contribui la viitorul program pentru antreprenoriat",
           "filler": false,
           "news": true
         },
