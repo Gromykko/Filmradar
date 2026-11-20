@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20T01:13:34.996Z",
-  "updatedAtLocal": "20 nov. 2026, 03:13",
+  "updatedAt": "2026-11-20T09:08:33.504Z",
+  "updatedAtLocal": "20 nov. 2026, 11:08",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2414,6 +2414,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Zilele Filmului Ucrainean revin la Chișinău cu patru producții cinematografice",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” s-a deschis la Chișinău cu un spectacol inspirat din opera lui Soljenițîn",
           "filler": false,
           "news": true
@@ -2442,15 +2451,6 @@
           "start": null,
           "end": null,
           "title": "DOC // Un bust al poetului găgăuz Piotr Moise va fi instalat la Comrat. Ordinul Ministerului Culturii, publicat în Monitorul Oficial",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "CRONICA ARHIVELOR // Magda Isanos, poeta care a transformat sensibilitatea în versuri și a lăsat o operă literară remarcabilă",
           "filler": false,
           "news": true
         },
@@ -2505,6 +2505,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "CRONICA ARHIVELOR // Magda Isanos, poeta care a transformat sensibilitatea în versuri și a lăsat o operă literară remarcabilă",
           "filler": false,
           "news": true
         },
@@ -2585,7 +2594,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Scriitorul austriac Thomas Glavinic, la Chișinău: O întâlnire despre puterea literaturii de a explora realitatea",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2594,7 +2603,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Scriitorul austriac Thomas Glavinic, la Chișinău: O întâlnire despre puterea literaturii de a explora realitatea",
           "filler": false,
           "news": true
         },
@@ -2766,15 +2775,6 @@
           "start": null,
           "end": null,
           "title": "Președinta Maia Sandu, la concertul formației „Noroc”: „A ținut vie limba română și demnitatea unei generații care și-a câștigat independența”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Nota lui Vasile Tofan pentru Guvernul pe care îl conduce: De ce nu și-a acordat un calificativ mai mare",
           "filler": false,
           "news": true
         },
