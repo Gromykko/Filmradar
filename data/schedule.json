@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20T09:08:33.504Z",
-  "updatedAtLocal": "20 nov. 2026, 11:08",
+  "updatedAt": "2026-11-20T17:59:18.426Z",
+  "updatedAtLocal": "20 nov. 2026, 19:59",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2414,6 +2414,24 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "GALERIE FOTO // O călătorie în lumea poveștilor chineze, la Chișinău",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Povești populare chineze”, lansate în limba română la Chișinău. Ambasadoarea Dong Zhihua: „Copiii vor simți farmecul culturii chineze”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Zilele Filmului Ucrainean revin la Chișinău cu patru producții cinematografice",
           "filler": false,
           "news": true
@@ -2433,24 +2451,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Expoziția „O călătorie în tropice”, inaugurată la Muzeul Național de Etnografie și Istorie Naturală",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Cărți din Republica Moldova vor completa colecția Bibliotecii Parlamentului European. Victor Negrescu: „Limba română, cultura și valorile europene ne unesc”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "DOC // Un bust al poetului găgăuz Piotr Moise va fi instalat la Comrat. Ordinul Ministerului Culturii, publicat în Monitorul Oficial",
           "filler": false,
           "news": true
         },
@@ -2505,6 +2505,24 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Cărți din Republica Moldova vor completa colecția Bibliotecii Parlamentului European. Victor Negrescu: „Limba română, cultura și valorile europene ne unesc”",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "DOC // Un bust al poetului găgăuz Piotr Moise va fi instalat la Comrat. Ordinul Ministerului Culturii, publicat în Monitorul Oficial",
           "filler": false,
           "news": true
         },
@@ -2576,6 +2594,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Banca Națională a Moldovei",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // LitFilm și-a încheiat cea de-a III-a ediție. Opt scenarii, prezentate producătorilor și regizorilor",
           "filler": false,
           "news": true
@@ -2586,15 +2613,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Internațional de Muzică „J.S. Bach” începe astăzi la Chișinău. Programul evenimentelor",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2757,24 +2775,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // Raportul de activitate al Guvernului în primele 100 de zile. Dan Suruceanu: „Construim un sector cultural modern, ancorat în valorile și interesele noastre naționale”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Marele Emil Loteanu, în fotocronica MOLDPRES: Imagini rare de pe platourile de filmare la 90 de ani de la naștere",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Președinta Maia Sandu, la concertul formației „Noroc”: „A ținut vie limba română și demnitatea unei generații care și-a câștigat independența”",
           "filler": false,
           "news": true
         },
