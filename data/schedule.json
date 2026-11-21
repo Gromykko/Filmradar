@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21T15:17:21.258Z",
-  "updatedAtLocal": "21 nov. 2026, 17:17",
+  "updatedAt": "2026-11-21T21:06:29.368Z",
+  "updatedAtLocal": "21 nov. 2026, 23:06",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2294,6 +2294,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "„Comunitatea mea #FărăDiscriminare”: Elevi din 24 de localități au participat la concursul național de povești inspiraționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Mașinăria Cehov”, spectacol cu intrare liberă pentru studenți, elevi și persoane cu dizabilități",
           "filler": false,
           "news": true
@@ -2322,15 +2331,6 @@
           "start": null,
           "end": null,
           "title": "Zilele Filmului Ucrainean revin la Chișinău cu patru producții cinematografice",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” s-a deschis la Chișinău cu un spectacol inspirat din opera lui Soljenițîn",
           "filler": false,
           "news": true
         },
@@ -2385,6 +2385,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” s-a deschis la Chișinău cu un spectacol inspirat din opera lui Soljenițîn",
           "filler": false,
           "news": true
         },
@@ -2465,7 +2474,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Astra Film Chișinău s-a deschis cu documentarul „Elon Musk dezvăluit”, despre culisele companiei Tesla",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2474,7 +2483,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Astra Film Chișinău s-a deschis cu documentarul „Elon Musk dezvăluit”, despre culisele companiei Tesla",
           "filler": false,
           "news": true
         },
@@ -2646,15 +2655,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // „Ultimul romantic al filmului nostru”. Moștenirea cinematografică a regizorului Emil Loteanu, evocată de cineaști",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Igor Grosu la 60 de ani de la fondarea formației „Noroc”: „Este un adevărat simbol al neamului nostru”",
           "filler": false,
           "news": true
         },
