@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21T06:57:31.735Z",
-  "updatedAtLocal": "21 nov. 2026, 08:57",
+  "updatedAt": "2026-11-21T15:17:21.258Z",
+  "updatedAtLocal": "21 nov. 2026, 17:17",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2294,6 +2294,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "„Mașinăria Cehov”, spectacol cu intrare liberă pentru studenți, elevi și persoane cu dizabilități",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // O călătorie în lumea poveștilor chineze, la Chișinău",
           "filler": false,
           "news": true
@@ -2322,15 +2331,6 @@
           "start": null,
           "end": null,
           "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” s-a deschis la Chișinău cu un spectacol inspirat din opera lui Soljenițîn",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Expoziția „O călătorie în tropice”, inaugurată la Muzeul Național de Etnografie și Istorie Naturală",
           "filler": false,
           "news": true
         },
@@ -2385,6 +2385,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "FOTO // Expoziția „O călătorie în tropice”, inaugurată la Muzeul Național de Etnografie și Istorie Naturală",
           "filler": false,
           "news": true
         },
@@ -2465,7 +2474,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "MOLDOX 2026: 40 de filme documentare și cinci zile de dezbateri",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2474,7 +2483,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "MOLDOX 2026: 40 de filme documentare și cinci zile de dezbateri",
           "filler": false,
           "news": true
         },
@@ -2646,15 +2655,6 @@
           "start": null,
           "end": null,
           "title": "Igor Grosu la 60 de ani de la fondarea formației „Noroc”: „Este un adevărat simbol al neamului nostru”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "VIDEO // Raportul de activitate al Guvernului în primele 100 de zile. Dan Suruceanu: „Construim un sector cultural modern, ancorat în valorile și interesele noastre naționale”",
           "filler": false,
           "news": true
         },
