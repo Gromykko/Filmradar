@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T17:05:00.984Z",
-  "updatedAtLocal": "22 nov. 2026, 19:04",
+  "updatedAt": "2026-11-22T22:27:09.398Z",
+  "updatedAtLocal": "23 nov. 2026, 00:26",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -16,514 +16,634 @@
       "stale": false,
       "slots": [
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "02:10",
-          "end": "02:50",
-          "title": "La noi în sat",
+          "day": 1,
+          "dayName": "luni",
+          "start": "01:32",
+          "end": "02:14",
+          "title": "Pagini din cadrul Festivalului Crescendo. Ludwig van Beethoven: Concertul Nr. 5",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "02:50",
-          "end": "03:20",
-          "title": "În ritm de dans",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-22"
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "03:20",
+          "day": 1,
+          "dayName": "luni",
+          "start": "02:14",
           "end": "03:50",
-          "title": "Stil nou",
+          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "03:50",
           "end": "05:15",
           "title": "Live studio. Program de divertisment",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "05:15",
           "end": "05:58",
-          "title": "Mesager. Program informativ + știri sportive",
+          "title": "Mesager. Program informativ+știri sportive",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "05:58",
           "end": "06:00",
-          "title": "Deschiderea stației",
+          "title": "Deschiderea staţiei",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "06:00",
-          "end": "06:55",
-          "title": "Live studio. Program de divertisment",
+          "end": "06:20",
+          "title": "Pagini de colecție. Creații naționale și universale.",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
+          "start": "06:20",
+          "end": "06:50",
+          "title": "С другой стороны",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "06:50",
+          "end": "06:55",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
           "start": "06:55",
           "end": "07:00",
-          "title": "PUBLICITATE",
-          "filler": true,
+          "title": "Bună Dimineața!",
+          "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "07:00",
-          "end": "07:30",
-          "title": "Live studio. Program de divertisment",
+          "end": "07:10",
+          "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "07:30",
-          "end": "07:40",
-          "title": "Să luăm aminte",
+          "day": 1,
+          "dayName": "luni",
+          "start": "07:10",
+          "end": "07:17",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "07:17",
+          "end": "08:00",
+          "title": "Bună Dimineața!",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "07:40",
-          "end": "08:25",
-          "title": "Cuvintele credinței",
+          "day": 1,
+          "dayName": "luni",
+          "start": "08:00",
+          "end": "08:10",
+          "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "08:25",
+          "day": 1,
+          "dayName": "luni",
+          "start": "08:10",
+          "end": "08:17",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "08:17",
           "end": "08:30",
-          "title": "PUBLICITATE",
-          "filler": true,
+          "title": "Bună Dimineața!",
+          "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "08:30",
+          "end": "08:35",
+          "title": "Știri sportive",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "08:35",
+          "end": "08:55",
+          "title": "Bună Dimineața!",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "08:55",
           "end": "09:00",
-          "title": "Moldova de patrimoniu",
-          "filler": false,
+          "title": "PUBLICITATE",
+          "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "09:00",
-          "end": "09:29",
-          "title": "Zuper show",
+          "end": "09:10",
+          "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "09:29",
-          "end": "09:30",
+          "day": 1,
+          "dayName": "luni",
+          "start": "09:10",
+          "end": "09:17",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "09:30",
-          "end": "09:57",
-          "title": "Magazinul copiilor(2)",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-22"
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "09:57",
+          "day": 1,
+          "dayName": "luni",
+          "start": "09:17",
           "end": "10:00",
-          "title": "PUBLICITATE",
-          "filler": true,
+          "title": "Zi de bine -magazin utilitar!",
+          "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "10:00",
-          "end": "10:53",
-          "title": "Gorila vestică de câmpie . Documentar. Germania, 2019.Ep.1",
+          "end": "10:30",
+          "title": "Dimensiunea diplomatică",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "10:53",
-          "end": "10:57",
-          "title": "Filler. Lumea sălbatică. DW. Germania. Ep.11.12",
+          "day": 1,
+          "dayName": "luni",
+          "start": "10:30",
+          "end": "11:22",
+          "title": "Prin muzică în Europa",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "10:57",
-          "end": "11:00",
+          "day": 1,
+          "dayName": "luni",
+          "start": "11:22",
+          "end": "11:27",
+          "title": "Codul vestimentar.DW. Germania. Ep.7,12",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "11:27",
+          "end": "11:30",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "11:00",
-          "end": "11:50",
-          "title": "O seară în familie",
+          "day": 1,
+          "dayName": "luni",
+          "start": "11:30",
+          "end": "11:57",
+          "title": "Reporter pentru sănătate",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "11:50",
-          "end": "11:55",
-          "title": "Filler. Reguli de nutriție(11)",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-22"
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "11:55",
+          "day": 1,
+          "dayName": "luni",
+          "start": "11:57",
           "end": "12:00",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "12:00",
+          "end": "12:52",
+          "title": "Frumusețea urâțeniilor: Atuurile dizgrației . Documentar. Franța,2021",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "12:52",
+          "end": "12:56",
+          "title": "Filler. Reguli de nutriție.Ep.8",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "12:56",
+          "end": "13:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "13:00",
           "end": "13:30",
-          "title": "Zi de bine -magazin utilitar!",
+          "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "13:30",
-          "end": "13:56",
-          "title": "La drum. DW:Germania",
+          "end": "13:45",
+          "title": "Știri sportive",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "13:56",
-          "end": "14:00",
+          "day": 1,
+          "dayName": "luni",
+          "start": "13:45",
+          "end": "14:08",
+          "title": "Casă comună",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "14:08",
+          "end": "14:12",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:00",
-          "end": "14:40",
-          "title": "Pământ și oameni.",
+          "day": 1,
+          "dayName": "luni",
+          "start": "14:12",
+          "end": "14:55",
+          "title": "Spitalul Santa Rosa.Serial romance. Columbia, 2022 Ep.269",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:40",
-          "end": "14:45",
+          "day": 1,
+          "dayName": "luni",
+          "start": "14:55",
+          "end": "15:00",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "14:45",
-          "end": "15:15",
-          "title": "Tezaur",
+          "day": 1,
+          "dayName": "luni",
+          "start": "15:00",
+          "end": "15:10",
+          "title": "Știri pe scurt",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "15:15",
-          "end": "15:20",
+          "day": 1,
+          "dayName": "luni",
+          "start": "15:10",
+          "end": "15:12",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "15:20",
-          "end": "16:55",
-          "title": "Tribute. Aplauze la scena deschisă. Program de divertisment.",
+          "day": 1,
+          "dayName": "luni",
+          "start": "15:12",
+          "end": "15:58",
+          "title": "Spitalul Santa Rosa.Serial romance. Columbia, 2022 Ep.270",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "16:55",
+          "day": 1,
+          "dayName": "luni",
+          "start": "15:58",
+          "end": "16:00",
+          "title": "PUBLICITATE",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "16:00",
+          "end": "16:52",
+          "title": "Cordillera Cantabrică: misterele lumii sălbatice. Documentar. Germania, 2018. ep. 1",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "16:52",
+          "end": "16:57",
+          "title": "Secvențe japoneze.Arta digitală: expedierea unui mesaj de pace",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "16:57",
           "end": "17:00",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "17:00",
           "end": "17:23",
-          "title": "Departe / Aproape",
+          "title": "Știri (ru)",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "17:23",
           "end": "17:30",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "17:30",
-          "end": "17:55",
-          "title": "Focus Europa. Coproducție TRM-DW",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-22"
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "17:55",
           "end": "18:00",
-          "title": "PUBLICITATE",
-          "filler": true,
+          "title": "Live studio. Program de divertisment",
+          "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "18:00",
-          "end": "18:28",
-          "title": "Dimensiunea diplomatică",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-22"
-        },
-        {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:28",
-          "end": "18:30",
+          "end": "18:07",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:30",
-          "end": "18:55",
-          "title": "# Cultura",
+          "day": 1,
+          "dayName": "luni",
+          "start": "18:07",
+          "end": "18:54",
+          "title": "Live studio. Program de divertisment",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "18:56",
+          "day": 1,
+          "dayName": "luni",
+          "start": "18:54",
           "end": "19:00",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "19:00",
           "end": "19:10",
           "title": "Știri",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "19:10",
-          "end": "19:15",
+          "end": "19:16",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "19:15",
+          "day": 1,
+          "dayName": "luni",
+          "start": "19:16",
+          "end": "19:54",
+          "title": "În context",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "19:54",
           "end": "20:00",
-          "title": "SCANER(ru)",
-          "filler": false,
+          "title": "PUBLICITATE",
+          "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "20:00",
-          "end": "20:56",
-          "title": "Sting, un om liber. Documentar. Franța ,2019",
+          "end": "20:50",
+          "title": "Arena sportivă",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "20:55",
+          "day": 1,
+          "dayName": "luni",
+          "start": "20:50",
           "end": "21:00",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "21:00",
           "end": "21:30",
           "title": "Mesager. Program informativ",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "21:30",
           "end": "21:45",
           "title": "Știri sportive",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "21:45",
           "end": "21:50",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "21:50",
-          "end": "23:20",
-          "title": "Crizantema de Aur 2026",
+          "end": "22:34",
+          "title": "Cuba Libre. Dramă. Portugalia,2022",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "23:20",
-          "end": "23:25",
+          "day": 1,
+          "dayName": "luni",
+          "start": "22:34",
+          "end": "22:40",
           "title": "PUBLICITATE",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
-          "start": "23:25",
-          "end": "01:32",
-          "title": "Regulile nu se aplică. Comedie. SUA,2016",
+          "day": 1,
+          "dayName": "luni",
+          "start": "22:40",
+          "end": "23:10",
+          "title": "Știri externe (Glavnoe) (ru)",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "23:10",
+          "end": "23:55",
+          "title": "SCANER(ru)",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "23:55",
+          "end": "00:20",
+          "title": "Global. DW.Germania",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
         }
       ]
     },
@@ -540,424 +660,424 @@
       "stale": false,
       "slots": [
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "01:10",
           "end": "02:20",
           "title": "Concert simfonic. Pianiști din Romania",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "02:20",
           "end": "02:50",
           "title": "# Cultura. Retrospectiva",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "02:50",
           "end": "03:20",
           "title": "Identitate Basarabia. Alex Calancea",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "03:20",
           "end": "03:40",
           "title": "Proiect. Vasiluța Vasilache",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "03:40",
           "end": "05:00",
           "title": "Concert. Osmoza. Tania Cerga",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "05:00",
           "end": "05:55",
           "title": "Spectacol. Mușatinii. Bătălia",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "05:55",
           "end": "06:00",
           "title": "Necuvintele",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "05:58",
           "end": "06:00",
           "title": "Deschiderea Statiei",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "06:00",
           "end": "07:00",
           "title": "Concert. Am strâns toamnă după toamnă... P.2",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "07:00",
           "end": "07:30",
           "title": "Tezaur. Frumos covor basarabean",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "07:30",
           "end": "08:00",
           "title": "Moldova de patrimoniu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "08:00",
           "end": "08:30",
           "title": "Artelier. Portretul în artă plastică",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "08:30",
           "end": "09:00",
           "title": "Dor. Nicolae Glib",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "09:00",
           "end": "10:20",
           "title": "F.D. Șapte personaje în căutarea unui teatru",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "10:20",
           "end": "10:50",
           "title": "Portrete în timp. Mifodie Apostolov",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "10:50",
           "end": "10:55",
           "title": "Text și muzică. Geta Burlacu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "10:55",
           "end": "11:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "11:00",
           "end": "12:15",
           "title": "Spectacol. Mușatinii. Începuturile",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "12:15",
           "end": "12:35",
           "title": "SoArta. Lică Sainciuc",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "12:35",
           "end": "13:55",
           "title": "Concert. Zilele muzicii noi. Massimiliano Valenti",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "13:55",
           "end": "14:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "14:00",
           "end": "14:26",
           "title": "DW Arts",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "14:26",
           "end": "14:30",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "14:30",
           "end": "14:56",
           "title": "DW Euromaxx",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "14:56",
           "end": "15:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "15:00",
           "end": "15:25",
           "title": "Nova Ars",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "15:25",
           "end": "15:30",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "15:30",
           "end": "16:00",
           "title": "Dor. Tamara Ciobanu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "16:00",
           "end": "16:20",
           "title": "F.D. Mihail Grecu. Dincolo de culoare",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "16:20",
           "end": "16:55",
           "title": "Focucs TV. S.Pocrovca",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "16:55",
           "end": "17:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "17:00",
           "end": "18:00",
           "title": "Hai la Hora Mare",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "18:00",
           "end": "18:30",
           "title": "Tezaur",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "18:30",
           "end": "19:00",
           "title": "Moldova de patrimoniu",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "19:00",
           "end": "19:20",
           "title": "SoArta. Lică Sainciuc",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "19:20",
           "end": "19:30",
           "title": "Text și muzică. Lilian Severin. Snails",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "19:30",
           "end": "21:45",
           "title": "Telefilm prezintă: Troița",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "21:45",
           "end": "21:50",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "21:50",
           "end": "22:00",
           "title": "Text și muzică. Lilian Severin. Snails",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "22:00",
           "end": "22:54",
           "title": "F.D. Edgar Allan Poe: maestrul obscurității și al imaginației",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "22:54",
           "end": "23:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         },
         {
-          "day": 7,
-          "dayName": "duminică",
+          "day": 1,
+          "dayName": "luni",
           "start": "23:00",
           "end": "00:30",
           "title": "CirkAfrica. Spectacol",
           "filler": false,
           "dayAssumed": true,
-          "date": "2026-11-22"
+          "date": "2026-11-23"
         }
       ]
     },
