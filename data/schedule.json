@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T08:47:25.298Z",
-  "updatedAtLocal": "22 nov. 2026, 10:47",
+  "updatedAt": "2026-11-22T17:05:00.984Z",
+  "updatedAtLocal": "22 nov. 2026, 19:04",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -1967,6 +1967,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Localitățile din Moldova pot candida la titlul „Capitala Sport 2027”. Care sunt condițiile de participare",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "A fost aprobat Programul pentru susținerea populației de etnie romă din Moldova. Care sunt principalele obiective ale proiectului",
           "filler": false,
           "news": true
@@ -2039,7 +2048,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "A început depunerea dosarelor pentru Premiile în domeniul culturii. Cum poți candida la cele 18 categorii",
+          "title": "În curând vor cădea primii fulgi de zăpadă? Ce temperaturi ne așteaptă în perioada 23-29 noiembrie",
           "filler": false,
           "news": true
         },
@@ -2048,7 +2057,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Învață engleza cu ajutorul AI. A fost lansat un manual digital interactiv",
+          "title": "Te ajutăm să îți faci planuri pentru săptămâna viitoare. La ce evenimente poți merge în perioada 23-29 noiembrie",
           "filler": false,
           "news": true
         },
@@ -2057,7 +2066,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ești lucrător de tineret? Participă la un training Erasmus+ în Polonia",
+          "title": "Ministrul educației din Coreea de Sud a demisionat după un scandal de fraudă la examene. Candidații au copiat cu AI",
           "filler": false,
           "news": true
         },
@@ -2066,7 +2075,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Vei auzi mai puține anunțuri la Aeroportul din Chișinău. Ce informații nu vor mai răsuna în terminal",
+          "title": "Examenele de clasa a IX-a: am adunat testele la limba română din ultimii șase ani pentru a te ajuta să te pregătești pentru absolvire",
           "filler": false,
           "news": true
         },
@@ -2075,7 +2084,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Rezistența la antimicrobiene: de ce este nevoie de eforturi comune pentru protejarea sănătății oamenilor, animalelor și mediului",
+          "title": "BAC 2027: ce subiecte au rezolvat elevii la istorie în ultimii șase ani",
           "filler": false,
           "news": true
         },
@@ -2084,7 +2093,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "#SuperCoders 2026: 2.483 de elevi, părinți și profesori din 61 de școli au învățat despre inteligența artificială și siguranța online",
+          "title": "BAC 2027: rezolvă testele la matematică din ultimii cinci ani",
           "filler": false,
           "news": true
         },
@@ -2093,7 +2102,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "A fost finalizat programul de formare în domeniul tehnologiilor digitale și al inteligenței artificiale la USM",
+          "title": "Fără taxatori, dar cu aparate de taxare. Cum se achita călătoria în primele troleibuze din Chișinău",
           "filler": false,
           "news": true
         },
@@ -2102,16 +2111,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Un plan pentru viitor: locuitorii satului Speia își fac vocea auzită",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Evaluarea externă a studiilor superioare de doctorat în domeniile stomatologie și farmacie",
+          "title": "Examenele de clasa a IX-a: rezolvă testele la matematică din ultimii șase ani și pregătește-te pentru absolvire",
           "filler": false,
           "news": true
         },
