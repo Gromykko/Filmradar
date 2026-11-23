@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-23T03:05:09.429Z",
-  "updatedAtLocal": "23 nov. 2026, 05:04",
+  "updatedAt": "2026-11-23T12:24:00.141Z",
+  "updatedAtLocal": "23 nov. 2026, 14:23",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2157,6 +2157,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Din satele Egiptului până în Ucraina. La MOLDOX vor fi difuzate documentare despre femei care refuză să trăiască după regulile altora.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Localitățile din Moldova pot candida la titlul „Capitala Sport 2027”. Care sunt condițiile de participare",
           "filler": false,
           "news": true
@@ -2229,7 +2238,16 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Artiști din 38 de țări la Chișinău. Când se va desfășura prima ediție a BIENNALE „RENAISSANCE”",
+          "title": "Când va fi deschis Târgul de Crăciun din Piața Marii Adunări Naționale",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Schimbări la examenul de clasa a IX-a la matematică și la limba româna. Cum ar putea arăta unele exerciții din testări",
           "filler": false,
           "news": true
         },
@@ -2275,33 +2293,6 @@
           "start": null,
           "end": null,
           "title": "BAC 2027: ce subiecte au rezolvat elevii la istorie în ultimii șase ani",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "BAC 2027: rezolvă testele la matematică din ultimii cinci ani",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Fără taxatori, dar cu aparate de taxare. Cum se achita călătoria în primele troleibuze din Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Examenele de clasa a IX-a: rezolvă testele la matematică din ultimii șase ani și pregătește-te pentru absolvire",
           "filler": false,
           "news": true
         },
@@ -2414,6 +2405,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "SUB SEMNUL ARTEI // Iurie Negoită: O viață dedicată teatrului și un rol în care și-a regăsit propriul destin",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "„Comunitatea mea #FărăDiscriminare”: Elevi din 24 de localități au participat la concursul național de povești inspiraționale",
           "filler": false,
           "news": true
@@ -2442,15 +2442,6 @@
           "start": null,
           "end": null,
           "title": "„Povești populare chineze”, lansate în limba română la Chișinău. Ambasadoarea Dong Zhihua: „Copiii vor simți farmecul culturii chineze”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Zilele Filmului Ucrainean revin la Chișinău cu patru producții cinematografice",
           "filler": false,
           "news": true
         },
@@ -2505,6 +2496,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Zilele Filmului Ucrainean revin la Chișinău cu patru producții cinematografice",
           "filler": false,
           "news": true
         },
@@ -2585,7 +2585,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Ministerul Culturii lansează concursul pentru Premiile anuale în domeniul culturii. Dosarele pot fi depuse până pe 15 decembrie",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2594,7 +2594,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Ministerul Culturii lansează concursul pentru Premiile anuale în domeniul culturii. Dosarele pot fi depuse până pe 15 decembrie",
           "filler": false,
           "news": true
         },
@@ -2766,15 +2766,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Personalitatea lui Emil Loteanu, evocată la 90 de ani",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // „Ultimul romantic al filmului nostru”. Moștenirea cinematografică a regizorului Emil Loteanu, evocată de cineaști",
           "filler": false,
           "news": true
         },
