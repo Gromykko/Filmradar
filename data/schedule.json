@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T22:27:09.398Z",
-  "updatedAtLocal": "23 nov. 2026, 00:26",
+  "updatedAt": "2026-11-23T03:05:09.429Z",
+  "updatedAtLocal": "23 nov. 2026, 05:04",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -662,9 +662,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "01:10",
-          "end": "02:20",
-          "title": "Concert simfonic. Pianiști din Romania",
+          "start": "00:30",
+          "end": "01:40",
+          "title": "Concert. Zilele muzicii noi. Massimiliano Valenti",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -672,9 +672,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "02:20",
-          "end": "02:50",
-          "title": "# Cultura. Retrospectiva",
+          "start": "01:40",
+          "end": "02:45",
+          "title": "Spectacol. Mușatinii. Începuturile",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -682,9 +682,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "02:50",
-          "end": "03:20",
-          "title": "Identitate Basarabia. Alex Calancea",
+          "start": "02:45",
+          "end": "03:10",
+          "title": "Nova Ars",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -692,9 +692,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "03:20",
-          "end": "03:40",
-          "title": "Proiect. Vasiluța Vasilache",
+          "start": "03:10",
+          "end": "03:45",
+          "title": "SoArta. Lică Sainciuc",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -702,30 +702,10 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "03:40",
-          "end": "05:00",
-          "title": "Concert. Osmoza. Tania Cerga",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-23"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "start": "05:00",
-          "end": "05:55",
-          "title": "Spectacol. Mușatinii. Bătălia",
-          "filler": false,
-          "dayAssumed": true,
-          "date": "2026-11-23"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "start": "05:55",
+          "start": "03:45",
           "end": "06:00",
-          "title": "Necuvintele",
-          "filler": false,
+          "title": "Telefilm prezintă: Troița",
+          "filler": true,
           "dayAssumed": true,
           "date": "2026-11-23"
         },
@@ -744,7 +724,7 @@
           "dayName": "luni",
           "start": "06:00",
           "end": "07:00",
-          "title": "Concert. Am strâns toamnă după toamnă... P.2",
+          "title": "Hai la Hora Mare",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -754,7 +734,7 @@
           "dayName": "luni",
           "start": "07:00",
           "end": "07:30",
-          "title": "Tezaur. Frumos covor basarabean",
+          "title": "Tezaur",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -773,8 +753,18 @@
           "day": 1,
           "dayName": "luni",
           "start": "08:00",
+          "end": "08:20",
+          "title": "SoArta. Lică Sainciuc",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "08:20",
           "end": "08:30",
-          "title": "Artelier. Portretul în artă plastică",
+          "title": "Text și muzică. Nicu Țărnă",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -784,7 +774,7 @@
           "dayName": "luni",
           "start": "08:30",
           "end": "09:00",
-          "title": "Dor. Nicolae Glib",
+          "title": "Dor. Tamara Ciobanu",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -793,8 +783,8 @@
           "day": 1,
           "dayName": "luni",
           "start": "09:00",
-          "end": "10:20",
-          "title": "F.D. Șapte personaje în căutarea unui teatru",
+          "end": "09:20",
+          "title": "F.D. Mihail Grecu. Dincolo de culoare",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -802,9 +792,49 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "10:20",
+          "start": "09:20",
+          "end": "09:55",
+          "title": "Focus TV. S.Pocrovca",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "09:55",
+          "end": "10:00",
+          "title": "Necuvintele",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "10:00",
+          "end": "10:30",
+          "title": "Portrete în timp. Gheorghe Urschi",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "10:30",
+          "end": "10:35",
+          "title": "Publicitate",
+          "filler": true,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "10:35",
           "end": "10:50",
-          "title": "Portrete în timp. Mifodie Apostolov",
+          "title": "Lecturi A la carte. Claudia Balaban",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -814,7 +844,7 @@
           "dayName": "luni",
           "start": "10:50",
           "end": "10:55",
-          "title": "Text și muzică. Geta Burlacu",
+          "title": "Necuvintele",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -833,8 +863,8 @@
           "day": 1,
           "dayName": "luni",
           "start": "11:00",
-          "end": "12:15",
-          "title": "Spectacol. Mușatinii. Începuturile",
+          "end": "12:10",
+          "title": "Spectacol \"Amurgul\" P.1",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -842,9 +872,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "12:15",
-          "end": "12:35",
-          "title": "SoArta. Lică Sainciuc",
+          "start": "12:10",
+          "end": "12:40",
+          "title": "Cu noi la teatru. Liliana Cazacu și Viorel Cornescu",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -852,9 +882,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "12:35",
-          "end": "13:55",
-          "title": "Concert. Zilele muzicii noi. Massimiliano Valenti",
+          "start": "12:40",
+          "end": "12:55",
+          "title": "Proiect. Valter Țurcan",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -862,8 +892,8 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "13:55",
-          "end": "14:00",
+          "start": "12:55",
+          "end": "13:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
@@ -872,9 +902,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "14:00",
-          "end": "14:26",
-          "title": "DW Arts",
+          "start": "13:00",
+          "end": "14:10",
+          "title": "Prin muzică în Europa. Ilian Gârneț",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -882,19 +912,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "14:26",
-          "end": "14:30",
-          "title": "Publicitate",
-          "filler": true,
-          "dayAssumed": true,
-          "date": "2026-11-23"
-        },
-        {
-          "day": 1,
-          "dayName": "luni",
-          "start": "14:30",
-          "end": "14:56",
-          "title": "DW Euromaxx",
+          "start": "14:10",
+          "end": "14:55",
+          "title": "Focul din vatră. Vasile Cojocaru",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -902,7 +922,7 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "14:56",
+          "start": "14:55",
           "end": "15:00",
           "title": "Publicitate",
           "filler": true,
@@ -913,8 +933,8 @@
           "day": 1,
           "dayName": "luni",
           "start": "15:00",
-          "end": "15:25",
-          "title": "Nova Ars",
+          "end": "15:26",
+          "title": "DW Arts",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -922,7 +942,7 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "15:25",
+          "start": "15:26",
           "end": "15:30",
           "title": "Publicitate",
           "filler": true,
@@ -933,9 +953,19 @@
           "day": 1,
           "dayName": "luni",
           "start": "15:30",
-          "end": "16:00",
-          "title": "Dor. Tamara Ciobanu",
+          "end": "15:56",
+          "title": "DW Euromaxx",
           "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "15:56",
+          "end": "16:00",
+          "title": "Publicitate",
+          "filler": true,
           "dayAssumed": true,
           "date": "2026-11-23"
         },
@@ -943,8 +973,8 @@
           "day": 1,
           "dayName": "luni",
           "start": "16:00",
-          "end": "16:20",
-          "title": "F.D. Mihail Grecu. Dincolo de culoare",
+          "end": "16:50",
+          "title": "People to people Ep.1",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -952,9 +982,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "16:20",
+          "start": "16:50",
           "end": "16:55",
-          "title": "Focucs TV. S.Pocrovca",
+          "title": "Această clipă. Tăcerea peștilor",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -973,9 +1003,29 @@
           "day": 1,
           "dayName": "luni",
           "start": "17:00",
-          "end": "18:00",
-          "title": "Hai la Hora Mare",
+          "end": "17:40",
+          "title": "Evantai Folcloric. Anastasia Istrati",
           "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "17:40",
+          "end": "17:55",
+          "title": "Respiro popular",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "17:55",
+          "end": "18:00",
+          "title": "Publicitate",
+          "filler": true,
           "dayAssumed": true,
           "date": "2026-11-23"
         },
@@ -1003,8 +1053,8 @@
           "day": 1,
           "dayName": "luni",
           "start": "19:00",
-          "end": "19:20",
-          "title": "SoArta. Lică Sainciuc",
+          "end": "19:35",
+          "title": "Literatura română. Nichita Stănescu",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -1012,9 +1062,9 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "19:20",
-          "end": "19:30",
-          "title": "Text și muzică. Lilian Severin. Snails",
+          "start": "19:35",
+          "end": "19:50",
+          "title": "Lecturi A la carte. Claudia Balaban",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -1022,18 +1072,18 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "19:30",
-          "end": "21:45",
-          "title": "Telefilm prezintă: Troița",
-          "filler": true,
+          "start": "19:50",
+          "end": "19:55",
+          "title": "Necuvintele",
+          "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
         },
         {
           "day": 1,
           "dayName": "luni",
-          "start": "21:45",
-          "end": "21:50",
+          "start": "19:55",
+          "end": "20:00",
           "title": "Publicitate",
           "filler": true,
           "dayAssumed": true,
@@ -1042,9 +1092,29 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "21:50",
+          "start": "20:00",
+          "end": "20:30",
+          "title": "Artelier. Alexandru Alavațchi",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "20:30",
+          "end": "21:00",
+          "title": "Dor. Stela Mitriuc",
+          "filler": false,
+          "dayAssumed": true,
+          "date": "2026-11-23"
+        },
+        {
+          "day": 1,
+          "dayName": "luni",
+          "start": "21:00",
           "end": "22:00",
-          "title": "Text și muzică. Lilian Severin. Snails",
+          "title": "F.D. David Lynch, o enigmă a Hollywoodului",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -1053,8 +1123,8 @@
           "day": 1,
           "dayName": "luni",
           "start": "22:00",
-          "end": "22:54",
-          "title": "F.D. Edgar Allan Poe: maestrul obscurității și al imaginației",
+          "end": "23:35",
+          "title": "Spectacol \"Viața și moasrtea Mariei Tănase\"",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
@@ -1062,19 +1132,19 @@
         {
           "day": 1,
           "dayName": "luni",
-          "start": "22:54",
-          "end": "23:00",
-          "title": "Publicitate",
-          "filler": true,
+          "start": "23:35",
+          "end": "23:40",
+          "title": "Necuvintele",
+          "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
         },
         {
           "day": 1,
           "dayName": "luni",
-          "start": "23:00",
-          "end": "00:30",
-          "title": "CirkAfrica. Spectacol",
+          "start": "23:40",
+          "end": "00:40",
+          "title": "Memory Lane: Damien Rice",
           "filler": false,
           "dayAssumed": true,
           "date": "2026-11-23"
