@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T00:19:24.047Z",
-  "updatedAtLocal": "24 nov. 2026, 02:19",
+  "updatedAt": "2026-11-24T10:23:36.039Z",
+  "updatedAtLocal": "24 nov. 2026, 12:23",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2197,6 +2197,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Din Cecenia până în Palestina, Siria și Ucraina. Cinci filme despre războaiele lumii fac parte din programul MOLDOX 2026",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Urmărește două documentare despre inteligența artificială, tehnologie și adevăr la MOLDOX 2026",
           "filler": false,
           "news": true
@@ -2215,7 +2224,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Din satele Egiptului până în Ucraina. La MOLDOX vor fi difuzate documentare despre femei care refuză să trăiască după regulile altora.",
+          "title": "Din satele Egiptului până în Ucraina. La MOLDOX vor fi difuzate documentare despre femei care refuză să trăiască după regulile altora",
           "filler": false,
           "news": true
         },
@@ -2269,7 +2278,25 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "La Chișinău va fi lansată o carte dedicată cinematografiei documentare. Accesul la eveniment este gratuit",
+          "title": "Cum pot bărbații avea mai multă grijă de sănătatea lor? 10 experți vor răspunde la întrebări despre cancer, prostată și fertilitate",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Când începe repartizarea în câmpul muncii a absolvenților de rezidențiat",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Unde profesorii pot găsi modele de exerciții pentru tezele semestriale de iarnă din anul de studii 2026/2027",
           "filler": false,
           "news": true
         },
@@ -2297,42 +2324,6 @@
           "start": null,
           "end": null,
           "title": "O grădiniță din Cantemir este iluminată și se încălzește cu ajutorul panourilor fotovoltaice",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "O cină gastronomică cu specific japonez va fi organizată la Esushi. Ce preparate vor putea degusta oaspeții",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "(video) Cum arată fosta discotecă de la UPSC și ce alte locuri interesante mai găsești la universitate",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "UTM i-a conferit Elainei Marshall titlul Doctor Honoris Causa",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "A fost lansat Agrotek Park, un ecosistem pentru tehnologii agricole, cercetare și antreprenoriat",
           "filler": false,
           "news": true
         },
@@ -2445,6 +2436,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "FOTO // Pavilionul Republicii Moldova de la Bienala de la Veneția a atras aproximativ 50.000 de vizitatori",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "SUB SEMNUL ARTEI // Iurie Negoită: O viață dedicată teatrului și un rol în care și-a regăsit propriul destin",
           "filler": false,
           "news": true
@@ -2473,15 +2473,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // O călătorie în lumea poveștilor chineze, la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "„Povești populare chineze”, lansate în limba română la Chișinău. Ambasadoarea Dong Zhihua: „Copiii vor simți farmecul culturii chineze”",
           "filler": false,
           "news": true
         },
@@ -2536,6 +2527,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "„Povești populare chineze”, lansate în limba română la Chișinău. Ambasadoarea Dong Zhihua: „Copiii vor simți farmecul culturii chineze”",
           "filler": false,
           "news": true
         },
@@ -2616,7 +2616,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Biblioteca „Lesia Ukrainka”, un spațiu de sprijin pentru copiii refugiați din Ucraina la Chișinău",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2625,7 +2625,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Biblioteca „Lesia Ukrainka”, un spațiu de sprijin pentru copiii refugiați din Ucraina la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2797,15 +2797,6 @@
           "start": null,
           "end": null,
           "title": "Astra Film revine Chișinău: trei zile de povești reale pe marele ecran",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // Personalitatea lui Emil Loteanu, evocată la 90 de ani",
           "filler": false,
           "news": true
         },
