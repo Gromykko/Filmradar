@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-25T04:07:07.591Z",
-  "updatedAtLocal": "25 nov. 2026, 06:06",
+  "updatedAt": "2026-11-25T14:19:46.881Z",
+  "updatedAtLocal": "25 nov. 2026, 16:19",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2356,6 +2356,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Filmul „2438 KM sau Toate drumurile duc la Roma”, prezentat în avanpremieră publicului",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "FOTO // Pavilionul Republicii Moldova de la Bienala de la Veneția a atras aproximativ 50.000 de vizitatori",
           "filler": false,
           "news": true
@@ -2384,15 +2393,6 @@
           "start": null,
           "end": null,
           "title": "„Mașinăria Cehov”, spectacol cu intrare liberă pentru studenți, elevi și persoane cu dizabilități",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "GALERIE FOTO // O călătorie în lumea poveștilor chineze, la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2447,6 +2447,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "GALERIE FOTO // O călătorie în lumea poveștilor chineze, la Chișinău",
           "filler": false,
           "news": true
         },
@@ -2527,7 +2536,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Includerea Moldovei în programul destinațiilor turistice ale Chinei, discutată de ambasadorul Petru Frunze cu oficialii chinezi",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2536,7 +2545,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Includerea Moldovei în programul destinațiilor turistice ale Chinei, discutată de ambasadorul Petru Frunze cu oficialii chinezi",
           "filler": false,
           "news": true
         },
@@ -2708,15 +2717,6 @@
           "start": null,
           "end": null,
           "title": "VIDEO // Filmul „2438 KM sau Toate drumurile duc la Roma”, în curând în cinematografe. Regizorul Sergiu Prodan: „O comedie la care se plânge”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Astra Film revine Chișinău: trei zile de povești reale pe marele ecran",
           "filler": false,
           "news": true
         },
