@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T05:25:32.501Z",
-  "updatedAtLocal": "26 nov. 2026, 07:25",
+  "updatedAt": "2026-11-26T15:44:41.317Z",
+  "updatedAtLocal": "26 nov. 2026, 17:44",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2364,6 +2364,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "Creștinii ortodocși de stil vechi încep Postul Nașterii Domnului, care durează 40 de zile",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // Emoțiile din culisele avanpremierei filmului „2438km sau Toate drumurile duc la Roma”",
           "filler": false,
           "news": true
@@ -2392,15 +2401,6 @@
           "start": null,
           "end": null,
           "title": "FOTO // Pavilionul Republicii Moldova de la Bienala de la Veneția a atras aproximativ 50.000 de vizitatori",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "SUB SEMNUL ARTEI // Iurie Negoită: O viață dedicată teatrului și un rol în care și-a regăsit propriul destin",
           "filler": false,
           "news": true
         },
@@ -2455,6 +2455,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "SUB SEMNUL ARTEI // Iurie Negoită: O viață dedicată teatrului și un rol în care și-a regăsit propriul destin",
           "filler": false,
           "news": true
         },
@@ -2535,7 +2544,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "DOC // Un bust al poetului găgăuz Piotr Moise va fi instalat la Comrat. Ordinul Ministerului Culturii, publicat în Monitorul Oficial",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2544,7 +2553,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "DOC // Un bust al poetului găgăuz Piotr Moise va fi instalat la Comrat. Ordinul Ministerului Culturii, publicat în Monitorul Oficial",
           "filler": false,
           "news": true
         },
@@ -2716,15 +2725,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // ClassFest 2026, deschis la Chișinău",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Chișinăul găzduiește cea de-a XV-a ediție „ClassFest Acting Lab”: teatru, experiment și dialog internațional",
           "filler": false,
           "news": true
         },
