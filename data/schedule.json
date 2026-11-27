@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-27T09:01:50.239Z",
-  "updatedAtLocal": "27 nov. 2026, 11:01",
+  "updatedAt": "2026-11-27T18:53:24.310Z",
+  "updatedAtLocal": "27 nov. 2026, 20:53",
   "timezone": "Europe/Chisinau",
   "channels": [
     {
@@ -2017,6 +2017,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "„Violeta merge la Moscova”, dar trece și pe la Clubul de carte #diez și Librăriile Cartier. Când va avea loc întâlnirea din decembrie",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "Îți place să citești romane polițiste, thrillere și mistere? La Chișinău a fost lansat un club de carte dedicat acestora",
           "filler": false,
           "news": true
@@ -2089,7 +2098,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tradiția șezătorii și cusutul covorului din Văleni au fost prezentate în cadrul unui eveniment internațional",
+          "title": "Ai întrebări despre compensații și angajarea tinerilor? Participă la o întâlnire cu ministra muncii, Natalia Plugaru",
           "filler": false,
           "news": true
         },
@@ -2098,7 +2107,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Tinerii din Moldova pot beneficia de Cardul European de Tineret. Cum să-l obții și unde-l vei putea utiliza",
+          "title": "„Am venit la București să demonstrez că știu și că pot.” Cătălin Dînga, despre studenția la Medicină, la UMF „Carol Davila”",
           "filler": false,
           "news": true
         },
@@ -2107,7 +2116,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(video) De la drumurile spre școală la conversațiile de acasă. Alexandr Untura, despre viața de tată de triplete",
+          "title": "De ce laptopul trebuie pus într-o tavă separată la controlul de securitate? Explicațiile aeroportului din Chișinău",
           "filler": false,
           "news": true
         },
@@ -2116,7 +2125,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "De la proiect la rezultate: CROSS-EduNOC ridică standardele în educația stomatologică",
+          "title": "Cum poți deveni expert în fonduri europene pentru sport: noul program internațional de master FUNDSPORT, prezentat studenților IEFS-USM",
           "filler": false,
           "news": true
         },
@@ -2125,7 +2134,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Lista câștigătorilor Premiilor Naționale pentru Tineret 2026",
+          "title": "Maib, inclusă în clasamentul Forbes al celor mai performante bănci din lume",
           "filler": false,
           "news": true
         },
@@ -2134,7 +2143,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "(galerie foto) Peste 150 de studenți ai USM vor beneficia de condiții moderne de trai, odată cu redeschiderea Căminului nr. 2",
+          "title": "Biletele la Grădina Zoologică se scumpesc. Ce servicii noi va oferi întreprinderea și cine va putea intra gratis",
           "filler": false,
           "news": true
         },
@@ -2143,7 +2152,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Orașul Călărași a fost desemnat Capitala Tineretului 2027. Ce beneficii vor avea tinerii și tinerele",
+          "title": "Tot mai mulți tineri de etnie romă primesc burse de merit. Câți beneficiari sunt în acest an și ce sumă primesc lunar",
           "filler": false,
           "news": true
         },
@@ -2152,16 +2161,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Cultura care ne unește. Bijuteriile monumentale ale Chișinăului așteaptă să renască",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Când tatăl, fratele sau prietenul tău a fost ultima dată la medic? Pe 28 noiembrie, bărbații sunt invitați la o discuție despre sănătate",
+          "title": "Rusia avertizează că în Moldova ar urma să fie organizată o provocare antirusă. Ce scop ar avea mesajul ambasadei",
           "filler": false,
           "news": true
         },
@@ -2274,6 +2274,15 @@
           "dayName": null,
           "start": null,
           "end": null,
+          "title": "GALERIE FOTO // Sculptură semnată de Brâncuși, prezentată pentru prima dată în Republica Moldova",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
           "title": "GALERIE FOTO // De la aurul lui Alexandru cel Mare la cardurile electronice: povestea banilor, surprinsă la Muzeul Național de Istorie",
           "filler": false,
           "news": true
@@ -2302,15 +2311,6 @@
           "start": null,
           "end": null,
           "title": "GALERIE FOTO // Emoțiile din culisele avanpremierei filmului „2438km sau Toate drumurile duc la Roma”",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "Expoziție dedicată caligrafiei și mecanicii scrisului, inaugurată la Rezidența „Mateevici 79”",
           "filler": false,
           "news": true
         },
@@ -2365,6 +2365,15 @@
           "start": null,
           "end": null,
           "title": "Primiți cele mai recente știri direct pe E-mailul dvs.",
+          "filler": false,
+          "news": true
+        },
+        {
+          "day": null,
+          "dayName": null,
+          "start": null,
+          "end": null,
+          "title": "Expoziție dedicată caligrafiei și mecanicii scrisului, inaugurată la Rezidența „Mateevici 79”",
           "filler": false,
           "news": true
         },
@@ -2445,7 +2454,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” s-a deschis la Chișinău cu un spectacol inspirat din opera lui Soljenițîn",
+          "title": "Banca Națională a Moldovei",
           "filler": false,
           "news": true
         },
@@ -2454,7 +2463,7 @@
           "dayName": null,
           "start": null,
           "end": null,
-          "title": "Banca Națională a Moldovei",
+          "title": "Festivalul Internațional de Teatru Contemporan „Andrei Vartic” s-a deschis la Chișinău cu un spectacol inspirat din opera lui Soljenițîn",
           "filler": false,
           "news": true
         },
@@ -2626,15 +2635,6 @@
           "start": null,
           "end": null,
           "title": "„Elon Musk dezvăluit”, filmul care deschide Astra Film Chișinău. Ce include programul celor trei zile de festival",
-          "filler": false,
-          "news": true
-        },
-        {
-          "day": null,
-          "dayName": null,
-          "start": null,
-          "end": null,
-          "title": "FOTO // Biblioteca Națională explorează soluții digitale pentru modernizarea inventarierii colecțiilor",
           "filler": false,
           "news": true
         },
